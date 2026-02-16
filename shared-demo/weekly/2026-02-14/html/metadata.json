@@ -1,0 +1,35 @@
+{
+  "week": "2026-02-14",
+  "report_period": {
+    "start": "2026-02-07",
+    "end": "2026-02-13"
+  },
+  "version": "Weekly Vol.2026-02-14-R2",
+  "generated_at": "2026-02-15T02:54:41.269Z",
+  "metrics": {
+    "covered_countries": 16,
+    "lg_promotion_signals": 16,
+    "competitor_promotion_signals": 13,
+    "chinese_threat_signals": 16,
+    "consumer_negative_countries": 6,
+    "critical_country_count": 5
+  },
+  "critical_countries": [
+    "🇺🇸 US",
+    "🇩🇪 DE",
+    "🇲🇽 MX",
+    "🇦🇺 AU",
+    "🇸🇦 SA"
+  ],
+  "executive_key_insights": [
+    "이번 주 매출 위험은 `저가 브랜드의 신규 유입 선점`과 `A/S 불만으로 인한 전환 이탈`이 동시에 발생한 점이다.",
+    "TV 고관여 구간(🇺🇸 US/🇸🇦 SA/🇦🇺 AU)에서는 가격 차이만으로는 방어가 어렵고, 설치/보증/빠른 서비스가 포함된 총가치 제안이 실제 구매 결정에 더 크게 작용한다.",
+    "따라서 핵심은 할인 폭 경쟁이 아니라 `전환율 방어(장바구니 이탈 축소)`와 `불만 고객 재구매 복원`을 함께 실행하는 것이다."
+  ],
+  "links": {
+    "html": "./2026-02-14/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.md",
+    "share": "./2026-02-14/share.html"
+  }
+}

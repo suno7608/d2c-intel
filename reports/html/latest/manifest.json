@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-02-16T02:45:36.317Z",
+  "total_weeks": 2,
+  "latest_week": "2026-02-16",
+  "weeks": [
+    {
+      "week": "2026-02-16",
+      "report_period": {
+        "start": "2026-02-09",
+        "end": "2026-02-15"
+      },
+      "version": "Weekly Vol.2026-02-16-R2",
+      "generated_at": "2026-02-16T02:45:36.250Z",
+      "metrics": {
+        "covered_countries": 16,
+        "lg_promotion_signals": null,
+        "competitor_promotion_signals": null,
+        "chinese_threat_signals": 16,
+        "consumer_negative_countries": null,
+        "critical_country_count": 5
+      },
+      "critical_countries": [],
+      "executive_key_insights": [
+        "이번 주 가장 두드러진 변화는 `Presidents' Day 세일을 통한 가전(냉장고·세탁기) 대규모 프로모션`과 `TV 중국 브랜드의 글로벌 점유율 재확인`이 동시에 나타난 점이다. TV뿐 아니라 냉장고에서도 LG 대 Samsung 간 직접 가격 경쟁이 심화되고 있으며, 세탁기에서는 Samsung Bespoke AI 콤보가 45% 할인으로 차별화 메시지를 강화하고 있다.",
+        "LG gram은 $900 할인과 무료 모니터 번들 등 공격적 프로모션으로 전환 기회가 열렸고, 2026년 Aerominum 소재 발표로 제품 혁신 메시지도 확보했다. Monitor 부문에서는 LG UltraGear OLED가 Samsung Odyssey 대비 가격 경쟁력(27\" 기준 $650 vs $800)을 갖추며 시장을 선도하고 있다.",
+        "🇹🇭 TH에서 중국 가전 브랜드(Midea)가 $10M 투자를 발표하며 세탁기 시장 점유율 61% 급증을 보이는 등, 생활가전에서도 중국 브랜드 위협이 TV 수준으로 확대되고 있다."
+      ],
+      "links": {
+        "html": "./2026-02-16/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-16_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-02-16_R2_16country.md",
+        "share": "./2026-02-16/share.html"
+      }
+    },
+    {
+      "week": "2026-02-14",
+      "report_period": {
+        "start": "2026-02-07",
+        "end": "2026-02-13"
+      },
+      "version": "Weekly Vol.2026-02-14-R2",
+      "generated_at": "2026-02-15T02:54:41.269Z",
+      "metrics": {
+        "covered_countries": 16,
+        "lg_promotion_signals": 16,
+        "competitor_promotion_signals": 13,
+        "chinese_threat_signals": 16,
+        "consumer_negative_countries": 6,
+        "critical_country_count": 5
+      },
+      "critical_countries": [
+        "🇺🇸 US",
+        "🇩🇪 DE",
+        "🇲🇽 MX",
+        "🇦🇺 AU",
+        "🇸🇦 SA"
+      ],
+      "executive_key_insights": [
+        "이번 주 매출 위험은 `저가 브랜드의 신규 유입 선점`과 `A/S 불만으로 인한 전환 이탈`이 동시에 발생한 점이다.",
+        "TV 고관여 구간(🇺🇸 US/🇸🇦 SA/🇦🇺 AU)에서는 가격 차이만으로는 방어가 어렵고, 설치/보증/빠른 서비스가 포함된 총가치 제안이 실제 구매 결정에 더 크게 작용한다.",
+        "따라서 핵심은 할인 폭 경쟁이 아니라 `전환율 방어(장바구니 이탈 축소)`와 `불만 고객 재구매 복원`을 함께 실행하는 것이다."
+      ],
+      "links": {
+        "html": "./2026-02-14/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.md",
+        "share": "./2026-02-14/share.html"
+      }
+    }
+  ]
+}

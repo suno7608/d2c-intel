@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-14",
+  "total_records": 1,
+  "countries_count": 1,
+  "countries": {
+    "GLOBAL": 1
+  },
+  "products": {
+    "UNKNOWN": 1
+  },
+  "brands": {
+    "UNKNOWN": 1
+  },
+  "pillars": {
+    "Collection": 1
+  },
+  "confidence": {
+    "0.1": 1
+  },
+  "tv_ratio_pct": 0.0,
+  "chinese_brand_total": 0,
+  "chinese_by_country": {},
+  "chinese_by_product": {},
+  "chinese_countries_count": 0,
+  "consumer_negative_count": 0,
+  "lg_promo_count": 0,
+  "low_confidence_pct": 0.0
+}

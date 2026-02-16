@@ -1,0 +1,31 @@
+{
+  "week": "2026-02-16",
+  "report_period": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "version": "Weekly Vol.2026-02-16-R2",
+  "generated_at": "2026-02-16T05:08:38.758Z",
+  "metrics": {
+    "covered_countries": 16,
+    "lg_promotion_signals": null,
+    "competitor_promotion_signals": null,
+    "chinese_threat_signals": null,
+    "consumer_negative_countries": 7,
+    "critical_country_count": 5
+  },
+  "critical_countries": [
+    "5 (+ 🇹🇭 TH 가전 추가)"
+  ],
+  "executive_key_insights": [
+    "이번 주 핵심 리스크는 `Presidents' Day 세일 집중 기간 중 중국 브랜드의 가전(냉장고/세탁기) 시장 침투 가속`과 `TV 가격전쟁의 만성화`가 동시에 진행되고 있다는 점이다.",
+    "TV 시장에서 TCL/Hisense의 글로벌 점유율이 각각 12.5%/11.4%로 LG를 추격 중이며, 가전 영역에서는 Haier/Midea가 🇹🇭 TH(세탁기 +61% YoY), 🇪🇬 EG, 🇲🇽 MX에서 가격 공세를 확대하고 있어 MS와 HS 동시 방어가 필요하다.",
+    "LG gram 2026 Aerominum 소재 차별화와 UltraGear 모니터의 공격적 가격(최대 50% 할인)은 IT 제품군의 D2C 전환 기회로, TV 편중 리스크를 분산할 전략적 레버로 활용해야 한다."
+  ],
+  "links": {
+    "html": "./2026-02-16/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-16_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-02-16_R2_16country.md",
+    "share": "./2026-02-16/share.html"
+  }
+}

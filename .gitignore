@@ -1,0 +1,6 @@
+.DS_Store
+.openclaw/
+.venv-trans/
+logs/
+output/
+*.swp

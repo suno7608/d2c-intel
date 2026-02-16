@@ -1,0 +1,8 @@
+# LG Global D2C Weekly Intelligence Share Links
+date_key=2026-02-14
+local_hub=/Users/soonho/Documents/New project/d2c-intel/shared-demo/latest/html/hub.html
+local_week_html=/Users/soonho/Documents/New project/d2c-intel/shared-demo/weekly/2026-02-14/html/index.html
+local_week_pdf=/Users/soonho/Documents/New project/d2c-intel/shared-demo/weekly/2026-02-14/pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.pdf
+hub_url=https://intranet.example.com/d2c/latest/html/hub.html
+week_html_url=https://intranet.example.com/d2c/weekly/2026-02-14/html/index.html
+week_pdf_url=https://intranet.example.com/d2c/weekly/2026-02-14/pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.pdf
