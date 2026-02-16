@@ -9,9 +9,61 @@ fi
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 ENV_FILE="$ROOT_DIR/config/pipeline.env"
-PRESET_OPENCLAW_RUNNER="${OPENCLAW_RUNNER:-}"
-PRESET_CLAUDE_RUNNER="${CLAUDE_RUNNER:-}"
-PRESET_CLAUDE_TIMEOUT_SECONDS="${CLAUDE_TIMEOUT_SECONDS:-}"
+
+PRESERVE_ENV_VARS=(
+  OPENCLAW_RUNNER
+  OPENCLAW_AGENT_ID
+  OPENCLAW_TIMEOUT_SECONDS
+  OPENCLAW_ALT_AGENT_IDS
+  OPENCLAW_MAX_RETRIES
+  OPENCLAW_BACKOFF_BASE_SECONDS
+  OPENCLAW_BACKOFF_MULTIPLIER
+  OPENCLAW_BACKOFF_CAP_SECONDS
+  OPENCLAW_JITTER_MAX_SECONDS
+  OPENCLAW_RATE_LIMIT_EXTRA_SECONDS
+  OPENCLAW_SESSION_LOCK_EXTRA_SECONDS
+  OPENCLAW_ENABLE_STALE_LOCK_CLEANUP
+  OPENCLAW_ADAPTIVE_POLICY_MAX_LEVEL
+  CLAUDE_RUNNER
+  CLAUDE_TIMEOUT_SECONDS
+  CLAUDE_TRANSLATE_TIMEOUT_SECONDS
+  ENABLE_GOOGLE_TRANSLATE_FALLBACK
+  ENABLE_OFFLINE_EN_STUB_FALLBACK
+  ENABLE_OPENCLAW_LAST_SUCCESS_FALLBACK
+  MAX_COLLECTION_STALENESS_DAYS
+  ENABLE_PREFLIGHT_CHECK
+  PREFLIGHT_FAIL_OPEN
+  ENABLE_PREFLIGHT_OPENCLAW_SMOKE
+  OPENCLAW_SMOKE_TIMEOUT_SECONDS
+  ENABLE_PUBLISHABLE_BUILD
+  ENABLE_QUALITY_GATE
+  FAIL_ON_STALE_COLLECTION
+  ENABLE_OBSIDIAN_EXPORT
+  ENABLE_SHARED_PUBLISH
+  ENABLE_TEAMS_NOTIFY
+)
+
+preserve_env_overrides() {
+  local name
+  for name in "${PRESERVE_ENV_VARS[@]}"; do
+    if [[ "${!name+x}" == "x" ]]; then
+      eval "PRESET_${name}=\${$name}"
+      eval "PRESET_${name}_SET=1"
+    fi
+  done
+}
+
+restore_env_overrides() {
+  local name marker
+  for name in "${PRESERVE_ENV_VARS[@]}"; do
+    marker="$(eval "printf '%s' \"\${PRESET_${name}_SET:-0}\"")"
+    if [[ "$marker" == "1" ]]; then
+      eval "export $name=\"\${PRESET_${name}}\""
+    fi
+  done
+}
+
+preserve_env_overrides
 
 if [[ -f "$ENV_FILE" ]]; then
   set -a
@@ -20,29 +72,51 @@ if [[ -f "$ENV_FILE" ]]; then
   set +a
 fi
 
-if [[ -n "$PRESET_OPENCLAW_RUNNER" ]]; then
-  export OPENCLAW_RUNNER="$PRESET_OPENCLAW_RUNNER"
-fi
-if [[ -n "$PRESET_CLAUDE_RUNNER" ]]; then
-  export CLAUDE_RUNNER="$PRESET_CLAUDE_RUNNER"
-fi
-if [[ -n "$PRESET_CLAUDE_TIMEOUT_SECONDS" ]]; then
-  export CLAUDE_TIMEOUT_SECONDS="$PRESET_CLAUDE_TIMEOUT_SECONDS"
-fi
+restore_env_overrides
 
 export TZ="${TZ:-Asia/Seoul}"
 
 DATE_KEY="${1:-$(date +%F)}"
-# Sunday 04:00 KST 실행: 보고구간은 전주 일요일~토요일
-# 실행일이 일요일이면: START = 7일 전(전주 일요일), END = 1일 전(토요일)
-START_DATE="${2:-$(date -v-7d +%F)}"
-END_DATE="${3:-$(date -v-1d +%F)}"
+# 보고구간은 전주 일요일~토요일(7일)로 고정
+if ! python3 - <<PY >/dev/null 2>&1
+import datetime
+datetime.date.fromisoformat("${DATE_KEY}")
+PY
+then
+  echo "invalid DATE_KEY: $DATE_KEY (expected YYYY-MM-DD)" >&2
+  exit 1
+fi
+
+read -r DEFAULT_START_DATE DEFAULT_END_DATE < <(
+  python3 - <<PY
+import datetime
+d = datetime.date.fromisoformat("${DATE_KEY}")
+days_since_sunday = (d.weekday() + 1) % 7   # Monday=0..Sunday=6 -> Sunday anchor
+current_sunday = d - datetime.timedelta(days=days_since_sunday)
+start = current_sunday - datetime.timedelta(days=7)
+end = current_sunday - datetime.timedelta(days=1)
+print(start.isoformat(), end.isoformat())
+PY
+)
+START_DATE="${2:-$DEFAULT_START_DATE}"
+END_DATE="${3:-$DEFAULT_END_DATE}"
 
 LOG_FILE="$ROOT_DIR/logs/pipeline_${DATE_KEY}.log"
 
 {
   echo "[pipeline] start date_key=$DATE_KEY"
   echo "[pipeline] period=$START_DATE to $END_DATE"
+
+  if [[ "${ENABLE_PREFLIGHT_CHECK:-1}" == "1" ]]; then
+    if ! bash "$ROOT_DIR/scripts/preflight_weekly.sh" "$DATE_KEY"; then
+      if [[ "${PREFLIGHT_FAIL_OPEN:-0}" == "1" ]]; then
+        echo "[pipeline] ⚠️ preflight failed but PREFLIGHT_FAIL_OPEN=1, continuing"
+      else
+        echo "[pipeline] ❌ preflight failed; aborting (set PREFLIGHT_FAIL_OPEN=1 to continue anyway)" >&2
+        exit 1
+      fi
+    fi
+  fi
 
   # Gmail 토큰 사전 검증
   python3 "$ROOT_DIR/scripts/check_gmail_token.py" || echo "[pipeline] ⚠️ Gmail token check failed — email delivery may fail"
@@ -68,6 +142,10 @@ fi
 
 if [[ "${ENABLE_PUBLISHABLE_BUILD:-1}" == "1" ]]; then
   bash "$ROOT_DIR/scripts/build_publishable_report.sh" "$DATE_KEY" "$FINAL_MD"
+fi
+
+if [[ "${ENABLE_QUALITY_GATE:-1}" == "1" ]]; then
+  bash "$ROOT_DIR/scripts/quality_gate_weekly.sh" "$DATE_KEY"
 fi
 
 if [[ "${ENABLE_OBSIDIAN_EXPORT:-0}" == "1" ]]; then

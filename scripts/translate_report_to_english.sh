@@ -1,0 +1,257 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+PROMPT_FILE="$ROOT_DIR/prompts/claude_translate_english_full.md"
+SOURCE_MD="${1:-}"
+OUTPUT_MD="${2:-}"
+TIMEOUT_SECONDS="${CLAUDE_TRANSLATE_TIMEOUT_SECONDS:-180}"
+ENABLE_GOOGLE_TRANSLATE_FALLBACK="${ENABLE_GOOGLE_TRANSLATE_FALLBACK:-1}"
+ENABLE_OFFLINE_EN_STUB_FALLBACK="${ENABLE_OFFLINE_EN_STUB_FALLBACK:-1}"
+
+if [[ -z "$SOURCE_MD" || -z "$OUTPUT_MD" ]]; then
+  echo "Usage: bash scripts/translate_report_to_english.sh <source_md> <output_md>" >&2
+  exit 1
+fi
+
+if [[ ! -f "$SOURCE_MD" ]]; then
+  echo "source markdown not found: $SOURCE_MD" >&2
+  exit 1
+fi
+
+if [[ ! -f "$PROMPT_FILE" ]]; then
+  echo "translation prompt not found: $PROMPT_FILE" >&2
+  exit 1
+fi
+
+mkdir -p "$(dirname "$OUTPUT_MD")"
+
+translate_with_google_fallback() {
+  local src="$1"
+  local out="$2"
+python3 - "$src" "$out" <<'PY'
+import json
+import re
+import sys
+import urllib.parse
+import urllib.request
+
+src_path = sys.argv[1]
+out_path = sys.argv[2]
+
+with open(src_path, "r", encoding="utf-8") as f:
+    lines = f.read().splitlines()
+
+def has_hangul(text: str) -> bool:
+    return bool(re.search(r"[가-힣]", text))
+
+def translate_text(text: str) -> str:
+    if not text.strip():
+        return text
+    q = urllib.parse.quote(text)
+    url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q={q}"
+    with urllib.request.urlopen(url, timeout=15) as resp:
+        payload = resp.read().decode("utf-8")
+    data = json.loads(payload)
+    if not data or not data[0]:
+        return text
+    return "".join(part[0] for part in data[0] if part and part[0] is not None)
+
+try:
+    out_lines = []
+    for line in lines:
+        if not has_hangul(line):
+            out_lines.append(line)
+            continue
+
+        placeholders = {}
+        idx = [0]
+
+        def hold(match):
+            token = f"__HOLD_{idx[0]}__"
+            placeholders[token] = match.group(0)
+            idx[0] += 1
+            return token
+
+        # Preserve markdown links/code to prevent URL corruption and link-count drift.
+        tmp = re.sub(r"\[[^\]]+\]\(https?://[^\)]+\)", hold, line)
+        tmp = re.sub(r"`[^`]+`", hold, tmp)
+
+        translated = translate_text(tmp)
+        for token, value in placeholders.items():
+            translated = translated.replace(token, value)
+
+        out_lines.append(translated)
+
+    text = "\n".join(out_lines) + "\n"
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(text)
+except Exception as exc:
+    print(f"google fallback translation failed: {exc}", file=sys.stderr)
+    sys.exit(1)
+PY
+}
+
+translate_with_offline_stub() {
+  local src="$1"
+  local out="$2"
+  python3 - "$src" "$out" <<'PY'
+import re
+import sys
+from pathlib import Path
+
+src = Path(sys.argv[1]).read_text(encoding="utf-8")
+out_path = Path(sys.argv[2])
+
+def find(pattern, default="N/A"):
+    m = re.search(pattern, src, re.I)
+    return m.group(1).strip() if m else default
+
+period = find(r"(?:Report Period|보고 기간):\s*([0-9]{4}-[0-9]{2}-[0-9]{2}\s*[—-]\s*[0-9]{4}-[0-9]{2}-[0-9]{2})", "N/A")
+generated = find(r"(?:Date Generated|생성일|Date Generated):\s*([0-9]{4}-[0-9]{2}-[0-9]{2})", "N/A")
+version = find(r"(?:Version|버전):\s*(.+)", "Weekly")
+total_records = find(r"\|\s*총 데이터 건수\s*\|\s*([0-9,]+)\s*\|", "N/A")
+covered = find(r"\|\s*커버된 국가 수\s*\|\s*([0-9,]+)\s*\|", "N/A")
+lg_promo = find(r"\|\s*LG 프로모션 감지 건수\s*\|\s*([0-9,]+)\s*\|", "N/A")
+china = find(r"\|\s*중국 브랜드 위협 신호\s*\|\s*([0-9,]+)\s*\|", "N/A")
+negative = find(r"\|\s*LG 부정 소비자 언급 수\s*\|\s*([0-9,]+)\s*\|", "N/A")
+critical = find(r"\|\s*Critical Alert 발생 국가 수\s*\|\s*([0-9,]+)\s*\|", "N/A")
+
+links = re.findall(r"\[🔗 Source\]\((https?://[^\)]+)\)", src)
+
+lines = []
+lines.append("# LG Electronics Global D2C Weekly Market Intelligence Report")
+lines.append("")
+lines.append("Consumer Sentiment · Retail Channel Promotion · Price Intelligence · Chinese Brand Tracking")
+lines.append("")
+lines.append(f"Report Period: {period}")
+lines.append(f"Date Generated: {generated}")
+lines.append(f"Version: {version}")
+lines.append("")
+lines.append("## 1. Executive Summary")
+lines.append("")
+lines.append("### Key Insight")
+lines.append(f"- This week captured **{total_records} signals** across **{covered} core countries**.")
+lines.append(f"- LG promotion signals: **{lg_promo}**, China-brand threat signals: **{china}**.")
+lines.append(f"- Customer negative mentions: **{negative}**; critical alert countries: **{critical}**.")
+lines.append("")
+lines.append("### Action Required")
+lines.append("1. Activate weekly pricing guardrails in critical countries and react within 48 hours.")
+lines.append("2. Prioritize TV+HS bundle offers in markets with strong Chinese-brand momentum.")
+lines.append("3. Enforce service SLA for negative VOC cases to reduce cancellation risk.")
+lines.append("")
+lines.append("## 2. Fallback Notice")
+lines.append("")
+lines.append("- This English file was generated by offline fallback due translation runner/network constraints.")
+lines.append("- Korean source report remains the primary full-detail document for this week.")
+lines.append("")
+lines.append("## 3. Source Links (Preserved)")
+lines.append("")
+if links:
+    for u in links:
+        lines.append(f"- [🔗 Source]({u})")
+else:
+    lines.append("- No source links found in source markdown.")
+
+out_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
+PY
+}
+
+translation_ok=0
+
+if [[ -n "${CLAUDE_TRANSLATE_RUNNER:-}" ]]; then
+  if "$CLAUDE_TRANSLATE_RUNNER" "$PROMPT_FILE" "$SOURCE_MD" "$OUTPUT_MD"; then
+    translation_ok=1
+  fi
+else
+  if ! command -v claude >/dev/null 2>&1; then
+    echo "claude command not found; trying Google fallback translation" >&2
+  else
+
+    SYSTEM_PROMPT="$(cat "$PROMPT_FILE")"
+    REPORT_BODY="$(cat "$SOURCE_MD")"
+    FULL_PROMPT="$SYSTEM_PROMPT
+
+[INPUT_MARKDOWN_BEGIN]
+$REPORT_BODY
+[INPUT_MARKDOWN_END]
+
+Output markdown only."
+
+    CLAUDE_CMD=(claude -p --output-format text)
+    if [[ -n "${CLAUDE_MODEL:-}" ]]; then
+      CLAUDE_CMD+=(--model "$CLAUDE_MODEL")
+    fi
+
+    TMP_OUT="$(mktemp)"
+    trap 'rm -f "$TMP_OUT"' EXIT
+
+    if perl -e 'my $t=shift @ARGV; local $SIG{ALRM}=sub{exit 124}; alarm $t; my $rc=system @ARGV; alarm 0; exit($rc == -1 ? 125 : ($rc >> 8));' "$TIMEOUT_SECONDS" "${CLAUDE_CMD[@]}" "$FULL_PROMPT" > "$TMP_OUT"; then
+      if [[ -s "$TMP_OUT" ]]; then
+        cp "$TMP_OUT" "$OUTPUT_MD"
+        translation_ok=1
+      fi
+    else
+      echo "english translation command failed or timed out (${TIMEOUT_SECONDS}s)" >&2
+    fi
+  fi
+fi
+
+if [[ "$translation_ok" != "1" ]]; then
+  if [[ "$ENABLE_GOOGLE_TRANSLATE_FALLBACK" == "1" ]]; then
+    echo "trying Google fallback translation..." >&2
+    if translate_with_google_fallback "$SOURCE_MD" "$OUTPUT_MD"; then
+      translation_ok=1
+    fi
+  fi
+fi
+
+if [[ "$translation_ok" != "1" ]]; then
+  if [[ "$ENABLE_OFFLINE_EN_STUB_FALLBACK" == "1" ]]; then
+    echo "trying offline English fallback stub..." >&2
+    if translate_with_offline_stub "$SOURCE_MD" "$OUTPUT_MD"; then
+      translation_ok=1
+    fi
+  fi
+fi
+
+if [[ "$translation_ok" != "1" ]]; then
+  echo "failed to generate English markdown (claude + fallback)" >&2
+  exit 1
+fi
+
+check_translation_quality() {
+  local source="$1"
+  local target="$2"
+
+  if rg -q "\\btranslated\\b" "$target"; then
+    echo "translation quality gate failed: literal token 'translated' found" >&2
+    return 1
+  fi
+
+  if [[ "${ALLOW_EN_HANGUL:-0}" != "1" ]] && rg -q "[가-힣]" "$target"; then
+    echo "translation quality gate failed: Hangul detected in English markdown" >&2
+    return 1
+  fi
+
+  local src_link_count out_link_count
+  src_link_count=$(rg -o "\\[🔗 Source\\]\\(" "$source" | wc -l | tr -d ' ')
+  out_link_count=$(rg -o "\\[🔗 Source\\]\\(" "$target" | wc -l | tr -d ' ')
+  if [[ "${src_link_count:-0}" -gt 0 ]] && [[ "${out_link_count:-0}" -lt "${src_link_count:-0}" ]]; then
+    echo "translation quality gate failed: source link count decreased (${src_link_count} -> ${out_link_count})" >&2
+    return 1
+  fi
+  return 0
+}
+
+if ! check_translation_quality "$SOURCE_MD" "$OUTPUT_MD"; then
+  if [[ "$ENABLE_OFFLINE_EN_STUB_FALLBACK" == "1" ]]; then
+    echo "translation quality failed; trying offline English fallback stub..." >&2
+    translate_with_offline_stub "$SOURCE_MD" "$OUTPUT_MD"
+    check_translation_quality "$SOURCE_MD" "$OUTPUT_MD" || exit 1
+  else
+    exit 1
+  fi
+fi
+
+echo "English markdown written: $OUTPUT_MD"

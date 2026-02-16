@@ -101,7 +101,8 @@ function localizeTocText(text) {
   return localizeHeadingText(text);
 }
 
-function parseMarkdown(md) {
+function parseMarkdown(md, opts = {}) {
+  const lang = opts.lang === 'en' ? 'en' : 'ko';
   const lines = md.replace(/\r\n/g, '\n').split('\n');
   const html = [];
   const toc = [];
@@ -126,7 +127,7 @@ function parseMarkdown(md) {
     if (headingMatch) {
       const level = headingMatch[1].length;
       const text = headingMatch[2].trim();
-      const localizedText = localizeHeadingText(text);
+      const localizedText = lang === 'ko' ? localizeHeadingText(text) : text;
       headingCount += 1;
       const id = `sec-${headingCount}`;
       const isKeyInsightHeading =
@@ -144,7 +145,8 @@ function parseMarkdown(md) {
         level === 3 &&
         /^(key insight|action required|핵심 인사이트|실행 필요)$/i.test(text.trim());
       if (level >= 2 && level <= 3 && !isTocExcludedSubHeading) {
-        toc.push({ level: resolveTocLevel(level, localizedText), text: localizeTocText(localizedText), id });
+        const tocText = lang === 'ko' ? localizeTocText(localizedText) : localizedText;
+        toc.push({ level: resolveTocLevel(level, localizedText), text: tocText, id });
       }
       i += 1;
       continue;
@@ -208,13 +210,16 @@ function parseMarkdown(md) {
   return { body: html.join('\n'), toc };
 }
 
-function buildHtml({ title, subtitle, period, body, toc }) {
+function buildHtml({ title, subtitle, period, body, toc, lang }) {
+  const htmlLang = lang === 'en' ? 'en' : 'ko';
+  const tocTitle = lang === 'en' ? 'Quick Navigation' : '바로가기 메뉴';
+  const periodLabel = lang === 'en' ? 'Report Period' : '보고 기간';
   const tocHtml = toc
     .map((t) => `<li class="l${t.level}"><a href="#${t.id}">${escapeHtml(t.text)}</a></li>`)
     .join('');
 
   return `<!doctype html>
-<html lang="ko">
+<html lang="${htmlLang}">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -466,14 +471,14 @@ function buildHtml({ title, subtitle, period, body, toc }) {
 <body>
   <div class="layout">
     <aside class="toc-panel">
-      <div class="toc-title">바로가기 메뉴</div>
+      <div class="toc-title">${tocTitle}</div>
       <ul>${tocHtml}</ul>
     </aside>
     <main class="paper">
       <header class="cover">
         <h1>${escapeHtml(title)}</h1>
         <p>${escapeHtml(subtitle)}</p>
-        <p class="meta">보고 기간: ${escapeHtml(period)}</p>
+        <p class="meta">${periodLabel}: ${escapeHtml(period)}</p>
       </header>
       <section class="content">
         ${body}
@@ -530,23 +535,30 @@ function buildHtml({ title, subtitle, period, body, toc }) {
 }
 
 function main() {
-  const [, , inputFile, outputHtml] = process.argv;
+  const [, , inputFile, outputHtml, langArg] = process.argv;
   if (!inputFile || !outputHtml) {
-    console.error('Usage: node render_professional_report.mjs <input.md> <output.html>');
+    console.error('Usage: node render_professional_report.mjs <input.md> <output.html> [ko|en]');
     process.exit(1);
   }
+  const lang = langArg === 'en' ? 'en' : 'ko';
 
   const absInput = path.resolve(inputFile);
   const absOutput = path.resolve(outputHtml);
   const md = fs.readFileSync(absInput, 'utf8');
-  const { body, toc } = parseMarkdown(md);
+  const { body, toc } = parseMarkdown(md, { lang });
 
-  const title = 'LG전자 글로벌 D2C 주간 시장 인텔리전스 리포트';
-  const subtitle = '소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향';
-  const periodMatch = md.match(/Report Period:\s*([^\n]+)/);
+  const title =
+    lang === 'en'
+      ? 'LG Electronics Global D2C Weekly Market Intelligence Report'
+      : 'LG전자 글로벌 D2C 주간 시장 인텔리전스 리포트';
+  const subtitle =
+    lang === 'en'
+      ? 'Consumer Sentiment · Retail Channel Promotion · Price Intelligence · Chinese Brand Tracking'
+      : '소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향';
+  const periodMatch = md.match(/(?:Report Period|보고 기간):\s*([^\n]+)/);
   const period = periodMatch ? periodMatch[1].trim() : 'N/A';
 
-  const html = buildHtml({ title, subtitle, period, body, toc });
+  const html = buildHtml({ title, subtitle, period, body, toc, lang });
   fs.mkdirSync(path.dirname(absOutput), { recursive: true });
   fs.writeFileSync(absOutput, html, 'utf8');
   console.log(`HTML written: ${absOutput}`);

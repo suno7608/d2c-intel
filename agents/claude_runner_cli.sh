@@ -31,7 +31,7 @@ CLAUDE_TIMEOUT_SECONDS="${CLAUDE_TIMEOUT_SECONDS:-90}"
 TMP_OUT="$(mktemp)"
 trap 'rm -f "$TMP_OUT"' EXIT
 
-if perl -e 'alarm shift; exec @ARGV' "$CLAUDE_TIMEOUT_SECONDS" "${CLAUDE_CMD[@]}" "$FULL_PROMPT" > "$TMP_OUT" 2>> "$QA_FILE"; then
+if perl -e 'my $t=shift @ARGV; local $SIG{ALRM}=sub{exit 124}; alarm $t; my $rc=system @ARGV; alarm 0; exit($rc == -1 ? 125 : ($rc >> 8));' "$CLAUDE_TIMEOUT_SECONDS" "${CLAUDE_CMD[@]}" "$FULL_PROMPT" > "$TMP_OUT" 2>> "$QA_FILE"; then
   if [[ -s "$TMP_OUT" ]]; then
     cp "$TMP_OUT" "$OUTPUT_REPORT"
     {

@@ -46,7 +46,23 @@ for r in records:
 negatives = [r for r in records if 'negative' in r.get('signal_type','').lower() or 'complaint' in r.get('signal_type','').lower()]
 
 # LG 프로모션
-lg_promos = [r for r in records if r.get('brand','') == 'LG' and 'promo' in r.get('signal_type','').lower() or 'discount' in r.get('signal_type','').lower()]
+lg_promos = [
+    r for r in records
+    if r.get('brand','') == 'LG'
+    and (
+        'promo' in r.get('signal_type','').lower()
+        or 'discount' in r.get('signal_type','').lower()
+    )
+]
+
+def is_low_confidence(v):
+    if isinstance(v, str):
+        return v.lower() == 'low'
+    if isinstance(v, (int, float)):
+        return v < 0.5
+    return False
+
+low_conf_count = sum(1 for r in records if is_low_confidence(r.get('confidence')))
 
 stats = {
     'date': '$DATE_KEY',
@@ -64,7 +80,7 @@ stats = {
     'chinese_countries_count': len(chinese_by_country),
     'consumer_negative_count': len(negatives),
     'lg_promo_count': len(lg_promos),
-    'low_confidence_pct': round(confidence.get('low',0)/max(len(records),1)*100, 1)
+    'low_confidence_pct': round(low_conf_count/max(len(records),1)*100, 1)
 }
 
 with open('$STATS_FILE', 'w') as f:

@@ -40,6 +40,16 @@ if [[ -n "${CLAUDE_RUNNER:-}" ]]; then
   "$CLAUDE_RUNNER" "$PROMPT_FILE" "$INPUT_REPORT" "$OUTPUT_REPORT" "$QA_FILE"
   echo "claude co-work completed: $OUTPUT_REPORT"
 else
+  if [[ "${ALLOW_CLAUDE_FALLBACK_COPY:-0}" != "1" ]]; then
+    {
+      echo
+      echo "## Claude CLI Co-work"
+      echo "- 상태: 실패(러너 미설정)"
+      echo "- 조치: CLAUDE_RUNNER 설정 또는 ALLOW_CLAUDE_FALLBACK_COPY=1(디버그 전용)"
+    } >> "$QA_FILE"
+    echo "CLAUDE_RUNNER is not configured and fallback copy is disabled" >&2
+    exit 1
+  fi
   cp "$INPUT_REPORT" "$OUTPUT_REPORT"
   {
     echo

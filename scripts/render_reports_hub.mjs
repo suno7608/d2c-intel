@@ -146,7 +146,6 @@ function weekCardHtml(w, idx) {
       <div class="links">
         <a class="btn primary" href="${escapeHtml(htmlLink)}">Report</a>
         <a class="btn" href="${escapeHtml(pdfLink)}">PDF</a>
-        <a class="btn" href="${escapeHtml(mdLink)}">MD</a>
         <button class="btn copy" type="button" data-copy-url="${escapeHtml(htmlLink)}" aria-label="Copy report link">Copy</button>
       </div>
     </article>
@@ -241,6 +240,7 @@ function buildEnglishHubHtml(koHtml, weeks, outputHtml) {
     ['선택 주차 A/B 그래프', 'Selected Week A/B Chart'],
     ['주간 아카이브 탐색기', 'WEEKLY ARCHIVE EXPLORER'],
     ['전주 대비 비교', 'WEEK-OVER-WEEK COMPARE'],
+    ['Consumer Negative 국가 수', 'Consumer Negative Countries'],
   ];
 
   let out = koHtml;
@@ -824,7 +824,6 @@ function main() {
             '<div class="links">' +
               '<a class="btn primary" href="' + htmlLink + '">Report</a>' +
               '<a class="btn" href="' + pdfLink + '">PDF</a>' +
-              '<a class="btn" href="' + mdLink + '">MD</a>' +
               '<button class="btn copy" type="button" data-copy-url="' + htmlLink + '" aria-label="Copy report link">Copy</button>' +
             '</div>' +
           '</article>';
@@ -1153,6 +1152,56 @@ function main() {
       renderCompare();
       hydrateEnglishInsightPreviews();
     })();
+  </script>
+  <script>
+  (function(){
+    try {
+      var m = JSON.parse(document.getElementById('manifest-data').textContent || '{"weeks":[]}');
+      var weeks = (m.weeks || []).slice();
+      weeks.sort(function(a,b){ return (a.week||'').localeCompare(b.week||''); });
+      var series = [
+        {key:'critical_country_count', label:'Critical', color:'#b91c1c'},
+        {key:'lg_promotion_signals', label:'LG Promo', color:'#0a7ac4'},
+        {key:'competitor_promotion_signals', label:'Comp Promo', color:'#b45309'},
+        {key:'chinese_threat_signals', label:'China Threat', color:'#166534'}
+      ];
+      var svg = document.getElementById('trendSvg');
+      if (svg && weeks.length) {
+        var W=700,H=260,pl=50,pr=12,pt=20,pb=30,pw=W-pl-pr,ph=H-pt-pb;
+        var yMax=1;
+        series.forEach(function(s){weeks.forEach(function(w){var v=w.metrics?w.metrics[s.key]:null;if(typeof v==='number')yMax=Math.max(yMax,v)})});
+        yMax=Math.ceil(yMax*1.1);
+        function xAt(i){return weeks.length<=1?pl+pw/2:pl+(pw*i/(weeks.length-1))}
+        function yAt(v){return pt+(ph*(1-(v/yMax)))}
+        var o=[];
+        for(var t=0;t<=4;t++){var vT=yMax*t/4,yT=yAt(vT);o.push('<line x1="'+pl+'" y1="'+yT+'" x2="'+(W-pr)+'" y2="'+yT+'" stroke="#eef3f8"/>');o.push('<text x="'+(pl-8)+'" y="'+(yT+4)+'" text-anchor="end" font-size="11" fill="#64748b">'+Math.round(vT)+'</text>')}
+        series.forEach(function(s){var pts=[];weeks.forEach(function(w,i){var v=w.metrics?w.metrics[s.key]:null;if(typeof v==='number')pts.push({x:xAt(i),y:yAt(v),v:v})});if(pts.length>=2)o.push('<polyline fill="none" stroke="'+s.color+'" stroke-width="2.5" points="'+pts.map(function(p){return p.x+','+p.y}).join(' ')+'"/>');pts.forEach(function(p){o.push('<circle cx="'+p.x+'" cy="'+p.y+'" r="4" fill="'+s.color+'"><title>'+s.label+': '+p.v+'</title></circle>')})});
+        weeks.forEach(function(w,i){o.push('<text x="'+xAt(i)+'" y="'+(H-8)+'" text-anchor="middle" font-size="11" fill="#64748b">'+w.week.slice(5)+'</text>')});
+        svg.setAttribute('viewBox','0 0 '+W+' '+H);svg.innerHTML=o.join('');
+        var leg=document.getElementById('trendLegend');
+        if(leg)leg.innerHTML=series.map(function(s){return '<span style="display:inline-flex;align-items:center;gap:4px;margin-right:12px;font-size:12px"><span style="width:10px;height:10px;border-radius:50%;background:'+s.color+';display:inline-block"></span>'+s.label+'</span>'}).join('');
+      }
+      var weekAEl=document.getElementById('weekA'),weekBEl=document.getElementById('weekB'),compareSvg=document.getElementById('compareSvg'),compareBody=document.getElementById('compareBody'),compareLeg=document.getElementById('compareLegend');
+      function getW(wk){return weeks.find(function(w){return w.week===wk})}
+      function drawCompare(){
+        if(!weekAEl||!weekBEl||!compareSvg)return;
+        var A=getW(weekAEl.value),B=getW(weekBEl.value);if(!A||!B)return;
+        if(compareBody){var mc=[['covered_countries','커버 국가 수'],['critical_country_count','Critical 국가 수'],['lg_promotion_signals','LG 프로모션 신호'],['competitor_promotion_signals','경쟁사 공격 프로모션'],['chinese_threat_signals','중국 브랜드 위협 신호'],['consumer_negative_countries','Consumer Negative 국가 수']];compareBody.innerHTML=mc.map(function(c){var a=A.metrics?A.metrics[c[0]]:null,b=B.metrics?B.metrics[c[0]]:null,d=(typeof a==='number'&&typeof b==='number')?(a-b):null;var cls=d===null?'':d>0?' style="color:#166534;font-weight:700"':d<0?' style="color:#b91c1c;font-weight:700"':'';return '<tr><td>'+c[1]+'</td><td>'+(a!=null?a:'-')+'</td><td>'+(b!=null?b:'-')+'</td><td'+cls+'>'+(d===null?'-':d>0?'+'+d:''+d)+'</td></tr>'}).join('')}
+        var W2=700,H2=260,pl2=50,pr2=12,pt2=20,pb2=30,pw2=W2-pl2-pr2,ph2=H2-pt2-pb2,yMax2=1;
+        series.forEach(function(s){var av=A.metrics?A.metrics[s.key]:0,bv=B.metrics?B.metrics[s.key]:0;yMax2=Math.max(yMax2,av,bv)});yMax2=Math.ceil(yMax2*1.1);
+        function yAt2(v){return pt2+(ph2*(1-(v/yMax2)))}
+        var o2=[];for(var t=0;t<=4;t++){var vT=yMax2*t/4,yT=yAt2(vT);o2.push('<line x1="'+pl2+'" y1="'+yT+'" x2="'+(W2-pr2)+'" y2="'+yT+'" stroke="#eef3f8"/>');o2.push('<text x="'+(pl2-8)+'" y="'+(yT+4)+'" text-anchor="end" font-size="11" fill="#64748b">'+Math.round(vT)+'</text>')}
+        var gw=pw2/series.length,bw=Math.min(28,gw*0.3);
+        series.forEach(function(s,i){var cx=pl2+(gw*i)+(gw/2);var av=A.metrics?A.metrics[s.key]:0,bv=B.metrics?B.metrics[s.key]:0;var yA=yAt2(av),hA=Math.max(0,(H2-pb2)-yA),yB=yAt2(bv),hB=Math.max(0,(H2-pb2)-yB);o2.push('<rect x="'+(cx-bw-2)+'" y="'+yA+'" width="'+bw+'" height="'+hA+'" fill="#0a7ac4" rx="2"><title>A: '+av+'</title></rect>');o2.push('<text x="'+(cx-bw/2-2)+'" y="'+(yA-4)+'" text-anchor="middle" font-size="10" fill="#0a7ac4">'+av+'</text>');o2.push('<rect x="'+(cx+2)+'" y="'+yB+'" width="'+bw+'" height="'+hB+'" fill="#334155" rx="2"><title>B: '+bv+'</title></rect>');o2.push('<text x="'+(cx+bw/2+2)+'" y="'+(yB-4)+'" text-anchor="middle" font-size="10" fill="#334155">'+bv+'</text>');o2.push('<text x="'+cx+'" y="'+(H2-8)+'" text-anchor="middle" font-size="10" fill="#64748b">'+s.label+'</text>')});
+        compareSvg.setAttribute('viewBox','0 0 '+W2+' '+H2);compareSvg.innerHTML=o2.join('');
+        if(compareLeg)compareLeg.innerHTML='<span style="display:inline-flex;align-items:center;gap:4px;margin-right:12px;font-size:12px"><span style="width:10px;height:10px;border-radius:50%;background:#0a7ac4;display:inline-block"></span>A ('+A.week+')</span><span style="display:inline-flex;align-items:center;gap:4px;font-size:12px"><span style="width:10px;height:10px;border-radius:50%;background:#334155;display:inline-block"></span>B ('+B.week+')</span>';
+      }
+      drawCompare();
+      if(weekAEl)weekAEl.addEventListener('change',drawCompare);
+      if(weekBEl)weekBEl.addEventListener('change',drawCompare);
+      window.addEventListener('resize',function(){drawCompare()});
+    } catch(e){console.error('Chart error:',e)}
+  })();
   </script>
 </body>
 </html>`;

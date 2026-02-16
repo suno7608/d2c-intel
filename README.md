@@ -27,12 +27,14 @@ cp config/pipeline.env.example config/pipeline.env
 
 2. (선택) OpenClaw/Claude 실행 커맨드 연결
 - `config/pipeline.env`의 `OPENCLAW_RUNNER`, `CLAUDE_RUNNER` 설정
+- 영어 번역 자동화를 커스텀으로 붙일 경우 `CLAUDE_TRANSLATE_RUNNER` 설정(인자: `prompt input_md output_md`)
 - 기본은 example runner로 안전하게 동작
 - 실제 CLI 연동은 아래처럼 전환
 ```bash
 OPENCLAW_RUNNER="/Users/soonho/Documents/New project/d2c-intel/agents/openclaw_runner_cli.sh"
 CLAUDE_RUNNER="/Users/soonho/Documents/New project/d2c-intel/agents/claude_runner_cli.sh"
 OPENCLAW_AGENT_ID="main"
+OPENCLAW_ALT_AGENT_IDS="d2cintel_alt,main"
 CLAUDE_MODEL="sonnet"
 ```
 
@@ -40,7 +42,26 @@ CLAUDE_MODEL="sonnet"
 ```bash
 bash scripts/run_weekly.sh
 ```
-- 위 명령 1회로 수집/초안/검수 + HTML/PDF/Hub 빌드 + (옵션) Obsidian export까지 수행됩니다.
+- 위 명령 1회로 수집/초안/검수 + 한/영 HTML/PDF/Hub 빌드 + 품질 게이트 + (옵션) Obsidian export까지 수행됩니다.
+- 실패 조건(자동 중단):
+  - OpenClaw runner 미설정(placeholder fallback 기본 금지)
+  - Claude co-work runner 미설정(fallback copy 기본 금지)
+  - 영어 번역 실패(Claude + Google fallback 모두 실패) 또는 품질 실패(한글 잔존, `translated` 토큰, 링크 손실)
+  - 품질 게이트 미통과(데이터 최소치/TV 비중/metadata/hub 링크 등)
+- 안정화 옵션:
+  - `ENABLE_PREFLIGHT_CHECK=1`: 실행 전 환경 점검
+  - `ENABLE_OPENCLAW_LAST_SUCCESS_FALLBACK=1`: 수집 실패 시 최근 정상 raw 재사용
+  - `OPENCLAW_MAX_RETRIES=3`: OpenClaw 재시도 횟수
+  - `OPENCLAW_BACKOFF_BASE_SECONDS=10`: 지수 백오프 기본값
+  - `OPENCLAW_RATE_LIMIT_EXTRA_SECONDS=25`: 429 발생 시 추가 대기
+  - `OPENCLAW_SESSION_LOCK_EXTRA_SECONDS=15`: session lock 발생 시 추가 대기
+  - `OPENCLAW_ENABLE_STALE_LOCK_CLEANUP=1`: dead PID stale lock만 안전 정리
+  - `OPENCLAW_ADAPTIVE_POLICY_MAX_LEVEL=3`: 반복 실패 패턴 강화 레벨 상한
+  - `FAIL_ON_STALE_COLLECTION=1`: fallback 재사용 시 배포 차단(엄격 모드)
+  - 진단 로그:
+    - `logs/openclaw_[DATE].diag.jsonl` (attempt/원인/백오프/요약)
+    - `logs/openclaw_[DATE].collection.jsonl` (primary/fallback 단계 기록)
+    - `logs/openclaw_adaptive_policy.env` (다음 실행 정책 강화 상태)
 
 4. (옵션) Obsidian 주차 폴더/페이지 자동 생성
 - `config/pipeline.env`에 아래 설정 추가
@@ -101,6 +122,15 @@ TEAMS_DRY_RUN=0
   - `##` 섹션 제목은 배너 스타일
   - `### 핵심 인사이트` / `### 실행 필요`는 각각 강조 배너 스타일
   - 기준 렌더러: `scripts/render_professional_report.mjs`
+- 자동 품질 게이트(`scripts/quality_gate_weekly.sh`) 통과 확인:
+  - 16개국/제품별 최소 건수/TV 비중
+  - English MD/HTML 한글 잔존 여부
+  - Hub `file://` 링크 여부
+  - metadata null 및 Critical 국가 형식 이상 여부
+- 영어 번역 경로:
+  - 1차: Claude 번역 (`translate_report_to_english.sh`)
+  - 2차 fallback: Google Translate API (`ENABLE_GOOGLE_TRANSLATE_FALLBACK=1`)
+  - 3차 fallback: Offline English stub (`ENABLE_OFFLINE_EN_STUB_FALLBACK=1`, 네트워크 불가 환경용)
 
 ## 6) 자동 스케줄 예시 (KST 월요일 04:00)
 macOS `launchd` 등록:
@@ -108,9 +138,15 @@ macOS `launchd` 등록:
 bash scripts/install_launchd_weekly.sh
 ```
 
+사전점검(권장, 월요일 03:30 KST) 등록:
+```bash
+bash scripts/install_launchd_preflight.sh
+```
+
 등록 해제:
 ```bash
 bash scripts/uninstall_launchd_weekly.sh
+bash scripts/uninstall_launchd_preflight.sh
 ```
 
 기본 스케줄은 월요일 04:00 KST이며, 환경변수로 변경 가능합니다.
@@ -163,3 +199,10 @@ rg -n "file://" reports/html/latest/hub.html reports/html/latest/hub_en.html
 # 3) 최신 허브 링크 확인
 rg -n "index_en.html|\\.pdf" reports/html/latest/hub_en.html
 ```
+
+## 10) 번역/품질 파이프라인 변경점
+- EN 보고서는 `KO Markdown -> EN Markdown(Claude) -> EN HTML 렌더` 경로로 생성한다.
+- 기존 HTML 치환 기반 번역(`render_report_english_variant.mjs`)은 폐기(호환용 에러 스텁만 유지).
+- 자동 품질 게이트:
+  - `scripts/quality_gate_weekly.sh`
+  - 실패 시 후속 배포(Obsidian/공유/알림) 중단

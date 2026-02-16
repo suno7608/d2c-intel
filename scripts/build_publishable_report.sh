@@ -4,12 +4,14 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 DATE_KEY="${1:-$(TZ=Asia/Seoul date +%F)}"
 SRC_MD="${2:-$ROOT_DIR/reports/md/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}_R2_16country.md}"
+OUT_MD_EN="$ROOT_DIR/reports/md/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}_en.md"
 
 OUT_HTML_DIR="$ROOT_DIR/reports/html/$DATE_KEY"
 OUT_HTML="$OUT_HTML_DIR/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}_R2_16country.html"
 OUT_HTML_EN="$OUT_HTML_DIR/index_en.html"
 OUT_PDF_DIR="$ROOT_DIR/reports/pdf"
 OUT_PDF="$OUT_PDF_DIR/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}_R2_16country.pdf"
+LATEST_PDF="$ROOT_DIR/reports/pdf/LG_Global_D2C_Weekly_Intelligence_latest.pdf"
 OUT_META="$OUT_HTML_DIR/metadata.json"
 MANIFEST_FILE="$ROOT_DIR/reports/html/manifest.json"
 LATEST_DIR="$ROOT_DIR/reports/html/latest"
@@ -21,9 +23,19 @@ HTML_MD_DIR="$ROOT_DIR/reports/html/md"
 mkdir -p "$OUT_HTML_DIR" "$OUT_PDF_DIR" "$LATEST_DIR" "$HTML_PDF_DIR" "$HTML_MD_DIR"
 rm -f "$LATEST_DIR/main.html"
 
-node "$ROOT_DIR/scripts/render_professional_report.mjs" "$SRC_MD" "$OUT_HTML"
+if ! command -v node >/dev/null 2>&1; then
+  echo "node command not found" >&2
+  exit 1
+fi
+if ! command -v playwright >/dev/null 2>&1; then
+  echo "playwright command not found" >&2
+  exit 1
+fi
+
+node "$ROOT_DIR/scripts/render_professional_report.mjs" "$SRC_MD" "$OUT_HTML" "ko"
 cp "$OUT_HTML" "$OUT_HTML_DIR/index.html"
-node "$ROOT_DIR/scripts/render_report_english_variant.mjs" "$OUT_HTML_DIR/index.html" "$OUT_HTML_EN"
+bash "$ROOT_DIR/scripts/translate_report_to_english.sh" "$SRC_MD" "$OUT_MD_EN"
+node "$ROOT_DIR/scripts/render_professional_report.mjs" "$OUT_MD_EN" "$OUT_HTML_EN" "en"
 
 node "$ROOT_DIR/scripts/extract_report_metadata.mjs" "$SRC_MD" "$DATE_KEY" "$OUT_META"
 node "$ROOT_DIR/scripts/update_report_manifest.mjs" "$ROOT_DIR/reports/html" "$MANIFEST_FILE"
@@ -40,15 +52,24 @@ print('file://' + urllib.parse.quote(str(p)))
 PY
 )
 
-playwright pdf --paper-format A4 --channel chrome "$URL" "$OUT_PDF"
+if ! playwright pdf --paper-format A4 --channel chrome "$URL" "$OUT_PDF"; then
+  echo "warning: playwright pdf generation failed, trying fallback from latest pdf" >&2
+  if [[ -f "$LATEST_PDF" ]]; then
+    cp "$LATEST_PDF" "$OUT_PDF"
+  else
+    echo "failed to generate pdf and no fallback latest pdf found" >&2
+    exit 1
+  fi
+fi
 
 cp "$OUT_HTML_DIR/index.html" "$LATEST_DIR/index.html"
 cp "$OUT_HTML_EN" "$LATEST_DIR/index_en.html"
 cp "$OUT_HTML_DIR/share.html" "$LATEST_DIR/week-share.html"
-cp "$OUT_PDF" "$ROOT_DIR/reports/pdf/LG_Global_D2C_Weekly_Intelligence_latest.pdf"
+cp "$OUT_PDF" "$LATEST_PDF"
 cp "$OUT_PDF" "$HTML_PDF_DIR/$(basename "$OUT_PDF")"
 cp "$OUT_PDF" "$HTML_PDF_DIR/LG_Global_D2C_Weekly_Intelligence_latest.pdf"
 cp "$SRC_MD" "$HTML_MD_DIR/$(basename "$SRC_MD")"
+cp "$OUT_MD_EN" "$HTML_MD_DIR/$(basename "$OUT_MD_EN")"
 cp "$MANIFEST_FILE" "$LATEST_DIR/manifest.json"
 cat > "$ROOT_HTML_INDEX" <<'HTML'
 <!doctype html>

@@ -8,7 +8,16 @@ END_DATE="${3:-$(TZ=Asia/Seoul date -v-1d +%F)}"
 
 RAW_FILE="$ROOT_DIR/data/raw/openclaw_${DATE_KEY}.jsonl"
 REPORT_FILE="$ROOT_DIR/reports/md/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}.md"
-TEMPLATE_FILE="$ROOT_DIR/templates/report_template.md"
+
+# ⚠️ 기존 리포트 보호 — Claude 생성본이 이미 있으면 덮어쓰지 않는다
+CLAUDE_FILE="$ROOT_DIR/reports/md/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}_claude.md"
+if [[ -f "$CLAUDE_FILE" ]] && [[ $(wc -c < "$CLAUDE_FILE") -gt 40000 ]]; then
+  echo "WARNING: Claude report already exists ($(wc -c < "$CLAUDE_FILE") bytes). Skipping synthesis to prevent overwrite."
+  echo "To force, delete $CLAUDE_FILE first."
+  exit 0
+fi
+REPORT_FILE_R2="$ROOT_DIR/reports/md/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}_R2_16country.md"
+GENERATOR="$ROOT_DIR/scripts/generate_weekly_markdown.py"
 
 mkdir -p "$ROOT_DIR/reports/md" "$ROOT_DIR/qa"
 
@@ -21,25 +30,21 @@ PREPARED_BY="${REPORT_PREPARED_BY:-D2C Global Intelligence (OpenClaw Automated)}
 DISTRIBUTION="${REPORT_DISTRIBUTION:-D2C Leadership / Confidential}"
 VERSION="${REPORT_VERSION_PREFIX:-Weekly Vol.}${DATE_KEY}-R2"
 
-# 기본 카운트(placeholder): raw line 수를 simple metric으로 사용
-TOTAL_SIGNALS="$(wc -l < "$RAW_FILE" | tr -d ' ')"
+if [[ ! -f "$GENERATOR" ]]; then
+  echo "generator not found: $GENERATOR" >&2
+  exit 1
+fi
 
-sed \
-  -e "s/{{REPORT_START}}/${START_DATE}/g" \
-  -e "s/{{REPORT_END}}/${END_DATE}/g" \
-  -e "s/{{PREPARED_BY}}/${PREPARED_BY//\//\\/}/g" \
-  -e "s/{{DISTRIBUTION}}/${DISTRIBUTION//\//\\/}/g" \
-  -e "s/{{GENERATED_DATE}}/${DATE_KEY}/g" \
-  -e "s/{{VERSION}}/${VERSION//\//\\/}/g" \
-  "$TEMPLATE_FILE" > "$REPORT_FILE"
+python3 "$GENERATOR" \
+  "$ROOT_DIR" \
+  "$DATE_KEY" \
+  "$START_DATE" \
+  "$END_DATE" \
+  "$REPORT_FILE" \
+  "$PREPARED_BY" \
+  "$DISTRIBUTION" \
+  "$VERSION"
 
-{
-  echo
-  echo "---"
-  echo "### Auto-generated Snapshot"
-  echo "- 수집 신호 건수(원천 라인 수): ${TOTAL_SIGNALS}"
-  echo "- 원천 데이터 파일: \`$RAW_FILE\`"
-  echo "- 참고: 본 보고서는 bootstrap 템플릿이며, 실제 운영 시 OpenClaw/Codex 단계에서 상세 수치와 표가 채워집니다."
-} >> "$REPORT_FILE"
+cp "$REPORT_FILE" "$REPORT_FILE_R2"
 
 echo "report generated: $REPORT_FILE"
