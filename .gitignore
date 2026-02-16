@@ -4,3 +4,15 @@
 logs/
 output/
 *.swp
+
+# Private configs (user-specific paths)
+config/pipeline.env
+
+# OpenClaw agent personal configs
+AGENTS.md
+SOUL.md
+USER.md
+IDENTITY.md
+BOOTSTRAP.md
+HEARTBEAT.md
+TOOLS.md
