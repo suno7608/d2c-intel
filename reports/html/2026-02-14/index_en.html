@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LG Electronics Global D2C Weekly Market Intelligence Report</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --paper: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #dbe2ea;
+      --brand: #005a9c;
+      --alert: #b91c1c;
+      --warn: #a16207;
+      --ok: #166534;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+    body { font: 15px/1.6 "Noto Sans KR", "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 290px minmax(0, 1fr);
+      gap: 22px;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .toc-panel {
+      position: sticky;
+      top: 18px;
+      align-self: start;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      max-height: calc(100vh - 36px);
+      overflow: auto;
+    }
+    .toc-title {
+      margin: 0 0 10px;
+      padding: 10px 11px;
+      border-radius: 10px;
+      background: linear-gradient(95deg, #003a66 0%, #005a9c 58%, #0a7ac4 100%);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.2px;
+    }
+    .toc-panel ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 6px;
+    }
+    .toc-panel li { margin: 0; }
+    .toc-panel a {
+      display: block;
+      color: #0b4f88;
+      text-decoration: none;
+      border: 1px solid transparent;
+      border-radius: 9px;
+      background: #f8fbff;
+      padding: 7px 10px;
+      font-size: 13px;
+      line-height: 1.35;
+      transition: background-color .12s ease, border-color .12s ease, transform .12s ease;
+    }
+    .toc-panel a:hover {
+      background: #edf5ff;
+      border-color: #d5e5f6;
+      transform: translateX(1px);
+    }
+    .toc-panel a:focus-visible {
+      outline: 3px solid rgba(10,122,196,.35);
+      outline-offset: 1px;
+    }
+    .toc-panel li.l3 a {
+      margin-left: 12px;
+      background: #fcfdff;
+      color: #28435f;
+    }
+    .toc-panel li.l4 a {
+      margin-left: 24px;
+      background: #ffffff;
+      color: #3f5871;
+      font-size: 12px;
+    }
+    .toc-panel a.is-active {
+      background: #e5f1ff;
+      border-color: #c9ddf3;
+      color: #0b4f88;
+      font-weight: 800;
+    }
+
+    .paper {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .cover {
+      background: linear-gradient(140deg, #003a66, #005a9c 55%, #0a7ac4);
+      color: #fff;
+      padding: 34px 36px;
+    }
+    .cover h1 { margin: 0 0 8px; font-size: 34px; line-height: 1.2; font-weight: 800; }
+    .cover p { margin: 6px 0; opacity: .95; }
+    .cover .meta { margin-top: 14px; font-size: 14px; opacity: .92; }
+
+    .content { padding: 30px 34px 38px; }
+    .report-title { margin-top: 8px; font-size: 30px; line-height: 1.25; }
+    .section-title {
+      margin: 30px 0 12px;
+      font-size: 22px;
+      color: #fff;
+      border-left: 0;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: linear-gradient(95deg, #003a66 0%, #005a9c 58%, #0a7ac4 100%);
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+      letter-spacing: 0.1px;
+      line-height: 1.35;
+    }
+    .sub-title {
+      margin: 20px 0 10px;
+      font-size: 17px;
+      color: #0b3354;
+      border: 1px solid #cfe0f1;
+      border-radius: 10px;
+      padding: 9px 12px;
+      background: linear-gradient(120deg, #f8fbff 0%, #eef5fd 100%);
+      box-shadow: 0 4px 10px rgba(15, 23, 42, 0.06);
+      line-height: 1.35;
+    }
+    .sub-title.key-insight-banner {
+      border-color: #d1e4f7;
+      background: linear-gradient(120deg, #eff7ff 0%, #e5f1ff 100%);
+      color: #0b4f88;
+      font-weight: 800;
+    }
+    .sub-title.action-required-banner {
+      border-color: #f1dfc4;
+      background: linear-gradient(120deg, #fff8ea 0%, #ffefcf 100%);
+      color: #8a4b00;
+      font-weight: 800;
+    }
+    p { margin: 10px 0; }
+    hr.section-divider { border: 0; border-top: 1px solid var(--line); margin: 18px 0; }
+
+    blockquote {
+      margin: 14px 0;
+      padding: 10px 14px;
+      border-left: 4px solid var(--brand);
+      background: #eef6fc;
+      color: #15324a;
+    }
+
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    ul, ol { margin: 8px 0 10px 22px; }
+
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      margin: 12px 0 18px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+      background: #fff;
+      font-size: 14px;
+    }
+    th, td {
+      border-bottom: 1px solid #e7edf4;
+      border-right: 1px solid #eef3f8;
+      padding: 8px 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th:last-child, td:last-child { border-right: 0; }
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #f1f7fd;
+      color: #15324a;
+      font-weight: 700;
+    }
+
+    code {
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 1px 5px;
+      font-size: .92em;
+    }
+
+    .foot {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      padding: 14px 34px 24px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 1100px) {
+      .layout { grid-template-columns: 1fr; padding: 14px; }
+      .toc-panel { position: relative; top: 0; max-height: none; }
+      .toc-title { margin-bottom: 8px; }
+      .toc-panel li.l3 a,
+      .toc-panel li.l4 a { margin-left: 0; }
+      .cover h1 { font-size: 28px; }
+      .content { padding: 20px 16px 28px; }
+      .foot { padding: 14px 16px 22px; }
+      .section-title { font-size: 20px; }
+      .sub-title { font-size: 17px; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .layout { display: block; max-width: none; padding: 0; }
+      .toc-panel { display: none; }
+      .paper { border: none; box-shadow: none; }
+      .cover { border-radius: 0; }
+      .content { padding: 18mm 12mm 16mm; }
+      .foot { padding: 8mm 12mm 0; }
+      .section-title { break-after: avoid; }
+      .section-title,
+      .sub-title {
+        background: #fff !important;
+        color: #003a66 !important;
+        border: 1px solid #cfd8e3 !important;
+        box-shadow: none !important;
+      }
+      .table-wrap { break-inside: avoid; }
+      a { color: #003a66; }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="toc-panel">
+      <div class="toc-title">Quick Navigation</div>
+      <ul><li class="l2"><a href="#sec-2">1. Executive Summary</a></li><li class="l3"><a href="#sec-5">1.1 Key Findings</a></li><li class="l3"><a href="#sec-6">1.2 This Week&#39;s Numbers (Based on 16-Country Coverage)</a></li><li class="l3"><a href="#sec-7">1.3 Recommended Actions</a></li><li class="l2"><a href="#sec-8">2. Critical Alerts</a></li><li class="l3"><a href="#sec-11">2.1 16-Country Alert Map</a></li><li class="l3"><a href="#sec-12">2.2 Consumer Negative Alerts</a></li><li class="l3"><a href="#sec-13">2.3 Competitor Aggressive Moves</a></li><li class="l3"><a href="#sec-14">2.4 Chinese Brand Momentum Alerts</a></li><li class="l2"><a href="#sec-15">3. 16-Country Full Coverage Dashboard</a></li><li class="l3"><a href="#sec-18">3.1 Consumer Sentiment Monitoring (16 Countries)</a></li><li class="l3"><a href="#sec-21">3.2 Retail Channel Promotion Monitoring (16 Countries)</a></li><li class="l3"><a href="#sec-24">3.3 Competitive Price &amp; Positioning (Key Comparisons)</a></li><li class="l3"><a href="#sec-27">3.4 Chinese Brand Threat Tracking (16 Countries)</a></li><li class="l2"><a href="#sec-30">4. Chinese Brand Threat Report</a></li><li class="l3"><a href="#sec-33">4.1 Brand-by-Brand Analysis</a></li><li class="l3"><a href="#sec-34">4.2 Chinese Brand Price War Map (Key Countries)</a></li><li class="l3"><a href="#sec-35">4.3 Strategic Summary</a></li><li class="l2"><a href="#sec-36">5. Week-over-Week Trend</a></li><li class="l2"><a href="#sec-39">Appendix A: Data Sources &amp; Coverage</a></li><li class="l2"><a href="#sec-40">Appendix B: Methodology &amp; Limitations</a></li><li class="l2"><a href="#sec-41">Appendix C: Glossary</a></li></ul>
+    </aside>
+    <main class="paper">
+      <header class="cover">
+        <h1>LG Electronics Global D2C Weekly Market Intelligence Report</h1>
+        <p>Consumer Sentiment · Retail Channel Promotion · Price Intelligence · Chinese Brand Tracking</p>
+        <p class="meta">Report Period: 2026-02-07 — 2026-02-13</p>
+      </header>
+      <section class="content">
+        <h1 id="sec-1" class="report-title">LG Electronics Global D2C Weekly Market Intelligence Report (R2, 16-Country Full Coverage)</h1>
+<p>Consumer Sentiment · Retail Channel Promotion · Price Intelligence · Chinese Brand Tracking</p>
+<p>Report Period: 2026-02-07 — 2026-02-13 Prepared by: D2C Global Intelligence (Codex Assisted) Distribution: D2C Leadership / Confidential Date Generated: 2026-02-14 Version: Weekly Vol.2026-02-14-R2</p>
+<hr class="section-divider" />
+<h2 id="sec-2" class="section-title">1. Executive Summary</h2>
+<h3 id="sec-3" class="sub-title key-insight-banner">Key Insight</h3>
+<ul><li>This week&#39;s revenue risk stems from the simultaneous occurrence of <code>low-cost brand preemption of new customer acquisition</code> and <code>conversion drop-off due to after-sales service complaints</code>.</li><li>In the high-involvement TV segments (🇺🇸 US/🇸🇦 SA/🇦🇺 AU), price difference alone is insufficient for defense; a total value proposition including installation/warranty/fast service has a greater impact on actual purchase decisions.</li><li>Therefore, the key focus is not competing on discount depth but simultaneously executing <code>conversion rate defense (reducing cart abandonment)</code> and <code>dissatisfied customer repurchase recovery</code>.</li></ul>
+<h3 id="sec-4" class="sub-title action-required-banner">Action Required</h3>
+<ol><li>Reflect a <code>free installation + extended warranty + immediate delivery</code> package on 🇺🇸 US/🇸🇦 SA/🇦🇺 AU TV PDP and deal pages within 72 hours to reduce drop-off at the price comparison stage.</li><li>Apply a <code>48-hour first response</code> SLA for after-sales complaint customers in 🇺🇸 US/🇬🇧 UK, and drive repurchase from churning customers through compensation coupons (accessory/extended warranty discounts).</li><li>For the 5 Critical countries (🇺🇸 US/🇩🇪 DE/🇲🇽 MX/🇦🇺 AU/🇸🇦 SA), set country-specific <code>weekly revenue defense targets (conversion rate, cancellation rate, return rate)</code> and confirm responsible organizations.</li></ol>
+<h3 id="sec-5" class="sub-title">1.1 Key Findings</h3>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Category</th><th>Finding</th><th>Country-Product</th><th>Severity</th><th>Detail</th></tr></thead><tbody><tr><td>1</td><td>Pricing</td><td>🇺🇸 US 65&quot; TV segment: LG C5 (US$1,399.99) vs TCL QM6K (US$529.99) price gap of 2.64x</td><td>🇺🇸 US-TV</td><td>🔴 Critical</td><td>§3.3, §4.2</td></tr><tr><td>2</td><td>Promotion</td><td>🇩🇪 DE MediaMarkt executing short-term LG OLED promotions at -50~-62% intensity</td><td>🇩🇪 DE-TV</td><td>🔴 Critical</td><td>§3.2</td></tr><tr><td>3</td><td>Consumer</td><td>Negative accumulation of after-sales lead time/warranty experience complaints across global review channels</td><td>🇺🇸 US/🇬🇧 UK-HS</td><td>🔴 Critical</td><td>§2.2</td></tr><tr><td>4</td><td>Channel</td><td>TV price elasticity signals reconfirmed in 🇲🇽 MX (Liverpool), 🇧🇷 BR (Pelando), 🇨🇱 CL (price tracker)</td><td>🇲🇽 MX/🇧🇷 BR/🇨🇱 CL-TV</td><td>🟡 Warning</td><td>§3.2</td></tr><tr><td>5</td><td>Chinese Brand</td><td>Hisense·TCL value-price position visibility expanding in 🇸🇦 SA/🇺🇸 US/🇦🇺 AU</td><td>🇸🇦 SA/🇺🇸 US/🇦🇺 AU-TV</td><td>🔴 Critical</td><td>§3.4, §4</td></tr><tr><td>6</td><td>Growth</td><td>Entry-level and marketplace demand confirmed in 🇹🇭 TH/🇹🇼 TW/🇸🇬 SG/🇪🇬 EG, with room for new customer expansion through preemptive offers</td><td>🇹🇭 TH/🇹🇼 TW/🇸🇬 SG/🇪🇬 EG</td><td>🟡 Warning</td><td>§3.1, §3.2</td></tr></tbody></table></div>
+<h3 id="sec-6" class="sub-title">1.2 This Week&#39;s Numbers (Based on 16-Country Coverage)</h3>
+<div class="table-wrap"><table><thead><tr><th>Metric</th><th>This Week</th><th>vs Last Week</th><th>Trend</th></tr></thead><tbody><tr><td>Countries Covered</td><td>16</td><td>Baseline Week</td><td>→</td></tr><tr><td>LG Promotion Signals (Country-level)</td><td>16</td><td>Baseline Week</td><td>→</td></tr><tr><td>Competitor Aggressive Promotion Signals</td><td>13</td><td>Baseline Week</td><td>→</td></tr><tr><td>Chinese Brand Threat Signals</td><td>16</td><td>Baseline Week</td><td>→</td></tr><tr><td>Consumer Negative Alert Countries</td><td>6</td><td>Baseline Week</td><td>→</td></tr><tr><td>Critical Countries (🔴)</td><td>5</td><td>Baseline Week</td><td>→</td></tr></tbody></table></div>
+<h3 id="sec-7" class="sub-title">1.3 Recommended Actions</h3>
+<div class="table-wrap"><table><thead><tr><th>Priority</th><th>Action</th><th>Target Country</th><th>Target Product</th><th>Owner</th><th>Deadline</th></tr></thead><tbody><tr><td>🔴 P1</td><td>🇺🇸 US/🇸🇦 SA TV price defense: Narrow perceived price gap vs TCL·Hisense through bundles/cashback</td><td>🇺🇸 US, 🇸🇦 SA</td><td>TV</td><td>MS Pricing</td><td>2026-02-20</td></tr><tr><td>🔴 P1</td><td>CS Recovery: Strengthen warranty/repair delay VOC response FAQ and compensation policies</td><td>🇺🇸 US, 🇬🇧 UK, 🇨🇦 CA</td><td>Refrigerator/Washer</td><td>CX/Service</td><td>2026-02-21</td></tr><tr><td>🟡 P2</td><td>EU (🇩🇪 DE/🇫🇷 FR/🇪🇸 ES/🇮🇹 IT) CRM retention campaign after short-term promotions</td><td>🇩🇪 DE, 🇫🇷 FR, 🇪🇸 ES, 🇮🇹 IT</td><td>TV/Appliance</td><td>EU D2C CRM</td><td>2026-02-24</td></tr><tr><td>🟡 P2</td><td>Establish ongoing LATAM deal community monitoring (Pelando/Chile tracker/MX retail media)</td><td>🇧🇷 BR, 🇲🇽 MX, 🇨🇱 CL</td><td>TV</td><td>LATAM Intel</td><td>2026-02-25</td></tr><tr><td>🟡 P3</td><td>🇹🇭 TH/🇹🇼 TW/🇸🇬 SG/🇪🇬 EG growth market strategy: Expand new customer acquisition through bundled offers of entry-level SKUs + interest-free/installment plans + review incentives</td><td>🇹🇭 TH, 🇹🇼 TW, 🇸🇬 SG, 🇪🇬 EG</td><td>TV/Appliance</td><td>Regional D2C Growth</td><td>2026-02-28</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-8" class="section-title">2. Critical Alerts</h2>
+<h3 id="sec-9" class="sub-title key-insight-banner">Key Insight</h3>
+<ul><li>The common pattern across Critical countries is that in <code>large TVs where price comparison is easy</code>, new customer acquisition flows to Chinese brands first.</li><li>The core cause of negative VOC is <code>service experience</code> rather than performance, which is not a one-off CS issue but simultaneously reduces future repurchase rates and recommendation intent.</li><li>The immediate response focus should be on simultaneously strengthening the <code>pre-purchase conversion stage (search/comparison/checkout)</code> and the <code>post-purchase complaint recovery stage</code>, rather than pricing alone.</li></ul>
+<h3 id="sec-10" class="sub-title action-required-banner">Action Required</h3>
+<ol><li>In 🇺🇸 US/🇩🇪 DE/🇲🇽 MX/🇦🇺 AU/🇸🇦 SA, conduct daily checks on <code>perceived price gaps vs competitors</code> for key TV SKUs, and immediately activate channel-specific coupons/card benefits when thresholds are exceeded.</li><li>Establish a dedicated <code>repair delay/warranty denial</code> escalation line at 🇺🇸 US/🇬🇧 UK customer centers to convert complaint customers to resolution within 7 days.</li><li>Negotiate joint execution plans with retailers to prioritize LG flagship SKUs on retail search surfaces (category/bestseller) where Chinese brand exposure is high.</li></ol>
+<h3 id="sec-11" class="sub-title">2.1 16-Country Alert Map</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Alert</th><th>Severity</th><th>Basis</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>65&quot; price war + after-sales VOC occurring simultaneously</td><td>🔴</td><td><a href="https://www.bestbuy.com/product/lg-65-class-c5-series-oled-evo-ai-4k-uhd-smart-webos-tv-2025/JJ8VPZTRG6" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.trustpilot.com/review/www.lge.com" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇦 CA</td><td>Price rebound risk after LG direct Snow Day promotion ends</td><td>🟡</td><td><a href="https://www.lg.com/ca_en/shop/all-promotions/make-every-snow-day-cinematic-oled-tv-20260206/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇬🇧 UK</td><td>Consumer complaints + need to track actual deal community transaction prices</td><td>🟡</td><td><a href="https://www.trustpilot.com/review/www.lge.com" target="_blank" rel="noopener">🔗 Source</a> / ❓<a href="https://www.google.com/search?q=site%3Ahotukdeals.com+LG+OLED+February+2026" target="_blank" rel="noopener">Unverified source — search: &quot;site:hotukdeals.com LG OLED February 2026&quot;</a></td></tr><tr><td>🇩🇪 DE</td><td>Price anchor decline due to MediaMarkt deep discount execution</td><td>🔴</td><td><a href="https://www.mediamarkt.de/de/content/themen-specials/aus-aktuellem-anlass/lg-oled65c57la-oled-tv-angebot" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇫🇷 FR</td><td>Expanded discount exposure through Darty/Fnac affiliates</td><td>🟡</td><td><a href="https://www.leparisien.fr/guide-shopping/soldes/darty-fait-une-folie-300-euros-a-saisir-sur-cette-tv-oled-lg-notee-465-21-01-2026-DQ7VH4GUWVHJPCFSH7NN43PZDE.php" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇪🇸 ES</td><td>Retail promotions + community coupon exposure</td><td>🟡</td><td><a href="https://elpais.com/escaparate/ofertas-y-descuentos/2026-02-14/mejores-ofertas-mediamarkt-san-valentin.html" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.chollo.es/lg" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇮🇹 IT</td><td>Price transparency expanding via comparison sites (Trovaprezzi)</td><td>🟡</td><td><a href="https://www.trovaprezzi.it/televisori-lcd-plasma/offerte/lg-oled-tv" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://newsite.unieuro.it/TV-OLED/OLED55B56LA-TV-OLED-AI-Serie-B5-55-4K-8-Gen2-Dolby-Vision-20W-4-HDMI-con-VRR-120Hz-G-Sync-Smart-TV-WebOS-25-pidGOL55B56" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇧🇷 BR</td><td>Price sensitivity expanding via Pelando coupon/deal activity</td><td>🟡</td><td><a href="https://www.pelando.com.br/cupons-de-descontos/lg" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://tecnoblog.net/achados/smart-tv-4k-lg-qned-55-tem-menor-preco-historico-no-mercado-livre/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇲🇽 MX</td><td>Large TV price competition intensifying due to Liverpool 50% discount event</td><td>🔴</td><td><a href="https://www.informabtl.com/liverpool-remata-todas-las-pantallas-al-50-de-descuento-hay-samsung-lg-tcl-hisense-y-mas-del-3-al-15-de-febrero/4/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇱 CL</td><td>High price variation by retailer (based on price tracker)</td><td>🟡</td><td><a href="https://www.ofertasshark.cl/product/68d6db242457718914b17878/Smart-TV-OLED-65" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇹🇭 TH</td><td>Increasing share of subscription/promotional sales models</td><td>🟡</td><td><a href="https://www.lgsubscribe-thailand.com/shop/tv-television/lg-subscribe-75qned86asa/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇦🇺 AU</td><td>Costco/OzBargain deal proliferation + Harvey Norman trade-in</td><td>🔴</td><td><a href="https://www.ozbargain.com.au/node/948240" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.harveynorman.com.au/lg-65-inch-c5-4k-oled-evo-smart-tv.html" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇹🇼 TW</td><td>Market requiring timely offer response as marketplace-driven price comparison occurs rapidly</td><td>🟡</td><td><a href="https://m.pchome.net/article/content-2192245.html" target="_blank" rel="noopener">🔗 Source</a> / ❓<a href="https://www.google.com/search?q=PChome+LG+OLED+%E7%89%B9%E5%83%B9+2026+2%E6%9C%88" target="_blank" rel="noopener">Unverified source — search: &quot;PChome LG OLED 特價 2026 2月&quot;</a></td></tr><tr><td>🇸🇬 SG</td><td>Marketplace price exposure confirmed but insufficient official retail campaign tracking</td><td>🟡</td><td><a href="https://h5.lazada.sg/products/lg-43un6800-43-43un6800pue-un6800-4k-hdr-smart-led-ai-uhd-tv-wthinq-i456308768.html" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇪🇬 EG</td><td>Discount price ranges confirmed on Jumia/Carrefour</td><td>🟡</td><td><a href="https://www.jumia.com.eg/mlp-lg-smart-world-tv/" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.carrefouregypt.com/mafegy/en/uhd-tv/lg-led-tv-65-65ua84006lb-4k-sm-rc/p/664707" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇸🇦 SA</td><td>High-discount LG QNED/OLED exposure on Noon, with high competitor substitution visibility</td><td>🔴</td><td><a href="https://www.noon.com/saudi-ar/75-inch-lg-qned-qned86-4k-smart-tv-ai-magic-remote-hdr10-webos24-2024-120hz-built-in-receiver-2-years-warranty-75qned86t6a-black/N70080397V/p/" target="_blank" rel="noopener">🔗 Source</a></td></tr></tbody></table></div>
+<h3 id="sec-12" class="sub-title">2.2 Consumer Negative Alerts</h3>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Country</th><th>Product</th><th>Issue</th><th>Severity</th><th>Source</th></tr></thead><tbody><tr><td>1</td><td>🇺🇸 US</td><td>Washer/Dryer</td><td>Recurring after-sales response and warranty processing complaints</td><td>🔴</td><td><a href="https://www.trustpilot.com/review/www.lge.com" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>2</td><td>🇬🇧 UK</td><td>Appliance</td><td>Service delay-type complaint reviews surfacing</td><td>🔴</td><td><a href="https://www.trustpilot.com/review/www.lge.com" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>3</td><td>🇨🇦 CA</td><td>TV/Appliance</td><td>Post-sale price rebound sensitivity</td><td>🟡</td><td><a href="https://www.lg.com/ca_en/shop/all-promotions/make-every-snow-day-cinematic-oled-tv-20260206/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>4</td><td>🇲🇽 MX</td><td>TV</td><td>Brand loyalty weakening due to large retail discount competition</td><td>🟡</td><td><a href="https://www.informabtl.com/liverpool-remata-todas-las-pantallas-al-50-de-descuento-hay-samsung-lg-tcl-hisense-y-mas-del-3-al-15-de-febrero/4/" target="_blank" rel="noopener">🔗 Source</a></td></tr></tbody></table></div>
+<h3 id="sec-13" class="sub-title">2.3 Competitor Aggressive Moves</h3>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Country</th><th>Competitor</th><th>Action</th><th>LG Impact</th><th>Source</th></tr></thead><tbody><tr><td>1</td><td>🇺🇸 US</td><td>TCL</td><td>QM6K 65&quot; US$529.99</td><td>Volume zone customer acquisition erosion</td><td><a href="https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>2</td><td>🇺🇸 US</td><td>Hisense</td><td>U8QG 65&quot; US$859.99</td><td>Lower-premium segment erosion</td><td><a href="https://www.bestbuy.com/product/hisense-65-class-u8-series-mini-led-qled-uhd-4k-smart-google-tv-2025/J3Z9Z42YKK" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>3</td><td>🇦🇺 AU</td><td>Hisense</td><td>Large QLED aggressive pricing exposure</td><td>Large screen demand dispersion</td><td><a href="https://www.news.com.au/checkout/sales-and-deals/sales-and-deals-of-the-week/harvey-norman-catalogue-best-deals/news-story/b17b8d300f6990e0e99e270017e3cf03" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>4</td><td>🇲🇽 MX</td><td>TCL/Hisense</td><td>Simultaneous discount on Liverpool channel</td><td>Difficult for LG to differentiate alone</td><td><a href="https://www.informabtl.com/liverpool-remata-todas-las-pantallas-al-50-de-descuento-hay-samsung-lg-tcl-hisense-y-mas-del-3-al-15-de-febrero/4/" target="_blank" rel="noopener">🔗 Source</a></td></tr></tbody></table></div>
+<h3 id="sec-14" class="sub-title">2.4 Chinese Brand Momentum Alerts</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Brand</th><th>Signal</th><th>Threat</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>TCL/Hisense</td><td>Continued spread of low-price + high-performance messaging</td><td>🔴</td><td><a href="https://www.wired.com/story/tcl-qm6k-deal-226" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇩🇪 DE</td><td>Hisense/TCL</td><td>Increasing demand for large retail discount search</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=TCL+vs+LG+Fernseher+Deutschland+2026" target="_blank" rel="noopener">Unverified source — search: &quot;TCL vs LG Fernseher Deutschland 2026&quot;</a></td></tr><tr><td>🇧🇷 BR</td><td>TCL/Hisense</td><td>Increasing value TV alternative mentions in deal communities</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=TCL+vs+LG+Brasil+TV+2026" target="_blank" rel="noopener">Unverified source — search: &quot;TCL vs LG Brasil TV 2026&quot;</a></td></tr><tr><td>🇸🇦 SA</td><td>Hisense/TCL</td><td>Expanding comparison shopping within Noon/e-commerce</td><td>🔴</td><td>❓<a href="https://www.google.com/search?q=Hisense+vs+LG+%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense vs LG السعودية 2026&quot;</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-15" class="section-title">3. 16-Country Full Coverage Dashboard</h2>
+<h3 id="sec-16" class="sub-title key-insight-banner">Key Insight</h3>
+<ul><li>The 16 countries are not a single market but have different revenue levers: <code>price war type (🇺🇸 US/🇲🇽 MX/🇸🇦 SA)</code>, <code>promotion optimization type (🇩🇪 DE/🇫🇷 FR/🇮🇹 IT)</code>, and <code>growth pioneering type (🇹🇭 TH/🇹🇼 TW/🇸🇬 SG/🇪🇬 EG)</code>.</li><li>Repeating the same promotional message across all countries will increase CAC while conversion rates stagnate, necessitating country-cluster-specific offer design.</li><li>The key to performance improvement this week is separating and executing country-specific <code>acquisition (new)</code> and <code>defense (churn/returns)</code> targets.</li></ul>
+<h3 id="sec-17" class="sub-title action-required-banner">Action Required</h3>
+<ol><li>For price war countries (🇺🇸 US/🇲🇽 MX/🇸🇦 SA), set <code>conversion rate defense</code> as the #1 KPI and immediately execute perceived price correction offers on flagship TV SKUs.</li><li>For promotion optimization countries (🇩🇪 DE/🇫🇷 FR/🇮🇹 IT), execute CRM retargeting within 7 days after promotion end to re-engage cart abandonment customers.</li><li>For growth pioneering countries (🇹🇭 TH/🇹🇼 TW/🇸🇬 SG/🇪🇬 EG), prominently feature entry-level SKUs with interest-free/installment benefits to focus on expanding the new customer pool.</li></ol>
+<h2 id="sec-18" class="section-title">3.1 Consumer Sentiment Monitoring (16 Countries)</h2>
+<h3 id="sec-19" class="sub-title key-insight-banner">Key Insight</h3>
+<ul><li>In VOC data, the variable with the greatest actual revenue impact is <code>installation/repair/warranty</code> experience rather than product spec debates.</li><li>Customers with negative experiences reduce not only new purchases but also referral intent, making it difficult to offset losses through short-term discounts alone.</li><li>The focus of customer response should be on <code>how quickly customers on the verge of churn can be recovered</code>, not on sentiment analysis.</li></ul>
+<h3 id="sec-20" class="sub-title action-required-banner">Action Required</h3>
+<ol><li>Immediately offer <code>service recovery offers (free inspection/warranty extension/pickup repair)</code> to negative VOC customers in 🇺🇸 US/🇬🇧 UK to prevent refund/cancellation conversion.</li><li>Unify customer communication scripts for the top 3 complaint types (repair delay, response delay, warranty confusion) to reduce re-complaints at the consultation stage.</li><li>Send installation/initial defect check messages to customers within 14 days of purchase to preemptively absorb early issues.</li></ol>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Consumer Pulse</th><th>Severity</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>After-sales/warranty complaints coexisting with positive OLED community response</td><td>🔴</td><td><a href="https://www.trustpilot.com/review/www.lge.com" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.reddit.com/r/OLED/comments/1qxeez3/lg_55_oled_b5_over_lg_55_qned_86_4k_miniled_tv/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇦 CA</td><td>Positive response during sale period, post-sale price sensitivity expected</td><td>🟡</td><td><a href="https://www.lg.com/ca_en/shop/all-promotions/make-every-snow-day-cinematic-oled-tv-20260206/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇬🇧 UK</td><td>CS perceived quality concerns, deal channel tracking needed</td><td>🟡</td><td><a href="https://www.trustpilot.com/review/www.lge.com" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇩🇪 DE</td><td>Strong response to price promotions, limited quality complaint signals</td><td>🟡</td><td><a href="https://www.mediamarkt.de/de/content/themen-specials/aus-aktuellem-anlass/lg-oled65c57la-oled-tv-angebot" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇫🇷 FR</td><td>Purchase momentum forming through large discount press coverage</td><td>🟡</td><td><a href="https://www.leparisien.fr/guide-shopping/soldes/darty-fait-une-folie-300-euros-a-saisir-sur-cette-tv-oled-lg-notee-465-21-01-2026-DQ7VH4GUWVHJPCFSH7NN43PZDE.php" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇪🇸 ES</td><td>Coupon/offer-based response present but original VOC limited</td><td>🟡</td><td><a href="https://www.chollo.es/lg" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇮🇹 IT</td><td>Exploratory consumption response centered on price comparison channels</td><td>🟡</td><td><a href="https://www.trovaprezzi.it/televisori-lcd-plasma/offerte/lg-oled-tv" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇧🇷 BR</td><td>Price-driven response dominant via deal communities</td><td>🟡</td><td><a href="https://www.pelando.com.br/cupons-de-descontos/lg" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇲🇽 MX</td><td>Strong response to large discount events</td><td>🔴</td><td><a href="https://www.informabtl.com/liverpool-remata-todas-las-pantallas-al-50-de-descuento-hay-samsung-lg-tcl-hisense-y-mas-del-3-al-15-de-febrero/4/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇱 CL</td><td>Price tracking-type response (focused on lowest price timing)</td><td>🟡</td><td><a href="https://www.ofertasshark.cl/product/68d6db242457718914b17878/Smart-TV-OLED-65" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇹🇭 TH</td><td>High interest in promotional/subscription benefits</td><td>🟡</td><td><a href="https://www.lgsubscribe-thailand.com/shop/tv-television/lg-subscribe-75qned86asa/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇦🇺 AU</td><td>Active community deal response, large screen preference</td><td>🔴</td><td><a href="https://www.ozbargain.com.au/node/948240" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇹🇼 TW</td><td>Price/discount-driven exploratory response dominant, entry-level SKU competition is key</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=site%3Aptt.cc+LG+%E9%9B%BB%E8%A6%96+%E8%A9%95%E5%83%B9+2026" target="_blank" rel="noopener">Unverified source — search: &quot;site:ptt.cc LG 電視 評價 2026&quot;</a></td></tr><tr><td>🇸🇬 SG</td><td>Marketplace price response confirmed, community VOC limited</td><td>🟡</td><td><a href="https://h5.lazada.sg/products/lg-43un6800-43-43un6800pue-un6800-4k-hdr-smart-led-ai-uhd-tv-wthinq-i456308768.html" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇪🇬 EG</td><td>E-commerce review/price responses exist</td><td>🟡</td><td><a href="https://www.jumia.com.eg/mlp-lg-smart-world-tv/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇸🇦 SA</td><td>Response concentrated on high-discount TV SKUs</td><td>🔴</td><td><a href="https://www.noon.com/saudi-ar/75-inch-lg-qned-qned86-4k-smart-tv-ai-magic-remote-hdr10-webos24-2024-120hz-built-in-receiver-2-years-warranty-75qned86t6a-black/N70080397V/p/" target="_blank" rel="noopener">🔗 Source</a></td></tr></tbody></table></div>
+<h2 id="sec-21" class="section-title">3.2 Retail Channel Promotion Monitoring (16 Countries)</h2>
+<h3 id="sec-22" class="sub-title key-insight-banner">Key Insight</h3>
+<ul><li>Channel performance is determined by <code>perceived final price</code> and <code>exposure placement</code> rather than discount rate.</li><li>In LATAM, deal community spread velocity is fast, and whether the first 24-hour response is executed determines weekly revenue.</li><li>In MEA, price transfer for the same model across marketplaces is rapid, so without preemptive SKU-level price guards, margin erosion occurs sharply.</li></ul>
+<h3 id="sec-23" class="sub-title action-required-banner">Action Required</h3>
+<ol><li>For 🇺🇸 US/🇲🇽 MX/🇦🇺 AU/🇸🇦 SA, pre-agree on <code>minimum perceived prices</code> per flagship SKU to prevent excessive cross-channel price collapse.</li><li>In LATAM, re-offer SKUs that gained traction on Pelando/price tracker channels within 24 hours to re-absorb demand into LG SKUs.</li><li>In MEA, apply fixed bundles (soundbar/installation/extended warranty) to core Noon/Jumia models to shift from price-only comparison to value comparison.</li></ol>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Retail Channel Pulse</th><th>LG/Comp Signal</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>Best Buy Presidents&#39; Day deals</td><td>LG C5/B5 deep discounts vs TCL/Hisense ultra-low prices</td><td><a href="https://www.techradar.com/live/news/best-buy-presidents-day-sale-live-2026" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇦 CA</td><td>LG.ca Snow Day promotion (2/6~2/12)</td><td>LG direct campaign-led</td><td><a href="https://www.lg.com/ca_en/shop/all-promotions/make-every-snow-day-cinematic-oled-tv-20260206/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇬🇧 UK</td><td>Short-term price competition pressure expanding via deal communities</td><td>LG/Chinese brands simultaneous exposure</td><td>❓<a href="https://www.google.com/search?q=site%3Ahotukdeals.com+LG+TV+deal+2026" target="_blank" rel="noopener">Unverified source — search: &quot;site:hotukdeals.com LG TV deal 2026&quot;</a></td></tr><tr><td>🇩🇪 DE</td><td>Multiple MediaMarkt special pages</td><td>LG OLED deep discount execution</td><td><a href="https://www.mediamarkt.de/de/content/themen-specials/aus-aktuellem-anlass/lg-oled-c57-angebot" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇫🇷 FR</td><td>Darty/Fnac discount press coverage</td><td>LG OLED price reduction exposure</td><td><a href="https://www.leparisien.fr/guide-shopping/soldes/darty-fait-une-folie-300-euros-a-saisir-sur-cette-tv-oled-lg-notee-465-21-01-2026-DQ7VH4GUWVHJPCFSH7NN43PZDE.php" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇪🇸 ES</td><td>MediaMarkt Valentine + Chollo coupons</td><td>Multi-brand simultaneous discount including LG</td><td><a href="https://elpais.com/escaparate/ofertas-y-descuentos/2026-02-14/mejores-ofertas-mediamarkt-san-valentin.html" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇮🇹 IT</td><td>Actual transaction prices visible via Trovaprezzi/Unieuro</td><td>LG B5 SKU discount confirmed</td><td><a href="https://newsite.unieuro.it/TV-OLED/OLED55B56LA-TV-OLED-AI-Serie-B5-55-4K-8-Gen2-Dolby-Vision-20W-4-HDMI-con-VRR-120Hz-G-Sync-Smart-TV-WebOS-25-pidGOL55B56" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇧🇷 BR</td><td>Pelando coupons + MercadoLivre deal articles</td><td>LG QNED downward price signal</td><td><a href="https://www.pelando.com.br/cupons-de-descontos/lg" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://tecnoblog.net/achados/smart-tv-4k-lg-qned-55-tem-menor-preco-historico-no-mercado-livre/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇲🇽 MX</td><td>Liverpool Feb 3-15 large TV sale</td><td>LG/TCL/Hisense simultaneous discounts</td><td><a href="https://www.informabtl.com/liverpool-remata-todas-las-pantallas-al-50-de-descuento-hay-samsung-lg-tcl-hisense-y-mas-del-3-al-15-de-febrero/4/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇱 CL</td><td>Price tracker reflecting Falabella affiliate prices</td><td>LG OLED wide lowest price fluctuation</td><td><a href="https://www.ofertasshark.cl/product/68d6db242457718914b17878/Smart-TV-OLED-65" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇹🇭 TH</td><td>LG Subscribe + marketplace-centered promotions</td><td>Monthly subscription proposal gaining visibility</td><td><a href="https://www.lgsubscribe-thailand.com/shop/tv-television/lg-subscribe-75qned86asa/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇦🇺 AU</td><td>Costco/OzBargain + Harvey Norman trade-in</td><td>Strong LG promotions but intense competition</td><td><a href="https://www.ozbargain.com.au/node/948240" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.harveynorman.com.au/lg-65-inch-c5-4k-oled-evo-smart-tv.html" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇹🇼 TW</td><td>High-immediacy retail special price competition</td><td>Expanding marketplace lowest price competition pressure</td><td>❓<a href="https://www.google.com/search?q=PChome+LG+%E9%9B%BB%E8%A6%96+%E7%89%B9%E5%83%B9+2026+2%E6%9C%88" target="_blank" rel="noopener">Unverified source — search: &quot;PChome LG 電視 特價 2026 2月&quot;</a></td></tr><tr><td>🇸🇬 SG</td><td>Lazada SG LG TV price exposure confirmed</td><td>Low-price competition segment with competitors</td><td><a href="https://h5.lazada.sg/products/lg-43un6800-43-43un6800pue-un6800-4k-hdr-smart-led-ai-uhd-tv-wthinq-i456308768.html" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇪🇬 EG</td><td>Multiple discount SKUs on Jumia/Carrefour</td><td>LG QNED/UHD simultaneous discounts</td><td><a href="https://www.jumia.com.eg/mlp-lg-smart-world-tv/" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.carrefouregypt.com/mafegy/en/uhd-tv/lg-led-tv-65-65ua84006lb-4k-sm-rc/p/664707" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇸🇦 SA</td><td>Noon LG TV sustained high-discount SKUs</td><td>Chinese brand simultaneous comparison shopping risk</td><td><a href="https://www.noon.com/saudi-ar/65-inch-4k-led-smart-tv-webos24-hdr10-hlg-ai-sound-pro-alpha-7-4k-ai-processor-gen8-ai-ua80-series-model-2025-65ua80006lc-black/N70178544V/p/" target="_blank" rel="noopener">🔗 Source</a></td></tr></tbody></table></div>
+<h2 id="sec-24" class="section-title">3.3 Competitive Price &amp; Positioning (Key Comparisons)</h2>
+<h3 id="sec-25" class="sub-title key-insight-banner">Key Insight</h3>
+<ul><li>The 2.64x price gap in the US 65&quot; segment is not a premium positioning problem but a <code>new customer acquisition loss</code> problem.</li><li>Markets like EG where LG has a price advantage over comparable models represent opportunity windows for aggressively growing market share.</li><li>Even within the same brand, purchasing power and competitive structures vary by country, so <code>country-specific price-benefit combinations</code> determine revenue efficiency.</li></ul>
+<h3 id="sec-26" class="sub-title action-required-banner">Action Required</h3>
+<ol><li>In 🇺🇸 US/🇸🇦 SA/🇦🇺 AU, make <code>interest-free + installation + warranty</code> combined offers standard instead of price cuts to lower the perceived payment barrier.</li><li>In EG and select LATAM markets, concentrate advertising spend on LG price-advantaged SKUs to expand search-to-retail traffic.</li><li>Update <code>perceived price gaps vs competitors</code> for each country&#39;s Top 5 SKUs twice weekly and adjust offers immediately when thresholds are exceeded.</li></ol>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>LG Anchor Price</th><th>Comp Anchor Price</th><th>Gap Insight</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>C5 65: $1,399.99</td><td>TCL QM6K 65: $529.99 / Hisense U8QG 65: $859.99</td><td>LG vs TCL 2.64x</td><td><a href="https://www.bestbuy.com/product/lg-65-class-c5-series-oled-evo-ai-4k-uhd-smart-webos-tv-2025/JJ8VPZTRG6" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.bestbuy.com/product/hisense-65-class-u8-series-mini-led-qled-uhd-4k-smart-google-tv-2025/J3Z9Z42YKK" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇦 CA</td><td>OLED from C$999.99 (campaign)</td><td>Samsung OLED flyers in parallel</td><td>Post-sale rebound risk</td><td><a href="https://www.lg.com/ca_en/shop/all-promotions/make-every-snow-day-cinematic-oled-tv-20260206/" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.flyerdeals.ca/specials/oled" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇩🇪 DE</td><td>OLED65C57LA €1,449</td><td>❓</td><td>Price anchor lowered by deep discount</td><td><a href="https://www.mediamarkt.de/de/content/themen-specials/aus-aktuellem-anlass/lg-oled65c57la-oled-tv-angebot" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇫🇷 FR</td><td>OLED55C5 €999 (per article)</td><td>❓</td><td>Perceived price reduction via short-term promotion</td><td><a href="https://www.leparisien.fr/guide-shopping/soldes/darty-fait-une-folie-300-euros-a-saisir-sur-cette-tv-oled-lg-notee-465-21-01-2026-DQ7VH4GUWVHJPCFSH7NN43PZDE.php" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇮🇹 IT</td><td>B5 55&quot; €782 (Unieuro)</td><td>Hisense OLED search price in parallel</td><td>Value OLED segment competition intensifying</td><td><a href="https://newsite.unieuro.it/TV-OLED/OLED55B56LA-TV-OLED-AI-Serie-B5-55-4K-8-Gen2-Dolby-Vision-20W-4-HDMI-con-VRR-120Hz-G-Sync-Smart-TV-WebOS-25-pidGOL55B56" target="_blank" rel="noopener">🔗 Source</a> / ❓<a href="https://www.google.com/search?q=Hisense+OLED+55+Italia+prezzo+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense OLED 55 Italia prezzo 2026&quot;</a></td></tr><tr><td>🇧🇷 BR</td><td>QNED82 55 R$2,726.10</td><td>Expected direct competition with TCL/Hisense equivalent pricing</td><td>Price elasticity zone</td><td><a href="https://tecnoblog.net/achados/smart-tv-4k-lg-qned-55-tem-menor-preco-historico-no-mercado-livre/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇲🇽 MX</td><td>LG UHD 65 MX$11,499 (per article)</td><td>Samsung/TCL/Hisense simultaneous discounts</td><td>Multi-brand price war</td><td><a href="https://www.informabtl.com/liverpool-remata-todas-las-pantallas-al-50-de-descuento-hay-samsung-lg-tcl-hisense-y-mas-del-3-al-15-de-febrero/4/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇱 CL</td><td>OLED65B5 lowest CLP$899,990 (tracked)</td><td>Limited direct Chinese brand matching</td><td>Timing-based purchase market</td><td><a href="https://www.ofertasshark.cl/product/68d6db242457718914b17878/Smart-TV-OLED-65" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇦🇺 AU</td><td>LG QNED 86&quot; A$1,899.98</td><td>Hisense 100&quot; QLED A$3,383 (per channel article)</td><td>Large screen competition accelerating</td><td><a href="https://www.ozbargain.com.au/node/948240" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.news.com.au/checkout/sales-and-deals/sales-and-deals-of-the-week/harvey-norman-catalogue-best-deals/news-story/b17b8d300f6990e0e99e270017e3cf03" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇪🇬 EG</td><td>65UA84006L EGP24,499</td><td>TCL 65P7K EGP25,899 (within Jumia)</td><td>LG price competitiveness exists for some SKUs</td><td><a href="https://www.carrefouregypt.com/mafegy/en/uhd-tv/lg-led-tv-65-65ua84006lb-4k-sm-rc/p/664707" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.jumia.com.eg/catalog/productspecifications/sku/GE810SL2OH6CHNAFAMZ/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇸🇦 SA</td><td>QNED86 75&quot; SAR4,299</td><td>Expanding comparison purchases with equivalent Hisense</td><td>High discount favorable for short-term conversion</td><td><a href="https://www.noon.com/saudi-ar/75-inch-lg-qned-qned86-4k-smart-tv-ai-magic-remote-hdr10-webos24-2024-120hz-built-in-receiver-2-years-warranty-75qned86t6a-black/N70080397V/p/" target="_blank" rel="noopener">🔗 Source</a></td></tr></tbody></table></div>
+<h2 id="sec-27" class="section-title">3.4 Chinese Brand Threat Tracking (16 Countries)</h2>
+<h3 id="sec-28" class="sub-title key-insight-banner">Key Insight</h3>
+<ul><li>Chinese brands win not through <code>low prices</code> but through <code>purchase journey preemption</code>. They gain exposure first on search page one and bestseller sections, preempting the consideration set.</li><li>If this persists, LG enters the comparison set late, and even with ad spend, conversion efficiency declines.</li><li>The solution is not standalone price response but execution that increases <code>early search stage share of voice</code> (search/retail exposure/comparison messaging).</li></ul>
+<h3 id="sec-29" class="sub-title action-required-banner">Action Required</h3>
+<ol><li>In 🇺🇸 US/🇸🇦 SA/🇦🇺 AU/🇲🇽 MX, immediately execute <code>LG vs TCL/Hisense comparison keyword</code> search ads and comparison landing pages to increase consideration set entry rate.</li><li>For models facing intense low-price competition, combine trade-in/interest-free installments instead of direct discounts to secure conversion without ASP decline.</li><li>Negotiate with retailers to increase LG core SKU exposure share in bestseller/recommendation slots and track weekly performance.</li></ol>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Threat Signal (TCL/Hisense/Haier/Midea)</th><th>Threat</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>TCL·Hisense dominating 65&quot; volume zone pricing</td><td>🔴</td><td><a href="https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇦 CA</td><td>High probability of simultaneous Chinese brand discounts (flyer-based)</td><td>🟡</td><td><a href="https://www.flyerdeals.ca/specials/oled" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇬🇧 UK</td><td>Intensifying consideration set competition due to growing Chinese brand comparison searches</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=Hisense+vs+LG+UK+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense vs LG UK 2026&quot;</a></td></tr><tr><td>🇩🇪 DE</td><td>Growing TCL/Hisense alternative search demand</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=Hisense+vs+LG+Deutschland+TV+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense vs LG Deutschland TV 2026&quot;</a></td></tr><tr><td>🇫🇷 FR</td><td>Value TV alternative search demand</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=Hisense+vs+LG+avis+France+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense vs LG avis France 2026&quot;</a></td></tr><tr><td>🇪🇸 ES</td><td>High Chinese brand visibility in coupon/deal channels</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=TCL+Hisense+ofertas+TV+Espana+2026" target="_blank" rel="noopener">Unverified source — search: &quot;TCL Hisense ofertas TV Espana 2026&quot;</a></td></tr><tr><td>🇮🇹 IT</td><td>Hisense/TCL simultaneous exposure in price comparison market</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=Hisense+TCL+vs+LG+Italia+TV+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense TCL vs LG Italia TV 2026&quot;</a></td></tr><tr><td>🇧🇷 BR</td><td>Increasing Chinese brand comparison posts in deal communities</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=Hisense+TCL+Brasil+TV+promo%C3%A7%C3%A3o+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense TCL Brasil TV promoção 2026&quot;</a></td></tr><tr><td>🇲🇽 MX</td><td>Chinese brand reach expanding through Liverpool discount events</td><td>🔴</td><td><a href="https://www.informabtl.com/liverpool-remata-todas-las-pantallas-al-50-de-descuento-hay-samsung-lg-tcl-hisense-y-mas-del-3-al-15-de-febrero/4/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇨🇱 CL</td><td>Alternative purchase possibility persisting based on price tracking</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=Hisense+TCL+Chile+ofertas+TV+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense TCL Chile ofertas TV 2026&quot;</a></td></tr><tr><td>🇹🇭 TH</td><td>High visibility of low-cost alternatives on online marketplaces</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=Hisense+TCL+%E0%B8%97%E0%B8%B5%E0%B8%A7%E0%B8%B5+%E0%B9%84%E0%B8%97%E0%B8%A2+%E0%B9%82%E0%B8%9B%E0%B8%A3+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense TCL ทีวี ไทย โปร 2026&quot;</a></td></tr><tr><td>🇦🇺 AU</td><td>High Hisense visibility in large screen segment</td><td>🔴</td><td><a href="https://www.news.com.au/checkout/sales-and-deals/sales-and-deals-of-the-week/harvey-norman-catalogue-best-deals/news-story/b17b8d300f6990e0e99e270017e3cf03" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇹🇼 TW</td><td>Entry-level demand churn risk expanding due to growing Chinese brand comparison searches</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=%E6%B5%B7%E4%BF%A1+TCL+vs+LG+%E9%9B%BB%E8%A6%96+%E5%8F%B0%E7%81%A3+2026" target="_blank" rel="noopener">Unverified source — search: &quot;海信 TCL vs LG 電視 台灣 2026&quot;</a></td></tr><tr><td>🇸🇬 SG</td><td>Price competition-type substitution possibility within Lazada</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=Hisense+TCL+Singapore+TV+deal+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense TCL Singapore TV deal 2026&quot;</a></td></tr><tr><td>🇪🇬 EG</td><td>TCL equivalent SKU exposure within Jumia</td><td>🟡</td><td><a href="https://www.jumia.com.eg/catalog/productspecifications/sku/GE810SL2OH6CHNAFAMZ/" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇸🇦 SA</td><td>High comparison shopping intensity within Noon</td><td>🔴</td><td><a href="https://www.noon.com/saudi-ar/75-inch-lg-qned-qned86-4k-smart-tv-ai-magic-remote-hdr10-webos24-2024-120hz-built-in-receiver-2-years-warranty-75qned86t6a-black/N70080397V/p/" target="_blank" rel="noopener">🔗 Source</a> / ❓<a href="https://www.google.com/search?q=Hisense+vs+LG+%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9+%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Hisense vs LG السعودية تلفزيون 2026&quot;</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-30" class="section-title">4. Chinese Brand Threat Report</h2>
+<h3 id="sec-31" class="sub-title key-insight-banner">Key Insight</h3>
+<ul><li>TCL targets the volume zone while Hisense targets the lower-premium segment, simultaneously pressuring LG&#39;s new customer acquisition channels from both sides.</li><li>If this dual pressure continues, LG&#39;s <code>mid-price segment market share</code> will likely decline first, regardless of its premium image maintenance.</li><li>The defense core is not across-the-board price cuts but <code>productizing value propositions with quantifiable metrics (warranty period, installation speed, service SLA)</code>.</li></ul>
+<h3 id="sec-32" class="sub-title action-required-banner">Action Required</h3>
+<ol><li>Design monthly joint promotions with retail partners in 🇺🇸 US/🇸🇦 SA/🇦🇺 AU to clearly differentiate LG-exclusive benefits (installation/warranty/gifts).</li><li>Attach <code>Total Cost of Ownership (TCO)</code> messaging to core TV SKUs to clearly convey that maintenance cost/service benefits are superior even if initial purchase price is higher.</li><li>In segments with large gaps vs Chinese brands, prominently place second-best SKUs (value-oriented LG models) to absorb churning customers within the internal lineup.</li></ol>
+<h3 id="sec-33" class="sub-title">4.1 Brand-by-Brand Analysis</h3>
+<div class="table-wrap"><table><thead><tr><th>Brand</th><th>Product</th><th>Country</th><th>Activity</th><th>Threat</th><th>Source</th></tr></thead><tbody><tr><td>TCL</td><td>TV</td><td>🇺🇸 US</td><td>65&quot; ultra-low-price volume zone strategy</td><td>🔴</td><td><a href="https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>Hisense</td><td>TV</td><td>🇺🇸 US</td><td>U8QG discount eroding lower-premium segment</td><td>🔴</td><td><a href="https://www.bestbuy.com/product/hisense-65-class-u8-series-mini-led-qled-uhd-4k-smart-google-tv-2025/J3Z9Z42YKK" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>Hisense</td><td>TV</td><td>🇦🇺 AU</td><td>Large screen promotion visibility</td><td>🟡</td><td><a href="https://www.news.com.au/checkout/sales-and-deals/sales-and-deals-of-the-week/harvey-norman-catalogue-best-deals/news-story/b17b8d300f6990e0e99e270017e3cf03" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>Haier/Midea</td><td>Appliance</td><td>🇦🇺 AU/🇧🇷 BR</td><td>Sustained alternative appliance value positioning</td><td>🟡</td><td>❓<a href="https://www.google.com/search?q=Haier+Midea+appliance+promotion+Australia+Brazil+2026" target="_blank" rel="noopener">Unverified source — search: &quot;Haier Midea appliance promotion Australia Brazil 2026&quot;</a></td></tr></tbody></table></div>
+<h3 id="sec-34" class="sub-title">4.2 Chinese Brand Price War Map (Key Countries)</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Product</th><th>Chinese Model</th><th>Price</th><th>LG Equivalent</th><th>LG Price</th><th>Gap</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>65&quot; TV</td><td>TCL QM6K</td><td>$529.99</td><td>LG C5 65</td><td>$1,399.99</td><td>2.64x</td><td><a href="https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.bestbuy.com/product/lg-65-class-c5-series-oled-evo-ai-4k-uhd-smart-webos-tv-2025/JJ8VPZTRG6" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇺🇸 US</td><td>65&quot; TV</td><td>Hisense U8QG</td><td>$859.99</td><td>LG C5 65</td><td>$1,399.99</td><td>1.63x</td><td><a href="https://www.bestbuy.com/product/hisense-65-class-u8-series-mini-led-qled-uhd-4k-smart-google-tv-2025/J3Z9Z42YKK" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.bestbuy.com/product/lg-65-class-c5-series-oled-evo-ai-4k-uhd-smart-webos-tv-2025/JJ8VPZTRG6" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇪🇬 EG</td><td>65&quot; TV</td><td>TCL 65P7K</td><td>EGP 25,899</td><td>LG 65UA84006L</td><td>EGP 24,499</td><td>LG slight advantage</td><td><a href="https://www.jumia.com.eg/catalog/productspecifications/sku/GE810SL2OH6CHNAFAMZ/" target="_blank" rel="noopener">🔗 Source</a> / <a href="https://www.carrefouregypt.com/mafegy/en/uhd-tv/lg-led-tv-65-65ua84006lb-4k-sm-rc/p/664707" target="_blank" rel="noopener">🔗 Source</a></td></tr><tr><td>🇸🇦 SA</td><td>75&quot; TV</td><td>Hisense 75&quot; equivalent price competition zone</td><td>❓</td><td>LG QNED86 75</td><td>SAR 4,299</td><td>❓</td><td><a href="https://www.noon.com/saudi-ar/75-inch-lg-qned-qned86-4k-smart-tv-ai-magic-remote-hdr10-webos24-2024-120hz-built-in-receiver-2-years-warranty-75qned86t6a-black/N70080397V/p/" target="_blank" rel="noopener">🔗 Source</a></td></tr></tbody></table></div>
+<h3 id="sec-35" class="sub-title">4.3 Strategic Summary</h3>
+<ul><li>Most aggressive Chinese brand this week: <strong>TCL (🇺🇸 US)</strong>, reason: anchoring volume zone price at US$529.99 for the 65&quot; segment. <a href="https://www.bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQW5K" target="_blank" rel="noopener">🔗 Source</a></li><li>Highest risk markets: <strong>🇺🇸 US/🇸🇦 SA/🇦🇺 AU</strong> (high price sensitivity + strong comparison shopping).</li><li>Next week monitoring priorities: 1) 🇺🇸 US 65&quot; price gap, 2) 🇲🇽 MX large retail events, 3) 🇸🇦 SA Noon price movements, 4) 🇪🇬 EG Jumia equivalent SKU repricing.</li></ul>
+<hr class="section-divider" />
+<h2 id="sec-36" class="section-title">5. Week-over-Week Trend</h2>
+<h3 id="sec-37" class="sub-title key-insight-banner">Key Insight</h3>
+<ul><li>Week 1 data confirmed that revenue levers differ by country: in some countries pricing drives conversion, while in others service is the deciding factor.</li><li>Starting next week, what matters is not the metrics themselves but how quickly <code>why conversion/returns/cancellations changed</code> can be interpreted and connected to commercial actions.</li><li>W-o-W should be used as an <code>alert system for immediate execution decisions</code>, not as a performance narrative, to drive actual revenue improvement.</li></ul>
+<h3 id="sec-38" class="sub-title action-required-banner">Action Required</h3>
+<ol><li>Set 3 thresholds per country for <code>conversion rate decline/cancellation rate increase/return rate increase</code>, and execute same-day commercial response (coupons/bundles/service calls) when exceeded.</li><li>In W-o-W reviews, classify metric movement causes into <code>pricing/exposure/service</code> axes and immediately assign to responsible organizations.</li><li>Fix twice-weekly reviews for Critical countries to recover weekend deal churn demand on the next business day.</li></ol>
+<blockquote>Week 1 baseline establishment week.</blockquote>
+<div class="table-wrap"><table><thead><tr><th>Metric</th><th>W-4</th><th>W-3</th><th>W-2</th><th>W-1</th><th>This Week</th><th>Trend</th></tr></thead><tbody><tr><td>LG Positive Consumer Response (Country-level)</td><td>—</td><td>—</td><td>—</td><td>—</td><td>10</td><td>→</td></tr><tr><td>LG Negative Consumer Response (Country-level)</td><td>—</td><td>—</td><td>—</td><td>—</td><td>6</td><td>→</td></tr><tr><td>Chinese Brand Threat Signal Countries</td><td>—</td><td>—</td><td>—</td><td>—</td><td>16</td><td>→</td></tr><tr><td>LG Promotion Detection Countries</td><td>—</td><td>—</td><td>—</td><td>—</td><td>16</td><td>→</td></tr><tr><td>Competitor Aggressive Promotion Countries</td><td>—</td><td>—</td><td>—</td><td>—</td><td>13</td><td>→</td></tr><tr><td>Critical Countries</td><td>—</td><td>—</td><td>—</td><td>—</td><td>🇺🇸 US, 🇩🇪 DE, 🇲🇽 MX, 🇦🇺 AU, 🇸🇦 SA</td><td>—</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-39" class="section-title">Appendix A: Data Sources &amp; Coverage</h2>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Consumer Sources</th><th>Retail Sources</th><th>Deal/Community</th><th>Coverage ⭐</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>Trustpilot, Reddit</td><td>Best Buy, LG.com</td><td>Tech media/deal trackers</td><td>⭐⭐⭐⭐⭐</td></tr><tr><td>🇨🇦 CA</td><td>LG.ca</td><td>LG.ca promo</td><td>Flyer/price search</td><td>⭐⭐⭐⭐</td></tr><tr><td>🇬🇧 UK</td><td>Trustpilot</td><td>(Search-based)</td><td>HotUKDeals search link</td><td>⭐⭐⭐</td></tr><tr><td>🇩🇪 DE</td><td>—</td><td>MediaMarkt</td><td>MyDealz search link</td><td>⭐⭐⭐⭐</td></tr><tr><td>🇫🇷 FR</td><td>—</td><td>Darty/Fnac articles</td><td>Dealabs search link</td><td>⭐⭐⭐</td></tr><tr><td>🇪🇸 ES</td><td>—</td><td>MediaMarkt ES articles</td><td>Chollo community</td><td>⭐⭐⭐</td></tr><tr><td>🇮🇹 IT</td><td>—</td><td>Unieuro</td><td>Trovaprezzi</td><td>⭐⭐⭐⭐</td></tr><tr><td>🇧🇷 BR</td><td>—</td><td>MercadoLivre-based articles</td><td>Pelando</td><td>⭐⭐⭐⭐</td></tr><tr><td>🇲🇽 MX</td><td>—</td><td>Liverpool</td><td>MercadoLibre tracking</td><td>⭐⭐⭐</td></tr><tr><td>🇨🇱 CL</td><td>—</td><td>Falabella affiliate price tracking</td><td>—</td><td>⭐⭐⭐</td></tr><tr><td>🇹🇭 TH</td><td>—</td><td>LG Subscribe</td><td>Pantip/marketplace search</td><td>⭐⭐</td></tr><tr><td>🇦🇺 AU</td><td>—</td><td>Harvey Norman/Costco</td><td>OzBargain</td><td>⭐⭐⭐⭐</td></tr><tr><td>🇹🇼 TW</td><td>—</td><td>(Search-based)</td><td>PTT/PChome search</td><td>⭐⭐</td></tr><tr><td>🇸🇬 SG</td><td>—</td><td>Lazada SG</td><td>HWZ search</td><td>⭐⭐</td></tr><tr><td>🇪🇬 EG</td><td>—</td><td>Jumia/Carrefour</td><td>—</td><td>⭐⭐⭐</td></tr><tr><td>🇸🇦 SA</td><td>—</td><td>Noon SA</td><td>—</td><td>⭐⭐⭐</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-40" class="section-title">Appendix B: Methodology &amp; Limitations</h2>
+<ul><li>Collection scope: Centered on 2026-02-07 ~ 2026-02-13, with some markets supplemented by last 30 days of supporting evidence.</li><li>Link rules: Actual page links prioritized; Google search URLs used when unavailable.</li><li>Limitations:</li></ul>
+<p>- Limited real-time deal community indexing for some countries (TW/TH/SG/UK). - OpenClaw real-time auto-collection operates in supplementary mode due to API rate limits. - This R2 meets 16-country coverage, but data reliability variance exists across countries.</p>
+<p>Data Freshness Indicator:</p>
+<ul><li>✅ Evidence from last 7 days</li><li>⚠️ Supplementary evidence from 8~30 days ago</li><li>❓ Search URL-based (direct page verification incomplete)</li></ul>
+<hr class="section-divider" />
+<h2 id="sec-41" class="section-title">Appendix C: Glossary</h2>
+<div class="table-wrap"><table><thead><tr><th>Term</th><th>Full Name</th><th>Description</th></tr></thead><tbody><tr><td>VOC</td><td>Voice of Customer</td><td>Customer feedback data</td></tr><tr><td>D2C</td><td>Direct to Consumer</td><td>Direct-to-consumer sales</td></tr><tr><td>W-o-W</td><td>Week over Week</td><td>Week-over-week comparison</td></tr><tr><td>MS</td><td>Media Entertainment Solution</td><td>TV business division</td></tr><tr><td>HS</td><td>Home appliance solution</td><td>Home appliance division</td></tr></tbody></table></div>
+      </section>
+      <footer class="foot">Generated for executive sharing · LG Global D2C Weekly Intelligence</footer>
+    </main>
+  </div>
+  <script>
+    (function () {
+      const tocLinks = Array.from(document.querySelectorAll('.toc-panel a[href^="#"]'));
+      if (!tocLinks.length) return;
+
+      const linkById = new Map();
+      tocLinks.forEach((link) => {
+        const id = (link.getAttribute('href') || '').slice(1);
+        if (id) linkById.set(id, link);
+      });
+
+      function setActive(id) {
+        tocLinks.forEach((l) => l.classList.remove('is-active'));
+        const target = linkById.get(id);
+        if (target) target.classList.add('is-active');
+      }
+
+      const headings = Array.from(linkById.keys())
+        .map((id) => document.getElementById(id))
+        .filter(Boolean);
+
+      if (!headings.length) return;
+      setActive(headings[0].id);
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const visible = entries
+            .filter((e) => e.isIntersecting)
+            .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+          if (visible.length) setActive(visible[0].target.id);
+        },
+        { root: null, rootMargin: '-22% 0px -64% 0px', threshold: [0, 1] }
+      );
+
+      headings.forEach((h) => observer.observe(h));
+
+      tocLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          const id = (link.getAttribute('href') || '').slice(1);
+          if (id) setActive(id);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
