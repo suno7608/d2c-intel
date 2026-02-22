@@ -1,0 +1,17 @@
+# D2C Intel - GitHub Actions Pipeline Dependencies
+# =================================================
+
+# --- Core: Brave Search data collection ---
+requests>=2.31.0
+
+# --- Core: Claude API for report generation & translation ---
+anthropic>=0.42.0
+
+# --- Config: YAML query definitions ---
+pyyaml>=6.0.1
+
+# --- Email: Report delivery ---
+sendgrid>=6.11.0
+
+# --- Playwright: PDF generation (installed via npx, not pip) ---
+# npx playwright install chromium --with-deps
