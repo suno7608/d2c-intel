@@ -438,7 +438,8 @@ function buildHtml({ title, subtitle, period, body, toc, lang }) {
     }
     .chart-container canvas {
       width: 100% !important;
-      height: auto !important;
+      min-height: 300px;
+      height: 400px !important;
     }
 
     .table-wrap {
