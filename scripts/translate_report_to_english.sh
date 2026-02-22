@@ -224,19 +224,19 @@ check_translation_quality() {
   local source="$1"
   local target="$2"
 
-  if grep -q "translated" "$target"; then
+  if grep -qw "translated" "$target"; then
     echo "translation quality gate failed: literal token 'translated' found" >&2
     return 1
   fi
 
-  if [[ "${ALLOW_EN_HANGUL:-0}" != "1" ]] && grep -q "[가-힣]" "$target"; then
+  if [[ "${ALLOW_EN_HANGUL:-0}" != "1" ]] && grep -qP "[가-힣]" "$target"; then
     echo "translation quality gate failed: Hangul detected in English markdown" >&2
     return 1
   fi
 
   local src_link_count out_link_count
-  src_link_count=$(grep -c '🔗 Source' "$source" 2>/dev/null || echo 0)
-  out_link_count=$(grep -c '🔗 Source' "$target" 2>/dev/null || echo 0)
+  src_link_count=$(grep -oP "\[🔗 Source\]\(" "$source" | wc -l | tr -d ' ')
+  out_link_count=$(grep -oP "\[🔗 Source\]\(" "$target" | wc -l | tr -d ' ')
   if [[ "${src_link_count:-0}" -gt 0 ]] && [[ "${out_link_count:-0}" -lt "${src_link_count:-0}" ]]; then
     echo "translation quality gate failed: source link count decreased (${src_link_count} -> ${out_link_count})" >&2
     return 1
