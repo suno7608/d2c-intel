@@ -59,6 +59,9 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Install ripgrep
+        run: sudo apt-get install -y ripgrep
+
       - name: Install Playwright (Chromium for PDF)
         run: |
           npm install playwright
@@ -124,6 +127,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL_TRANSLATE }}
+          CLAUDE_MODEL_TRANSLATE: ${{ vars.CLAUDE_MODEL_TRANSLATE }}
           CLAUDE_TRANSLATE_RUNNER: "python3 scripts/d2c_translator.py"
         run: |
           echo "::group::Build Publishable Report"
