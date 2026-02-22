@@ -160,7 +160,7 @@ PY
 translation_ok=0
 
 if [[ -n "${CLAUDE_TRANSLATE_RUNNER:-}" ]]; then
-  if "$CLAUDE_TRANSLATE_RUNNER" "$PROMPT_FILE" "$SOURCE_MD" "$OUTPUT_MD"; then
+  if $CLAUDE_TRANSLATE_RUNNER "$PROMPT_FILE" "$SOURCE_MD" "$OUTPUT_MD"; then
     translation_ok=1
   fi
 else
