@@ -214,7 +214,7 @@ def format_data_samples(records: List[dict], max_per_group: int = 3) -> str:
     """국가/제품별 대표 데이터 샘플을 포맷합니다."""
     groups: Dict[Tuple[str, str], List[dict]] = defaultdict(list)
     for r in records:
-        key = (r.get("country", "?"), r.get("product", "?"))
+        key = (r.get("country") or "?", r.get("product") or "?")
         groups[key].append(r)
 
     lines = ["## 국가/제품별 주요 데이터 샘플 (월간 통합)\n"]
@@ -226,11 +226,11 @@ def format_data_samples(records: List[dict], max_per_group: int = 3) -> str:
             flag = COUNTRY_FLAG.get(country, "")
             lines.append(f"\n### {flag} {country} - {product} ({len(group)}건)")
             for r in group[:max_per_group]:
-                brand = r.get("brand", "?")
-                signal = r.get("signal_type", "?")
-                value = r.get("value", "")[:200]
-                url = r.get("source_url", "")
-                confidence = r.get("confidence", "?")
+                brand = r.get("brand") or "?"
+                signal = r.get("signal_type") or "?"
+                value = (r.get("value") or "")[:200]
+                url = r.get("source_url") or ""
+                confidence = r.get("confidence") or "?"
                 lines.append(
                     f"- [{brand}] ({signal}, {confidence}) {value}"
                     + (f" [🔗]({url})" if url else "")

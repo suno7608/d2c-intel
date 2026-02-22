@@ -184,16 +184,16 @@ def compute_weekly_breakdown(
         pillars = Counter(r.get("pillar", "?") for r in records)
         brands = Counter(r.get("brand", "?") for r in records)
 
-        chinese_records = [r for r in records if r.get("brand", "").lower() in CHINESE_BRANDS]
+        chinese_records = [r for r in records if (r.get("brand") or "").lower() in CHINESE_BRANDS]
         negative_kw = {"complaint", "problem", "issue", "broken", "refund", "negative"}
         negative_records = [
             r for r in records
-            if any(kw in (r.get("signal_type", "") + r.get("quote_original", "")).lower()
+            if any(kw in ((r.get("signal_type") or "") + (r.get("quote_original") or "")).lower()
                    for kw in negative_kw)
         ]
         promo_records = [
             r for r in records
-            if any(kw in (r.get("signal_type", "") + r.get("pillar", "")).lower()
+            if any(kw in ((r.get("signal_type") or "") + (r.get("pillar") or "")).lower()
                    for kw in {"promo", "promotion", "deal", "discount", "retail channel"})
         ]
 
@@ -232,16 +232,16 @@ def compute_monthly_aggregate(
     pillars = Counter(r.get("pillar", "?") for r in all_records)
     brands = Counter(r.get("brand", "?") for r in all_records)
 
-    chinese_records = [r for r in all_records if r.get("brand", "").lower() in CHINESE_BRANDS]
+    chinese_records = [r for r in all_records if (r.get("brand") or "").lower() in CHINESE_BRANDS]
     negative_kw = {"complaint", "problem", "issue", "broken", "refund", "negative"}
     negative_records = [
         r for r in all_records
-        if any(kw in (r.get("signal_type", "") + r.get("quote_original", "")).lower()
+        if any(kw in ((r.get("signal_type") or "") + (r.get("quote_original") or "")).lower()
                for kw in negative_kw)
     ]
     promo_records = [
         r for r in all_records
-        if any(kw in (r.get("signal_type", "") + r.get("pillar", "")).lower()
+        if any(kw in ((r.get("signal_type") or "") + (r.get("pillar") or "")).lower()
                for kw in {"promo", "promotion", "deal", "discount", "retail channel"})
     ]
 
