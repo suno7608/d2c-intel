@@ -228,7 +228,7 @@ def format_data_samples(records: List[dict], max_per_group: int = 3) -> str:
             for r in group[:max_per_group]:
                 brand = r.get("brand") or "?"
                 signal = r.get("signal_type") or "?"
-                value = (r.get("value") or "")[:200]
+                value = str(r.get("value") or "")[:200]
                 url = r.get("source_url") or ""
                 confidence = r.get("confidence") or "?"
                 lines.append(
