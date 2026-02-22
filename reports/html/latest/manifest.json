@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-02-16T10:08:29.218Z",
-  "total_weeks": 2,
-  "latest_week": "2026-02-16",
+  "generated_at": "2026-02-22T08:09:27.261Z",
+  "total_weeks": 3,
+  "latest_week": "2026-02-22",
   "weeks": [
+    {
+      "week": "2026-02-22",
+      "report_period": {
+        "start": null,
+        "end": null
+      },
+      "version": "Weekly Vol.2026-02-22-R2",
+      "generated_at": "2026-02-22T08:09:27.230Z",
+      "metrics": {
+        "covered_countries": 13,
+        "lg_promotion_signals": 263,
+        "competitor_promotion_signals": 8,
+        "chinese_threat_signals": 11,
+        "consumer_negative_countries": 2,
+        "critical_country_count": 3
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)",
+        "🇧🇷 브라질 (BR)"
+      ],
+      "executive_key_insights": [
+        "**데이터 수집량 3배 증가(220→646건)**: 중국 브랜드 위협 추적 강화와 Presidents Day 세일 기간 프로모션 급증으로 전주 대비 인텔리전스 커버리지가 대폭 확대되어 시장 모니터링 정밀도가 향상됨",
+        "**TV 비율 29%로 개선된 제품 균형**: 냉장고(25%)·세탁기(25%)·모니터(13%)·gram(9%) 데이터가 고르게 수집되어 HS 사업부 인사이트 확보가 전주(TV 43%) 대비 크게 개선됨",
+        "**중국 브랜드 공세 심화**: Midea/Haier 가전 브랜드가 브라질·독일·이탈리아에서 공격적 가격 할인과 유통 확대를 병행, LG 생활가전 점유율 방어 필요성 대두"
+      ],
+      "links": {
+        "html": "./2026-02-22/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-22_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-02-22_R2_16country.md",
+        "share": "./2026-02-22/share.html"
+      }
+    },
     {
       "week": "2026-02-16",
       "report_period": {
