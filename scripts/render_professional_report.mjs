@@ -583,7 +583,7 @@ function buildHtml({ title, subtitle, period, body, toc, lang }) {
       });
     })();
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.7/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <script>
     // Chart.js rendering for <!-- CHART:xxx --> markers
     (function() {
