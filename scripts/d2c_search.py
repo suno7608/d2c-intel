@@ -58,6 +58,23 @@ COUNTRY_BRAVE_MAP = {
     "SA": "sa",
 }
 
+# Brave API가 지원하지 않는 국가 → 인접/유사 지역으로 fallback
+# Brave Search에서 확인된 미지원 국가: th, sg, eg
+# fallback 국가도 미지원이면 영어 쿼리로 us에서 검색
+COUNTRY_FALLBACK_MAP = {
+    "th": "us",   # Thailand → US (영어 쿼리로 대체)
+    "sg": "us",   # Singapore → US (영어 쿼리로 대체)
+    "eg": "us",   # Egypt → US (영어 쿼리로 대체)
+    "sa": "ae",   # Saudi Arabia → UAE (필요시)
+    "cl": "mx",   # Chile → Mexico (같은 스페인어권)
+}
+
+# 미지원 국가의 쿼리를 영어로 대체 (현지어 쿼리가 422 원인일 수 있음)
+COUNTRY_FORCE_ENGLISH = {"th", "sg", "eg"}
+
+# 422 에러가 발생한 국가 코드를 기억하여 반복 실패 방지
+_unsupported_countries: set = set()
+
 PILLAR_MAP = {
     "consumer_sentiment": "Consumer Sentiment",
     "retail_channel_promotion": "Retail Channel Promotions",
@@ -94,9 +111,19 @@ class BraveSearchCollector:
         self.quota_exhausted = False
 
     def search(self, query: str, country: str = "us", count: int = 10) -> List[dict]:
-        """Brave Search API 호출 (재시도 + 연속 429 감지 포함)."""
+        """Brave Search API 호출 (재시도 + 연속 429 감지 + 422 즉시 스킵 포함)."""
         if self.quota_exhausted:
             return []
+
+        # 이미 422로 실패한 국가는 즉시 fallback
+        if country in _unsupported_countries:
+            fallback = COUNTRY_FALLBACK_MAP.get(country)
+            if fallback and fallback not in _unsupported_countries:
+                logger.info(f"Using fallback country {country}→{fallback} for query: '{query}'")
+                country = fallback
+            else:
+                logger.debug(f"Skipping unsupported country {country}")
+                return []
 
         params = {
             "q": query,
@@ -112,6 +139,33 @@ class BraveSearchCollector:
                 time.sleep(self.rate_delay)
                 resp = self.session.get(BRAVE_SEARCH_URL, params=params, timeout=15)
                 self.total_api_calls += 1
+
+                if resp.status_code == 422:
+                    # 422: 국가 코드 미지원 등 영구적 에러 → 재시도 무의미
+                    _unsupported_countries.add(country)
+                    logger.warning(
+                        f"422 Unprocessable Entity for country={country}. "
+                        f"Marked as unsupported. Trying fallback..."
+                    )
+                    fallback = COUNTRY_FALLBACK_MAP.get(country)
+                    if fallback and fallback not in _unsupported_countries:
+                        logger.info(f"Retrying with fallback country: {country}→{fallback}")
+                        params["country"] = fallback
+                        time.sleep(self.rate_delay)
+                        resp = self.session.get(BRAVE_SEARCH_URL, params=params, timeout=15)
+                        self.total_api_calls += 1
+                        if resp.status_code == 422:
+                            _unsupported_countries.add(fallback)
+                            logger.warning(f"Fallback {fallback} also unsupported")
+                            return []
+                        elif resp.status_code == 429:
+                            pass  # 429 처리 아래에서
+                        else:
+                            resp.raise_for_status()
+                            data = resp.json()
+                            return data.get("web", {}).get("results", [])
+                    else:
+                        return []
 
                 if resp.status_code == 429:
                     self.consecutive_429_count += 1
@@ -142,6 +196,11 @@ class BraveSearchCollector:
                 logger.warning(f"Timeout for query '{query}' [{attempt}/{self.max_retries}]")
                 time.sleep(self.retry_delay)
             except requests.exceptions.RequestException as e:
+                if "422" in str(e):
+                    # raise_for_status에서 발생한 422
+                    _unsupported_countries.add(country)
+                    logger.warning(f"422 error caught for country={country}, marked unsupported")
+                    return []
                 logger.error(f"Request error for query '{query}': {e} [{attempt}/{self.max_retries}]")
                 time.sleep(self.retry_delay)
 
@@ -282,8 +341,18 @@ class BraveSearchCollector:
         product = product_cfg["name"]
         queries = product_cfg.get("queries", {})
 
-        # 해당 언어의 쿼리 선택 (없으면 en fallback)
-        lang_queries = queries.get(lang, queries.get("en", []))
+        # 미지원 국가는 영어 쿼리로 강제 전환 + fallback 국가 사용
+        if brave_country in COUNTRY_FORCE_ENGLISH or brave_country in _unsupported_countries:
+            lang_queries = queries.get("en", [])
+            fallback = COUNTRY_FALLBACK_MAP.get(brave_country, "us")
+            if fallback not in _unsupported_countries:
+                brave_country = fallback
+            else:
+                brave_country = "us"
+            logger.info(f"  → {country}: using English queries via country={brave_country}")
+        else:
+            # 해당 언어의 쿼리 선택 (없으면 en fallback)
+            lang_queries = queries.get(lang, queries.get("en", []))
 
         # Tier별 쿼리 수 제한 (max_queries 가 지정되면 그 값 사용)
         if max_queries > 0:
@@ -316,7 +385,13 @@ class BraveSearchCollector:
         product = product_cfg["name"]
         brands = pillar_cfg.get("brands", [])
         patterns = pillar_cfg.get("query_patterns", {})
-        lang_patterns = patterns.get(lang, patterns.get("en", []))
+
+        # 미지원 국가는 영어 패턴 + fallback 국가 사용
+        if brave_country in COUNTRY_FORCE_ENGLISH or brave_country in _unsupported_countries:
+            lang_patterns = patterns.get("en", [])
+            brave_country = COUNTRY_FALLBACK_MAP.get(brave_country, "us")
+        else:
+            lang_patterns = patterns.get(lang, patterns.get("en", []))
 
         # 중국 브랜드 - TV: TCL/Hisense, 가전: Haier/Midea
         relevant_brands = []
