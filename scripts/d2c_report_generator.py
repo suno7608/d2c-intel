@@ -323,12 +323,14 @@ def generate_report_with_claude(
     logger.info(f"User prompt: {len(user_prompt)} chars")
 
     try:
-        response = client.messages.create(
+        # Streaming to avoid SDK 10-min timeout on large outputs
+        with client.messages.stream(
             model=model,
             max_tokens=16000,
             system=system_prompt,
             messages=[{"role": "user", "content": user_prompt}],
-        )
+        ) as stream:
+            response = stream.get_final_message()
     except anthropic.APIError as e:
         logger.error(f"Claude API error: {e}")
         raise

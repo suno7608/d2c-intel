@@ -69,11 +69,13 @@ Output markdown only."""
     client = anthropic.Anthropic(api_key=api_key)
 
     try:
-        response = client.messages.create(
+        # Streaming to avoid SDK 10-min timeout on large outputs
+        with client.messages.stream(
             model=model,
             max_tokens=16000,
             messages=[{"role": "user", "content": user_prompt}],
-        )
+        ) as stream:
+            response = stream.get_final_message()
     except anthropic.APIError as e:
         print(f"Claude API error: {e}", file=sys.stderr)
         sys.exit(1)

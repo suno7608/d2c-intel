@@ -334,12 +334,14 @@ Chart.js 데이터 블록을 차트 마커 위치에 삽입하세요.
     logger.info(f"User prompt: {len(user_prompt)} chars")
 
     try:
-        response = client.messages.create(
+        # Streaming required for large max_tokens (SDK enforces 10-min limit)
+        with client.messages.stream(
             model=model,
             max_tokens=32000,
             system=system_prompt,
             messages=[{"role": "user", "content": user_prompt}],
-        )
+        ) as stream:
+            response = stream.get_final_message()
     except anthropic.APIError as e:
         logger.error(f"Claude API error: {e}")
         raise
