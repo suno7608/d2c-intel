@@ -132,6 +132,7 @@ jobs:
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL_TRANSLATE }}
           CLAUDE_MODEL_TRANSLATE: ${{ vars.CLAUDE_MODEL_TRANSLATE }}
           CLAUDE_TRANSLATE_RUNNER: "${{ github.workspace }}/scripts/d2c_translator.py"
+          NODE_OPTIONS: "--max-old-space-size=4096"
         run: |
           echo "::group::Build Publishable Report"
           bash scripts/build_publishable_report.sh ${{ env.DATE_KEY }}
