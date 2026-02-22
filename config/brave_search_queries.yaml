@@ -1,0 +1,226 @@
+# ============================================================
+# D2C Intel — Brave Search Query Configuration (v1.0)
+# ============================================================
+# 참조: prompts/openclaw_collection_brief.md
+# 이 파일은 scripts/d2c_search.py가 로드하여 Brave Search API 쿼리를 생성합니다.
+# ============================================================
+
+# --- 국가 설정 ---
+countries:
+  # Tier 1 (국가당 10건+ 목표)
+  - code: US
+    lang: en
+    tier: 1
+    search_lang: en
+  - code: UK
+    lang: en
+    tier: 1
+    search_lang: en
+  - code: DE
+    lang: de
+    tier: 1
+    search_lang: de
+  - code: AU
+    lang: en
+    tier: 1
+    search_lang: en
+  - code: BR
+    lang: pt
+    tier: 1
+    search_lang: pt-BR
+
+  # Tier 2 (국가당 7-10건 목표)
+  - code: CA
+    lang: en
+    tier: 2
+    search_lang: en
+  - code: FR
+    lang: fr
+    tier: 2
+    search_lang: fr
+  - code: IT
+    lang: it
+    tier: 2
+    search_lang: it
+  - code: ES
+    lang: es
+    tier: 2
+    search_lang: es
+  - code: TH
+    lang: th
+    tier: 2
+    search_lang: th
+  - code: SA
+    lang: ar
+    tier: 2
+    search_lang: en
+
+  # Tier 3 (국가당 5-7건 목표)
+  - code: MX
+    lang: es
+    tier: 3
+    search_lang: es
+  - code: CL
+    lang: es
+    tier: 3
+    search_lang: es
+  - code: TW
+    lang: zh
+    tier: 3
+    search_lang: zh-TW
+  - code: SG
+    lang: en
+    tier: 3
+    search_lang: en
+  - code: EG
+    lang: ar
+    tier: 3
+    search_lang: en
+
+# --- 제품 설정 ---
+products:
+  - name: TV
+    subcategories: [OLED, QNED, UHD]
+    min_records: 80
+    max_ratio: 0.45
+    queries:
+      en: ["LG OLED TV deal", "LG QNED TV price", "LG UHD TV review", "TCL Mini LED price", "Hisense TV deal"]
+      de: ["LG OLED Fernseher Angebot", "Hisense TV Preis", "TCL TV Angebot"]
+      fr: ["LG TV OLED promo", "TCL TV prix", "Hisense TV offre"]
+      es: ["LG televisor OLED oferta", "Hisense TV precio", "TCL TV oferta"]
+      it: ["LG OLED TV offerta", "TCL TV prezzo", "Hisense TV offerta"]
+      pt: ["LG TV OLED promoção", "TCL TV preço"]
+      th: ["LG TV ราคา", "TCL TV ราคา", "Hisense ทีวี"]
+      zh: ["LG 電視 優惠", "海信 電視 價格"]
+      ar: ["LG TV price", "Hisense TV deal"]
+
+  - name: Refrigerator
+    subcategories: [French Door, Bottom Freezer, Top Freezer, 4-Door]
+    min_records: 80
+    queries:
+      en: ["LG refrigerator deal", "LG French Door fridge", "Samsung fridge vs LG", "Haier refrigerator price", "Midea fridge review"]
+      de: ["LG Kühlschrank Angebot", "Samsung Kühlschrank", "Haier Kühlschrank Preis"]
+      fr: ["LG réfrigérateur promo", "Haier réfrigérateur France", "Samsung frigo prix"]
+      es: ["LG frigorífico oferta", "Haier frigorífico", "Samsung nevera precio"]
+      it: ["LG frigorifero offerta", "Haier frigorifero", "Samsung frigorifero"]
+      pt: ["LG geladeira promoção", "Midea geladeira preço", "Samsung geladeira"]
+      th: ["LG ตู้เย็น ราคา", "Haier ตู้เย็น", "Midea ตู้เย็น"]
+      zh: ["LG 冰箱 優惠", "海爾 冰箱 台灣", "三星 冰箱"]
+      ar: ["LG refrigerator price", "Haier fridge deal"]
+
+  - name: Washing Machine
+    subcategories: [Front Loader, Top Loader]
+    min_records: 80
+    queries:
+      en: ["LG washing machine deal", "LG front loader review", "Samsung washer vs LG", "Midea washing machine", "Haier washer price"]
+      de: ["LG Waschmaschine Angebot", "Haier Waschmaschine", "Midea Waschmaschine Preis"]
+      fr: ["LG lave-linge promo", "Haier lave-linge France", "Samsung lave-linge"]
+      es: ["LG lavadora oferta", "Midea lavadora", "Samsung lavadora precio"]
+      it: ["LG lavatrice offerta", "Midea lavatrice", "Haier lavatrice"]
+      pt: ["LG máquina lavar promoção", "Midea máquina lavar", "Samsung lavadora"]
+      th: ["LG เครื่องซักผ้า ราคา", "Midea เครื่องซักผ้า", "Haier เครื่องซักผ้า"]
+      zh: ["LG 洗衣機 價格", "海爾 洗衣機", "美的 洗衣機"]
+      ar: ["LG washing machine price", "Haier washer deal"]
+
+  - name: Monitor
+    subcategories: [4K, Gaming Monitor]
+    min_records: 40
+    queries:
+      en: ["LG UltraGear monitor deal", "LG 4K monitor review", "Samsung Odyssey vs LG"]
+      de: ["LG Monitor Angebot", "LG UltraGear Deutschland"]
+      fr: ["LG moniteur gaming", "LG écran 4K prix"]
+      es: ["LG monitor gaming oferta", "LG monitor 4K precio"]
+      it: ["LG monitor gaming offerta", "LG monitor 4K prezzo"]
+      pt: ["LG monitor gamer promoção", "LG monitor 4K"]
+      th: ["LG มอนิเตอร์ ราคา"]
+      zh: ["LG 螢幕 優惠", "LG UltraGear 台灣"]
+      ar: ["LG monitor price", "LG gaming monitor"]
+
+  - name: LG gram
+    subcategories: [Laptop]
+    min_records: 20
+    queries:
+      en: ["LG gram laptop deal", "LG gram 2026 review", "LG gram Aerominum"]
+      de: ["LG gram Angebot Deutschland", "LG gram Laptop Test"]
+      fr: ["LG gram ordinateur portable prix"]
+      es: ["LG gram portátil oferta"]
+      it: ["LG gram portatile offerta"]
+      pt: ["LG gram notebook promoção"]
+      th: ["LG gram แล็ปท็อป"]
+      zh: ["LG gram 優惠 台灣", "LG gram 筆電"]
+      ar: ["LG gram laptop price"]
+
+# --- 인텔리전스 필라 ---
+pillars:
+  - name: Consumer Sentiment
+    id: consumer_sentiment
+    query_suffixes:
+      en: ["review", "complaint", "customer experience", "problem"]
+      de: ["Bewertung", "Beschwerde", "Erfahrung"]
+      fr: ["avis", "plainte", "problème"]
+      es: ["reseña", "queja", "problema"]
+      it: ["recensione", "problema", "esperienza"]
+      pt: ["avaliação", "reclamação", "problema"]
+      th: ["รีวิว", "ปัญหา"]
+      zh: ["評價", "問題"]
+      ar: ["review", "problem"]
+
+  - name: Retail Channel Promotion
+    id: retail_channel_promotion
+    query_suffixes:
+      en: ["deal", "promotion", "discount", "sale", "coupon"]
+      de: ["Angebot", "Rabatt", "Aktion"]
+      fr: ["promo", "réduction", "soldes"]
+      es: ["oferta", "descuento", "promoción"]
+      it: ["offerta", "sconto", "promozione"]
+      pt: ["promoção", "desconto", "oferta"]
+      th: ["โปรโมชั่น", "ลดราคา"]
+      zh: ["優惠", "折扣", "特價"]
+      ar: ["deal", "discount", "offer"]
+
+  - name: Price Intelligence
+    id: price_intelligence
+    query_suffixes:
+      en: ["price", "vs", "comparison", "pricing"]
+      de: ["Preis", "Vergleich", "Preisvergleich"]
+      fr: ["prix", "comparatif", "tarif"]
+      es: ["precio", "comparativa", "comparación"]
+      it: ["prezzo", "confronto", "comparazione"]
+      pt: ["preço", "comparação", "comparativo"]
+      th: ["ราคา", "เปรียบเทียบ"]
+      zh: ["價格", "比較"]
+      ar: ["price", "comparison"]
+
+  - name: Chinese Brand Threat
+    id: chinese_brand_threat
+    brands: [TCL, Hisense, Haier, Midea]
+    query_patterns:
+      en: ["{brand} {product} price", "{brand} {product} review", "{brand} vs LG {product}"]
+      de: ["{brand} {product} Preis", "{brand} vs LG"]
+      fr: ["{brand} {product} prix", "{brand} vs LG"]
+      es: ["{brand} {product} precio"]
+      it: ["{brand} {product} prezzo"]
+      pt: ["{brand} {product} preço"]
+      th: ["{brand} {product} ราคา"]
+      zh: ["{brand} {product} 價格"]
+      ar: ["{brand} {product} price"]
+
+# --- 검색 파라미터 ---
+search_params:
+  count: 10                  # 검색당 결과 수
+  freshness: pw              # 지난 1주일 (past week)
+  results_per_query: 10
+  rate_limit_delay_ms: 500   # API 호출 간 딜레이 (ms)
+  max_retries: 3             # 실패 시 재시도 횟수
+  retry_delay_ms: 2000       # 재시도 간 딜레이 (ms)
+
+# --- 품질 기준 ---
+quality_gates:
+  min_total_records: 400
+  min_countries: 16
+  min_tv: 80
+  min_refrigerator: 80
+  min_washing_machine: 80
+  min_monitor: 40
+  min_gram: 20
+  max_tv_ratio: 0.45
