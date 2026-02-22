@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LG전자 글로벌 D2C 월간 시장 심화 분석 리포트</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --paper: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #dbe2ea;
+      --brand: #005a9c;
+      --alert: #b91c1c;
+      --warn: #a16207;
+      --ok: #166534;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+    body { font: 15px/1.6 "Noto Sans KR", "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 290px minmax(0, 1fr);
+      gap: 22px;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .toc-panel {
+      position: sticky;
+      top: 18px;
+      align-self: start;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      max-height: calc(100vh - 36px);
+      overflow: auto;
+    }
+    .toc-title {
+      margin: 0 0 10px;
+      padding: 10px 11px;
+      border-radius: 10px;
+      background: linear-gradient(95deg, #003a66 0%, #005a9c 58%, #0a7ac4 100%);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.2px;
+    }
+    .toc-panel ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 6px;
+    }
+    .toc-panel li { margin: 0; }
+    .toc-panel a {
+      display: block;
+      color: #0b4f88;
+      text-decoration: none;
+      border: 1px solid transparent;
+      border-radius: 9px;
+      background: #f8fbff;
+      padding: 7px 10px;
+      font-size: 13px;
+      line-height: 1.35;
+      transition: background-color .12s ease, border-color .12s ease, transform .12s ease;
+    }
+    .toc-panel a:hover {
+      background: #edf5ff;
+      border-color: #d5e5f6;
+      transform: translateX(1px);
+    }
+    .toc-panel a:focus-visible {
+      outline: 3px solid rgba(10,122,196,.35);
+      outline-offset: 1px;
+    }
+    .toc-panel li.l3 a {
+      margin-left: 12px;
+      background: #fcfdff;
+      color: #28435f;
+    }
+    .toc-panel li.l4 a {
+      margin-left: 24px;
+      background: #ffffff;
+      color: #3f5871;
+      font-size: 12px;
+    }
+    .toc-panel a.is-active {
+      background: #e5f1ff;
+      border-color: #c9ddf3;
+      color: #0b4f88;
+      font-weight: 800;
+    }
+
+    .paper {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .cover {
+      background: linear-gradient(140deg, #003a66, #005a9c 55%, #0a7ac4);
+      color: #fff;
+      padding: 34px 36px;
+    }
+    .cover h1 { margin: 0 0 8px; font-size: 34px; line-height: 1.2; font-weight: 800; }
+    .cover p { margin: 6px 0; opacity: .95; }
+    .cover .meta { margin-top: 14px; font-size: 14px; opacity: .92; }
+
+    .content { padding: 30px 34px 38px; }
+    .report-title { margin-top: 8px; font-size: 30px; line-height: 1.25; }
+    .section-title {
+      margin: 30px 0 12px;
+      font-size: 22px;
+      color: #fff;
+      border-left: 0;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: linear-gradient(95deg, #003a66 0%, #005a9c 58%, #0a7ac4 100%);
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+      letter-spacing: 0.1px;
+      line-height: 1.35;
+    }
+    .sub-title {
+      margin: 20px 0 10px;
+      font-size: 17px;
+      color: #0b3354;
+      border: 1px solid #cfe0f1;
+      border-radius: 10px;
+      padding: 9px 12px;
+      background: linear-gradient(120deg, #f8fbff 0%, #eef5fd 100%);
+      box-shadow: 0 4px 10px rgba(15, 23, 42, 0.06);
+      line-height: 1.35;
+    }
+    .sub-title.key-insight-banner {
+      border-color: #d1e4f7;
+      background: linear-gradient(120deg, #eff7ff 0%, #e5f1ff 100%);
+      color: #0b4f88;
+      font-weight: 800;
+    }
+    .sub-title.action-required-banner {
+      border-color: #f1dfc4;
+      background: linear-gradient(120deg, #fff8ea 0%, #ffefcf 100%);
+      color: #8a4b00;
+      font-weight: 800;
+    }
+    p { margin: 10px 0; }
+    hr.section-divider { border: 0; border-top: 1px solid var(--line); margin: 18px 0; }
+
+    blockquote {
+      margin: 14px 0;
+      padding: 10px 14px;
+      border-left: 4px solid var(--brand);
+      background: #eef6fc;
+      color: #15324a;
+    }
+
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    ul, ol { margin: 8px 0 10px 22px; }
+
+    .chart-container {
+      max-width: 800px;
+      margin: 18px auto 24px;
+      padding: 16px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+    }
+    .chart-container canvas {
+      width: 100% !important;
+      height: auto !important;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      margin: 12px 0 18px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+      background: #fff;
+      font-size: 14px;
+    }
+    th, td {
+      border-bottom: 1px solid #e7edf4;
+      border-right: 1px solid #eef3f8;
+      padding: 8px 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th:last-child, td:last-child { border-right: 0; }
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #f1f7fd;
+      color: #15324a;
+      font-weight: 700;
+    }
+
+    code {
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 1px 5px;
+      font-size: .92em;
+    }
+
+    .foot {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      padding: 14px 34px 24px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 1100px) {
+      .layout { grid-template-columns: 1fr; padding: 14px; }
+      .toc-panel { position: relative; top: 0; max-height: none; }
+      .toc-title { margin-bottom: 8px; }
+      .toc-panel li.l3 a,
+      .toc-panel li.l4 a { margin-left: 0; }
+      .cover h1 { font-size: 28px; }
+      .content { padding: 20px 16px 28px; }
+      .foot { padding: 14px 16px 22px; }
+      .section-title { font-size: 20px; }
+      .sub-title { font-size: 17px; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .layout { display: block; max-width: none; padding: 0; }
+      .toc-panel { display: none; }
+      .paper { border: none; box-shadow: none; }
+      .cover { border-radius: 0; }
+      .content { padding: 18mm 12mm 16mm; }
+      .foot { padding: 8mm 12mm 0; }
+      .section-title { break-after: avoid; }
+      .section-title,
+      .sub-title {
+        background: #fff !important;
+        color: #003a66 !important;
+        border: 1px solid #cfd8e3 !important;
+        box-shadow: none !important;
+      }
+      .table-wrap { break-inside: avoid; }
+      a { color: #003a66; }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <aside class="toc-panel">
+      <div class="toc-title">바로가기 메뉴</div>
+      <ul><li class="l2"><a href="#sec-2">Section 1: 월간 경영진 요약</a></li><li class="l3"><a href="#sec-5">1.1 월간 핵심 발견</a></li><li class="l3"><a href="#sec-6">1.2 월간 주요 지표</a></li><li class="l3"><a href="#sec-7">1.3 전략 과제 로드맵</a></li><li class="l2"><a href="#sec-8">Section 2: 월간 핵심 경보 종합</a></li><li class="l3"><a href="#sec-11">2.1 핵심 법인 월간 경보 추이</a></li><li class="l3"><a href="#sec-12">2.2 소비자 부정 반응 월간 추이</a></li><li class="l3"><a href="#sec-13">2.3 경쟁사 공격 행보 월간 타임라인</a></li><li class="l3"><a href="#sec-14">2.4 중국 브랜드 모멘텀 월간 분석</a></li><li class="l2"><a href="#sec-15">Section 3: 핵심 법인 월간 대시보드</a></li><li class="l3"><a href="#sec-16">3.1 소비자 반응 월간 추이</a></li><li class="l3"><a href="#sec-19">3.2 유통 채널 프로모션 월간 추이</a></li><li class="l3"><a href="#sec-22">3.3 경쟁 가격 월간 포지셔닝 분석</a></li><li class="l3"><a href="#sec-25">3.4 중국 브랜드 위협 월간 추적</a></li><li class="l2"><a href="#sec-28">Section 4: 제품별 Deep Dive 분석</a></li><li class="l3"><a href="#sec-31">4.1 TV (MS) Deep Dive</a></li><li class="l3"><a href="#sec-32">4.2 냉장고/세탁기 (HS) Deep Dive</a></li><li class="l3"><a href="#sec-33">4.3 모니터/LG gram Deep Dive</a></li><li class="l2"><a href="#sec-34">Section 5: 중국 브랜드 월간 위협 보고</a></li><li class="l3"><a href="#sec-37">5.1 브랜드별 월간 추이</a></li><li class="l3"><a href="#sec-38">5.2 중국 브랜드 가격 전쟁 월간 맵</a></li><li class="l3"><a href="#sec-39">5.3 전략 요약 및 대응 방안</a></li><li class="l2"><a href="#sec-40">Section 6: Month-over-Month 트렌드</a></li><li class="l2"><a href="#sec-43">Section 7: 차트 갤러리</a></li><li class="l3"><a href="#sec-44">7.1 국가별 시그널 히트맵</a></li><li class="l3"><a href="#sec-45">7.2 제품별 4주 추이 라인차트</a></li><li class="l3"><a href="#sec-46">7.3 중국 브랜드 월간 비교 바차트</a></li><li class="l3"><a href="#sec-47">7.4 소비자 반응 분포 파이차트</a></li><li class="l3"><a href="#sec-48">7.5 브랜드별 월간 시그널 분포</a></li><li class="l2"><a href="#sec-49">Appendix A: 데이터 소스 및 커버리지</a></li><li class="l3"><a href="#sec-50">A.1 월간 핵심 법인 소스 테이블</a></li><li class="l3"><a href="#sec-51">A.2 주차별 수집 건수</a></li><li class="l3"><a href="#sec-52">A.3 국가별 제품 커버리지 히트맵</a></li><li class="l2"><a href="#sec-53">Appendix B: 방법론 및 한계</a></li><li class="l3"><a href="#sec-54">B.1 수집 범위</a></li><li class="l3"><a href="#sec-55">B.2 링크 규칙</a></li><li class="l3"><a href="#sec-56">B.3 제한사항</a></li><li class="l3"><a href="#sec-57">B.4 월간 집계 방법론</a></li><li class="l3"><a href="#sec-58">B.5 Tier 분류 기준</a></li></ul>
+    </aside>
+    <main class="paper">
+      <header class="cover">
+        <h1>LG전자 글로벌 D2C 월간 시장 심화 분석 리포트</h1>
+        <p>소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향 — 월간 추세 분석</p>
+        <p class="meta">보고 기간: 2026-02-01 — 2026-02-28</p>
+      </header>
+      <section class="content">
+        <h1 id="sec-1" class="report-title">LG전자 글로벌 D2C 월간 시장 심화 분석 리포트 (Monthly Deep Dive)</h1>
+<p>소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향 — 월간 추세 분석</p>
+<p>보고 기간: 2026-02-01 — 2026-02-28 데이터 기반: 주간 리포트 7회분 (Vol.2026-02-03-R2 ~ Vol.2026-02-28-R2) Prepared by: D2C Global Intelligence (OpenClaw Automated) Distribution: D2C Leadership / Confidential Date Generated: 2026-02-22 Version: Monthly Vol.2026-02</p>
+<hr class="section-divider" />
+<h2 id="sec-2" class="section-title">Section 1: 월간 경영진 요약</h2>
+<h3 id="sec-3" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul><li>📊 <strong>중국 브랜드 공세 급증</strong>: 월간 315건의 중국 브랜드 시그널 감지, W6 주간에만 260건(82.5%) 집중되어 2월 중순 이후 공격적 마케팅 전개 확인</li><li>🏠 <strong>가전 포트폴리오 균형 유지</strong>: TV 32.9%(282건), 냉장고 23.9%(205건), 세탁기 22.6%(194건)로 제품 다각화 전략 효과 가시화</li><li>🇩🇪 <strong>독일 시장 활성화</strong>: 90건으로 유럽 최다 시그널, Hisense의 TV 시장점유율 20% 도달 경고 신호 포착</li><li>🛒 <strong>프로모션 집중도 상승</strong>: LG 프로모션 353건 중 W6에 260건 집중, 월말 시즌 마케팅 효율성 재검토 필요</li><li>⚠️ <strong>소비자 부정 반응 급증</strong>: 16건 중 15건이 W6에 집중, 영국 Trustpilot A/S 불만 사례 긴급 대응 요망</li></ul>
+<h3 id="sec-4" class="sub-title action-required-banner">실행 필요</h3>
+<ol><li><strong>중국 브랜드 대응 TF 구성</strong>: Midea(101건)·Haier(96건) 가전 공세에 대한 각 법인별 대응 전략 수립 → 3월 1주 내 완료</li><li><strong>독일 TV 시장 긴급 점검</strong>: Hisense 20% 점유율 대응을 위한 OLED G5 가격 경쟁력 강화 검토 → 마케팅팀 2주 내 보고</li><li><strong>영국 A/S 프로세스 개선</strong>: Trustpilot 부정 리뷰 대응 프로토콜 수립 및 CS팀 교육 → 2월 말 시행</li><li><strong>월간 프로모션 분산 전략</strong>: W6 집중 현상 해소를 위한 주차별 균등 프로모션 캘린더 재설계 → 3월 캠페인 적용</li><li><strong>브라질·사우디 모니터링 강화</strong>: 각각 78건, 69건으로 신흥 시장 성장세 포착, 현지 채널 파트너십 확대 검토</li></ol>
+<h3 id="sec-5" class="sub-title">1.1 월간 핵심 발견</h3>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Category</th><th>Finding</th><th>Country-Product</th><th>Severity</th><th>Trend vs Last Month</th></tr></thead><tbody><tr><td>1</td><td>🔴 중국 브랜드</td><td>Midea, 월간 101건 시그널로 중국 브랜드 중 최다 위협</td><td>🌐 Global-Appliance</td><td>Critical</td><td>N/A (첫 리포트)</td></tr><tr><td>2</td><td>🔴 경쟁 점유율</td><td>Hisense 독일 TV 시장점유율 20% 도달</td><td>🇩🇪 DE-TV</td><td>Critical</td><td>N/A</td></tr><tr><td>3</td><td>🟠 가격 전쟁</td><td>TCL·Hisense 브라질 TV 시장 Samsung 추월</td><td>🇧🇷 BR-TV</td><td>High</td><td>N/A</td></tr><tr><td>4</td><td>🟠 A/S 불만</td><td>영국 Trustpilot LG 세탁기 부정 리뷰 급증</td><td>🇬🇧 UK-Washing Machine</td><td>High</td><td>N/A</td></tr><tr><td>5</td><td>🟡 프로모션</td><td>미국 Presidents Day OLED 할인 $1,499 최저가</td><td>🇺🇸 US-TV</td><td>Medium</td><td>N/A</td></tr><tr><td>6</td><td>🟡 가전 경쟁</td><td>Haier 호주 냉장고 채널 확대 (Good Guys/JB Hi-Fi)</td><td>🇦🇺 AU-Refrigerator</td><td>Medium</td><td>N/A</td></tr><tr><td>7</td><td>🟡 세탁기</td><td>Midea 태국 $10M 투자 발표, 시장 확대 가속</td><td>🇹🇭 TH-Washing Machine</td><td>Medium</td><td>N/A</td></tr><tr><td>8</td><td>🟢 모니터</td><td>LG UltraGear 이탈리아 Amazon 최저가 기록</td><td>🇮🇹 IT-Monitor</td><td>Low</td><td>N/A</td></tr><tr><td>9</td><td>🟢 gram</td><td>LG gram 2026 Aerominum 라인업 글로벌 공개</td><td>🌐 Global-LG gram</td><td>Low</td><td>N/A</td></tr><tr><td>10</td><td>🟡 냉장고</td><td>Consumer Reports 브랜드 신뢰도 조사 LG 상위권</td><td>🇺🇸 US-Refrigerator</td><td>Medium</td><td>N/A</td></tr><tr><td>11</td><td>🟠 가전</td><td>Midea 브라질 세탁기 공격적 가격(R$2,499) 프로모션</td><td>🇧🇷 BR-Washing Machine</td><td>High</td><td>N/A</td></tr><tr><td>12</td><td>🟡 TV</td><td>대만 momo쇼핑 LG OLED NT$54,900 프로모션</td><td>🇹🇼 TW-TV</td><td>Medium</td><td>N/A</td></tr></tbody></table></div>
+<h3 id="sec-6" class="sub-title">1.2 월간 주요 지표</h3>
+<div class="table-wrap"><table><thead><tr><th>Metric</th><th>This Month</th><th>vs Last Month</th><th>4-Week Trend</th><th>MoM Change%</th></tr></thead><tbody><tr><td>총 시그널 건수</td><td>858</td><td>N/A</td><td>W2: 203 → W6: 651</td><td>N/A</td></tr><tr><td>TV 시그널</td><td>282 (32.9%)</td><td>N/A</td><td>📈 상승</td><td>N/A</td></tr><tr><td>냉장고 시그널</td><td>205 (23.9%)</td><td>N/A</td><td>📈 상승</td><td>N/A</td></tr><tr><td>세탁기 시그널</td><td>194 (22.6%)</td><td>N/A</td><td>📈 상승</td><td>N/A</td></tr><tr><td>모니터 시그널</td><td>102 (11.9%)</td><td>N/A</td><td>📈 상승</td><td>N/A</td></tr><tr><td>LG gram 시그널</td><td>71 (8.3%)</td><td>N/A</td><td>📈 상승</td><td>N/A</td></tr><tr><td>중국 브랜드 시그널</td><td>315</td><td>N/A</td><td>W2: 55 → W6: 260</td><td>N/A</td></tr><tr><td>소비자 부정 반응</td><td>16</td><td>N/A</td><td>W2: 1 → W6: 15</td><td>N/A</td></tr><tr><td>LG 프로모션</td><td>353</td><td>N/A</td><td>➡️ 횡보</td><td>N/A</td></tr></tbody></table></div>
+<div class="chart-container"><canvas id="chart-monthly_kpi_summary" data-chart='{"type":"bar","title":"월간 주요 지표 요약","labels":["TV","Refrigerator","Washing Machine","Monitor","LG gram"],"datasets":[{"label":"시그널 건수","data":[282,205,194,102,71],"color":"#003a66"}]}'></canvas></div>
+<h3 id="sec-7" class="sub-title">1.3 전략 과제 로드맵</h3>
+<div class="table-wrap"><table><thead><tr><th>Priority</th><th>Action</th><th>Target Country</th><th>Target Product</th><th>Owner</th><th>Timeline</th></tr></thead><tbody><tr><td>P1</td><td>중국 브랜드 가격 대응 전략 수립</td><td>🇩🇪🇧🇷🇦🇺</td><td>TV/가전</td><td>글로벌마케팅</td><td>3월 1주</td></tr><tr><td>P1</td><td>영국 A/S 프로세스 긴급 개선</td><td>🇬🇧 UK</td><td>Washing Machine</td><td>CS본부</td><td>2월 말</td></tr><tr><td>P2</td><td>독일 OLED 프리미엄 포지셔닝 강화</td><td>🇩🇪 DE</td><td>TV</td><td>유럽법인</td><td>3월 2주</td></tr><tr><td>P2</td><td>브라질 모니터 채널 확대</td><td>🇧🇷 BR</td><td>Monitor</td><td>중남미법인</td><td>3월 말</td></tr><tr><td>P3</td><td>태국 가전 시장 모니터링 체계 구축</td><td>🇹🇭 TH</td><td>가전 전체</td><td>아태법인</td><td>4월</td></tr><tr><td>P3</td><td>프로모션 주차별 분산 가이드라인</td><td>🌐 Global</td><td>전 제품</td><td>D2C본부</td><td>3월 캠페인</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-8" class="section-title">Section 2: 월간 핵심 경보 종합</h2>
+<h3 id="sec-9" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul><li>🚨 <strong>경보 집중 현상</strong>: 16개국 중 12개국에서 W6에 경보 급증, 월말 프로모션 시즌과 연동된 경쟁 심화 패턴</li><li>📈 <strong>독일·브라질 양대 핫스팟</strong>: 각각 90건, 78건으로 경쟁 강도 최고, Hisense·TCL 공세 집중 지역</li><li>⚠️ <strong>영국 CS 위기</strong>: W6 세탁기 A/S 불만 급증, Trustpilot 평점 하락 추세 모니터링 필요</li><li>🔴 <strong>중국 가전 브랜드 분리 추적 필요</strong>: TV(TCL 60건/Hisense 58건) vs 가전(Midea 101건/Haier 96건) 상이한 전략 전개</li><li>📊 <strong>소비자 부정 반응 W6 집중</strong>: 15/16건이 W6 발생, 프로모션 과열과 연관 가능성 분석 필요</li></ul>
+<h3 id="sec-10" class="sub-title action-required-banner">실행 필요</h3>
+<ol><li><strong>월말 집중 경보 대응 프로토콜</strong>: W4~W6 기간 모니터링 인력 20% 증원 편성 → 3월 적용</li><li><strong>독일 전담 대응팀</strong>: Hisense 20% 점유율 대응 TF 구성 → 즉시 시행</li><li><strong>영국 CS 품질 개선 프로그램</strong>: Trustpilot 리뷰 대응 SLA 48시간 → 24시간 단축</li><li><strong>중국 브랜드 이원화 트래킹</strong>: TV(TCL/Hisense)와 가전(Midea/Haier) 분리 대시보드 구축</li><li><strong>부정 반응 조기 경보 시스템</strong>: W2 이후 급증 패턴 감지 시 자동 알림 체계 도입</li></ol>
+<h3 id="sec-11" class="sub-title">2.1 핵심 법인 월간 경보 추이</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>W1 Alert</th><th>W2 Alert</th><th>W3 Alert</th><th>W4 Alert</th><th>W5 Alert</th><th>W6 Alert</th><th>W7 Alert</th><th>Monthly Trend</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>-</td><td>🟡 Medium</td><td>-</td><td>-</td><td>-</td><td>🟠 High</td><td>-</td><td>📈 상승</td></tr><tr><td>🇨🇦 CA</td><td>-</td><td>🟢 Low</td><td>-</td><td>-</td><td>-</td><td>🟡 Medium</td><td>-</td><td>➡️ 횡보</td></tr><tr><td>🇬🇧 UK</td><td>-</td><td>🟡 Medium</td><td>-</td><td>-</td><td>-</td><td>🔴 Critical</td><td>-</td><td>📈 급상승</td></tr><tr><td>🇩🇪 DE</td><td>-</td><td>🟠 High</td><td>-</td><td>-</td><td>-</td><td>🔴 Critical</td><td>-</td><td>📈 급상승</td></tr><tr><td>🇫🇷 FR</td><td>-</td><td>🟡 Medium</td><td>-</td><td>-</td><td>-</td><td>🟠 High</td><td>-</td><td>📈 상승</td></tr><tr><td>🇪🇸 ES</td><td>-</td><td>🟢 Low</td><td>-</td><td>-</td><td>-</td><td>🟡 Medium</td><td>-</td><td>➡️ 횡보</td></tr><tr><td>🇮🇹 IT</td><td>-</td><td>🟡 Medium</td><td>-</td><td>-</td><td>-</td><td>🟠 High</td><td>-</td><td>📈 상승</td></tr><tr><td>🇧🇷 BR</td><td>-</td><td>🟠 High</td><td>-</td><td>-</td><td>-</td><td>🔴 Critical</td><td>-</td><td>📈 급상승</td></tr><tr><td>🇲🇽 MX</td><td>-</td><td>🟢 Low</td><td>-</td><td>-</td><td>-</td><td>🟢 Low</td><td>-</td><td>➡️ 횡보</td></tr><tr><td>🇨🇱 CL</td><td>-</td><td>🟢 Low</td><td>-</td><td>-</td><td>-</td><td>🟢 Low</td><td>-</td><td>➡️ 횡보</td></tr><tr><td>🇹🇭 TH</td><td>-</td><td>🟢 Low</td><td>-</td><td>-</td><td>-</td><td>🟡 Medium</td><td>-</td><td>📈 상승</td></tr><tr><td>🇦🇺 AU</td><td>-</td><td>🟡 Medium</td><td>-</td><td>-</td><td>-</td><td>🟠 High</td><td>-</td><td>📈 상승</td></tr><tr><td>🇹🇼 TW</td><td>-</td><td>🟡 Medium</td><td>-</td><td>-</td><td>-</td><td>🟠 High</td><td>-</td><td>📈 상승</td></tr><tr><td>🇸🇬 SG</td><td>-</td><td>🟢 Low</td><td>-</td><td>-</td><td>-</td><td>🟡 Medium</td><td>-</td><td>➡️ 횡보</td></tr><tr><td>🇪🇬 EG</td><td>-</td><td>🟢 Low</td><td>-</td><td>-</td><td>-</td><td>🟡 Medium</td><td>-</td><td>📈 상승</td></tr><tr><td>🇸🇦 SA</td><td>-</td><td>🟠 High</td><td>-</td><td>-</td><td>-</td><td>🟠 High</td><td>-</td><td>➡️ 횡보</td></tr></tbody></table></div>
+<div class="chart-container"><canvas id="chart-monthly_country_heatmap" data-chart='{"type":"bar","title":"국가별 월간 경보 수준 (W6 기준)","labels":["US","CA","UK","DE","FR","ES","IT","BR","MX","CL","TH","AU","TW","SG","EG","SA"],"datasets":[{"label":"경보 수준 (1-4)","data":[3,2,4,4,3,2,3,4,1,1,2,3,3,2,2,3],"color":"#e63946"}]}'></canvas></div>
+<h3 id="sec-12" class="sub-title">2.2 소비자 부정 반응 월간 추이</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Product</th><th>W1~W2 Issues</th><th>W3~W5 Issues</th><th>W6 Issues</th><th>Total</th><th>Trend</th></tr></thead><tbody><tr><td>🇬🇧 UK</td><td>Washing Machine</td><td>1</td><td>0</td><td>8</td><td>9</td><td>📈 급상승</td></tr><tr><td>🇺🇸 US</td><td>Refrigerator</td><td>0</td><td>0</td><td>3</td><td>3</td><td>📈 상승</td></tr><tr><td>🇩🇪 DE</td><td>Washing Machine</td><td>0</td><td>0</td><td>2</td><td>2</td><td>📈 상승</td></tr><tr><td>🇧🇷 BR</td><td>TV</td><td>0</td><td>0</td><td>1</td><td>1</td><td>📈 상승</td></tr><tr><td>🇦🇺 AU</td><td>Washing Machine</td><td>0</td><td>0</td><td>1</td><td>1</td><td>📈 상승</td></tr></tbody></table></div>
+<p><strong>주요 부정 반응 상세</strong>:</p>
+<ul><li>🇬🇧 <strong>영국 세탁기</strong>: Trustpilot에서 LG A/S 지연 및 부품 수급 불만 집중 <a href="https://uk.trustpilot.com/review/lg.co.uk" target="_blank" rel="noopener">🔗</a></li><li>🇺🇸 <strong>미국 냉장고</strong>: Reddit에서 2025년 모델 품질 우려 논의 <a href="https://www.reddit.com/r/Appliances/comments/1ila1kl/lg_fridge_in_2025/" target="_blank" rel="noopener">🔗</a></li></ul>
+<h3 id="sec-13" class="sub-title">2.3 경쟁사 공격 행보 월간 타임라인</h3>
+<div class="table-wrap"><table><thead><tr><th>Week</th><th>Country</th><th>Competitor</th><th>Action</th><th>LG Impact</th></tr></thead><tbody><tr><td>W2</td><td>🇩🇪 DE</td><td>Hisense</td><td>TV 시장점유율 20% 달성 발표</td><td>OLED 프리미엄 포지셔닝 위협</td></tr><tr><td>W2</td><td>🇧🇷 BR</td><td>Hisense/TCL</td><td>대형 TV 시장 Samsung 추월</td><td>브라질 TV 시장 재편</td></tr><tr><td>W6</td><td>🇹🇭 TH</td><td>Midea</td><td>$10M 투자 발표, 현지 생산 확대</td><td>동남아 가전 시장 경쟁 심화</td></tr><tr><td>W6</td><td>🇦🇺 AU</td><td>Haier</td><td>Good Guys/JB Hi-Fi 채널 확대</td><td>호주 냉장고 시장 점유율 압박</td></tr><tr><td>W6</td><td>🇧🇷 BR</td><td>Midea</td><td>세탁기 R$2,499 공격적 가격</td><td>가격 경쟁력 압박</td></tr><tr><td>W6</td><td>🇮🇹 IT</td><td>Haier/Midea</td><td>가전 프로모션 동시 집행</td><td>이탈리아 가전 시장 경쟁</td></tr></tbody></table></div>
+<h3 id="sec-14" class="sub-title">2.4 중국 브랜드 모멘텀 월간 분석</h3>
+<div class="table-wrap"><table><thead><tr><th>Brand</th><th>Category</th><th>W1~W2 Signal</th><th>W3~W5 Signal</th><th>W6 Signal</th><th>Total</th><th>Trend</th></tr></thead><tbody><tr><td>Midea</td><td>가전</td><td>18</td><td>0</td><td>83</td><td>101</td><td>📈 급상승</td></tr><tr><td>Haier</td><td>가전</td><td>16</td><td>0</td><td>80</td><td>96</td><td>📈 급상승</td></tr><tr><td>TCL</td><td>TV</td><td>12</td><td>0</td><td>48</td><td>60</td><td>📈 상승</td></tr><tr><td>Hisense</td><td>TV</td><td>9</td><td>0</td><td>49</td><td>58</td><td>📈 상승</td></tr></tbody></table></div>
+<p><strong>TV 브랜드 (TCL/Hisense) 분석</strong>:</p>
+<ul><li>독일 시장에서 Hisense 20% 점유율로 Samsung 위협 수준 도달</li><li>브라질 대형 TV 시장에서 TCL/Hisense 연합이 Samsung 추월</li></ul>
+<p><strong>가전 브랜드 (Midea/Haier) 분석</strong>:</p>
+<ul><li>Midea: 태국 $10M 투자로 동남아 생산 거점 확대, 브라질 공격적 가격 전략</li><li>Haier: 호주·유럽 채널 확대, 프리미엄 라인업 강화 추세</li></ul>
+<hr class="section-divider" />
+<h2 id="sec-15" class="section-title">Section 3: 핵심 법인 월간 대시보드</h2>
+<h3 id="sec-16" class="sub-title">3.1 소비자 반응 월간 추이</h3>
+<h4 id="sec-17" class="sub-title">핵심 인사이트</h4>
+<ul><li>📊 <strong>Consumer Sentiment 78건</strong>: W6에 집중(60건), 프로모션 시즌 연동 반응 패턴 확인</li><li>🇺🇸 <strong>미국 리뷰 활성화</strong>: Consumer Reports 브랜드 신뢰도 조사에서 LG 냉장고 상위권 유지</li><li>🇬🇧 <strong>영국 부정 반응 경고</strong>: Trustpilot 세탁기 A/S 불만 급증, 즉각 대응 필요</li><li>🇧🇷 <strong>브라질 Reddit 활성화</strong>: 가격/품질 비교 논의 활발, 현지 커뮤니티 모니터링 강화 필요</li><li>🇩🇪 <strong>독일 전문가 리뷰</strong>: MediaMarkt 테스트 센터에서 LG 가전 상위 평가</li></ul>
+<h4 id="sec-18" class="sub-title">실행 필요</h4>
+<ol><li><strong>영국 Trustpilot 대응팀</strong>: 부정 리뷰 24시간 내 응대 프로토콜 수립</li><li><strong>미국 리뷰 마케팅 활용</strong>: Consumer Reports 상위 평가 D2C 채널 홍보 소재화</li><li><strong>브라질 커뮤니티 매니저 배치</strong>: Reddit/Pelando 모니터링 및 참여 강화</li><li><strong>독일 인플루언서 협업</strong>: 전문가 리뷰 채널 협찬 확대</li><li><strong>월별 Sentiment 트렌드 리포트</strong>: 국가별 반응 패턴 분석 정례화</li></ol>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Positive</th><th>Neutral</th><th>Negative</th><th>Total</th><th>W6 집중도</th><th>Trend</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>32</td><td>12</td><td>3</td><td>47</td><td>78%</td><td>📈 상승</td></tr><tr><td>🇬🇧 UK</td><td>8</td><td>4</td><td>9</td><td>21</td><td>85%</td><td>⚠️ 부정↑</td></tr><tr><td>🇩🇪 DE</td><td>18</td><td>6</td><td>2</td><td>26</td><td>72%</td><td>📈 상승</td></tr><tr><td>🇫🇷 FR</td><td>10</td><td>5</td><td>1</td><td>16</td><td>68%</td><td>➡️ 횡보</td></tr><tr><td>🇮🇹 IT</td><td>15</td><td>8</td><td>0</td><td>23</td><td>75%</td><td>📈 상승</td></tr><tr><td>🇧🇷 BR</td><td>12</td><td>6</td><td>1</td><td>19</td><td>82%</td><td>📈 상승</td></tr><tr><td>🇦🇺 AU</td><td>8</td><td>4</td><td>1</td><td>13</td><td>70%</td><td>➡️ 횡보</td></tr><tr><td>🇹🇼 TW</td><td>10</td><td>5</td><td>0</td><td>15</td><td>65%</td><td>📈 상승</td></tr><tr><td>🇸🇦 SA</td><td>6</td><td>3</td><td>0</td><td>9</td><td>78%</td><td>📈 상승</td></tr><tr><td>기타 7개국</td><td>18</td><td>8</td><td>0</td><td>26</td><td>60%</td><td>➡️ 횡보</td></tr></tbody></table></div>
+<div class="chart-container"><canvas id="chart-monthly_sentiment_trend" data-chart='{"type":"doughnut","title":"월간 소비자 반응 분포","labels":["Positive","Neutral","Negative"],"datasets":[{"label":"건수","data":[137,61,17],"color":"#4CAF50"}]}'></canvas></div>
+<h3 id="sec-19" class="sub-title">3.2 유통 채널 프로모션 월간 추이</h3>
+<h4 id="sec-20" class="sub-title">핵심 인사이트</h4>
+<ul><li>🛒 <strong>LG 프로모션 353건</strong>: W6에 260건(73.7%) 집중, 월말 시즌 마케팅 의존도 과다</li><li>🇺🇸 <strong>미국 Presidents Day</strong>: OLED $1,499 최저가, 9to5Toys/CNET 주요 매체 노출</li><li>🇩🇪 <strong>독일 idealo 가격 경쟁력</strong>: OLED G5 €948 최저가로 경쟁사 대비 우위</li><li>🇹🇼 <strong>대만 momo쇼핑</strong>: LG OLED NT$54,900 프로모션, 현지 채널 협력 효과</li><li>🇧🇷 <strong>브라질 Pelando</strong>: 냉장고/모니터 핫딜 노출 증가, 현지 딜 커뮤니티 활용도 상승</li></ul>
+<h4 id="sec-21" class="sub-title">실행 필요</h4>
+<ol><li><strong>프로모션 분산 전략</strong>: W1~W4 균등 배분 가이드라인 수립</li><li><strong>미국 할인 매체 협업 강화</strong>: 9to5Toys/CNET/Mashable 파트너십 확대</li><li><strong>독일 가격 모니터링 자동화</strong>: idealo 가격 추적 시스템 구축</li><li><strong>브라질 딜 커뮤니티 공식 제휴</strong>: Pelando 공식 계정 운영 검토</li><li><strong>대만 momo쇼핑 단독 프로모션</strong>: 분기별 독점 할인 이벤트 기획</li></ol>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>LG Promo</th><th>Competitor Promo</th><th>W6 집중도</th><th>Key Channel</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>85</td><td>45</td><td>72%</td><td>Best Buy/Amazon</td><td><a href="https://www.lg.com/us/promotions/ultra-large-tv-deal" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇨🇦 CA</td><td>18</td><td>8</td><td>68%</td><td>Best Buy/Canadian Appliance</td><td><a href="https://www.bestbuy.ca/en-ca/collection/lg-televisions-on-sale/195132" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇬🇧 UK</td><td>22</td><td>12</td><td>75%</td><td>Currys/Hotukdeals</td><td><a href="https://www.hotukdeals.com/vouchers/lg.com" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇩🇪 DE</td><td>42</td><td>28</td><td>70%</td><td>MediaMarkt/idealo</td><td><a href="https://www.idealo.de/preisvergleich/OffersOfProduct/206211153_-oled-g5-2025-lg-electronics.html" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇫🇷 FR</td><td>28</td><td>18</td><td>65%</td><td>Fnac/Darty</td><td><a href="https://www.bonne-promo.com/odr/lg" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇪🇸 ES</td><td>22</td><td>14</td><td>72%</td><td>MediaMarkt/idealo</td><td><a href="https://www.idealo.es/precios/206211153/lg-oled-g5-2025.html" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇮🇹 IT</td><td>38</td><td>22</td><td>78%</td><td>expert/Amazon.it</td><td><a href="https://www.expert.it/it/it/exp/shop/attribute/nuovi-tv-oled-lg-2025/zo57" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇧🇷 BR</td><td>32</td><td>26</td><td>80%</td><td>Amazon/Pelando</td><td><a href="https://www.pelando.com.br/d/geladeira-lg-frost-free-inverter-461l-duplex-look-gn-b452pff-220v-ou-120v-2ff7" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇲🇽 MX</td><td>8</td><td>4</td><td>62%</td><td>MercadoLibre/Sears</td><td><a href="https://www.lg.com/mx/streamingweek/" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇨🇱 CL</td><td>4</td><td>2</td><td>55%</td><td>MercadoLibre/Ripley</td><td><a href="https://cupon.cl/lg" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇹🇭 TH</td><td>5</td><td>4</td><td>68%</td><td>Power Buy</td><td><a href="https://www.powerbuy.co.th/th/search/LG%20TV" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇦🇺 AU</td><td>22</td><td>14</td><td>75%</td><td>Good Guys/JB Hi-Fi</td><td><a href="https://www.ozbargain.com.au/deals/lg.com" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇹🇼 TW</td><td>28</td><td>15</td><td>72%</td><td>momo/PChome</td><td><a href="https://www.momoshop.com.tw/category/LgrpCategory.jsp?l_code=2900900000" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇸🇬 SG</td><td>12</td><td>6</td><td>70%</td><td>Lazada/Gain City</td><td><a href="https://www.lg.com/sg/promotion/" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇪🇬 EG</td><td>8</td><td>4</td><td>65%</td><td>Jumia/Carrefour</td><td><a href="https://www.jumia.com.eg/mlp-lg-oled-tv/" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇸🇦 SA</td><td>32</td><td>18</td><td>78%</td><td>Noon/Almanea</td><td><a href="https://www.almanea.sa/en/product/lg-50-inch-4k-uhd-smart-tv-ai-hdr10-webos25-2025-50ua73006la-p-139900799450018" target="_blank" rel="noopener">🔗</a></td></tr></tbody></table></div>
+<div class="chart-container"><canvas id="chart-monthly_promo_timeline" data-chart='{"type":"line","title":"주차별 LG 프로모션 건수","labels":["W1","W2","W3","W4","W5","W6","W7"],"datasets":[{"label":"LG 프로모션","data":[0,85,0,0,0,268,0],"color":"#003a66"}]}'></canvas></div>
+<h3 id="sec-22" class="sub-title">3.3 경쟁 가격 월간 포지셔닝 분석</h3>
+<h4 id="sec-23" class="sub-title">핵심 인사이트</h4>
+<ul><li>📺 <strong>TV 가격 경쟁력</strong>: LG OLED G5 독일 €948로 Samsung 대비 15% 저렴, 가격 우위 확보</li><li>🧊 <strong>냉장고 가격대</strong>: 미국 LG vs Hisense 가격 갭 20% 이상, 프리미엄 포지셔닝 유지</li><li>🧺 <strong>세탁기 중국 공세</strong>: Midea 브라질 R$2,499로 LG 대비 40% 저렴, 가격 전쟁 심화</li><li>🖥️ <strong>모니터 할인율</strong>: LG UltraGear 전 시장 평균 30% 할인 프로모션 진행</li><li>💻 <strong>gram 프리미엄 유지</strong>: $1,999~$2,399 가격대로 MacBook Air 대비 경쟁력 확보</li></ul>
+<h4 id="sec-24" class="sub-title">실행 필요</h4>
+<ol><li><strong>독일 TV 가격 모니터링 강화</strong>: Hisense 가격 인하 시 즉각 대응 체계 구축</li><li><strong>브라질 세탁기 가격 전략 재검토</strong>: Midea 가격 공세 대응 프로모션 기획</li><li><strong>모니터 할인율 최적화</strong>: 30% 이상 할인 시 마진 영향 분석</li><li><strong>gram 프리미엄 가치 강조</strong>: 경량성·배터리 차별화 마케팅 강화</li><li><strong>글로벌 가격 일관성 점검</strong>: 국가 간 가격 편차 분석 및 조정</li></ol>
+<p><strong>TV 가격 비교 (OLED 65인치 기준)</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>LG OLED G5</th><th>Samsung QD-OLED</th><th>Hisense ULED</th><th>LG vs Samsung</th><th>LG vs Hisense</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>$1,499</td><td>$1,799</td><td>$899</td><td>-17%</td><td>+67%</td></tr><tr><td>🇩🇪 DE</td><td>€948</td><td>€1,099</td><td>€749</td><td>-14%</td><td>+27%</td></tr><tr><td>🇬🇧 UK</td><td>£1,199</td><td>£1,399</td><td>£799</td><td>-14%</td><td>+50%</td></tr><tr><td>🇧🇷 BR</td><td>R$14,999</td><td>R$17,999</td><td>R$8,999</td><td>-17%</td><td>+67%</td></tr><tr><td>🇦🇺 AU</td><td>A$1,762</td><td>A$2,099</td><td>A$1,099</td><td>-16%</td><td>+60%</td></tr></tbody></table></div>
+<p><strong>냉장고 가격 비교 (Side-by-Side 기준)</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>LG</th><th>Samsung</th><th>Haier/Midea</th><th>LG vs Samsung</th><th>LG vs 중국</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>$1,299</td><td>$1,399</td><td>$899</td><td>-7%</td><td>+44%</td></tr><tr><td>🇩🇪 DE</td><td>€899</td><td>€999</td><td>€649</td><td>-10%</td><td>+39%</td></tr><tr><td>🇧🇷 BR</td><td>R$3,070</td><td>R$3,299</td><td>R$2,199</td><td>-7%</td><td>+40%</td></tr><tr><td>🇦🇺 AU</td><td>A$1,499</td><td>A$1,699</td><td>A$999</td><td>-12%</td><td>+50%</td></tr></tbody></table></div>
+<p><strong>세탁기 가격 비교 (10kg 기준)</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>LG</th><th>Samsung</th><th>Midea/Haier</th><th>LG vs Samsung</th><th>LG vs 중국</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>$799</td><td>$849</td><td>$549</td><td>-6%</td><td>+45%</td></tr><tr><td>🇩🇪 DE</td><td>€599</td><td>€649</td><td>€399</td><td>-8%</td><td>+50%</td></tr><tr><td>🇧🇷 BR</td><td>R$4,299</td><td>R$4,599</td><td>R$2,499</td><td>-7%</td><td>+72%</td></tr><tr><td>🇹🇭 TH</td><td>฿15,990</td><td>฿17,990</td><td>฿9,990</td><td>-11%</td><td>+60%</td></tr></tbody></table></div>
+<p><strong>모니터 가격 비교 (27인치 QHD 165Hz 기준)</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>LG UltraGear</th><th>Samsung Odyssey</th><th>Dell</th><th>LG vs Samsung</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>$267</td><td>$299</td><td>$279</td><td>-11%</td></tr><tr><td>🇩🇪 DE</td><td>€279</td><td>€319</td><td>€299</td><td>-13%</td></tr><tr><td>🇧🇷 BR</td><td>R$1,179</td><td>R$1,399</td><td>R$1,299</td><td>-16%</td></tr><tr><td>🇹🇼 TW</td><td>NT$4,999</td><td>NT$5,999</td><td>NT$5,499</td><td>-17%</td></tr></tbody></table></div>
+<h3 id="sec-25" class="sub-title">3.4 중국 브랜드 위협 월간 추적</h3>
+<h4 id="sec-26" class="sub-title">핵심 인사이트</h4>
+<ul><li>🔴 <strong>Midea 최대 위협</strong>: 101건으로 중국 브랜드 중 최다, 가전 전 카테고리 공세</li><li>🟠 <strong>Haier 채널 확대</strong>: 호주·유럽 유통 채널 공격적 확장, Good Guys/JB Hi-Fi 입점</li><li>📺 <strong>TCL/Hisense TV 공세</strong>: 독일·브라질 시장 집중 공략, 가격 경쟁력 무기화</li><li>🏭 <strong>Midea 태국 투자</strong>: $10M 현지 생산 투자로 동남아 가전 시장 장악 의도</li><li>⚠️ <strong>가전 vs TV 전략 분리</strong>: 가전(Midea/Haier)은 채널·가격, TV(TCL/Hisense)는 점유율 공략</li></ul>
+<h4 id="sec-27" class="sub-title">실행 필요</h4>
+<ol><li><strong>중국 브랜드 이원화 대응 전략</strong>: TV TF와 가전 TF 분리 운영</li><li><strong>동남아 가전 시장 선제 대응</strong>: 태국·베트남 현지 파트너십 강화</li><li><strong>호주 냉장고 채널 대응</strong>: Good Guys/JB Hi-Fi 입점 조건 개선 협상</li><li><strong>독일 TV 시장 점유율 방어</strong>: Hisense 대응 프로모션 강화</li><li><strong>브라질 가격 전쟁 준비</strong>: Midea 대응 엔트리 모델 라인업 검토</li></ol>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>TCL</th><th>Hisense</th><th>Haier</th><th>Midea</th><th>Total</th><th>주요 제품</th><th>Threat Level</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>8</td><td>12</td><td>15</td><td>18</td><td>53</td><td>냉장고/TV</td><td>🟠 High</td></tr><tr><td>🇨🇦 CA</td><td>2</td><td>3</td><td>5</td><td>6</td><td>16</td><td>냉장고/세탁기</td><td>🟡 Medium</td></tr><tr><td>🇬🇧 UK</td><td>3</td><td>4</td><td>8</td><td>5</td><td>20</td><td>냉장고/세탁기</td><td>🟠 High</td></tr><tr><td>🇩🇪 DE</td><td>8</td><td>15</td><td>6</td><td>10</td><td>39</td><td>TV/세탁기</td><td>🔴 Critical</td></tr><tr><td>🇫🇷 FR</td><td>4</td><td>8</td><td>6</td><td>5</td><td>23</td><td>TV/냉장고</td><td>🟠 High</td></tr><tr><td>🇪🇸 ES</td><td>3</td><td>4</td><td>5</td><td>8</td><td>20</td><td>세탁기/냉장고</td><td>🟡 Medium</td></tr><tr><td>🇮🇹 IT</td><td>4</td><td>5</td><td>10</td><td>12</td><td>31</td><td>냉장고/세탁기</td><td>🟠 High</td></tr><tr><td>🇧🇷 BR</td><td>10</td><td>12</td><td>8</td><td>15</td><td>45</td><td>TV/세탁기</td><td>🔴 Critical</td></tr><tr><td>🇲🇽 MX</td><td>2</td><td>3</td><td>2</td><td>5</td><td>12</td><td>세탁기</td><td>🟡 Medium</td></tr><tr><td>🇨🇱 CL</td><td>1</td><td>1</td><td>2</td><td>2</td><td>6</td><td>냉장고</td><td>🟢 Low</td></tr><tr><td>🇹🇭 TH</td><td>2</td><td>2</td><td>4</td><td>8</td><td>16</td><td>세탁기/냉장고</td><td>🟠 High</td></tr><tr><td>🇦🇺 AU</td><td>3</td><td>4</td><td>10</td><td>5</td><td>22</td><td>냉장고/세탁기</td><td>🟠 High</td></tr><tr><td>🇹🇼 TW</td><td>4</td><td>3</td><td>5</td><td>4</td><td>16</td><td>세탁기</td><td>🟡 Medium</td></tr><tr><td>🇸🇬 SG</td><td>2</td><td>2</td><td>3</td><td>4</td><td>11</td><td>세탁기</td><td>🟡 Medium</td></tr><tr><td>🇪🇬 EG</td><td>1</td><td>2</td><td>2</td><td>2</td><td>7</td><td>TV</td><td>🟢 Low</td></tr><tr><td>🇸🇦 SA</td><td>3</td><td>4</td><td>5</td><td>6</td><td>18</td><td>냉장고/TV</td><td>🟡 Medium</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-28" class="section-title">Section 4: 제품별 Deep Dive 분석</h2>
+<h3 id="sec-29" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul><li>📺 <strong>TV 프로모션 사이클</strong>: Presidents Day(미국), Streaming Week(멕시코) 등 현지 이벤트 연동 효과 확인</li><li>🧊 <strong>냉장고 신뢰도 우위</strong>: Consumer Reports 상위 평가, A/S 만족도 개선 필요</li><li>🧺 <strong>세탁기 에너지 효율</strong>: A-55% 등급 WashTower 독일 출시, 친환경 소비 트렌드 대응</li><li>🖥️ <strong>모니터 게이밍 포지셔닝</strong>: UltraGear 브랜드 인지도 상승, 가격 경쟁력 확보</li><li>💻 <strong>gram 2026 Aerominum</strong>: 글로벌 공개로 경량 노트북 시장 리더십 유지</li></ul>
+<h3 id="sec-30" class="sub-title action-required-banner">실행 필요</h3>
+<ol><li><strong>TV 현지화 프로모션 캘린더</strong>: 국가별 주요 이벤트 연동 프로모션 사전 기획</li><li><strong>냉장고 A/S 만족도 개선 프로그램</strong>: Consumer Reports 평가 활용 마케팅 + CS 강화</li><li><strong>세탁기 에너지 효율 마케팅</strong>: 독일·프랑스 친환경 인센티브 연계 프로모션</li><li><strong>모니터 게이밍 타겟 마케팅</strong>: e스포츠 스폰서십 및 게임 인플루언서 협업</li><li><strong>gram Aerominum 런칭 캠페인</strong>: CES/MWC 연계 글로벌 동시 마케팅</li></ol>
+<h3 id="sec-31" class="sub-title">4.1 TV (MS) Deep Dive</h3>
+<p><strong>월간 프로모션 사이클 분석</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Event</th><th>Country</th><th>Period</th><th>LG Action</th><th>Competitor Response</th><th>효과</th></tr></thead><tbody><tr><td>Presidents Day</td><td>🇺🇸 US</td><td>W3</td><td>OLED $1,499</td><td>Samsung QD-OLED $1,799</td><td>가격 우위 확보</td></tr><tr><td>Streaming Week</td><td>🇲🇽 MX</td><td>W2~W3</td><td>번들 프로모션</td><td>TCL 가격 인하</td><td>시장 반응 양호</td></tr><tr><td>Chinese New Year</td><td>🇹🇼 TW</td><td>W1~W2</td><td>momo 단독 NT$54,900</td><td>-</td><td>채널 협력 효과</td></tr></tbody></table></div>
+<p><strong>TCL/Hisense 공세 월간 추이</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Brand</th><th>🇩🇪 DE</th><th>🇧🇷 BR</th><th>🇺🇸 US</th><th>🇫🇷 FR</th><th>Total</th><th>전략</th></tr></thead><tbody><tr><td>TCL</td><td>8건</td><td>10건</td><td>8건</td><td>4건</td><td>60건</td><td>가격 공세</td></tr><tr><td>Hisense</td><td>15건</td><td>12건</td><td>12건</td><td>8건</td><td>58건</td><td>점유율 공격</td></tr></tbody></table></div>
+<p><strong>주요 시그널</strong>:</p>
+<ul><li>🇩🇪 Hisense 독일 20% 점유율 도달 <a href="https://www.4kfilme.de/samsung-hisense-und-tcl-setzen-den-tv-marktfuehrer-im-premium-segment-unter-druck/" target="_blank" rel="noopener">🔗</a></li><li>🇧🇷 Hisense/TCL Samsung 추월 <a href="https://www.mundoconectado.com.br/smart-tvs/hisense-tcl-superam-samsung-tvs-grandes/" target="_blank" rel="noopener">🔗</a></li><li>🇫🇷 Hisense 프랑스 10.3% 점유율 <a href="https://www.avcesar.com/marche-tv-france-2025-le-top-8-des-marques-46796" target="_blank" rel="noopener">🔗</a></li></ul>
+<div class="chart-container"><canvas id="chart-monthly_tv_deep_dive" data-chart='{"type":"bar","title":"TV 중국 브랜드 국가별 시그널","labels":["DE","BR","US","FR","기타"],"datasets":[{"label":"TCL","data":[8,10,8,4,30],"color":"#e63946"},{"label":"Hisense","data":[15,12,12,8,11],"color":"#f4a261"}]}'></canvas></div>
+<h3 id="sec-32" class="sub-title">4.2 냉장고/세탁기 (HS) Deep Dive</h3>
+<p><strong>월간 소비자 반응 패턴</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Category</th><th>Positive</th><th>Neutral</th><th>Negative</th><th>주요 이슈</th></tr></thead><tbody><tr><td>냉장고</td><td>45</td><td>18</td><td>3</td><td>에너지 효율 호평</td></tr><tr><td>세탁기</td><td>38</td><td>15</td><td>11</td><td>A/S 지연 불만</td></tr></tbody></table></div>
+<p><strong>Haier/Midea 위협 추이</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Brand</th><th>냉장고</th><th>세탁기</th><th>Total</th><th>주요 시장</th><th>전략</th></tr></thead><tbody><tr><td>Haier</td><td>52건</td><td>44건</td><td>96건</td><td>🇦🇺🇬🇧🇮🇹</td><td>채널 확대</td></tr><tr><td>Midea</td><td>48건</td><td>53건</td><td>101건</td><td>🇧🇷🇹🇭🇩🇪</td><td>가격 공세</td></tr></tbody></table></div>
+<p><strong>주요 시그널</strong>:</p>
+<ul><li>🇦🇺 Haier Good Guys/JB Hi-Fi 입점 확대 <a href="https://www.thegoodguys.com.au/haier/fridges-and-freezers" target="_blank" rel="noopener">🔗</a></li><li>🇧🇷 Midea 세탁기 R$2,499 공격 가격 <a href="https://www.pelando.com.br/d/maquina-de-lavar-roupas-inverter-midea-wi-fi-11kg-healthguardtitanium-110v-ou-220v-c8b7" target="_blank" rel="noopener">🔗</a></li><li>🇹🇭 Midea $10M 투자 발표 <a href="https://en.thairath.co.th/money/business_marketing/marketing_trends/2909695" target="_blank" rel="noopener">🔗</a></li></ul>
+<div class="chart-container"><canvas id="chart-monthly_appliance_deep_dive" data-chart='{"type":"bar","title":"가전 중국 브랜드 제품별 시그널","labels":["냉장고","세탁기"],"datasets":[{"label":"Haier","data":[52,44],"color":"#e63946"},{"label":"Midea","data":[48,53],"color":"#f4a261"}]}'></canvas></div>
+<h3 id="sec-33" class="sub-title">4.3 모니터/LG gram Deep Dive</h3>
+<p><strong>모니터 가격 포지셔닝</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Region</th><th>LG UltraGear</th><th>Samsung Odyssey</th><th>할인율</th><th>채널</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>$267 (-33%)</td><td>$299 (-25%)</td><td>LG 우위</td><td>Amazon</td></tr><tr><td>🇧🇷 BR</td><td>R$1,179 (-30%)</td><td>R$1,399 (-20%)</td><td>LG 우위</td><td>Pelando</td></tr><tr><td>🇮🇹 IT</td><td>€279 (-35%)</td><td>€319 (-28%)</td><td>LG 우위</td><td>Amazon.it</td></tr><tr><td>🇹🇼 TW</td><td>NT$4,999 (-14%)</td><td>NT$5,999 (-10%)</td><td>LG 우위</td><td>LG.com</td></tr></tbody></table></div>
+<p><strong>LG gram 프로모션 효과</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Model</th><th>Original</th><th>Promo Price</th><th>Discount</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>gram Pro 17</td><td>$2,399</td><td>$1,499</td><td>-38%</td><td><a href="https://www.zdnet.com/article/lg-gram-pro-17-deal-post/" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇩🇪 DE</td><td>gram Book</td><td>€999</td><td>€699</td><td>-30%</td><td><a href="https://www.notebookcheck.com/LG-Gram-Book-mit-Core-i5-und-USB-4-im-Angebot.1228441.0.html" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇪🇸 ES</td><td>gram Pro 17</td><td>€1,699</td><td>€899</td><td>-47%</td><td><a href="https://www.larazon.es/compras/nuestra-eleccion/ligero-pero-potente-casi-800-euros-descuento-este-portatil-premium_20260220699735c72f00a0468817f549.html" target="_blank" rel="noopener">🔗</a></td></tr><tr><td>🇫🇷 FR</td><td>gram 16</td><td>€1,499</td><td>€839</td><td>-44%</td><td><a href="https://www.jeuxvideo.com/news/2063317/44-sur-le-lg-gram-16-cet-ordinateur-portable-ia-passe-a-un-prix-casse.htm" target="_blank" rel="noopener">🔗</a></td></tr></tbody></table></div>
+<p><strong>gram 2026 Aerominum 런칭</strong>:</p>
+<ul><li>글로벌 동시 공개: CES 2026 발표 후 각국 순차 출시 <a href="https://www.lg.com/global/newsroom/news/media-entertainment-solution/lg-electronics-introduces-2026-lg-gram-lineup-elevated-by-aerominum/" target="_blank" rel="noopener">🔗</a></li><li>핵심 차별점: 초경량(1,120g) + AMD Ryzen AI 탑재</li></ul>
+<hr class="section-divider" />
+<h2 id="sec-34" class="section-title">Section 5: 중국 브랜드 월간 위협 보고</h2>
+<h3 id="sec-35" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul><li>🔴 <strong>가전 브랜드 공세 심화</strong>: Midea(101건)+Haier(96건)=197건으로 TV 브랜드 TCL+Hisense(118건) 압도</li><li>📈 <strong>Midea 성장 모멘텀</strong>: 태국 투자, 브라질 가격 전쟁으로 신흥 시장 장악 가속</li><li>🏪 <strong>Haier 채널 전략</strong>: 호주·유럽 프리미엄 채널 입점으로 브랜드 이미지 상승 시도</li><li>📺 <strong>Hisense TV 점유율 공격</strong>: 독일 20% 도달, 프랑스 10.3%로 유럽 시장 침투 가속</li><li>⚠️ <strong>TCL 가격 파괴</strong>: 브라질 대형 TV 시장에서 최저가 포지셔닝으로 물량 공세</li></ul>
+<h3 id="sec-36" class="sub-title action-required-banner">실행 필요</h3>
+<ol><li><strong>중국 브랜드 워룸 운영</strong>: 주간 위협 분석 및 대응 전략 회의 정례화</li><li><strong>가전 가격 방어 라인 설정</strong>: Midea 대비 최대 허용 가격 갭 40% 기준 수립</li><li><strong>Haier 채널 대응</strong>: 호주 Good Guys 입점 조건 재협상, 독점 프로모션 확보</li><li><strong>독일 TV 시장 점유율 방어</strong>: Hisense 대응 OLED 프리미엄 가치 마케팅 강화</li><li><strong>신흥 시장 선제 투자</strong>: 태국·베트남 현지 파트너십 강화로 Midea 확장 견제</li></ol>
+<h3 id="sec-37" class="sub-title">5.1 브랜드별 월간 추이</h3>
+<p><strong>Midea (101건)</strong></p>
+<ul><li>주요 시장: 🇧🇷 브라질(15건), 🇺🇸 미국(18건), 🇮🇹 이탈리아(12건)</li><li>전략: 공격적 가격 정책 + 현지 생산 투자</li><li>위협 수준: 🔴 Critical</li></ul>
+<div class="table-wrap"><table><thead><tr><th>Week</th><th>시그널 수</th><th>주요 동향</th></tr></thead><tbody><tr><td>W2</td><td>18</td><td>브라질 세탁기 프로모션</td></tr><tr><td>W6</td><td>83</td><td>태국 투자 발표, 전 시장 공세</td></tr></tbody></table></div>
+<p><strong>Haier (96건)</strong></p>
+<ul><li>주요 시장: 🇦🇺 호주(10건), 🇮🇹 이탈리아(10건), 🇬🇧 영국(8건)</li><li>전략: 프리미엄 채널 입점 + 브랜드 이미지 상승</li><li>위협 수준: 🟠 High</li></ul>
+<div class="table-wrap"><table><thead><tr><th>Week</th><th>시그널 수</th><th>주요 동향</th></tr></thead><tbody><tr><td>W2</td><td>16</td><td>호주 Good Guys 입점 확대</td></tr><tr><td>W6</td><td>80</td><td>유럽 프로모션 동시 집행</td></tr></tbody></table></div>
+<p><strong>TCL (60건)</strong></p>
+<ul><li>주요 시장: 🇧🇷 브라질(10건), 🇩🇪 독일(8건), 🇺🇸 미국(8건)</li><li>전략: 최저가 포지셔닝 + 대형 TV 집중</li><li>위협 수준: 🟠 High</li></ul>
+<p><strong>Hisense (58건)</strong></p>
+<ul><li>주요 시장: 🇩🇪 독일(15건), 🇧🇷 브라질(12건), 🇺🇸 미국(12건)</li><li>전략: 시장점유율 공격 + 프리미엄 라인업 확대</li><li>위협 수준: 🔴 Critical</li></ul>
+<div class="chart-container"><canvas id="chart-monthly_china_brand_bar" data-chart='{"type":"bar","title":"중국 브랜드 월간 시그널","labels":["Midea","Haier","TCL","Hisense"],"datasets":[{"label":"시그널 수","data":[101,96,60,58],"color":"#e63946"}]}'></canvas></div>
+<h3 id="sec-38" class="sub-title">5.2 중국 브랜드 가격 전쟁 월간 맵</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Product</th><th>LG Price</th><th>Midea/Haier</th><th>TCL/Hisense</th><th>가격 갭</th><th>위협</th></tr></thead><tbody><tr><td>🇧🇷 BR</td><td>세탁기</td><td>R$4,299</td><td>R$2,499</td><td>-</td><td>-42%</td><td>🔴 Critical</td></tr><tr><td>🇧🇷 BR</td><td>TV 65&quot;</td><td>R$14,999</td><td>-</td><td>R$8,999</td><td>-40%</td><td>🔴 Critical</td></tr><tr><td>🇩🇪 DE</td><td>TV 65&quot;</td><td>€948</td><td>-</td><td>€749</td><td>-21%</td><td>🟠 High</td></tr><tr><td>🇦🇺 AU</td><td>냉장고</td><td>A$1,499</td><td>A$999</td><td>-</td><td>-33%</td><td>🟠 High</td></tr><tr><td>🇹🇭 TH</td><td>세탁기</td><td>฿15,990</td><td>฿9,990</td><td>-</td><td>-38%</td><td>🟠 High</td></tr><tr><td>🇺🇸 US</td><td>냉장고</td><td>$1,299</td><td>$899</td><td>-</td><td>-31%</td><td>🟠 High</td></tr><tr><td>🇮🇹 IT</td><td>세탁기</td><td>€599</td><td>€399</td><td>-</td><td>-33%</td><td>🟡 Medium</td></tr></tbody></table></div>
+<h3 id="sec-39" class="sub-title">5.3 전략 요약 및 대응 방안</h3>
+<p><strong>단기 대응 (3월)</strong></p>
+<ol><li>브라질 세탁기 긴급 프로모션: Midea 가격 대응 번들 할인</li><li>독일 TV OLED 가치 마케팅: Hisense 대비 화질 차별화 강조</li><li>호주 냉장고 채널 협상: Good Guys 독점 프로모션 확보</li></ol>
+<p><strong>중기 대응 (Q2)</strong></p>
+<ol><li>가전 엔트리 라인업 검토: 중국 브랜드 대응 가격대 모델 기획</li><li>동남아 현지화 전략: 태국·베트남 파트너십 강화</li><li>유럽 프리미엄 포지셔닝: OLED/WashTower 기술 차별화</li></ol>
+<p><strong>장기 대응 (H2)</strong></p>
+<ol><li>글로벌 가격 정책 재정립: 국가별 최적 가격 갭 기준 수립</li><li>브랜드 가치 투자: 친환경·AI 기술 리더십 마케팅</li><li>D2C 채널 강화: 중간 유통 마진 절감으로 가격 경쟁력 확보</li></ol>
+<hr class="section-divider" />
+<h2 id="sec-40" class="section-title">Section 6: Month-over-Month 트렌드</h2>
+<h3 id="sec-41" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul><li>📊 <strong>첫 월간 리포트</strong>: MoM 비교 기준 데이터 부재, 차월부터 추세 분석 가능</li><li>📈 <strong>W6 집중 현상</strong>: 전체 858건 중 651건(75.9%)이 W6에 집중, 데이터 수집 패턴 점검 필요</li><li>🔄 <strong>제품별 균형 양호</strong>: TV 32.9%, 냉장고 23.9%, 세탁기 22.6%로 포트폴리오 다각화 효과</li><li>⚠️ <strong>중국 브랜드 급증</strong>: W2 대비 W6 시그널 373% 증가(55→260건), 월말 공세 집중</li><li>📉 <strong>소비자 부정 반응</strong>: W6 급증 패턴 모니터링 체계 필요</li></ul>
+<h3 id="sec-42" class="sub-title action-required-banner">실행 필요</h3>
+<ol><li><strong>MoM 비교 기준 수립</strong>: 3월 리포트부터 전월 대비 트렌드 분석 정례화</li><li><strong>주차별 데이터 균등화</strong>: W1~W4 수집 강화로 월말 집중 해소</li><li><strong>중국 브랜드 조기 경보</strong>: W2 시그널 급증 시 자동 알림 체계 도입</li><li><strong>부정 반응 선제 대응</strong>: 주간 단위 CS 이슈 모니터링 강화</li><li><strong>분기별 트렌드 리포트</strong>: 3개월 단위 장기 추세 분석 리포트 추가</li></ol>
+<div class="table-wrap"><table><thead><tr><th>Metric</th><th>M-3</th><th>M-2</th><th>Last Month</th><th>This Month</th><th>Trend</th></tr></thead><tbody><tr><td>총 시그널</td><td>N/A</td><td>N/A</td><td>N/A</td><td>858</td><td>📊 기준 수립</td></tr><tr><td>TV 시그널</td><td>N/A</td><td>N/A</td><td>N/A</td><td>282</td><td>📊 기준 수립</td></tr><tr><td>냉장고 시그널</td><td>N/A</td><td>N/A</td><td>N/A</td><td>205</td><td>📊 기준 수립</td></tr><tr><td>세탁기 시그널</td><td>N/A</td><td>N/A</td><td>N/A</td><td>194</td><td>📊 기준 수립</td></tr><tr><td>모니터 시그널</td><td>N/A</td><td>N/A</td><td>N/A</td><td>102</td><td>📊 기준 수립</td></tr><tr><td>gram 시그널</td><td>N/A</td><td>N/A</td><td>N/A</td><td>71</td><td>📊 기준 수립</td></tr><tr><td>중국 브랜드</td><td>N/A</td><td>N/A</td><td>N/A</td><td>315</td><td>📊 기준 수립</td></tr><tr><td>부정 반응</td><td>N/A</td><td>N/A</td><td>N/A</td><td>16</td><td>📊 기준 수립</td></tr></tbody></table></div>
+<p><strong>주차별 추이 상세</strong></p>
+<div class="table-wrap"><table><thead><tr><th>Metric</th><th>W1</th><th>W2</th><th>W3</th><th>W4</th><th>W5</th><th>W6</th><th>W7</th></tr></thead><tbody><tr><td>총 레코드</td><td>1</td><td>203</td><td>0</td><td>1</td><td>1</td><td>651</td><td>1</td></tr><tr><td>TV</td><td>0</td><td>90</td><td>0</td><td>0</td><td>0</td><td>192</td><td>0</td></tr><tr><td>냉장고</td><td>0</td><td>47</td><td>0</td><td>0</td><td>0</td><td>158</td><td>0</td></tr><tr><td>세탁기</td><td>0</td><td>35</td><td>0</td><td>0</td><td>0</td><td>159</td><td>0</td></tr><tr><td>모니터</td><td>0</td><td>17</td><td>0</td><td>0</td><td>0</td><td>85</td><td>0</td></tr><tr><td>gram</td><td>0</td><td>14</td><td>0</td><td>0</td><td>0</td><td>57</td><td>0</td></tr><tr><td>중국 브랜드</td><td>0</td><td>55</td><td>0</td><td>0</td><td>0</td><td>260</td><td>0</td></tr><tr><td>부정 반응</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>15</td><td>0</td></tr></tbody></table></div>
+<div class="chart-container"><canvas id="chart-monthly_mom_trend" data-chart='{"type":"line","title":"주차별 시그널 추이","labels":["W1","W2","W3","W4","W5","W6","W7"],"datasets":[{"label":"총 레코드","data":[1,203,0,1,1,651,1],"color":"#003a66"},{"label":"중국 브랜드","data":[0,55,0,0,0,260,0],"color":"#e63946"}]}'></canvas></div>
+<hr class="section-divider" />
+<h2 id="sec-43" class="section-title">Section 7: 차트 갤러리</h2>
+<p>본 섹션의 모든 차트는 Chart.js 인터랙티브 차트로 렌더링됩니다.</p>
+<h3 id="sec-44" class="sub-title">7.1 국가별 시그널 히트맵</h3>
+<div class="chart-container"><canvas id="chart-monthly_country_signals" data-chart='{"type":"bar","title":"16개국 월간 시그널 건수","labels":["US","DE","IT","BR","SA","FR","TW","ES","UK","AU","CA","SG","MX","EG","TH","CL"],"datasets":[{"label":"시그널 건수","data":[190,90,79,78,69,61,56,47,45,43,30,21,13,13,9,8],"color":"#003a66"}]}'></canvas></div>
+<h3 id="sec-45" class="sub-title">7.2 제품별 4주 추이 라인차트</h3>
+<div class="chart-container"><canvas id="chart-monthly_product_trend" data-chart='{"type":"line","title":"제품별 주간 시그널 추이","labels":["W1","W2","W3","W4","W5","W6","W7"],"datasets":[{"label":"TV","data":[0,90,0,0,0,192,0],"color":"#003a66"},{"label":"Refrigerator","data":[0,47,0,0,0,158,0],"color":"#0a7ac4"},{"label":"Washing Machine","data":[0,35,0,0,0,159,0],"color":"#2196F3"},{"label":"Monitor","data":[0,17,0,0,0,85,0],"color":"#4CAF50"},{"label":"LG gram","data":[0,14,0,0,0,57,0],"color":"#FF9800"}]}'></canvas></div>
+<h3 id="sec-46" class="sub-title">7.3 중국 브랜드 월간 비교 바차트</h3>
+<div class="chart-container"><canvas id="chart-monthly_china_comparison" data-chart='{"type":"bar","title":"중국 브랜드 카테고리별 시그널","labels":["Midea","Haier","TCL","Hisense"],"datasets":[{"label":"가전","data":[101,96,0,0],"color":"#e63946"},{"label":"TV","data":[0,0,60,58],"color":"#f4a261"}]}'></canvas></div>
+<h3 id="sec-47" class="sub-title">7.4 소비자 반응 분포 파이차트</h3>
+<div class="chart-container"><canvas id="chart-monthly_sentiment_pie" data-chart='{"type":"doughnut","title":"인텔리전스 필라 분포","labels":["Chinese Brand Threat Tracking","Retail Channel Promotions","Competitive Price & Positioning","Consumer Sentiment","Home Appliance","IT","Collection"],"datasets":[{"label":"건수","data":[343,281,112,78,34,6,4],"color":"#003a66"}]}'></canvas></div>
+<h3 id="sec-48" class="sub-title">7.5 브랜드별 월간 시그널 분포</h3>
+<div class="chart-container"><canvas id="chart-monthly_brand_distribution" data-chart='{"type":"polarArea","title":"주요 브랜드 시그널 분포","labels":["LG","Midea","Haier","TCL","Hisense","Samsung","기타"],"datasets":[{"label":"시그널 수","data":[483,101,96,60,58,42,18],"color":"#003a66"}]}'></canvas></div>
+<hr class="section-divider" />
+<h2 id="sec-49" class="section-title">Appendix A: 데이터 소스 및 커버리지</h2>
+<h3 id="sec-50" class="sub-title">A.1 월간 핵심 법인 소스 테이블</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Official</th><th>Retail</th><th>Community</th><th>Media</th><th>Total</th><th>커버리지</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>45</td><td>65</td><td>48</td><td>32</td><td>190</td><td>✅ 완전</td></tr><tr><td>🇨🇦 CA</td><td>8</td><td>12</td><td>6</td><td>4</td><td>30</td><td>✅ 완전</td></tr><tr><td>🇬🇧 UK</td><td>12</td><td>18</td><td>10</td><td>5</td><td>45</td><td>✅ 완전</td></tr><tr><td>🇩🇪 DE</td><td>22</td><td>35</td><td>20</td><td>13</td><td>90</td><td>✅ 완전</td></tr><tr><td>🇫🇷 FR</td><td>15</td><td>25</td><td>12</td><td>9</td><td>61</td><td>✅ 완전</td></tr><tr><td>🇪🇸 ES</td><td>12</td><td>20</td><td>8</td><td>7</td><td>47</td><td>✅ 완전</td></tr><tr><td>🇮🇹 IT</td><td>18</td><td>32</td><td>18</td><td>11</td><td>79</td><td>✅ 완전</td></tr><tr><td>🇧🇷 BR</td><td>18</td><td>30</td><td>20</td><td>10</td><td>78</td><td>✅ 완전</td></tr><tr><td>🇲🇽 MX</td><td>3</td><td>5</td><td>3</td><td>2</td><td>13</td><td>⚠️ 부분</td></tr><tr><td>🇨🇱 CL</td><td>2</td><td>3</td><td>2</td><td>1</td><td>8</td><td>⚠️ 부분</td></tr><tr><td>🇹🇭 TH</td><td>2</td><td>4</td><td>2</td><td>1</td><td>9</td><td>⚠️ 부분</td></tr><tr><td>🇦🇺 AU</td><td>10</td><td>18</td><td>10</td><td>5</td><td>43</td><td>✅ 완전</td></tr><tr><td>🇹🇼 TW</td><td>14</td><td>22</td><td>12</td><td>8</td><td>56</td><td>✅ 완전</td></tr><tr><td>🇸🇬 SG</td><td>5</td><td>9</td><td>4</td><td>3</td><td>21</td><td>✅ 완전</td></tr><tr><td>🇪🇬 EG</td><td>3</td><td>6</td><td>2</td><td>2</td><td>13</td><td>⚠️ 부분</td></tr><tr><td>🇸🇦 SA</td><td>15</td><td>28</td><td>16</td><td>10</td><td>69</td><td>✅ 완전</td></tr></tbody></table></div>
+<h3 id="sec-51" class="sub-title">A.2 주차별 수집 건수</h3>
+<div class="table-wrap"><table><thead><tr><th>Week</th><th>수집 건수</th><th>비율</th><th>비고</th></tr></thead><tbody><tr><td>W1</td><td>1</td><td>0.1%</td><td>데이터 부족</td></tr><tr><td>W2</td><td>203</td><td>23.7%</td><td>정상 수집</td></tr><tr><td>W3</td><td>0</td><td>0%</td><td>데이터 부재</td></tr><tr><td>W4</td><td>1</td><td>0.1%</td><td>데이터 부족</td></tr><tr><td>W5</td><td>1</td><td>0.1%</td><td>데이터 부족</td></tr><tr><td>W6</td><td>651</td><td>75.9%</td><td>집중 수집</td></tr><tr><td>W7</td><td>1</td><td>0.1%</td><td>데이터 부족</td></tr></tbody></table></div>
+<p><strong>수집 패턴 분석</strong>:</p>
+<ul><li>W2, W6 두 주간에 데이터 집중 (99.6%)</li><li>W3~W5 데이터 부재는 수집 시스템 점검 필요</li><li>3월부터 주간 균등 수집 체계 구축 권고</li></ul>
+<h3 id="sec-52" class="sub-title">A.3 국가별 제품 커버리지 히트맵</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>TV</th><th>냉장고</th><th>세탁기</th><th>모니터</th><th>gram</th><th>Total</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>✅ 51</td><td>✅ 40</td><td>✅ 40</td><td>✅ 35</td><td>✅ 24</td><td>190</td></tr><tr><td>🇨🇦 CA</td><td>✅ 7</td><td>✅ 13</td><td>✅ 9</td><td>⚠️ 1</td><td>❌ 0</td><td>30</td></tr><tr><td>🇬🇧 UK</td><td>✅ 9</td><td>✅ 20</td><td>✅ 11</td><td>⚠️ 1</td><td>✅ 4</td><td>45</td></tr><tr><td>🇩🇪 DE</td><td>✅ 35</td><td>✅ 12</td><td>✅ 20</td><td>✅ 15</td><td>✅ 8</td><td>90</td></tr><tr><td>🇫🇷 FR</td><td>✅ 23</td><td>✅ 14</td><td>✅ 15</td><td>✅ 6</td><td>⚠️ 3</td><td>61</td></tr><tr><td>🇪🇸 ES</td><td>✅ 21</td><td>✅ 10</td><td>✅ 10</td><td>⚠️ 2</td><td>✅ 4</td><td>47</td></tr><tr><td>🇮🇹 IT</td><td>✅ 26</td><td>✅ 17</td><td>✅ 21</td><td>✅ 10</td><td>✅ 5</td><td>79</td></tr><tr><td>🇧🇷 BR</td><td>✅ 24</td><td>✅ 21</td><td>✅ 17</td><td>✅ 13</td><td>⚠️ 3</td><td>78</td></tr><tr><td>🇲🇽 MX</td><td>✅ 5</td><td>⚠️ 1</td><td>✅ 6</td><td>⚠️ 1</td><td>❌ 0</td><td>13</td></tr><tr><td>🇨🇱 CL</td><td>⚠️ 3</td><td>✅ 4</td><td>❌ 0</td><td>⚠️ 1</td><td>❌ 0</td><td>8</td></tr><tr><td>🇹🇭 TH</td><td>✅ 5</td><td>⚠️ 2</td><td>⚠️ 2</td><td>❌ 0</td><td>❌ 0</td><td>9</td></tr><tr><td>🇦🇺 AU</td><td>✅ 16</td><td>✅ 14</td><td>✅ 11</td><td>⚠️ 1</td><td>⚠️ 1</td><td>43</td></tr><tr><td>🇹🇼 TW</td><td>✅ 20</td><td>✅ 11</td><td>✅ 10</td><td>✅ 10</td><td>✅ 5</td><td>56</td></tr><tr><td>🇸🇬 SG</td><td>✅ 8</td><td>⚠️ 2</td><td>⚠️ 2</td><td>✅ 5</td><td>✅ 4</td><td>21</td></tr><tr><td>🇪🇬 EG</td><td>✅ 6</td><td>✅ 4</td><td>⚠️ 3</td><td>❌ 0</td><td>❌ 0</td><td>13</td></tr><tr><td>🇸🇦 SA</td><td>✅ 23</td><td>✅ 19</td><td>✅ 17</td><td>⚠️ 1</td><td>✅ 9</td><td>69</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-53" class="section-title">Appendix B: 방법론 및 한계</h2>
+<h3 id="sec-54" class="sub-title">B.1 수집 범위</h3>
+<p><strong>데이터 소스 유형</strong>:</p>
+<ul><li><strong>Official</strong>: LG 공식 사이트, 프로모션 페이지</li><li><strong>Retail</strong>: Amazon, Best Buy, MediaMarkt, momo쇼핑 등 주요 유통 채널</li><li><strong>Community</strong>: Reddit, OzBargain, Hotukdeals, Pelando 등 딜 커뮤니티</li><li><strong>Media</strong>: 9to5Toys, CNET, NotebookCheck 등 테크 미디어</li></ul>
+<p><strong>수집 주기</strong>: 주간 자동 수집 + 수동 검증</p>
+<h3 id="sec-55" class="sub-title">B.2 링크 규칙</h3>
+<ul><li>모든 시그널에 Source URL 포함</li><li>URL 유효성 검증: 수집 시점 기준 200 OK</li><li>Archive 링크: 원본 삭제 시 web.archive.org 대체</li><li>페이월 콘텐츠: 가능한 요약 발췌 + 원본 링크 표기</li></ul>
+<h3 id="sec-56" class="sub-title">B.3 제한사항</h3>
+<ol><li><strong>MoM 비교 불가</strong>: 첫 월간 리포트로 전월 데이터 부재</li><li><strong>주간 데이터 불균형</strong>: W3~W5 데이터 부재로 추세 분석 제한</li><li><strong>일부 국가 커버리지 부족</strong>: 🇲🇽🇨🇱🇹🇭🇪🇬 데이터 부분 수집</li><li><strong>언어 제한</strong>: 아랍어(이집트/사우디) 콘텐츠 번역 정확도 검증 필요</li><li><strong>실시간성</strong>: 주간 수집 주기로 인한 최신 데이터 지연 (1~7일)</li></ol>
+<h3 id="sec-57" class="sub-title">B.4 월간 집계 방법론</h3>
+<p><strong>데이터 병합 규칙</strong>:</p>
+<ul><li>7회분 주간 리포트 데이터 통합</li><li>중복 URL 제거 (동일 URL → 최신 버전만 유지)</li><li>브랜드/제품 분류 표준화 적용</li></ul>
+<p><strong>Severity 재산정</strong>:</p>
+<ul><li>월간 집계 시 주간 Severity 최고값 적용</li><li>누적 시그널 수 반영한 월간 Threat Level 재산정</li></ul>
+<h3 id="sec-58" class="sub-title">B.5 Tier 분류 기준</h3>
+<div class="table-wrap"><table><thead><tr><th>Tier</th><th>기준</th><th>국가</th></tr></thead><tbody><tr><td>Tier 1</td><td>월 50건+</td><td>🇺🇸🇩🇪🇮🇹🇧🇷🇸🇦🇫🇷🇹🇼</td></tr><tr><td>Tier 2</td><td>월 20~49건</td><td>🇪🇸🇬🇧🇦🇺🇨🇦🇸🇬</td></tr><tr><td>Tier 3</td><td>월 20건 미만</td><td>🇲🇽🇪🇬🇹🇭🇨🇱</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<p><em>End of Monthly Deep Dive Intelligence Report — Vol.2026-02</em> <em>Next Report: Monthly Vol.2026-03 (2026년 3월 리포트)</em> <em>Contact: D2C Global Intelligence Team</em></p>
+      </section>
+      <footer class="foot">Generated for executive sharing · LG Global D2C Weekly Intelligence</footer>
+    </main>
+  </div>
+  <script>
+    (function () {
+      const tocLinks = Array.from(document.querySelectorAll('.toc-panel a[href^="#"]'));
+      if (!tocLinks.length) return;
+
+      const linkById = new Map();
+      tocLinks.forEach((link) => {
+        const id = (link.getAttribute('href') || '').slice(1);
+        if (id) linkById.set(id, link);
+      });
+
+      function setActive(id) {
+        tocLinks.forEach((l) => l.classList.remove('is-active'));
+        const target = linkById.get(id);
+        if (target) target.classList.add('is-active');
+      }
+
+      const headings = Array.from(linkById.keys())
+        .map((id) => document.getElementById(id))
+        .filter(Boolean);
+
+      if (!headings.length) return;
+      setActive(headings[0].id);
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const visible = entries
+            .filter((e) => e.isIntersecting)
+            .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+          if (visible.length) setActive(visible[0].target.id);
+        },
+        { root: null, rootMargin: '-22% 0px -64% 0px', threshold: [0, 1] }
+      );
+
+      headings.forEach((h) => observer.observe(h));
+
+      tocLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          const id = (link.getAttribute('href') || '').slice(1);
+          if (id) setActive(id);
+        });
+      });
+    })();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.7/chart.umd.min.js"></script>
+  <script>
+    // Chart.js rendering for <!-- CHART:xxx --> markers
+    (function() {
+      document.querySelectorAll('canvas[data-chart]').forEach(function(canvas) {
+        try {
+          var chartData = JSON.parse(canvas.getAttribute('data-chart'));
+          if (!chartData || !chartData.type) return;
+          var ctx = canvas.getContext('2d');
+          var datasets = (chartData.datasets || []).map(function(ds) {
+            var base = {
+              label: ds.label || '',
+              data: ds.data || [],
+            };
+            if (chartData.type === 'doughnut' || chartData.type === 'polarArea') {
+              base.backgroundColor = (ds.data || []).map(function(_, i) {
+                var colors = ['#003a66','#0a7ac4','#2196F3','#4CAF50','#FF9800','#e63946','#9c27b0','#607d8b'];
+                return colors[i % colors.length];
+              });
+            } else {
+              base.borderColor = ds.color || '#003a66';
+              base.backgroundColor = (ds.color || '#003a66') + '33';
+              base.tension = 0.3;
+              base.fill = chartData.type === 'line';
+            }
+            return base;
+          });
+          new Chart(ctx, {
+            type: chartData.type,
+            data: { labels: chartData.labels || [], datasets: datasets },
+            options: {
+              responsive: true,
+              maintainAspectRatio: true,
+              plugins: {
+                title: { display: true, text: chartData.title || '', font: { size: 16 } },
+                legend: { position: 'bottom' }
+              },
+              scales: (chartData.type === 'doughnut' || chartData.type === 'polarArea') ? {} : {
+                y: { beginAtZero: true }
+              }
+            }
+          });
+        } catch(e) { /* skip malformed chart */ }
+      });
+    })();
+  </script>
+</body>
+</html>
