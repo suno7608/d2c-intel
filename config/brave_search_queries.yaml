@@ -212,8 +212,8 @@ search_params:
   results_per_query: 10
   rate_limit_delay_ms: 1500  # API 호출 간 딜레이 (ms) — Brave $5 plan: 1 req/sec
   max_retries: 5             # 실패 시 재시도 횟수
-  retry_delay_ms: 5000       # retry 간격 (ms)
   retry_delay_ms: 2000       # 재시도 간 딜레이 (ms)
+  consecutive_429_abort: 10  # 연속 429 N회 시 전체 수집 중단 (월간 쿼터 소진 방어)
 
 # --- 품질 기준 ---
 quality_gates:

@@ -72,6 +72,9 @@ jobs:
       - name: Verify Playwright
         run: playwright --version
 
+      - name: Set script permissions
+        run: chmod +x scripts/*.py scripts/*.sh
+
       - name: Set date key
         run: |
           if [ -n "${{ inputs.date_key }}" ]; then
@@ -128,7 +131,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL_TRANSLATE }}
           CLAUDE_MODEL_TRANSLATE: ${{ vars.CLAUDE_MODEL_TRANSLATE }}
-          CLAUDE_TRANSLATE_RUNNER: "python3 scripts/d2c_translator.py"
+          CLAUDE_TRANSLATE_RUNNER: "${{ github.workspace }}/scripts/d2c_translator.py"
         run: |
           echo "::group::Build Publishable Report"
           bash scripts/build_publishable_report.sh ${{ env.DATE_KEY }}

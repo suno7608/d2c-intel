@@ -75,11 +75,12 @@ class BraveSearchCollector:
         self.api_key = api_key
         self.config = config
         self.search_params = config.get("search_params", {})
-        self.rate_delay = self.search_params.get("rate_limit_delay_ms", 500) / 1000
-        self.max_retries = self.search_params.get("max_retries", 3)
-        self.retry_delay = self.search_params.get("retry_delay_ms", 2000) / 1000
+        self.rate_delay = self.search_params.get("rate_limit_delay_ms", 1100) / 1000
+        self.max_retries = self.search_params.get("max_retries", 5)
+        self.retry_delay = self.search_params.get("retry_delay_ms", 3000) / 1000
         self.count = self.search_params.get("count", 10)
         self.freshness = self.search_params.get("freshness", "pw")
+        self.consecutive_429_abort = self.search_params.get("consecutive_429_abort", 10)
         self.session = requests.Session()
         self.session.headers.update({
             "Accept": "application/json",
@@ -89,9 +90,14 @@ class BraveSearchCollector:
         self.total_api_calls = 0
         self.total_results = 0
         self.seen_urls: set = set()
+        self.consecutive_429_count = 0
+        self.quota_exhausted = False
 
     def search(self, query: str, country: str = "us", count: int = 10) -> List[dict]:
-        """Brave Search API 호출 (재시도 포함)."""
+        """Brave Search API 호출 (재시도 + 연속 429 감지 포함)."""
+        if self.quota_exhausted:
+            return []
+
         params = {
             "q": query,
             "country": country,
@@ -108,11 +114,25 @@ class BraveSearchCollector:
                 self.total_api_calls += 1
 
                 if resp.status_code == 429:
+                    self.consecutive_429_count += 1
+                    if self.consecutive_429_count >= self.consecutive_429_abort:
+                        logger.error(
+                            f"QUOTA EXHAUSTED: {self.consecutive_429_count} consecutive 429 errors. "
+                            f"Monthly API quota likely depleted. Aborting collection."
+                        )
+                        self.quota_exhausted = True
+                        return []
                     wait = self.retry_delay * attempt
-                    logger.warning(f"Rate limited (429). Waiting {wait:.1f}s... [{attempt}/{self.max_retries}]")
+                    logger.warning(
+                        f"Rate limited (429). Waiting {wait:.1f}s... "
+                        f"[{attempt}/{self.max_retries}] "
+                        f"(consecutive 429: {self.consecutive_429_count}/{self.consecutive_429_abort})"
+                    )
                     time.sleep(wait)
                     continue
 
+                # 성공 시 연속 429 카운터 리셋
+                self.consecutive_429_count = 0
                 resp.raise_for_status()
                 data = resp.json()
                 results = data.get("web", {}).get("results", [])
@@ -341,6 +361,9 @@ class BraveSearchCollector:
 
             for country_cfg in countries:
                 step += 1
+                if self.quota_exhausted:
+                    logger.warning("Quota exhausted — skipping remaining queries")
+                    break
                 country = country_cfg["code"]
                 records = self.collect_product_queries(country_cfg, product_cfg, collected_at)
                 all_records.extend(records)
@@ -351,6 +374,10 @@ class BraveSearchCollector:
                 )
 
         logger.info(f"Product rounds complete: {len(all_records)} records, {self.total_api_calls} API calls")
+
+        if self.quota_exhausted:
+            logger.warning("Quota exhausted — skipping Chinese brand round")
+            return all_records
 
         # ── Round 6: 중국 브랜드 전용 검색 (Tier 1+2만) ──
         if chinese_pillar:
@@ -533,6 +560,13 @@ def main():
     collector = BraveSearchCollector(api_key, config)
     records = collector.collect_all(date_key)
     logger.info(f"Initial collection: {len(records)} records, {collector.total_api_calls} API calls")
+
+    if collector.quota_exhausted and len(records) == 0:
+        logger.error("API quota exhausted with 0 records. Cannot proceed.")
+        logger.error("Check your Brave Search API plan quota at https://api.search.brave.com/app/keys")
+        sys.exit(1)
+    elif collector.quota_exhausted:
+        logger.warning(f"API quota exhausted but collected {len(records)} records. Saving partial data.")
 
     # Quality check
     passed, issues = check_quality(records, config)
