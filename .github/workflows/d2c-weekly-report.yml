@@ -63,9 +63,11 @@ jobs:
         run: |
           npm install playwright
           npx playwright install chromium --with-deps
-          # Make 'playwright' available as a bare command for build_publishable_report.sh
-          ln -sf "$(pwd)/node_modules/.bin/playwright" /usr/local/bin/playwright
-          playwright --version
+          # Add node_modules/.bin to PATH for all subsequent steps
+          echo "${{ github.workspace }}/node_modules/.bin" >> $GITHUB_PATH
+
+      - name: Verify Playwright
+        run: playwright --version
 
       - name: Set date key
         run: |
