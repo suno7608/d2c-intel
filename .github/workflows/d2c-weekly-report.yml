@@ -61,8 +61,11 @@ jobs:
 
       - name: Install Playwright (Chromium for PDF)
         run: |
-          npm install -g playwright
-          playwright install chromium --with-deps
+          npm install playwright
+          npx playwright install chromium --with-deps
+          # Make 'playwright' available as a bare command for build_publishable_report.sh
+          ln -sf "$(pwd)/node_modules/.bin/playwright" /usr/local/bin/playwright
+          playwright --version
 
       - name: Set date key
         run: |
