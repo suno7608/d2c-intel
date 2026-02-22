@@ -97,8 +97,8 @@ class BraveSearchCollector:
             "country": country,
             "count": count,
             "freshness": self.freshness,
-            "text_decorations": False,
-            "safesearch": "off",
+            "text_decorations": "false",
+            "safesearch": "moderate",
         }
 
         for attempt in range(1, self.max_retries + 1):
