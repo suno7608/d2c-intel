@@ -210,7 +210,7 @@ search_params:
   count: 10                  # 검색당 결과 수
   freshness: pw              # 지난 1주일 (past week)
   results_per_query: 10
-  rate_limit_delay_ms: 500   # API 호출 간 딜레이 (ms)
+  rate_limit_delay_ms: 300   # API 호출 간 딜레이 (ms)
   max_retries: 3             # 실패 시 재시도 횟수
   retry_delay_ms: 2000       # 재시도 간 딜레이 (ms)
 

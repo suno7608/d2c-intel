@@ -251,20 +251,31 @@ class BraveSearchCollector:
 
     def collect_product_queries(
         self, country_cfg: dict, product_cfg: dict,
-        collected_at: str
+        collected_at: str, max_queries: int = 0
     ) -> List[dict]:
         """특정 국가 × 제품 조합에 대해 검색을 수행합니다."""
         records = []
         country = country_cfg["code"]
         brave_country = COUNTRY_BRAVE_MAP.get(country, country.lower())
         lang = country_cfg.get("lang", "en")
+        tier = country_cfg.get("tier", 3)
         product = product_cfg["name"]
         queries = product_cfg.get("queries", {})
 
         # 해당 언어의 쿼리 선택 (없으면 en fallback)
         lang_queries = queries.get(lang, queries.get("en", []))
 
-        for query in lang_queries:
+        # Tier별 쿼리 수 제한 (max_queries 가 지정되면 그 값 사용)
+        if max_queries > 0:
+            limit = max_queries
+        elif tier == 1:
+            limit = min(len(lang_queries), 4)
+        elif tier == 2:
+            limit = min(len(lang_queries), 3)
+        else:
+            limit = min(len(lang_queries), 2)
+
+        for query in lang_queries[:limit]:
             results = self.search(query, country=brave_country, count=self.count)
             for r in results:
                 rec = self.build_record(r, country, product, "auto", query, collected_at)
@@ -292,21 +303,22 @@ class BraveSearchCollector:
         if product == "TV":
             relevant_brands = [b for b in brands if b.lower() in ("tcl", "hisense")]
         elif product in ("Refrigerator", "Washing Machine"):
-            relevant_brands = [b for b in brands if b.lower() in ("haier", "midea", "hisense")]
+            relevant_brands = [b for b in brands if b.lower() in ("haier", "midea")]
         else:
-            relevant_brands = brands[:2]  # Monitor/gram은 상위 2개
+            return records  # Monitor/gram은 중국 브랜드 검색 생략
 
+        # 패턴 1개만 사용하여 API 호출 최소화
         for brand in relevant_brands:
-            for pattern in lang_patterns[:2]:  # 패턴당 2개로 제한
-                query = pattern.replace("{brand}", brand).replace("{product}", product)
-                results = self.search(query, country=brave_country, count=5)
-                for r in results:
-                    rec = self.build_record(
-                        r, country, product, "chinese_brand_threat", query, collected_at
-                    )
-                    if rec:
-                        rec["brand"] = brand
-                        records.append(rec)
+            pattern = lang_patterns[0] if lang_patterns else "{brand} {product} price"
+            query = pattern.replace("{brand}", brand).replace("{product}", product)
+            results = self.search(query, country=brave_country, count=5)
+            for r in results:
+                rec = self.build_record(
+                    r, country, product, "chinese_brand_threat", query, collected_at
+                )
+                if rec:
+                    rec["brand"] = brand
+                    records.append(rec)
 
         return records
 
@@ -319,6 +331,8 @@ class BraveSearchCollector:
         chinese_pillar = next((p for p in pillars if p["id"] == "chinese_brand_threat"), None)
 
         all_records: List[dict] = []
+        total_steps = len(products) * len(countries)
+        step = 0
 
         # ── Round 1-5: 제품별 × 국가별 검색 ──
         for product_cfg in products:
@@ -326,18 +340,23 @@ class BraveSearchCollector:
             logger.info(f"=== Collecting: {product_name} ===")
 
             for country_cfg in countries:
+                step += 1
                 country = country_cfg["code"]
-                tier = country_cfg.get("tier", 3)
-
-                # Tier에 따라 검색 쿼리 수 조절
                 records = self.collect_product_queries(country_cfg, product_cfg, collected_at)
                 all_records.extend(records)
-                logger.info(f"  {country} ({product_name}): {len(records)} records")
+                logger.info(
+                    f"  [{step}/{total_steps}] {country} ({product_name}): "
+                    f"{len(records)} records (total: {len(all_records)}, "
+                    f"API calls: {self.total_api_calls})"
+                )
 
-        # ── Round 6: 중국 브랜드 전용 검색 ──
+        logger.info(f"Product rounds complete: {len(all_records)} records, {self.total_api_calls} API calls")
+
+        # ── Round 6: 중국 브랜드 전용 검색 (Tier 1+2만) ──
         if chinese_pillar:
-            logger.info("=== Collecting: Chinese Brand Threat ===")
-            for country_cfg in countries:
+            logger.info("=== Collecting: Chinese Brand Threat (Tier 1+2 countries) ===")
+            tier12_countries = [c for c in countries if c.get("tier", 3) <= 2]
+            for country_cfg in tier12_countries:
                 country = country_cfg["code"]
                 for product_cfg in products:
                     product_name = product_cfg["name"]
@@ -349,6 +368,7 @@ class BraveSearchCollector:
                         if records:
                             logger.info(f"  {country} ({product_name}, Chinese): {len(records)} records")
 
+        logger.info(f"All rounds complete: {len(all_records)} records, {self.total_api_calls} API calls")
         return all_records
 
 
@@ -407,8 +427,9 @@ def supplement_collection(
     records: List[dict],
     config: dict,
     date_key: str,
+    max_extra_calls: int = 30,
 ) -> List[dict]:
-    """품질 미달 항목에 대해 추가 수집을 수행합니다."""
+    """품질 미달 항목에 대해 추가 수집을 수행합니다 (API 호출 제한 포함)."""
     gates = config.get("quality_gates", {})
     collected_at = f"{date_key}T{datetime.now().strftime('%H:%M:%S')}+09:00"
     countries = config.get("countries", [])
@@ -423,8 +444,9 @@ def supplement_collection(
         country_counts[r["country"]] = country_counts.get(r["country"], 0) + 1
 
     supplement = []
+    calls_before = collector.total_api_calls
 
-    # 제품별 미달 보강
+    # 제품별 미달 보강 (Tier 1 국가만 대상)
     product_gates = {
         "TV": gates.get("min_tv", 80),
         "Refrigerator": gates.get("min_refrigerator", 80),
@@ -433,29 +455,36 @@ def supplement_collection(
         "LG gram": gates.get("min_gram", 20),
     }
 
+    tier1_countries = [c for c in countries if c.get("tier", 3) == 1]
+
     for product, min_count in product_gates.items():
         actual = product_counts.get(product, 0)
         if actual < min_count:
-            deficit = min_count - actual
-            logger.info(f"Supplementing {product}: need {deficit} more records")
+            logger.info(f"Supplementing {product}: {actual}/{min_count}")
             pcfg = products_cfg.get(product)
             if not pcfg:
                 continue
-
-            for country_cfg in countries:
-                if deficit <= 0:
-                    break
-                recs = collector.collect_product_queries(country_cfg, pcfg, collected_at)
+            for country_cfg in tier1_countries:
+                if collector.total_api_calls - calls_before >= max_extra_calls:
+                    logger.warning("Supplement API call limit reached")
+                    return supplement
+                recs = collector.collect_product_queries(
+                    country_cfg, pcfg, collected_at, max_queries=2
+                )
                 supplement.extend(recs)
-                deficit -= len(recs)
 
-    # 국가별 미달 보강 (최소 5건)
+    # 국가별 미달 보강 (최소 3건, Tier 1 제품만)
     for country_cfg in countries:
         cc = country_cfg["code"]
-        if country_counts.get(cc, 0) < 5:
+        if country_counts.get(cc, 0) < 3:
+            if collector.total_api_calls - calls_before >= max_extra_calls:
+                break
             logger.info(f"Supplementing country {cc}: low coverage")
-            for pcfg in config.get("products", [])[:3]:  # TV, Refrigerator, Washing Machine
-                recs = collector.collect_product_queries(country_cfg, pcfg, collected_at)
+            pcfg = products_cfg.get("TV")
+            if pcfg:
+                recs = collector.collect_product_queries(
+                    country_cfg, pcfg, collected_at, max_queries=1
+                )
                 supplement.extend(recs)
 
     return supplement
