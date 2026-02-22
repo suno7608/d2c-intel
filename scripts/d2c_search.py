@@ -62,15 +62,20 @@ COUNTRY_BRAVE_MAP = {
 # Brave Search에서 확인된 미지원 국가: th, sg, eg
 # fallback 국가도 미지원이면 영어 쿼리로 us에서 검색
 COUNTRY_FALLBACK_MAP = {
-    "th": "us",   # Thailand → US (영어 쿼리로 대체)
-    "sg": "us",   # Singapore → US (영어 쿼리로 대체)
-    "eg": "us",   # Egypt → US (영어 쿼리로 대체)
+    "th": "us",   # Thailand → US (+ loc:th로 지역 타게팅)
+    "sg": "us",   # Singapore → US (+ loc:sg로 지역 타게팅)
+    "eg": "us",   # Egypt → US (+ loc:eg로 지역 타게팅)
     "sa": "ae",   # Saudi Arabia → UAE (필요시)
     "cl": "mx",   # Chile → Mexico (같은 스페인어권)
 }
 
 # 미지원 국가의 쿼리를 영어로 대체 (현지어 쿼리가 422 원인일 수 있음)
 COUNTRY_FORCE_ENGLISH = {"th", "sg", "eg"}
+
+# loc: 연산자로 지역 타게팅 (country 파라미터 미지원 국가용)
+# Brave Search의 loc: 연산자는 ISO 3166-1 alpha-2 코드 사용
+# 쿼리에 "loc:th"를 추가하면 태국 웹페이지를 우선 반환
+COUNTRY_LOC_OPERATOR = {"th", "sg", "eg"}
 
 # 422 에러가 발생한 국가 코드를 기억하여 반복 실패 방지
 _unsupported_countries: set = set()
@@ -341,7 +346,9 @@ class BraveSearchCollector:
         product = product_cfg["name"]
         queries = product_cfg.get("queries", {})
 
-        # 미지원 국가는 영어 쿼리로 강제 전환 + fallback 국가 사용
+        # 미지원 국가는 영어 쿼리로 강제 전환 + fallback 국가 사용 + loc: 연산자
+        original_brave_country = brave_country
+        use_loc = False
         if brave_country in COUNTRY_FORCE_ENGLISH or brave_country in _unsupported_countries:
             lang_queries = queries.get("en", [])
             fallback = COUNTRY_FALLBACK_MAP.get(brave_country, "us")
@@ -349,7 +356,15 @@ class BraveSearchCollector:
                 brave_country = fallback
             else:
                 brave_country = "us"
-            logger.info(f"  → {country}: using English queries via country={brave_country}")
+            # loc: 연산자로 원래 국가의 웹페이지를 우선 반환
+            if original_brave_country in COUNTRY_LOC_OPERATOR:
+                use_loc = True
+                logger.info(
+                    f"  → {country}: English queries via country={brave_country} "
+                    f"+ loc:{original_brave_country} (location targeting)"
+                )
+            else:
+                logger.info(f"  → {country}: using English queries via country={brave_country}")
         else:
             # 해당 언어의 쿼리 선택 (없으면 en fallback)
             lang_queries = queries.get(lang, queries.get("en", []))
@@ -365,7 +380,9 @@ class BraveSearchCollector:
             limit = min(len(lang_queries), 2)
 
         for query in lang_queries[:limit]:
-            results = self.search(query, country=brave_country, count=self.count)
+            # loc: 연산자 추가 — 미지원 국가도 지역 타게팅 유지
+            search_query = f"{query} loc:{original_brave_country}" if use_loc else query
+            results = self.search(search_query, country=brave_country, count=self.count)
             for r in results:
                 rec = self.build_record(r, country, product, "auto", query, collected_at)
                 if rec:
@@ -386,9 +403,13 @@ class BraveSearchCollector:
         brands = pillar_cfg.get("brands", [])
         patterns = pillar_cfg.get("query_patterns", {})
 
-        # 미지원 국가는 영어 패턴 + fallback 국가 사용
+        # 미지원 국가는 영어 패턴 + fallback 국가 + loc: 연산자
+        original_brave_country = brave_country
+        use_loc = False
         if brave_country in COUNTRY_FORCE_ENGLISH or brave_country in _unsupported_countries:
             lang_patterns = patterns.get("en", [])
+            if original_brave_country in COUNTRY_LOC_OPERATOR:
+                use_loc = True
             brave_country = COUNTRY_FALLBACK_MAP.get(brave_country, "us")
         else:
             lang_patterns = patterns.get(lang, patterns.get("en", []))
@@ -406,7 +427,8 @@ class BraveSearchCollector:
         for brand in relevant_brands:
             pattern = lang_patterns[0] if lang_patterns else "{brand} {product} price"
             query = pattern.replace("{brand}", brand).replace("{product}", product)
-            results = self.search(query, country=brave_country, count=5)
+            search_query = f"{query} loc:{original_brave_country}" if use_loc else query
+            results = self.search(search_query, country=brave_country, count=5)
             for r in results:
                 rec = self.build_record(
                     r, country, product, "chinese_brand_threat", query, collected_at
