@@ -46,7 +46,7 @@ require_file() {
 
 echo "[quality] start date=$DATE_KEY"
 
-for cmd in rg jq; do
+for cmd in jq; do
   if ! command -v "$cmd" >/dev/null 2>&1; then
     echo "[quality] missing required command: $cmd" >&2
     exit 1
@@ -109,13 +109,13 @@ tv_ratio="$(awk -v tv="$tv_count" -v total="$records" 'BEGIN{if(total==0){print 
 [[ "$gram_count" -ge "$MIN_GRAM" ]] && pass "gram count ${gram_count} >= ${MIN_GRAM}" || fail "gram count ${gram_count} < ${MIN_GRAM}"
 awk -v r="$tv_ratio" -v max="$MAX_TV_RATIO" 'BEGIN{exit !(r<=max)}' && pass "tv ratio ${tv_ratio}% <= ${MAX_TV_RATIO}%" || fail "tv ratio ${tv_ratio}% > ${MAX_TV_RATIO}%"
 
-if rg -q "placeholder" "$RAW_FILE"; then
+if grep -q "placeholder" "$RAW_FILE"; then
   fail "placeholder data detected in raw collection file"
 else
   pass "no placeholder records in raw collection file"
 fi
 
-if rg -q "\(작성\)|TODO|TBD" "$KO_MD"; then
+if grep -qE "\(작성\)|TODO|TBD" "$KO_MD"; then
   fail "template placeholders found in Korean markdown"
 else
   pass "no template placeholders in Korean markdown"
@@ -123,12 +123,12 @@ fi
 
 if [[ -f "$EN_MD" ]]; then
   pass "exists: $EN_MD"
-  if rg -q "[가-힣]" "$EN_MD"; then
+  if grep -qP "[가-힣]" "$EN_MD"; then
     echo "[quality] ⚠️ Hangul detected in English markdown (legacy file or pre-migration output)"
   else
     pass "no Hangul in English markdown"
   fi
-  if rg -q "\\btranslated\\b" "$EN_MD"; then
+  if grep -qw "translated" "$EN_MD"; then
     echo "[quality] ⚠️ literal token 'translated' detected in English markdown (legacy file or pre-migration output)"
   else
     pass "no literal token 'translated' in English markdown"
@@ -137,19 +137,19 @@ else
   echo "[quality] ⚠️ English markdown missing: $EN_MD (skipped)"
 fi
 
-if rg -q "[가-힣]" "$EN_HTML"; then
+if grep -qP "[가-힣]" "$EN_HTML"; then
   fail "Hangul detected in English HTML"
 else
   pass "no Hangul in English HTML"
 fi
 
-if rg -q "\\btranslated\\b" "$EN_HTML"; then
+if grep -qw "translated" "$EN_HTML"; then
   fail "literal token 'translated' detected in English HTML"
 else
   pass "no literal token 'translated' in English HTML"
 fi
 
-if rg -q 'href="file://' "$HUB_HTML" "$HUB_EN_HTML"; then
+if grep -q 'href="file://' "$HUB_HTML" "$HUB_EN_HTML"; then
   fail "file:// href detected in hub links"
 else
   pass "no file:// href in hub links"
