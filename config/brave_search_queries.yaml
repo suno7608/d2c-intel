@@ -210,8 +210,9 @@ search_params:
   count: 10                  # 검색당 결과 수
   freshness: pw              # 지난 1주일 (past week)
   results_per_query: 10
-  rate_limit_delay_ms: 300   # API 호출 간 딜레이 (ms)
-  max_retries: 3             # 실패 시 재시도 횟수
+  rate_limit_delay_ms: 1500  # API 호출 간 딜레이 (ms) — Brave $5 plan: 1 req/sec
+  max_retries: 5             # 실패 시 재시도 횟수
+  retry_delay_ms: 5000       # retry 간격 (ms)
   retry_delay_ms: 2000       # 재시도 간 딜레이 (ms)
 
 # --- 품질 기준 ---
