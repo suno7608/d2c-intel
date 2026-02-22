@@ -2,7 +2,7 @@
 
 소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향
 
-보고 기간: 2026-02-15 — 2026-02-21
+보고 기간: 2026-02-15(일) — 2026-02-21(토)
 Prepared by: D2C Global Intelligence (OpenClaw Automated)
 Distribution: D2C Leadership / Confidential
 Date Generated: 2026-02-22
@@ -13,328 +13,419 @@ Version: Weekly Vol.2026-02-22-R2
 ## 1. 경영진 요약
 
 ### 핵심 인사이트
-- 이번 주 수집 데이터는 총 **220건**이며, 핵심 법인 **16개국**에서 신호가 확인되었다. 가장 많은 신호가 집중된 제품군은 **TV(95건)**이다.
-- 프로모션 신호는 LG 77건, 경쟁사 16건으로 관측되어, **🇺🇸 US**에서 LG 집행 강도가 가장 높았다.
-- 중국 브랜드(TCL/Hisense/Haier/Midea) 위협 신호는 **65건**이며, **🇺🇸 US**에서 집중도가 가장 높아 MS/HS 동시 대응이 필요하다.
+- **데이터 수집량 3배 증가(220→646건)**: 중국 브랜드 위협 추적 강화와 Presidents Day 세일 기간 프로모션 급증으로 전주 대비 인텔리전스 커버리지가 대폭 확대되어 시장 모니터링 정밀도가 향상됨
+- **TV 비율 29%로 개선된 제품 균형**: 냉장고(25%)·세탁기(25%)·모니터(13%)·gram(9%) 데이터가 고르게 수집되어 HS 사업부 인사이트 확보가 전주(TV 43%) 대비 크게 개선됨
+- **중국 브랜드 공세 심화**: Midea/Haier 가전 브랜드가 브라질·독일·이탈리아에서 공격적 가격 할인과 유통 확대를 병행, LG 생활가전 점유율 방어 필요성 대두
 
 ### 실행 필요
-1. **🇺🇸 US** 중심으로 이번 주 성과가 높은 LG 프로모션 SKU를 EU/MEA 채널에 복제 집행해 매출 전환률을 확대한다.
-2. **🇺🇸 US** 포함 중국 브랜드 압박 국가에서 TV 단독 할인보다 `TV+HS 번들`(설치/보증/할부 포함)로 ASP 하락을 방어한다.
-3. 부정 VOC 발생 국가는 48시간 내 1차 응답 SLA를 적용하고, 서비스 지연 고객 대상 보증연장/보상 쿠폰을 즉시 제공한다.
+1. 🇧🇷 브라질 Midea 냉장고 R$3,006 공격가 대응: LG 461L 모델(R$3,070) 가격 경쟁력 재검토 및 프로모션 강화 — HS팀 2/28까지
+2. 🇩🇪 독일 Haier 세탁기 9kg €373 딜 대응: LG F11WM17TS2B(€599) 캐시백 또는 번들 프로모션 검토 — EU법인 3/5까지
+3. 🇺🇸 미국 LG 프론트로드 세탁기 A/S 불만 확산 대응: Reddit 부정 리뷰 3건 모니터링 및 고객 커뮤니케이션 강화 — CS팀 즉시
+
+---
 
 ### 1.1 핵심 발견
+
 | # | Category | Finding | Country-Product | Severity | Detail |
-|---|---|---|---|---|---|
-| 1 | Coverage | 핵심 법인 16개국에서 주간 시그널 확보(총 220건) | GLOBAL-Multi | 🟢 Normal | [🔗 Source](https://www.lg.com/tw/promotions/2025-cny-sp-washingmachine/) |
-| 2 | Promotion | LG 프로모션 최다 국가는 🇺🇸 US(22건) | 🇺🇸 US-Multi | 🟡 Warning | [🔗 Source](https://www.trendforce.com/presscenter/news/20250806-12664.html) |
-| 3 | Competitive | 경쟁사 프로모션은 16건으로, 가격 전환 압박 지속 | GLOBAL-Multi | 🔴 Critical | [🔗 Source](https://www.techradar.com/televisions/tcls-2025-tvs-are-having-a-winning-moment-with-up-to-au-usd3-610-in-savings-across-all-models-so-can-you) |
-| 4 | Chinese Brand | 중국 브랜드 위협 신호 65건, 최다 국가는 🇺🇸 US(14건) | 🇺🇸 US-TV/HS | 🔴 Critical | [🔗 Source](https://www.trendforce.com/presscenter/news/20250806-12664.html) |
-| 5 | Consumer | 부정 VOC 1건 감지, 서비스 대응이 매출 방어의 핵심 변수 | GLOBAL-CX | 🔴 Critical | [🔗 Source](https://uk.trustpilot.com/review/lg.co.uk) |
-| 6 | Product Mix | 제품 데이터 분포: TV 95 / Refrigerator 51 / Washing Machine 41 / Monitor 18 / LG gram 15 | GLOBAL-Multi | 🟡 Warning | [🔗 Source](https://www.lg.com/tw/promotions/2025-cny-sp-washingmachine/) |
+|---|----------|---------|-----------------|----------|--------|
+| 1 | 🔥 경쟁 위협 | Midea 냉장고 491L R$3,006 공격가 — LG 461L(R$3,070) 역전 | 🇧🇷 브라질 (BR) - Refrigerator | 🔴 Critical | [🔗 Source](https://www.pelando.com.br/d/geladeira-midea-frost-free-duplex-md-rt650evkdx33-491-litros-preta-com-tecnologia-inverter-e-painel-touch-flexi-volt-e044) |
+| 2 | 🔥 경쟁 위협 | Haier 9kg 세탁기 €373 Amazon 딜 — LG 17kg €599 대비 가성비 공세 | 🇩🇪 독일 (DE) - Washing Machine | 🔴 Critical | [🔗 Source](https://www.mein-deal.com/amazon-waschmaschinen-trockner-sale) |
+| 3 | ⚠️ 소비자 불만 | LG 프론트로드 세탁기 품질 경고 Reddit 다건 발생 | 🇺🇸 미국 (US) - Washing Machine | 🟡 Warning | [🔗 Source](https://www.reddit.com/r/Appliances/comments/1r5vi3d/if_youre_looking_to_buy_an_lg_front_loading/) |
+| 4 | 📈 기회 | LG C5 OLED 65" $1,500 할인 — Walmart Presidents Day 최저가 | 🇺🇸 미국 (US) - TV | 🟢 Normal | [🔗 Source](https://www.techradar.com/seasonal-sales/walmart-is-practically-begging-you-to-buy-lgs-65-inch-c5-oled-tv-its-usd1-500-off-and-an-absolute-bargain) |
+| 5 | 🔥 경쟁 위협 | TCL 글로벌 TV 출하량 삼성 추월 보도 확산 | 🇧🇷 브라질 (BR) - TV | 🔴 Critical | [🔗 Source](https://tecnoblog.net/noticias/tvs-da-samsung-sofrem-primeira-derrota-para-tcl/) |
+| 6 | 📈 기회 | LG UltraGear 45" 5K2K OLED 모니터 $650 할인 역대 최저가 | 🇺🇸 미국 (US) - Monitor | 🟢 Normal | [🔗 Source](https://www.ign.com/articles/lg-ultragear-45gx950a-5k2k-oled-gaming-monitor-deal) |
+| 7 | ⚠️ 소비자 불만 | LG 냉장고 컴프레서 소송 관련 TikTok 확산 | 🇺🇸 미국 (US) - Refrigerator | 🟡 Warning | [🔗 Source](https://www.tiktok.com/discover/lg-fridge-compressor-lawsuit) |
+| 8 | 🔥 경쟁 위협 | Midea 11kg 세탁기 R$2,499 공격가 — 브라질 시장 침투 가속 | 🇧🇷 브라질 (BR) - Washing Machine | 🔴 Critical | [🔗 Source](https://www.pelando.com.br/d/maquina-de-lavar-roupas-inverter-midea-wi-fi-11kg-healthguardtitanium-110v-ou-220v-c8b7) |
+| 9 | 📈 기회 | LG gram Pro 17 $500 할인 + 무료 모니터 번들 | 🇺🇸 미국 (US) - LG gram | 🟢 Normal | [🔗 Source](https://www.zdnet.com/article/lg-gram-pro-17-deal-post/) |
+| 10 | ⚠️ 경쟁 위협 | Hisense 75" Mini-LED 역대 최저가 — UK 시장 공세 | 🇬🇧 영국 (UK) - TV | 🟡 Warning | [🔗 Source](https://www.tomsguide.com/tvs/qled-tvs/this-75-inch-mini-led-tv-is-bright-packed-with-features-and-just-crashed-to-its-lowest-price-ever) |
+
+---
 
 ### 1.2 이번 주 주요 지표
+
 | Metric | This Week | vs Last Week | Trend |
-|---|---:|---:|---|
-| 총 데이터 건수 | 220 | +0 | → |
-| 커버된 국가 수 | 16 | +0 | → |
-| LG 프로모션 감지 건수 | 77 | +1 | ↑ |
-| 경쟁사 공격 프로모션 감지 건수 | 16 | N/A | → |
-| 중국 브랜드 위협 신호 | 65 | +4 | ↑ |
-| LG 부정 소비자 언급 수 | 1 | +0 | → |
-| Critical Alert 발생 국가 수 | 1 | N/A | → |
+|--------|-----------|--------------|-------|
+| 총 데이터 수집량 | 646건 | +426건 (+194%) | 📈 |
+| TV 비율 | 29.1% | -14.1%p | 📉 (개선) |
+| 냉장고 데이터 | 160건 | +120건 | 📈 |
+| 세탁기 데이터 | 159건 | +125건 | 📈 |
+| 모니터 데이터 | 83건 | +65건 | 📈 |
+| LG gram 데이터 | 56건 | +40건 | 📈 |
+| 중국 브랜드 위협 | 265건 | +204건 (+334%) | 📈 |
+| 부정 소비자 반응 | 14건 | +13건 | 📈 |
+| LG 프로모션 감지 | 263건 | +187건 (+246%) | 📈 |
+| 국가 커버리지 | 16개국 | +0개국 | ➡️ |
+
+<!-- CHART:product_donut -->
+
+---
 
 ### 1.3 권장 실행 과제
+
 | Priority | Action | Target Country | Target Product | Owner | Deadline |
-|---|---|---|---|---|---|
-| 🔴 P1 | 중국 브랜드 압박 고강도 국가에서 TV+HS 번들 즉시 집행 | 🇺🇸 US | TV / HS | MS·HS Regional D2C | 2026-02-22 + 3일 |
-| 🔴 P1 | LG 프로모션 성과가 높은 국가 오퍼를 인접권역에 복제 배포 | 🇺🇸 US 중심 | Multi-product | Global Pricing / CRM | 2026-02-22 + 5일 |
-| 🟡 P2 | 부정 VOC 고객 48시간 SLA 및 보증연장 보상 프로세스 적용 | 부정 VOC 발생 국가 | HS / Washer / Refrigerator | CX Service | 즉시 |
+|----------|--------|----------------|----------------|-------|----------|
+| 🔴 P1 | Midea 냉장고 가격 대응 프로모션 기획 | 🇧🇷 브라질 (BR) | Refrigerator | HS 중남미팀 | 2026-02-28 |
+| 🔴 P1 | LG 세탁기 Reddit 불만 대응 및 품질 모니터링 | 🇺🇸 미국 (US) | Washing Machine | CS/품질팀 | 즉시 |
+| 🔴 P1 | Haier 세탁기 독일 시장 대응 가격 전략 수립 | 🇩🇪 독일 (DE) | Washing Machine | HS EU팀 | 2026-03-05 |
+| 🟡 P2 | TCL 글로벌 점유율 역전 대응 MS 마케팅 강화 | 🌐 글로벌 | TV | MS 마케팅 | 2026-03-10 |
+| 🟡 P2 | LG gram Presidents Day 프로모션 효과 분석 | 🇺🇸 미국 (US) | LG gram | IT팀 | 2026-03-01 |
+| 🟢 P3 | UltraGear 모니터 할인 성과 추적 및 재고 관리 | 🇺🇸 미국 (US) | Monitor | IT팀 | 2026-03-07 |
 
 ---
 
 ## 2. 핵심 경보
 
 ### 핵심 인사이트
-- 핵심 경보 국가는 **1개국**이며, 공통적으로 중국 브랜드 노출 증가와 경쟁사 프로모션 집행이 동시에 나타난다.
-- 소비자 불만 신호는 절대 건수보다 전환 손실에 미치는 영향이 크므로, VOC 대응 SLA와 보상 정책이 매출 방어의 우선순위다.
-- 가격 대응은 단순 할인보다 설치/보증/할부를 결합한 체감가 전략이 효과적이며, HS 카테고리에서 특히 중요하다.
+- **중국 브랜드 가전 공세 본격화**: Midea·Haier가 브라질·독일·이탈리아에서 LG 대비 10~20% 저가 전략으로 시장 침투 가속화
+- **소비자 부정 반응 급증**: 미국 시장에서 LG 세탁기·냉장고 품질 관련 Reddit/TikTok 불만이 14건으로 전주(1건) 대비 급증
+- **TV 시장 구도 변화 시그널**: TCL의 글로벌 TV 출하량 삼성 추월 보도가 브라질·이탈리아 등 다수 국가에서 확산
 
 ### 실행 필요
-1. Critical 국가 대상 주 2회 가격·프로모션 전쟁판(competitive board) 운영으로 오퍼 지연을 방지한다.
-2. 부정 VOC가 발생한 시장은 채널별 CS 리더를 지정해 48시간 내 1차 해결률을 KPI로 관리한다.
-3. 중국 브랜드 집중 국가는 HS 제품군의 서비스 차별화 메시지를 PDP/배너 상단에 고정 노출한다.
-
-### 2.1 핵심 법인 알림 맵
-| Country | Alert | Severity | 근거 |
-|---|---|---|---|
-| 🇺🇸 US | LG Promo 22건 / Comp Promo 5건 / Chinese 14건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.trendforce.com/presscenter/news/20250806-12664.html) |
-| 🇨🇦 CA | LG Promo 5건 / Comp Promo 0건 / Chinese 3건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.homedepot.ca/en/home/categories/appliances/washers-and-dryers/f/midea/6f9-il9) |
-| 🇬🇧 UK | LG Promo 5건 / Comp Promo 0건 / Chinese 3건 / Negative 1건 | 🔴 Critical | [🔗 Source](https://www.trustedreviews.com/best/best-washing-machine-3431783) |
-| 🇩🇪 DE | LG Promo 3건 / Comp Promo 0건 / Chinese 5건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.lg.com/de/newsroom/LG-Convention-2025--Buehne-frei-fuer-Premium-Waeschepflege-von-LG/) |
-| 🇫🇷 FR | LG Promo 3건 / Comp Promo 1건 / Chinese 5건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://hisense.fr/blog/newsroom/tv-audio-et-laser-hisense-repousse-les-limites-en-2025) |
-| 🇪🇸 ES | LG Promo 2건 / Comp Promo 0건 / Chinese 2건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.xatakahome.com/televisores/nueva-linea-televisores-lg-oled-para-2025-tienen-precio-confirmado-asi-queda-gama-alta-premium-smart-tvs) |
-| 🇮🇹 IT | LG Promo 3건 / Comp Promo 2건 / Chinese 2건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.hdblog.it/tv/articoli/n615468/lg-tv-oled-ai-2025-caratteristiche-prezzo-italia/) |
-| 🇧🇷 BR | LG Promo 3건 / Comp Promo 0건 / Chinese 4건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.mundoconectado.com.br/smart-tvs/116-polegadas-hisense-lanca-a-maior-tv-do-brasil/) |
-| 🇲🇽 MX | LG Promo 4건 / Comp Promo 0건 / Chinese 3건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.elbodegon.com.mx/linea-blanca/hisense/midea) |
-| 🇨🇱 CL | LG Promo 4건 / Comp Promo 0건 / Chinese 1건 / Negative 0건 | 🟢 Normal | [🔗 Source](https://simple.ripley.cl/electro/especial-marcas/midea) |
-| 🇹🇭 TH | LG Promo 2건 / Comp Promo 2건 / Chinese 5건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.ses.co.th/category/7/ตู้เย็น) |
-| 🇦🇺 AU | LG Promo 4건 / Comp Promo 4건 / Chinese 5건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.techradar.com/televisions/tcls-2025-tvs-are-having-a-winning-moment-with-up-to-au-usd3-610-in-savings-across-all-models-so-can-you) |
-| 🇹🇼 TW | LG Promo 6건 / Comp Promo 0건 / Chinese 2건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.lg.com/tw/promotions/2025-cny-sp-washingmachine/) |
-| 🇸🇬 SG | LG Promo 5건 / Comp Promo 1건 / Chinese 3건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.lg.com/sg/promotion/) |
-| 🇪🇬 EG | LG Promo 4건 / Comp Promo 0건 / Chinese 2건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.noon.com/egypt-en/home-and-kitchen/home-appliances-31235/large-appliances/refrigerators-and-freezers/refrigerators/samsung/) |
-| 🇸🇦 SA | LG Promo 2건 / Comp Promo 1건 / Chinese 5건 / Negative 0건 | 🟡 Warning | [🔗 Source](https://www.almanea.sa/en/product/lg-50-inch-4k-uhd-smart-tv-ai-hdr10-webos25-2025-50ua73006la-p-139900799450018) |
-
-### 2.2 소비자 부정 알림
-| # | Country | Product | Issue (한국어) | Severity | Source |
-|---|---|---|---|---|---|
-| 1 | 🇬🇧 UK | Washing Machine | LG washing machine bought March 2025, broke down New Year's Eve, electrical fault. Waited weeks for engineer, same day b | 🔴 Critical | [🔗 Source](https://uk.trustpilot.com/review/lg.co.uk) |
-
-### 2.3 경쟁사 공격 행보
-| # | Country | Competitor | Action | LG Impact | Source |
-|---|---|---|---|---|---|
-| 1 | 🇧🇷 BR | Hisense | Hisense lança a maior TV do Brasil com 116 polegadas, preço de R$ 149.999 | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.techtudo.com.br/noticias/2025/09/hisense-lanca-maior-tv-do-brasil-com-116-polegadas-e-tecnologia-inedita-edinfoeletro.ghtml) |
-| 2 | 🇦🇺 AU | TCL | TCL 65 inch P7K QLED 4K UHD Google TV 2025 currently on special $736 - budget TV | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.ozbargain.com.au/tag/65inch) |
-| 3 | 🇦🇺 AU | Hisense | TCL C855 and Hisense U8NAU 75-inch Mini LED TVs discounted to around $2.5k in Australia | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.gadgetguy.com.au/best-tv-australia/) |
-| 4 | 🇦🇺 AU | TCL | TCL's 2025 TVs having a winning moment with up to AU$3,610 in savings across all models | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.techradar.com/televisions/tcls-2025-tvs-are-having-a-winning-moment-with-up-to-au-usd3-610-in-savings-across-all-models-so-can-you) |
-| 5 | 🇸🇬 SG | TCL | TCL Singapore celebrating Lunar New Year with up to 43% off favourite TVs | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.techradar.com/televisions/tcl-singapore-is-celebrating-lunar-new-year-with-up-to-43-percent-off-some-of-our-favourite-tvs) |
-| 6 | 🇫🇷 FR | Multiple | Meilleure marque de TV 2026: Samsung conserve position dominante, TCL et Hisense progressent rapidement, Sony  | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://clicdeal.fr/actualites/quelle-est-la-meilleure-marque-de-tv-en-2026/) |
-| 7 | 🇬🇧 UK | Multiple | Best TV deals for February 2026 - handpicked top deals on 4K, QLED, OLED and LCD TVs from John Lewis, Currys a | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.which.co.uk/reviews/televisions/article/best-tv-deals-a0jqg8E3Saz6) |
-| 8 | 🇺🇸 US | Samsung | Samsung bespoke refrigerator sale: up to $1,700 off. Samsung's bespoke refrigerator line offers premium featur | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.tomsguide.com/deals/best-refrigerator-sales) |
-| 9 | 🇺🇸 US | Samsung | Samsung RT18M6215SR: was $1,023 now $764 @ Samsung | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.tomsguide.com/deals/best-refrigerator-sales) |
-| 10 | 🇺🇸 US | Samsung | Samsung Bespoke Fridge with AI review: All the bells and whistles. The model we tested came out in the second  | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.engadget.com/home/kitchen-tech/samsung-bespoke-fridge-with-ai-review-all-the-bells-and-whistles-140000099.html) |
-| 11 | 🇩🇪 DE | Multiple | Bei den Kühl-Gefrierkombis schneiden bei Tests Modelle von AEG, Bauknecht, Bosch, Hisense, LG, Liebherr, Miele | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.mediamarkt.de/de/content/heim-garten/kueche/kuehlschraenke-in-tests) |
-| 12 | 🇹🇭 TH | Samsung | Samsung 16Q จาก 18,xxx เหลือ 15,990 กดน้ำ+น้ำแข็ง Samsung 17.8Q จาก 19,xxx เหลือ 13,990 | 가격 방어/전환율 저하 리스크 | [🔗 Source](https://www.ses.co.th/category/7/ตู้เย็น) |
-
-### 2.4 중국 브랜드 모멘텀 알림
-| Country | Brand | Signal | Threat | Source |
-|---|---|---|---|---|
-| 🇺🇸 US | TCL | TCL belegte mit einem Marktanteil von 12,5 Prozent den zweiten Platz globally | 🔴 | [🔗 Source](https://counterpointresearch.com/en/insights/global-advanced-tv-market-q1-2025) |
-| 🇺🇸 US | Hisense | Hisense folgte auf Rang drei mit einem Marktanteil von 11,4 Prozent | 🔴 | [🔗 Source](https://de.statista.com/statistik/daten/studie/151532/umfrage/marktanteile-der-lcd-fernseher-hersteller-weltweit/) |
-| 🇺🇸 US | Multiple | Top five global TV brands Samsung, TCL, Hisense, LGE, and Xiaomi collectively accounting for 65.6% of the mark | 🔴 | [🔗 Source](https://www.trendforce.com/presscenter/news/20250806-12664.html) |
-| 🇩🇪 DE | TCL | TCL belegte mit einem Marktanteil von 12,5 Prozent den zweiten Platz weltweit | 🔴 | [🔗 Source](https://de.statista.com/statistik/daten/studie/151532/umfrage/marktanteile-der-lcd-fernseher-hersteller-weltweit/) |
-| 🇩🇪 DE | Hisense | Im Premium-TV-Markt hält Hisense inzwischen einen Marktanteil von 20%, während TCL auf 19% kommt | 🔴 | [🔗 Source](https://www.4kfilme.de/samsung-hisense-und-tcl-setzen-den-tv-marktfuehrer-im-premium-segment-unter-druck/) |
-| 🇫🇷 FR | Hisense | Marché TV France 2025: Hisense avec 10.3% des volumes en progression, TCL also growing, compared to 9.6% in 20 | 🔴 | [🔗 Source](https://www.avcesar.com/marche-tv-france-2025-le-top-8-des-marques-46796) |
-| 🇫🇷 FR | TCL | France TV brand share 2025: Samsung 34%, LG 18%, Philips 11%, Sony 10%, TCL 4%, Hisense 3% | 🔴 | [🔗 Source](https://www.eco-conscient.com/art-87409-quel-est-lequipement-numerique-et-video-des-francais-en-2025.html) |
-| 🇧🇷 BR | Hisense | Hisense saltou de 14% para 20% de share em unidades no segmento premium entre Q1 2024 e Q1 2025 | 🔴 | [🔗 Source](https://www.mundoconectado.com.br/smart-tvs/hisense-tcl-superam-samsung-tvs-grandes/) |
-| 🇧🇷 BR | TCL | TCL X955 Max 115 polegadas - deixado para trás pela Hisense 116 pol como maior do Brasil | 🔴 | [🔗 Source](https://www.mundoconectado.com.br/smart-tvs/116-polegadas-hisense-lanca-a-maior-tv-do-brasil/) |
-| 🇹🇭 TH | Hisense | China's appliance giants intensify battle for Thai market - sales up 20% overall, washing machines surged 61%  | 🔴 | [🔗 Source](https://www.nationthailand.com/blogs/business/trade/40055403) |
-| 🇹🇭 TH | Multiple | Chinese brands in Thailand: washing machines surged 61% in 1H 2025, overall sales up 20% | 🔴 | [🔗 Source](https://www.nationthailand.com/blogs/business/trade/40055403) |
-| 🇦🇺 AU | TCL | TCL 65 inch P7K QLED 4K UHD Google TV 2025 currently on special $736 - budget TV | 🔴 | [🔗 Source](https://www.ozbargain.com.au/tag/65inch) |
-| 🇦🇺 AU | Hisense | TCL C855 and Hisense U8NAU 75-inch Mini LED TVs discounted to around $2.5k in Australia | 🔴 | [🔗 Source](https://www.gadgetguy.com.au/best-tv-australia/) |
-| 🇸🇬 SG | TCL | TCL Singapore celebrating Lunar New Year with up to 43% off favourite TVs | 🔴 | [🔗 Source](https://www.techradar.com/televisions/tcl-singapore-is-celebrating-lunar-new-year-with-up-to-43-percent-off-some-of-our-favourite-tvs) |
-| 🇸🇦 SA | Hisense | Hisense entered Saudi Arabian market in 2008, established wholly owned subsidiary in 2023 with USD 8M capital  | 🔴 | [🔗 Source](https://www.saudi-cocc.net/en/article/6701.html) |
-| 🇹🇭 TH | Midea | Midea Thailand unveiled its 2026 plan to intensify its push into the Thai market with an investment of $10 mil | 🔴 | [🔗 Source](https://en.thairath.co.th/money/business_marketing/marketing_trends/2909695) |
+1. 중국 브랜드 가전 가격 모니터링 주기를 주간→일간으로 강화하여 실시간 대응 체계 구축 — 인텔리전스팀 3/1까지
+2. 미국 LG 세탁기 A/S 불만 루트 원인 분석 및 개선 방안 수립 — 품질관리팀 3/5까지
+3. TCL/Hisense TV 점유율 동향 심층 분석 리포트 작성 — MS 전략팀 3/10까지
 
 ---
 
-## 3. 핵심 법인 상세 분석
+### 2.1 핵심 법인 알림 맵
 
-### 3.1 소비자 반응 (VOC)
+| Country | Alert | Severity | 근거 |
+|---------|-------|----------|------|
+| 🇺🇸 미국 (US) | LG 세탁기 품질 불만 Reddit 다건 발생 | 🔴 Critical | [🔗 Source](https://www.reddit.com/r/Appliances/comments/1r5vi3d/if_youre_looking_to_buy_an_lg_front_loading/) |
+| 🇨🇦 캐나다 (CA) | Haier 냉장고·세탁기 유통 확대 | 🟡 Warning | [🔗 Source](https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/) |
+| 🇬🇧 영국 (UK) | Hisense 75" Mini-LED 역대 최저가 공세 | 🟡 Warning | [🔗 Source](https://www.tomsguide.com/tvs/qled-tvs/this-75-inch-mini-led-tv-is-bright-packed-with-features-and-just-crashed-to-its-lowest-price-ever) |
+| 🇩🇪 독일 (DE) | Haier 세탁기 €373 공격가 | 🔴 Critical | [🔗 Source](https://www.mein-deal.com/amazon-waschmaschinen-trockner-sale) |
+| 🇫🇷 프랑스 (FR) | Haier 멀티도어 냉장고 €300 할인 공세 | 🟡 Warning | [🔗 Source](https://www.lafourchetteverte.fr/cest-le-frigo-qui-me-manquait-ce-haier-multi-portes-perd-300-e-chez-boulanger-attention-stock-limite/) |
+| 🇪🇸 스페인 (ES) | Midea 세탁기·냉장고 라인업 확대 | 🟡 Warning | [🔗 Source](https://www.midea.es/productos_electrod/mdwpf1333cw-we-eu/) |
+| 🇮🇹 이탈리아 (IT) | Hisense QLED 65" 대형 할인 공세 | 🟡 Warning | [🔗 Source](https://www.smartworld.it/tecnologia/hisense-65e77kq-qled-offerta-amazon.html) |
+| 🇧🇷 브라질 (BR) | Midea 냉장고·세탁기 LG 가격 역전 | 🔴 Critical | [🔗 Source](https://www.pelando.com.br/d/geladeira-midea-frost-free-duplex-md-rt650evkdx33-491-litros-preta-com-tecnologia-inverter-e-painel-touch-flexi-volt-e044) |
+| 🇲🇽 멕시코 (MX) | 데이터 부족 (4건) — 모니터링 강화 필요 | 🟢 Normal | N/A |
+| 🇨🇱 칠레 (CL) | 데이터 부족 (1건) — 모니터링 강화 필요 | 🟢 Normal | N/A |
+| 🇹🇭 태국 (TH) | 데이터 미수집 — 소스 확장 필요 | 🟡 Warning | N/A |
+| 🇦🇺 호주 (AU) | TCL Mini-LED 공격적 딜 (85" $2,471) | 🟡 Warning | [🔗 Source](https://www.ozbargain.com.au/node/949050) |
+| 🇹🇼 대만 (TW) | LG 프로모션 활발 — 안정적 | 🟢 Normal | [🔗 Source](https://www.techradar.com/coupons/lg) |
+| 🇸🇬 싱가포르 (SG) | 데이터 미수집 — 소스 확장 필요 | 🟡 Warning | N/A |
+| 🇪🇬 이집트 (EG) | 데이터 미수집 — 소스 확장 필요 | 🟡 Warning | N/A |
+| 🇸🇦 사우디아라비아 (SA) | LG 제품 가격 포지셔닝 안정적 | 🟢 Normal | [🔗 Source](https://www.lg.com/sa_en/washing-machines/) |
+
+---
+
+### 2.2 소비자 부정 알림
+
+| # | Country | Product | Issue | Severity | Source |
+|---|---------|---------|-------|----------|--------|
+| 1 | 🇺🇸 미국 (US) | Washing Machine | LG 프론트로드 세탁기 구매 경고 — 품질 이슈 제기 | 🔴 Critical | [🔗 Source](https://www.reddit.com/r/Appliances/comments/1r5vi3d/if_youre_looking_to_buy_an_lg_front_loading/) |
+| 2 | 🇺🇸 미국 (US) | Washing Machine | LG 프론트로드 세탁 시간 비효율 불만 | 🟡 Warning | [🔗 Source](https://www.reddit.com/r/Appliances/comments/1r9r2xg/why_is_my_lg_front_loader_so_time_inefficient/) |
+| 3 | 🇺🇸 미국 (US) | Washing Machine | LG 세탁기 온도 차트 문제 지적 | 🟡 Warning | [🔗 Source](https://www.reddit.com/r/laundry/comments/1r5pezg/appalling_temperature_chart_from_lg/) |
+| 4 | 🇺🇸 미국 (US) | Refrigerator | LG 냉장고 컴프레서 소송 관련 TikTok 확산 | 🟡 Warning | [🔗 Source](https://www.tiktok.com/discover/lg-fridge-compressor-lawsuit) |
+| 5 | 🇬🇧 영국 (UK) | Refrigerator | LG 냉장고 쿨링 집단 소송 언급 | 🟡 Warning | [🔗 Source](https://www.tiktok.com/discover/lg-refrigerator-cooling-class-action-lawsuit) |
+| 6 | 🇧🇷 브라질 (BR) | Refrigerator | Midea 냉장고 결함 및 A/S 불만 | 🟡 Warning | [🔗 Source](https://www.reclameaqui.com.br/midea/geladeira-midea-com-defeito-e-dificuldade-de-resolucao_N70CovqeQJpv_KUI/) |
+| 7 | 🇧🇷 브라질 (BR) | Washing Machine | Midea 세탁기 세탁력 부족 불만 | 🟡 Warning | [🔗 Source](https://www.reclameaqui.com.br/midea/lavadora-midea-nao-limpa-as-roupa_-BbQw78jK9ZDVqxf/) |
+
+---
+
+### 2.3 경쟁사 공격 행보
+
+| # | Country | Competitor | Action | LG Impact | Source |
+|---|---------|------------|--------|-----------|--------|
+| 1 | 🇺🇸 미국 (US) | TCL | SQD Mini-LED 신기술 TV 출시 및 공격적 할인 | MS TV 기술 경쟁력 도전 | [🔗 Source](https://www.techradar.com/televisions/tcls-clever-sqd-mini-led-tv-tech-has-arrived-in-its-first-set-and-weve-measured-it-heres-how-it-compares-to-rgb-tvs-and-oled) |
+| 2 | 🇧🇷 브라질 (BR) | TCL | 글로벌 TV 출하량 삼성 추월 보도 확산 | MS 브랜드 인지도 위협 | [🔗 Source](https://tecnoblog.net/noticias/tvs-da-samsung-sofrem-primeira-derrota-para-tcl/) |
+| 3 | 🇩🇪 독일 (DE) | Hisense | 449€ 대형 게이밍 TV Amazon 딜 | MS 가성비 세그먼트 점유율 위협 | [🔗 Source](https://www.4p.de/tipps/deals/nur-449-euro-gewaltiger-gaming-fernseher-ab-sofort-im-amazon-angebot/3373409) |
+| 4 | 🇦🇺 호주 (AU) | TCL | C7K Mini-LED 85" $2,471 Harvey Norman 딜 | MS 프리미엄 세그먼트 가격 경쟁 | [🔗 Source](https://www.ozbargain.com.au/node/949050) |
+| 5 | 🇸🇦 사우디아라비아 (SA) | Hisense | 65" U8 Mini-LED $600 할인 | MS 중동 시장 점유율 위협 | [🔗 Source](https://mashable.com/article/feb-17-hisense-class-u8-tv-deal) |
+
+---
+
+### 2.4 중국 브랜드 모멘텀 알림
+
+| Country | Brand | Signal | Threat | Source |
+|---------|-------|--------|--------|--------|
+| 🇧🇷 브라질 (BR) | Midea | 냉장고 491L R$3,006 — LG 가격 역전 | 🔴 High | [🔗 Source](https://www.pelando.com.br/d/geladeira-midea-frost-free-duplex-md-rt650evkdx33-491-litros-preta-com-tecnologia-inverter-e-painel-touch-flexi-volt-e044) |
+| 🇧🇷 브라질 (BR) | Midea | 세탁기 11kg R$2,499 공격가 | 🔴 High | [🔗 Source](https://www.pelando.com.br/d/maquina-de-lavar-roupas-inverter-midea-wi-fi-11kg-healthguardtitanium-110v-ou-220v-c8b7) |
+| 🇩🇪 독일 (DE) | Haier | 세탁기 9kg €373 Amazon 세일 | 🔴 High | [🔗 Source](https://www.mein-deal.com/amazon-waschmaschinen-trockner-sale) |
+| 🇩🇪 독일 (DE) | Midea | 세탁기 8kg €294 최저가 | 🟡 Medium | [🔗 Source](https://www.mein-deal.com/midea-mf10ew80b) |
+| 🇮🇹 이탈리아 (IT) | Haier | I-Pro Serie 3 세탁기 26% 할인 | 🟡 Medium | [🔗 Source](https://www.consigli.it/haier-lavatrice-8-kg-offerta-classe-a-meno-consumi) |
+| 🇫🇷 프랑스 (FR) | Haier | 멀티도어 냉장고 €300 할인 Boulanger | 🟡 Medium | [🔗 Source](https://www.lafourchetteverte.fr/cest-le-frigo-qui-me-manquait-ce-haier-multi-portes-perd-300-e-chez-boulanger-attention-stock-limite/) |
+| 🇬🇧 영국 (UK) | Haier | 냉장고·세탁기 Currys 유통 확대 | 🟡 Medium | [🔗 Source](https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier) |
+| 🇦🇺 호주 (AU) | TCL | C7K 85" Mini-LED $2,471 딜 | 🟡 Medium | [🔗 Source](https://www.ozbargain.com.au/node/949050) |
+| 🇺🇸 미국 (US) | TCL | 55" Mini-LED $329 최저가 | 🟡 Medium | [🔗 Source](https://www.tomsguide.com/tvs/qled-tvs/this-55-inch-mini-led-tv-for-usd329-is-one-of-the-best-tv-deals-ive-seen-this-week) |
+| 🇨🇦 캐나다 (CA) | Haier | 냉장고 유통채널 다변화 | 🟡 Medium | [🔗 Source](https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/) |
+
+---
+
+## 3. 핵심 법인 풀 커버리지 대시보드
+
 ### 핵심 인사이트
-- VOC는 제품 스펙보다 서비스 응답 속도와 체감 가격에 더 민감하게 반응한다.
-- LG 긍정 반응은 프로모션 강도가 높은 국가에서 동반 증가하며, 부정 신호는 CS 대응 지연과 함께 나타난다.
-- 커뮤니티/리뷰 채널에서의 초기 불만 확산 차단이 환불·취소율 관리의 핵심이다.
+- **미국 시장 인텔리전스 최다(147건)**: Presidents Day 세일로 LG OLED TV·모니터·gram 프로모션이 집중 노출되어 브랜드 가시성 극대화
+- **유럽 4개국(DE/FR/IT/ES) 합산 235건**: 독일(78건)·이탈리아(70건) 중심으로 생활가전 경쟁 심화 시그널 다수 포착
+- **브라질 중국 브랜드 위협 최다(34건)**: Midea가 냉장고·세탁기·에어컨 전 카테고리에서 공격적 가격 전략 전개
 
 ### 실행 필요
-1. 부정 VOC 국가에 대해 구매 후 7일 이내 proactive 케어 메시지를 자동 발송한다.
-2. 제품 상세페이지에 서비스 SLA와 보증 조건을 상단에 명시해 불안 요인을 제거한다.
-3. VOC 키워드를 주간이 아닌 일간으로 모니터링해 이슈 확산 전에 대응한다.
+1. 미국 Presidents Day 세일 효과 분석 및 다음 분기 프로모션 전략 반영 — MS/HS 미국팀 3/10까지
+2. 독일·이탈리아 Haier/Midea 유통 침투 현황 상세 조사 — EU법인 3/15까지
+3. 브라질 Midea 대응 종합 전략 수립 — 중남미팀 3/1까지
 
-| Country | Positive Signal | Negative Signal | Source |
-|---|---|---|---|
-| 🇺🇸 US | LG 관련 긍정/중립 신호 30건 | 부정 신호 0건 | [🔗 Source](https://www.cnet.com/deals/lg-ultragear-gaming-monitor-deal/) |
-| 🇨🇦 CA | LG 관련 긍정/중립 신호 6건 | 부정 신호 0건 | [🔗 Source](https://forums.redflagdeals.com/lg-canada-lg-oled-tv-community-partner-store-discounts-2786102/) |
-| 🇬🇧 UK | LG 관련 긍정/중립 신호 11건 | 부정 신호 1건 | [🔗 Source](https://www.trustedreviews.com/best/best-washing-machine-3431783) |
-| 🇩🇪 DE | LG 관련 긍정/중립 신호 7건 | 부정 신호 0건 | [🔗 Source](https://www.lg.com/de/newsroom/LG-Convention-2025--Buehne-frei-fuer-Premium-Waeschepflege-von-LG/) |
-| 🇫🇷 FR | LG 관련 긍정/중립 신호 3건 | 부정 신호 0건 | [🔗 Source](https://www.bonne-promo.com/odr/lg) |
-| 🇪🇸 ES | LG 관련 긍정/중립 신호 6건 | 부정 신호 0건 | [🔗 Source](https://www.xatakahome.com/televisores/nueva-linea-televisores-lg-oled-para-2025-tienen-precio-confirmado-asi-queda-gama-alta-premium-smart-tvs) |
-| 🇮🇹 IT | LG 관련 긍정/중립 신호 7건 | 부정 신호 0건 | [🔗 Source](https://www.hdblog.it/tv/articoli/n615468/lg-tv-oled-ai-2025-caratteristiche-prezzo-italia/) |
-| 🇧🇷 BR | LG 관련 긍정/중립 신호 4건 | 부정 신호 0건 | [🔗 Source](https://www.lg.com/br/lg-streaming-week-2025/) |
-| 🇲🇽 MX | LG 관련 긍정/중립 신호 6건 | 부정 신호 0건 | [🔗 Source](https://www.eluniversal.com.mx/descubre-y-compra/hot-sale-2025-pantalla-lg-de-55-con-tecnologia-oled-4k-mas-barata-que-nunca/) |
-| 🇨🇱 CL | LG 관련 긍정/중립 신호 6건 | 부정 신호 0건 | [🔗 Source](https://www.lg.com/cl/) |
-| 🇹🇭 TH | LG 관련 긍정/중립 신호 4건 | 부정 신호 0건 | [🔗 Source](https://www.lg.com/th/promotions/) |
-| 🇦🇺 AU | LG 관련 긍정/중립 신호 4건 | 부정 신호 0건 | [🔗 Source](https://www.ozbargain.com.au/node/929860) |
-| 🇹🇼 TW | LG 관련 긍정/중립 신호 14건 | 부정 신호 0건 | [🔗 Source](https://www.lg.com/tw/promotions/2025-cny-sp-washingmachine/) |
-| 🇸🇬 SG | LG 관련 긍정/중립 신호 8건 | 부정 신호 0건 | [🔗 Source](https://www.lg.com/sg/promotion/) |
-| 🇪🇬 EG | LG 관련 긍정/중립 신호 10건 | 부정 신호 0건 | [🔗 Source](https://shaheeneg.com/product-category/washing-drying/brands/lg/) |
-| 🇸🇦 SA | LG 관련 긍정/중립 신호 4건 | 부정 신호 0건 | [🔗 Source](https://www.almanea.sa/en/product/lg-50-inch-4k-uhd-smart-tv-ai-hdr10-webos25-2025-50ua73006la-p-139900799450018) |
+---
 
-### 3.2 유통 채널 프로모션
-### 핵심 인사이트
-- LG 프로모션 집행이 많은 국가는 트래픽 유입도 함께 증가하는 패턴을 보인다.
-- 경쟁사 프로모션이 우세한 국가는 체감가 방어 전략이 없으면 전환 손실이 커진다.
-- 프로모션 성과 복제(Winning Offer Replication)가 가장 빠른 매출 개선 레버다.
+### 3.1 소비자 반응 모니터링
 
-### 실행 필요
-1. LG 우위 국가의 베스트 오퍼를 동일 카테고리·인접 국가에 즉시 재배포한다.
-2. 경쟁사 우위 국가는 할인율이 아닌 번들 가치(설치/보증/사은품)로 대응한다.
-3. 딜 커뮤니티 반응(댓글/추천)을 다음 주 오퍼 기획의 입력값으로 반영한다.
+#### 핵심 인사이트
+- **전문가 리뷰 호평 지속**: LG OLED TV가 TechRadar·What Hi-Fi 등 주요 매체에서 "Best OLED" 추천 유지
+- **세탁기 부정 리뷰 급증**: 미국 Reddit에서 LG 프론트로드 세탁기 품질·효율성 불만 3건 집중 발생
+- **모니터 시장 호평**: LG UltraGear OLED가 RTINGS·TFTCentral 등에서 최고 게이밍 모니터로 지속 추천
 
-| Country | LG Promo Count | Competitor Promo Count | 판정 | Source |
-|---|---:|---:|---|---|
-| 🇺🇸 US | 22 | 5 | LG 우위 | [🔗 Source](https://www.cnet.com/deals/lg-ultragear-gaming-monitor-deal/) |
-| 🇨🇦 CA | 5 | 0 | LG 우위 | [🔗 Source](https://forums.redflagdeals.com/lg-canada-lg-oled-tv-community-partner-store-discounts-2786102/) |
-| 🇬🇧 UK | 5 | 0 | LG 우위 | [🔗 Source](https://www.hotukdeals.com/tag/oled) |
-| 🇩🇪 DE | 3 | 0 | LG 우위 | [🔗 Source](https://www.idealo.de/preisvergleich/ProductCategory/3832F178568.html) |
-| 🇫🇷 FR | 3 | 1 | LG 우위 | [🔗 Source](https://www.bonne-promo.com/odr/lg) |
-| 🇪🇸 ES | 2 | 0 | LG 우위 | [🔗 Source](https://www.lg.com/es/tv-y-barras-de-sonido/oled-evo/oled65g55lw/) |
-| 🇮🇹 IT | 3 | 2 | LG 우위 | [🔗 Source](https://www.hdblog.it/tv/articoli/n615468/lg-tv-oled-ai-2025-caratteristiche-prezzo-italia/) |
-| 🇧🇷 BR | 3 | 0 | LG 우위 | [🔗 Source](https://www.lg.com/br/lg-streaming-week-2025/) |
-| 🇲🇽 MX | 4 | 0 | LG 우위 | [🔗 Source](https://www.eluniversal.com.mx/descubre-y-compra/hot-sale-2025-pantalla-lg-de-55-con-tecnologia-oled-4k-mas-barata-que-nunca/) |
-| 🇨🇱 CL | 4 | 0 | LG 우위 | [🔗 Source](https://www.lg.com/cl/refrigeradores/todos-los-refrigeradores/) |
-| 🇹🇭 TH | 2 | 2 | 균형 | [🔗 Source](https://www.ses.co.th/category/7/ตู้เย็น) |
-| 🇦🇺 AU | 4 | 4 | 균형 | [🔗 Source](https://www.techradar.com/televisions/tcls-2025-tvs-are-having-a-winning-moment-with-up-to-au-usd3-610-in-savings-across-all-models-so-can-you) |
-| 🇹🇼 TW | 6 | 0 | LG 우위 | [🔗 Source](https://www.lg.com/tw/promotions/2025-cny-sp-washingmachine/) |
-| 🇸🇬 SG | 5 | 1 | LG 우위 | [🔗 Source](https://www.lg.com/sg/promotion/) |
-| 🇪🇬 EG | 4 | 0 | LG 우위 | [🔗 Source](https://www.noon.com/egypt-en/electronics-and-mobiles/television-and-video/televisions/lg/) |
-| 🇸🇦 SA | 2 | 1 | LG 우위 | [🔗 Source](https://www.noon.com/saudi-en/home-and-kitchen/home-appliances-31235/large-appliances/refrigerators-and-freezers/lg/) |
+#### 실행 필요
+1. LG 세탁기 Reddit 불만 분석 및 품질팀 공유 — CS팀 즉시
+2. TV 전문가 리뷰 호평 마케팅 자산화 — MS 마케팅 3/5까지
+3. 모니터 호평 리뷰 D2C 사이트 반영 — IT 마케팅 3/10까지
+
+| Country | Product | Sentiment | Key Signal | Source |
+|---------|---------|-----------|------------|--------|
+| 🇺🇸 미국 (US) | TV | 🟢 Positive | LG OLED "Best for everyone" — Tom's Guide | [🔗 Source](https://www.tomsguide.com/tvs/oled-tvs/we-named-this-our-favorite-oled-tv-for-everyone-and-its-now-selling-at-its-lowest-price-ever) |
+| 🇺🇸 미국 (US) | Monitor | 🟢 Positive | LG 27G610A-B "우수" 평가 — RTINGS | [🔗 Source](https://www.rtings.com/monitor/reviews/lg/27g610a-b) |
+| 🇺🇸 미국 (US) | Washing Machine | 🔴 Negative | LG 프론트로드 구매 경고 Reddit | [🔗 Source](https://www.reddit.com/r/Appliances/comments/1r5vi3d/if_youre_looking_to_buy_an_lg_front_loading/) |
+| 🇬🇧 영국 (UK) | TV | 🟢 Positive | LG "Best TV 2026" — Trusted Reviews | [🔗 Source](https://www.trustedreviews.com/best/best-tv-3440232) |
+| 🇩🇪 독일 (DE) | Monitor | 🟢 Positive | LG UltraGear Evo 신제품 호평 | [🔗 Source](https://borncity.com/news/lg-ultragear-evo-neue-monitore-und-updates-fuer-gamer/) |
+| 🇦🇺 호주 (AU) | Washing Machine | 🟢 Positive | LG CHOICE 세탁기 리뷰 상위 | [🔗 Source](https://www.choice.com.au/home-and-living/laundry-and-cleaning/washing-machines/review-and-compare/washing-machines) |
+| 🇧🇷 브라질 (BR) | TV | 🟢 Positive | LG OLED G4 "혁명적 이미지" 평가 | [🔗 Source](https://www.lojadaesquina.com/smart-tv-lg-oled-evo-g4-55/) |
+| 🇹🇼 대만 (TW) | Refrigerator | 🟢 Positive | LG 대용량 냉장고 추천 리스트 상위 | [🔗 Source](https://mindink.app/2026-side-by-side-refrigerator-dimensions-guide/) |
+
+---
+
+### 3.2 유통 채널 프로모션 모니터링
+
+#### 핵심 인사이트
+- **미국 Presidents Day 프로모션 폭발**: LG OLED TV $1,500 할인, UltraGear 모니터 $650 할인 등 역대급 딜 다수 진행
+- **독일 LG Cashback 캠페인 활성화**: OLED G5 €1,200 수준 실구매가 달성으로 가성비 포지셔닝 강화
+- **브라질 Pelando 플랫폼 LG 노출 확대**: 냉장고·모니터 최저가 딜 다수 노출
+
+#### 실행 필요
+1. Presidents Day 프로모션 ROI 분석 및 3월 세일 기획 반영 — 미국팀 3/5까지
+2. 독일 Cashback 캠페인 효과 분석 — EU팀 3/10까지
+3. 브라질 Pelando 파트너십 강화 검토 — 중남미팀 3/15까지
+
+| Country | Product | Retailer | Promo Type | Discount | Source |
+|---------|---------|----------|------------|----------|--------|
+| 🇺🇸 미국 (US) | TV | Walmart | 가격 할인 | C5 65" $1,500 OFF | [🔗 Source](https://www.techradar.com/seasonal-sales/walmart-is-practically-begging-you-to-buy-lgs-65-inch-c5-oled-tv-its-usd1-500-off-and-an-absolute-bargain) |
+| 🇺🇸 미국 (US) | TV | Amazon | Presidents Day | G5 77" $2,352 | [🔗 Source](https://www.ign.com/articles/lg-evo-g5-4k-oled-tv-deal-amazon-presidents-day-sale) |
+| 🇺🇸 미국 (US) | Monitor | Amazon | 가격 할인 | 45" 5K2K $650 OFF | [🔗 Source](https://www.ign.com/articles/lg-ultragear-45gx950a-5k2k-oled-gaming-monitor-deal) |
+| 🇺🇸 미국 (US) | LG gram | Amazon | 가격 할인 | gram Pro 17 $500 OFF | [🔗 Source](https://www.zdnet.com/article/lg-gram-pro-17-deal-post/) |
+| 🇩🇪 독일 (DE) | TV | Amazon DE | Cashback | G5 55" ~€1,200 실구매가 | [🔗 Source](https://hifi.de/angebot/lg-oled-g5-mit-rabatt-und-cashback-in-55-zoll-fuer-am-ende-nur-rund-1200-euro-264151) |
+| 🇩🇪 독일 (DE) | Washing Machine | Saturn | 가격 할인 | 17kg €599 | [🔗 Source](https://www.monsterdealz.de/haushalt-garten/haushaltsgeraete/lg-f11wm17ts2b-waschmaschine-17-kg-schwarz-fuer-59900e/1494856) |
+| 🇧🇷 브라질 (BR) | Refrigerator | Pelando | 가격 할인 | 461L R$3,070 | [🔗 Source](https://www.pelando.com.br/d/geladeira-lg-frost-free-inverter-461l-duplex-look-gn-b452pff-220v-ou-120v-2ff7) |
+| 🇧🇷 브라질 (BR) | Monitor | Pelando | 가격 할인 | 34" QHD R$1,941 | [🔗 Source](https://www.pelando.com.br/d/monitor-gamer-ultrawide-lg-ultragear-34-qhd-160hz-hdr10-791b) |
+| 🇫🇷 프랑스 (FR) | TV | LG Direct | 쿠폰 | €50 할인 코드 | [🔗 Source](https://www.reduc.fr/codes-promo/lg) |
+| 🇮🇹 이탈리아 (IT) | TV | Amazon IT | 가격 할인 | QNED 50" €399 | [🔗 Source](https://www.tomshw.it/hardware/lg-qned-50-pollici-smart-tv-4k-con-processore-a7-e-webos-ai-a-399eur-2026-02-19) |
+| 🇪🇸 스페인 (ES) | TV | 다수 리테일러 | 가격 할인 | C5 83" €1,700 | [🔗 Source](https://www.avpasion.com/lg-oled-c5-83-oferton-imbatible-1700-euros/) |
+| 🇬🇧 영국 (UK) | Refrigerator | AO.com | 쿠폰 | 20% 할인 코드 | [🔗 Source](https://www.techradar.com/uk/coupons/lg) |
+| 🇦🇺 호주 (AU) | Washing Machine | Retravision | 프로모션 | 14kg Steam+ | [🔗 Source](https://www.retravision.com.au/lg-14kg-series-xl-steam-front-load-washing-machine-matte-white-wxls1014wx-wxls-1014wxaewr) |
+| 🇹🇼 대만 (TW) | TV | TechRadar | 쿠폰 | $15 Gift Card | [🔗 Source](https://www.techradar.com/coupons/lg) |
+| 🇸🇦 사우디아라비아 (SA) | TV | Reddit | 가격 할인 | B5 48" $599 | [🔗 Source](https://www.reddit.com/r/buildapcsales/comments/1r5cxij/tv_lg_48_b5_4k_oled_59999_1299_msrp/) |
+
+---
 
 ### 3.3 경쟁 가격 및 포지셔닝
-### 핵심 인사이트
-- 가격 비교는 단일 SKU보다 카테고리별 앵커 가격 구조로 보는 것이 실무 대응에 유효하다.
-- 중국 브랜드의 저가 포지셔닝은 TV뿐 아니라 HS 카테고리로 확장되고 있다.
-- LG는 프리미엄 유지와 엔트리 전환의 이중 전략을 국가별로 분리 운영해야 한다.
 
-### 실행 필요
-1. 국가별 앵커 SKU를 지정하고 경쟁사 대비 체감가 차이 임계치(예: 15%)를 운영한다.
-2. 가격 대응은 지역 본부 재량이 아닌 중앙 정책(가이드 레일)으로 관리한다.
-3. HS 카테고리에서 가격 외 차별화(설치/A/S/에너지비용)를 수치화해 제시한다.
+#### 핵심 인사이트
+- **TV 세그먼트**: LG OLED가 프리미엄 포지셔닝 유지하나 TCL Mini-LED가 50~70% 저가로 가성비 시장 공략
+- **냉장고 세그먼트**: 브라질에서 Midea가 LG 동급 모델 대비 2% 저가로 역전 — 즉각 대응 필요
+- **세탁기 세그먼트**: Haier·Midea가 독일에서 LG 대비 40~50% 저가 포지셔닝으로 시장 침투
 
-| Country | LG Anchor Price | Competitor Anchor Price | Gap Insight | Source |
-|---|---:|---:|---|---|
-| 🇺🇸 US | 200 | 1,700 | LG/Comp 0.12배 | [🔗 Source](https://www.cnet.com/deals/lg-ultragear-gaming-monitor-deal/) |
-| 🇨🇦 CA | - | - | 관측값 제한 | [🔗 Source](https://forums.redflagdeals.com/lg-canada-lg-oled-tv-community-partner-store-discounts-2786102/) |
-| 🇬🇧 UK | 500 | - | 관측값 제한 | [🔗 Source](https://www.lg.com/uk/lg-experience/helpful-hints/energy-efficient-washing-machines/) |
-| 🇩🇪 DE | 948 | - | 관측값 제한 | [🔗 Source](https://www.lg.com/de/newsroom/LG-Convention-2025--Buehne-frei-fuer-Premium-Waeschepflege-von-LG/) |
-| 🇫🇷 FR | 200 | 439 | LG/Comp 0.46배 | [🔗 Source](https://clicdeal.fr/actualites/quelle-est-la-meilleure-marque-de-tv-en-2026/) |
-| 🇪🇸 ES | 899 | - | 관측값 제한 | [🔗 Source](https://www.lg.com/es/tv-y-barras-de-sonido/oled-evo/oled65g55lw/) |
-| 🇮🇹 IT | 159 | - | 관측값 제한 | [🔗 Source](https://www.hdblog.it/tv/articoli/n615468/lg-tv-oled-ai-2025-caratteristiche-prezzo-italia/) |
-| 🇧🇷 BR | 569 | 149,999 | LG/Comp 0.00배 | [🔗 Source](https://www.lg.com/br/lg-streaming-week-2025/) |
-| 🇲🇽 MX | - | 9,949 | 관측값 제한 | [🔗 Source](https://www.elbodegon.com.mx/linea-blanca/hisense/midea) |
-| 🇨🇱 CL | - | - | 관측값 제한 | [🔗 Source](https://simple.ripley.cl/electro/especial-marcas/midea) |
-| 🇹🇭 TH | - | - | 관측값 제한 | [🔗 Source](https://www.ses.co.th/category/7/ตู้เย็น) |
-| 🇦🇺 AU | 1,691 | 736 | LG/Comp 2.30배 | [🔗 Source](https://www.techradar.com/televisions/tcls-2025-tvs-are-having-a-winning-moment-with-up-to-au-usd3-610-in-savings-across-all-models-so-can-you) |
-| 🇹🇼 TW | 4,999 | 19,900 | LG/Comp 0.25배 | [🔗 Source](https://www.lg.com/tw/promotions/2025-cny-sp-washingmachine/) |
-| 🇸🇬 SG | 300 | 1,899 | LG/Comp 0.16배 | [🔗 Source](https://www.lg.com/sg/promotion/) |
-| 🇪🇬 EG | 18,799 | 55,999 | LG/Comp 0.34배 | [🔗 Source](https://www.noon.com/egypt-en/home-and-kitchen/home-appliances-31235/large-appliances/refrigerators-and-freezers/refrigerators/samsung/) |
-| 🇸🇦 SA | 299 | - | 관측값 제한 | [🔗 Source](https://www.almanea.sa/en/product/lg-50-inch-4k-uhd-smart-tv-ai-hdr10-webos25-2025-50ua73006la-p-139900799450018) |
+#### 실행 필요
+1. 브라질 냉장고 가격 대응 긴급 검토 — HS팀 2/28까지
+2. 독일 세탁기 가격 경쟁력 분석 및 프로모션 기획 — EU팀 3/5까지
+3. TV 가성비 세그먼트 대응 전략 수립 — MS팀 3/10까지
+
+**TV 가격 비교**
+
+| Country | LG Model | LG Price | Competitor | Comp. Model | Comp. Price | Gap |
+|---------|----------|----------|------------|-------------|-------------|-----|
+| 🇺🇸 미국 (US) | C5 65" OLED | $1,299 (할인후) | TCL | 55" Mini-LED | $329 | -75% |
+| 🇩🇪 독일 (DE) | G5 55" OLED | ~€1,200 | Hisense | 65" QLED | €449 | -63% |
+| 🇦🇺 호주 (AU) | OLED C Series | ~$2,500 | TCL | C7K 85" | $2,471 | -1% |
+| 🇬🇧 영국 (UK) | OLED B5 | ~£999 | Hisense | 75" Mini-LED | ~£800 | -20% |
+
+**냉장고 가격 비교**
+
+| Country | LG Model | LG Price | Competitor | Comp. Model | Comp. Price | Gap |
+|---------|----------|----------|------------|-------------|-------------|-----|
+| 🇧🇷 브라질 (BR) | 461L Duplex | R$3,070 | Midea | 491L Duplex | R$3,006 | -2% |
+| 🇧🇷 브라질 (BR) | 461L Duplex | R$3,070 | Midea | 394L Duplex | R$2,399 | -22% |
+| 🇩🇪 독일 (DE) | Side-by-Side | ~€1,200 | Midea | Side-by-Side | €809 | -33% |
+
+**세탁기 가격 비교**
+
+| Country | LG Model | LG Price | Competitor | Comp. Model | Comp. Price | Gap |
+|---------|----------|----------|------------|-------------|-------------|-----|
+| 🇩🇪 독일 (DE) | 17kg F11WM17TS2B | €599 | Haier | 9kg | €373 | -38% |
+| 🇩🇪 독일 (DE) | 17kg F11WM17TS2B | €599 | Midea | 8kg | €294 | -51% |
+| 🇧🇷 브라질 (BR) | - | - | Midea | 11kg | R$2,499 | N/A |
+
+---
 
 ### 3.4 중국 브랜드 위협 추적
-### 핵심 인사이트
-- 중국 브랜드 위협은 단일 시장 이슈가 아니라 16개국 전반의 구조적 패턴으로 확산 중이다.
-- TV 저가 공세와 HS 채널 확장이 동시 발생해 제품군 간 교차 압박이 커지고 있다.
-- 국가별 위협 강도에 맞춘 차등 대응(가격/서비스/채널)이 필요하다.
 
-### 실행 필요
-1. 위협 강도 상위 국가를 Red Zone으로 지정해 주간 가격·채널 대응안을 의무화한다.
-2. 중국 브랜드와 직접 비교되는 SKU는 PDP에 장점 비교표를 표준 적용한다.
-3. HS 카테고리에서는 서비스/보증 가치를 가격과 함께 묶어 제시한다.
+#### 핵심 인사이트
+- **TV 브랜드(TCL/Hisense)**: 글로벌 점유율 역전 모멘텀 — TCL 삼성 추월 보도 다수, Hisense Mini-LED 공격적 가격
+- **가전 브랜드(Haier/Midea)**: 브라질·독일·이탈리아에서 LG 가격 역전 또는 근접 — HS 사업부 즉각 대응 필요
+- **유통 확대 가속화**: Haier·Midea가 Currys(UK), Amazon(DE), Pelando(BR) 등 주요 유통채널 침투 확대
 
-| Country | Chinese Signal Count | Primary Brand | Threat | Source |
-|---|---:|---|---|---|
-| 🇺🇸 US | 14 | Hisense | 🔴 High | [🔗 Source](https://www.trendforce.com/presscenter/news/20250806-12664.html) |
-| 🇨🇦 CA | 3 | TCL | 🔴 High | [🔗 Source](https://www.homedepot.ca/en/home/categories/appliances/washers-and-dryers/f/midea/6f9-il9) |
-| 🇬🇧 UK | 3 | Haier | 🔴 High | [🔗 Source](https://www.currys.co.uk/appliances/laundry/washing-machines/hisense) |
-| 🇩🇪 DE | 5 | TCL | 🔴 High | [🔗 Source](https://de.statista.com/statistik/daten/studie/151532/umfrage/marktanteile-der-lcd-fernseher-hersteller-weltweit/) |
-| 🇫🇷 FR | 5 | Hisense | 🔴 High | [🔗 Source](https://hisense.fr/blog/newsroom/tv-audio-et-laser-hisense-repousse-les-limites-en-2025) |
-| 🇪🇸 ES | 2 | Haier | 🟡 Medium | [🔗 Source](https://www.idealo.es/cat/1941F103711575/lavadoras.html) |
-| 🇮🇹 IT | 2 | Haier | 🟡 Medium | [🔗 Source](https://www.midea.com/it) |
-| 🇧🇷 BR | 4 | Hisense | 🔴 High | [🔗 Source](https://www.mundoconectado.com.br/smart-tvs/116-polegadas-hisense-lanca-a-maior-tv-do-brasil/) |
-| 🇲🇽 MX | 3 | Midea | 🔴 High | [🔗 Source](https://www.elbodegon.com.mx/linea-blanca/hisense/midea) |
-| 🇨🇱 CL | 1 | Midea | 🟡 Medium | [🔗 Source](https://simple.ripley.cl/electro/especial-marcas/midea) |
-| 🇹🇭 TH | 5 | Midea | 🔴 High | [🔗 Source](https://techsauce.co/news/midea-group-thailand-biggest-factory-outside-china) |
-| 🇦🇺 AU | 5 | TCL | 🔴 High | [🔗 Source](https://www.techradar.com/televisions/tcls-2025-tvs-are-having-a-winning-moment-with-up-to-au-usd3-610-in-savings-across-all-models-so-can-you) |
-| 🇹🇼 TW | 2 | TCL | 🟡 Medium | [🔗 Source](https://24h.pchome.com.tw/store/DPAIIH) |
-| 🇸🇬 SG | 3 | TCL | 🔴 High | [🔗 Source](https://www.techradar.com/televisions/tcl-singapore-is-celebrating-lunar-new-year-with-up-to-43-percent-off-some-of-our-favourite-tvs) |
-| 🇪🇬 EG | 2 | Hisense | 🟡 Medium | [🔗 Source](https://hisenseme.com/) |
-| 🇸🇦 SA | 5 | Hisense | 🔴 High | [🔗 Source](https://www.saudi-cocc.net/en/article/6701.html) |
+#### 실행 필요
+1. TCL/Hisense TV 점유율 동향 월간 심층 분석 — MS 전략팀 3/10까지
+2. Midea/Haier 가전 가격 실시간 모니터링 체계 구축 — 인텔리전스팀 3/1까지
+3. 중국 브랜드 유통 확대 대응 전략 수립 — 글로벌 채널팀 3/15까지
+
+| Country | Brand | Product | Threat Signal | Severity | Source |
+|---------|-------|---------|---------------|----------|--------|
+| 🇧🇷 브라질 (BR) | TCL | TV | 글로벌 출하량 삼성 추월 보도 | 🔴 Critical | [🔗 Source](https://tecnoblog.net/noticias/tvs-da-samsung-sofrem-primeira-derrota-para-tcl/) |
+| 🇧🇷 브라질 (BR) | Midea | Refrigerator | 491L R$3,006 — LG 가격 역전 | 🔴 Critical | [🔗 Source](https://www.pelando.com.br/d/geladeira-midea-frost-free-duplex-md-rt650evkdx33-491-litros-preta-com-tecnologia-inverter-e-painel-touch-flexi-volt-e044) |
+| 🇧🇷 브라질 (BR) | Midea | Washing Machine | 11kg R$2,499 공격가 | 🔴 Critical | [🔗 Source](https://www.pelando.com.br/d/maquina-de-lavar-roupas-inverter-midea-wi-fi-11kg-healthguardtitanium-110v-ou-220v-c8b7) |
+| 🇩🇪 독일 (DE) | Haier | Washing Machine | 9kg €373 Amazon 딜 | 🔴 Critical | [🔗 Source](https://www.mein-deal.com/amazon-waschmaschinen-trockner-sale) |
+| 🇩🇪 독일 (DE) | Midea | Washing Machine | 8kg €294 최저가 | 🟡 Warning | [🔗 Source](https://www.mein-deal.com/midea-mf10ew80b) |
+| 🇩🇪 독일 (DE) | Hisense | TV | €449 게이밍 TV 공격가 | 🟡 Warning | [🔗 Source](https://www.4p.de/tipps/deals/nur-449-euro-gewaltiger-gaming-fernseher-ab-sofort-im-amazon-angebot/3373409) |
+| 🇮🇹 이탈리아 (IT) | Haier | Refrigerator | 4도어 446L €699 할인 | 🟡 Warning | [🔗 Source](https://www.tomshw.it/hardware/haier-fd-70-frigorifero-combinato-4-porte-446l-a-soli-699eur-2026-02-19) |
+| 🇮🇹 이탈리아 (IT) | Hisense | TV | 65" QLED 대형 할인 | 🟡 Warning | [🔗 Source](https://www.smartworld.it/tecnologia/hisense-65e77kq-qled-offerta-amazon.html) |
+| 🇫🇷 프랑스 (FR) | Haier | Refrigerator | 멀티도어 €300 할인 | 🟡 Warning | [🔗 Source](https://www.lafourchetteverte.fr/cest-le-frigo-qui-me-manquait-ce-haier-multi-portes-perd-300-e-chez-boulanger-attention-stock-limite/) |
+| 🇬🇧 영국 (UK) | Hisense | TV | 75" Mini-LED 역대 최저가 | 🟡 Warning | [🔗 Source](https://www.tomsguide.com/tvs/qled-tvs/this-75-inch-mini-led-tv-is-bright-packed-with-features-and-just-crashed-to-its-lowest-price-ever) |
+| 🇦🇺 호주 (AU) | TCL | TV | C7K 85" $2,471 딜 | 🟡 Warning | [🔗 Source](https://www.ozbargain.com.au/node/949050) |
+| 🇺🇸 미국 (US) | TCL | TV | SQD Mini-LED 신기술 출시 | 🟡 Warning | [🔗 Source](https://www.techradar.com/televisions/tcls-clever-sqd-mini-led-tv-tech-has-arrived-in-its-first-set-and-weve-measured-it-heres-how-it-compares-to-rgb-tvs-and-oled) |
+| 🇨🇦 캐나다 (CA) | Haier | Refrigerator | 유통채널 다변화 진행 | 🟡 Warning | [🔗 Source](https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/) |
 
 ---
 
 ## 4. 중국 브랜드 위협 보고
 
 ### 핵심 인사이트
-- TCL/Hisense는 TV에서, Haier/Midea는 HS에서 존재감을 높이며 다축 압박을 형성한다.
-- 가격과 채널 확장이 동시에 발생하는 국가가 가장 높은 매출 리스크를 보인다.
-- LG는 브랜드 프리미엄 메시지와 체감가 대응을 함께 운영해야 방어 효율이 높다.
+- **TV 중국 브랜드(TCL/Hisense)**: 기술 혁신(SQD Mini-LED)과 공격적 가격 전략 병행으로 글로벌 점유율 확대 가속화
+- **가전 중국 브랜드(Haier/Midea)**: 브라질·독일·이탈리아 핵심 시장에서 LG 가격 역전 또는 근접 — 시장 방어 시급
+- **유통 전략 고도화**: 온라인 플랫폼(Amazon, Pelando) 중심 딜 노출과 오프라인(Harvey Norman, Boulanger) 채널 동시 확대
 
 ### 실행 필요
-1. TCL/Hisense 집중 국가는 TV 가격·번들 대응을 분리 설계한다.
-2. Haier/Midea 집중 국가는 HS 서비스 보증 메시지를 강화한다.
-3. Red Zone 국가의 중국 브랜드 신제품/신채널 유입을 주 1회 리더십에 리포트한다.
+1. 중국 브랜드 대응 TF 구성 및 분기별 전략 리뷰 체계 수립 — 전략기획 3/15까지
+2. 브라질 Midea 가전 대응 긴급 프로모션 기획 — HS 중남미팀 2/28까지
+3. TV 기술 경쟁력(OLED vs Mini-LED) 마케팅 차별화 강화 — MS 마케팅 3/10까지
+
+---
 
 ### 4.1 브랜드별 분석
-| Brand | Product Focus | Top Country | Activity | Threat | Source |
-|---|---|---|---|---|---|
-| TCL | TV | 🇺🇸 US | TCL's 2025 TVs having a winning moment with up to AU$3,610 in savings across all models | 🔴 | [🔗 Source](https://www.techradar.com/televisions/tcls-2025-tvs-are-having-a-winning-moment-with-up-to-au-usd3-610-in-savings-across-all-models-so-can-you) |
-| Hisense | TV | 🇺🇸 US | TV Audio et Laser: Hisense repousse les limites en 2025 - le marché de la très grande taille a le vent en poup | 🔴 | [🔗 Source](https://hisense.fr/blog/newsroom/tv-audio-et-laser-hisense-repousse-les-limites-en-2025) |
-| Haier | Refrigerator | 🇬🇧 UK | Haier washing machines at The Good Guys, Harvey Norman, Appliances Online Australia — front load, top load, wa | 🔴 | [🔗 Source](https://www.thegoodguys.com.au/haier/laundry/washing-machines) |
-| Midea | Washing Machine | 🇹🇭 TH | Midea มีโรงงานในไทยถึง 8 แห่ง ครอบคลุมโปรดักต์หลักอย่าง เครื่องปรับอากาศ ตู้เย็น และเครื่องซักผ้า | 🔴 | [🔗 Source](https://techsauce.co/news/midea-group-thailand-biggest-factory-outside-china) |
+
+**TV 브랜드: TCL**
+
+| Metric | This Week | Trend | Key Signal |
+|--------|-----------|-------|------------|
+| 데이터 건수 | 48건 | 📈 | 글로벌 점유율 역전 보도 확산 |
+| 핵심 국가 | US/BR/AU/DE | - | 전 지역 공격적 딜 진행 |
+| 가격 전략 | Mini-LED $329~ | 📉 | OLED 대비 60~70% 저가 |
+| 기술 동향 | SQD Mini-LED 출시 | 📈 | RGB 대비 색 재현력 향상 주장 |
+
+**TV 브랜드: Hisense**
+
+| Metric | This Week | Trend | Key Signal |
+|--------|-----------|-------|------------|
+| 데이터 건수 | 39건 | 📈 | Mini-LED 집중 공세 |
+| 핵심 국가 | UK/DE/SA/IT | - | 유럽·중동 집중 |
+| 가격 전략 | 65" QLED €449~ | 📉 | LG 대비 50% 이상 저가 |
+| 기술 동향 | U8 Mini-LED 호평 | 📈 | 전문가 리뷰 호의적 |
+
+**가전 브랜드: Haier**
+
+| Metric | This Week | Trend | Key Signal |
+|--------|-----------|-------|------------|
+| 데이터 건수 | 88건 | 📈 | 냉장고·세탁기 전 카테고리 확대 |
+| 핵심 국가 | UK/DE/IT/AU | - | 유럽·호주 집중 |
+| 가격 전략 | 세탁기 €373~ | 📉 | LG 대비 40% 저가 |
+| 유통 전략 | Currys/Amazon/Good Guys | 📈 | 주요 리테일러 파트너십 확대 |
+
+**가전 브랜드: Midea**
+
+| Metric | This Week | Trend | Key Signal |
+|--------|-----------|-------|------------|
+| 데이터 건수 | 90건 | 📈 | 브라질 시장 집중 공세 |
+| 핵심 국가 | BR/DE/IT/ES | - | 중남미·유럽 동시 확대 |
+| 가격 전략 | 냉장고 R$2,399~ | 📉 | LG 가격 역전 |
+| 품질 이슈 | A/S 불만 다수 | ⚠️ | 브라질 Reclame AQUI 불만 6건+ |
+
+---
 
 ### 4.2 중국 브랜드 가격 전쟁 맵
-| Country | Product | Chinese Brand Price | LG Comparable Price | Price Gap | Source |
-|---|---|---:|---:|---|---|
-| 🇦🇺 AU | TV | 736 | 1,691 | LG/Chinese 2.30배 | [🔗 Source](https://www.techradar.com/televisions/tcls-2025-tvs-are-having-a-winning-moment-with-up-to-au-usd3-610-in-savings-across-all-models-so-can-you) |
+
+**TV 가격 비교 (65" 4K 기준)**
+
+| Country | LG OLED | TCL Mini-LED | Hisense QLED | LG vs TCL Gap | LG vs Hisense Gap |
+|---------|---------|--------------|--------------|---------------|-------------------|
+| 🇺🇸 미국 (US) | $1,299 | $329 | $598 | -75% | -54% |
+| 🇩🇪 독일 (DE) | ~€1,200 | ~€500 | €449 | -58% | -63% |
+| 🇬🇧 영국 (UK) | ~£999 | ~£350 | ~£300 | -65% | -70% |
+| 🇦🇺 호주 (AU) | ~$2,500 | ~$1,000 | ~$900 | -60% | -64% |
+
+**냉장고 가격 비교 (400~500L 기준)**
+
+| Country | LG | Midea | Haier | LG vs Midea Gap | LG vs Haier Gap |
+|---------|-----|-------|-------|-----------------|-----------------|
+| 🇧🇷 브라질 (BR) | R$3,070 | R$3,006 | N/A | -2% | N/A |
+| 🇩🇪 독일 (DE) | ~€1,200 | €809 | ~€900 | -33% | -25% |
+| 🇮🇹 이탈리아 (IT) | ~€900 | ~€700 | €699 | -22% | -22% |
+
+**세탁기 가격 비교 (8~10kg 기준)**
+
+| Country | LG | Midea | Haier | LG vs Midea Gap | LG vs Haier Gap |
+|---------|-----|-------|-------|-----------------|-----------------|
+| 🇩🇪 독일 (DE) | €599 | €294 | €373 | -51% | -38% |
+| 🇮🇹 이탈리아 (IT) | ~€600 | ~€350 | ~€400 | -42% | -33% |
+| 🇧🇷 브라질 (BR) | N/A | R$2,499 | N/A | N/A | N/A |
+
+---
 
 ### 4.3 전략 요약
-- 이번 주 가장 공격적인 중국 브랜드 노출은 **🇺🇸 US**에서 확인되었으며, 다수 신호가 가격/채널 확장으로 연결된다. [🔗 Source](https://www.trendforce.com/presscenter/news/20250806-12664.html)
-- LG는 프리미엄 포지셔닝 유지와 동시에 엔트리 가격대 체감가 설계를 병행해야 전환 손실을 줄일 수 있다.
-- 다음 주 우선 모니터링: 1) Red Zone 국가 가격 변화 2) HS 채널 입점 확대 3) VOC 악화 조짐.
+
+**TV(TCL/Hisense) 대응 전략**
+- **단기**: OLED 기술 우위 마케팅 강화 — "True Black, Perfect Color" 캠페인
+- **중기**: 가성비 세그먼트 QNED/NanoCell 가격 경쟁력 확보
+- **장기**: Mini-LED 대응 차세대 디스플레이 기술 로드맵 가속화
+
+**가전(Midea/Haier) 대응 전략**
+- **단기**: 브라질·독일 핵심 SKU 긴급 프로모션 (캐시백/번들)
+- **중기**: A/S 서비스 차별화 마케팅 — 중국 브랜드 A/S 불만 활용
+- **장기**: 스마트홈 연동·에너지 효율 프리미엄 포지셔닝 강화
 
 ---
 
 ## 5. 전주 대비 추이
 
 ### 핵심 인사이트
-- 추이 데이터는 주차 누적 시 정확도가 빠르게 개선되며, 현재는 기준선 정교화 구간이다.
-- 데이터 건수와 프로모션 신호 증감은 다음 주 오퍼 우선순위의 핵심 입력값이다.
-- Critical 국가 수와 부정 VOC는 매출 방어 KPI로 직접 연결해 관리해야 한다.
+- **데이터 수집량 급증**: Presidents Day 세일과 중국 브랜드 모니터링 강화로 전주 대비 194% 증가
+- **제품 균형 대폭 개선**: TV 비율 43%→29%로 감소, 냉장고·세탁기 비중 대폭 확대
+- **중국 브랜드 위협 급증**: 61→265건으로 334% 증가 — 시장 모니터링 정밀도 향상
 
 ### 실행 필요
-1. 주차별 지표를 동일 기준으로 적재해 W-o-W 비교 신뢰도를 유지한다.
-2. Critical 국가 수 증가 시 지역별 가격·CS 대응안을 즉시 승격한다.
-3. 추이 그래프는 허브에서 경영진용 요약 뷰로 우선 노출한다.
+1. 데이터 수집 체계 안정화 및 Tier 3 국가(TH/SG/EG) 소스 확장 — 인텔리전스팀 3/15까지
+2. 부정 소비자 반응 급증(1→14건) 원인 분석 및 대응 — CS팀 3/1까지
+3. LG 프로모션 효과 분석 및 3월 캠페인 기획 반영 — 마케팅팀 3/10까지
+
+<!-- CHART:wow_bar -->
 
 | Metric | W-4 | W-3 | W-2 | W-1 | This Week | Trend |
-|---|---:|---:|---:|---:|---:|---|
-| 총 데이터 건수 | — | — | — | 1 | 220 | ↑ |
-| LG 프로모션 감지 건수 | — | — | — | 0 | 76 | ↑ |
-| 경쟁사 공격 프로모션 감지 건수 | — | — | — | 0 | 16 | ↑ |
-| 중국 브랜드 위협 신호 | — | — | — | 0 | 61 | ↑ |
-| 부정 소비자 언급 수 | — | — | — | 0 | 1 | ↑ |
-| Critical Alert 발생 국가 수 | — | — | — | 0 | 1 | ↑ |
+|--------|-----|-----|-----|-----|-----------|-------|
+| 총 데이터 | - | - | - | 220 | 646 | 📈 +194% |
+| TV 비율 | - | - | - | 43.2% | 29.1% | 📉 -14.1%p |
+| 냉장고 건수 | - | - | - | ~40 | 160 | 📈 +300% |
+| 세탁기 건수 | - | - | - | ~35 | 159 | 📈 +354% |
+| 모니터 건수 | - | - | - | ~15 | 83 | 📈 +453% |
+| gram 건수 | - | - | - | ~10 | 56 | 📈 +460% |
+| 중국 브랜드 | - | - | - | 61 | 265 | 📈 +334% |
+| 부정 반응 | - | - | - | 1 | 14 | 📈 +1300% |
+| LG 프로모션 | - | - | - | 76 | 263 | 📈 +246% |
 
 ---
 
-## 부록 A. 데이터 소스 & 커버리지
+## Appendix A: 데이터 소스 및 커버리지
 
-| Country | Records | Primary Source |
-|---|---:|---|
-| 🇺🇸 US | 53 | [🔗 Source](https://www.trendforce.com/presscenter/news/20250806-12664.html) |
-| 🇨🇦 CA | 9 | [🔗 Source](https://www.homedepot.ca/en/home/categories/appliances/washers-and-dryers/f/midea/6f9-il9) |
-| 🇬🇧 UK | 16 | [🔗 Source](https://www.trustedreviews.com/best/best-washing-machine-3431783) |
-| 🇩🇪 DE | 13 | [🔗 Source](https://www.lg.com/de/newsroom/LG-Convention-2025--Buehne-frei-fuer-Premium-Waeschepflege-von-LG/) |
-| 🇫🇷 FR | 11 | [🔗 Source](https://hisense.fr/blog/newsroom/tv-audio-et-laser-hisense-repousse-les-limites-en-2025) |
-| 🇪🇸 ES | 8 | [🔗 Source](https://www.xatakahome.com/televisores/nueva-linea-televisores-lg-oled-para-2025-tienen-precio-confirmado-asi-queda-gama-alta-premium-smart-tvs) |
-| 🇮🇹 IT | 9 | [🔗 Source](https://www.hdblog.it/tv/articoli/n615468/lg-tv-oled-ai-2025-caratteristiche-prezzo-italia/) |
-| 🇧🇷 BR | 8 | [🔗 Source](https://www.mundoconectado.com.br/smart-tvs/116-polegadas-hisense-lanca-a-maior-tv-do-brasil/) |
-| 🇲🇽 MX | 9 | [🔗 Source](https://www.elbodegon.com.mx/linea-blanca/hisense/midea) |
-| 🇨🇱 CL | 8 | [🔗 Source](https://simple.ripley.cl/electro/especial-marcas/midea) |
-| 🇹🇭 TH | 10 | [🔗 Source](https://www.ses.co.th/category/7/ตู้เย็น) |
-| 🇦🇺 AU | 11 | [🔗 Source](https://www.techradar.com/televisions/tcls-2025-tvs-are-having-a-winning-moment-with-up-to-au-usd3-610-in-savings-across-all-models-so-can-you) |
-| 🇹🇼 TW | 17 | [🔗 Source](https://www.lg.com/tw/promotions/2025-cny-sp-washingmachine/) |
-| 🇸🇬 SG | 12 | [🔗 Source](https://www.lg.com/sg/promotion/) |
-| 🇪🇬 EG | 14 | [🔗 Source](https://www.noon.com/egypt-en/home-and-kitchen/home-appliances-31235/large-appliances/refrigerators-and-freezers/refrigerators/samsung/) |
-| 🇸🇦 SA | 10 | [🔗 Source](https://www.almanea.sa/en/product/lg-50-inch-4k-uhd-smart-tv-ai-hdr10-webos25-2025-50ua73006la-p-139900799450018) |
+### 16개국 소스 테이블
 
-## 부록 B. 방법론 & 한계
-- Data Collection: OpenClaw raw JSONL 기반 자동 집계
-- Scope: 보고 생성일 기준 최근 수집 주차 데이터
-- Limitation: 소스별 크롤링 제한 및 지역별 데이터 가용성 차이 존재
-- Note: URL이 없는 항목은 규칙에 따라 출처 미확인으로 표기
-
-## 부록 C. 용어
-- **MS**: Media Entertainment Solution
-- **HS**: Home Appliance Solution
-- **VOC**: Voice of Customer
-- **W-o-W**: Week over Week
+| Country | 데이터 건수 | 주요 소스 | 제품 커버리지 |
+|---------|------------|-----------|---------------|
+| 🇺🇸 미국 (US) | 147건 | TechRadar, IGN, Reddit, Amazon, Mashable | TV/Refrigerator/WM/Monitor/gram |
+| 🇨🇦 캐나다 (CA) | 20건 | RedFlagDeals, Canadian Appliance | TV/Refrigerator/WM/Monitor |
+| 🇬🇧 영국 (UK) | 28건 | Trusted Reviews, Currys, AO.com | TV/Refrigerator/WM/gram |
+| 🇩🇪 독일 (DE) | 78건 | GameStar, hifi.de, mein-deal, Notebookcheck | TV/Refrigerator/WM/Monitor/gram |
+| 🇫🇷 프랑스 (FR) | 50건 | Les Numériques,
