@@ -1,0 +1,202 @@
+# ============================================================
+# D2C Monthly Deep Dive Intelligence Report — GitHub Actions Workflow
+# ============================================================
+# Schedule: 매월 1일 00:00 UTC (09:00 KST)
+# Pipeline: Aggregate → Claude Opus → Build (Chart.js) → Quality Gate → Deploy
+# ============================================================
+
+name: D2C Monthly Deep Dive Report
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'     # 매월 1일 00:00 UTC = 09:00 KST
+  workflow_dispatch:
+    inputs:
+      month:
+        description: 'Target month (YYYY-MM), default: previous month'
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "monthly-report"
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Seoul
+
+jobs:
+  monthly-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      # ── Setup ──
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install ripgrep
+        run: sudo apt-get install -y ripgrep
+
+      - name: Install Playwright (Chromium for PDF)
+        run: |
+          npm install playwright
+          npx playwright install chromium --with-deps
+          echo "${{ github.workspace }}/node_modules/.bin" >> $GITHUB_PATH
+
+      - name: Set script permissions
+        run: chmod +x scripts/*.py scripts/*.sh
+
+      - name: Set target month
+        run: |
+          if [ -n "${{ inputs.month }}" ]; then
+            echo "YEAR_MONTH=${{ inputs.month }}" >> $GITHUB_ENV
+          else
+            # Default: previous month
+            YEAR_MONTH=$(TZ=Asia/Seoul python3 -c "
+          from datetime import date
+          today = date.today()
+          if today.month == 1:
+              print(f'{today.year - 1}-12')
+          else:
+              print(f'{today.year}-{today.month - 1:02d}')
+          ")
+            echo "YEAR_MONTH=$YEAR_MONTH" >> $GITHUB_ENV
+          fi
+
+      - name: Display configuration
+        run: |
+          echo "=== D2C Monthly Report Configuration ==="
+          echo "Target month: ${{ env.YEAR_MONTH }}"
+          echo "Model (Report): ${{ vars.CLAUDE_MODEL_REPORT }}"
+          echo "Model (Translate): ${{ vars.CLAUDE_MODEL_TRANSLATE }}"
+          echo "TZ: $TZ"
+          echo "========================================="
+
+      # ── Step 1: Data Aggregation ──
+      - name: Aggregate monthly data
+        run: |
+          echo "::group::Monthly Data Aggregation"
+          python scripts/d2c_monthly_aggregator.py ${{ env.YEAR_MONTH }}
+          echo "::endgroup::"
+          echo "--- Aggregation Stats ---"
+          cat data/monthly_stats/${{ env.YEAR_MONTH }}.json | python3 -c "
+          import json, sys
+          d = json.load(sys.stdin)
+          print(f\"Weeks: {d['weeks_count']}\")
+          print(f\"Records: {d['total_records']}\")
+          print(f\"Countries: {d['countries_count']}\")
+          " || true
+
+      # ── Step 2: Monthly Report Generation ──
+      - name: Generate monthly report (Claude Opus 4.5 → Markdown)
+        timeout-minutes: 60
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL_REPORT: ${{ vars.CLAUDE_MODEL_REPORT }}
+        run: |
+          echo "::group::Monthly Claude Report Generation"
+          python scripts/d2c_monthly_report_generator.py ${{ env.YEAR_MONTH }}
+          echo "::endgroup::"
+          echo "--- Report Size ---"
+          ls -lh reports/md/*Monthly*${{ env.YEAR_MONTH }}*.md || true
+
+      # ── Step 3: Build (Translate + Render + Chart.js + PDF) ──
+      - name: Build publishable monthly report
+        timeout-minutes: 30
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL_TRANSLATE }}
+          CLAUDE_MODEL_TRANSLATE: ${{ vars.CLAUDE_MODEL_TRANSLATE }}
+          CLAUDE_TRANSLATE_RUNNER: "${{ github.workspace }}/scripts/d2c_translator.py"
+          NODE_OPTIONS: "--max-old-space-size=4096"
+        run: |
+          echo "::group::Build Monthly Report"
+          bash scripts/build_publishable_monthly_report.sh ${{ env.YEAR_MONTH }}
+          echo "::endgroup::"
+          echo "--- Build Output ---"
+          ls -lR reports/html/monthly/${{ env.YEAR_MONTH }}/ || true
+
+      # ── Step 4: Quality Gate ──
+      - name: Quality gate (monthly)
+        run: |
+          echo "::group::Monthly Quality Gate"
+          bash scripts/quality_gate_monthly.sh ${{ env.YEAR_MONTH }} || echo "⚠️ Monthly quality gate warnings (non-blocking)"
+          echo "::endgroup::"
+
+      # ── Step 5: Commit & Push ──
+      - name: Commit and push monthly report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A data/monthly_stats/ data/monthly_raw/ reports/md/ reports/html/monthly/ reports/pdf/ || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Monthly Deep Dive Report: ${{ env.YEAR_MONTH }} [auto]"
+            git push
+          fi
+
+      # ── Step 6: Deploy to GitHub Pages ──
+      - name: Deploy monthly to main branch (Pages)
+        run: |
+          DEPLOY_DIR=$(mktemp -d)
+          git worktree add "$DEPLOY_DIR" main 2>/dev/null || git worktree add "$DEPLOY_DIR" --orphan main
+          # Copy monthly HTML
+          mkdir -p "$DEPLOY_DIR/monthly/${{ env.YEAR_MONTH }}"
+          cp -r reports/html/monthly/${{ env.YEAR_MONTH }}/* "$DEPLOY_DIR/monthly/${{ env.YEAR_MONTH }}/" || true
+          mkdir -p "$DEPLOY_DIR/monthly/latest"
+          cp -r reports/html/monthly/latest/* "$DEPLOY_DIR/monthly/latest/" || true
+          # Copy PDF
+          cp reports/pdf/LG_Global_D2C_Monthly_Intelligence_${{ env.YEAR_MONTH }}.pdf "$DEPLOY_DIR/monthly/" 2>/dev/null || true
+          cd "$DEPLOY_DIR"
+          git add -A
+          if ! git diff --staged --quiet; then
+            git commit -m "Deploy monthly report: ${{ env.YEAR_MONTH }}"
+            git push origin main
+          fi
+          cd -
+          git worktree remove "$DEPLOY_DIR" --force || true
+
+      # ── Step 7: Job Summary ──
+      - name: Job summary
+        if: always()
+        run: |
+          echo "## D2C Monthly Deep Dive Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Month**: ${{ env.YEAR_MONTH }}" >> $GITHUB_STEP_SUMMARY
+          if [ -f "data/monthly_stats/${{ env.YEAR_MONTH }}.json" ]; then
+            python3 -c "
+          import json
+          d = json.load(open('data/monthly_stats/${{ env.YEAR_MONTH }}.json'))
+          print(f\"- **Weeks**: {d['weeks_count']}\")
+          print(f\"- **Records**: {d['total_records']}\")
+          print(f\"- **Countries**: {d['countries_count']}\")
+          print(f\"- **Chinese Brand Signals**: {d['chinese_brand_total']}\")
+          " >> $GITHUB_STEP_SUMMARY || true
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Artifacts" >> $GITHUB_STEP_SUMMARY
+          echo "- Korean HTML: \`reports/html/monthly/${{ env.YEAR_MONTH }}/index.html\`" >> $GITHUB_STEP_SUMMARY
+          echo "- English HTML: \`reports/html/monthly/${{ env.YEAR_MONTH }}/index_en.html\`" >> $GITHUB_STEP_SUMMARY
+          echo "- PDF: \`reports/pdf/LG_Global_D2C_Monthly_Intelligence_${{ env.YEAR_MONTH }}.pdf\`" >> $GITHUB_STEP_SUMMARY

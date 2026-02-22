@@ -117,6 +117,44 @@ function parseMarkdown(md, opts = {}) {
       continue;
     }
 
+    // ── Chart.js marker: <!-- CHART:chart_id --> ──
+    const chartMarkerMatch = line.match(/^<!--\s*CHART:(\w+)\s*-->/);
+    if (chartMarkerMatch) {
+      const chartId = chartMarkerMatch[1];
+      i += 1;
+      // Look for ```json:chart block immediately after marker
+      let chartJson = null;
+      // Skip blank lines between marker and json block
+      while (i < lines.length && !lines[i].trim()) i += 1;
+      if (i < lines.length && /^```json:chart/.test(lines[i])) {
+        i += 1; // skip opening fence
+        const jsonLines = [];
+        while (i < lines.length && !/^```/.test(lines[i])) {
+          jsonLines.push(lines[i]);
+          i += 1;
+        }
+        if (i < lines.length) i += 1; // skip closing fence
+        try {
+          chartJson = JSON.parse(jsonLines.join('\n'));
+        } catch (e) {
+          // malformed JSON — skip chart
+        }
+      }
+      if (chartJson) {
+        const canvasId = `chart-${chartId}`;
+        html.push(`<div class="chart-container"><canvas id="${canvasId}" data-chart='${JSON.stringify(chartJson).replace(/'/g, "&#39;")}'></canvas></div>`);
+      }
+      continue;
+    }
+
+    // ── Code block (```...```) — skip generic code blocks ──
+    if (/^```/.test(line)) {
+      i += 1;
+      while (i < lines.length && !/^```/.test(lines[i])) i += 1;
+      if (i < lines.length) i += 1; // skip closing fence
+      continue;
+    }
+
     if (/^---+\s*$/.test(line)) {
       html.push('<hr class="section-divider" />');
       i += 1;
@@ -389,6 +427,20 @@ function buildHtml({ title, subtitle, period, body, toc, lang }) {
 
     ul, ol { margin: 8px 0 10px 22px; }
 
+    .chart-container {
+      max-width: 800px;
+      margin: 18px auto 24px;
+      padding: 16px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+    }
+    .chart-container canvas {
+      width: 100% !important;
+      height: auto !important;
+    }
+
     .table-wrap {
       overflow: auto;
       border: 1px solid var(--line);
@@ -530,6 +582,52 @@ function buildHtml({ title, subtitle, period, body, toc, lang }) {
       });
     })();
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.7/chart.umd.min.js"></script>
+  <script>
+    // Chart.js rendering for <!-- CHART:xxx --> markers
+    (function() {
+      document.querySelectorAll('canvas[data-chart]').forEach(function(canvas) {
+        try {
+          var chartData = JSON.parse(canvas.getAttribute('data-chart'));
+          if (!chartData || !chartData.type) return;
+          var ctx = canvas.getContext('2d');
+          var datasets = (chartData.datasets || []).map(function(ds) {
+            var base = {
+              label: ds.label || '',
+              data: ds.data || [],
+            };
+            if (chartData.type === 'doughnut' || chartData.type === 'polarArea') {
+              base.backgroundColor = (ds.data || []).map(function(_, i) {
+                var colors = ['#003a66','#0a7ac4','#2196F3','#4CAF50','#FF9800','#e63946','#9c27b0','#607d8b'];
+                return colors[i % colors.length];
+              });
+            } else {
+              base.borderColor = ds.color || '#003a66';
+              base.backgroundColor = (ds.color || '#003a66') + '33';
+              base.tension = 0.3;
+              base.fill = chartData.type === 'line';
+            }
+            return base;
+          });
+          new Chart(ctx, {
+            type: chartData.type,
+            data: { labels: chartData.labels || [], datasets: datasets },
+            options: {
+              responsive: true,
+              maintainAspectRatio: true,
+              plugins: {
+                title: { display: true, text: chartData.title || '', font: { size: 16 } },
+                legend: { position: 'bottom' }
+              },
+              scales: (chartData.type === 'doughnut' || chartData.type === 'polarArea') ? {} : {
+                y: { beginAtZero: true }
+              }
+            }
+          });
+        } catch(e) { /* skip malformed chart */ }
+      });
+    })();
+  </script>
 </body>
 </html>`;
 }
@@ -547,14 +645,21 @@ function main() {
   const md = fs.readFileSync(absInput, 'utf8');
   const { body, toc } = parseMarkdown(md, { lang });
 
-  const title =
-    lang === 'en'
+  const isMonthly = /monthly|월간/i.test(md.slice(0, 500));
+  const title = isMonthly
+    ? (lang === 'en'
+      ? 'LG Electronics Global D2C Monthly Deep Dive Intelligence Report'
+      : 'LG전자 글로벌 D2C 월간 시장 심화 분석 리포트')
+    : (lang === 'en'
       ? 'LG Electronics Global D2C Weekly Market Intelligence Report'
-      : 'LG전자 글로벌 D2C 주간 시장 인텔리전스 리포트';
-  const subtitle =
-    lang === 'en'
+      : 'LG전자 글로벌 D2C 주간 시장 인텔리전스 리포트');
+  const subtitle = isMonthly
+    ? (lang === 'en'
+      ? 'Consumer Sentiment · Retail Promotion · Price Intelligence · Chinese Brand Tracking — Monthly Trend Analysis'
+      : '소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향 — 월간 추세 분석')
+    : (lang === 'en'
       ? 'Consumer Sentiment · Retail Channel Promotion · Price Intelligence · Chinese Brand Tracking'
-      : '소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향';
+      : '소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향');
   const periodMatch = md.match(/(?:Report Period|보고 기간):\s*([^\n]+)/);
   const period = periodMatch ? periodMatch[1].trim() : 'N/A';
 
