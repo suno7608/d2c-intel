@@ -5,24 +5,24 @@
     "end": null
   },
   "version": "Weekly Vol.2026-02-22-R2",
-  "generated_at": "2026-02-22T08:09:27.230Z",
+  "generated_at": "2026-02-22T09:25:28.389Z",
   "metrics": {
-    "covered_countries": 13,
-    "lg_promotion_signals": 263,
-    "competitor_promotion_signals": 8,
+    "covered_countries": 14,
+    "lg_promotion_signals": 271,
+    "competitor_promotion_signals": 9,
     "chinese_threat_signals": 11,
     "consumer_negative_countries": 2,
     "critical_country_count": 3
   },
   "critical_countries": [
-    "🇺🇸 미국 (US)",
-    "🇩🇪 독일 (DE)",
-    "🇧🇷 브라질 (BR)"
+    "🇬🇧 영국 (UK)",
+    "🇧🇷 브라질 (BR)",
+    "🇦🇺 호주 (AU)"
   ],
   "executive_key_insights": [
-    "**데이터 수집량 3배 증가(220→646건)**: 중국 브랜드 위협 추적 강화와 Presidents Day 세일 기간 프로모션 급증으로 전주 대비 인텔리전스 커버리지가 대폭 확대되어 시장 모니터링 정밀도가 향상됨",
-    "**TV 비율 29%로 개선된 제품 균형**: 냉장고(25%)·세탁기(25%)·모니터(13%)·gram(9%) 데이터가 고르게 수집되어 HS 사업부 인사이트 확보가 전주(TV 43%) 대비 크게 개선됨",
-    "**중국 브랜드 공세 심화**: Midea/Haier 가전 브랜드가 브라질·독일·이탈리아에서 공격적 가격 할인과 유통 확대를 병행, LG 생활가전 점유율 방어 필요성 대두"
+    "**Presidents Day 세일 효과로 LG 프로모션 노출 3.6배 급증**: 전주 76건 대비 271건으로 미국 중심 대규모 할인 행사가 TV/가전/IT 전 제품군에서 동시 전개되며, 특히 OLED TV C5/G5 시리즈와 gram Pro 노트북이 핵심 딜 아이템으로 부각됨",
+    "**중국 브랜드 위협 4.3배 폭증 (61건→264건)**: TCL이 글로벌 TV 출하량에서 삼성을 처음으로 추월했다는 보도가 확산되며, Haier/Midea는 냉장고·세탁기 시장에서 공격적 가격 정책과 유통 확장을 병행 중",
+    "**제품 포트폴리오 균형 개선**: TV 비중 29.2%로 전주(43.2%) 대비 14%p 감소하며, 냉장고(24.3%)/세탁기(24.5%)/모니터(12.9%)/gram(9.1%)의 균형 잡힌 인텔리전스 수집 달성"
   ],
   "links": {
     "html": "./2026-02-22/index.html",
