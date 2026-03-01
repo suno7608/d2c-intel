@@ -1,8 +1,42 @@
 {
-  "generated_at": "2026-02-22T09:25:28.432Z",
-  "total_weeks": 3,
-  "latest_week": "2026-02-22",
+  "generated_at": "2026-03-01T07:46:18.597Z",
+  "total_weeks": 4,
+  "latest_week": "2026-03-01",
   "weeks": [
+    {
+      "week": "2026-03-01",
+      "report_period": {
+        "start": "2026-02-22",
+        "end": "2026-02-28"
+      },
+      "version": "Weekly Vol.2026-03-01-R2",
+      "generated_at": "2026-03-01T07:46:18.551Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 302,
+        "competitor_promotion_signals": 7,
+        "chinese_threat_signals": 12,
+        "consumer_negative_countries": 0,
+        "critical_country_count": 4
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)",
+        "🇮🇹 이탈리아 (IT)",
+        "🇧🇷 브라질 (BR)"
+      ],
+      "executive_key_insights": [
+        "**중국 브랜드 가전 영역 침투 가속화**: Midea/Haier의 냉장고·세탁기 프로모션이 16개국 전역에서 급증하며, TV 중심이던 중국 브랜드 위협이 생활가전 전 카테고리로 확산 중. 특히 브라질에서 Midea 세탁기가 LG 대비 20% 저가 포지셔닝으로 공격적 마케팅 전개",
+        "**LG 프로모션 활동 전주 대비 20% 증가**: 302건(vs 전주 251건)으로 Best Buy/Amazon/MediaMarkt 등 주요 리테일러에서 OLED TV C4/C5 및 UltraGear 모니터 중심 할인 캠페인 활발. 그러나 냉장고/세탁기 프로모션은 상대적 열세",
+        "**소비자 부정 반응 급증**: 13건(vs 전주 2건, +550%)으로 브라질 Midea 세탁기 품질 불만 집중 발생. LG 제품 관련 A/S 지연 이슈도 브라질에서 포착됨"
+      ],
+      "links": {
+        "html": "./2026-03-01/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.md",
+        "share": "./2026-03-01/share.html"
+      }
+    },
     {
       "week": "2026-02-22",
       "report_period": {
