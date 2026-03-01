@@ -1,0 +1,24 @@
+{
+  "week": "2026-03-01",
+  "report_period": {
+    "start": "2026-02-22",
+    "end": "2026-02-28"
+  },
+  "version": "Weekly Vol.2026-03-01-R2",
+  "generated_at": "2026-03-01T03:55:33.768578Z",
+  "metrics": {
+    "covered_countries": 23,
+    "lg_promotion_signals": 0,
+    "competitor_promotion_signals": 0,
+    "chinese_threat_signals": 0,
+    "consumer_negative_countries": 0,
+    "critical_country_count": 0
+  },
+  "critical_countries": [],
+  "executive_key_insights": [],
+  "links": {
+    "html": "./2026-03-01/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.md"
+  }
+}
