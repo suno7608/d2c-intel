@@ -146,7 +146,6 @@ function weekCardHtml(w, idx) {
       <div class="links">
         <a class="btn primary" href="${escapeHtml(htmlLink)}">Report</a>
         <a class="btn" href="${escapeHtml(pdfLink)}">PDF</a>
-        <button class="btn copy" type="button" data-copy-url="${escapeHtml(htmlLink)}" aria-label="Copy report link">Copy</button>
       </div>
     </article>
   `;
@@ -180,7 +179,6 @@ function latestHeroHtml(latest) {
       <div class="hero-actions">
         <a class="btn primary" href="${escapeHtml(htmlLink)}">Report</a>
         <a class="btn" href="${escapeHtml(pdfLink)}">PDF</a>
-        <button class="btn copy" type="button" data-copy-url="${escapeHtml(htmlLink)}" aria-label="Copy latest report link">Copy Link</button>
       </div>
     </article>
   `;
@@ -824,7 +822,6 @@ function main() {
             '<div class="links">' +
               '<a class="btn primary" href="' + htmlLink + '">Report</a>' +
               '<a class="btn" href="' + pdfLink + '">PDF</a>' +
-              '<button class="btn copy" type="button" data-copy-url="' + htmlLink + '" aria-label="Copy report link">Copy</button>' +
             '</div>' +
           '</article>';
       }
