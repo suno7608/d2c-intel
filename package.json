@@ -1,0 +1,27 @@
+{
+  "name": "d2c-intel-source",
+  "version": "1.0.0",
+  "description": "> **Automated weekly intelligence report generator** \u2014 collects global D2C signals, normalizes data, and produces executive-ready reports (Markdown / HTML / PDF).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suno7608/d2c-intel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/suno7608/d2c-intel/issues"
+  },
+  "homepage": "https://github.com/suno7608/d2c-intel#readme",
+  "dependencies": {
+    "marked": "^17.0.3"
+  }
+}
