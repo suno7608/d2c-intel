@@ -18,9 +18,14 @@ if [[ ! -f "$SOURCE_MD" ]]; then
   exit 1
 fi
 
-if command -v pandoc >/dev/null 2>&1; then
+# Use professional renderer (marked library)
+if [[ -f "$ROOT_DIR/scripts/render_professional_report.mjs" ]]; then
+  node "$ROOT_DIR/scripts/render_professional_report.mjs" "$SOURCE_MD" "$TARGET_HTML" "ko"
+elif command -v pandoc >/dev/null 2>&1; then
   pandoc "$SOURCE_MD" -o "$TARGET_HTML" --standalone --metadata title="LG Global D2C Weekly Intelligence"
 else
+  echo "WARNING: No renderer available (no render_professional_report.mjs, no pandoc)" >&2
+  echo "Generating basic HTML fallback" >&2
   {
     echo "<!doctype html>"
     echo "<html lang=\"ko\"><head><meta charset=\"utf-8\">"
