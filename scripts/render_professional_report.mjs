@@ -93,7 +93,7 @@ function renderMarkdown(md, lang) {
   return { body, toc };
 }
 
-function buildHtml({title,subtitle,period,body,toc,lang}) {
+function buildHtml({title,subtitle,period,body,toc,lang,isMonthly}) {
   const hl = lang==='en'?'en':'ko';
   const tt = lang==='en'?'Quick Navigation':'바로가기 메뉴';
   const pl = lang==='en'?'Report Period':'보고 기간';
@@ -146,9 +146,28 @@ code{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1px 5
 .foot{border-top:1px solid var(--line);color:var(--muted);padding:14px 34px 24px;font-size:13px}
 @media(max-width:1100px){.layout{grid-template-columns:1fr;padding:14px}.toc-panel{position:relative;top:0;max-height:none}.toc-title{margin-bottom:8px}.toc-panel li.l3 a,.toc-panel li.l4 a{margin-left:0}.cover h1{font-size:28px}.content{padding:20px 16px 28px}.foot{padding:14px 16px 22px}.section-title{font-size:20px}.sub-title{font-size:17px}}
 @media print{body{background:#fff}.layout{display:block;max-width:none;padding:0}.toc-panel{display:none}.paper{border:none;box-shadow:none}.cover{border-radius:0}.content{padding:18mm 12mm 16mm}.foot{padding:8mm 12mm 0}.section-title{break-after:avoid}.section-title,.sub-title{background:#fff!important;color:#003a66!important;border:1px solid #cfd8e3!important;box-shadow:none!important}.table-wrap{break-inside:avoid}a{color:#003a66}}
+
+.monthly{--brand:#9c1a1a}
+.monthly .toc-title{background:linear-gradient(95deg,#4a0e0e 0%,#9c1a1a 58%,#c43a0a 100%)}
+.monthly .toc-panel a{color:#881a0b;background:#fff8f6}
+.monthly .toc-panel a:hover{background:#ffedea;border-color:#f6d5d0}
+.monthly .toc-panel a:focus-visible{outline-color:rgba(196,58,10,.35)}
+.monthly .toc-panel li.l3 a{background:#fffcfb;color:#5f2818}
+.monthly .toc-panel li.l4 a{color:#71382a}
+.monthly .toc-panel a.is-active{background:#ffe5e3;border-color:#f3c9c9;color:#881a0b}
+.monthly .cover{background:linear-gradient(140deg,#4a0e0e,#9c1a1a 55%,#c43a0a)}
+.monthly .section-title{background:linear-gradient(95deg,#4a0e0e 0%,#9c1a1a 58%,#c43a0a 100%);box-shadow:0 8px 18px rgba(74,14,14,.15)}
+.monthly .sub-title{color:#3b1010;border-color:#f1cfcf;background:linear-gradient(120deg,#fff8f8 0%,#fdeeed 100%)}
+.monthly .sub-title.key-insight-banner{border-color:#f1d1cf;background:linear-gradient(120deg,#fff0ef 0%,#ffe5e3 100%);color:#881a0b}
+.monthly .sub-title.action-required-banner{border-color:#f1dfc4;background:linear-gradient(120deg,#fff8ea 0%,#ffefcf 100%);color:#8a4b00}
+.monthly blockquote{border-left-color:#9c1a1a;background:#fceeed;color:#3b1515}
+.monthly a{color:#9c1a1a}
+.monthly thead th{background:#fdf1f1;color:#3b1515}
+.monthly .foot{border-top-color:#f1cfcf}
+@media print{.monthly .section-title,.monthly .sub-title{color:#4a0e0e!important}.monthly a{color:#4a0e0e}}
 </style>
 </head>
-<body>
+<body${isMonthly?' class="monthly"':''}>
 <div class="layout">
 <aside class="toc-panel"><div class="toc-title">${tt}</div><ul>${th}</ul></aside>
 <main class="paper">
@@ -180,7 +199,7 @@ function main() {
   const subtitle = isM?(lang==='en'?'Consumer Sentiment · Retail Promotion · Price Intelligence · Chinese Brand Tracking — Monthly Trend Analysis':'소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향 — 월간 추세 분석'):(lang==='en'?'Consumer Sentiment · Retail Channel Promotion · Price Intelligence · Chinese Brand Tracking':'소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향');
   const pm = md.match(/(?:Report Period|보고 기간):\s*([^\n]+)/);
   const period = pm?pm[1].trim():'N/A';
-  const html = buildHtml({title,subtitle,period,body,toc,lang});
+  const html = buildHtml({title,subtitle,period,body,toc,lang,isMonthly:isM});
   fs.mkdirSync(path.dirname(absOut),{recursive:true});
   fs.writeFileSync(absOut,html,'utf8');
   console.log(`[render] ✅ ${absOut} (${(html.length/1024).toFixed(1)}KB)`);
