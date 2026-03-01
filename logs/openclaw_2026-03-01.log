@@ -1,0 +1,7 @@
+[openclaw] date=2026-03-01
+[openclaw] prompt=/Users/soonho/d2c-intel-source/prompts/openclaw_collection_brief.md
+[openclaw] PRIMARY: OPENCLAW_RUNNER is not set
+[openclaw] FALLBACK1: searching latest successful raw (<=21d)
+[openclaw] FALLBACK1: reused raw from 2026-02-18
+[openclaw] adaptive policy saved: reason=success level=0
+[openclaw] output=/Users/soonho/d2c-intel-source/data/raw/openclaw_2026-03-01.jsonl (220 records)

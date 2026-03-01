@@ -1,0 +1,5 @@
+{"ts":"2026-03-01T05:02:24+0900","stage":"adaptive_policy","status":"skipped","reason":"none","extra":{"level":0}}
+{"ts":"2026-03-01T05:02:24+0900","stage":"primary","status":"failed","reason":"runner_not_configured","extra":{}}
+{"ts":"2026-03-01T05:02:24+0900","stage":"fallback1","status":"success","reason":"reuse_latest_success","extra":{"source_date":"2026-02-18"}}
+{"ts":"2026-03-01T05:02:24+0900","stage":"adaptive_policy","status":"saved","reason":"success","extra":{"level":0}}
+{"ts":"2026-03-01T05:02:24+0900","stage":"final","status":"success","reason":"collection_ready","extra":{"output":"/Users/soonho/d2c-intel-source/data/raw/openclaw_2026-03-01.jsonl"}}

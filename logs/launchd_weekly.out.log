@@ -1,0 +1,75 @@
+[pipeline] start date_key=2026-03-02
+[pipeline] period=2026-02-22 to 2026-02-28
+[preflight] start date=2026-03-02
+[preflight] ✅ command available: bash
+[preflight] ✅ command available: python3
+[preflight] ✅ command available: jq
+[preflight] ✅ command available: node
+[preflight] ✅ command available: openclaw
+[preflight] ✅ command available: playwright
+[preflight] ✅ OPENCLAW_RUNNER configured: /Users/soonho/d2c-intel-source/agents/openclaw_runner_cli.sh
+[preflight] ✅ CLAUDE_RUNNER configured: /Users/soonho/d2c-intel-source/agents/claude_runner_cli.sh
+[preflight] ✅ OpenClaw gateway launch agent is running
+[preflight] ✅ Obsidian weekly root writable: /Users/soonho/Documents/Obsidian MacMini/Global D2C Weekly Intelligence
+[preflight] ✅ OpenClaw smoke check skipped (ENABLE_PREFLIGHT_OPENCLAW_SMOKE=0)
+[preflight] ⚠️ no recent OpenClaw diagnostic logs yet (openclaw_*.diag.jsonl)
+[preflight] ✅ adaptive policy state: reason=success, level=0, updated=2026-03-01
+[preflight] passed (1 warn) log=/Users/soonho/d2c-intel-source/logs/preflight_2026-03-02.log
+TOKEN: valid
+[openclaw] date=2026-03-02
+[openclaw] prompt=/Users/soonho/d2c-intel-source/prompts/openclaw_collection_brief.md
+[openclaw] PRIMARY: running external runner
+[openclaw] PRIMARY: runner failed (rc=1)
+[openclaw] PRIMARY: output exists but quality below threshold (records/countries)
+[openclaw] FALLBACK1: searching latest successful raw (<=21d)
+[openclaw] FALLBACK1: reused raw from 2026-03-01
+[openclaw] adaptive policy saved: reason=success level=0
+[openclaw] output=/Users/soonho/d2c-intel-source/data/raw/openclaw_2026-03-02.jsonl (200 records)
+Stats saved: 200 records, 23 countries, TV 41.5%
+Low confidence: 0.0%
+saved: /Users/soonho/d2c-intel-source/data/weekly_stats/2026-03-02.json
+report generated: /Users/soonho/d2c-intel-source/reports/md/LG_Global_D2C_Weekly_Intelligence_2026-03-02.md
+report generated: /Users/soonho/d2c-intel-source/reports/md/LG_Global_D2C_Weekly_Intelligence_2026-03-02.md
+claude co-work completed: /Users/soonho/d2c-intel-source/reports/md/LG_Global_D2C_Weekly_Intelligence_2026-03-02_claude.md
+[render] ✅ /Users/soonho/d2c-intel-source/reports/html/2026-03-02/index.html (37.2KB)
+html generated: /Users/soonho/d2c-intel-source/reports/html/2026-03-02/index.html
+[pipeline] done
+[render] ✅ /Users/soonho/d2c-intel-source/reports/html/2026-03-02/LG_Global_D2C_Weekly_Intelligence_2026-03-02_R2_16country.html (37.2KB)
+English markdown written: /Users/soonho/d2c-intel-source/reports/md/LG_Global_D2C_Weekly_Intelligence_2026-03-02_en.md
+[render] ✅ /Users/soonho/d2c-intel-source/reports/html/2026-03-02/index_en.html (45.5KB)
+Metadata written: /Users/soonho/d2c-intel-source/reports/html/2026-03-02/metadata.json
+Manifest written: /Users/soonho/d2c-intel-source/reports/html/manifest.json
+Hub written: /Users/soonho/d2c-intel-source/reports/html/latest/hub.html
+Hub EN written: /Users/soonho/d2c-intel-source/reports/html/latest/hub_en.html
+Navigating to file:///Users/soonho/d2c-intel-source/reports/html/2026-03-02/LG_Global_D2C_Weekly_Intelligence_2026-03-02_R2_16country.html
+Saving as pdf into /Users/soonho/d2c-intel-source/reports/pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-02_R2_16country.pdf
+HTML: /Users/soonho/d2c-intel-source/reports/html/2026-03-02/index.html
+Share: /Users/soonho/d2c-intel-source/reports/html/2026-03-02/share.html
+PDF: /Users/soonho/d2c-intel-source/reports/pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-02_R2_16country.pdf
+Hub: /Users/soonho/d2c-intel-source/reports/html/latest/hub.html
+Main: /Users/soonho/d2c-intel-source/reports/html/index.html
+[quality] start date=2026-03-02
+[quality] ✅ exists: /Users/soonho/d2c-intel-source/data/raw/openclaw_2026-03-02.jsonl
+[quality] ✅ exists: /Users/soonho/d2c-intel-source/reports/md/LG_Global_D2C_Weekly_Intelligence_2026-03-02_claude.md
+[quality] ✅ exists: /Users/soonho/d2c-intel-source/reports/html/2026-03-02/index.html
+[quality] ✅ exists: /Users/soonho/d2c-intel-source/reports/html/2026-03-02/index_en.html
+[quality] ✅ exists: /Users/soonho/d2c-intel-source/reports/html/latest/hub.html
+[quality] ✅ exists: /Users/soonho/d2c-intel-source/reports/html/latest/hub_en.html
+[quality] ✅ exists: /Users/soonho/d2c-intel-source/reports/html/2026-03-02/metadata.json
+[quality] ⚠️ stale collection fallback detected: 2026-03-01 (1d old)
+[quality] ✅ record count 200 >= 200
+[quality] ✅ country count 23 >= 16
+[quality] ✅ refrigerator count 46 >= 40
+[quality] ✅ washing machine count 36 >= 35
+[quality] ✅ monitor count 25 >= 15
+[quality] ✅ gram count 10 >= 10
+[quality] ✅ tv ratio 41.5% <= 45%
+[quality] ✅ no placeholder records in raw collection file
+[quality] ✅ no template placeholders in Korean markdown
+[quality] ✅ exists: /Users/soonho/d2c-intel-source/reports/md/LG_Global_D2C_Weekly_Intelligence_2026-03-02_en.md
+[quality] ✅ no Hangul in English markdown
+[quality] ✅ no literal token 'translated' in English markdown
+[quality] ✅ no Hangul in English HTML
+[quality] ✅ no literal token 'translated' in English HTML
+[quality] ✅ no file:// href in hub links
+[quality] ✅ metadata critical_countries format looks valid

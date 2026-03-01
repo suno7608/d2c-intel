@@ -1,0 +1,1 @@
+LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.md
