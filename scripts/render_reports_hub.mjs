@@ -239,6 +239,10 @@ function buildEnglishHubHtml(koHtml, weeks, outputHtml) {
     ['주간 아카이브 탐색기', 'WEEKLY ARCHIVE EXPLORER'],
     ['전주 대비 비교', 'WEEK-OVER-WEEK COMPARE'],
     ['Consumer Negative 국가 수', 'Consumer Negative Countries'],
+    ['📬 D2C Weekly Intelligence를 이메일로 받아보세요', '📬 Subscribe to D2C Weekly Intelligence via email'],
+    ['매주 월요일, 최신 글로벌 D2C 시장 인사이트를 전달합니다', 'Get the latest global D2C market insights delivered every Monday'],
+    ['✉️ 구독 신청', '✉️ Subscribe'],
+    ['💡 Key Insight', '💡 Key Insight'],
   ];
 
   let out = koHtml;
@@ -371,23 +375,67 @@ function main() {
       color:#0b4f88;
       border-color:#ffffff;
     }
-    .sticky-tools{
+    .newsletter-bar{
       position:sticky;
       top:8px;
       z-index:20;
       margin-bottom:14px;
-      padding:10px 12px;
-      border:1px solid #c9d9ea;
-      background:#eef5fd;
-      border-radius:12px;
-      display:grid;
-      grid-template-columns:1fr auto auto;
-      gap:8px;
+      padding:14px 20px;
+      background:linear-gradient(135deg,#003a66 0%,#005a9c 50%,#0a7ac4 100%);
+      border-radius:14px;
+      display:flex;
       align-items:center;
-      box-shadow:0 4px 12px rgba(15,23,42,.08);
+      justify-content:space-between;
+      gap:12px;
+      box-shadow:0 6px 20px rgba(0,58,102,.25);
+      color:#fff;
+      flex-wrap:wrap;
     }
-    .sticky-tools input,
-    .sticky-tools select{width:100%;border:1px solid #bcd0e3;border-radius:9px;padding:8px 10px;font:inherit;background:#fff}
+    .newsletter-bar .nl-text{font-size:15px;font-weight:700;letter-spacing:.2px}
+    .newsletter-bar .nl-sub{font-size:12px;opacity:.85;margin-top:2px}
+    .newsletter-bar .nl-btn{
+      display:inline-flex;align-items:center;gap:6px;
+      padding:9px 18px;border-radius:999px;
+      background:#fff;color:#005a9c;
+      font-weight:800;font-size:14px;
+      text-decoration:none;border:none;cursor:pointer;
+      box-shadow:0 2px 8px rgba(0,0,0,.12);
+      transition:transform .15s;
+    }
+    .newsletter-bar .nl-btn:hover{transform:scale(1.04)}
+
+    .archive-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-left:auto}
+    .archive-controls select{border:1px solid #bcd0e3;border-radius:9px;padding:6px 10px;font:inherit;background:#fff}
+
+    .archive-header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:15px 16px 8px}
+    .archive-header h2{margin:0;font-size:20px;letter-spacing:.1px;flex:1}
+
+    .archive-trend{padding:0 16px 12px}
+    .archive-trend svg.chart{width:100%;height:220px;border:1px solid #e5edf5;border-radius:8px;background:#fff}
+    .archive-trend .legend{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:12px;margin:0 0 8px;color:#334155}
+    .archive-trend .legend-item{display:flex;align-items:center;gap:6px}
+
+    .timeline-list{position:relative;padding-left:28px}
+    .timeline-list::before{content:'';position:absolute;left:11px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,#0a7ac4,#dbe6f2);border-radius:2px}
+    .timeline-card{position:relative;margin-bottom:12px}
+    .timeline-card::before{content:'';position:absolute;left:-21px;top:16px;width:10px;height:10px;border-radius:50%;background:#0a7ac4;border:2px solid #fff;box-shadow:0 0 0 2px #0a7ac4;z-index:1}
+    .timeline-card.latest::before{background:#b91c1c;box-shadow:0 0 0 2px #b91c1c}
+    .timeline-card .week-card{border-left:3px solid #0a7ac4}
+    .timeline-card.latest .week-card{border-left:3px solid #b91c1c}
+
+    .metric-badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+    .metric-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700}
+    .metric-badge.critical{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
+    .metric-badge.lg{background:#eff6ff;color:#0a7ac4;border:1px solid #bfdbfe}
+    .metric-badge.comp{background:#fff7ed;color:#b45309;border:1px solid #fed7aa}
+    .metric-badge.china{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0}
+    .metric-badge .delta-sm{font-size:11px;opacity:.8}
+
+    .insight-bubble{margin-top:8px;position:relative;background:#f0f7ff;border:1px solid #bfdbfe;border-radius:12px;padding:10px 12px}
+    .insight-bubble::before{content:'';position:absolute;left:16px;top:-6px;width:12px;height:12px;background:#f0f7ff;border-left:1px solid #bfdbfe;border-top:1px solid #bfdbfe;transform:rotate(45deg)}
+    .insight-bubble .mini-title{font-size:12px;font-weight:800;color:#1f4f79;margin-bottom:4px}
+    .insight-bubble ul{margin:0;padding-left:18px;color:#334155;font-size:13px}
+    .insight-bubble li{margin:2px 0}
 
     .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--rad);box-shadow:var(--shadow)}
     .panel h2{margin:0;padding:15px 16px 8px;font-size:20px;letter-spacing:.1px}
@@ -498,7 +546,6 @@ function main() {
       .trend-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
       .kpi-row{grid-template-columns:repeat(2,minmax(0,1fr))}
       .chart-grid{grid-template-columns:1fr}
-      .sticky-tools{grid-template-columns:1fr}
     }
     @media (max-width:768px){
       .wrap{padding:14px}
@@ -524,16 +571,12 @@ function main() {
       </nav>
     </header>
 
-    <div class="sticky-tools" aria-label="Archive controls">
-      <input id="archiveSearch" type="search" placeholder="Search by date (YYYY-MM-DD) or keyword..." />
-      <select id="archiveSort" aria-label="Sort archive">
-        <option value="desc" selected>Newest</option>
-        <option value="asc">Oldest</option>
-      </select>
-      <select id="archiveGroup" aria-label="Group archive">
-        <option value="month" selected>Group: Month</option>
-        <option value="flat">Group: Flat</option>
-      </select>
+    <div class="newsletter-bar" aria-label="Newsletter subscription">
+      <div>
+        <div class="nl-text">📬 D2C Weekly Intelligence를 이메일로 받아보세요</div>
+        <div class="nl-sub">매주 월요일, 최신 글로벌 D2C 시장 인사이트를 전달합니다</div>
+      </div>
+      <a class="nl-btn" href="https://forms.gle/LG_D2C_Newsletter" target="_blank" rel="noopener">✉️ 구독 신청</a>
     </div>
 
     <section class="hero-grid">
@@ -546,7 +589,23 @@ function main() {
 
     <div class="banner">주간 아카이브 탐색기</div>
     <section class="panel">
-      <h2>Weekly Archive</h2>
+      <div class="archive-header">
+        <h2>Weekly Archive</h2>
+        <div class="archive-controls">
+          <select id="archiveSort" aria-label="Sort archive">
+            <option value="desc" selected>Newest</option>
+            <option value="asc">Oldest</option>
+          </select>
+          <select id="archiveGroup" aria-label="Group archive">
+            <option value="month" selected>Group: Month</option>
+            <option value="flat">Group: Flat</option>
+          </select>
+        </div>
+      </div>
+      <div class="archive-trend">
+        <div class="legend" id="archiveTrendLegend"></div>
+        <svg class="chart" id="archiveTrendSvg" viewBox="0 0 700 220" preserveAspectRatio="none"></svg>
+      </div>
       <div class="body">
         <div class="archive-summary" id="archiveStats">
           <span>누적 주차: <strong>${escapeHtml(manifest.total_weeks ?? weeks.length)}</strong></span>
@@ -554,7 +613,7 @@ function main() {
           <span>평균 간격: -</span>
         </div>
         <div class="archive-grid">
-          <div class="week-list" id="weekList">${weekCards || '<div class="week-card">No data</div>'}</div>
+          <div class="week-list timeline-list" id="weekList">${weekCards || '<div class="week-card">No data</div>'}</div>
         </div>
       </div>
     </section>
@@ -604,7 +663,6 @@ function main() {
       var manifest = JSON.parse(document.getElementById('manifest-data').textContent || '{"weeks":[]}');
       var weeks = (manifest.weeks || []).slice();
       var weekList = document.getElementById('weekList');
-      var archiveSearch = document.getElementById('archiveSearch');
       var archiveSort = document.getElementById('archiveSort');
       var archiveGroup = document.getElementById('archiveGroup');
       var isEnglishPage = (document.documentElement.lang || '').toLowerCase() === 'en';
@@ -796,34 +854,43 @@ function main() {
         });
       }
 
-      function buildCardHtml(w, idx){
+      function buildCardHtml(w, idx, prevWeek){
         var links = w.links || {};
         var htmlLink = resolveLinkFromHub(links.html, '../' + w.week + '/index.html');
         var pdfLink = resolveLinkFromHub(links.pdf, '#');
-        var mdLink = resolveLinkFromHub(links.md, '#');
         var m = w.metrics || {};
+        var pm = prevWeek && prevWeek.metrics ? prevWeek.metrics : {};
         var badge = idx === 0 ? 'Latest' : ('W-' + idx);
         var insights = Array.isArray(w.executive_key_insights) ? w.executive_key_insights.slice(0, 2) : [];
         var insightItems = insights.length
           ? insights.map(function(t){ return '<li>' + localizeInsightText(t) + '</li>'; }).join('')
           : '<li>' + (isEnglishPage ? 'Open report for full insight details in English.' : 'Open report to view insights') + '</li>';
 
+        function badgeDelta(cur, prev){
+          if (typeof cur !== 'number' || typeof prev !== 'number') return '';
+          var d = cur - prev;
+          if (d === 0) return '';
+          return ' <span class="delta-sm">' + (d > 0 ? '+' + d : '' + d) + '</span>';
+        }
+
         return '' +
+          '<div class="timeline-card' + (idx === 0 ? ' latest' : '') + '">' +
           '<article class="week-card" data-week="' + w.week + '" data-month="' + (w.week || '').slice(0,7) + '">' +
             '<div class="head"><div class="week">' + w.week + '</div><span class="badge">' + badge + '</span></div>' +
-            '<div class="period">기간: ' + (w.report_period && w.report_period.start ? w.report_period.start : '-') + ' ~ ' + (w.report_period && w.report_period.end ? w.report_period.end : '-') + '</div>' +
-            '<div class="metrics">' +
-              '<div>Coverage <strong>' + (m.covered_countries ?? '-') + '</strong></div>' +
-              '<div>Critical <strong>' + (m.critical_country_count ?? '-') + '</strong></div>' +
-              '<div>Comp Promo <strong>' + (m.competitor_promotion_signals ?? '-') + '</strong></div>' +
-              '<div>China Threat <strong>' + (m.chinese_threat_signals ?? '-') + '</strong></div>' +
+            '<div class="period">' + (isEnglishPage ? 'Period: ' : '기간: ') + (w.report_period && w.report_period.start ? w.report_period.start : '-') + ' ~ ' + (w.report_period && w.report_period.end ? w.report_period.end : '-') + '</div>' +
+            '<div class="metric-badges">' +
+              '<span class="metric-badge critical">Critical ' + (m.critical_country_count ?? '-') + badgeDelta(m.critical_country_count, pm.critical_country_count) + '</span>' +
+              '<span class="metric-badge lg">LG ' + (m.lg_promotion_signals ?? '-') + badgeDelta(m.lg_promotion_signals, pm.lg_promotion_signals) + '</span>' +
+              '<span class="metric-badge comp">Comp ' + (m.competitor_promotion_signals ?? '-') + badgeDelta(m.competitor_promotion_signals, pm.competitor_promotion_signals) + '</span>' +
+              '<span class="metric-badge china">China ' + (m.chinese_threat_signals ?? '-') + badgeDelta(m.chinese_threat_signals, pm.chinese_threat_signals) + '</span>' +
             '</div>' +
-            '<div class="insight-mini"><div class="mini-title">Key Insight</div><ul>' + insightItems + '</ul></div>' +
+            '<div class="insight-bubble"><div class="mini-title">💡 Key Insight</div><ul>' + insightItems + '</ul></div>' +
             '<div class="links">' +
               '<a class="btn primary" href="' + htmlLink + '">Report</a>' +
               '<a class="btn" href="' + pdfLink + '">PDF</a>' +
             '</div>' +
-          '</article>';
+          '</article>' +
+          '</div>';
       }
 
       function computeCadence(list){
@@ -873,18 +940,10 @@ function main() {
       function renderArchive(){
         if (!weekList) return;
 
-        var query = (archiveSearch && archiveSearch.value ? archiveSearch.value : '').trim().toLowerCase();
         var sort = archiveSort ? archiveSort.value : 'desc';
         var groupMode = archiveGroup ? archiveGroup.value : 'month';
 
-        var filtered = weeks.filter(function(w){
-          if (!query) return true;
-          var text = [w.week, w.report_period && w.report_period.start, w.report_period && w.report_period.end]
-            .concat(Array.isArray(w.executive_key_insights) ? w.executive_key_insights : [])
-            .join(' ')
-            .toLowerCase();
-          return text.indexOf(query) >= 0;
-        });
+        var filtered = weeks.slice();
 
         filtered.sort(function(a,b){
           var da = parseWeekDate(a.week);
@@ -904,8 +963,20 @@ function main() {
           return;
         }
 
+        function findPrev(w){
+          var sorted = weeks.slice().sort(function(a,b){
+            var da = parseWeekDate(a.week), db = parseWeekDate(b.week);
+            if (!da && !db) return 0; if (!da) return 1; if (!db) return -1;
+            return db.getTime() - da.getTime();
+          });
+          for (var i = 0; i < sorted.length; i++){
+            if (sorted[i].week === w.week && i + 1 < sorted.length) return sorted[i+1];
+          }
+          return null;
+        }
+
         if (groupMode === 'flat') {
-          weekList.innerHTML = filtered.map(function(w, idx){ return buildCardHtml(w, idx); }).join('');
+          weekList.innerHTML = filtered.map(function(w, idx){ return buildCardHtml(w, idx, findPrev(w)); }).join('');
           hydrateEnglishInsightPreviews();
           return;
         }
@@ -914,14 +985,89 @@ function main() {
         var months = Object.keys(grouped).sort(function(a,b){ return sort === 'asc' ? a.localeCompare(b) : b.localeCompare(a); });
         weekList.innerHTML = months.map(function(month){
           var items = grouped[month];
-          var cards = items.map(function(w, idx){ return buildCardHtml(w, idx); }).join('');
+          var cards = items.map(function(w, idx){ return buildCardHtml(w, idx, findPrev(w)); }).join('');
           return '' +
             '<details class="month-group" open>' +
               '<summary>' + month + '<span class="month-meta">(' + items.length + ' reports)</span></summary>' +
-              '<div class="week-list" style="margin-top:8px">' + cards + '</div>' +
+              '<div class="week-list timeline-list" style="margin-top:8px">' + cards + '</div>' +
             '</details>';
         }).join('');
         hydrateEnglishInsightPreviews();
+
+        drawArchiveTrend();
+      }
+
+      function drawArchiveTrend(){
+        var svg = document.getElementById('archiveTrendSvg');
+        if (!svg) return;
+        var ordered = weeks.slice().sort(function(a,b){
+          var da = parseWeekDate(a.week), db = parseWeekDate(b.week);
+          if (!da && !db) return 0; if (!da) return 1; if (!db) return -1;
+          return da.getTime() - db.getTime();
+        });
+        if (!ordered.length) { svg.innerHTML = ''; return; }
+
+        var W = 700, H = 220, pl = 44, pr = 12, pt = 16, pb = 28;
+        var plotW = W - pl - pr, plotH = H - pt - pb;
+        svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+
+        var yMax = 1;
+        chartSeries.forEach(function(s){
+          ordered.forEach(function(w){
+            var v = metricValue(w, s.key);
+            if (v !== null) yMax = Math.max(yMax, v);
+          });
+        });
+        yMax = Math.ceil(yMax * 1.1) || 1;
+
+        function xAt(i){ return ordered.length <= 1 ? pl + plotW / 2 : pl + (plotW * i / (ordered.length - 1)); }
+        function yAt(v){ return pt + (plotH * (1 - (v / yMax))); }
+
+        var out = [];
+        out.push('<rect x="' + pl + '" y="' + pt + '" width="' + plotW + '" height="' + plotH + '" fill="#fafcff" rx="4"/>');
+        for (var t = 0; t <= 4; t++){
+          var vT = yMax * t / 4, yT = yAt(vT);
+          out.push('<line x1="' + pl + '" y1="' + yT + '" x2="' + (W - pr) + '" y2="' + yT + '" stroke="#eef3f8" stroke-width="1"/>');
+          out.push('<text x="' + (pl - 6) + '" y="' + (yT + 4) + '" text-anchor="end" font-size="10" fill="#64748b">' + Math.round(vT) + '</text>');
+        }
+
+        chartSeries.forEach(function(s){
+          var pts = [];
+          ordered.forEach(function(w, i){
+            var v = metricValue(w, s.key);
+            if (v === null) return;
+            pts.push({ x: xAt(i), y: yAt(v), v: v, week: w.week });
+          });
+          if (pts.length >= 2){
+            var area = 'M' + pts[0].x + ',' + pts[0].y;
+            for (var k = 1; k < pts.length; k++) area += ' L' + pts[k].x + ',' + pts[k].y;
+            area += ' L' + pts[pts.length-1].x + ',' + (H - pb) + ' L' + pts[0].x + ',' + (H - pb) + ' Z';
+            out.push('<path d="' + area + '" fill="' + s.color + '" fill-opacity="0.06"/>');
+            out.push('<polyline fill="none" stroke="' + s.color + '" stroke-width="2.2" stroke-linejoin="round" points="' + pts.map(function(p){ return p.x + ',' + p.y; }).join(' ') + '"/>');
+          }
+          pts.forEach(function(p){
+            out.push('<circle cx="' + p.x + '" cy="' + p.y + '" r="3.5" fill="#fff" stroke="' + s.color + '" stroke-width="2"><title>' + p.week + ': ' + s.label + ' = ' + p.v + '</title></circle>');
+          });
+        });
+
+        var labelStep = ordered.length > 8 ? Math.ceil(ordered.length / 6) : 1;
+        ordered.forEach(function(w, i){
+          if (i % labelStep !== 0 && i !== ordered.length - 1) return;
+          out.push('<text x="' + xAt(i) + '" y="' + (H - 8) + '" text-anchor="middle" font-size="10" fill="#64748b">' + w.week.slice(5) + '</text>');
+        });
+
+        svg.innerHTML = out.join('');
+
+        var leg = document.getElementById('archiveTrendLegend');
+        if (leg) {
+          leg.innerHTML = chartSeries.map(function(s){
+            var cls = 'critical';
+            if (s.key === 'lg_promotion_signals') cls = 'lg';
+            if (s.key === 'competitor_promotion_signals') cls = 'comp';
+            if (s.key === 'chinese_threat_signals') cls = 'china';
+            return '<span class="legend-item"><span class="sw ' + cls + '"></span>' + s.label + '</span>';
+          }).join('');
+        }
       }
 
       function safeCopy(url){
@@ -1130,7 +1276,6 @@ function main() {
         if (url) safeCopy(url);
       });
 
-      if (archiveSearch) archiveSearch.addEventListener('input', renderArchive);
       if (archiveSort) archiveSort.addEventListener('change', renderArchive);
       if (archiveGroup) archiveGroup.addEventListener('change', renderArchive);
 
@@ -1141,10 +1286,12 @@ function main() {
 
       window.addEventListener('resize', function(){
         drawTrendChart();
+        drawArchiveTrend();
         renderCompare();
       });
 
       drawTrendChart();
+      drawArchiveTrend();
       renderArchive();
       renderCompare();
       hydrateEnglishInsightPreviews();
