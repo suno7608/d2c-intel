@@ -246,16 +246,24 @@ def build_email_html(
 </div>
 
 <!-- CTA -->
-<div style="background:#f8fafc;border:1px solid #d1d9e6;border-top:none;padding:20px 24px;border-radius:0 0 12px 12px;">
-  <p style="margin:0 0 8px;font-size:14px;color:#334155;">
-    📎 전체 리포트는 첨부된 PDF를 확인하세요.
+<div style="background:#f0f4ff;border:1px solid #d1d9e6;border-top:none;padding:28px 24px;border-radius:0 0 12px 12px;text-align:center;">
+  <p style="margin:0 0 16px;font-size:14px;color:#334155;">
+    📎 전체 리포트는 첨부된 PDF를 확인하세요
   </p>
-  <p style="margin:0;font-size:14px;color:#334155;">{hub_link}</p>
+  <a href="{hub_url}" style="display:inline-block;background:{color};color:#ffffff;text-decoration:none;padding:14px 32px;border-radius:8px;font-size:15px;font-weight:700;letter-spacing:0.3px;" target="_blank">
+    🌐 D2C Intelligence Hub 바로가기
+  </a>
+  <p style="margin:16px 0 0;font-size:12px;color:#64748b;">
+    최신 리포트 · 아카이브 · 트렌드 분석을 한 곳에서
+  </p>
 </div>
 
 <!-- Footer -->
-<div style="padding:20px;text-align:center;font-size:11px;color:#64748b;">
-  D2C Global Intelligence · Automated Report · Confidential
+<div style="padding:20px;text-align:center;font-size:11px;color:#94a3b8;">
+  <p style="margin:0 0 4px;">D2C Global Intelligence · Automated Report · Confidential</p>
+  <p style="margin:0;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5n2qllp7pVt_HV_KmXshrnBrdEmZ0MskuJABdwYWDUW_Jeg/viewform" style="color:#64748b;text-decoration:underline;font-size:11px;" target="_blank">뉴스레터 구독</a>
+  </p>
 </div>
 
 </div>
