@@ -61,23 +61,67 @@
       color:#0b4f88;
       border-color:#ffffff;
     }
-    .sticky-tools{
+    .newsletter-bar{
       position:sticky;
       top:8px;
       z-index:20;
       margin-bottom:14px;
-      padding:10px 12px;
-      border:1px solid #c9d9ea;
-      background:#eef5fd;
-      border-radius:12px;
-      display:grid;
-      grid-template-columns:1fr auto auto;
-      gap:8px;
+      padding:14px 20px;
+      background:linear-gradient(135deg,#003a66 0%,#005a9c 50%,#0a7ac4 100%);
+      border-radius:14px;
+      display:flex;
       align-items:center;
-      box-shadow:0 4px 12px rgba(15,23,42,.08);
+      justify-content:space-between;
+      gap:12px;
+      box-shadow:0 6px 20px rgba(0,58,102,.25);
+      color:#fff;
+      flex-wrap:wrap;
     }
-    .sticky-tools input,
-    .sticky-tools select{width:100%;border:1px solid #bcd0e3;border-radius:9px;padding:8px 10px;font:inherit;background:#fff}
+    .newsletter-bar .nl-text{font-size:15px;font-weight:700;letter-spacing:.2px}
+    .newsletter-bar .nl-sub{font-size:12px;opacity:.85;margin-top:2px}
+    .newsletter-bar .nl-btn{
+      display:inline-flex;align-items:center;gap:6px;
+      padding:9px 18px;border-radius:999px;
+      background:#fff;color:#005a9c;
+      font-weight:800;font-size:14px;
+      text-decoration:none;border:none;cursor:pointer;
+      box-shadow:0 2px 8px rgba(0,0,0,.12);
+      transition:transform .15s;
+    }
+    .newsletter-bar .nl-btn:hover{transform:scale(1.04)}
+
+    .archive-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-left:auto}
+    .archive-controls select{border:1px solid #bcd0e3;border-radius:9px;padding:6px 10px;font:inherit;background:#fff}
+
+    .archive-header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:15px 16px 8px}
+    .archive-header h2{margin:0;font-size:20px;letter-spacing:.1px;flex:1}
+
+    .archive-trend{padding:0 16px 12px}
+    .archive-trend svg.chart{width:100%;height:220px;border:1px solid #e5edf5;border-radius:8px;background:#fff}
+    .archive-trend .legend{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:12px;margin:0 0 8px;color:#334155}
+    .archive-trend .legend-item{display:flex;align-items:center;gap:6px}
+
+    .timeline-list{position:relative;padding-left:28px}
+    .timeline-list::before{content:'';position:absolute;left:11px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,#0a7ac4,#dbe6f2);border-radius:2px}
+    .timeline-card{position:relative;margin-bottom:12px}
+    .timeline-card::before{content:'';position:absolute;left:-21px;top:16px;width:10px;height:10px;border-radius:50%;background:#0a7ac4;border:2px solid #fff;box-shadow:0 0 0 2px #0a7ac4;z-index:1}
+    .timeline-card.latest::before{background:#b91c1c;box-shadow:0 0 0 2px #b91c1c}
+    .timeline-card .week-card{border-left:3px solid #0a7ac4}
+    .timeline-card.latest .week-card{border-left:3px solid #b91c1c}
+
+    .metric-badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+    .metric-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700}
+    .metric-badge.critical{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
+    .metric-badge.lg{background:#eff6ff;color:#0a7ac4;border:1px solid #bfdbfe}
+    .metric-badge.comp{background:#fff7ed;color:#b45309;border:1px solid #fed7aa}
+    .metric-badge.china{background:#f0fdf4;color:#166534;border:1px solid #bbf7d0}
+    .metric-badge .delta-sm{font-size:11px;opacity:.8}
+
+    .insight-bubble{margin-top:8px;position:relative;background:#f0f7ff;border:1px solid #bfdbfe;border-radius:12px;padding:10px 12px}
+    .insight-bubble::before{content:'';position:absolute;left:16px;top:-6px;width:12px;height:12px;background:#f0f7ff;border-left:1px solid #bfdbfe;border-top:1px solid #bfdbfe;transform:rotate(45deg)}
+    .insight-bubble .mini-title{font-size:12px;font-weight:800;color:#1f4f79;margin-bottom:4px}
+    .insight-bubble ul{margin:0;padding-left:18px;color:#334155;font-size:13px}
+    .insight-bubble li{margin:2px 0}
 
     .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--rad);box-shadow:var(--shadow)}
     .panel h2{margin:0;padding:15px 16px 8px;font-size:20px;letter-spacing:.1px}
@@ -188,7 +232,6 @@
       .trend-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
       .kpi-row{grid-template-columns:repeat(2,minmax(0,1fr))}
       .chart-grid{grid-template-columns:1fr}
-      .sticky-tools{grid-template-columns:1fr}
     }
     @media (max-width:768px){
       .wrap{padding:14px}
@@ -204,9 +247,9 @@
       <h1>LG Global D2C Weekly Intelligence Hub</h1>
       <p>Main hub for weekly report access, comparison, and key metrics</p>
       <div class="meta">
-        <span>Latest Week: 2026-03-08</span>
-        <span>Total Weeks: 5</span>
-        <span>Last Updated: 2026. 3. 8. 오전 10:54:38</span>
+        <span>Latest Week: 2026-03-01</span>
+        <span>Total Weeks: 4</span>
+        <span>Last Updated: 2026. 3. 8. 오전 3:08:28</span>
       </div>
       <nav class="lang-switch" aria-label="Language switch">
         <a class="lang-link" href="./hub.html">🇰🇷 한국어</a>
@@ -214,32 +257,28 @@
       </nav>
     </header>
 
-    <div class="sticky-tools" aria-label="Archive controls">
-      <input id="archiveSearch" type="search" placeholder="Search by date (YYYY-MM-DD) or keyword..." />
-      <select id="archiveSort" aria-label="Sort archive">
-        <option value="desc" selected>Newest</option>
-        <option value="asc">Oldest</option>
-      </select>
-      <select id="archiveGroup" aria-label="Group archive">
-        <option value="month" selected>Group: Month</option>
-        <option value="flat">Group: Flat</option>
-      </select>
+    <div class="newsletter-bar" aria-label="Newsletter subscription">
+      <div>
+        <div class="nl-text">📬 Subscribe to D2C Weekly Intelligence via email</div>
+        <div class="nl-sub">Get the latest global D2C market insights delivered every Monday</div>
+      </div>
+      <a class="nl-btn" href="https://forms.gle/LG_D2C_Newsletter" target="_blank" rel="noopener">✉️ Subscribe</a>
     </div>
 
     <section class="hero-grid">
       
     <article class="panel hero-card" id="latestIssue">
       <div class="hero-meta">Latest Issue</div>
-      <h2>2026-03-08</h2>
-      <p class="hero-period">Report Period: 2026-03-01 ~ 2026-03-07</p>
+      <h2>2026-03-01</h2>
+      <p class="hero-period">Report Period: 2026-02-22 ~ 2026-02-28</p>
       <p class="hero-desc">Jump to this week's report and check the key market signals.</p>
       <div class="insight-mini hero-insight">
         <div class="mini-title">Key Insight Preview</div>
-        <ul><li>LG OLED C6/G6 2026 TV price announcement attracts global attention: Pre-orders launched in major markets including US, Europe, and Australia, with prices frozen or slightly reduced compared to predecessors, strengthening competitiveness in premium OLED market</li><li>LG Brazil announces R$15 billion localization investment for refrigerators and air conditioners, significantly strengthening HS business local competitiveness, full-scale strategy to counter Chinese brands (Midea) in Latin American appliance market</li><li>267 Chinese brand threats detected (+3.5% vs. last week): Alongside TCL/Hisense TV offensive, Midea/Haier&#39;s aggressive pricing strategy for appliances (refrigerators/washing machines) expanding in multiple markets including Brazil, Australia, UK, and Saudi Arabia</li></ul>
+        <ul><li>Accelerating Chinese Brand Penetration in Home Appliances : Midea/Haier refrigerator and washing machine promotions surge across 16 countries, with Chinese brand threats expanding from TV-centric to all home appliance categories. In Brazil, Midea washing machines launch aggressive marketing with 20% lower pricing versus LG</li><li>LG Promotion Activity Up 20% Week-over-Week : 302 cases (vs 251 previous week) with active discount campaigns centered on OLED TV C4/C5 and UltraGear monitors at major retailers including Best Buy/Amazon/MediaMarkt. However, refrigerator/washing machine promotions remain relatively weak</li><li>Surge in Negative Consumer Response : 13 cases (vs 2 previous week, +550%) with concentrated complaints about Midea washing machine quality in Brazil. LG product-related A/S delay issues also detected in Brazil</li></ul>
       </div>
       <div class="hero-actions">
-        <a class="btn primary" href="../2026-03-08/index_en.html">Report</a>
-        <a class="btn" href="../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-08_R2_16country.pdf">PDF</a>
+        <a class="btn primary" href="../2026-03-01/index_en.html">Report</a>
+        <a class="btn" href="../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.pdf">PDF</a>
       </div>
     </article>
   
@@ -250,22 +289,22 @@
       
         <div class="trend-card">
           <div class="label">Critical Countries</div>
-          <div class="value delta down">-2</div>
+          <div class="value delta up">+1</div>
         </div>
       
         <div class="trend-card">
           <div class="label">LG Promotion Signals</div>
-          <div class="value delta up">+7</div>
+          <div class="value delta up">+31</div>
         </div>
       
         <div class="trend-card">
           <div class="label">Competitor Promotion Signals</div>
-          <div class="value delta down">-1</div>
+          <div class="value delta down">-2</div>
         </div>
       
         <div class="trend-card">
           <div class="label">China Brand Threat Signals</div>
-          <div class="value delta flat">0</div>
+          <div class="value delta up">+1</div>
         </div>
       
     </div>
@@ -275,41 +314,35 @@
 
     <div class="banner">WEEKLY ARCHIVE EXPLORER</div>
     <section class="panel">
-      <h2>Weekly Archive</h2>
+      <div class="archive-header">
+        <h2>Weekly Archive</h2>
+        <div class="archive-controls">
+          <select id="archiveSort" aria-label="Sort archive">
+            <option value="desc" selected>Newest</option>
+            <option value="asc">Oldest</option>
+          </select>
+          <select id="archiveGroup" aria-label="Group archive">
+            <option value="month" selected>Group: Month</option>
+            <option value="flat">Group: Flat</option>
+          </select>
+        </div>
+      </div>
+      <div class="archive-trend">
+        <div class="legend" id="archiveTrendLegend"></div>
+        <svg class="chart" id="archiveTrendSvg" viewBox="0 0 700 220" preserveAspectRatio="none"></svg>
+      </div>
       <div class="body">
         <div class="archive-summary" id="archiveStats">
-          <span>Total reports: <strong>5</strong></span>
+          <span>Total reports: <strong>4</strong></span>
           <span>Date range: -</span>
           <span>Avg cadence: -</span>
         </div>
         <div class="archive-grid">
-          <div class="week-list" id="weekList">
-    <article class="week-card" data-week="2026-03-08" data-month="2026-03" data-search="2026-03-08 2026-03-01 2026-03-07 lg oled c6/g6 2026년형 tv 가격 발표로 전세계적 관심 집중: 미국·유럽·호주 등 주요 시장에서 프리오더 개시, 전작 대비 가격 동결 또는 소폭 인하로 프리미엄 oled 시장 경쟁력 강화 브라질 lg, 냉장고·에어컨 현지화 투자(r$15억) 발표로 hs 사업 현지 경쟁력 대폭 강화 기대, 중남미 가전 시장에서 중국 브랜드(midea) 대응 전략 본격화 중국 브랜드 위협 267건 감지(전주 대비 +3.5%): tcl/hisense tv 공세와 함께 midea/haier의 가전(냉장고·세탁기) 공격적 가격 전략이 브라질·호주·영국·사우디 등 다수 시장에서 확대 중">
-      <div class="head">
-        <div class="week">2026-03-08</div>
-        <span class="badge">Latest</span>
-      </div>
-      <div class="period">Period: 2026-03-01 ~ 2026-03-07</div>
-      <div class="metrics">
-        <div>Coverage <strong>14</strong></div>
-        <div>Critical <strong>2</strong></div>
-        <div>Comp Promo <strong>6</strong></div>
-        <div>China Threat <strong>12</strong></div>
-      </div>
-      <div class="insight-mini">
-        <div class="mini-title">Key Insight</div>
-        <ul><li>LG OLED C6/G6 2026 TV price announcement attracts global attention: Pre-orders launched in major markets including US, Europe, and Australia, with prices frozen or slightly reduced compared to predecessors, strengthening competitiveness in premium OLED market</li><li>LG Brazil announces R$15 billion localization investment for refrigerators and air conditioners, significantly strengthening HS business local competitiveness, full-scale strategy to counter Chinese brands (Midea) in Latin American appliance market</li></ul>
-      </div>
-      <div class="links">
-        <a class="btn primary" href="../2026-03-08/index_en.html">Report</a>
-        <a class="btn" href="../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-08_R2_16country.pdf">PDF</a>
-      </div>
-    </article>
-  
+          <div class="week-list timeline-list" id="weekList">
     <article class="week-card" data-week="2026-03-01" data-month="2026-03" data-search="2026-03-01 2026-02-22 2026-02-28 **중국 브랜드 가전 영역 침투 가속화**: midea/haier의 냉장고·세탁기 프로모션이 16개국 전역에서 급증하며, tv 중심이던 중국 브랜드 위협이 생활가전 전 카테고리로 확산 중. 특히 브라질에서 midea 세탁기가 lg 대비 20% 저가 포지셔닝으로 공격적 마케팅 전개 **lg 프로모션 활동 전주 대비 20% 증가**: 302건(vs 전주 251건)으로 best buy/amazon/mediamarkt 등 주요 리테일러에서 oled tv c4/c5 및 ultragear 모니터 중심 할인 캠페인 활발. 그러나 냉장고/세탁기 프로모션은 상대적 열세 **소비자 부정 반응 급증**: 13건(vs 전주 2건, +550%)으로 브라질 midea 세탁기 품질 불만 집중 발생. lg 제품 관련 a/s 지연 이슈도 브라질에서 포착됨">
       <div class="head">
         <div class="week">2026-03-01</div>
-        <span class="badge">W-1</span>
+        <span class="badge">Latest</span>
       </div>
       <div class="period">Period: 2026-02-22 ~ 2026-02-28</div>
       <div class="metrics">
@@ -331,7 +364,7 @@
     <article class="week-card" data-week="2026-02-22" data-month="2026-02" data-search="2026-02-22   **presidents day 세일 효과로 lg 프로모션 노출 3.6배 급증**: 전주 76건 대비 271건으로 미국 중심 대규모 할인 행사가 tv/가전/it 전 제품군에서 동시 전개되며, 특히 oled tv c5/g5 시리즈와 gram pro 노트북이 핵심 딜 아이템으로 부각됨 **중국 브랜드 위협 4.3배 폭증 (61건→264건)**: tcl이 글로벌 tv 출하량에서 삼성을 처음으로 추월했다는 보도가 확산되며, haier/midea는 냉장고·세탁기 시장에서 공격적 가격 정책과 유통 확장을 병행 중 **제품 포트폴리오 균형 개선**: tv 비중 29.2%로 전주(43.2%) 대비 14%p 감소하며, 냉장고(24.3%)/세탁기(24.5%)/모니터(12.9%)/gram(9.1%)의 균형 잡힌 인텔리전스 수집 달성">
       <div class="head">
         <div class="week">2026-02-22</div>
-        <span class="badge">W-2</span>
+        <span class="badge">W-1</span>
       </div>
       <div class="period">Period: - ~ -</div>
       <div class="metrics">
@@ -353,7 +386,7 @@
     <article class="week-card" data-week="2026-02-16" data-month="2026-02" data-search="2026-02-16 2026-02-09 2026-02-15 이번 주 수집 데이터는 총 **220건**이며, 핵심 법인 **16개국**에서 신호가 확인되었다. 가장 많은 신호가 집중된 제품군은 **tv(95건)**이다. 프로모션 신호는 lg 77건, 경쟁사 16건으로 관측되어, **🇺🇸 us**에서 lg 집행 강도가 가장 높았다. 중국 브랜드(tcl/hisense/haier/midea) 위협 신호는 **65건**이며, **🇺🇸 us**에서 집중도가 가장 높아 ms/hs 동시 대응이 필요하다.">
       <div class="head">
         <div class="week">2026-02-16</div>
-        <span class="badge">W-3</span>
+        <span class="badge">W-2</span>
       </div>
       <div class="period">Period: 2026-02-09 ~ 2026-02-15</div>
       <div class="metrics">
@@ -375,7 +408,7 @@
     <article class="week-card" data-week="2026-02-14" data-month="2026-02" data-search="2026-02-14 2026-02-07 2026-02-13 이번 주 매출 위험은 `저가 브랜드의 신규 유입 선점`과 `a/s 불만으로 인한 전환 이탈`이 동시에 발생한 점이다. tv 고관여 구간(🇺🇸 us/🇸🇦 sa/🇦🇺 au)에서는 가격 차이만으로는 방어가 어렵고, 설치/보증/빠른 서비스가 포함된 총가치 제안이 실제 구매 결정에 더 크게 작용한다. 따라서 핵심은 할인 폭 경쟁이 아니라 `전환율 방어(장바구니 이탈 축소)`와 `불만 고객 재구매 복원`을 함께 실행하는 것이다.">
       <div class="head">
         <div class="week">2026-02-14</div>
-        <span class="badge">W-4</span>
+        <span class="badge">W-3</span>
       </div>
       <div class="period">Period: 2026-02-07 ~ 2026-02-13</div>
       <div class="metrics">
@@ -404,15 +437,15 @@
       <div class="body">
         <div class="kpi-row" id="kpiRow">
           <div class="kpi"><div class="label">Covered Countries</div><div class="value">14</div></div>
-          <div class="kpi"><div class="label">Critical Countries</div><div class="value">2</div></div>
-          <div class="kpi"><div class="label">LG Promotion Signals</div><div class="value">309</div></div>
-          <div class="kpi"><div class="label">Competitor Promotion Signals</div><div class="value">6</div></div>
+          <div class="kpi"><div class="label">Critical Countries</div><div class="value">4</div></div>
+          <div class="kpi"><div class="label">LG Promotion Signals</div><div class="value">302</div></div>
+          <div class="kpi"><div class="label">Competitor Promotion Signals</div><div class="value">7</div></div>
           <div class="kpi"><div class="label">China Threat Signals</div><div class="value">12</div></div>
         </div>
 
         <div class="compare-toolbar">
-          <label for="weekA">From <select id="weekA"><option value="2026-03-08" selected>2026-03-08</option><option value="2026-03-01">2026-03-01</option><option value="2026-02-22">2026-02-22</option><option value="2026-02-16">2026-02-16</option><option value="2026-02-14">2026-02-14</option></select></label>
-          <label for="weekB">To <select id="weekB"><option value="2026-03-08">2026-03-08</option><option value="2026-03-01" selected>2026-03-01</option><option value="2026-02-22">2026-02-22</option><option value="2026-02-16">2026-02-16</option><option value="2026-02-14">2026-02-14</option></select></label>
+          <label for="weekA">From <select id="weekA"><option value="2026-03-01" selected>2026-03-01</option><option value="2026-02-22">2026-02-22</option><option value="2026-02-16">2026-02-16</option><option value="2026-02-14">2026-02-14</option></select></label>
+          <label for="weekB">To <select id="weekB"><option value="2026-03-01">2026-03-01</option><option value="2026-02-22" selected>2026-02-22</option><option value="2026-02-16">2026-02-16</option><option value="2026-02-14">2026-02-14</option></select></label>
         </div>
 
         <table>
@@ -437,13 +470,12 @@
     </section>
   </div>
 
-  <script id="manifest-data" type="application/json">{"generated_at":"2026-03-08T01:54:38.603Z","total_weeks":5,"latest_week":"2026-03-08","weeks":[{"week":"2026-03-08","report_period":{"start":"2026-03-01","end":"2026-03-07"},"version":"Weekly Vol.2026-03-08-R2","generated_at":"2026-03-08T01:54:38.558Z","metrics":{"covered_countries":14,"lg_promotion_signals":309,"competitor_promotion_signals":6,"chinese_threat_signals":12,"consumer_negative_countries":0,"critical_country_count":2},"critical_countries":["🇧🇷 브라질 (BR)","🇦🇺 호주 (AU)"],"executive_key_insights":["LG OLED C6/G6 2026년형 TV 가격 발표로 전세계적 관심 집중: 미국·유럽·호주 등 주요 시장에서 프리오더 개시, 전작 대비 가격 동결 또는 소폭 인하로 프리미엄 OLED 시장 경쟁력 강화","브라질 LG, 냉장고·에어컨 현지화 투자(R$15억) 발표로 HS 사업 현지 경쟁력 대폭 강화 기대, 중남미 가전 시장에서 중국 브랜드(Midea) 대응 전략 본격화","중국 브랜드 위협 267건 감지(전주 대비 +3.5%): TCL/Hisense TV 공세와 함께 Midea/Haier의 가전(냉장고·세탁기) 공격적 가격 전략이 브라질·호주·영국·사우디 등 다수 시장에서 확대 중"],"links":{"html":"./2026-03-08/index_en.html","pdf":"../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-08_R2_16country.pdf","md":"../md/LG_Global_D2C_Weekly_Intelligence_2026-03-08_R2_16country.md","share":"./2026-03-08/share.html"}},{"week":"2026-03-01","report_period":{"start":"2026-02-22","end":"2026-02-28"},"version":"Weekly Vol.2026-03-01-R2","generated_at":"2026-03-01T07:46:18.551Z","metrics":{"covered_countries":14,"lg_promotion_signals":302,"competitor_promotion_signals":7,"chinese_threat_signals":12,"consumer_negative_countries":0,"critical_country_count":4},"critical_countries":["🇺🇸 미국 (US)","🇩🇪 독일 (DE)","🇮🇹 이탈리아 (IT)","🇧🇷 브라질 (BR)"],"executive_key_insights":["**중국 브랜드 가전 영역 침투 가속화**: Midea/Haier의 냉장고·세탁기 프로모션이 16개국 전역에서 급증하며, TV 중심이던 중국 브랜드 위협이 생활가전 전 카테고리로 확산 중. 특히 브라질에서 Midea 세탁기가 LG 대비 20% 저가 포지셔닝으로 공격적 마케팅 전개","**LG 프로모션 활동 전주 대비 20% 증가**: 302건(vs 전주 251건)으로 Best Buy/Amazon/MediaMarkt 등 주요 리테일러에서 OLED TV C4/C5 및 UltraGear 모니터 중심 할인 캠페인 활발. 그러나 냉장고/세탁기 프로모션은 상대적 열세","**소비자 부정 반응 급증**: 13건(vs 전주 2건, +550%)으로 브라질 Midea 세탁기 품질 불만 집중 발생. LG 제품 관련 A/S 지연 이슈도 브라질에서 포착됨"],"links":{"html":"./2026-03-01/index_en.html","pdf":"../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.pdf","md":"../md/LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.md","share":"./2026-03-01/share.html"}},{"week":"2026-02-22","report_period":{"start":null,"end":null},"version":"Weekly Vol.2026-02-22-R2","generated_at":"2026-02-22T09:25:28.389Z","metrics":{"covered_countries":14,"lg_promotion_signals":271,"competitor_promotion_signals":9,"chinese_threat_signals":11,"consumer_negative_countries":2,"critical_country_count":3},"critical_countries":["🇬🇧 영국 (UK)","🇧🇷 브라질 (BR)","🇦🇺 호주 (AU)"],"executive_key_insights":["**Presidents Day 세일 효과로 LG 프로모션 노출 3.6배 급증**: 전주 76건 대비 271건으로 미국 중심 대규모 할인 행사가 TV/가전/IT 전 제품군에서 동시 전개되며, 특히 OLED TV C5/G5 시리즈와 gram Pro 노트북이 핵심 딜 아이템으로 부각됨","**중국 브랜드 위협 4.3배 폭증 (61건→264건)**: TCL이 글로벌 TV 출하량에서 삼성을 처음으로 추월했다는 보도가 확산되며, Haier/Midea는 냉장고·세탁기 시장에서 공격적 가격 정책과 유통 확장을 병행 중","**제품 포트폴리오 균형 개선**: TV 비중 29.2%로 전주(43.2%) 대비 14%p 감소하며, 냉장고(24.3%)/세탁기(24.5%)/모니터(12.9%)/gram(9.1%)의 균형 잡힌 인텔리전스 수집 달성"],"links":{"html":"./2026-02-22/index_en.html","pdf":"../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-22_R2_16country.pdf","md":"../md/LG_Global_D2C_Weekly_Intelligence_2026-02-22_R2_16country.md","share":"./2026-02-22/share.html"}},{"week":"2026-02-16","report_period":{"start":"2026-02-09","end":"2026-02-15"},"version":"Weekly Vol.2026-02-16-R2","generated_at":"2026-02-16T07:19:36.700Z","metrics":{"covered_countries":16,"lg_promotion_signals":77,"competitor_promotion_signals":6,"chinese_threat_signals":17,"consumer_negative_countries":1,"critical_country_count":1},"critical_countries":["🇬🇧 UK"],"executive_key_insights":["이번 주 수집 데이터는 총 **220건**이며, 핵심 법인 **16개국**에서 신호가 확인되었다. 가장 많은 신호가 집중된 제품군은 **TV(95건)**이다.","프로모션 신호는 LG 77건, 경쟁사 16건으로 관측되어, **🇺🇸 US**에서 LG 집행 강도가 가장 높았다.","중국 브랜드(TCL/Hisense/Haier/Midea) 위협 신호는 **65건**이며, **🇺🇸 US**에서 집중도가 가장 높아 MS/HS 동시 대응이 필요하다."],"links":{"html":"./2026-02-16/index_en.html","pdf":"../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-16_R2_16country.pdf","md":"../md/LG_Global_D2C_Weekly_Intelligence_2026-02-16_R2_16country.md","share":"./2026-02-16/share.html"}},{"week":"2026-02-14","report_period":{"start":"2026-02-07","end":"2026-02-13"},"version":"Weekly Vol.2026-02-14-R2","generated_at":"2026-02-15T02:54:41.269Z","metrics":{"covered_countries":16,"lg_promotion_signals":16,"competitor_promotion_signals":13,"chinese_threat_signals":16,"consumer_negative_countries":6,"critical_country_count":5},"critical_countries":["🇺🇸 US","🇩🇪 DE","🇲🇽 MX","🇦🇺 AU","🇸🇦 SA"],"executive_key_insights":["이번 주 매출 위험은 `저가 브랜드의 신규 유입 선점`과 `A/S 불만으로 인한 전환 이탈`이 동시에 발생한 점이다.","TV 고관여 구간(🇺🇸 US/🇸🇦 SA/🇦🇺 AU)에서는 가격 차이만으로는 방어가 어렵고, 설치/보증/빠른 서비스가 포함된 총가치 제안이 실제 구매 결정에 더 크게 작용한다.","따라서 핵심은 할인 폭 경쟁이 아니라 `전환율 방어(장바구니 이탈 축소)`와 `불만 고객 재구매 복원`을 함께 실행하는 것이다."],"links":{"html":"./2026-02-14/index_en.html","pdf":"../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.pdf","md":"../md/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.md","share":"./2026-02-14/share.html"}}]}</script>
+  <script id="manifest-data" type="application/json">{"generated_at":"2026-03-01T07:46:18.597Z","total_weeks":4,"latest_week":"2026-03-01","weeks":[{"week":"2026-03-01","report_period":{"start":"2026-02-22","end":"2026-02-28"},"version":"Weekly Vol.2026-03-01-R2","generated_at":"2026-03-01T07:46:18.551Z","metrics":{"covered_countries":14,"lg_promotion_signals":302,"competitor_promotion_signals":7,"chinese_threat_signals":12,"consumer_negative_countries":0,"critical_country_count":4},"critical_countries":["🇺🇸 미국 (US)","🇩🇪 독일 (DE)","🇮🇹 이탈리아 (IT)","🇧🇷 브라질 (BR)"],"executive_key_insights":["**중국 브랜드 가전 영역 침투 가속화**: Midea/Haier의 냉장고·세탁기 프로모션이 16개국 전역에서 급증하며, TV 중심이던 중국 브랜드 위협이 생활가전 전 카테고리로 확산 중. 특히 브라질에서 Midea 세탁기가 LG 대비 20% 저가 포지셔닝으로 공격적 마케팅 전개","**LG 프로모션 활동 전주 대비 20% 증가**: 302건(vs 전주 251건)으로 Best Buy/Amazon/MediaMarkt 등 주요 리테일러에서 OLED TV C4/C5 및 UltraGear 모니터 중심 할인 캠페인 활발. 그러나 냉장고/세탁기 프로모션은 상대적 열세","**소비자 부정 반응 급증**: 13건(vs 전주 2건, +550%)으로 브라질 Midea 세탁기 품질 불만 집중 발생. LG 제품 관련 A/S 지연 이슈도 브라질에서 포착됨"],"links":{"html":"./2026-03-01/index_en.html","pdf":"../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.pdf","md":"../md/LG_Global_D2C_Weekly_Intelligence_2026-03-01_R2_16country.md","share":"./2026-03-01/share.html"}},{"week":"2026-02-22","report_period":{"start":null,"end":null},"version":"Weekly Vol.2026-02-22-R2","generated_at":"2026-02-22T09:25:28.389Z","metrics":{"covered_countries":14,"lg_promotion_signals":271,"competitor_promotion_signals":9,"chinese_threat_signals":11,"consumer_negative_countries":2,"critical_country_count":3},"critical_countries":["🇬🇧 영국 (UK)","🇧🇷 브라질 (BR)","🇦🇺 호주 (AU)"],"executive_key_insights":["**Presidents Day 세일 효과로 LG 프로모션 노출 3.6배 급증**: 전주 76건 대비 271건으로 미국 중심 대규모 할인 행사가 TV/가전/IT 전 제품군에서 동시 전개되며, 특히 OLED TV C5/G5 시리즈와 gram Pro 노트북이 핵심 딜 아이템으로 부각됨","**중국 브랜드 위협 4.3배 폭증 (61건→264건)**: TCL이 글로벌 TV 출하량에서 삼성을 처음으로 추월했다는 보도가 확산되며, Haier/Midea는 냉장고·세탁기 시장에서 공격적 가격 정책과 유통 확장을 병행 중","**제품 포트폴리오 균형 개선**: TV 비중 29.2%로 전주(43.2%) 대비 14%p 감소하며, 냉장고(24.3%)/세탁기(24.5%)/모니터(12.9%)/gram(9.1%)의 균형 잡힌 인텔리전스 수집 달성"],"links":{"html":"./2026-02-22/index_en.html","pdf":"../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-22_R2_16country.pdf","md":"../md/LG_Global_D2C_Weekly_Intelligence_2026-02-22_R2_16country.md","share":"./2026-02-22/share.html"}},{"week":"2026-02-16","report_period":{"start":"2026-02-09","end":"2026-02-15"},"version":"Weekly Vol.2026-02-16-R2","generated_at":"2026-02-16T07:19:36.700Z","metrics":{"covered_countries":16,"lg_promotion_signals":77,"competitor_promotion_signals":6,"chinese_threat_signals":17,"consumer_negative_countries":1,"critical_country_count":1},"critical_countries":["🇬🇧 UK"],"executive_key_insights":["이번 주 수집 데이터는 총 **220건**이며, 핵심 법인 **16개국**에서 신호가 확인되었다. 가장 많은 신호가 집중된 제품군은 **TV(95건)**이다.","프로모션 신호는 LG 77건, 경쟁사 16건으로 관측되어, **🇺🇸 US**에서 LG 집행 강도가 가장 높았다.","중국 브랜드(TCL/Hisense/Haier/Midea) 위협 신호는 **65건**이며, **🇺🇸 US**에서 집중도가 가장 높아 MS/HS 동시 대응이 필요하다."],"links":{"html":"./2026-02-16/index_en.html","pdf":"../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-16_R2_16country.pdf","md":"../md/LG_Global_D2C_Weekly_Intelligence_2026-02-16_R2_16country.md","share":"./2026-02-16/share.html"}},{"week":"2026-02-14","report_period":{"start":"2026-02-07","end":"2026-02-13"},"version":"Weekly Vol.2026-02-14-R2","generated_at":"2026-02-15T02:54:41.269Z","metrics":{"covered_countries":16,"lg_promotion_signals":16,"competitor_promotion_signals":13,"chinese_threat_signals":16,"consumer_negative_countries":6,"critical_country_count":5},"critical_countries":["🇺🇸 US","🇩🇪 DE","🇲🇽 MX","🇦🇺 AU","🇸🇦 SA"],"executive_key_insights":["이번 주 매출 위험은 `저가 브랜드의 신규 유입 선점`과 `A/S 불만으로 인한 전환 이탈`이 동시에 발생한 점이다.","TV 고관여 구간(🇺🇸 US/🇸🇦 SA/🇦🇺 AU)에서는 가격 차이만으로는 방어가 어렵고, 설치/보증/빠른 서비스가 포함된 총가치 제안이 실제 구매 결정에 더 크게 작용한다.","따라서 핵심은 할인 폭 경쟁이 아니라 `전환율 방어(장바구니 이탈 축소)`와 `불만 고객 재구매 복원`을 함께 실행하는 것이다."],"links":{"html":"./2026-02-14/index_en.html","pdf":"../pdf/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.pdf","md":"../md/LG_Global_D2C_Weekly_Intelligence_2026-02-14_R2_16country.md","share":"./2026-02-14/share.html"}}]}</script>
   <script>
     (function(){
       var manifest = JSON.parse(document.getElementById('manifest-data').textContent || '{"weeks":[]}');
       var weeks = (manifest.weeks || []).slice();
       var weekList = document.getElementById('weekList');
-      var archiveSearch = document.getElementById('archiveSearch');
       var archiveSort = document.getElementById('archiveSort');
       var archiveGroup = document.getElementById('archiveGroup');
       var isEnglishPage = (document.documentElement.lang || '').toLowerCase() === 'en';
@@ -635,34 +667,43 @@
         });
       }
 
-      function buildCardHtml(w, idx){
+      function buildCardHtml(w, idx, prevWeek){
         var links = w.links || {};
         var htmlLink = resolveLinkFromHub(links.html, '../' + w.week + '/index.html');
         var pdfLink = resolveLinkFromHub(links.pdf, '#');
-        var mdLink = resolveLinkFromHub(links.md, '#');
         var m = w.metrics || {};
+        var pm = prevWeek && prevWeek.metrics ? prevWeek.metrics : {};
         var badge = idx === 0 ? 'Latest' : ('W-' + idx);
         var insights = Array.isArray(w.executive_key_insights) ? w.executive_key_insights.slice(0, 2) : [];
         var insightItems = insights.length
           ? insights.map(function(t){ return '<li>' + localizeInsightText(t) + '</li>'; }).join('')
           : '<li>' + (isEnglishPage ? 'Open report for full insight details in English.' : 'Open report to view insights') + '</li>';
 
+        function badgeDelta(cur, prev){
+          if (typeof cur !== 'number' || typeof prev !== 'number') return '';
+          var d = cur - prev;
+          if (d === 0) return '';
+          return ' <span class="delta-sm">' + (d > 0 ? '+' + d : '' + d) + '</span>';
+        }
+
         return '' +
+          '<div class="timeline-card' + (idx === 0 ? ' latest' : '') + '">' +
           '<article class="week-card" data-week="' + w.week + '" data-month="' + (w.week || '').slice(0,7) + '">' +
             '<div class="head"><div class="week">' + w.week + '</div><span class="badge">' + badge + '</span></div>' +
-            '<div class="period">Period: ' + (w.report_period && w.report_period.start ? w.report_period.start : '-') + ' ~ ' + (w.report_period && w.report_period.end ? w.report_period.end : '-') + '</div>' +
-            '<div class="metrics">' +
-              '<div>Coverage <strong>' + (m.covered_countries ?? '-') + '</strong></div>' +
-              '<div>Critical <strong>' + (m.critical_country_count ?? '-') + '</strong></div>' +
-              '<div>Comp Promo <strong>' + (m.competitor_promotion_signals ?? '-') + '</strong></div>' +
-              '<div>China Threat <strong>' + (m.chinese_threat_signals ?? '-') + '</strong></div>' +
+            '<div class="period">' + (isEnglishPage ? 'Period: ' : 'Period: ') + (w.report_period && w.report_period.start ? w.report_period.start : '-') + ' ~ ' + (w.report_period && w.report_period.end ? w.report_period.end : '-') + '</div>' +
+            '<div class="metric-badges">' +
+              '<span class="metric-badge critical">Critical ' + (m.critical_country_count ?? '-') + badgeDelta(m.critical_country_count, pm.critical_country_count) + '</span>' +
+              '<span class="metric-badge lg">LG ' + (m.lg_promotion_signals ?? '-') + badgeDelta(m.lg_promotion_signals, pm.lg_promotion_signals) + '</span>' +
+              '<span class="metric-badge comp">Comp ' + (m.competitor_promotion_signals ?? '-') + badgeDelta(m.competitor_promotion_signals, pm.competitor_promotion_signals) + '</span>' +
+              '<span class="metric-badge china">China ' + (m.chinese_threat_signals ?? '-') + badgeDelta(m.chinese_threat_signals, pm.chinese_threat_signals) + '</span>' +
             '</div>' +
-            '<div class="insight-mini"><div class="mini-title">Key Insight</div><ul>' + insightItems + '</ul></div>' +
+            '<div class="insight-bubble"><div class="mini-title">💡 Key Insight</div><ul>' + insightItems + '</ul></div>' +
             '<div class="links">' +
               '<a class="btn primary" href="' + htmlLink + '">Report</a>' +
               '<a class="btn" href="' + pdfLink + '">PDF</a>' +
             '</div>' +
-          '</article>';
+          '</article>' +
+          '</div>';
       }
 
       function computeCadence(list){
@@ -712,18 +753,10 @@
       function renderArchive(){
         if (!weekList) return;
 
-        var query = (archiveSearch && archiveSearch.value ? archiveSearch.value : '').trim().toLowerCase();
         var sort = archiveSort ? archiveSort.value : 'desc';
         var groupMode = archiveGroup ? archiveGroup.value : 'month';
 
-        var filtered = weeks.filter(function(w){
-          if (!query) return true;
-          var text = [w.week, w.report_period && w.report_period.start, w.report_period && w.report_period.end]
-            .concat(Array.isArray(w.executive_key_insights) ? w.executive_key_insights : [])
-            .join(' ')
-            .toLowerCase();
-          return text.indexOf(query) >= 0;
-        });
+        var filtered = weeks.slice();
 
         filtered.sort(function(a,b){
           var da = parseWeekDate(a.week);
@@ -743,8 +776,20 @@
           return;
         }
 
+        function findPrev(w){
+          var sorted = weeks.slice().sort(function(a,b){
+            var da = parseWeekDate(a.week), db = parseWeekDate(b.week);
+            if (!da && !db) return 0; if (!da) return 1; if (!db) return -1;
+            return db.getTime() - da.getTime();
+          });
+          for (var i = 0; i < sorted.length; i++){
+            if (sorted[i].week === w.week && i + 1 < sorted.length) return sorted[i+1];
+          }
+          return null;
+        }
+
         if (groupMode === 'flat') {
-          weekList.innerHTML = filtered.map(function(w, idx){ return buildCardHtml(w, idx); }).join('');
+          weekList.innerHTML = filtered.map(function(w, idx){ return buildCardHtml(w, idx, findPrev(w)); }).join('');
           hydrateEnglishInsightPreviews();
           return;
         }
@@ -753,14 +798,89 @@
         var months = Object.keys(grouped).sort(function(a,b){ return sort === 'asc' ? a.localeCompare(b) : b.localeCompare(a); });
         weekList.innerHTML = months.map(function(month){
           var items = grouped[month];
-          var cards = items.map(function(w, idx){ return buildCardHtml(w, idx); }).join('');
+          var cards = items.map(function(w, idx){ return buildCardHtml(w, idx, findPrev(w)); }).join('');
           return '' +
             '<details class="month-group" open>' +
               '<summary>' + month + '<span class="month-meta">(' + items.length + ' reports)</span></summary>' +
-              '<div class="week-list" style="margin-top:8px">' + cards + '</div>' +
+              '<div class="week-list timeline-list" style="margin-top:8px">' + cards + '</div>' +
             '</details>';
         }).join('');
         hydrateEnglishInsightPreviews();
+
+        drawArchiveTrend();
+      }
+
+      function drawArchiveTrend(){
+        var svg = document.getElementById('archiveTrendSvg');
+        if (!svg) return;
+        var ordered = weeks.slice().sort(function(a,b){
+          var da = parseWeekDate(a.week), db = parseWeekDate(b.week);
+          if (!da && !db) return 0; if (!da) return 1; if (!db) return -1;
+          return da.getTime() - db.getTime();
+        });
+        if (!ordered.length) { svg.innerHTML = ''; return; }
+
+        var W = 700, H = 220, pl = 44, pr = 12, pt = 16, pb = 28;
+        var plotW = W - pl - pr, plotH = H - pt - pb;
+        svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+
+        var yMax = 1;
+        chartSeries.forEach(function(s){
+          ordered.forEach(function(w){
+            var v = metricValue(w, s.key);
+            if (v !== null) yMax = Math.max(yMax, v);
+          });
+        });
+        yMax = Math.ceil(yMax * 1.1) || 1;
+
+        function xAt(i){ return ordered.length <= 1 ? pl + plotW / 2 : pl + (plotW * i / (ordered.length - 1)); }
+        function yAt(v){ return pt + (plotH * (1 - (v / yMax))); }
+
+        var out = [];
+        out.push('<rect x="' + pl + '" y="' + pt + '" width="' + plotW + '" height="' + plotH + '" fill="#fafcff" rx="4"/>');
+        for (var t = 0; t <= 4; t++){
+          var vT = yMax * t / 4, yT = yAt(vT);
+          out.push('<line x1="' + pl + '" y1="' + yT + '" x2="' + (W - pr) + '" y2="' + yT + '" stroke="#eef3f8" stroke-width="1"/>');
+          out.push('<text x="' + (pl - 6) + '" y="' + (yT + 4) + '" text-anchor="end" font-size="10" fill="#64748b">' + Math.round(vT) + '</text>');
+        }
+
+        chartSeries.forEach(function(s){
+          var pts = [];
+          ordered.forEach(function(w, i){
+            var v = metricValue(w, s.key);
+            if (v === null) return;
+            pts.push({ x: xAt(i), y: yAt(v), v: v, week: w.week });
+          });
+          if (pts.length >= 2){
+            var area = 'M' + pts[0].x + ',' + pts[0].y;
+            for (var k = 1; k < pts.length; k++) area += ' L' + pts[k].x + ',' + pts[k].y;
+            area += ' L' + pts[pts.length-1].x + ',' + (H - pb) + ' L' + pts[0].x + ',' + (H - pb) + ' Z';
+            out.push('<path d="' + area + '" fill="' + s.color + '" fill-opacity="0.06"/>');
+            out.push('<polyline fill="none" stroke="' + s.color + '" stroke-width="2.2" stroke-linejoin="round" points="' + pts.map(function(p){ return p.x + ',' + p.y; }).join(' ') + '"/>');
+          }
+          pts.forEach(function(p){
+            out.push('<circle cx="' + p.x + '" cy="' + p.y + '" r="3.5" fill="#fff" stroke="' + s.color + '" stroke-width="2"><title>' + p.week + ': ' + s.label + ' = ' + p.v + '</title></circle>');
+          });
+        });
+
+        var labelStep = ordered.length > 8 ? Math.ceil(ordered.length / 6) : 1;
+        ordered.forEach(function(w, i){
+          if (i % labelStep !== 0 && i !== ordered.length - 1) return;
+          out.push('<text x="' + xAt(i) + '" y="' + (H - 8) + '" text-anchor="middle" font-size="10" fill="#64748b">' + w.week.slice(5) + '</text>');
+        });
+
+        svg.innerHTML = out.join('');
+
+        var leg = document.getElementById('archiveTrendLegend');
+        if (leg) {
+          leg.innerHTML = chartSeries.map(function(s){
+            var cls = 'critical';
+            if (s.key === 'lg_promotion_signals') cls = 'lg';
+            if (s.key === 'competitor_promotion_signals') cls = 'comp';
+            if (s.key === 'chinese_threat_signals') cls = 'china';
+            return '<span class="legend-item"><span class="sw ' + cls + '"></span>' + s.label + '</span>';
+          }).join('');
+        }
       }
 
       function safeCopy(url){
@@ -969,7 +1089,6 @@
         if (url) safeCopy(url);
       });
 
-      if (archiveSearch) archiveSearch.addEventListener('input', renderArchive);
       if (archiveSort) archiveSort.addEventListener('change', renderArchive);
       if (archiveGroup) archiveGroup.addEventListener('change', renderArchive);
 
@@ -980,10 +1099,12 @@
 
       window.addEventListener('resize', function(){
         drawTrendChart();
+        drawArchiveTrend();
         renderCompare();
       });
 
       drawTrendChart();
+      drawArchiveTrend();
       renderArchive();
       renderCompare();
       hydrateEnglishInsightPreviews();
