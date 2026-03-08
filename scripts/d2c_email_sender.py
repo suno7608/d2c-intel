@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-D2C Intel — Email Sender (SendGrid)
+D2C Intel — Email Sender (Gmail API)
 =====================================
 주간/월간 리포트를 이메일로 발송합니다.
 
@@ -8,8 +8,7 @@ Usage:
     python scripts/d2c_email_sender.py [YYYY-MM-DD] [--monthly]
 
 Environment:
-    SENDGRID_API_KEY   — SendGrid API key (required)
-    REPORT_RECIPIENTS  — 수신자 이메일 (GitHub Variables)
+    REPORT_RECIPIENTS  — 수신자 이메일 (콤마 구분)
     D2C_SUBSCRIBER_SPREADSHEET_ID — Google Sheets 구독자 스프레드시트 ID
     GOOGLE_TOKEN_PATH  — Google OAuth token path (default: ~/.openclaw/workspace/tools/google-token.json)
 
@@ -25,19 +24,14 @@ import os
 import re
 import sys
 from datetime import date
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
 from pathlib import Path
 
-from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import (
-    Attachment,
-    ContentId,
-    Disposition,
-    FileContent,
-    FileName,
-    FileType,
-    Mail,
-    To,
-)
+from google.oauth2.credentials import Credentials
+from google.auth.transport.requests import Request
+from googleapiclient.discovery import build
 
 # ──────────────────────────────────────────────────────────────
 # Setup
@@ -68,12 +62,10 @@ def get_sheet_subscribers() -> list:
         return []
 
     try:
-        from google.oauth2.credentials import Credentials
-        from googleapiclient.discovery import build
-
         creds = Credentials.from_authorized_user_file(
             token_path, ["https://www.googleapis.com/auth/spreadsheets.readonly"]
         )
+        creds.refresh(Request())
         service = build("sheets", "v4", credentials=creds)
         result = (
             service.spreadsheets()
@@ -215,47 +207,48 @@ def send_email(
     html_content: str,
     pdf_path: Path = None,
 ) -> bool:
-    """SendGrid로 이메일을 발송합니다."""
-    api_key = os.environ.get("SENDGRID_API_KEY")
-    if not api_key:
-        logger.error("SENDGRID_API_KEY not set")
+    """Gmail API로 이메일을 발송합니다."""
+    token_path = os.environ.get("GOOGLE_TOKEN_PATH", DEFAULT_TOKEN_PATH)
+
+    if not os.path.exists(token_path):
+        logger.error(f"Google token not found: {token_path}")
         return False
 
-    from_email = os.environ.get("D2C_EMAIL_FROM", DEFAULT_FROM)
-    from_name = os.environ.get("D2C_EMAIL_FROM_NAME", DEFAULT_FROM_NAME)
+    try:
+        creds = Credentials.from_authorized_user_file(token_path)
+        creds.refresh(Request())
+        gmail = build("gmail", "v1", credentials=creds)
+    except Exception as e:
+        logger.error(f"Gmail API init failed: {e}")
+        return False
 
-    message = Mail(
-        from_email=(from_email, from_name),
-        to_emails=[To(e) for e in to_emails],
-        subject=subject,
-        html_content=html_content,
-    )
+    from_email = "suno7608@gmail.com"
 
-    # CC
+    # Build MIME message
+    msg = MIMEMultipart()
+    msg["From"] = f"D2C Global Intelligence <{from_email}>"
+    msg["To"] = ", ".join(to_emails)
     if cc_emails:
-        message.cc = [To(e) for e in cc_emails]
+        msg["Cc"] = ", ".join(cc_emails)
+    msg["Subject"] = subject
+
+    msg.attach(MIMEText(html_content, "html", "utf-8"))
 
     # PDF 첨부
     if pdf_path and pdf_path.exists():
         with open(pdf_path, "rb") as f:
-            pdf_data = base64.b64encode(f.read()).decode("utf-8")
-
-        attachment = Attachment(
-            FileContent(pdf_data),
-            FileName(pdf_path.name),
-            FileType("application/pdf"),
-            Disposition("attachment"),
-        )
-        message.attachment = attachment
-        logger.info(f"Attached PDF: {pdf_path.name} ({pdf_path.stat().st_size / 1024:.0f}KB)")
+            att = MIMEApplication(f.read(), _subtype="pdf")
+            att.add_header("Content-Disposition", "attachment", filename=pdf_path.name)
+            msg.attach(att)
+            logger.info(f"Attached PDF: {pdf_path.name} ({pdf_path.stat().st_size / 1024:.0f}KB)")
 
     try:
-        sg = SendGridAPIClient(api_key)
-        response = sg.send(message)
-        logger.info(f"Email sent: status={response.status_code}, to={to_emails}")
-        return response.status_code in (200, 201, 202)
+        raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+        result = gmail.users().messages().send(userId="me", body={"raw": raw}).execute()
+        logger.info(f"Email sent via Gmail API: id={result['id']}, to={to_emails}")
+        return True
     except Exception as e:
-        logger.error(f"SendGrid error: {e}")
+        logger.error(f"Gmail API send error: {e}")
         return False
 
 
