@@ -1,73 +1,73 @@
 {
   "date": "2026-03-08",
-  "total_records": 695,
+  "total_records": 696,
   "countries_count": 14,
   "countries": {
-    "US": 147,
-    "BR": 79,
+    "US": 149,
+    "BR": 81,
     "DE": 72,
-    "IT": 71,
-    "SA": 67,
-    "TW": 57,
-    "ES": 50,
+    "IT": 70,
+    "SA": 66,
+    "TW": 56,
+    "ES": 51,
     "FR": 48,
     "UK": 38,
-    "AU": 34,
-    "CA": 19,
-    "MX": 5,
+    "AU": 35,
+    "CA": 18,
+    "MX": 6,
     "CL": 5,
-    "SG": 3
+    "SG": 1
   },
   "products": {
-    "TV": 238,
-    "Refrigerator": 157,
-    "Washing Machine": 140,
-    "Monitor": 92,
-    "LG gram": 68
+    "TV": 240,
+    "Refrigerator": 158,
+    "Washing Machine": 142,
+    "Monitor": 93,
+    "LG gram": 63
   },
   "brands": {
-    "LG": 397,
-    "Haier": 82,
+    "LG": 400,
+    "Haier": 80,
     "Midea": 68,
     "TCL": 63,
-    "Hisense": 54,
-    "Samsung": 28,
+    "Hisense": 55,
+    "Samsung": 27,
     "Whirlpool": 2,
     "Electrolux": 1
   },
   "pillars": {
-    "Chinese Brand Threat Tracking": 314,
-    "Retail Channel Promotions": 232,
-    "Competitive Price & Positioning": 105,
-    "Consumer Sentiment": 44
+    "Chinese Brand Threat Tracking": 313,
+    "Retail Channel Promotions": 237,
+    "Competitive Price & Positioning": 104,
+    "Consumer Sentiment": 42
   },
   "confidence": {
-    "medium": 618,
-    "high": 77
+    "medium": 620,
+    "high": 76
   },
-  "tv_ratio_pct": 34.2,
-  "chinese_brand_total": 267,
+  "tv_ratio_pct": 34.5,
+  "chinese_brand_total": 266,
   "chinese_by_country": {
     "BR": 36,
-    "US": 35,
-    "SA": 30,
+    "US": 34,
+    "SA": 29,
+    "DE": 27,
     "AU": 27,
     "IT": 27,
-    "DE": 26,
-    "UK": 23,
-    "FR": 21,
+    "UK": 24,
+    "FR": 20,
     "ES": 18,
     "CA": 15,
     "TW": 8,
     "CL": 1
   },
   "chinese_by_product": {
-    "TV": 116,
-    "Refrigerator": 80,
-    "Washing Machine": 71
+    "TV": 117,
+    "Refrigerator": 79,
+    "Washing Machine": 70
   },
   "chinese_countries_count": 12,
   "consumer_negative_count": 0,
-  "lg_promo_count": 292,
+  "lg_promo_count": 296,
   "low_confidence_pct": 0.0
 }
