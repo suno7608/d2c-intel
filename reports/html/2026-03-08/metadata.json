@@ -5,24 +5,23 @@
     "end": "2026-03-07"
   },
   "version": "Weekly Vol.2026-03-08-R2",
-  "generated_at": "2026-03-08T04:46:20.820Z",
+  "generated_at": "2026-03-08T05:25:03.986Z",
   "metrics": {
     "covered_countries": 14,
     "lg_promotion_signals": 313,
     "competitor_promotion_signals": 6,
     "chinese_threat_signals": 12,
     "consumer_negative_countries": 0,
-    "critical_country_count": 3
+    "critical_country_count": 2
   },
   "critical_countries": [
-    "🇬🇧 영국 (UK)",
-    "🇩🇪 독일 (DE)",
-    "🇸🇦 사우디아라비아 (SA)"
+    "🇧🇷 브라질 (BR)",
+    "🇦🇺 호주 (AU)"
   ],
   "executive_key_insights": [
-    "**LG OLED G6/C6 글로벌 가격 공개**: 미국 시장에서 C6 42인치 $1,399부터, G6 $2,199부터 가격 책정되어 전작 대비 가격 경쟁력 유지 — 유럽 시장에서도 안정적 가격 정책으로 긍정적 소비자 반응 확보",
-    "**브라질 LG 현지 생산 투자 확대**: R$ 15억(약 $2.8억) 규모 '트로피칼라이제이션' 투자로 냉장고 현지 생산 강화 — 중국 브랜드(Midea) 대응 및 가격 경쟁력 확보 전략",
-    "**중국 브랜드 가전 공세 심화**: Haier/Midea가 냉장고·세탁기 시장에서 공격적 프로모션 전개 (브라질 Midea 불만 급증에도 불구하고 가격 공세 지속)"
+    "LG OLED C6/G6 2026년형 글로벌 출시가 본격화되며 미국·유럽 주요 법인에서 사전예약 프로모션이 활발히 전개 중이나, 중국 브랜드(TCL/Hisense)의 가격 공세가 동시에 심화되어 프리미엄 포지셔닝 방어가 필요한 시점",
+    "브라질 법인의 냉장고 현지화 전략(R$ 15억 투자)이 미디어 노출 증가와 함께 긍정적 반응을 얻고 있으나, Midea의 공격적 가격 프로모션과 A/S 품질 이슈가 시장 교란 요인으로 부상",
+    "모니터 카테고리에서 LG UltraGear OLED 시리즈의 가격 경쟁력이 강화되며 글로벌 딜 사이트(Pelando, OzBargain 등)에서 높은 노출을 기록 중이며, 52인치 5K2K 신제품 출시로 프리미엄 게이밍 시장 선점 기회 확보"
   ],
   "links": {
     "html": "./2026-03-08/index.html",
