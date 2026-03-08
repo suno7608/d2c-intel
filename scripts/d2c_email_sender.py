@@ -10,6 +10,8 @@ Usage:
 Environment:
     SENDGRID_API_KEY   — SendGrid API key (required)
     REPORT_RECIPIENTS  — 수신자 이메일 (GitHub Variables)
+    D2C_SUBSCRIBER_SPREADSHEET_ID — Google Sheets 구독자 스프레드시트 ID
+    GOOGLE_TOKEN_PATH  — Google OAuth token path (default: ~/.openclaw/workspace/tools/google-token.json)
 
 Output:
     이메일 발송 (PDF 첨부 + 경영진 요약 HTML)
@@ -44,6 +46,52 @@ from sendgrid.helpers.mail import (
 ROOT_DIR = Path(__file__).resolve().parent.parent
 REPORTS_DIR = ROOT_DIR / "reports"
 LOG_DIR = ROOT_DIR / "logs"
+
+# Google Sheets subscriber config
+D2C_SUBSCRIBER_SPREADSHEET_ID = "1pRSw05o8UKOzFZxvvX2zvq02N2NFJ25uPyZQy31EzJg"
+D2C_SUBSCRIBER_RANGE = "설문지 응답 시트1!B2:B"
+DEFAULT_TOKEN_PATH = os.path.expanduser("~/.openclaw/workspace/tools/google-token.json")
+EMAIL_PATTERN = re.compile(r"^[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,63}$", re.IGNORECASE)
+
+BLOCKED_EMAILS: set = {
+    "ektjs88@gmail.com",
+}
+
+
+def get_sheet_subscribers() -> list:
+    """Fetch subscriber emails from Google Sheets."""
+    spreadsheet_id = os.environ.get("D2C_SUBSCRIBER_SPREADSHEET_ID", D2C_SUBSCRIBER_SPREADSHEET_ID)
+    token_path = os.environ.get("GOOGLE_TOKEN_PATH", DEFAULT_TOKEN_PATH)
+
+    if not os.path.exists(token_path):
+        logger.warning(f"Google token not found: {token_path}, skipping sheet subscribers")
+        return []
+
+    try:
+        from google.oauth2.credentials import Credentials
+        from googleapiclient.discovery import build
+
+        creds = Credentials.from_authorized_user_file(
+            token_path, ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+        )
+        service = build("sheets", "v4", credentials=creds)
+        result = (
+            service.spreadsheets()
+            .values()
+            .get(spreadsheetId=spreadsheet_id, range=D2C_SUBSCRIBER_RANGE)
+            .execute()
+        )
+        rows = result.get("values", [])
+        emails = []
+        for row in rows:
+            email = (row[0] if row else "").strip().lower()
+            if email and EMAIL_PATTERN.match(email) and email not in BLOCKED_EMAILS:
+                emails.append(email)
+        logger.info(f"Google Sheets subscribers: {len(emails)} valid emails from {len(rows)} rows")
+        return emails
+    except Exception as e:
+        logger.warning(f"Failed to fetch sheet subscribers: {e}")
+        return []
 
 logging.basicConfig(
     level=logging.INFO,
@@ -231,9 +279,19 @@ def main():
 
     logger.info(f"D2C Email Sender — date={date_key}, monthly={is_monthly}")
 
-    # Recipients
+    # Recipients: env var + Google Sheets subscribers (deduplicated)
     recipients_str = os.environ.get("REPORT_RECIPIENTS", "suno7608@gmail.com")
-    to_emails = [e.strip() for e in recipients_str.split(",") if e.strip()]
+    env_emails = [e.strip().lower() for e in recipients_str.split(",") if e.strip()]
+    sheet_emails = get_sheet_subscribers()
+
+    seen = set()
+    to_emails = []
+    for e in env_emails + sheet_emails:
+        if e not in seen and e not in BLOCKED_EMAILS:
+            to_emails.append(e)
+            seen.add(e)
+
+    logger.info(f"Final recipients: {len(to_emails)} (env={len(env_emails)}, sheet={len(sheet_emails)})")
 
     cc_str = os.environ.get("D2C_EMAIL_CC", "")
     cc_emails = [e.strip() for e in cc_str.split(",") if e.strip()]
