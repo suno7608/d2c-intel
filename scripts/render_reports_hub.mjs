@@ -410,11 +410,6 @@ function main() {
     .archive-header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:15px 16px 8px}
     .archive-header h2{margin:0;font-size:20px;letter-spacing:.1px;flex:1}
 
-    .archive-trend{padding:0 16px 12px}
-    .archive-trend svg.chart{width:100%;height:220px;border:1px solid #e5edf5;border-radius:8px;background:#fff}
-    .archive-trend .legend{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:12px;margin:0 0 8px;color:#334155}
-    .archive-trend .legend-item{display:flex;align-items:center;gap:6px}
-
     .timeline-list{position:relative;padding-left:28px}
     .timeline-list::before{content:'';position:absolute;left:11px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,#0a7ac4,#dbe6f2);border-radius:2px}
     .timeline-card{position:relative;margin-bottom:12px}
@@ -601,10 +596,6 @@ function main() {
             <option value="flat">Group: Flat</option>
           </select>
         </div>
-      </div>
-      <div class="archive-trend">
-        <div class="legend" id="archiveTrendLegend"></div>
-        <svg class="chart" id="archiveTrendSvg" viewBox="0 0 700 220" preserveAspectRatio="none"></svg>
       </div>
       <div class="body">
         <div class="archive-summary" id="archiveStats">
@@ -993,81 +984,6 @@ function main() {
             '</details>';
         }).join('');
         hydrateEnglishInsightPreviews();
-
-        drawArchiveTrend();
-      }
-
-      function drawArchiveTrend(){
-        var svg = document.getElementById('archiveTrendSvg');
-        if (!svg) return;
-        var ordered = weeks.slice().sort(function(a,b){
-          var da = parseWeekDate(a.week), db = parseWeekDate(b.week);
-          if (!da && !db) return 0; if (!da) return 1; if (!db) return -1;
-          return da.getTime() - db.getTime();
-        });
-        if (!ordered.length) { svg.innerHTML = ''; return; }
-
-        var W = 700, H = 220, pl = 44, pr = 12, pt = 16, pb = 28;
-        var plotW = W - pl - pr, plotH = H - pt - pb;
-        svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
-
-        var yMax = 1;
-        chartSeries.forEach(function(s){
-          ordered.forEach(function(w){
-            var v = metricValue(w, s.key);
-            if (v !== null) yMax = Math.max(yMax, v);
-          });
-        });
-        yMax = Math.ceil(yMax * 1.1) || 1;
-
-        function xAt(i){ return ordered.length <= 1 ? pl + plotW / 2 : pl + (plotW * i / (ordered.length - 1)); }
-        function yAt(v){ return pt + (plotH * (1 - (v / yMax))); }
-
-        var out = [];
-        out.push('<rect x="' + pl + '" y="' + pt + '" width="' + plotW + '" height="' + plotH + '" fill="#fafcff" rx="4"/>');
-        for (var t = 0; t <= 4; t++){
-          var vT = yMax * t / 4, yT = yAt(vT);
-          out.push('<line x1="' + pl + '" y1="' + yT + '" x2="' + (W - pr) + '" y2="' + yT + '" stroke="#eef3f8" stroke-width="1"/>');
-          out.push('<text x="' + (pl - 6) + '" y="' + (yT + 4) + '" text-anchor="end" font-size="10" fill="#64748b">' + Math.round(vT) + '</text>');
-        }
-
-        chartSeries.forEach(function(s){
-          var pts = [];
-          ordered.forEach(function(w, i){
-            var v = metricValue(w, s.key);
-            if (v === null) return;
-            pts.push({ x: xAt(i), y: yAt(v), v: v, week: w.week });
-          });
-          if (pts.length >= 2){
-            var area = 'M' + pts[0].x + ',' + pts[0].y;
-            for (var k = 1; k < pts.length; k++) area += ' L' + pts[k].x + ',' + pts[k].y;
-            area += ' L' + pts[pts.length-1].x + ',' + (H - pb) + ' L' + pts[0].x + ',' + (H - pb) + ' Z';
-            out.push('<path d="' + area + '" fill="' + s.color + '" fill-opacity="0.06"/>');
-            out.push('<polyline fill="none" stroke="' + s.color + '" stroke-width="2.2" stroke-linejoin="round" points="' + pts.map(function(p){ return p.x + ',' + p.y; }).join(' ') + '"/>');
-          }
-          pts.forEach(function(p){
-            out.push('<circle cx="' + p.x + '" cy="' + p.y + '" r="3.5" fill="#fff" stroke="' + s.color + '" stroke-width="2"><title>' + p.week + ': ' + s.label + ' = ' + p.v + '</title></circle>');
-          });
-        });
-
-        var labelStep = ordered.length > 8 ? Math.ceil(ordered.length / 6) : 1;
-        ordered.forEach(function(w, i){
-          if (i % labelStep !== 0 && i !== ordered.length - 1) return;
-          out.push('<text x="' + xAt(i) + '" y="' + (H - 8) + '" text-anchor="middle" font-size="10" fill="#64748b">' + w.week.slice(5) + '</text>');
-        });
-
-        svg.innerHTML = out.join('');
-
-        var leg = document.getElementById('archiveTrendLegend');
-        if (leg) {
-          leg.innerHTML = chartSeries.map(function(s){
-            var cls = 'critical';
-            if (s.key === 'lg_promotion_signals') cls = 'lg';
-            if (s.key === 'competitor_promotion_signals') cls = 'comp';
-            if (s.key === 'chinese_threat_signals') cls = 'china';
-            return '<span class="legend-item"><span class="sw ' + cls + '"></span>' + s.label + '</span>';
-          }).join('');
-        }
       }
 
       function safeCopy(url){
@@ -1286,12 +1202,10 @@ function main() {
 
       window.addEventListener('resize', function(){
         drawTrendChart();
-        drawArchiveTrend();
         renderCompare();
       });
 
       drawTrendChart();
-      drawArchiveTrend();
       renderArchive();
       renderCompare();
       hydrateEnglishInsightPreviews();
