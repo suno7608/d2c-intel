@@ -122,26 +122,47 @@ def extract_executive_summary(md_path: Path) -> str:
 
     section = match.group(1).strip()
 
-    # 간단한 Markdown → HTML 변환
+    # Markdown → HTML 변환 (li를 ul로 감싸기, 서브섹션 필터링)
     html_lines = []
+    in_list = False
+
     for line in section.split("\n"):
         line = line.strip()
-        if not line:
+        if not line or line.startswith("---") or line.startswith("<!-- "):
             continue
+        # 서브섹션 (1.1, 1.2 등)은 이메일에서 생략
+        if re.match(r"^###\s*1\.\d", line):
+            continue
+        if line.startswith("|"):
+            continue
+
+        is_item = line.startswith("- ") or re.match(r"^\d+\.\s", line)
+
+        if is_item and not in_list:
+            html_lines.append('<ul style="margin:8px 0;padding-left:20px;color:#1e293b;">')
+            in_list = True
+        elif not is_item and in_list:
+            html_lines.append("</ul>")
+            in_list = False
+
         if line.startswith("### 핵심 인사이트") or line.startswith("### Key Insight"):
-            html_lines.append('<h3 style="color:#0b4f88;">📊 핵심 인사이트</h3>')
+            html_lines.append('<h3 style="color:#0b4f88;font-size:15px;margin:20px 0 8px;">📊 핵심 인사이트</h3>')
         elif line.startswith("### 실행 필요") or line.startswith("### Action Required"):
-            html_lines.append('<h3 style="color:#b8860b;">⚡ 실행 필요</h3>')
+            html_lines.append('<h3 style="color:#92400e;font-size:15px;margin:20px 0 8px;">⚡ 실행 필요</h3>')
         elif line.startswith("### "):
-            html_lines.append(f"<h3>{line[4:]}</h3>")
+            html_lines.append(f'<h3 style="color:#334155;font-size:14px;margin:16px 0 6px;">{line[4:]}</h3>')
         elif line.startswith("- "):
-            html_lines.append(f"<li>{line[2:]}</li>")
+            text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line[2:])
+            html_lines.append(f'<li style="margin-bottom:8px;line-height:1.6;color:#1e293b;font-size:14px;">{text}</li>')
         elif re.match(r"^\d+\.\s", line):
-            html_lines.append(f"<li>{re.sub(r'^[0-9]+. ', '', line)}</li>")
-        elif line.startswith("|"):
-            continue  # 테이블은 이메일에서 생략
+            text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', re.sub(r'^[0-9]+\.\s*', '', line))
+            html_lines.append(f'<li style="margin-bottom:8px;line-height:1.6;color:#1e293b;font-size:14px;">{text}</li>')
         else:
-            html_lines.append(f"<p>{line}</p>")
+            text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line)
+            html_lines.append(f'<p style="margin:6px 0;line-height:1.6;color:#334155;font-size:14px;">{text}</p>')
+
+    if in_list:
+        html_lines.append("</ul>")
 
     return "\n".join(html_lines)
 
@@ -158,36 +179,43 @@ def build_email_html(
     report_type = "월간 Deep Dive" if is_monthly else "주간 시장 인텔리전스"
     color = "#3b1f7a" if is_monthly else "#003a66"
 
+    hub_link = f'🔗 <a href="{hub_url}" style="color:#2563eb;text-decoration:underline;">온라인 Hub에서 보기</a>' if hub_url else ""
+
     return f"""<!DOCTYPE html>
 <html lang="ko">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head>
-<body style="margin:0;padding:0;font-family:'Noto Sans KR',-apple-system,sans-serif;background:#f5f8fc;">
-<div style="max-width:640px;margin:0 auto;padding:20px;">
+<body style="margin:0;padding:0;font-family:-apple-system,'Noto Sans KR',sans-serif;background:#eef2f7;">
+<div style="max-width:640px;margin:0 auto;padding:24px;">
 
 <!-- Header -->
-<div style="background:linear-gradient(135deg,{color},#0a7ac4);border-radius:12px 12px 0 0;padding:24px;color:#fff;">
-  <h1 style="margin:0;font-size:20px;">LG전자 글로벌 D2C {report_type} 리포트</h1>
-  <p style="margin:8px 0 0;opacity:0.9;font-size:14px;">
+<div style="background:{color};border-radius:12px 12px 0 0;padding:28px 24px;">
+  <h1 style="margin:0;font-size:20px;color:#ffffff;font-weight:700;">
+    LG전자 글로벌 D2C {report_type} 리포트
+  </h1>
+  <p style="margin:10px 0 0;color:#cfe2f3;font-size:14px;">
     소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향
   </p>
-  <p style="margin:8px 0 0;opacity:0.85;font-size:13px;">Date: {date_key}</p>
+  <p style="margin:6px 0 0;color:#a3c4e0;font-size:13px;">📅 {date_key}</p>
 </div>
 
 <!-- Summary -->
-<div style="background:#fff;border:1px solid #d9e2ec;padding:24px;border-radius:0 0 12px 12px;">
-  <h2 style="color:{color};font-size:16px;margin:0 0 16px;">📋 경영진 요약</h2>
+<div style="background:#ffffff;border-left:1px solid #d1d9e6;border-right:1px solid #d1d9e6;padding:28px 24px;">
+  <h2 style="color:#0f172a;font-size:17px;margin:0 0 16px;border-bottom:2px solid {color};padding-bottom:8px;">
+    📋 경영진 요약
+  </h2>
   {summary_html}
+</div>
 
-  <hr style="border:none;border-top:1px solid #e2e8f0;margin:20px 0;">
-
-  <p style="font-size:13px;color:#64748b;">
-    📎 전체 리포트는 첨부된 PDF를 확인하세요.<br>
-    {"🔗 <a href='" + hub_url + "'>온라인 Hub에서 보기</a>" if hub_url else ""}
+<!-- CTA -->
+<div style="background:#f8fafc;border:1px solid #d1d9e6;border-top:none;padding:20px 24px;border-radius:0 0 12px 12px;">
+  <p style="margin:0 0 8px;font-size:14px;color:#334155;">
+    📎 전체 리포트는 첨부된 PDF를 확인하세요.
   </p>
+  <p style="margin:0;font-size:14px;color:#334155;">{hub_link}</p>
 </div>
 
 <!-- Footer -->
-<div style="padding:16px;text-align:center;font-size:11px;color:#94a3b8;">
+<div style="padding:20px;text-align:center;font-size:11px;color:#64748b;">
   D2C Global Intelligence · Automated Report · Confidential
 </div>
 
