@@ -185,16 +185,9 @@ jobs:
           }
           echo "::endgroup::"
 
-      # ── Step 7: Email ──
-      - name: Send email report
-        if: always()
-        env:
-          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-          REPORT_RECIPIENTS: ${{ vars.REPORT_RECIPIENTS }}
-        run: |
-          python scripts/d2c_email_sender.py ${{ env.DATE_KEY }} || {
-            echo "::warning::Email sending failed (non-critical)"
-          }
+      # ── Step 7: Email (handled by local cron for Gmail API + subscriber lookup) ──
+      # Email sending moved to local OpenClaw cron job (d2c-weekly-report-check)
+      # Reason: Gmail API needs OAuth token refresh, Google Sheets subscriber lookup
 
       # ── Step 8: Summary ──
       - name: Job summary
