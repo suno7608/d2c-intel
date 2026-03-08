@@ -1,0 +1,31 @@
+{
+  "week": "2026-03-08",
+  "report_period": {
+    "start": "2026-03-01",
+    "end": "2026-03-07"
+  },
+  "version": "Weekly Vol.2026-03-08-R2",
+  "generated_at": "2026-03-08T00:38:28.735Z",
+  "metrics": {
+    "covered_countries": 17,
+    "lg_promotion_signals": 104,
+    "competitor_promotion_signals": null,
+    "chinese_threat_signals": 16,
+    "consumer_negative_countries": 0,
+    "critical_country_count": 1
+  },
+  "critical_countries": [
+    "🇦🇺 호주 (AU)"
+  ],
+  "executive_key_insights": [
+    "**LG 2026 OLED G6/C6 가격 공개 — 전년 동일 또는 인하**: LG가 2026 OLED evo G6(55\" $2,499~)와 C6(42\" $1,399~) 가격을 공개하며, RGB Tandem 패널 탑재에도 2025 모델 대비 가격 인상 없음을 확정. 독일 시장에서는 최대 38% 인하된 가격이 발표되어 유럽 시장 경쟁력 강화 기대",
+    "**중국 브랜드 TV 시장 점유율 지속 확대 — 미국 30.7% 달성**: TCL+Hisense 합산 미국 TV 시장 점유율이 28.6%→30.7%로 확대. 100인치 세그먼트에서 Hisense가 글로벌 출하량 1위를 유지하며, TCL과 Samsung 간 독일 법원 QLED 상표 소송에서 Samsung 승소",
+    "**LG KBIS 2026 다관왕 — 프리미엄 가전 리더십 입증**: LG SIGNATURE가 KBIS 2026에서 Best in Show 등 다수 어워드 수상. Seamless Refrigerator, Iconic Gas Pro Range가 Trusted Reviews/The Ambient으로부터 인정"
+  ],
+  "links": {
+    "html": "./2026-03-08/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-08_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-03-08_R2_16country.md",
+    "share": "./2026-03-08/share.html"
+  }
+}
