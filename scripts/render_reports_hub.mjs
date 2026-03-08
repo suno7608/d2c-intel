@@ -673,7 +673,7 @@ function main() {
         var fileName = clean.split('/').pop() || '';
         var lower = clean.toLowerCase();
 
-        if (isEnglishPage && /\/\d{4}-\d{2}-\d{2}\/index\.html$/i.test(clean)) {
+        if (isEnglishPage && /\\/\\d{4}-\\d{2}-\\d{2}\\/index\\.html$/i.test(clean)) {
           return raw.replace(/index\\.html(\\?[^#]*)?(#.*)?$/i, 'index_en.html$1$2');
         }
 
