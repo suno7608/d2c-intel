@@ -571,7 +571,7 @@ function main() {
         <div class="nl-text">📬 D2C Weekly Intelligence를 이메일로 받아보세요</div>
         <div class="nl-sub">매주 월요일, 최신 글로벌 D2C 시장 인사이트를 전달합니다</div>
       </div>
-      <a class="nl-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd8etnrJSjXFNMWFg0-TQjqur-JL0TK4anujlCyuJFcsWrkcQ/viewform" target="_blank" rel="noopener">✉️ 구독 신청</a>
+      <a class="nl-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSc5n2qllp7pVt_HV_KmXshrnBrdEmZ0MskuJABdwYWDUW_Jeg/viewform" target="_blank" rel="noopener">✉️ 구독 신청</a>
     </div>
 
     <section class="hero-grid">
