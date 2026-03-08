@@ -1,0 +1,32 @@
+{
+  "week": "2026-03-08",
+  "report_period": {
+    "start": "2026-03-01",
+    "end": "2026-03-07"
+  },
+  "version": "Weekly Vol.2026-03-08-R2",
+  "generated_at": "2026-03-08T01:54:38.558Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 309,
+    "competitor_promotion_signals": 6,
+    "chinese_threat_signals": 12,
+    "consumer_negative_countries": 0,
+    "critical_country_count": 2
+  },
+  "critical_countries": [
+    "🇧🇷 브라질 (BR)",
+    "🇦🇺 호주 (AU)"
+  ],
+  "executive_key_insights": [
+    "LG OLED C6/G6 2026년형 TV 가격 발표로 전세계적 관심 집중: 미국·유럽·호주 등 주요 시장에서 프리오더 개시, 전작 대비 가격 동결 또는 소폭 인하로 프리미엄 OLED 시장 경쟁력 강화",
+    "브라질 LG, 냉장고·에어컨 현지화 투자(R$15억) 발표로 HS 사업 현지 경쟁력 대폭 강화 기대, 중남미 가전 시장에서 중국 브랜드(Midea) 대응 전략 본격화",
+    "중국 브랜드 위협 267건 감지(전주 대비 +3.5%): TCL/Hisense TV 공세와 함께 Midea/Haier의 가전(냉장고·세탁기) 공격적 가격 전략이 브라질·호주·영국·사우디 등 다수 시장에서 확대 중"
+  ],
+  "links": {
+    "html": "./2026-03-08/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-08_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-03-08_R2_16country.md",
+    "share": "./2026-03-08/share.html"
+  }
+}
