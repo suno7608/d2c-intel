@@ -100,38 +100,14 @@ DEFAULT_FROM_NAME = "D2C Global Intelligence"
 # Extract Executive Summary from Markdown
 # ──────────────────────────────────────────────────────────────
 
-def extract_executive_summary(md_path: Path) -> str:
-    """Markdown에서 경영진 요약 섹션을 추출하여 HTML로 변환합니다."""
-    if not md_path.exists():
-        return "<p>리포트가 성공적으로 생성되었습니다. 첨부된 PDF를 확인하세요.</p>"
-
-    text = md_path.read_text(encoding="utf-8")
-
-    # 섹션 1 (경영진 요약) 추출
-    match = re.search(
-        r"##\s*1\.\s*경영진 요약(.*?)(?=##\s*2\.|$)",
-        text, re.DOTALL
-    )
-    if not match:
-        match = re.search(
-            r"##\s*1\.\s*Executive Summary(.*?)(?=##\s*2\.|$)",
-            text, re.DOTALL
-        )
-    if not match:
-        return "<p>리포트가 성공적으로 생성되었습니다. 첨부된 PDF를 확인하세요.</p>"
-
-    section = match.group(1).strip()
-
-    # Markdown → HTML 변환 (li를 ul로 감싸기, 서브섹션 필터링)
-    html_lines = []
+def _md_block_to_html(lines: list[str]) -> str:
+    """Markdown 라인 리스트를 이메일용 HTML로 변환."""
+    html = []
     in_list = False
 
-    for line in section.split("\n"):
+    for line in lines:
         line = line.strip()
         if not line or line.startswith("---") or line.startswith("<!-- "):
-            continue
-        # 서브섹션 (1.1, 1.2 등)은 이메일에서 생략
-        if re.match(r"^###\s*1\.\d", line):
             continue
         if line.startswith("|"):
             continue
@@ -139,32 +115,95 @@ def extract_executive_summary(md_path: Path) -> str:
         is_item = line.startswith("- ") or re.match(r"^\d+\.\s", line)
 
         if is_item and not in_list:
-            html_lines.append('<ul style="margin:8px 0;padding-left:20px;color:#1e293b;">')
+            html.append('<ul style="margin:8px 0;padding-left:20px;color:#1e293b;">')
             in_list = True
         elif not is_item and in_list:
-            html_lines.append("</ul>")
+            html.append("</ul>")
             in_list = False
 
-        if line.startswith("### 핵심 인사이트") or line.startswith("### Key Insight"):
-            html_lines.append('<h3 style="color:#0b4f88;font-size:15px;margin:20px 0 8px;">📊 핵심 인사이트</h3>')
-        elif line.startswith("### 실행 필요") or line.startswith("### Action Required"):
-            html_lines.append('<h3 style="color:#92400e;font-size:15px;margin:20px 0 8px;">⚡ 실행 필요</h3>')
-        elif line.startswith("### "):
-            html_lines.append(f'<h3 style="color:#334155;font-size:14px;margin:16px 0 6px;">{line[4:]}</h3>')
-        elif line.startswith("- "):
+        if line.startswith("- "):
             text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line[2:])
-            html_lines.append(f'<li style="margin-bottom:8px;line-height:1.6;color:#1e293b;font-size:14px;">{text}</li>')
+            html.append(f'<li style="margin-bottom:8px;line-height:1.6;color:#1e293b;font-size:14px;">{text}</li>')
         elif re.match(r"^\d+\.\s", line):
             text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', re.sub(r'^[0-9]+\.\s*', '', line))
-            html_lines.append(f'<li style="margin-bottom:8px;line-height:1.6;color:#1e293b;font-size:14px;">{text}</li>')
+            html.append(f'<li style="margin-bottom:8px;line-height:1.6;color:#1e293b;font-size:14px;">{text}</li>')
         else:
             text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line)
-            html_lines.append(f'<p style="margin:6px 0;line-height:1.6;color:#334155;font-size:14px;">{text}</p>')
+            html.append(f'<p style="margin:6px 0;line-height:1.6;color:#334155;font-size:14px;">{text}</p>')
 
     if in_list:
-        html_lines.append("</ul>")
+        html.append("</ul>")
+    return "\n".join(html)
 
-    return "\n".join(html_lines)
+
+def extract_executive_summary(md_path: Path) -> str:
+    """Markdown에서 각 섹션의 핵심 인사이트 + 실행 필요를 추출하여 HTML로 변환합니다."""
+    if not md_path.exists():
+        return "<p>리포트가 성공적으로 생성되었습니다. 첨부된 PDF를 확인하세요.</p>"
+
+    text = md_path.read_text(encoding="utf-8")
+
+    # 섹션 제목 매핑
+    sections = [
+        ("1", "경영진 요약", "Executive Summary", "📋"),
+        ("2", "핵심 경보", "Key Alerts", "🚨"),
+        ("3", "핵심 법인 풀 커버리지 대시보드", "Key Market Dashboard", "🌍"),
+        ("4", "중국 브랜드 위협 보고", "Chinese Brand Threat", "🇨🇳"),
+    ]
+
+    html_parts = []
+
+    for sec_num, title_ko, title_en, emoji in sections:
+        # 섹션 찾기 (## N. 제목 ~ ## N+1.)
+        next_num = str(int(sec_num) + 1)
+        pattern = rf"##\s*{sec_num}\.\s*(?:{re.escape(title_ko)}|{re.escape(title_en)})(.*?)(?=##\s*{next_num}\.|$)"
+        match = re.search(pattern, text, re.DOTALL)
+        if not match:
+            continue
+
+        section_text = match.group(1)
+
+        # 핵심 인사이트 추출
+        insight_match = re.search(
+            r"###\s*핵심 인사이트(.*?)(?=###|$)",
+            section_text, re.DOTALL
+        )
+        # 실행 필요 추출
+        action_match = re.search(
+            r"###\s*실행 필요(.*?)(?=###|$)",
+            section_text, re.DOTALL
+        )
+
+        if not insight_match and not action_match:
+            continue
+
+        # 섹션 헤더
+        html_parts.append(
+            f'<div style="margin-top:24px;padding-top:16px;border-top:1px solid #e2e8f0;">'
+            f'<h3 style="color:#0f172a;font-size:15px;margin:0 0 12px;">'
+            f'{emoji} {sec_num}. {title_ko}</h3>'
+        )
+
+        if insight_match:
+            lines = insight_match.group(1).strip().split("\n")
+            html_parts.append(
+                '<h4 style="color:#0b4f88;font-size:14px;margin:12px 0 6px;">📊 핵심 인사이트</h4>'
+            )
+            html_parts.append(_md_block_to_html(lines))
+
+        if action_match:
+            lines = action_match.group(1).strip().split("\n")
+            html_parts.append(
+                '<h4 style="color:#92400e;font-size:14px;margin:12px 0 6px;">⚡ 실행 필요</h4>'
+            )
+            html_parts.append(_md_block_to_html(lines))
+
+        html_parts.append("</div>")
+
+    if not html_parts:
+        return "<p>리포트가 성공적으로 생성되었습니다. 첨부된 PDF를 확인하세요.</p>"
+
+    return "\n".join(html_parts)
 
 
 # ──────────────────────────────────────────────────────────────
