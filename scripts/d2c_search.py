@@ -89,6 +89,23 @@ PILLAR_MAP = {
 
 CHINESE_BRANDS = {"tcl", "hisense", "haier", "midea"}
 
+# Pre-compiled keyword sets for pillar classification (performance optimization)
+_PROMO_KW = frozenset({
+    "deal", "promotion", "discount", "sale", "coupon", "offer",
+    "promo", "offerta", "oferta", "angebot", "promoção", "โปรโมชั่น",
+    "優惠", "折扣", "soldes", "rabatt", "sconto",
+})
+_PRICE_KW = frozenset({
+    "price", "vs", "comparison", "pricing", "preis", "prix",
+    "precio", "prezzo", "preço", "ราคา", "價格", "比較",
+})
+_SENTIMENT_KW = frozenset({
+    "review", "complaint", "problem", "issue", "experience",
+    "broken", "regret", "worst", "refund", "고장",
+    "bewertung", "avis", "reseña", "recensione", "avaliação",
+    "รีวิว", "評價",
+})
+
 
 class BraveSearchCollector:
     """Brave Search API를 사용하여 D2C 데이터를 수집합니다."""
@@ -216,29 +233,15 @@ class BraveSearchCollector:
         """검색 결과의 pillar를 분류합니다."""
         text = f"{title} {snippet} {query}".lower()
 
-        # Chinese brand detection
         if any(brand in text for brand in CHINESE_BRANDS):
             return "chinese_brand_threat"
-
-        promo_kw = {"deal", "promotion", "discount", "sale", "coupon", "offer",
-                     "promo", "offerta", "oferta", "angebot", "promoção", "โปรโมชั่น",
-                     "優惠", "折扣", "soldes", "rabatt", "sconto"}
-        if any(kw in text for kw in promo_kw):
+        if any(kw in text for kw in _PROMO_KW):
             return "retail_channel_promotion"
-
-        price_kw = {"price", "vs", "comparison", "pricing", "preis", "prix",
-                     "precio", "prezzo", "preço", "ราคา", "價格", "比較"}
-        if any(kw in text for kw in price_kw):
+        if any(kw in text for kw in _PRICE_KW):
             return "price_intelligence"
-
-        sentiment_kw = {"review", "complaint", "problem", "issue", "experience",
-                        "broken", "regret", "worst", "refund", "고장",
-                        "bewertung", "avis", "reseña", "recensione", "avaliação",
-                        "รีวิว", "評價"}
-        if any(kw in text for kw in sentiment_kw):
+        if any(kw in text for kw in _SENTIMENT_KW):
             return "consumer_sentiment"
-
-        return "consumer_sentiment"  # default
+        return "consumer_sentiment"
 
     def detect_brand(self, title: str, snippet: str) -> str:
         """검색 결과에서 브랜드를 감지합니다."""
@@ -250,11 +253,10 @@ class BraveSearchCollector:
             "bosch": "Bosch", "electrolux": "Electrolux", "xiaomi": "Xiaomi",
             "海爾": "Haier", "美的": "Midea", "海信": "Hisense",
         }
-        found = []
         for kw, brand in brand_map.items():
             if kw in text:
-                found.append(brand)
-        return found[0] if found else "LG"
+                return brand
+        return "LG"
 
     def detect_confidence(self, result: dict) -> str:
         """검색 결과의 신뢰도를 평가합니다."""
@@ -453,6 +455,9 @@ class BraveSearchCollector:
 
         # ── Round 1-5: 제품별 × 국가별 검색 ──
         for product_cfg in products:
+            if self.quota_exhausted:
+                logger.warning("Quota exhausted — skipping remaining products")
+                break
             product_name = product_cfg["name"]
             logger.info(f"=== Collecting: {product_name} ===")
 
@@ -620,7 +625,7 @@ def supplement_collection(
 
 def main():
     # Date key
-    if len(sys.argv) > 1 and re.match(r"\d{4}-\d{2}-\d{2}", sys.argv[1]):
+    if len(sys.argv) > 1 and re.fullmatch(r"\d{4}-\d{2}-\d{2}", sys.argv[1]):
         date_key = sys.argv[1]
     else:
         date_key = date.today().isoformat()

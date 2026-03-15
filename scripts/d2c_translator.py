@@ -64,20 +64,42 @@ def main():
 
 Output markdown only."""
 
-    # Call Claude API
+    # Call Claude API with timeout and retry
     print(f"Translating with {model}...", file=sys.stderr)
     client = anthropic.Anthropic(api_key=api_key)
 
-    try:
-        # Streaming to avoid SDK 10-min timeout on large outputs
-        with client.messages.stream(
-            model=model,
-            max_tokens=16000,
-            messages=[{"role": "user", "content": user_prompt}],
-        ) as stream:
-            response = stream.get_final_message()
-    except anthropic.APIError as e:
-        print(f"Claude API error: {e}", file=sys.stderr)
+    import time as _time
+    max_retries = 3
+    response = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            with client.messages.stream(
+                model=model,
+                max_tokens=16000,
+                messages=[{"role": "user", "content": user_prompt}],
+                timeout=600.0,
+            ) as stream:
+                response = stream.get_final_message()
+            break
+        except anthropic.APIStatusError as e:
+            if e.status_code in (429, 500, 502, 503, 529) and attempt < max_retries:
+                wait = 2 ** attempt * 5
+                print(f"API error (status={e.status_code}), retrying in {wait}s [{attempt}/{max_retries}]", file=sys.stderr)
+                _time.sleep(wait)
+                continue
+            print(f"Claude API error: {e}", file=sys.stderr)
+            sys.exit(1)
+        except anthropic.APIError as e:
+            if attempt < max_retries:
+                wait = 2 ** attempt * 5
+                print(f"API error, retrying in {wait}s [{attempt}/{max_retries}]: {e}", file=sys.stderr)
+                _time.sleep(wait)
+                continue
+            print(f"Claude API error: {e}", file=sys.stderr)
+            sys.exit(1)
+
+    if response is None:
+        print("Claude API returned no response after retries", file=sys.stderr)
         sys.exit(1)
 
     content = response.content[0].text if response.content else ""

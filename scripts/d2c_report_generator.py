@@ -126,31 +126,55 @@ def compute_report_period(date_key: str) -> Tuple[str, str]:
     return start.isoformat(), end.isoformat()
 
 
-def summarize_data(records: List[dict]) -> str:
-    """JSONL 데이터를 Claude 프롬프트용 요약 문자열로 변환합니다."""
-    # 통계 계산
-    total = len(records)
-    countries = Counter(r.get("country", "?") for r in records)
-    products = Counter(r.get("product", "?") for r in records)
-    pillars = Counter(r.get("pillar", "?") for r in records)
-    brands = Counter(r.get("brand", "?") for r in records)
+def _sanitize_prompt_data(text: str) -> str:
+    """사용자 제공 데이터에서 프롬프트 인젝션 시도를 방지합니다."""
+    if not text:
+        return ""
+    # Remove potential prompt injection patterns
+    text = re.sub(r"```", "", text)
+    text = re.sub(r"\{\{.*?\}\}", "", text)
+    text = re.sub(r"<\s*/?\s*(?:system|assistant|user|human)\s*>", "", text, flags=re.IGNORECASE)
+    return text
 
-    chinese_records = [r for r in records if r.get("brand", "").lower() in CHINESE_BRANDS]
-    chinese_by_country = Counter(r.get("country", "?") for r in chinese_records)
-    chinese_by_product = Counter(r.get("product", "?") for r in chinese_records)
+
+def summarize_data(records: List[dict]) -> str:
+    """JSONL 데이터를 Claude 프롬프트용 요약 문자열로 변환합니다 (단일 패스 최적화)."""
+    total = len(records)
+    countries: Counter = Counter()
+    products: Counter = Counter()
+    pillars: Counter = Counter()
+    brands: Counter = Counter()
+    chinese_by_country: Counter = Counter()
+    chinese_by_product: Counter = Counter()
+    chinese_count = 0
+    negative_count = 0
+    promo_count = 0
 
     negative_kw = {"complaint", "problem", "issue", "broken", "refund", "negative"}
-    negative_records = [
-        r for r in records
-        if any(kw in (r.get("signal_type", "") + r.get("quote_original", "")).lower()
-               for kw in negative_kw)
-    ]
+    promo_kw = {"promo", "promotion", "deal", "discount", "retail channel"}
 
-    promo_records = [
-        r for r in records
-        if any(kw in (r.get("signal_type", "") + r.get("pillar", "")).lower()
-               for kw in {"promo", "promotion", "deal", "discount", "retail channel"})
-    ]
+    # Single-pass classification for all counters
+    for r in records:
+        country = r.get("country", "?")
+        product = r.get("product", "?")
+        brand = r.get("brand", "?")
+        countries[country] += 1
+        products[product] += 1
+        pillars[r.get("pillar", "?")] += 1
+        brands[brand] += 1
+
+        if brand.lower() in CHINESE_BRANDS:
+            chinese_count += 1
+            chinese_by_country[country] += 1
+            chinese_by_product[product] += 1
+
+        combined_lower = (r.get("signal_type", "") + r.get("quote_original", "")).lower()
+        if any(kw in combined_lower for kw in negative_kw):
+            negative_count += 1
+
+        pillar_signal = (r.get("signal_type", "") + r.get("pillar", "")).lower()
+        if any(kw in pillar_signal for kw in promo_kw):
+            promo_count += 1
 
     summary = []
     summary.append(f"## 수집 데이터 요약 (총 {total}건)")
@@ -175,12 +199,12 @@ def summarize_data(records: List[dict]) -> str:
     for b, cnt in brands.most_common(10):
         summary.append(f"- {b}: {cnt}건")
 
-    summary.append(f"\n### 중국 브랜드 위협: {len(chinese_records)}건")
+    summary.append(f"\n### 중국 브랜드 위협: {chinese_count}건")
     for c, cnt in chinese_by_country.most_common():
         summary.append(f"- {COUNTRY_FLAG.get(c, '')} {c}: {cnt}건")
 
-    summary.append(f"\n### 부정 소비자 반응: {len(negative_records)}건")
-    summary.append(f"### LG 프로모션 감지: {len(promo_records)}건")
+    summary.append(f"\n### 부정 소비자 반응: {negative_count}건")
+    summary.append(f"### LG 프로모션 감지: {promo_count}건")
 
     return "\n".join(summary)
 
@@ -251,7 +275,7 @@ def generate_report_with_claude(
 - 국가 수: {prev_stats.get('countries', 'N/A')}개
 """
 
-    # 전체 raw 데이터 (최대 토큰 관리를 위해 핵심 필드만)
+    # 전체 raw 데이터 (최대 토큰 관리를 위해 핵심 필드만 + 프롬프트 인젝션 방어)
     raw_lines = []
     for r in records:
         compact = {
@@ -260,7 +284,7 @@ def generate_report_with_claude(
             "pillar": r.get("pillar"),
             "brand": r.get("brand"),
             "signal_type": r.get("signal_type"),
-            "value": r.get("value", "")[:300],
+            "value": _sanitize_prompt_data(r.get("value", ""))[:300],
             "source_url": r.get("source_url", ""),
             "confidence": r.get("confidence"),
         }
@@ -322,18 +346,40 @@ def generate_report_with_claude(
     logger.info(f"System prompt: {len(system_prompt)} chars")
     logger.info(f"User prompt: {len(user_prompt)} chars")
 
-    try:
-        # Streaming to avoid SDK 10-min timeout on large outputs
-        with client.messages.stream(
-            model=model,
-            max_tokens=16000,
-            system=system_prompt,
-            messages=[{"role": "user", "content": user_prompt}],
-        ) as stream:
-            response = stream.get_final_message()
-    except anthropic.APIError as e:
-        logger.error(f"Claude API error: {e}")
-        raise
+    max_retries = 3
+    response = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            with client.messages.stream(
+                model=model,
+                max_tokens=16000,
+                system=system_prompt,
+                messages=[{"role": "user", "content": user_prompt}],
+                timeout=600.0,
+            ) as stream:
+                response = stream.get_final_message()
+            break
+        except anthropic.APIStatusError as e:
+            if e.status_code in (429, 500, 502, 503, 529) and attempt < max_retries:
+                wait = 2 ** attempt * 5
+                logger.warning(f"Claude API error (status={e.status_code}), retrying in {wait}s [{attempt}/{max_retries}]")
+                import time
+                time.sleep(wait)
+                continue
+            logger.error(f"Claude API error: {e}")
+            raise
+        except anthropic.APIError as e:
+            if attempt < max_retries:
+                wait = 2 ** attempt * 5
+                logger.warning(f"Claude API error, retrying in {wait}s [{attempt}/{max_retries}]: {e}")
+                import time
+                time.sleep(wait)
+                continue
+            logger.error(f"Claude API error: {e}")
+            raise
+
+    if response is None:
+        raise RuntimeError("Claude API returned no response after retries")
 
     # 응답 추출
     content = response.content[0].text if response.content else ""
@@ -419,7 +465,7 @@ def validate_report(md: str, records: List[dict]) -> List[str]:
 
 def main():
     # Date key
-    if len(sys.argv) > 1 and re.match(r"\d{4}-\d{2}-\d{2}", sys.argv[1]):
+    if len(sys.argv) > 1 and re.fullmatch(r"\d{4}-\d{2}-\d{2}", sys.argv[1]):
         date_key = sys.argv[1]
     else:
         date_key = date.today().isoformat()

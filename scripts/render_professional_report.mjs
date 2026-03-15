@@ -53,7 +53,15 @@ function resolveTocLevel(level, text) {
   return level;
 }
 
+function sanitizeMarkdown(md) {
+  // Remove script tags and event handlers to prevent XSS
+  return md
+    .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+    .replace(/\bon\w+\s*=\s*["'][^"']*["']/gi, '');
+}
+
 function renderMarkdown(md, lang) {
+  md = sanitizeMarkdown(md);
   const toc = [];
   let hCount = 0;
   const renderer = new marked.Renderer();
@@ -103,6 +111,10 @@ function buildHtml({title,subtitle,period,body,toc,lang,isMonthly}) {
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+<meta http-equiv="X-Frame-Options" content="SAMEORIGIN"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self';"/>
+<meta name="referrer" content="strict-origin-when-cross-origin"/>
 <title>${escapeHtml(title)}</title>
 <style>
 :root{--bg:#f6f8fb;--paper:#fff;--ink:#0f172a;--muted:#475569;--line:#dbe2ea;--brand:#005a9c;--alert:#b91c1c;--warn:#a16207;--ok:#166534;--shadow:0 10px 30px rgba(15,23,42,.08)}

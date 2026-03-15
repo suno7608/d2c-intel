@@ -4,6 +4,12 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 DATE_KEY="${1:-$(TZ=Asia/Seoul date +%F)}"
 
+# Validate DATE_KEY format to prevent path traversal
+if ! [[ "$DATE_KEY" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+  echo "Invalid DATE_KEY format: $DATE_KEY (expected YYYY-MM-DD)" >&2
+  exit 1
+fi
+
 RAW_FILE="$ROOT_DIR/data/raw/openclaw_${DATE_KEY}.jsonl"
 FALLBACK_MARKER="$ROOT_DIR/data/raw/openclaw_${DATE_KEY}.fallback_from"
 KO_MD="$ROOT_DIR/reports/md/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}_claude.md"
@@ -92,13 +98,20 @@ PY
   fi
 fi
 
-records="$(wc -l < "$RAW_FILE" | tr -d ' ')"
-countries="$(jq -r '.country // empty' "$RAW_FILE" 2>/dev/null | sort -u | wc -l | tr -d ' ')"
-tv_count="$(jq -r '.product // empty' "$RAW_FILE" | awk 'BEGIN{n=0} tolower($0)=="tv"{n++} END{print n+0}')"
-fridge_count="$(jq -r '.product // empty' "$RAW_FILE" | awk 'BEGIN{n=0} tolower($0)=="refrigerator"{n++} END{print n+0}')"
-washer_count="$(jq -r '.product // empty' "$RAW_FILE" | awk 'BEGIN{n=0} tolower($0)=="washing machine"{n++} END{print n+0}')"
-monitor_count="$(jq -r '.product // empty' "$RAW_FILE" | awk 'BEGIN{n=0} tolower($0)=="monitor"{n++} END{print n+0}')"
-gram_count="$(jq -r '.product // empty' "$RAW_FILE" | awk 'BEGIN{n=0} tolower($0)=="lg gram"{n++} END{print n+0}')"
+# Single-pass jq to extract all stats at once (6x fewer file reads)
+read -r records countries tv_count fridge_count washer_count monitor_count gram_count < <(
+  jq -r -s '
+    length as $total |
+    [.[] | .country // empty] | unique | length as $countries |
+    [.[] | .product // empty | ascii_downcase] as $prods |
+    ($prods | map(select(. == "tv")) | length) as $tv |
+    ($prods | map(select(. == "refrigerator")) | length) as $fridge |
+    ($prods | map(select(. == "washing machine")) | length) as $washer |
+    ($prods | map(select(. == "monitor")) | length) as $monitor |
+    ($prods | map(select(. == "lg gram")) | length) as $gram |
+    "\($total) \($countries) \($tv) \($fridge) \($washer) \($monitor) \($gram)"
+  ' "$RAW_FILE" 2>/dev/null || echo "0 0 0 0 0 0 0"
+)
 tv_ratio="$(awk -v tv="$tv_count" -v total="$records" 'BEGIN{if(total==0){print 0}else{printf "%.1f", (tv*100)/total}}')"
 
 [[ "$records" -ge "$MIN_RECORDS" ]] && pass "record count ${records} >= ${MIN_RECORDS}" || fail "record count ${records} < ${MIN_RECORDS}"
