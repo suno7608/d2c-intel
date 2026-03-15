@@ -5,25 +5,25 @@
     "end": "2026-03-14"
   },
   "version": "Weekly Vol.2026-03-15-R2",
-  "generated_at": "2026-03-15T01:55:06.808Z",
+  "generated_at": "2026-03-15T04:02:29.642Z",
   "metrics": {
-    "covered_countries": 13,
-    "lg_promotion_signals": 302,
-    "competitor_promotion_signals": 7,
-    "chinese_threat_signals": 12,
-    "consumer_negative_countries": 0,
+    "covered_countries": 15,
+    "lg_promotion_signals": 374,
+    "competitor_promotion_signals": 11,
+    "chinese_threat_signals": 13,
+    "consumer_negative_countries": 48,
     "critical_country_count": 4
   },
   "critical_countries": [
     "🇺🇸 미국 (US)",
     "🇩🇪 독일 (DE)",
-    "🇪🇸 스페인 (ES)",
-    "🇦🇺 호주 (AU)"
+    "🇦🇺 호주 (AU)",
+    "🇹🇷 튀르키예 (TR)"
   ],
   "executive_key_insights": [
-    "**LG 2025 모델 재고 정리 가속화**: 미국·유럽 주요 리테일러에서 B5/C5 OLED TV 최대 53% 할인(77\" $1,399) 적용 중이며, 2026 C6/G6 라인업 가격 발표로 전환 수요 촉진 예상",
-    "**중국 브랜드 다각화 위협 심화**: TCL·Hisense TV 공세 지속 중, Haier·Midea가 냉장고·세탁기 시장에서 16개국 전방위 확장 공략—호주·영국·캐나다에서 유통 채널 점유율 확대",
-    "**생활가전 A/S 불만 신호 감지**: 미국 냉장고 제빙기 고장 관련 소비자 불만 증가세, 세탁기 신뢰도 조사에서 LG 상위 랭크되나 경쟁사 대비 가격 프리미엄 이슈 부상"
+    "**중국 브랜드 다면 위협 심화**: TCL/Hisense의 TV 공세와 더불어 Haier/Midea의 냉장고·세탁기 시장 침투가 16개국 전역에서 동시다발적으로 감지되며, 생활가전(HS) 부문의 방어 전략 재정비가 시급함",
+    "**LG 프로모션 효과 검증 필요**: 전주 대비 LG 프로모션 건수 28% 증가(292→374건)에도 불구하고 부정 소비자 반응 57건이 신규 발생하여, 할인 위주 전략의 브랜드 가치 영향 모니터링 필요",
+    "**OLED TV 프리미엄 포지션 유지 중**: G6/C6 가격 공개 후 유럽·북미 전문 매체 호평이 지속되나, TCL의 공격적 Mini-LED 가격 전략(美 $999/85인치)이 중가 시장 이탈 리스크를 높이고 있음"
   ],
   "links": {
     "html": "./2026-03-15/index.html",
