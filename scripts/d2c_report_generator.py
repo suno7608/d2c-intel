@@ -52,19 +52,21 @@ DEFAULT_MODEL = "claude-opus-4-5-20251101"
 
 COUNTRY_ORDER = [
     "US", "CA", "UK", "DE", "FR", "ES", "IT", "BR",
-    "MX", "CL", "TH", "AU", "TW", "SG", "EG", "SA",
+    "MX", "CL", "TH", "AU", "TW", "SG", "EG", "SA", "TR",
 ]
 COUNTRY_FLAG = {
     "US": "🇺🇸", "CA": "🇨🇦", "UK": "🇬🇧", "DE": "🇩🇪",
     "FR": "🇫🇷", "ES": "🇪🇸", "IT": "🇮🇹", "BR": "🇧🇷",
     "MX": "🇲🇽", "CL": "🇨🇱", "TH": "🇹🇭", "AU": "🇦🇺",
     "TW": "🇹🇼", "SG": "🇸🇬", "EG": "🇪🇬", "SA": "🇸🇦",
+    "TR": "🇹🇷",
 }
 COUNTRY_NAME_KO = {
     "US": "미국", "CA": "캐나다", "UK": "영국", "DE": "독일",
     "FR": "프랑스", "ES": "스페인", "IT": "이탈리아", "BR": "브라질",
     "MX": "멕시코", "CL": "칠레", "TH": "태국", "AU": "호주",
     "TW": "대만", "SG": "싱가포르", "EG": "이집트", "SA": "사우디아라비아",
+    "TR": "튀르키예",
 }
 PRODUCT_ORDER = ["TV", "Refrigerator", "Washing Machine", "Monitor", "LG gram"]
 CHINESE_BRANDS = {"tcl", "hisense", "haier", "midea"}
