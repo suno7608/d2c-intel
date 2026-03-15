@@ -50,6 +50,8 @@ logging.basicConfig(
 logger = logging.getLogger("d2c_search")
 
 BRAVE_SEARCH_URL = "https://api.search.brave.com/res/v1/web/search"
+DDG_SEARCH_URL = "https://api.duckduckgo.com/"
+DDG_HTML_URL = "https://html.duckduckgo.com/html/"
 
 # ──────────────────────────────────────────────────────────────
 # Brave Search API
@@ -832,8 +834,183 @@ class BraveSearchCollector:
 
             logger.info(f"Round 8 complete: {len(all_records)} total records")
 
+        logger.info(f"Rounds 1-8 complete: {len(all_records)} records, {self.total_api_calls} API calls")
+
+        # ── Round 9: DuckDuckGo 보조 검색 (Brave 결과 보강) ──
+        if os.environ.get("ENABLE_DDG_SUPPLEMENT", "1") == "1":
+            ddg_records = self._collect_ddg_supplement(all_records, countries, products, collected_at)
+            all_records.extend(ddg_records)
+            if ddg_records:
+                logger.info(f"Round 9 (DDG) complete: +{len(ddg_records)} records → {len(all_records)} total")
+
         logger.info(f"All rounds complete: {len(all_records)} records, {self.total_api_calls} API calls")
         return all_records
+
+    def _search_ddg(self, query: str, max_results: int = 10) -> List[dict]:
+        """DuckDuckGo 검색 (API 키 불필요, 속도 제한 관대).
+
+        1차: DDG HTML 엔드포인트 (웹 검색 결과 직접 파싱)
+        2차: DDG Instant Answer API (관련 주제에서 URL 추출)
+        """
+        results = []
+
+        # ── Method 1: DDG HTML endpoint ──
+        try:
+            time.sleep(1.5)
+            resp = requests.post(
+                DDG_HTML_URL,
+                data={"q": query, "b": ""},
+                headers={
+                    "User-Agent": (
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 (KHTML, like Gecko) "
+                        "Chrome/131.0.0.0 Safari/537.36"
+                    ),
+                    "Referer": "https://duckduckgo.com/",
+                    "Accept": "text/html,application/xhtml+xml",
+                    "Accept-Language": "en-US,en;q=0.9",
+                },
+                timeout=10,
+                allow_redirects=True,
+            )
+            if resp.status_code == 200:
+                html = resp.text
+                # Multiple patterns for DDG HTML result parsing
+                # Pattern 1: result__a links
+                blocks = re.findall(
+                    r'href="([^"]*)"[^>]*class="[^"]*result__a[^"]*"[^>]*>(.*?)</a>',
+                    html, re.DOTALL
+                )
+                if not blocks:
+                    # Pattern 2: reverse attr order
+                    blocks = re.findall(
+                        r'class="[^"]*result__a[^"]*"[^>]*href="([^"]*)"[^>]*>(.*?)</a>',
+                        html, re.DOTALL
+                    )
+                if not blocks:
+                    # Pattern 3: any link with result class
+                    blocks = re.findall(
+                        r'<a[^>]*class="[^"]*result[^"]*"[^>]*href="([^"]*)"[^>]*>(.*?)</a>',
+                        html, re.DOTALL
+                    )
+
+                snippets = re.findall(
+                    r'class="[^"]*result__snippet[^"]*"[^>]*>(.*?)</(?:a|td|div|span)',
+                    html, re.DOTALL
+                )
+
+                for i, (url_raw, title_raw) in enumerate(blocks[:max_results]):
+                    title = re.sub(r'<[^>]+>', '', title_raw).strip()
+                    snippet = re.sub(r'<[^>]+>', '', snippets[i]).strip() if i < len(snippets) else ""
+                    url = url_raw
+                    # Decode DDG redirect URLs
+                    if "uddg=" in url:
+                        m = re.search(r'uddg=([^&]+)', url)
+                        if m:
+                            from urllib.parse import unquote
+                            url = unquote(m.group(1))
+                    if title and url.startswith("http"):
+                        results.append({
+                            "url": url,
+                            "title": title,
+                            "description": snippet,
+                        })
+
+        except Exception as e:
+            logger.debug(f"DDG HTML search failed for '{query}': {e}")
+
+        # ── Method 2: DDG Instant Answer API (fallback) ──
+        if not results:
+            try:
+                time.sleep(1.0)
+                resp = requests.get(
+                    DDG_SEARCH_URL,
+                    params={"q": query, "format": "json", "no_redirect": "1", "no_html": "1"},
+                    headers={"User-Agent": "D2C-Intel/2.0 (Market Intelligence)"},
+                    timeout=10,
+                )
+                if resp.status_code == 200:
+                    data = resp.json()
+                    # Extract from RelatedTopics
+                    for topic in data.get("RelatedTopics", [])[:max_results]:
+                        if isinstance(topic, dict) and "FirstURL" in topic:
+                            results.append({
+                                "url": topic["FirstURL"],
+                                "title": topic.get("Text", "")[:200],
+                                "description": topic.get("Text", "")[:500],
+                            })
+                    # Extract from Results
+                    for r in data.get("Results", [])[:max_results]:
+                        if isinstance(r, dict) and "FirstURL" in r:
+                            results.append({
+                                "url": r["FirstURL"],
+                                "title": r.get("Text", "")[:200],
+                                "description": r.get("Text", "")[:500],
+                            })
+            except Exception as e:
+                logger.debug(f"DDG API search failed for '{query}': {e}")
+
+        return results[:max_results]
+
+    def _collect_ddg_supplement(
+        self, existing_records: List[dict],
+        countries: List[dict], products: List[dict],
+        collected_at: str,
+    ) -> List[dict]:
+        """DuckDuckGo로 Brave Search 결과를 보강합니다.
+
+        부족한 국가/제품 조합에 대해 DDG 검색을 수행하여 커버리지를 확대합니다.
+        API 키 불필요, 월 호출 제한 없음.
+        """
+        logger.info("=== Collecting: DuckDuckGo Supplement (Round 9) ===")
+
+        # Identify underrepresented country-product combos
+        combo_counts = {}
+        for r in existing_records:
+            key = f"{r['country']}|{r['product']}"
+            combo_counts[key] = combo_counts.get(key, 0) + 1
+
+        ddg_records = []
+        ddg_queries = 0
+        max_ddg_queries = int(os.environ.get("DDG_MAX_QUERIES", "30"))
+
+        for product_cfg in products:
+            product_name = product_cfg["name"]
+            for country_cfg in countries:
+                if ddg_queries >= max_ddg_queries:
+                    break
+                country = country_cfg["code"]
+                combo_key = f"{country}|{product_name}"
+
+                # Only supplement combos with < 3 records
+                if combo_counts.get(combo_key, 0) >= 3:
+                    continue
+
+                # Build query
+                lang = country_cfg.get("lang", "en")
+                queries = product_cfg.get("queries", {})
+                lang_queries = queries.get(lang, queries.get("en", []))
+                if not lang_queries:
+                    continue
+
+                query = lang_queries[0]  # Use first query
+                results = self._search_ddg(query, max_results=5)
+                ddg_queries += 1
+
+                for r in results:
+                    rec = self.build_record(r, country, product_name, "auto", query, collected_at)
+                    if rec:
+                        rec["search_engine"] = "duckduckgo"
+                        ddg_records.append(rec)
+
+                if results:
+                    logger.info(f"  {country} ({product_name}): +{len(results)} DDG results")
+
+            if ddg_queries >= max_ddg_queries:
+                break
+
+        logger.info(f"DDG supplement: {ddg_queries} queries, {len(ddg_records)} new records")
+        return ddg_records
 
 
 # ──────────────────────────────────────────────────────────────
