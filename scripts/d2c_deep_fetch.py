@@ -163,6 +163,51 @@ SITE_EXTRACTORS = {
             "temperature": ".vote-temp, .cept-vote-temp",
         },
     },
+    # E-commerce sites with JSON-LD (no CSS selectors needed, JSON-LD handles all)
+    "walmart.com": {
+        "type": "product",
+        "selectors": {},
+    },
+    "mediamarkt.de": {
+        "type": "product",
+        "selectors": {},
+    },
+    "saturn.de": {
+        "type": "product",
+        "selectors": {},
+    },
+    "fnac.com": {
+        "type": "product",
+        "selectors": {},
+    },
+    "elcorteingles.es": {
+        "type": "product",
+        "selectors": {},
+    },
+    "mediaworld.it": {
+        "type": "product",
+        "selectors": {},
+    },
+    "jbhifi.com.au": {
+        "type": "product",
+        "selectors": {},
+    },
+    "currys.co.uk": {
+        "type": "product",
+        "selectors": {},
+    },
+    "noon.com": {
+        "type": "product",
+        "selectors": {},
+    },
+    "lazada.sg": {
+        "type": "product",
+        "selectors": {},
+    },
+    "mercadolibre.com": {
+        "type": "product",
+        "selectors": {},
+    },
 }
 
 # Domains that need Stealthy/Dynamic fetcher (anti-bot protection)
@@ -219,8 +264,116 @@ def _extract_text(page, selector: str, limit: int = 5) -> List[str]:
     return results
 
 
+def _extract_json_ld(page) -> List[dict]:
+    """페이지에서 JSON-LD (Schema.org) 구조화 데이터를 추출합니다.
+
+    대부분의 이커머스 사이트가 SEO를 위해 <script type="application/ld+json">에
+    제품 가격, 평점, 리뷰수, 브랜드, 재고 정보를 구조화 JSON으로 제공합니다.
+    CSS 셀렉터보다 안정적이며 사이트 레이아웃 변경에도 강건합니다.
+    """
+    ld_items = []
+    try:
+        scripts = page.css('script[type="application/ld+json"]')
+        for script in scripts:
+            text = script.text.strip() if hasattr(script, 'text') else str(script).strip()
+            if not text:
+                continue
+            try:
+                data = json.loads(text)
+                # Handle @graph arrays
+                if isinstance(data, dict) and "@graph" in data:
+                    ld_items.extend(data["@graph"])
+                elif isinstance(data, list):
+                    ld_items.extend(data)
+                else:
+                    ld_items.append(data)
+            except (json.JSONDecodeError, ValueError):
+                continue
+    except Exception:
+        pass
+    return ld_items
+
+
+def _parse_schema_product(ld_items: List[dict]) -> Dict[str, Any]:
+    """Schema.org Product/Offer 데이터에서 구조화 필드를 추출합니다."""
+    result = {}
+
+    for item in ld_items:
+        item_type = item.get("@type", "")
+        if isinstance(item_type, list):
+            item_type = item_type[0] if item_type else ""
+
+        # Product schema
+        if item_type in ("Product", "IndividualProduct", "ProductModel"):
+            if "name" in item:
+                result["ld_product_name"] = item["name"]
+            if "brand" in item:
+                brand = item["brand"]
+                if isinstance(brand, dict):
+                    result["ld_brand"] = brand.get("name", "")
+                else:
+                    result["ld_brand"] = str(brand)
+            if "sku" in item:
+                result["ld_sku"] = item["sku"]
+            if "model" in item:
+                result["ld_model"] = item["model"]
+            if "gtin13" in item or "gtin" in item:
+                result["ld_gtin"] = item.get("gtin13") or item.get("gtin", "")
+            if "description" in item:
+                result["ld_description"] = str(item["description"])[:500]
+
+            # Aggregate rating
+            agg = item.get("aggregateRating", {})
+            if agg:
+                if "ratingValue" in agg:
+                    result["ld_rating"] = str(agg["ratingValue"])
+                if "reviewCount" in agg:
+                    result["ld_review_count"] = str(agg["reviewCount"])
+                if "bestRating" in agg:
+                    result["ld_rating_scale"] = str(agg["bestRating"])
+
+            # Offers (price, currency, availability)
+            offers = item.get("offers", {})
+            if isinstance(offers, list):
+                offers = offers[0] if offers else {}
+            if isinstance(offers, dict):
+                if "price" in offers:
+                    result["ld_price"] = str(offers["price"])
+                if "priceCurrency" in offers:
+                    result["ld_currency"] = offers["priceCurrency"]
+                if "availability" in offers:
+                    avail = offers["availability"]
+                    if isinstance(avail, str):
+                        result["ld_availability"] = avail.replace("https://schema.org/", "").replace("http://schema.org/", "")
+                if "lowPrice" in offers:
+                    result["ld_low_price"] = str(offers["lowPrice"])
+                if "highPrice" in offers:
+                    result["ld_high_price"] = str(offers["highPrice"])
+
+        # Review schema
+        elif item_type == "Review":
+            review_rating = item.get("reviewRating", {})
+            if review_rating and "ld_rating" not in result:
+                result["ld_rating"] = str(review_rating.get("ratingValue", ""))
+            if "reviewBody" in item and "ld_review_text" not in result:
+                result["ld_review_text"] = str(item["reviewBody"])[:500]
+
+        # AggregateRating standalone
+        elif item_type == "AggregateRating":
+            if "ratingValue" in item and "ld_rating" not in result:
+                result["ld_rating"] = str(item["ratingValue"])
+            if "reviewCount" in item:
+                result["ld_review_count"] = str(item["reviewCount"])
+
+    return result
+
+
 def deep_fetch_url(url: str, domain_key: str) -> Dict[str, Any]:
-    """단일 URL을 deep fetch하여 구조화 데이터를 추출합니다."""
+    """단일 URL을 deep fetch하여 구조화 데이터를 추출합니다.
+
+    1차: JSON-LD (Schema.org) 추출 — 가장 안정적이고 정확
+    2차: CSS 셀렉터 기반 추출 — JSON-LD에서 누락된 필드 보완
+    """
     config = SITE_EXTRACTORS[domain_key]
     selectors = config["selectors"]
     site_type = config["type"]
@@ -241,20 +394,39 @@ def deep_fetch_url(url: str, domain_key: str) -> Dict[str, Any]:
 
     enriched = {"deep_fetch_type": site_type, "deep_fetch_source": domain_key}
 
+    # ── Phase 1: JSON-LD extraction (most reliable) ──
+    ld_items = _extract_json_ld(page)
+    if ld_items:
+        ld_data = _parse_schema_product(ld_items)
+        if ld_data:
+            enriched.update(ld_data)
+            enriched["deep_fetch_method"] = "json-ld"
+            logger.debug(f"  JSON-LD extracted {len(ld_data)} fields from {domain_key}")
+
+    # ── Phase 2: CSS selector fallback (fills gaps) ──
     for field, selector in selectors.items():
+        deep_key = f"deep_{field}"
+        # Skip if JSON-LD already provided this data
+        if field == "rating" and "ld_rating" in enriched:
+            continue
+        if field == "price" and "ld_price" in enriched:
+            continue
+        if field == "review_count" and "ld_review_count" in enriched:
+            continue
+
         texts = _extract_text(page, selector)
         if texts:
             if field in ("rating", "price", "original_price", "discount",
                          "temperature", "upvotes", "votes", "thumbs_up",
                          "review_count", "status"):
-                enriched[f"deep_{field}"] = texts[0]
+                enriched[deep_key] = texts[0]
             elif field in ("pros", "cons", "comments"):
-                enriched[f"deep_{field}"] = texts[:10]
+                enriched[deep_key] = texts[:10]
             elif field in ("verdict", "post_body", "complaint_body",
                            "brand_response", "post_title", "complaint_title", "title"):
-                enriched[f"deep_{field}"] = " ".join(texts[:3])[:1000]
+                enriched[deep_key] = " ".join(texts[:3])[:1000]
             else:
-                enriched[f"deep_{field}"] = texts[0] if len(texts) == 1 else texts[:5]
+                enriched[deep_key] = texts[0] if len(texts) == 1 else texts[:5]
 
     return enriched
 
@@ -348,7 +520,23 @@ def enrich_records(records: List[dict], max_urls: int = 50,
                 site_type = enriched_data.get("deep_fetch_type", "unknown")
                 stats["by_type"][site_type] = stats["by_type"].get(site_type, 0) + 1
 
-                # Override shallow fields with deep data if available
+                # Override shallow fields with deep/JSON-LD data
+                # JSON-LD data (most reliable)
+                if "ld_rating" in enriched_data:
+                    scale = enriched_data.get("ld_rating_scale", "5")
+                    records[idx]["rating"] = f"{enriched_data['ld_rating']}/{scale}"
+                if "ld_price" in enriched_data and not records[idx].get("price_value"):
+                    records[idx]["price_value"] = enriched_data["ld_price"]
+                    if "ld_currency" in enriched_data:
+                        records[idx]["currency"] = enriched_data["ld_currency"]
+                if "ld_brand" in enriched_data and records[idx].get("brand") == "Unknown":
+                    records[idx]["brand"] = enriched_data["ld_brand"]
+                if "ld_review_count" in enriched_data:
+                    records[idx]["review_count"] = enriched_data["ld_review_count"]
+                if "ld_availability" in enriched_data:
+                    records[idx]["availability"] = enriched_data["ld_availability"]
+
+                # CSS fallback data
                 if "deep_rating" in enriched_data and not records[idx].get("rating"):
                     records[idx]["rating"] = enriched_data["deep_rating"]
                 if "deep_price" in enriched_data and not records[idx].get("price_value"):
