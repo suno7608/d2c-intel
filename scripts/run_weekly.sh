@@ -43,22 +43,24 @@ PRESERVE_ENV_VARS=(
   ENABLE_TEAMS_NOTIFY
 )
 
+declare -A _PRESET_VALUES=()
+declare -A _PRESET_SET=()
+
 preserve_env_overrides() {
   local name
   for name in "${PRESERVE_ENV_VARS[@]}"; do
     if [[ "${!name+x}" == "x" ]]; then
-      eval "PRESET_${name}=\${$name}"
-      eval "PRESET_${name}_SET=1"
+      _PRESET_VALUES["$name"]="${!name}"
+      _PRESET_SET["$name"]=1
     fi
   done
 }
 
 restore_env_overrides() {
-  local name marker
+  local name
   for name in "${PRESERVE_ENV_VARS[@]}"; do
-    marker="$(eval "printf '%s' \"\${PRESET_${name}_SET:-0}\"")"
-    if [[ "$marker" == "1" ]]; then
-      eval "export $name=\"\${PRESET_${name}}\""
+    if [[ "${_PRESET_SET[$name]:-0}" == "1" ]]; then
+      export "$name=${_PRESET_VALUES[$name]}"
     fi
   done
 }

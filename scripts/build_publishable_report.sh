@@ -3,6 +3,12 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 DATE_KEY="${1:-$(TZ=Asia/Seoul date +%F)}"
+
+# Validate DATE_KEY format to prevent path traversal
+if ! [[ "$DATE_KEY" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+  echo "Invalid DATE_KEY format: $DATE_KEY (expected YYYY-MM-DD)" >&2
+  exit 1
+fi
 SRC_MD="${2:-$ROOT_DIR/reports/md/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}_R2_16country.md}"
 OUT_MD_EN="$ROOT_DIR/reports/md/LG_Global_D2C_Weekly_Intelligence_${DATE_KEY}_en.md"
 
@@ -32,12 +38,25 @@ if ! command -v playwright >/dev/null 2>&1; then
   exit 1
 fi
 
-node --max-old-space-size=4096 "$ROOT_DIR/scripts/render_professional_report.mjs" "$SRC_MD" "$OUT_HTML" "ko"
+# Phase 1: KO rendering + translation + metadata extraction (parallel)
+node --max-old-space-size=4096 "$ROOT_DIR/scripts/render_professional_report.mjs" "$SRC_MD" "$OUT_HTML" "ko" &
+pid_ko=$!
+bash "$ROOT_DIR/scripts/translate_report_to_english.sh" "$SRC_MD" "$OUT_MD_EN" &
+pid_translate=$!
+node --max-old-space-size=4096 "$ROOT_DIR/scripts/extract_report_metadata.mjs" "$SRC_MD" "$DATE_KEY" "$OUT_META" &
+pid_meta=$!
+
+wait "$pid_ko" || { echo "KO render failed" >&2; exit 1; }
 cp "$OUT_HTML" "$OUT_HTML_DIR/index.html"
-bash "$ROOT_DIR/scripts/translate_report_to_english.sh" "$SRC_MD" "$OUT_MD_EN"
+
+wait "$pid_translate" || { echo "Translation failed" >&2; exit 1; }
+
+# Phase 2: EN rendering (needs translated file)
 node --max-old-space-size=4096 "$ROOT_DIR/scripts/render_professional_report.mjs" "$OUT_MD_EN" "$OUT_HTML_EN" "en"
 
-node --max-old-space-size=4096 "$ROOT_DIR/scripts/extract_report_metadata.mjs" "$SRC_MD" "$DATE_KEY" "$OUT_META"
+wait "$pid_meta" || { echo "Metadata extraction failed" >&2; exit 1; }
+
+# Phase 3: Manifest + hub (needs metadata)
 node --max-old-space-size=4096 "$ROOT_DIR/scripts/update_report_manifest.mjs" "$ROOT_DIR/reports/html" "$MANIFEST_FILE"
 node --max-old-space-size=4096 "$ROOT_DIR/scripts/render_reports_hub.mjs" "$MANIFEST_FILE" "$LATEST_HUB"
 

@@ -3,6 +3,12 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 DATE_KEY="${1:-$(TZ=Asia/Seoul date +%F)}"
+
+# Validate DATE_KEY format to prevent path traversal
+if ! [[ "$DATE_KEY" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+  echo "Invalid DATE_KEY format: $DATE_KEY (expected YYYY-MM-DD)" >&2
+  exit 1
+fi
 PROMPT_FILE="$ROOT_DIR/prompts/openclaw_collection_brief.md"
 OUTPUT_FILE="$ROOT_DIR/data/raw/openclaw_${DATE_KEY}.jsonl"
 META_FILE="$ROOT_DIR/logs/openclaw_${DATE_KEY}.log"

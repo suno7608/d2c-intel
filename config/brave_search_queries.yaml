@@ -1,8 +1,16 @@
 # ============================================================
-# D2C Intel — Brave Search Query Configuration (v1.0)
+# D2C Intel — Brave Search Query Configuration (v2.0)
 # ============================================================
 # 참조: prompts/openclaw_collection_brief.md
 # 이 파일은 scripts/d2c_search.py가 로드하여 Brave Search API 쿼리를 생성합니다.
+#
+# v2.0 변경사항:
+#   - 튀르키에(TR) 추가 (Tier 2)
+#   - 태국/이집트/사우디/싱가포르 쿼리 대폭 강화
+#   - 커뮤니티/포럼 반응 전용 쿼리 추가 (community_queries)
+#   - 경쟁사 동향/소비자 불만 전용 쿼리 추가
+#   - 터키어(tr) 쿼리 추가
+#   - 국가당 최소 5개 이상 쿼리 확보
 # ============================================================
 
 # --- 국가 설정 ---
@@ -54,6 +62,10 @@ countries:
     lang: ar
     tier: 2
     search_lang: en
+  - code: TR
+    lang: tr
+    tier: 2
+    search_lang: tr
 
   # Tier 3 (국가당 5-7건 목표)
   - code: MX
@@ -84,57 +96,61 @@ products:
     min_records: 80
     max_ratio: 0.45
     queries:
-      en: ["LG OLED TV deal", "LG QNED TV price", "LG UHD TV review", "TCL Mini LED price", "Hisense TV deal"]
-      de: ["LG OLED Fernseher Angebot", "Hisense TV Preis", "TCL TV Angebot"]
-      fr: ["LG TV OLED promo", "TCL TV prix", "Hisense TV offre"]
-      es: ["LG televisor OLED oferta", "Hisense TV precio", "TCL TV oferta"]
-      it: ["LG OLED TV offerta", "TCL TV prezzo", "Hisense TV offerta"]
-      pt: ["LG TV OLED promoção", "TCL TV preço"]
-      th: ["LG TV ราคา", "TCL TV ราคา", "Hisense ทีวี"]
-      zh: ["LG 電視 優惠", "海信 電視 價格"]
-      ar: ["LG TV price", "Hisense TV deal"]
+      en: ["LG OLED TV deal", "LG QNED TV price", "LG UHD TV review", "TCL Mini LED price", "Hisense TV deal", "Samsung TV vs LG TV 2026"]
+      de: ["LG OLED Fernseher Angebot", "Hisense TV Preis", "TCL TV Angebot", "Samsung TV vs LG Fernseher"]
+      fr: ["LG TV OLED promo", "TCL TV prix", "Hisense TV offre", "Samsung TV vs LG comparatif"]
+      es: ["LG televisor OLED oferta", "Hisense TV precio", "TCL TV oferta", "Samsung TV vs LG comparativa"]
+      it: ["LG OLED TV offerta", "TCL TV prezzo", "Hisense TV offerta", "Samsung TV vs LG confronto"]
+      pt: ["LG TV OLED promoção", "TCL TV preço", "Hisense TV Brasil", "Samsung TV vs LG TV"]
+      th: ["LG TV ราคา", "TCL TV ราคา", "Hisense ทีวี ราคา", "Samsung TV เปรียบเทียบ LG", "ทีวี OLED รีวิว"]
+      zh: ["LG 電視 優惠", "海信 電視 價格", "TCL 電視 比較 LG"]
+      ar: ["LG TV price", "Hisense TV deal", "Samsung TV vs LG", "TCL TV review"]
+      tr: ["LG OLED TV fiyat", "TCL TV fiyat", "Hisense TV Türkiye", "Samsung TV vs LG karşılaştırma"]
 
   - name: Refrigerator
     subcategories: [French Door, Bottom Freezer, Top Freezer, 4-Door]
     min_records: 80
     queries:
-      en: ["LG refrigerator deal", "LG French Door fridge", "Samsung fridge vs LG", "Haier refrigerator price", "Midea fridge review"]
-      de: ["LG Kühlschrank Angebot", "Samsung Kühlschrank", "Haier Kühlschrank Preis"]
-      fr: ["LG réfrigérateur promo", "Haier réfrigérateur France", "Samsung frigo prix"]
-      es: ["LG frigorífico oferta", "Haier frigorífico", "Samsung nevera precio"]
-      it: ["LG frigorifero offerta", "Haier frigorifero", "Samsung frigorifero"]
-      pt: ["LG geladeira promoção", "Midea geladeira preço", "Samsung geladeira"]
-      th: ["LG ตู้เย็น ราคา", "Haier ตู้เย็น", "Midea ตู้เย็น"]
-      zh: ["LG 冰箱 優惠", "海爾 冰箱 台灣", "三星 冰箱"]
-      ar: ["LG refrigerator price", "Haier fridge deal"]
+      en: ["LG refrigerator deal", "LG French Door fridge", "Samsung fridge vs LG", "Haier refrigerator price", "Midea fridge review", "LG fridge problem complaint"]
+      de: ["LG Kühlschrank Angebot", "Samsung Kühlschrank", "Haier Kühlschrank Preis", "LG Kühlschrank Probleme Erfahrung"]
+      fr: ["LG réfrigérateur promo", "Haier réfrigérateur France", "Samsung frigo prix", "LG frigo avis problème"]
+      es: ["LG frigorífico oferta", "Haier frigorífico", "Samsung nevera precio", "LG nevera problema queja"]
+      it: ["LG frigorifero offerta", "Haier frigorifero", "Samsung frigorifero", "LG frigorifero problema recensione"]
+      pt: ["LG geladeira promoção", "Midea geladeira preço", "Samsung geladeira", "LG geladeira problema reclamação"]
+      th: ["LG ตู้เย็น ราคา", "Haier ตู้เย็น ราคา", "Midea ตู้เย็น รีวิว", "Samsung ตู้เย็น เปรียบเทียบ LG", "ตู้เย็น LG ปัญหา"]
+      zh: ["LG 冰箱 優惠", "海爾 冰箱 台灣", "三星 冰箱 比較"]
+      ar: ["LG refrigerator price", "Haier fridge deal", "Samsung fridge vs LG", "LG fridge review"]
+      tr: ["LG buzdolabı fiyat", "Haier buzdolabı", "Samsung buzdolabı vs LG", "LG buzdolabı yorum şikayet"]
 
   - name: Washing Machine
     subcategories: [Front Loader, Top Loader]
     min_records: 80
     queries:
-      en: ["LG washing machine deal", "LG front loader review", "Samsung washer vs LG", "Midea washing machine", "Haier washer price"]
-      de: ["LG Waschmaschine Angebot", "Haier Waschmaschine", "Midea Waschmaschine Preis"]
-      fr: ["LG lave-linge promo", "Haier lave-linge France", "Samsung lave-linge"]
-      es: ["LG lavadora oferta", "Midea lavadora", "Samsung lavadora precio"]
-      it: ["LG lavatrice offerta", "Midea lavatrice", "Haier lavatrice"]
-      pt: ["LG máquina lavar promoção", "Midea máquina lavar", "Samsung lavadora"]
-      th: ["LG เครื่องซักผ้า ราคา", "Midea เครื่องซักผ้า", "Haier เครื่องซักผ้า"]
-      zh: ["LG 洗衣機 價格", "海爾 洗衣機", "美的 洗衣機"]
-      ar: ["LG washing machine price", "Haier washer deal"]
+      en: ["LG washing machine deal", "LG front loader review", "Samsung washer vs LG", "Midea washing machine", "Haier washer price", "LG washer problem complaint"]
+      de: ["LG Waschmaschine Angebot", "Haier Waschmaschine", "Midea Waschmaschine Preis", "LG Waschmaschine Erfahrung Problem"]
+      fr: ["LG lave-linge promo", "Haier lave-linge France", "Samsung lave-linge", "LG lave-linge avis problème"]
+      es: ["LG lavadora oferta", "Midea lavadora", "Samsung lavadora precio", "LG lavadora problema queja"]
+      it: ["LG lavatrice offerta", "Midea lavatrice", "Haier lavatrice", "LG lavatrice problema recensione"]
+      pt: ["LG máquina lavar promoção", "Midea máquina lavar", "Samsung lavadora", "LG máquina lavar problema"]
+      th: ["LG เครื่องซักผ้า ราคา", "Midea เครื่องซักผ้า รีวิว", "Haier เครื่องซักผ้า", "Samsung เครื่องซักผ้า เปรียบเทียบ LG", "เครื่องซักผ้า LG ปัญหา"]
+      zh: ["LG 洗衣機 價格", "海爾 洗衣機", "美的 洗衣機 比較"]
+      ar: ["LG washing machine price", "Haier washer deal", "Samsung washer vs LG"]
+      tr: ["LG çamaşır makinesi fiyat", "Haier çamaşır makinesi", "Samsung çamaşır makinesi vs LG", "LG çamaşır makinesi yorum"]
 
   - name: Monitor
     subcategories: [4K, Gaming Monitor]
     min_records: 40
     queries:
-      en: ["LG UltraGear monitor deal", "LG 4K monitor review", "Samsung Odyssey vs LG"]
-      de: ["LG Monitor Angebot", "LG UltraGear Deutschland"]
-      fr: ["LG moniteur gaming", "LG écran 4K prix"]
-      es: ["LG monitor gaming oferta", "LG monitor 4K precio"]
-      it: ["LG monitor gaming offerta", "LG monitor 4K prezzo"]
-      pt: ["LG monitor gamer promoção", "LG monitor 4K"]
-      th: ["LG มอนิเตอร์ ราคา"]
-      zh: ["LG 螢幕 優惠", "LG UltraGear 台灣"]
-      ar: ["LG monitor price", "LG gaming monitor"]
+      en: ["LG UltraGear monitor deal", "LG 4K monitor review", "Samsung Odyssey vs LG", "LG monitor problem issue"]
+      de: ["LG Monitor Angebot", "LG UltraGear Deutschland", "Samsung Odyssey vs LG Monitor"]
+      fr: ["LG moniteur gaming", "LG écran 4K prix", "Samsung moniteur vs LG"]
+      es: ["LG monitor gaming oferta", "LG monitor 4K precio", "Samsung monitor vs LG"]
+      it: ["LG monitor gaming offerta", "LG monitor 4K prezzo", "Samsung monitor vs LG"]
+      pt: ["LG monitor gamer promoção", "LG monitor 4K", "Samsung monitor vs LG"]
+      th: ["LG มอนิเตอร์ ราคา", "LG UltraGear รีวิว"]
+      zh: ["LG 螢幕 優惠", "LG UltraGear 台灣", "Samsung 螢幕 vs LG"]
+      ar: ["LG monitor price", "LG gaming monitor", "Samsung monitor vs LG"]
+      tr: ["LG monitor fiyat", "LG UltraGear Türkiye"]
 
   - name: LG gram
     subcategories: [Laptop]
@@ -146,64 +162,194 @@ products:
       es: ["LG gram portátil oferta"]
       it: ["LG gram portatile offerta"]
       pt: ["LG gram notebook promoção"]
-      th: ["LG gram แล็ปท็อป"]
+      th: ["LG gram แล็ปท็อป ราคา"]
       zh: ["LG gram 優惠 台灣", "LG gram 筆電"]
       ar: ["LG gram laptop price"]
+      tr: ["LG gram laptop fiyat"]
+
+# --- 커뮤니티/포럼 전용 쿼리 ---
+# d2c_search.py의 Round 7에서 사용: 커뮤니티 반응, A/S 불만, 사용자 경험 수집
+community_queries:
+  en:
+    - "LG TV reddit review"
+    - "LG refrigerator reddit complaint"
+    - "LG washing machine problem reddit"
+    - "LG appliance customer service experience"
+    - "Samsung vs LG appliance reddit"
+    - "TCL TV quality reddit forum"
+    - "Hisense TV long term review reddit"
+    - "LG OLED burn in issue forum"
+    - "LG washer error code community"
+    - "LG fridge ice maker problem forum"
+  de:
+    - "LG Fernseher Erfahrung Forum"
+    - "LG Kühlschrank Problem Erfahrungsbericht"
+    - "LG Waschmaschine Fehler Forum"
+    - "Samsung vs LG Erfahrung Community"
+  fr:
+    - "LG TV avis forum"
+    - "LG réfrigérateur problème forum"
+    - "LG lave-linge avis utilisateur"
+    - "Samsung vs LG avis forum"
+  es:
+    - "LG televisor opiniones foro"
+    - "LG lavadora problema foro"
+    - "LG nevera queja experiencia"
+    - "Samsung vs LG opiniones"
+  it:
+    - "LG TV opinioni forum"
+    - "LG lavatrice problema forum"
+    - "LG frigorifero esperienza utenti"
+  pt:
+    - "LG TV opinião fórum"
+    - "LG geladeira problema reclamação"
+    - "LG máquina lavar experiência usuário"
+    - "Samsung vs LG opinião consumidor"
+  th:
+    - "LG ทีวี รีวิว pantip"
+    - "LG ตู้เย็น ปัญหา pantip"
+    - "LG เครื่องซักผ้า ประสบการณ์ pantip"
+    - "Samsung vs LG เปรียบเทียบ pantip"
+    - "LG เครื่องใช้ไฟฟ้า บริการหลังการขาย"
+  zh:
+    - "LG 電視 評價 PTT"
+    - "LG 冰箱 問題 Mobile01"
+    - "LG 洗衣機 評價 Dcard"
+    - "三星 vs LG 家電 討論"
+  ar:
+    - "LG TV review forum"
+    - "LG refrigerator problem complaint"
+    - "LG washing machine issue experience"
+    - "Samsung vs LG appliance opinion"
+  tr:
+    - "LG TV yorum şikayet"
+    - "LG buzdolabı şikayetvar"
+    - "LG çamaşır makinesi sorun forum"
+    - "Samsung vs LG karşılaştırma yorum"
+    - "LG elektronik müşteri deneyimi"
+
+# --- 경쟁사 동향 전용 쿼리 ---
+# Round 8: 주요 경쟁사(Samsung, Whirlpool, Bosch, Electrolux)의 신제품/전략 동향
+competitor_queries:
+  en:
+    - "Samsung new TV 2026 launch"
+    - "Samsung refrigerator new model 2026"
+    - "Samsung washer dryer new launch"
+    - "Whirlpool new appliance 2026"
+    - "Bosch home appliance strategy 2026"
+    - "Electrolux new product launch"
+    - "Sony TV new OLED 2026"
+    - "Samsung vs LG market share home appliance"
+  de:
+    - "Samsung neue Produkte 2026 Deutschland"
+    - "Bosch Hausgeräte Neuheiten"
+    - "Samsung vs LG Marktanteil"
+  fr:
+    - "Samsung nouveautés 2026 France"
+    - "Bosch Electrolux nouveaux produits"
+  es:
+    - "Samsung nuevos productos 2026"
+    - "Bosch Electrolux novedades"
+  it:
+    - "Samsung novità 2026 Italia"
+    - "Bosch Electrolux nuovi prodotti"
+  pt:
+    - "Samsung novidades 2026 Brasil"
+    - "Electrolux novos produtos"
+  th:
+    - "Samsung เปิดตัว ใหม่ 2026"
+    - "Samsung vs LG ส่วนแบ่งตลาด ไทย"
+    - "เครื่องใช้ไฟฟ้า ยอดขาย ไทย 2026"
+  zh:
+    - "三星 新品 2026 台灣"
+    - "三星 vs LG 市佔率"
+  ar:
+    - "Samsung new product 2026 launch"
+    - "Samsung vs LG market share"
+  tr:
+    - "Samsung yeni ürün 2026 Türkiye"
+    - "Samsung vs LG pazar payı"
+    - "Bosch Electrolux yeni ürünler Türkiye"
+
+# --- 국가별 커뮤니티 사이트 ---
+# d2c_search.py에서 커뮤니티 쿼리에 site: 연산자로 사용
+country_community_sites:
+  US: ["reddit.com", "slickdeals.net"]
+  UK: ["reddit.com", "hotukdeals.com"]
+  CA: ["reddit.com", "redflagdeals.com"]
+  AU: ["reddit.com", "ozbargain.com.au", "whirlpool.net.au"]
+  DE: ["mydealz.de", "computerbase.de"]
+  FR: ["dealabs.com", "forum-des-portables-asus.fr"]
+  IT: ["tomshw.it"]
+  ES: ["forocoches.com", "mediavida.com"]
+  BR: ["pelando.com.br", "hardmob.com.br"]
+  MX: ["promodescuentos.com"]
+  TH: ["pantip.com"]
+  TW: ["ptt.cc", "mobile01.com"]
+  SG: ["hardwarezone.com.sg"]
+  TR: ["sikayetvar.com", "donanimhaber.com"]
+  SA: []
+  EG: []
+  CL: []
 
 # --- 인텔리전스 필라 ---
 pillars:
   - name: Consumer Sentiment
     id: consumer_sentiment
     query_suffixes:
-      en: ["review", "complaint", "customer experience", "problem"]
-      de: ["Bewertung", "Beschwerde", "Erfahrung"]
-      fr: ["avis", "plainte", "problème"]
-      es: ["reseña", "queja", "problema"]
-      it: ["recensione", "problema", "esperienza"]
-      pt: ["avaliação", "reclamação", "problema"]
-      th: ["รีวิว", "ปัญหา"]
-      zh: ["評價", "問題"]
-      ar: ["review", "problem"]
+      en: ["review", "complaint", "customer experience", "problem", "issue", "after service"]
+      de: ["Bewertung", "Beschwerde", "Erfahrung", "Kundendienst", "Reklamation"]
+      fr: ["avis", "plainte", "problème", "SAV", "service après-vente"]
+      es: ["reseña", "queja", "problema", "servicio postventa", "opinión"]
+      it: ["recensione", "problema", "esperienza", "assistenza clienti"]
+      pt: ["avaliação", "reclamação", "problema", "assistência técnica"]
+      th: ["รีวิว", "ปัญหา", "ประสบการณ์", "บริการหลังการขาย", "ศูนย์บริการ"]
+      zh: ["評價", "問題", "客服", "維修"]
+      ar: ["review", "problem", "customer service", "complaint"]
+      tr: ["yorum", "şikayet", "sorun", "müşteri hizmeti", "deneyim"]
 
   - name: Retail Channel Promotion
     id: retail_channel_promotion
     query_suffixes:
-      en: ["deal", "promotion", "discount", "sale", "coupon"]
-      de: ["Angebot", "Rabatt", "Aktion"]
-      fr: ["promo", "réduction", "soldes"]
-      es: ["oferta", "descuento", "promoción"]
-      it: ["offerta", "sconto", "promozione"]
-      pt: ["promoção", "desconto", "oferta"]
-      th: ["โปรโมชั่น", "ลดราคา"]
-      zh: ["優惠", "折扣", "特價"]
-      ar: ["deal", "discount", "offer"]
+      en: ["deal", "promotion", "discount", "sale", "coupon", "clearance"]
+      de: ["Angebot", "Rabatt", "Aktion", "Schnäppchen"]
+      fr: ["promo", "réduction", "soldes", "bon plan"]
+      es: ["oferta", "descuento", "promoción", "rebaja"]
+      it: ["offerta", "sconto", "promozione", "saldi"]
+      pt: ["promoção", "desconto", "oferta", "liquidação"]
+      th: ["โปรโมชั่น", "ลดราคา", "ส่วนลด", "ดีล"]
+      zh: ["優惠", "折扣", "特價", "促銷"]
+      ar: ["deal", "discount", "offer", "sale"]
+      tr: ["indirim", "kampanya", "fırsat", "promosyon"]
 
   - name: Price Intelligence
     id: price_intelligence
     query_suffixes:
-      en: ["price", "vs", "comparison", "pricing"]
-      de: ["Preis", "Vergleich", "Preisvergleich"]
-      fr: ["prix", "comparatif", "tarif"]
-      es: ["precio", "comparativa", "comparación"]
-      it: ["prezzo", "confronto", "comparazione"]
-      pt: ["preço", "comparação", "comparativo"]
-      th: ["ราคา", "เปรียบเทียบ"]
-      zh: ["價格", "比較"]
-      ar: ["price", "comparison"]
+      en: ["price", "vs", "comparison", "pricing", "worth buying"]
+      de: ["Preis", "Vergleich", "Preisvergleich", "lohnt sich"]
+      fr: ["prix", "comparatif", "tarif", "vaut le coup"]
+      es: ["precio", "comparativa", "comparación", "vale la pena"]
+      it: ["prezzo", "confronto", "comparazione", "vale la pena"]
+      pt: ["preço", "comparação", "comparativo", "vale a pena"]
+      th: ["ราคา", "เปรียบเทียบ", "คุ้มค่า"]
+      zh: ["價格", "比較", "值得買"]
+      ar: ["price", "comparison", "worth buying"]
+      tr: ["fiyat", "karşılaştırma", "değer mi"]
 
   - name: Chinese Brand Threat
     id: chinese_brand_threat
     brands: [TCL, Hisense, Haier, Midea]
     query_patterns:
-      en: ["{brand} {product} price", "{brand} {product} review", "{brand} vs LG {product}"]
-      de: ["{brand} {product} Preis", "{brand} vs LG"]
-      fr: ["{brand} {product} prix", "{brand} vs LG"]
-      es: ["{brand} {product} precio"]
-      it: ["{brand} {product} prezzo"]
-      pt: ["{brand} {product} preço"]
-      th: ["{brand} {product} ราคา"]
-      zh: ["{brand} {product} 價格"]
-      ar: ["{brand} {product} price"]
+      en: ["{brand} {product} price", "{brand} {product} review", "{brand} vs LG {product}", "{brand} {product} market share"]
+      de: ["{brand} {product} Preis", "{brand} vs LG", "{brand} {product} Test"]
+      fr: ["{brand} {product} prix", "{brand} vs LG", "{brand} {product} avis"]
+      es: ["{brand} {product} precio", "{brand} vs LG"]
+      it: ["{brand} {product} prezzo", "{brand} vs LG"]
+      pt: ["{brand} {product} preço", "{brand} vs LG"]
+      th: ["{brand} {product} ราคา", "{brand} vs LG {product} เปรียบเทียบ"]
+      zh: ["{brand} {product} 價格", "{brand} vs LG"]
+      ar: ["{brand} {product} price", "{brand} vs LG"]
+      tr: ["{brand} {product} fiyat", "{brand} vs LG karşılaştırma"]
 
 # --- 검색 파라미터 ---
 search_params:
@@ -218,7 +364,7 @@ search_params:
 # --- 품질 기준 ---
 quality_gates:
   min_total_records: 400
-  min_countries: 16
+  min_countries: 14          # 17개국 중 최소 14개국 (fallback 고려)
   min_tv: 80
   min_refrigerator: 80
   min_washing_machine: 80
