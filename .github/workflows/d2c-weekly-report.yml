@@ -162,26 +162,22 @@ jobs:
           git commit -m "feat: add ${{ env.DATE_KEY }} weekly intelligence reports (automated)"
           git push
 
-      # ── Step 6.5: Deploy to GitHub Pages (main branch) ──
+      # ── Step 6.5: Deploy to GitHub Pages ──
+      # GitHub Pages는 master 브랜치의 reports/html/ 디렉토리를 직접 서빙합니다.
+      # Step 6에서 이미 reports/를 master에 커밋+push 했으므로,
+      # PDF를 html/pdf/에 복사하고 추가 커밋만 하면 됩니다.
       - name: Deploy reports to GitHub Pages
         run: |
           echo "::group::Deploy to Pages"
-          git fetch origin main 2>/dev/null || true
-          git worktree add /tmp/pages-deploy origin/main 2>/dev/null || {
-            git worktree remove /tmp/pages-deploy 2>/dev/null
-            git worktree add /tmp/pages-deploy origin/main
-          }
-          cp -r reports/html/* /tmp/pages-deploy/reports/html/
-          cp reports/html/manifest.json /tmp/pages-deploy/reports/html/manifest.json
-          mkdir -p /tmp/pages-deploy/reports/html/pdf
-          cp reports/pdf/*.pdf /tmp/pages-deploy/reports/html/pdf/ 2>/dev/null || true
-          cd /tmp/pages-deploy
-          git config user.name "D2C Intel Bot"
-          git config user.email "d2c-intel-bot@github.io"
-          git add -A
-          git diff --cached --quiet && echo "No changes for Pages" || {
-            git commit -m "📊 Deploy ${{ env.DATE_KEY }} reports to Pages"
-            git push origin HEAD:main
+          # PDF를 html/pdf/ 디렉토리에 복사 (Pages에서 다운로드 가능하도록)
+          mkdir -p reports/html/pdf reports/html/md
+          cp reports/pdf/*.pdf reports/html/pdf/ 2>/dev/null || true
+          cp reports/md/*${{ env.DATE_KEY }}*.md reports/html/md/ 2>/dev/null || true
+
+          git add reports/html/pdf/ reports/html/md/ || true
+          git diff --cached --quiet && echo "No additional Pages assets to commit" || {
+            git commit -m "deploy: publish ${{ env.DATE_KEY }} PDF/MD assets to Pages"
+            git push
           }
           echo "::endgroup::"
 
@@ -208,4 +204,4 @@ jobs:
           fi
 
           echo "- **Hub URL:** https://suno7608.github.io/d2c-intel/" >> $GITHUB_STEP_SUMMARY
-          echo "- **Report URL:** https://suno7608.github.io/d2c-intel/${{ env.DATE_KEY }}/index.html" >> $GITHUB_STEP_SUMMARY
+          echo "- **Report URL:** https://suno7608.github.io/d2c-intel/reports/html/${{ env.DATE_KEY }}/index.html" >> $GITHUB_STEP_SUMMARY
