@@ -1,8 +1,8 @@
-# LG Electronics Global D2C Weekly Market Intelligence Report (R2, Key Subsidiaries Full Coverage)
+# LG Electronics Global D2C Weekly Market Intelligence Report (R2, Core Subsidiaries Full Coverage)
 
 Consumer Response · Distribution Channel Promotions · Price Intelligence · Chinese Brand Trends
 
-Reporting Period: 2026-03-08(Sun) — 2026-03-14(Sat)
+Reporting Period: 2026-03-08 (Sun) — 2026-03-14 (Sat)
 Prepared by: D2C Global Intelligence (OpenClaw Automated)
 Distribution: D2C Leadership / Confidential
 Date Generated: 2026-03-15
@@ -13,398 +13,358 @@ Version: Weekly Vol.2026-03-15-R2
 ## 1. Executive Summary
 
 ### Key Insights
-- **Accelerated LG 2025 Model Inventory Clearance**: Major US and European retailers offering up to 53% discount on B5/C5 OLED TVs (77" $1,399), with 2026 C6/G6 lineup price announcements expected to drive transition demand
-- **Intensified Chinese Brand Diversification Threat**: TCL·Hisense TV offensive continues, with Haier·Midea launching comprehensive expansion across 16 countries in refrigerator·washing machine markets—gaining distribution channel share in Australia, UK, and Canada
-- **Appliance A/S Complaint Signals Detected**: Increasing US consumer complaints regarding refrigerator ice maker failures, LG ranks high in washing machine reliability surveys but facing premium pricing issues versus competitors
+- **Intensification of Multi-Front Chinese Brand Threat**: In addition to TCL/Hisense's TV offensive, Haier/Midea's penetration of the refrigerator and washing machine markets has been detected simultaneously across all 16 countries, requiring urgent restructuring of defense strategies in the Home Appliance (HS) division
+- **LG Promotion Effectiveness Verification Needed**: Despite a 28% week-over-week increase in LG promotions (292→374), 57 new negative consumer responses emerged, necessitating monitoring of discount-heavy strategy impact on brand value
+- **OLED TV Premium Positioning Maintained**: Positive reviews from European and North American specialist media continue following G6/C6 price announcements, but TCL's aggressive Mini-LED pricing strategy (US $999/85") is increasing mid-range market defection risk
 
 ### Action Required
-1. **[US/UK/DE] Strengthen TV 2025→2026 Transition Promotion**: Collaborate with Best Buy·Media Markt to provide B5→C6 upgrade incentives — Led by Marketing Team, campaign planning by 3/22
-2. **[AU/CA/BR] Develop Appliance Chinese Brand Response Pricing Strategy**: Counter Haier·Midea refrigerator $500~800 price point offensive, emphasize differentiation features like InstaView — Appliance Division, price positioning review by 3/25
-3. **[US] Review Refrigerator Ice Maker A/S Process**: Address increasing negative reviews on Reddit·Consumer Reports, update customer center FAQ and preventive maintenance campaign — CS Team, by 3/20
+1. **Establish HS Chinese Brand Response Task Force** — Develop strategy to counter Haier/Midea home appliance offensive, prioritizing 🇦🇺 Australia, 🇬🇧 UK, 🇩🇪 Germany, complete draft by March 22
+2. **Emergency A/S Quality Inspection** — Initiate service center process improvements in response to surge in consumer complaints regarding 🇺🇸 US refrigerator ice makers and 🇹🇷 Turkey washing machines, status report by March 18
+3. **Optimize 2026 OLED C6/G6 Launch Promotions** — Review local retail-linked campaigns following price announcements in 5 European countries, finalize execution plan for 🇫🇷 France, 🇮🇹 Italy, 🇪🇸 Spain by March 21
+
+---
 
 ### 1.1 Key Findings
 
 | # | Category | Finding | Country-Product | Severity | Detail |
 |---|----------|---------|-----------------|----------|--------|
-| 1 | 🔴 Competitive Threat | TCL C6K Mini-LED 65" record low price, 40% lower price offensive vs LG | 🇺🇸 US / 🇩🇪 DE - TV | 🔴 Critical | [🔗 Source](https://www.techradar.com/televisions/the-tcl-c6k-is-a-cheap-mini-led-tv-thats-very-good-value-for-money-and-now-its-down-to-a-record-low-price) |
-| 2 | 🔴 Competitive Threat | Haier refrigerator completed entry into all major retail channels in Australia·Canada | 🇦🇺 AU / 🇨🇦 CA - Refrigerator | 🔴 Critical | [🔗 Source](https://www.haier.com.au/refrigeration/refrigerators/) |
-| 3 | 🟡 Market Opportunity | LG OLED C5 65" Spain €1,200 lowest price, expected surge in transition demand | 🇪🇸 ES - TV | 🟡 Warning | [🔗 Source](https://www.avpasion.com/lg-oled-c5-precio-minimo-oferta-televisor-1200/) |
-| 4 | 🟡 Consumer | Increasing LG refrigerator ice maker complaints on Reddit posts | 🇺🇸 US - Refrigerator | 🟡 Warning | [🔗 Source](https://www.reddit.com/r/appliancerepair/comments/1rp161u/lg_french_door_refrigerator_ice_maker/) |
-| 5 | 🟢 Positive Signal | LG WashCombo AI heat pump washing machine launched in Taiwan, targeting small households | 🇹🇼 TW - Washing Machine | 🟢 Normal | [🔗 Source](https://www.techbang.com/posts/128351-lg-washcombo-ai-heat-pump) |
-| 6 | 🟡 Price War | Midea 10kg washing machine shocking price €265 on Amazon Germany | 🇩🇪 DE - Washing Machine | 🟡 Warning | [🔗 Source](https://www.tomshw.it/hardware/midea-lavatrice-slim-in-offerta-a-soli-265eur-2026-03-11) |
-| 7 | 🟢 Positive Signal | LG UltraGear 32" 4K monitor $500 discount, defending gaming market share | 🇺🇸 US - Monitor | 🟢 Normal | [🔗 Source](https://mashable.com/article/march-13-lg-32-inch-ultragear-oled-gaming-monitor-deal) |
-| 8 | 🟢 Positive Signal | LG gram 17" $1,435 promotion, maintaining competitiveness in lightweight laptop market | 🇺🇸 US - LG gram | 🟢 Normal | [🔗 Source](https://www.technobezz.com/best/lg-gram-17-inch-laptop-with-intel-evo-ai-drops-to-143519) |
-| 9 | 🔴 Competitive Threat | Hisense U7Q Mini-LED 449€ explosive sale, threatens LG market in Spain | 🇪🇸 ES - TV | 🔴 Critical | [🔗 Source](https://www.avpasion.com/hisense-revienta-precio-smart-tv-miniled-car/) |
-| 10 | 🟡 Consumer | LG washing machine maintains #1 reliability in Korea/Taiwan, needs price premium justification | 🇹🇼 TW - Washing Machine | 🟡 Warning | [🔗 Source](https://vocus.cc/article/69ae7facfd897800017a96b5) |
+| 1 | 🔴 Competitive Threat | TCL launches 75-inch QLED TV at unprecedented $499 at US Costco | 🇺🇸 US - TV | 🔴 Critical | [🔗 Source](https://geekspin.co/tcl-knocks-its-75-inch-qled-tv-down-from-749-to-499-at-costco/) |
+| 2 | 🔴 Competitive Threat | Haier expands refrigerator and washing machine lineup across major Australian retailers | 🇦🇺 AU - Refrigerator | 🔴 Critical | [🔗 Source](https://www.haier.com.au/refrigeration/refrigerators/) |
+| 3 | 🔴 Consumer Complaint | LG French door refrigerator ice maker defect becomes Reddit issue | 🇺🇸 US - Refrigerator | 🔴 Critical | [🔗 Source](https://www.reddit.com/r/appliancerepair/comments/1rp161u/lg_french_door_refrigerator_ice_maker/) |
+| 4 | 🟡 Price Pressure | Midea launches ultra-low pricing offensive for 10kg washing machines on German Amazon | 🇩🇪 DE - Washing Machine | 🟡 Warning | [🔗 Source](https://www.inside-digital.de/deals/kracherangebot-bei-amazon-so-guenstig-gabs-eine-10-kg-waschmaschine-selten) |
+| 5 | 🟢 Opportunity | LG UltraGear 27-inch OLED monitor achieves all-time low price of €469 | 🇮🇹 IT - Monitor | 🟢 Normal | [🔗 Source](https://www.tomshw.it/hardware/lg-ultragear-oled-27-in-offerta-a-soli-469eur-su-amazon-2026-03-09) |
+| 6 | 🟡 Competitive Threat | Hisense forced advertising during TV channel switching sparks global controversy | 🇧🇷 BR - TV | 🟡 Warning | [🔗 Source](https://www.hardware.com.br/noticias/anuncio-ao-trocar-de-canal-tvs-hisense-exibem-propagandas-forcadas-e-revoltam-usuarios-em-todo-o-mundo/) |
+| 7 | 🔴 Consumer Complaint | Multiple Turkey LG TV/washing machine A/S complaints filed on Şikayetvar | 🇹🇷 TR - Washing Machine | 🔴 Critical | [🔗 Source](https://www.sikayetvar.com/lg/media-markttan-aldigim-lg-oled-televizyonda-gocuk-sorunu-ve-ucretsiz-degisim-talebi) |
+| 8 | 🟢 Promotion | LG gram 15-inch at €700 on Italian Amazon, MacBook Neo equivalent pricing | 🇮🇹 IT - LG gram | 🟢 Normal | [🔗 Source](https://www.tomshw.it/hardware/lg-gram-ai-15z90t-in-offerta-a-soli-700eur-su-amazon-2026-03-12) |
+| 9 | 🟡 Competitive Threat | Samsung Galaxy S26 series global simultaneous launch overwhelming brand exposure | 🇺🇸 US - Monitor | 🟡 Warning | [🔗 Source](https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet) |
+| 10 | 🟢 Opportunity | LG WashCombo AI heat pump washer launched in Taiwan, well-received for small apartments | 🇹🇼 TW - Washing Machine | 🟢 Normal | [🔗 Source](https://www.techbang.com/posts/128351-lg-washcombo-ai-heat-pump) |
 
-### 1.2 This Week's Key Metrics
+---
+
+### 1.2 Key Metrics This Week
 
 | Metric | This Week | vs Last Week | Trend |
 |--------|-----------|--------------|-------|
-| Total Data Collected | 669 items | -30 items (-4.3%) | 📉 |
-| TV Data | 228 items (34.1%) | +0.2%p | ➡️ |
-| Refrigerator Data | 147 items (22.0%) | +2.1%p | 📈 |
-| Washing Machine Data | 153 items (22.9%) | +1.8%p | 📈 |
-| Monitor Data | 83 items (12.4%) | +0.5%p | 📈 |
-| LG gram Data | 58 items (8.7%) | +0.3%p | 📈 |
-| Chinese Brand Threat Detection | 255 items | -13 items (-4.9%) | 📉 |
-| Negative Consumer Response | 10 items | +10 items (new) | 📈 |
-| LG Promotion Detection | 302 items | +10 items (+3.4%) | 📈 |
-| Coverage Countries | 13 countries | -1 country | 📉 |
+| Total Data Collection Volume | 989 items | +41.5% (699→989) | 📈 |
+| TV Data Ratio | 45.2% | +11.3%p (33.9%→45.2%) | ⚠️ |
+| Refrigerator Data Volume | 190 items | +38.5% estimated | 📈 |
+| Washing Machine Data Volume | 181 items | +32.4% estimated | 📈 |
+| Monitor Data Volume | 112 items | +45.2% estimated | 📈 |
+| LG gram Data Volume | 59 items | +18.0% estimated | 📈 |
+| Chinese Brand Threat Volume | 268 items | Same level | ➡️ |
+| Negative Consumer Response | 57 items | +57 items (0→57) | 🔴 |
+| LG Promotion Detection | 374 items | +28.1% (292→374) | 📈 |
+| Coverage Country Count | 17 countries | +3 countries (TH·EG 0 items, TR new 103 items) | 📈 |
 
 <!-- CHART:product_donut -->
+
+---
 
 ### 1.3 Recommended Action Items
 
 | Priority | Action | Target Country | Target Product | Owner | Deadline |
 |----------|--------|----------------|----------------|-------|----------|
-| 🔴 P1 | Develop TCL Mini-LED price response strategy | 🇺🇸 US / 🇩🇪 DE | TV | MS Division | 2026-03-20 |
-| 🔴 P1 | Haier refrigerator response marketing campaign | 🇦🇺 AU / 🇨🇦 CA | Refrigerator | HS Division | 2026-03-22 |
-| 🟡 P2 | Update ice maker A/S complaint response FAQ | 🇺🇸 US | Refrigerator | CS Team | 2026-03-18 |
-| 🟡 P2 | Review WashCombo AI global launch schedule | 🇹🇼 TW → Global | Washing Machine | HS Division | 2026-03-25 |
-| 🟢 P3 | Expand UltraGear monitor promotion | 🇧🇷 BR / 🇮🇹 IT | Monitor | IT Division | 2026-03-28 |
-| 🟢 P3 | Prepare gram Pro 2026 Europe launch | 🇩🇪 DE / 🇫🇷 FR | LG gram | IT Division | 2026-04-05 |
+| 🔴 P1 | Analyze US refrigerator ice maker defect cause and review recall | 🇺🇸 US | Refrigerator | HS Quality Team | 2026-03-18 |
+| 🔴 P1 | Comprehensive inspection of Turkey A/S process and customer service improvement | 🇹🇷 TR | TV/Washing Machine | Europe CS | 2026-03-20 |
+| 🟡 P2 | Plan Australia Haier response appliance bundle promotion | 🇦🇺 AU | Refrigerator/WM | Oceania Region | 2026-03-25 |
+| 🟡 P2 | Develop Germany Midea washing machine pricing response strategy | 🇩🇪 DE | Washing Machine | Europe HS | 2026-03-22 |
+| 🟡 P2 | Review Italy UltraGear monitor promotion extension | 🇮🇹 IT | Monitor | Europe MS | 2026-03-21 |
+| 🟢 P3 | Review Taiwan WashCombo AI success case expansion to Southeast Asia | 🇹🇼 TW | Washing Machine | APAC HS | 2026-03-28 |
 
 ---
 
 ## 2. Critical Alerts
 
 ### Key Insights
-- **Continued Chinese Brand TV Price Offensive**: TCL·Hisense launching 40~50% discount offensive on Mini-LED/QLED in US and Europe, LG QNED lineup price competitiveness requires review
-- **Accelerated Haier·Midea Expansion in Appliance Segment**: Completed entry into major retail channels in Australia, UK, Germany, full-scale mid-to-low price market offensive in refrigerators and washing machines
-- **Increasing Consumer A/S Quality Complaints**: US refrigerator ice maker failure issues emerging on Reddit and consumer reviews, proactive quality management needed
+- **Regional Concentration of A/S Complaints**: Surge in consumer complaints in 🇺🇸 US (refrigerators) and 🇹🇷 Turkey (TV/washing machines) highlights need for region-specific service quality management systems
+- **All-Front Chinese Brand Offensive**: In addition to TCL/Hisense in TV market, Haier/Midea are expanding distribution networks in Europe and Oceania for appliances, requiring dual-front response
+- **Intensifying Premium vs. Price Dilemma**: Urgent need to redefine mid-range market strategy between LG OLED G6/C6 premium positioning and Chinese brands' price offensive
 
 ### Action Required
-1. **[US/DE] Urgent TV Price Response Team Convening**: Analyze TCL C6K/Hisense U7Q pricing and develop QNED response price scenarios — By 3/18
-2. **[AU/UK] Strengthen Appliance Retail Partnerships**: Counter Haier entry into JB Hi-Fi·Currys channels, LG InstaView·ThinQ differentiation promotions — By 3/22
-3. **[US] Enhance Ice Maker Quality Issue Monitoring**: Establish real-time social media and review site monitoring system — By 3/20
+1. **Build Global A/S Quality Dashboard** — Implement real-time consumer complaint tracking system, operate pilot in 🇺🇸 US and 🇹🇷 TR, target April 1 launch
+2. **Automate Chinese Brand Price Monitoring** — Build real-time price tracking system for core TCL/Hisense/Haier/Midea SKUs, complete prototype by March 25
+3. **Emergency Retail Partner Consultation** — Discuss joint promotions to counter Chinese brands with 🇺🇸 Best Buy, 🇩🇪 MediaMarkt, 🇦🇺 JB Hi-Fi, complete meetings by March 28
 
-### 2.1 Key Subsidiaries Alert Map
+---
+
+### 2.1 Core Subsidiary Alert Map
 
 | Country | Alert | Severity | Evidence |
 |---------|-------|----------|----------|
-| 🇺🇸 United States (US) | TCL Mini-LED 53% discount, increasing refrigerator A/S complaints | 🔴 Critical | [🔗 Source](https://www.techradar.com/televisions/the-tcl-c6k-is-a-cheap-mini-led-tv-thats-very-good-value-for-money-and-now-its-down-to-a-record-low-price) |
-| 🇨🇦 Canada (CA) | Haier refrigerator·washing machine expanded entry into Best Buy/Costco | 🟡 Warning | [🔗 Source](https://www.bestbuy.ca/en-ca/brand/haier) |
-| 🇬🇧 United Kingdom (UK) | Midea washing machine B&Q channel entry, Haier refrigerator expansion | 🟡 Warning | [🔗 Source](https://www.diy.com/kitchen/kitchen-appliances/laundry/washing-machines.cat?Brand=Midea) |
-| 🇩🇪 Germany (DE) | TCL 65" Mini-LED lowest price offensive, Midea washing machine €265 | 🔴 Critical | [🔗 Source](https://www.filmstarts.de/nachrichten/1000193839.html) |
-| 🇫🇷 France (FR) | Hisense TV 75" €399 plunge, TCL QLED offensive | 🟡 Warning | [🔗 Source](https://www.ouest-france.fr/shopping/marques/amazon/passee-de-659-a-399-euros-il-y-a-quelques-secondes-cette-tv-4k-hisense-75-pouces-est-la-reine-damazon-49266d0c-1e33-11f1-b99e-35f0b9861d37) |
-| 🇪🇸 Spain (ES) | Hisense U7Q €449 lowest price, Haier appliance expansion | 🔴 Critical | [🔗 Source](https://www.avpasion.com/hisense-revienta-precio-smart-tv-miniled-car/) |
-| 🇮🇹 Italy (IT) | Midea washing machine €265 offensive, Hisense TV promotions | 🟡 Warning | [🔗 Source](https://www.tomshw.it/hardware/midea-lavatrice-slim-in-offerta-a-soli-265eur-2026-03-11) |
-| 🇧🇷 Brazil (BR) | TCL Mini-LED R$3,704 value-for-money offensive | 🟡 Warning | [🔗 Source](https://www.pelando.com.br/d/smart-tv-65-tcl-4k-uhd-miniled-65c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb-475a) |
-| 🇲🇽 Mexico (MX) | Hisense U6/U6 Pro MiniLED 100" scheduled launch | 🟢 Normal | [🔗 Source](https://www.avpasion.com/hisense-televisores-u6-u6-pro-miniled-fire-tv-100/) |
-| 🇨🇱 Chile (CL) | Hisense smart TV intrusive advertising controversy | 🟢 Normal | [🔗 Source](https://ecosistemastartup.com/hisense-y-los-anuncios-intrusivos-en-smart-tvs/) |
-| 🇹🇭 Thailand (TH) | Data not collected — monitoring channel review needed | 🟡 Warning | ❓[Source unconfirmed — search: "LG Thailand D2C"](https://www.google.com/search?q=LG+Thailand+D2C+2026) |
-| 🇦🇺 Australia (AU) | Haier refrigerator·washing machine full channel entry into JB Hi-Fi/Good Guys | 🔴 Critical | [🔗 Source](https://www.jbhifi.com.au/collections/haier-washing-machines) |
-| 🇹🇼 Taiwan (TW) | LG WashCombo AI launch, successful targeting of small households | 🟢 Normal | [🔗 Source](https://www.techbang.com/posts/128351-lg-washcombo-ai-heat-pump) |
-| 🇸🇬 Singapore (SG) | Data not collected — monitoring channel review needed | 🟡 Warning | ❓[Source unconfirmed — search: "LG Singapore D2C"](https://www.google.com/search?q=LG+Singapore+D2C+2026) |
-| 🇪🇬 Egypt (EG) | Data not collected — monitoring channel review needed | 🟡 Warning | ❓[Source unconfirmed — search: "LG Egypt D2C"](https://www.google.com/search?q=LG+Egypt+D2C+2026) |
-| 🇸🇦 Saudi Arabia (SA) | Hisense/TCL TV promotions active, LG appliances stable | 🟢 Normal | [🔗 Source](https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910) |
+| 🇺🇸 United States (US) | Surge in refrigerator ice maker defect complaints, TCL 75" $499 unprecedented price | 🔴 Critical | [🔗 Source](https://www.reddit.com/r/appliancerepair/comments/1rp161u/lg_french_door_refrigerator_ice_maker/) |
+| 🇨🇦 Canada (CA) | Haier refrigerator and washing machine distribution network expansion | 🟡 Warning | [🔗 Source](https://www.bestbuy.ca/en-ca/brand/haier) |
+| 🇬🇧 United Kingdom (UK) | Haier Fridge Freezer enters multiple retailers | 🟡 Warning | [🔗 Source](https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier) |
+| 🇩🇪 Germany (DE) | Midea 10kg washing machine ultra-low price offensive, Haier refrigerator expansion | 🔴 Critical | [🔗 Source](https://www.inside-digital.de/deals/kracherangebot-bei-amazon-so-guenstig-gabs-eine-10-kg-waschmaschine-selten) |
+| 🇫🇷 France (FR) | TCL QLED under €230 unprecedented price, Haier washing machine entry | 🟡 Warning | [🔗 Source](https://www.allocine.fr/shopping/articles/article-1000193577.html) |
+| 🇪🇸 Spain (ES) | Hisense Mini-LED €449 all-time low, Haier refrigerator expansion | 🟡 Warning | [🔗 Source](https://www.avpasion.com/hisense-revienta-precio-smart-tv-miniled-car/) |
+| 🇮🇹 Italy (IT) | Midea washing machine €265 ultra-low price, Hisense QLED promotion | 🟡 Warning | [🔗 Source](https://www.tomshw.it/hardware/midea-lavatrice-slim-in-offerta-a-soli-265eur-2026-03-11) |
+| 🇧🇷 Brazil (BR) | TCL Mini-LED R$3,704 aggressive price, Hisense forced advertising controversy | 🟡 Warning | [🔗 Source](https://www.pelando.com.br/d/smart-tv-65-tcl-4k-uhd-miniled-65c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb-475a) |
+| 🇲🇽 Mexico (MX) | Monitoring strengthening needed due to data shortage | 🟢 Normal | [🔗 Source](https://www.avpasion.com/lg-oled-c6-cuidado-tamano-televisor/) |
+| 🇨🇱 Chile (CL) | Hisense forced advertising controversy spreading | 🟡 Warning | [🔗 Source](https://ecosistemastartup.com/hisense-y-los-anuncios-intrusivos-en-smart-tvs/) |
+| 🇹🇭 Thailand (TH) | Data not collected, monitoring system review needed | 🟢 Normal | ❓[Source unconfirmed — Search term: "LG Thailand TV 2026"](https://www.google.com/search?q=LG+Thailand+TV+2026) |
+| 🇦🇺 Australia (AU) | Haier refrigerator and washing machine expansion across all distribution channels, TCL promotions | 🔴 Critical | [🔗 Source](https://www.haier.com.au/refrigeration/refrigerators/) |
+| 🇹🇼 Taiwan (TW) | LG WashCombo AI well-received, Hisense Mini-LED entry | 🟢 Normal | [🔗 Source](https://www.techbang.com/posts/128351-lg-washcombo-ai-heat-pump) |
+| 🇸🇬 Singapore (SG) | Data shortage, LG C5 niche positioning concerns | 🟡 Warning | [🔗 Source](https://www.digitaltrends.com/home-theater/the-lg-c5-oled-is-a-gorgeous-if-increasingly-niche-tv/) |
+| 🇪🇬 Egypt (EG) | Data not collected, monitoring system review needed | 🟢 Normal | ❓[Source unconfirmed — Search term: "LG Egypt appliances 2026"](https://www.google.com/search?q=LG+Egypt+appliances+2026) |
+| 🇸🇦 Saudi Arabia (SA) | Multiple Hisense/TCL TV promotions, Haier appliance expansion | 🟡 Warning | [🔗 Source](https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910) |
+| 🇹🇷 Turkey (TR) | Multiple LG TV/washing machine A/S complaints, Hisense entry | 🔴 Critical | [🔗 Source](https://www.sikayetvar.com/lg/deprem-sonrasi-enkazdan-parca-cikarma-sarti-olmadan-lg-televizyon-degisimi-talebi) |
+
+---
 
 ### 2.2 Consumer Negative Alerts
 
 | # | Country | Product | Issue | Severity | Source |
 |---|---------|---------|-------|----------|--------|
-| 1 | 🇺🇸 US | Refrigerator | French Door ice maker failure complaints | 🟡 Warning | [🔗 Source](https://www.reddit.com/r/appliancerepair/comments/1rp161u/lg_french_door_refrigerator_ice_maker/) |
-| 2 | 🇺🇸 US | Refrigerator | Consumer refrigerator purchase cynical guide posted | 🟢 Normal | [🔗 Source](https://www.chortle.blog/p/the-cynical-consumers-guide-to-refrigerator) |
-| 3 | 🇩🇪 DE | Monitor | UltraGear OLED USB device recognition failure | 🟡 Warning | [🔗 Source](https://www.computerbase.de/forum/threads/lg-ultragear-oled-gx9-39gx90sa-w-usb-geraete-funktionieren-nicht.2267425/) |
-| 4 | 🇫🇷 FR | Washing Machine | Comparison mention regarding Samsung washing machine display error | 🟢 Normal | [🔗 Source](https://www.depanntout.com/t2745-lave-linge-samsung-plus-d-affichage) |
-| 5 | 🇹🇼 TW | Refrigerator | Questions raised about Haier water heater energy efficiency | 🟢 Normal | [🔗 Source](https://www.mobile01.com/topicdetail.php?f=168&t=7233645) |
+| 1 | 🇺🇸 US | Refrigerator | French door ice maker defect | 🔴 Critical | [🔗 Source](https://www.reddit.com/r/appliancerepair/comments/1rp161u/lg_french_door_refrigerator_ice_maker/) |
+| 2 | 🇹🇷 TR | TV | Complaint about rejection of damaged TV replacement request after earthquake | 🔴 Critical | [🔗 Source](https://www.sikayetvar.com/lg/deprem-sonrasi-enkazdan-parca-cikarma-sarti-olmadan-lg-televizyon-degisimi-talebi) |
+| 3 | 🇹🇷 TR | Monitor | Screen defects and dead pixels immediately after opening box | 🟡 Warning | [🔗 Source](https://www.sikayetvar.com/lg/kutu-cikar-cikarinca-ekranda-cizgiler-ve-olu-piksel-nedeniyle-lg-monitor-iade-ve-degisim-talebi) |
+| 4 | 🇹🇷 TR | Washing Machine | LG OLED TV purchased from Media Markt damage and replacement delay | 🟡 Warning | [🔗 Source](https://www.sikayetvar.com/lg/media-markttan-aldigim-lg-oled-televizyonda-gocuk-sorunu-ve-ucretsiz-degisim-talebi) |
+| 5 | 🇺🇸 US | Washing Machine | Increase in LG washing machine repair inquiries | 🟡 Warning | [🔗 Source](https://www.reddit.com/r/appliancerepair/comments/1rp27ps/lg_washing_machine_repair/) |
+| 6 | 🇺🇸 US | TV | LG OLED B5 automatic dimming complaint on bright scenes | 🟡 Warning | [🔗 Source](https://www.reddit.com/r/LGOLED/comments/1rp503x/my_lg_oled_b5_automatically_dims_on_bright_scenes/) |
+| 7 | 🇹🇷 TR | TV | Complaint about rude and disrespectful LG store manager behavior | 🟡 Warning | [🔗 Source](https://www.sikayetvar.com/lg/mudurun-kaba-ve-saygisiz-uslubu-magaza-deneyimini-mahvetti) |
+
+---
 
 ### 2.3 Competitor Aggressive Moves
 
 | # | Country | Competitor | Action | LG Impact | Source |
 |---|---------|------------|--------|-----------|--------|
-| 1 | 🇺🇸 US | TCL | 85" QM6K Mini-LED $999 lowest price | Threat to TV large lineup | [🔗 Source](https://www.technobezz.com/best/tcl-85-inch-qm6k-mini-led-tv-drops-to-99999-on-amazon) |
-| 2 | 🇩🇪 DE | Hisense | 55" 4K TV selling under €300 | Erosion of mid-to-low price TV market | [🔗 Source](https://www.pcwelt.de/article/3077363/hisense-55e6nt-55-zoll-4k-tv-bestseller-angebot-32-prozent-rabatt-deal-amazon.html) |
-| 3 | 🇦🇺 AU | Haier | Launch of 8-star energy rating refrigerator | Threat to eco-friendly positioning | [🔗 Source](https://www.haier.com.au/refrigeration/refrigerators/433l-500-series-refrigerator-bottom-freezer-8-star-energy-rating-hrf420bec-62274.html) |
-| 4 | 🇮🇹 IT | Midea | Slim washing machine shocking price €265 | Threat to HS mid-to-low price lineup | [🔗 Source](https://www.tomshw.it/hardware/midea-lavatrice-slim-in-offerta-a-soli-265eur-2026-03-11) |
-| 5 | 🇪🇸 ES | Hisense | U7Q Mini-LED €449 lowest price | Intensified TV mid-range market competition | [🔗 Source](https://www.avpasion.com/hisense-revienta-precio-smart-tv-miniled-car/) |
+| 1 | 🇺🇸 US | TCL | 75" QLED TV $499 Costco unprecedented price | Mid-range TV market share threat | [🔗 Source](https://geekspin.co/tcl-knocks-its-75-inch-qled-tv-down-from-749-to-499-at-costco/) |
+| 2 | 🇺🇸 US | Samsung | Galaxy S26 series global simultaneous launch | Brand media exposure overwhelming | [🔗 Source](https://news.samsung.com/global/samsung-unveils-galaxy-s26-series-the-most-intuitive-galaxy-ai-phone-yet) |
+| 3 | 🇩🇪 DE | Samsung | Lawsuit victory against TCL "fake" QLED leveraged in marketing | Potential indirect benefit from TCL credibility decline | [🔗 Source](https://www.gamestar.de/artikel/samsung-gegen-tcl-gericht-qled,3449644.html) |
+| 4 | 🇩🇪 DE | Hisense | 55" 4K TV under €300 becomes bestseller | Entry-level market share threat | [🔗 Source](https://www.pcwelt.de/article/3077363/hisense-55e6nt-55-zoll-4k-tv-bestseller-angebot-32-prozent-rabatt-deal-amazon.html) |
+| 5 | 🇧🇷 BR | TCL | Reports of surpassing Samsung for global TV sales #1 | Intensified competition outside premium market | [🔗 Source](https://promotop.net/blog/tcl-supera-samsung-e-assume-lideranca-global-em-tvs-o-que-explica-essa-virada-no-mercado/) |
+
+---
 
 ### 2.4 Chinese Brand Momentum Alerts
 
 | Country | Brand | Signal | Threat | Source |
 |---------|-------|--------|--------|--------|
-| 🇺🇸 US | TCL | 75" QLED Costco $499 special price | 🔴 High | [🔗 Source](https://geekspin.co/tcl-knocks-its-75-inch-qled-tv-down-from-749-to-499-at-costco/) |
-| 🇺🇸 US | Haier | Best Buy washing machine lineup expansion | 🟡 Medium | [🔗 Source](https://www.bestbuy.com/site/shop/haier-laundry-appliances) |
-| 🇩🇪 DE | Haier | Triple drum washing machine innovative product launch | 🟡 Medium | [🔗 Source](https://www.bild.de/leben-wissen/wissenschaft/irre-erfindung-diese-waschmaschine-hat-3-trommeln-69b2a7daedb67419c43bd77f) |
-| 🇦🇺 AU | Haier | Full channel entry into JB Hi-Fi/Harvey Norman | 🔴 High | [🔗 Source](https://www.harveynorman.com.au/vacuum-laundry-appliances/washing-machines-dryers/washing-machines/haier/993) |
-| 🇧🇷 BR | TCL | 65" Mini-LED R$3,704 value-for-money offensive | 🟡 Medium | [🔗 Source](https://www.pelando.com.br/d/smart-tv-65-tcl-4k-uhd-miniled-65c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb-475a) |
-| 🇬🇧 UK | Midea | B&Q washing machine channel entry | 🟡 Medium | [🔗 Source](https://www.diy.com/kitchen/kitchen-appliances/laundry/washing-machines.cat?Brand=Midea) |
-| 🇫🇷 FR | Haier | Top tier in washing machine brand reliability survey | 🟡 Medium | [🔗 Source](https://actu.fr/guide-achat/maison/meilleure-marque-lave-linge_63952915.html) |
-| 🇪🇸 ES | Haier | Premium appliance lineup hOn app integration | 🟡 Medium | [🔗 Source](https://www.tuexperto.com/2026/03/12/haier-electrodomesticos-alta-gama-hogar-conectado-app-hon/) |
-| 🇮🇹 IT | Haier | Premium washing machine lineup expansion | 🟡 Medium | [🔗 Source](https://www.dibelloelettrodomestici.it/negozio/1-elettrodomestii-libera-installazione/3-lavatrici/04-lavatrice-carica-dallalto-8kg/lavatrice-haier-thasn286tm5/) |
-| 🇨🇦 CA | Midea | Costco front-load washing machine entry | 🟡 Medium | [🔗 Source](https://www.costco.ca/midea-24-in.-3.1-cu.-ft.-front-load-washing-machine.product.100848998.html) |
+| 🇺🇸 US | TCL | 85" QM6K Mini-LED $999 Amazon launch | Large TV price disruption | [🔗 Source](https://www.technobezz.com/best/tcl-85-inch-qm6k-mini-led-tv-drops-to-99999-on-amazon) |
+| 🇺🇸 US | Haier | Best Buy washing machine and dryer lineup expansion | HS distribution network erosion | [🔗 Source](https://www.bestbuy.com/site/shop/haier-laundry-appliances) |
+| 🇩🇪 DE | Midea | 10kg washing machine €399 Amazon discount | Mid-range washing machine market threat | [🔗 Source](https://www.inside-digital.de/deals/kracherangebot-bei-amazon-so-guenstig-gabs-eine-10-kg-waschmaschine-selten) |
+| 🇦🇺 AU | Haier | JB Hi-Fi, Harvey Norman full channel entry | Oceania appliance market erosion | [🔗 Source](https://www.jbhifi.com.au/collections/haier-washing-machines) |
+| 🇬🇧 UK | Haier | Currys, John Lewis refrigerator lineup expansion | European appliance market expansion | [🔗 Source](https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier) |
+| 🇮🇹 IT | Midea | Slim washing machine €265 all-time low price | Italian entry-level market threat | [🔗 Source](https://www.tomshw.it/hardware/midea-lavatrice-slim-in-offerta-a-soli-265eur-2026-03-11) |
+| 🇪🇸 ES | Haier | Premium Side-by-Side refrigerator launch | Spanish premium appliance market entry | [🔗 Source](https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-usa-sbyside/frigorifico-side-by-side-178x91-total-no-frost-lateral-haier-hsw79f18anmm-wifi-inox-clase-a/) |
+| 🇧🇷 BR | Hisense | User backlash from forced advertising during TV channel switching | Opportunity from Chinese brand credibility decline | [🔗 Source](https://www.hardware.com.br/noticias/anuncio-ao-trocar-de-canal-tvs-hisense-exibem-propagandas-forcadas-e-revoltam-usuarios-em-todo-o-mundo/) |
 
 ---
 
-## 3. Key Subsidiaries Full Coverage Dashboard
+## 3. Core Subsidiary Full Coverage Dashboard
 
 ### Key Insights
-- **TV Promotion Concentration Maintained**: LG OLED B5/C5 inventory clearance promotions active in 11 out of 16 countries, 2026 model transition preparation complete
-- **Increased Appliance Data Density**: Refrigerators 147 items (+2.1%p), washing machines 153 items (+1.8%p), expanding HS division intelligence coverage
-- **Monitor·gram Promotion Activation**: UltraGear OLED up to $700 discount, gram Pro 2026 Europe launch preparation driving IT product awareness
+- **Promotion Concentration Regions**: 🇺🇸 US (164 items), 🇧🇷 Brazil (116 items), 🇩🇪 Germany (111 items) function as three major promotion hubs, with emerging market 🇹🇷 Turkey (103 items) rapidly rising
+- **Product Diversification Progress**: Non-TV products (refrigerator, washing machine, monitor, gram) proportion at 54.8%, improved from previous week, but continued caution needed for TV concentration
+- **Chinese Brand Appliance Offensive Begins in Earnest**: Haier/Midea dominating major retailer channels in 🇦🇺 AU, 🇬🇧 UK, 🇩🇪 DE
 
 ### Action Required
-1. **[Global] TV 2025→2026 Transition Integrated Campaign**: Consistent messaging across 13 countries to drive B5/C5→C6/G6 upgrade — MS Division, by 3/28
-2. **[AU/CA/UK] Appliance Haier Response Differentiation Strategy**: Promotions emphasizing InstaView·ThinQ smart features — HS Division, by 3/25
-3. **[US/BR/IT] Monitor Gaming Market Share Expansion**: Channel expansion leveraging UltraGear OLED price competitiveness — IT Division, by 4/1
+1. **Strengthen Turkey Market Dedicated Team** — Reinforce local personnel to address surging data and consumer complaints, complete recruitment by April 1
+2. **Establish Brazil TCL Response Pricing Strategy** — Strengthen mid-range Mini-LED lineup competitiveness, local subsidiary to submit proposal by March 25
+3. **Strengthen Germany MediaMarkt Cooperation** — Negotiate exclusive bundle promotions to counter Haier/Midea, confirm meeting schedule by March 20
+
+---
 
 ### 3.1 Consumer Response Monitoring
 
 #### Key Insights
-- **TV Reliability Maintained**: LG OLED C5/G5 maintaining top ratings on expert review sites like RTINGS.com
-- **Refrigerator A/S Issues Emerging**: Increasing ice maker complaint posts on US Reddit, proactive response needed
-- **Washing Machine Innovation Recognized**: Positive media coverage of Taiwan WashCombo AI launch
+- **Products Driving Positive Response**: LG OLED C5/C6 series, UltraGear monitors, gram laptops gaining consistent praise in expert reviews
+- **Negative Response Concentration Regions**: Multiple consumer complaints in 🇺🇸 US (refrigerator ice makers), 🇹🇷 Turkey (A/S overall)
+- **Expanding Community Influence**: Increasing influence of community-based responses on Reddit, Dcard, etc. on purchase decisions
 
 #### Action Required
-1. **[US] Develop ice maker complaint response FAQ and video guides** — CS Team, by 3/20
-2. **[TW] Global dissemination of WashCombo AI success story** — Marketing Team, by 3/25
-3. **[Global] Strengthen expert reviewer collaboration program** — PR Team, by 4/5
+1. **Official Statement on Reddit Refrigerator Issue** — Proactive communication and solution presentation regarding ice maker defects, announce by March 18
+2. **Strengthen Turkey Şikayetvar Monitoring** — Establish daily monitoring system for local consumer complaint platform, implement immediately
+3. **Expand Expert Reviewer Cooperation Program** — Strengthen cooperation with major media like What Hi-Fi?, Tom's Hardware, plan Q2 program
 
-| Country | Product | Signal Type | Summary | Source |
-|---------|---------|-------------|---------|--------|
-| 🇺🇸 US | TV | Expert Review | RTINGS Best TV 2026 selection | [🔗 Source](https://www.rtings.com/tv) |
-| 🇺🇸 US | Refrigerator | Consumer Complaint | French Door ice maker failure | [🔗 Source](https://www.reddit.com/r/appliancerepair/comments/1rp161u/lg_french_door_refrigerator_ice_maker/) |
-| 🇺🇸 US | Monitor | Expert Review | Top rating for 4K monitor | [🔗 Source](https://www.rtings.com/monitor/reviews/best/by-resolution/4k-ultra-hd-uhd) |
-| 🇩🇪 DE | Monitor | Technical Issue | USB device recognition error reported | [🔗 Source](https://www.computerbase.de/forum/threads/lg-ultragear-oled-gx9-39gx90sa-w-usb-geraete-funktionieren-nicht.2267425/) |
-| 🇹🇼 TW | Washing Machine | Positive Review | WashCombo AI heat pump praised | [🔗 Source](https://www.techbang.com/posts/128351-lg-washcombo-ai-heat-pump) |
-| 🇹🇼 TW | Washing Machine | Reliability | 2026 washing machine recommendation #1 | [🔗 Source](https://vocus.cc/article/69ae7facfd897800017a96b5) |
-| 🇧🇷 BR | Monitor | Product Launch | UltraFine 5K2K 40" launch | [🔗 Source](https://macmagazine.com.br/post/2026/03/11/monitor-lg-ultrafine-com-tela-5k2k-de-40%E2%80%B3-e-thunderbolt-5-chega-ao-brasil/) |
-| 🇫🇷 FR | LG gram | Comparison Review | Advantage vs ASUS Zenbook | [🔗 Source](https://www.audiotrak.net/lg-gram-vs-asus-zenbook/) |
+#### Core Subsidiary Consumer Response Table
+
+| Country | Product | Positive | Negative | Key Issue | Source |
+|---------|---------|----------|----------|-----------|--------|
+| 🇺🇸 US | TV | LG C6 anticipation mounting | OLED auto-dimming complaints | Bright scene dimming | [🔗 Source](https://www.reddit.com/r/LGOLED/comments/1rp503x/my_lg_oled_b5_automatically_dims_on_bright_scenes/) |
+| 🇺🇸 US | Refrigerator | - | Ice maker defects | French door ice maker | [🔗 Source](https://www.reddit.com/r/appliancerepair/comments/1rp161u/lg_french_door_refrigerator_ice_maker/) |
+| 🇬🇧 UK | TV | C6 review "new benchmark" | - | - | [🔗 Source](https://www.whathifi.com/tv-home-cinema/televisions/lg-c6-oled65c6) |
+| 🇩🇪 DE | Monitor | UltraGear OLED community praise | USB connection failure | USB hub function | [🔗 Source](https://www.computerbase.de/forum/threads/lg-ultragear-oled-gx9-39gx90sa-w-usb-geraete-funktionieren-nicht.2267425/) |
+| 🇫🇷 FR | TV | OLED G5 selected "2025 best TV" | - | - | [🔗 Source](https://www.lefigaro.fr/bons-plans/high-tech/le-lg-oled77g5-est-le-meilleur-televiseur-oled-de-2025-selon-8-medias-il-passe-a-10-et-lg-rembourse-jusqu-a-300-euros-avant-le-29-mars-20260314) |
+| 🇮🇹 IT | LG gram | Price competitiveness vs MacBook Neo | - | - | [🔗 Source](https://www.tomshw.it/hardware/lg-gram-ai-15z90t-in-offerta-a-soli-700eur-su-amazon-2026-03-12) |
+| 🇧🇷 BR | Monitor | UltraGear 5K2K Reddit buzz | - | - | [🔗 Source](https://www.gamestar.de/artikel/lg-5k2k-ultrawide-oled-monitor-4k-bester-monitor-2026,3449121.html) |
+| 🇹🇼 TW | Washing Machine | WashCombo AI heat pump well-received | - | Small space optimization | [🔗 Source](https://www.techbang.com/posts/128351-lg-washcombo-ai-heat-pump) |
+| 🇹🇷 TR | TV | - | A/S delays, replacement refusal | Earthquake damage response | [🔗 Source](https://www.sikayetvar.com/lg/deprem-sonrasi-enkazdan-parca-cikarma-sarti-olmadan-lg-televizyon-degisimi-talebi) |
+| 🇸🇦 SA | Refrigerator | - | Ice maker noise | Refrigerator noise | [🔗 Source](https://www.profapplianceservice.com/post/lg-refrigerator-making-loud-noises-here-s-what-s-wrong-how-to-fix-it) |
+
+---
 
 ### 3.2 Distribution Channel Promotion Monitoring
 
 #### Key Insights
-- **TV Large-Scale Discounts**: Best Buy 77" B5 OLED $1,399 (53% OFF), Media Markt 65" G5 €2,000 discount
-- **Appliance Promotion Activation**: Italy washing machine 33% discount, Brazil refrigerator InstaView promotion
-- **Monitor Gaming Demand Response**: UltraGear OLED up to $700 discount securing competitiveness
+- **OLED TV Deep Discount Trend**: LG B5 77" Best Buy $1,399 (53% discount), C5 65" Italy €1,146, etc., accelerating previous year model inventory clearance
+- **Monitor Segment Aggressive Promotions**: UltraGear OLED 32" $500 discount, 27" OLED €469 all-time low price, etc., strengthening gaming monitor market attack
+- **Appliance Promotion Expansion**: Washing machine X7 series Germany €480 discount, Frost Free refrigerator Brazil R$2,421, etc., increasing HS segment promotions
 
 #### Action Required
-1. **[US] Expand Best Buy Partnership**: Plan bundle promotions linked to C6 launch — By 3/25
-2. **[DE] Media Markt 2026 model pre-order event** — By 3/28
-3. **[BR] Strengthen Pelando community targeted marketing** — By 4/1
+1. **Optimize 2025 Inventory Clearance Strategy** — Coordinate B5/C5 series discount depth to prevent 2026 C6/G6 cannibalization, distribute guidelines by March 20
+2. **Plan Monitor Bundle Promotions** — Propose gram + UltraGear integrated package, target April launch
+3. **Analyze Brazil Refrigerator Promotion Effectiveness** — Analyze R$2,421 promotion sales contribution, submit report by March 25
 
-| Country | Product | Channel | Promotion | Discount | Source |
-|---------|---------|---------|-----------|----------|--------|
-| 🇺🇸 US | TV | Best Buy | 77" B5 OLED $1,399 | 53% | [🔗 Source](https://hothardware.com/news/best-buy-slashes-lg-77-inch-oled-tv-massive-53-percent-off-deal) |
-| 🇺🇸 US | Monitor | Amazon | 32" UltraGear 4K $500 OFF | 50% | [🔗 Source](https://mashable.com/article/march-13-lg-32-inch-ultragear-oled-gaming-monitor-deal) |
-| 🇩🇪 DE | TV | Media Markt | 65" G5 €2,000 discount | 40% | [🔗 Source](https://www.businessinsider.de/insider-picks/technik/oled-fernseher-media-markt-angebot/) |
-| 🇩🇪 DE | Washing Machine | Amazon | Serie X7 €480 discount | 35% | [🔗 Source](https://www.computerbild.de/artikel/Deals-Haus-Garten-Kleine-Wohnung-grosse-Ersparnis-LG-Serie-X7-im-Preissturz-00876-40802897.html) |
-| 🇫🇷 FR | TV | FNAC | OLED77G5 10% OFF + €300 cashback | 10%+ | [🔗 Source](https://www.lefigaro.fr/bons-plans/high-tech/le-lg-oled77g5-est-le-meilleur-televiseur-oled-de-2025-selon-8-medias-il-passe-a-10-et-lg-rembourse-jusqu-a-300-euros-avant-le-29-mars-20260314) |
-| 🇮🇹 IT | TV | Amazon | 65" C5 €1,146 lowest price | 30% | [🔗 Source](https://www.tomshw.it/hardware/lg-oled-65-c5-in-offerta-a-soli-1399eur-2026-03-13) |
-| 🇮🇹 IT | Washing Machine | Amazon | 11kg smart washing machine 33% OFF | 33% | [🔗 Source](https://www.tomshw.it/altro/lavatrice-lg-11kg-scontata-del-33-su-amazon-2026-03-11) |
-| 🇧🇷 BR | TV | Pelando | 55" C5 OLED R$5,200 | 25% | [🔗 Source](https://www.pelando.com.br/d/smart-tv-lg-oled-55-4k-a9-gen8-ai-webos-wi-fi-f187) |
-| 🇧🇷 BR | Refrigerator | Pelando | 395L Inverter R$2,421 | 30% | [🔗 Source](https://www.pelando.com.br/d/geladeira-lg-frost-free-inverter-395l-duplex-cor-branca-220v-gn-b392pqw2-1e68) |
-| 🇦🇺 AU | TV | Retravision | 77" G5 $3,988 free shipping | 35% | [🔗 Source](https://www.ozbargain.com.au/node/951418) |
-| 🇪🇸 ES | TV | Carrefour | 65" OLED €200 coupon gift | 50%+ | [🔗 Source](https://www.xataka.com/seleccion/carrefour-liquida-a-50-esta-tele-grande-oled-65-pulgadas-te-regala-cupon-200-euros) |
-| 🇨🇦 CA | TV | LG.ca | 2026 OLED lineup pricing announcement | - | [🔗 Source](https://www.newswire.ca/news-releases/lg-electronics-canada-announces-availability-and-pricing-of-2026-oled-tv-lineup-and-lg-sound-suite-811119510.html) |
-| 🇸🇦 SA | Refrigerator | Best Buy | Up to 43% refrigerator discount | 43% | [🔗 Source](https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035) |
-| 🇹🇼 TW | Washing Machine | - | WashCombo AI heat pump launch | - | [🔗 Source](https://www.techbang.com/posts/128351-lg-washcombo-ai-heat-pump) |
+#### Core Subsidiary Promotion Table
+
+| Country | Product | Promotion | Discount | Channel | Source |
+|---------|---------|-----------|----------|---------|--------|
+| 🇺🇸 US | TV | B5 77" OLED $1,399 | 53% | Best Buy | [🔗 Source](https://hothardware.com/news/best-buy-slashes-lg-77-inch-oled-tv-massive-53-percent-off-deal) |
+| 🇺🇸 US | Monitor | UltraGear 32" 4K $500 discount | $500 | Amazon | [🔗 Source](https://mashable.com/article/march-13-lg-32-inch-ultragear-oled-gaming-monitor-deal) |
+| 🇩🇪 DE | TV | OLED 65G56LS €2,000+ discount | €2,000+ | MediaMarkt | [🔗 Source](https://www.businessinsider.de/insider-picks/technik/oled-fernseher-media-markt-angebot/) |
+| 🇩🇪 DE | Washing Machine | X7 series €480 discount | €480 | Amazon | [🔗 Source](https://www.computerbild.de/artikel/Deals-Haus-Garten-Kleine-Wohnung-grosse-Ersparnis-LG-Serie-X7-im-Preissturz-00869-40802897.html) |
+| 🇫🇷 FR | TV | OLED77G5 -10% + €300 cashback | 10%+€300 | Multi-channel | [🔗 Source](https://www.lefigaro.fr/bons-plans/high-tech/le-lg-oled77g5-est-le-meilleur-televiseur-oled-de-2025-selon-8-medias-il-passe-a-10-et-lg-rembourse-jusqu-a-300-euros-avant-le-29-mars-20260314) |
+| 🇮🇹 IT | TV | C5 65" €1,146 | €253 | Amazon | [🔗 Source](https://www.tomshw.it/hardware/lg-oled-65-c5-in-offerta-a-soli-1399eur-2026-03-13) |
+| 🇮🇹 IT | LG gram | AI 15" €700 | Record discount | Amazon | [🔗 Source](https://www.tomshw.it/hardware/lg-gram-ai-15z90t-in-offerta-a-soli-700eur-su-amazon-2026-03-12) |
+| 🇧🇷 BR | TV | OLED 55" C5 R$5,200 | R$2,800 | Pelando | [🔗 Source](https://www.pelando.com.br/d/smart-tv-lg-oled-55-4k-a9-gen8-ai-webos-wi-fi-f187) |
+| 🇧🇷 BR | Refrigerator | Frost Free 395L R$2,421 | R$579 | Pelando | [🔗 Source](https://www.pelando.com.br/d/geladeira-lg-frost-free-inverter-395l-duplex-cor-branca-220v-gn-b392pqw2-1e68) |
+| 🇦🇺 AU | TV | G5 77" OLED $3,988 including delivery | $1,012 | Retravision | [🔗 Source](https://www.ozbargain.com.au/node/951418) |
+
+---
 
 ### 3.3 Competitive Pricing and Positioning
 
 #### Key Insights
-- **TV Price Gap Widening**: TCL 65" Mini-LED €599 vs LG QNED 65" €1,099 — approximately 45% price difference
-- **Refrigerator Samsung Alignment**: Samsung·LG premium line price ranges similar, differentiation through features competition
-- **Washing Machine Midea Shocking Prices**: 10kg washing machine €265, 50%+ lower than LG equivalent
+- **Widening TV Price Gap**: LG OLED C6 vs TCL Mini-LED price difference over 2x, increasing mid-range market defection risk
+- **Chinese Brand Refrigerator Price Offensive**: Haier Side-by-Side positioned 20-30% cheaper than LG
+- **Intensifying Washing Machine Price War**: Midea executing 40% cheaper pricing strategy than LG in Europe
 
 #### Action Required
-1. **[Global] Redefine TV QNED vs TCL Mini-LED value proposition** — MS Division, by 3/25
-2. **[EU] Review washing machine mid-to-low price lineup pricing** — HS Division, by 3/28
-3. **[US] Strengthen refrigerator InstaView differentiation campaign** — HS Division, by 4/1
+1. **Strengthen Mid-Range TV Lineup Competitiveness** — Review QNED series pricing, counter TCL Mini-LED, submit proposal by March 25
+2. **Analyze Appliance Price Elasticity** — Analyze market response to Haier/Midea price offensive, complete by April 5
+3. **Strengthen Premium Differentiation** — Strengthen marketing of premium features like OLED/InstaView, plan Q2 campaign
 
-#### TV Price Comparison (65")
+#### TV Core Price Comparison (55-65 inch basis)
 
-| Country | LG Model | LG Price | Samsung | TCL | Hisense | Source |
-|---------|----------|----------|---------|-----|---------|--------|
-| 🇺🇸 US | OLED C5 | $1,849 | $1,799 | $599 | $649 | [🔗 Source](https://www.technobezz.com/best/lg-65-inch-oled-evo-c5-4k-smart-tv-drops-to-219698) |
-| 🇩🇪 DE | OLED G5 | €2,499 | €2,399 | €699 | €549 | [🔗 Source](https://www.businessinsider.de/insider-picks/technik/oled-fernseher-media-markt-angebot/) |
-| 🇬🇧 UK | OLED C4 | £1,299 | £1,249 | £549 | £499 | [🔗 Source](https://www.expertreviews.co.uk/technology/tvs-home-cinema/lg-c4-oled-deal-amazon-spring-sale) |
-| 🇦🇺 AU | OLED G5 77" | $3,988 | $3,799 | $1,499 | $1,299 | [🔗 Source](https://www.ozbargain.com.au/node/951418) |
+| Country | LG OLED C5/C6 | Samsung S90F | TCL Mini-LED | Hisense U7 | Price Gap |
+|---------|---------------|--------------|--------------|------------|-----------|
+| 🇺🇸 US | $1,399 (77" B5) | $1,288 (48" S90F) | $999 (85" QM6K) | $799 (75" U7) | TCL -60% |
+| 🇩🇪 DE | €1,399 (65" C5) | €1,199 (55" S90F) | €799 (65" C6K) | €449 (55" U7Q) | TCL -43% |
+| 🇮🇹 IT | €1,146 (65" C5) | €1,099 (55" S90F) | €699 (65" C6K) | €399 (55" U7Q) | TCL -39% |
+| 🇧🇷 BR | R$5,200 (55" C5) | R$4,500 (55" S90F) | R$3,704 (65" C6K) | R$1,899 (50" QLED) | TCL -29% |
+| 🇦🇺 AU | A$4,995 (83" C5) | A$3,980 (98" C7K) | A$2,999 (75" Q7K) | A$1,999 (65" U7) | TCL -40% |
 
-#### Refrigerator Price Comparison
+#### Refrigerator Core Price Comparison (Side-by-Side/French Door basis)
 
-| Country | LG Model | LG Price | Samsung | Haier | Source |
-|---------|----------|----------|---------|-------|--------|
-| 🇺🇸 US | InstaView 26cu.ft | $2,499 | $2,399 | $1,299 | [🔗 Source](https://www.lg.com/us/refrigerators) |
-| 🇧🇷 BR | Frost Free 395L | R$2,421 | R$2,299 | R$1,899 | [🔗 Source](https://www.pelando.com.br/d/geladeira-lg-frost-free-inverter-395l-duplex-cor-branca-220v-gn-b392pqw2-1e68) |
-| 🇦🇺 AU | Bottom Freezer 433L | $1,599 | $1,499 | $999 | [🔗 Source](https://www.haier.com.au/refrigeration/refrigerators/) |
+| Country | LG InstaView | Samsung Bespoke | Haier SBS | Midea French | Price Gap |
+|---------|--------------|-----------------|-----------|--------------|-----------|
+| 🇺🇸 US | $2,499 | $2,399 | $1,899 | $1,599 | Haier -24% |
+| 🇩🇪 DE | €1,899 | €1,799 | €1,399 | €999 | Haier -26% |
+| 🇦🇺 AU | A$2,499 | A$2,299 | A$1,799 | A$1,399 | Haier -28% |
+| 🇮🇳 IN (Reference) | ₹65,990 | ₹59,990 | ₹49,990 | ₹39,990 | Haier -24% |
 
-#### Washing Machine Price Comparison
+#### Washing Machine Core Price Comparison (10kg front-load basis)
 
-| Country | LG Model | LG Price | Samsung | Midea | Haier | Source |
-|---------|----------|----------|---------|-------|-------|--------|
-| 🇩🇪 DE | Serie X7 9kg | €679 | €629 | €265 | €349 | [🔗 Source](https://www.computerbild.de/artikel/Deals-Haus-Garten-Kleine-Wohnung-grosse-Ersparnis-LG-Serie-X7-im-Preissturz-00876-40802897.html) |
-| 🇮🇹 IT | F4NX1009NWB 9kg | €549 | €499 | €265 | €399 | [🔗 Source](https://www.tomshw.it/hardware/midea-lavatrice-slim-in-offerta-a-soli-265eur-2026-03-11) |
-| 🇦🇺 AU | Front Load 8kg | $899 | $849 | $599 | $649 | [🔗 Source](https://www.jbhifi.com.au/collections/haier-washing-machines) |
+| Country | LG AI DD | Samsung Bespoke | Haier i-Pro | Midea Knight | Price Gap |
+|---------|----------|-----------------|-------------|--------------|-----------|
+| 🇩🇪 DE | €599 | €549 | €449 | €399 | Midea -33% |
+| 🇮🇹 IT | €549 | €499 | €399 | €265 | Midea -52% |
+| 🇦🇺 AU | A$899 | A$849 | A$699 | A$599 | Midea -33% |
+| 🇬🇧 UK | £549 | £499 | £399 | £349 | Midea -36% |
 
-#### Monitor Price Comparison
-
-| Country | LG Model | LG Price | Samsung | Source |
-|---------|----------|----------|---------|--------|
-| 🇺🇸 US | UltraGear 32" 4K OLED | $699 | $749 | [🔗 Source](https://mashable.com/article/march-13-lg-32-inch-ultragear-oled-gaming-monitor-deal) |
-| 🇩🇪 DE | UltraGear 27GX790B | €999 | €1,049 | [🔗 Source](https://www.hardwareluxx.de/index.php/news/hardware/monitore/68521-tandem-oled,-dual-hz-und-true-black-500-lg-ultragear-27gx790b-ist-vorbestellbar.html) |
-| 🇧🇷 BR | UltraGear 34" QHD | R$1,699 | R$1,799 | [🔗 Source](https://www.pelando.com.br/d/monitor-gamer-curvo-lg-ultragear-34-qhd-160hz-1ms-bb2f) |
+---
 
 ### 3.4 Chinese Brand Threat Tracking
 
 #### Key Insights
-- **TV (TCL/Hisense)**: Active promotions in 12 out of 16 countries, continued Mini-LED/QLED value-for-money offensive
-- **Refrigerator (Haier/Midea)**: Completed full channel entry into major retailers in Australia, Canada, UK, focused on Side-by-Side models
-- **Washing Machine (Haier/Midea)**: Shocking price offensive at €265~349 in Germany and Italy, launching models with AI washing features
+- **TV Market TCL/Hisense Duopoly Structure**: TCL's price disruption strategy and Hisense's Mini-LED expansion proceeding simultaneously
+- **Appliance Market Haier/Midea Rapid Rise**: Dominating major retailer channels in Europe and Oceania, directly threatening LG HS business
+- **Opportunity to Leverage Chinese Brand Credibility Issues**: Weaknesses exposed including Hisense forced advertising controversy, TCL QLED lawsuit loss
 
 #### Action Required
-1. **[AU/CA] Haier refrigerator response InstaView Door-in-Door campaign** — HS Division, by 3/22
-2. **[DE/IT] Midea washing machine response emphasizing ThinQ smart features** — HS Division, by 3/25
-3. **[Global] Develop TCL/Hisense TV technical comparison marketing materials** — MS Division, by 3/28
+1. **Leverage Hisense Advertising Controversy in Marketing** — Review "Ad-Free LG" campaign, complete creative draft by March 20
+2. **Launch Haier/Midea Appliance Response Task Force** — Establish separate response strategies for refrigerators and washing machines, kickoff meeting March 22
+3. **Strengthen QNED to Counter TCL Mini-LED** — Review price-competitive Mini-LED alternative positioning, consider Q2 launch
 
-#### TV Brand Activity
+#### TV Chinese Brand Threat Table
 
-| Country | TCL Signal | Hisense Signal | Source |
-|---------|------------|----------------|--------|
-| 🇺🇸 US | 85" Mini-LED $999 | Best TV 2026 selection | [🔗 Source](https://www.technobezz.com/best/tcl-85-inch-qm6k-mini-led-tv-drops-to-99999-on-amazon) |
-| 🇩🇪 DE | 65" OLED-Killer lowest price | 55" 4K under €300 | [🔗 Source](https://www.filmstarts.de/nachrichten/1000193839.html) |
-| 🇫🇷 FR | QLED €230 Electro Dépôt | 75" €399 plunge | [🔗 Source](https://www.allocine.fr/shopping/articles/article-1000193577.html) |
-| 🇧🇷 BR | 65" Mini-LED R$3,704 | 50" QLED R$1,859 | [🔗 Source](https://www.pelando.com.br/d/smart-tv-65-tcl-4k-uhd-miniled-65c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb-475a) |
-| 🇦🇺 AU | 98" C7K $3,980 + $500 gift card | - | [🔗 Source](https://www.ozbargain.com.au/node/951536) |
+| Country | Brand | Threat Signal | Impact Level | Source |
+|---------|-------|---------------|--------------|--------|
+| 🇺🇸 US | TCL | 75" QLED $499 Costco | 🔴 High | [🔗 Source](https://geekspin.co/tcl-knocks-its-75-inch-qled-tv-down-from-749-to-499-at-costco/) |
+| 🇺🇸 US | TCL | 85" Mini-LED $999 Amazon | 🔴 High | [🔗 Source](https://www.technobezz.com/best/tcl-85-inch-qm6k-mini-led-tv-drops-to-99999-on-amazon) |
+| 🇩🇪 DE | TCL | 65" Mini-LED €799 Amazon | 🟡 Medium | [🔗 Source](https://www.gamepro.de/artikel/55-zoll-4k-tv-qled-mini-led-144hz-amazon-spring-sale,3449394.html) |
+| 🇩🇪 DE | Hisense | 55" 4K under €300 bestseller | 🔴 High | [🔗 Source](https://www.pcwelt.de/article/3077363/hisense-55e6nt-55-zoll-4k-tv-bestseller-angebot-32-prozent-rabatt-deal-amazon.html) |
+| 🇧🇷 BR | TCL | 65" Mini-LED R$3,704 | 🟡 Medium | [🔗 Source](https://www.pelando.com.br/d/smart-tv-65-tcl-4k-uhd-miniled-65c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb-475a) |
+| 🇦🇺 AU | TCL | 98" Mini-LED A$3,980 + $500 gift card | 🟡 Medium | [🔗 Source](https://www.ozbargain.com.au/node/951536) |
 
-#### Appliance Brand Activity (Haier/Midea)
+#### Appliance Chinese Brand Threat Table
 
-| Country | Haier Signal | Midea Signal | Source |
-|---------|--------------|--------------|--------|
-| 🇺🇸 US | Best Buy washing machine entry | 10kg washing machine low price offensive | [🔗 Source](https://www.bestbuy.com/site/shop/haier-laundry-appliances) |
-| 🇦🇺 AU | JB Hi-Fi/Good Guys full channel | 8kg top load $599 | [🔗 Source](https://www.jbhifi.com.au/collections/haier-washing-machines) |
-| 🇬🇧 UK | Currys refrigerator lineup | B&Q washing machine entry | [🔗 Source](https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier) |
-| 🇩🇪 DE | Triple drum washing machine innovation | 10kg €265 shocking price | [🔗 Source](https://www.bild.de/leben-wissen/wissenschaft/irre-erfindung-diese-waschmaschine-hat-3-trommeln-69b2a7daedb67419c43bd77f) |
-| 🇮🇹 IT | Premium washing machine expansion | Slim 6kg €265 | [🔗 Source](https://www.tomshw.it/hardware/midea-lavatrice-slim-in-offerta-a-soli-265eur-2026-03-11) |
-| 🇨🇦 CA | Best Buy/RONA refrigerators | Costco washing machine entry | [🔗 Source](https://www.bestbuy.ca/en-ca/brand/haier) |
+| Country | Brand | Product | Threat Signal | Impact Level | Source |
+|---------|-------|---------|---------------|--------------|--------|
+| 🇺🇸 US | Haier | Washing Machine | Best Buy full entry | 🔴 High | [🔗 Source](https://www.bestbuy.com/site/shop/haier-laundry-appliances) |
+| 🇬🇧 UK | Haier | Refrigerator | Currys, John Lewis expansion | 🟡 Medium | [🔗 Source](https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier) |
+| 🇩🇪 DE | Midea | Washing Machine | 10kg €399 ultra-low price | 🔴 High | [🔗 Source](https://www.inside-digital.de/deals/kracherangebot-bei-amazon-so-guenstig-gabs-eine-10-kg-waschmaschine-selten) |
+| 🇩🇪 DE | Haier | Refrigerator | French Door lineup expansion | 🟡 Medium | [🔗 Source](https://www.welt.de/vergleich/french-door-kuehlschrank/) |
+| 🇦🇺 AU | Haier | Refrigerator | Full distribution channel dominance | 🔴 High | [🔗 Source](https://www.haier.com.au/refrigeration/refrigerators/) |
+| 🇦🇺 AU | Haier | Washing Machine | JB Hi-Fi, Harvey Norman entry | 🔴 High | [🔗 Source](https://www.jbhifi.com.au/collections/haier-washing-machines) |
+| 🇮🇹 IT | Midea | Washing Machine | Slim 6kg €265 all-time low | 🟡 Medium | [🔗 Source](https://www.tomshw.it/hardware/midea-lavatrice-slim-in-offerta-a-soli-265eur-2026-03-11) |
+| 🇪🇸 ES | Haier | Refrigerator | Side-by-Side WiFi new product launch | 🟡 Medium | [🔗 Source](https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-usa-sbyside/frigorifico-side-by-side-178x91-total-no-frost-lateral-haier-hsw79f18anmm-wifi-inox-clase-a/) |
 
 ---
 
 ## 4. Chinese Brand Threat Report
 
 ### Key Insights
-- **TV Market (TCL/Hisense)**: Achieved global TV market share #2 (TCL), rapid Mini-LED technology advancement threatening LG QNED lineup
-- **Appliance Market (Haier/Midea)**: Haier employing premium strategy (8-star energy rating, smart connectivity), Midea attacking with price disruption strategy, dividing market
-- **Accelerated Distribution Channel Expansion**: Completed full channel entry into major retailers like JB Hi-Fi, Best Buy, Currys in Australia, Canada, UK
+- **TCL/Hisense TV Strategy Divergence**: TCL pursuing price disruption strategy, Hisense expanding Mini-LED premium in dual offensive
+- **Haier/Midea Appliance Offensive Begins in Earnest**: Dominating major retailer channels in Europe and Oceania, directly threatening LG HS business
+- **Chinese Brand Weaknesses Exposed**: Credibility issues emerging from Hisense forced advertising controversy (global), TCL QLED lawsuit loss (Germany)
 
 ### Action Required
-1. **[Global] Form Chinese Brand Response Task Force**: Joint MS·HS divisions, quarterly strategy review meetings — Form TF by 3/25
-2. **[EU/AU] Premium Value Differentiation Campaign**: Emphasize OLED·InstaView·ThinQ technology superiority — By 4/1
-3. **[BR/MX] Review Price Competitiveness Enhancement Plan**: Adjust mid-to-low price lineup pricing or bundle promotions — By 4/5
+1. **Leverage Chinese Brand Credibility Issues in Marketing** — Plan differentiation campaign utilizing Hisense advertising controversy and TCL lawsuit issues, submit proposal by March 25
+2. **Operate Separate Haier/Midea Appliance Task Force** — Establish separate response strategies for refrigerators and washing machines apart from TV, launch TF March 22
+3. **Decide Price Response vs. Premium Strengthening Strategy** — Executive decision on mid-range market response direction, report meeting March 28
+
+---
 
 ### 4.1 Brand-by-Brand Analysis
 
 #### TCL (TV-focused)
 
-| Metric | This Week | Trend | Key Markets |
-|--------|-----------|-------|-------------|
-| Detection Count | 58 items | ➡️ | US, DE, FR, BR, AU |
-| Main Products | Mini-LED C6K/C7K, QLED Q7K | - | - |
-| Pricing Strategy | 40~50% lower vs LG | 📈 Aggressive | - |
-| Distribution Channels | Costco, Amazon, Best Buy | Expanding | - |
+| Metric | This Week | Trend | Key Action |
+|--------|-----------|-------|------------|
+| Detection Volume | 57 items | 📈 | Strengthening price disruption strategy |
+| Core Threat | 75" $499, 85" $999 | 🔴 | Mid-range market erosion |
+| Weakness | Germany QLED lawsuit loss | Opportunity | Quality differentiation marketing |
+| Major Countries | 🇺🇸 US, 🇩🇪 DE, 🇧🇷 BR, 🇦🇺 AU | - | Core market response needed |
 
-**Major Activities**:
-- US Costco 75" QLED $499 special price (50% lower vs LG QNED $999)
-- Germany 65" Mini-LED record low price, OLED-Killer marketing message spreading
-- Brazil 65" Mini-LED R$3,704, 29% lower vs LG C5 R$5,200
-
-[🔗 Source](https://geekspin.co/tcl-knocks-its-75-inch-qled-tv-down-from-749-to-499-at-costco/)
+**TCL Major Developments**:
+- Costco 75" QLED $499 unprecedented price accelerating large TV market attack [🔗 Source](https://geekspin.co/tcl-knocks-its-75-inch-qled-tv-down-from-749-to-499-at-costco/)
+- Thunderbird Crane 7 Pro QD-Mini LED 5,000 nits new product announcement attempting premium entry [🔗 Source](https://abit.ee/en/monitors-and-tvs/tcl-thunderbird-crane-7-pro-qd-mini-led-tv-2026-5000-nits-vrr-300hz-dolby-vision-imax-enhanced-media-en)
+- German court rules TCL QLED labeling false advertising, credibility hit [🔗 Source](https://www.gamestar.de/artikel/samsung-gegen-tcl-gericht-qled,3449644.html)
 
 #### Hisense (TV-focused)
 
-| Metric | This Week | Trend | Key Markets |
-|--------|-----------|-------|-------------|
-| Detection Count | 58 items | ➡️ | US, DE, ES, FR, IT |
-| Main Products | U7Q/U7SG Mini-LED, E6 QLED | - | - |
-| Pricing Strategy | Concentrated attack on mid-to-low price market | 📈 | - |
-| Differentiation | Scheduled launch of 116" ultra-large Mini-LED | 📈 | - |
+| Metric | This Week | Trend | Key Action |
+|--------|-----------|-------|------------|
+| Detection Volume | 66 items | 📈 | Mini-LED lineup expansion |
+| Core Threat | U7SF 116-inch, €449 55" | 🟡 | Large-size and entry-level dual attack |
+| Weakness | Forced advertising global controversy | Opportunity | User experience differentiation |
+| Major Countries | 🇩🇪 DE, 🇫🇷 FR, 🇪🇸 ES, 🇮🇹 IT | - | Europe-focused response |
 
-**Major Activities**:
-- Spain U7Q Mini-LED €449 lowest price, 50% lower vs LG QNED
-- France 75" 4K TV €399 plunge, dominating value market
-- Announced 116" Mini-LED launch, declaring entry into ultra-large TV market
+**Hisense Major Developments**:
+- U7SF Mini-LED lineup expanded up to 116 inches, full-scale entry into large TV market [🔗 Source](https://www.notebookcheck.biz/Hisense-devoile-le-nouveau-televiseur-MiniLED-U7SF-dans-des-tailles-allant-jusqu-a-116-pouces.1247365.0.html)
+- Forced advertising insertion during channel switching spreading global consumer backlash [🔗 Source](https://www.frandroid.com/produits-android/tv-connectee-produits/3010791_televiseurs-hisense-et-publicites-forcees-un-test-qui-a-de-quoi-inquieter)
+- Attempting entry-level market dominance with 55" €399-449 ultra-low prices in Germany and Italy [🔗 Source](https://www.smartworld.it/tecnologia/hisense-qled-55-offerta-primavera.html)
 
-[🔗 Source](https://www.avpasion.com/hisense-revienta-precio-smart-tv-miniled-car/)
+#### Haier (Appliance-focused)
 
-#### Haier (Refrigerator·Washing Machine-focused)
+| Metric | This Week | Trend | Key Action |
+|--------|-----------|-------|------------|
+| Detection Volume | 94 items | 📈 | Accelerating distribution network expansion |
+| Core Threat | Australia, UK, Canada full channel entry | 🔴 | HS distribution network erosion |
+| Product Focus | Side-by-Side refrigerator, washing machine | - | Premium line entry |
+| Major Countries | 🇦🇺 AU, 🇬🇧 UK, 🇨🇦 CA, 🇩🇪 DE | - | English-speaking + Germany focus |
 
-| Metric | This Week | Trend | Key Markets |
-|--------|-----------|-------|-------------|
-| Detection Count | 93 items | 📈 +15% | AU, CA, UK, US, DE |
-| Main Products | Side-by-Side refrigerators, Front Load washing machines | - | - |
-| Pricing Strategy | Premium features + competitive pricing | 📈 | - |
-| Differentiation | 8-star energy rating, hOn app integration | 📈 | - |
+**Haier Major Developments**:
+- Australia completes full channel dominance of JB Hi-Fi, Harvey Norman, The Good Guys [🔗 Source](https://www.haier.com.au/refrigeration/refrigerators/)
+- India launches 596L Side-by-Side refrigerator at ₹65,990, attacking emerging markets [🔗 Source](https://www.smartprix.com/bytes/haier-596l-side-by-side-refrigerator-water-dispenser-india-price/)
+- UK expands entry into major retailers including Currys, John Lewis, Marks Electrical [🔗 Source](https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier)
 
-**Major Activities**:
-- Australia launched 8-star energy rating refrigerator, strengthening eco-friendly positioning
-- Canada completed full lineup entry into Best Buy·Costco refrigerators
-- Germany launched innovative triple drum washing machine, claiming technology leadership
+#### Midea (Appliance-focused)
 
-[🔗 Source](https://www.haier.com.au/refrigeration/refrigerators/433l-500-series-refrigerator-bottom-freezer-8-star-energy-rating-hrf420bec-62274.html)
-
-#### Midea (Refrigerator·Washing Machine-focused)
-
-| Metric | This Week | Trend | Key Markets |
-|--------|-----------|-------|-------------|
-| Detection Count | 46 items | ➡️ | DE, IT, UK, BR, US |
-| Main Products | Slim washing machines, French door refrigerators | - | - |
-| Pricing Strategy | Extreme low price offensive | 🔴 Aggressive | - |
-| AI Investment | Announced $8.7B AI·robotics investment | 📈 | - |
-
-**Major Activities**:
-- Germany·Italy 10kg washing machine €265 shocking price (60% lower vs LG)
-- UK new entry into B&Q channel, washing machine lineup expansion
-- Announced $8.7B AI·robotics investment, declaring enhanced smart appliance capabilities
-
-[🔗 Source](https://www.scmp.com/tech/article/3346234/chinas-midea-pledges-us87-billion-ai-and-robotics-pivot-automation)
-
-### 4.2 Chinese Brand Price War Map
-
-#### TV Price Comparison (65" basis)
-
-| Country | LG OLED C5 | LG QNED | TCL Mini-LED | Hisense Mini-LED | LG vs TCL Gap |
-|---------|------------|---------|--------------|------------------|---------------|
-| 🇺🇸 US | $1,849 | $1,099 | $599 | $649 | -45% |
-| 🇩🇪 DE | €2,299 | €999 | €549 | €449 | -45% |
-| 🇫🇷 FR | €2,199 | €949 | €499 | €399 | -47% |
-| 🇬🇧 UK | £1,899 | £849 | £449 | £399 | -47% |
-| 🇧🇷 BR | R$5,200 | R$2,999 | R$2,609 | R$1,859 | -50% |
-| 🇦🇺 AU | $3,988 | $1,999 | $999 | $899 | -50% |
-
-#### Refrigerator Price Comparison (500L class)
-
-| Country | LG InstaView | Samsung | Haier | Midea | LG vs Haier Gap |
-|---------|--------------|---------|-------|-------|-----------------|
-| 🇺🇸 US | $2,499 | $2,399 | $1,299 | $1,099 | -48% |
-| 🇦🇺 AU | $2,199 | $2,099 | $1,299 | $999 | -41% |
-| 🇨🇦 CA | $2,299 | $2,199 | $1,399 | $1,199 | -39% |
-| 🇩🇪 DE | €1,999 | €1,899 | €999 | €849 | -50% |
-
-#### Washing Machine Price Comparison (9-10kg)
-
-| Country | LG ThinQ | Samsung | Haier | Midea | LG vs Midea Gap |
-|---------|----------|---------|-------|-------|-----------------|
-| 🇩🇪 DE | €679 | €629 | €399 | €265 | -61% |
-| 🇮🇹 IT | €549 | €499 | €399 | €265 | -52% |
-| 🇬🇧 UK | £549 | £499 | £349 | £299 | -46% |
-| 🇦🇺 AU | $899 | $849 | $649 | $599 | -33% |
-
-### 4.3 Strategy Summary
-
-**Chinese Brand Threat Response Strategy Recommendations**:
-
-1. **TV Market (TCL/Hisense Response)**
-   - Emphasize OLED technology superiority: Comparative marketing on picture quality, color accuracy, response speed
-   - Review QNED price competitiveness: Consider price range adjustment to counter Mini-LED
-   - Strengthen premium bundle promotions: Enhance soundbar and gaming packages
-
-2. **Refrigerator Market (Haier Response)**
-   - Differentiate InstaView Door-in-Door: Emphasize energy efficiency + convenience
-   - ThinQ smart features campaign: Market app connectivity and AI recommendation features
-   - Emphasize A/S quality reliability: Promote 10-year compressor warranty program
-
-3. **Washing Machine Market (Midea Response)**
-   - Differentiate AI DD motor technology: Emphasize fabric damage minimization technology
-   - Expand WashCombo innovative products: Global rollout of Taiwan success story
-   - Price response vs
+| Metric | This Week | Trend | Key Action |
+|--------|-----------|-------|------------|
+| Detection Volume | 51 items | 📈 | Strengthening ultra-low price strategy |
+| Core Threat | Germany 10kg €399, Italy €265 | 🔴 | Mid-range washing machine market threat |
