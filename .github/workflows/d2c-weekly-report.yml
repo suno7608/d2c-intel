@@ -104,6 +104,26 @@ jobs:
           echo "--- JSONL Stats ---"
           wc -l data/raw/openclaw_${{ env.DATE_KEY }}.jsonl || true
 
+      # ── Step 1.5: Deep Fetch Enrichment (optional) ──
+      - name: Deep fetch high-value URLs
+        if: ${{ vars.ENABLE_DEEP_FETCH == '1' }}
+        timeout-minutes: 15
+        env:
+          ENABLE_DEEP_FETCH: '1'
+          DEEP_FETCH_MAX: ${{ vars.DEEP_FETCH_MAX || '50' }}
+        run: |
+          echo "::group::Deep Fetch Enrichment"
+          pip install "scrapling[fetchers]" 2>/dev/null || echo "::warning::scrapling install failed"
+          python scripts/d2c_deep_fetch.py ${{ env.DATE_KEY }} || echo "::warning::Deep fetch failed (non-blocking)"
+          echo "::endgroup::"
+
+      # ── Step 1.7: Price History Tracking ──
+      - name: Track price changes
+        run: |
+          echo "::group::Price Tracking"
+          python scripts/d2c_price_tracker.py ${{ env.DATE_KEY }} || echo "::warning::Price tracker failed (non-blocking)"
+          echo "::endgroup::"
+
       # ── Step 2: Weekly Stats ──
       - name: Save weekly stats
         run: |
@@ -154,7 +174,7 @@ jobs:
         run: |
           git config user.name "D2C Intel Bot"
           git config user.email "d2c-intel-bot@github.io"
-          git add reports/ data/weekly_stats/ data/raw/ logs/ || true
+          git add reports/ data/weekly_stats/ data/raw/ data/price_history/ logs/ || true
           git diff --cached --quiet && {
             echo "No changes to commit"
             exit 0

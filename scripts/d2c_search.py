@@ -129,6 +129,31 @@ _COMPETITOR_MOVE_KW = frozenset({
 })
 
 
+# Discount percentage extraction patterns
+_DISCOUNT_PATTERNS = [
+    # "53% off", "50% discount", "save 30%"
+    re.compile(r'(\d{1,2})%\s?(?:off|discount|rabatt|de\s?réduction|descuento|sconto|indirim)', re.IGNORECASE),
+    # "save $200" / "saving of $97"
+    re.compile(r'sav(?:e|ing)[^$€£]*(?:[\$€£])(\d[\d,]*)', re.IGNORECASE),
+    # "50% off" at end or standalone
+    re.compile(r'(\d{1,2})%\s?off\b', re.IGNORECASE),
+    # "up to 53% off"
+    re.compile(r'up\s+to\s+(\d{1,2})%', re.IGNORECASE),
+    # "-30%", "–25%"
+    re.compile(r'[-–](\d{1,2})%', re.IGNORECASE),
+]
+
+# Star rating / review score extraction patterns
+_RATING_PATTERNS = [
+    # "4.5/5", "4.5 out of 5", "4.5 stars"
+    re.compile(r'(\d(?:\.\d)?)\s?(?:/\s?5|out of 5|stars?\b|⭐)', re.IGNORECASE),
+    # "rated 8.5/10", "score: 9/10", "8/10"
+    re.compile(r'(?:rated?|score|rating)[:\s]*(\d(?:\.\d)?)\s?/\s?10', re.IGNORECASE),
+    re.compile(r'\b(\d(?:\.\d)?)\s?/\s?10\b'),
+    # "92%", "85/100" review scores
+    re.compile(r'(?:score|rating)[:\s]*(\d{2,3})\s?(?:%|/\s?100)', re.IGNORECASE),
+]
+
 # Price extraction patterns: currency symbol/code + numeric value
 _PRICE_PATTERNS = [
     # $1,234.56 / USD 1,234.56
@@ -399,6 +424,33 @@ class BraveSearchCollector:
                 return currency, price_str
         return "", ""
 
+    def extract_discount(self, text: str) -> str:
+        """텍스트에서 할인율을 추출합니다. 예: '53% off' → '53%'"""
+        for pattern in _DISCOUNT_PATTERNS:
+            m = pattern.search(text)
+            if m:
+                val = m.group(1)
+                # If it's a dollar amount saved, return as-is with $
+                if "$" in m.group(0) or "€" in m.group(0) or "£" in m.group(0):
+                    return m.group(0).strip()
+                return f"{val}%"
+        return ""
+
+    def extract_rating(self, text: str) -> str:
+        """텍스트에서 별점/리뷰 점수를 추출합니다. 예: '4.5/5' → '4.5/5'"""
+        for pattern in _RATING_PATTERNS:
+            m = pattern.search(text)
+            if m:
+                val = m.group(1)
+                full = m.group(0).strip()
+                # Normalize: "4.5 stars" → "4.5/5", "8/10" → "8/10"
+                if "10" in full:
+                    return f"{val}/10"
+                if "100" in full or "%" in full:
+                    return f"{val}%"
+                return f"{val}/5"
+        return ""
+
     def detect_confidence(self, result: dict) -> str:
         """검색 결과의 신뢰도를 평가합니다."""
         url = result.get("url", "")
@@ -448,9 +500,11 @@ class BraveSearchCollector:
         if pillar == "chinese_brand_threat":
             classified_pillar = "chinese_brand_threat"
 
-        # Extract price from title + snippet
+        # Extract structured data from title + snippet
         price_text = f"{title} {snippet}"
         currency, price_value = self.extract_price(price_text, country)
+        discount = self.extract_discount(price_text)
+        rating = self.extract_rating(price_text)
 
         record = {
             "country": country,
@@ -461,6 +515,8 @@ class BraveSearchCollector:
             "value": title,
             "currency": currency,
             "price_value": price_value,
+            "discount": discount,
+            "rating": rating,
             "quote_original": snippet[:500] if snippet else "",
             "source_url": url,
             "source": domain,
@@ -987,6 +1043,19 @@ def main():
 
     if dupe_content_count > 0:
         logger.info(f"Dedup: removed {dupe_url_count} URL dupes + {dupe_content_count} content dupes")
+
+    # Deep fetch enrichment (optional, requires scrapling)
+    if os.environ.get("ENABLE_DEEP_FETCH", "0") == "1":
+        try:
+            from d2c_deep_fetch import enrich_records
+            max_urls = int(os.environ.get("DEEP_FETCH_MAX", "50"))
+            logger.info(f"Starting deep fetch enrichment (max {max_urls} URLs)...")
+            unique_records, deep_stats = enrich_records(unique_records, max_urls=max_urls)
+            logger.info(f"Deep fetch: {deep_stats['enriched']} URLs enriched")
+        except ImportError:
+            logger.warning("Deep fetch skipped: scrapling not installed (pip install scrapling)")
+        except Exception as e:
+            logger.warning(f"Deep fetch failed (non-fatal): {e}")
 
     # Write JSONL
     with open(output_path, "w", encoding="utf-8") as f:

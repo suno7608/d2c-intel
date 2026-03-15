@@ -13,5 +13,9 @@ pyyaml>=6.0.1
 # --- Email: Report delivery ---
 sendgrid>=6.11.0
 
+# --- Deep Fetch: Scrapling for 2nd-pass URL enrichment (optional) ---
+# Install with: pip install "scrapling[fetchers]"
+# scrapling>=0.4.2
+
 # --- Playwright: PDF generation (installed via npx, not pip) ---
 # npx playwright install chromium --with-deps
