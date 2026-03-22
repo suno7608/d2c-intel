@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T20:58:22.097Z",
+  "generated_at": "2026-03-22T07:56:45.615Z",
   "total_weeks": 7,
   "latest_week": "2026-03-22",
   "weeks": [
@@ -10,25 +10,25 @@
         "end": "2026-03-21"
       },
       "version": "Weekly Vol.2026-03-22-R2",
-      "generated_at": "2026-03-21T20:54:26.609Z",
+      "generated_at": "2026-03-22T07:52:44.085Z",
       "metrics": {
         "covered_countries": 16,
-        "lg_promotion_signals": 350,
+        "lg_promotion_signals": 326,
         "competitor_promotion_signals": 12,
-        "chinese_threat_signals": 14,
-        "consumer_negative_countries": 53,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 52,
         "critical_country_count": 4
       },
       "critical_countries": [
         "🇩🇪 독일 (DE)",
-        "🇮🇹 이탈리아 (IT)",
-        "🇦🇺 호주 (AU)",
+        "🇪🇸 스페인 (ES)",
+        "🇪🇬 이집트 (EG)",
         "🇹🇷 튀르키예 (TR)"
       ],
       "executive_key_insights": [
-        "**LG InnoFest 2026 브라질 개최**: LG의 AI 기반 스마트홈 비전이 글로벌 언론에 집중 조명되며, 특히 InstaView 냉장고와 WashCombo 세탁기의 에너지 절감 기능이 남미 시장에서 브랜드 프리미엄 포지셔닝을 강화하고 있음",
-        "**중국 브랜드 전방위 공세**: TCL의 MicroLED TV 가격 파괴($36,500 163인치)와 Haier의 유럽 냉장고·세탁기 시장 리더십 도전이 동시 진행되며, TV뿐 아니라 생활가전 전반에서 위협 수위가 상승",
-        "**LG UltraFine evo 6K 모니터 출시**: 전 세계 최초 6K Thunderbolt 5 모니터로 크리에이터 시장 공략이 본격화되며, 대만을 필두로 아시아 프리미엄 시장에서 차별화된 포지셔닝 확보"
+        "**LG InnoFest 2026 브라질 개최로 중남미 시장 공략 강화**: 브라질에서 R$ 15억 규모 냉장고 공장 투자 발표와 함께 AI 기반 스마트홈 생태계 전략이 글로벌 언론의 집중 조명을 받음 — 지역 생산 기반 확대로 가격 경쟁력 확보 기대",
+        "**중국 브랜드 가전 위협 본격화**: Haier가 스페인에서 \"2026년 냉장고·세탁기 시장 리더십 목표\" 공식 선언, Midea의 유럽 포트폴리오 확장과 브라질 공격적 가격 정책이 HS(생활가전) 사업부 방어 전략 필요성 부각",
+        "**OLED TV 프리미엄 포지셔닝 강화 vs 중국 Mini-LED 가격 공세 심화**: TCL의 163인치 MicroLED TV $36,500 가격 파괴와 Hisense RGB MiniLED 확대로 MS(Media Entertainment Solution) 사업부 중가 시장 잠식 우려"
       ],
       "links": {
         "html": "./2026-03-22/index.html",
