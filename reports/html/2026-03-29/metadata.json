@@ -1,0 +1,35 @@
+{
+  "week": "2026-03-29",
+  "report_period": {
+    "start": "2026-03-22",
+    "end": "2026-03-28"
+  },
+  "version": "Weekly Vol.2026-03-29-R2",
+  "generated_at": "2026-03-28T22:29:28.016Z",
+  "metrics": {
+    "covered_countries": 17,
+    "lg_promotion_signals": 325,
+    "competitor_promotion_signals": 13,
+    "chinese_threat_signals": 13,
+    "consumer_negative_countries": 49,
+    "critical_country_count": 5
+  },
+  "critical_countries": [
+    "🇺🇸 미국 (US)",
+    "🇩🇪 독일 (DE)",
+    "🇮🇹 이탈리아 (IT)",
+    "🇦🇺 호주 (AU)",
+    "🇸🇦 사우디아라비아 (SA)"
+  ],
+  "executive_key_insights": [
+    "**Amazon Big Spring Sale 기간 LG OLED TV 프로모션 집중**: 미국/독일/이탈리아 등 주요 시장에서 C5/G5 모델 $1,300 할인 등 공격적 프로모션이 진행되어 D2C 채널 대비 가격 경쟁력 점검 필요",
+    "**중국 브랜드 가전 위협 본격화**: TCL/Hisense TV 외에 Haier/Midea 냉장고·세탁기가 16개국 전반에서 유통 확장 중이며, 특히 브라질·이탈리아·호주에서 가격 공세가 두드러짐",
+    "**LG gram 및 UltraGear 모니터 글로벌 확장**: Intel Panther Lake 탑재 신모델 출시와 함께 Amazon/Newegg에서 최대 $700 할인 프로모션 진행, D2C 채널 연계 기회 포착 필요"
+  ],
+  "links": {
+    "html": "./2026-03-29/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-03-29_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-03-29_R2_16country.md",
+    "share": "./2026-03-29/share.html"
+  }
+}
