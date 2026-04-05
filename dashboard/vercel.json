@@ -1,43 +1,18 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "functions": {
-    "api/**/*.js": {
-      "memory": 256,
-      "maxDuration": 30
-    },
-    "api/agent.js": {
-      "memory": 512,
-      "maxDuration": 60
-    },
-    "api/regions.js": {
-      "memory": 512,
-      "maxDuration": 30
-    },
-    "api/regional-reports.js": {
-      "memory": 512,
-      "maxDuration": 30
-    }
-  },
-  "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/:path*" }
-  ],
+  "version": 2,
   "headers": [
     {
       "source": "/api/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "Content-Type" },
-        { "key": "Cache-Control", "value": "s-maxage=60, stale-while-revalidate=120" }
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type" }
       ]
     },
     {
-      "source": "/(.*)",
+      "source": "/index.html",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Cache-Control", "value": "public, max-age=3600" }
+        { "key": "Cache-Control", "value": "s-maxage=60, stale-while-revalidate=300" }
       ]
     }
   ]
