@@ -1,0 +1,32 @@
+{
+  "week": "2026-04-05",
+  "report_period": {
+    "start": "2026-03-29",
+    "end": "2026-04-04"
+  },
+  "version": "Weekly Vol.2026-04-05-R2",
+  "generated_at": "2026-04-05T01:17:48.048Z",
+  "metrics": {
+    "covered_countries": 15,
+    "lg_promotion_signals": 424,
+    "competitor_promotion_signals": 11,
+    "chinese_threat_signals": 14,
+    "consumer_negative_countries": 58,
+    "critical_country_count": 2
+  },
+  "critical_countries": [
+    "🇧🇷 브라질 (BR)",
+    "🇹🇷 튀르키예 (TR)"
+  ],
+  "executive_key_insights": [
+    "**LG 프로모션 대폭 강화**: 전주 대비 LG 프로모션 감지 건수 84.3% 증가(230건→424건), Amazon Spring Sale 및 Oster-Angebote(독일) 등 글로벌 시즌 프로모션에 적극 대응하며 C5/G5 OLED TV, UltraGear 모니터, WashTower 중심 가격 경쟁력 확보",
+    "**중국 브랜드 위협 전방위 확대**: 중국 브랜드 위협 데이터 16.8% 증가(262건→306건), TCL/Hisense TV 외에 Haier 냉장고(UK/AU/SA), Midea 세탁기(BR/US) 등 가전 부문 공세가 16개국 전역에서 확인됨",
+    "**소비자 불만 급증 경고**: 부정 소비자 반응 34.7% 증가(49건→66건), 🇹🇷 튀르키예 LG A/S 불만 집중, 🇧🇷 브라질 에어컨 환불 지연, 🇩🇪 독일 세탁기 비교 문의 증가 등 핵심 법인별 선제 대응 필요"
+  ],
+  "links": {
+    "html": "./2026-04-05/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-04-05_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-04-05_R2_16country.md",
+    "share": "./2026-04-05/share.html"
+  }
+}
