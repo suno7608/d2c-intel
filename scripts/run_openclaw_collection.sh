@@ -292,27 +292,51 @@ else
   diag_event "primary" "failed" "$primary_failure_reason" "{}"
 fi
 
-# Fallback 1: latest successful raw reuse
+# Fallback 1: fresh collection via Brave Search + Scrapling enrichment
+if [[ "$collection_success" != "true" ]] && [[ "${ENABLE_BRAVE_SEARCH_FALLBACK:-1}" == "1" ]]; then
+  echo "[openclaw] FALLBACK1: running Brave Search + Scrapling collector" | tee -a "$META_FILE"
+  diag_event "fallback1" "start" "brave_scrapling_start" "{}"
+  if [[ -n "${BRAVE_API_KEY:-}" ]]; then
+    if python3 "$ROOT_DIR/scripts/d2c_search.py" "$DATE_KEY" >> "$META_FILE" 2>&1; then
+      if is_quality_raw "$OUTPUT_FILE"; then
+        echo "[openclaw] FALLBACK1: fresh collection quality pass" | tee -a "$META_FILE"
+        diag_event "fallback1" "success" "brave_scrapling_quality_pass" "{\"output\":$(jq -Rn --arg v "$OUTPUT_FILE" '$v')}"
+        collection_success=true
+      else
+        echo "[openclaw] FALLBACK1: collector completed but quality below threshold" | tee -a "$META_FILE"
+        diag_event "fallback1" "failed" "brave_scrapling_quality_below_threshold" "{}"
+      fi
+    else
+      echo "[openclaw] FALLBACK1: collector execution failed" | tee -a "$META_FILE"
+      diag_event "fallback1" "failed" "brave_scrapling_execution_failed" "{}"
+    fi
+  else
+    echo "[openclaw] FALLBACK1: BRAVE_API_KEY is not set" | tee -a "$META_FILE"
+    diag_event "fallback1" "failed" "brave_api_key_missing" "{}"
+  fi
+fi
+
+# Fallback 2: latest successful raw reuse
 if [[ "$collection_success" != "true" ]] && [[ "$ENABLE_OPENCLAW_LAST_SUCCESS_FALLBACK" == "1" ]]; then
-  echo "[openclaw] FALLBACK1: searching latest successful raw (<=${MAX_COLLECTION_STALENESS_DAYS}d)" | tee -a "$META_FILE"
+  echo "[openclaw] FALLBACK2: searching latest successful raw (<=${MAX_COLLECTION_STALENESS_DAYS}d)" | tee -a "$META_FILE"
   if latest_raw="$(find_latest_success_raw)"; then
     cp "$latest_raw" "$OUTPUT_FILE"
     latest_date="$(basename "$latest_raw" | sed -E 's/^openclaw_([0-9]{4}-[0-9]{2}-[0-9]{2})\.jsonl$/\1/')"
     echo "$latest_date" > "$FALLBACK_MARKER"
-    echo "[openclaw] FALLBACK1: reused raw from $latest_date" | tee -a "$META_FILE"
-    diag_event "fallback1" "success" "reuse_latest_success" "{\"source_date\":$(jq -Rn --arg v "$latest_date" '$v')}"
+    echo "[openclaw] FALLBACK2: reused raw from $latest_date" | tee -a "$META_FILE"
+    diag_event "fallback2" "success" "reuse_latest_success" "{\"source_date\":$(jq -Rn --arg v "$latest_date" '$v')}"
     collection_success=true
   else
-    echo "[openclaw] FALLBACK1: no reusable raw found" | tee -a "$META_FILE"
-    diag_event "fallback1" "failed" "no_reusable_raw" "{}"
+    echo "[openclaw] FALLBACK2: no reusable raw found" | tee -a "$META_FILE"
+    diag_event "fallback2" "failed" "no_reusable_raw" "{}"
   fi
 fi
 
-# Fallback 2: async recovery marker
+# Fallback 3: async recovery marker
 if [[ "$collection_success" != "true" ]]; then
   echo "$DATE_KEY" > "$COLLECTION_NEEDED_MARKER"
-  echo "[openclaw] FALLBACK2: recovery marker created ($COLLECTION_NEEDED_MARKER)" | tee -a "$META_FILE"
-  diag_event "fallback2" "created" "collection_needed_marker" "{\"marker\":$(jq -Rn --arg v "$COLLECTION_NEEDED_MARKER" '$v')}"
+  echo "[openclaw] FALLBACK3: recovery marker created ($COLLECTION_NEEDED_MARKER)" | tee -a "$META_FILE"
+  diag_event "fallback3" "created" "collection_needed_marker" "{\"marker\":$(jq -Rn --arg v "$COLLECTION_NEEDED_MARKER" '$v')}"
 fi
 
 if [[ "$collection_success" == "true" ]]; then

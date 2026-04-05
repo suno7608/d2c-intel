@@ -371,3 +371,19 @@ quality_gates:
   min_monitor: 40
   min_gram: 20
   max_tv_ratio: 0.45
+
+# --- 검색 결과 페이지 보강 추출 (Scrapling/lxml) ---
+scrapling_enrichment:
+  enabled: true
+  timeout_seconds: 12
+  max_fetches: 80
+  max_fetches_per_domain: 4
+  blocked_domains:
+    - facebook.com
+    - instagram.com
+    - linkedin.com
+    - pinterest.com
+    - tiktok.com
+    - x.com
+    - twitter.com
+    - youtube.com

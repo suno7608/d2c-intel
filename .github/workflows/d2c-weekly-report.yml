@@ -104,26 +104,6 @@ jobs:
           echo "--- JSONL Stats ---"
           wc -l data/raw/openclaw_${{ env.DATE_KEY }}.jsonl || true
 
-      # ── Step 1.5: Deep Fetch Enrichment (optional) ──
-      - name: Deep fetch high-value URLs
-        if: ${{ vars.ENABLE_DEEP_FETCH == '1' }}
-        timeout-minutes: 15
-        env:
-          ENABLE_DEEP_FETCH: '1'
-          DEEP_FETCH_MAX: ${{ vars.DEEP_FETCH_MAX || '50' }}
-        run: |
-          echo "::group::Deep Fetch Enrichment"
-          pip install "scrapling[fetchers]" 2>/dev/null || echo "::warning::scrapling install failed"
-          python scripts/d2c_deep_fetch.py ${{ env.DATE_KEY }} || echo "::warning::Deep fetch failed (non-blocking)"
-          echo "::endgroup::"
-
-      # ── Step 1.7: Price History Tracking ──
-      - name: Track price changes
-        run: |
-          echo "::group::Price Tracking"
-          python scripts/d2c_price_tracker.py ${{ env.DATE_KEY }} || echo "::warning::Price tracker failed (non-blocking)"
-          echo "::endgroup::"
-
       # ── Step 2: Weekly Stats ──
       - name: Save weekly stats
         run: |
@@ -143,6 +123,20 @@ jobs:
           echo "::endgroup::"
           echo "--- Report Size ---"
           ls -lh reports/md/*${{ env.DATE_KEY }}*.md || true
+
+      # ── Step 3.5: Regional Reports ──
+      - name: Generate regional reports (5 regions)
+        timeout-minutes: 60
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL_REPORT: ${{ vars.CLAUDE_MODEL_REPORT }}
+        run: |
+          echo "::group::Regional Report Generation"
+          python scripts/d2c_regional_report_generator.py ${{ env.DATE_KEY }}
+          echo "::endgroup::"
+          echo "--- Regional Reports ---"
+          ls -lR reports/md/regional/${{ env.DATE_KEY }}/ || true
+          ls -lR reports/json/regional/${{ env.DATE_KEY }}/ || true
 
       # ── Step 4: Build (Translate + Render + PDF + Hub) ──
       - name: Build publishable report (KO/EN HTML + Hub + PDF)
@@ -174,7 +168,7 @@ jobs:
         run: |
           git config user.name "D2C Intel Bot"
           git config user.email "d2c-intel-bot@github.io"
-          git add reports/ data/weekly_stats/ data/raw/ data/price_history/ logs/ || true
+          git add reports/ data/weekly_stats/ data/raw/ logs/ reports/json/regional/ reports/md/regional/ || true
           git diff --cached --quiet && {
             echo "No changes to commit"
             exit 0
@@ -182,28 +176,39 @@ jobs:
           git commit -m "feat: add ${{ env.DATE_KEY }} weekly intelligence reports (automated)"
           git push
 
-      # ── Step 6.5: Deploy to GitHub Pages ──
-      # GitHub Pages는 master 브랜치의 reports/html/ 디렉토리를 직접 서빙합니다.
-      # Step 6에서 이미 reports/를 master에 커밋+push 했으므로,
-      # PDF를 html/pdf/에 복사하고 추가 커밋만 하면 됩니다.
+      # ── Step 6.5: Deploy to GitHub Pages (main branch) ──
       - name: Deploy reports to GitHub Pages
         run: |
           echo "::group::Deploy to Pages"
-          # PDF를 html/pdf/ 디렉토리에 복사 (Pages에서 다운로드 가능하도록)
-          mkdir -p reports/html/pdf reports/html/md
-          cp reports/pdf/*.pdf reports/html/pdf/ 2>/dev/null || true
-          cp reports/md/*${{ env.DATE_KEY }}*.md reports/html/md/ 2>/dev/null || true
-
-          git add reports/html/pdf/ reports/html/md/ || true
-          git diff --cached --quiet && echo "No additional Pages assets to commit" || {
-            git commit -m "deploy: publish ${{ env.DATE_KEY }} PDF/MD assets to Pages"
-            git push
+          git fetch origin master 2>/dev/null || true
+          git worktree add /tmp/pages-deploy origin/master 2>/dev/null || {
+            git worktree remove /tmp/pages-deploy 2>/dev/null
+            git worktree add /tmp/pages-deploy origin/master
+          }
+          cp -r reports/html/* /tmp/pages-deploy/reports/html/
+          cp reports/html/manifest.json /tmp/pages-deploy/reports/html/manifest.json
+          mkdir -p /tmp/pages-deploy/reports/html/pdf
+          cp reports/pdf/*.pdf /tmp/pages-deploy/reports/html/pdf/ 2>/dev/null || true
+          cd /tmp/pages-deploy
+          git config user.name "D2C Intel Bot"
+          git config user.email "d2c-intel-bot@github.io"
+          git add -A
+          git diff --cached --quiet && echo "No changes for Pages" || {
+            git commit -m "📊 Deploy ${{ env.DATE_KEY }} reports to Pages"
+            git push origin HEAD:master
           }
           echo "::endgroup::"
 
-      # ── Step 7: Email (handled by local cron for Gmail API + subscriber lookup) ──
-      # Email sending moved to local OpenClaw cron job (d2c-weekly-report-check)
-      # Reason: Gmail API needs OAuth token refresh, Google Sheets subscriber lookup
+      # ── Step 7: Email ──
+      - name: Send email report
+        if: always()
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          REPORT_RECIPIENTS: ${{ vars.REPORT_RECIPIENTS }}
+        run: |
+          python scripts/d2c_email_sender.py ${{ env.DATE_KEY }} || {
+            echo "::warning::Email sending failed (non-critical)"
+          }
 
       # ── Step 8: Summary ──
       - name: Job summary
@@ -224,4 +229,4 @@ jobs:
           fi
 
           echo "- **Hub URL:** https://suno7608.github.io/d2c-intel/" >> $GITHUB_STEP_SUMMARY
-          echo "- **Report URL:** https://suno7608.github.io/d2c-intel/reports/html/${{ env.DATE_KEY }}/index.html" >> $GITHUB_STEP_SUMMARY
+          echo "- **Report URL:** https://suno7608.github.io/d2c-intel/${{ env.DATE_KEY }}/index.html" >> $GITHUB_STEP_SUMMARY
