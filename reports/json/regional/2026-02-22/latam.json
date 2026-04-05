@@ -1,0 +1,61 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 41,
+  "chinese_brand_total": 2,
+  "lg_total": 39,
+  "country_breakdown": {
+    "BR": 13,
+    "MX": 13,
+    "CL": 13
+  },
+  "product_breakdown": {
+    "데이터 부족": 1
+  },
+  "brand_breakdown": {
+    "LG": 39,
+    "TCL": 0,
+    "Haier": 0,
+    "Midea": 0
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 14,
+    "Competitive Price & Positioning": 10,
+    "Chinese Brand Threat Tracking": 2,
+    "Consumer Sentiment": 4
+  },
+  "country_data": {
+    "BR": {
+      "total": 13,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "MX": {
+      "total": 13,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "CL": {
+      "total": 13,
+      "chinese_count": 0,
+      "products": {
+        "데이터 부족": 1
+      },
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-02-22",
+  "period_start": null,
+  "period_end": null
+}

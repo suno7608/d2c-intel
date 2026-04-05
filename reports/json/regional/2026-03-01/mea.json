@@ -1,0 +1,60 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG",
+    "AE"
+  ],
+  "total_records": 54,
+  "chinese_brand_total": 2,
+  "lg_total": 52,
+  "country_breakdown": {
+    "SA": 54,
+    "EG": 0,
+    "AE": 0
+  },
+  "product_breakdown": {
+    "Hisense TV 대형 사이즈 공격적 프로모션": 52
+  },
+  "brand_breakdown": {
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 19,
+    "Competitive Price & Positioning": 14,
+    "Chinese Brand Threat Tracking": 2,
+    "Consumer Sentiment": 5
+  },
+  "country_data": {
+    "SA": {
+      "total": 54,
+      "chinese_count": 2,
+      "products": {
+        "Hisense TV 대형 사이즈 공격적 프로모션": 52
+      },
+      "brands": {
+        "Hisense": 2
+      },
+      "top_signals": []
+    },
+    "EG": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "AE": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-03-01",
+  "period_start": "2026-02-22",
+  "period_end": "2026-02-28"
+}

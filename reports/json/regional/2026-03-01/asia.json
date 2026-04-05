@@ -1,0 +1,75 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 90,
+  "chinese_brand_total": 3,
+  "lg_total": 87,
+  "country_breakdown": {
+    "AU": 36,
+    "TW": 54,
+    "SG": 0,
+    "TH": 0
+  },
+  "product_breakdown": {
+    "Haier 냉장고/세탁기 Good Guys/JB Hi-Fi 입점 확대": 34,
+    "TCL/Hisense TV 비리비리 등 중화권 미디어 노출": 53
+  },
+  "brand_breakdown": {
+    "Haier": 2,
+    "TCL": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 31,
+    "Competitive Price & Positioning": 22,
+    "Chinese Brand Threat Tracking": 3,
+    "Consumer Sentiment": 9
+  },
+  "country_data": {
+    "AU": {
+      "total": 36,
+      "chinese_count": 2,
+      "products": {
+        "Haier 냉장고/세탁기 Good Guys/JB Hi-Fi 입점 확대": 34
+      },
+      "brands": {
+        "Haier": 2
+      },
+      "top_signals": []
+    },
+    "TW": {
+      "total": 54,
+      "chinese_count": 1,
+      "products": {
+        "TCL/Hisense TV 비리비리 등 중화권 미디어 노출": 53
+      },
+      "brands": {
+        "TCL": 1
+      },
+      "top_signals": []
+    },
+    "SG": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-03-01",
+  "period_start": "2026-02-22",
+  "period_end": "2026-02-28"
+}

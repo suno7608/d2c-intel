@@ -1,0 +1,62 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 76,
+  "chinese_brand_total": 3,
+  "lg_total": 73,
+  "country_breakdown": {
+    "BR": 76,
+    "MX": 0,
+    "CL": 0
+  },
+  "product_breakdown": {
+    "Midea 세탁기 저가 공세 + 품질 불만 급증": 73
+  },
+  "brand_breakdown": {
+    "Midea": 2,
+    "TCL": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 27,
+    "Competitive Price & Positioning": 19,
+    "Chinese Brand Threat Tracking": 3,
+    "Consumer Sentiment": 8
+  },
+  "country_data": {
+    "BR": {
+      "total": 76,
+      "chinese_count": 3,
+      "products": {
+        "Midea 세탁기 저가 공세 + 품질 불만 급증": 73
+      },
+      "brands": {
+        "Midea": 2,
+        "TCL": 1
+      },
+      "top_signals": []
+    },
+    "MX": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "CL": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-03-01",
+  "period_start": "2026-02-22",
+  "period_end": "2026-02-28"
+}

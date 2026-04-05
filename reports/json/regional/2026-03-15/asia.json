@@ -1,0 +1,72 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 61,
+  "chinese_brand_total": 2,
+  "lg_total": 59,
+  "country_breakdown": {
+    "AU": 15,
+    "TW": 15,
+    "SG": 15,
+    "TH": 15
+  },
+  "product_breakdown": {
+    "TV": 0,
+    "Refrigerator": 0,
+    "Washing Machine": 0,
+    "Monitor": 0,
+    "LG gram": 0
+  },
+  "brand_breakdown": {
+    "LG": 59,
+    "TCL": 0,
+    "Haier": 0,
+    "Midea": 0
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 21,
+    "Competitive Price & Positioning": 15,
+    "Chinese Brand Threat Tracking": 2,
+    "Consumer Sentiment": 6
+  },
+  "country_data": {
+    "AU": {
+      "total": 15,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "TW": {
+      "total": 15,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "SG": {
+      "total": 15,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "TH": {
+      "total": 15,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-03-15",
+  "period_start": "2026-03-08",
+  "period_end": "2026-03-14"
+}

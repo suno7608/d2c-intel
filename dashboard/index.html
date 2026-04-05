@@ -422,6 +422,52 @@ input,textarea{font-family:var(--sans)}
 ::-webkit-scrollbar{width:4px;height:4px}
 ::-webkit-scrollbar-track{background:var(--paper2)}
 ::-webkit-scrollbar-thumb{background:var(--bd)}
+
+/* ── MOBILE HAMBURGER ─────────────────────────────────── */
+.mob-menu-btn{display:none;background:none;border:none;color:#fcf9f8;font-size:1.25rem;padding:8px;line-height:1;margin-right:8px;cursor:pointer}
+.sb-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:149}
+
+/* ── RESPONSIVE: tablet (≤1024px) ─────────────────────── */
+@media(max-width:1024px){
+  :root{--sb:180px}
+  .ph{padding:28px 28px 22px}.sec{padding:0 28px 24px}
+  .kpi-row{margin:0 28px 20px}.dual{margin:0 28px 20px}
+  .analyst{margin:0 28px 28px}.reg-metrics{margin:0 28px 16px}
+  .footer{padding:24px 28px}
+}
+
+/* ── RESPONSIVE: mobile (≤768px) ──────────────────────── */
+@media(max-width:768px){
+  :root{--nav:52px;--sb:240px}
+  .mob-menu-btn{display:flex;align-items:center;justify-content:center}
+  .nav{padding:0 12px}.nav-logo{margin-right:auto}
+  .nav-links{display:none}.nav-search{display:none}.btn-nav{display:none}
+  .sb{position:fixed;top:var(--nav);left:-260px;bottom:0;z-index:150;width:240px;min-width:240px;transition:left .25s cubic-bezier(.4,0,.2,1);box-shadow:2px 0 16px rgba(0,0,0,.18)}
+  .sb.mob-open{left:0}
+  .sb-overlay.mob-open{display:block}
+  .app-body{flex-direction:column}.main{width:100%;overflow-x:hidden}
+  .ph{padding:20px 16px 16px;flex-direction:column;gap:12px}.ph-l{max-width:100%}
+  .status-chip{justify-content:flex-start}
+  .sec{padding:0 16px 20px}
+  .kpi-row{grid-template-columns:1fr 1fr;margin:0 16px 16px}
+  .kpi-row .kpi:nth-child(3){grid-column:1/-1;border-left:none;border-top:1px solid var(--bds)}
+  .kpi{padding:18px 16px}.kpi+.kpi{border-left:none;border-top:1px solid var(--bds)}
+  .kpi-row .kpi:first-child+.kpi{border-left:1px solid var(--bds);border-top:none}
+  .dual{grid-template-columns:1fr;margin:0 16px 16px}
+  .analyst{grid-template-columns:1fr;margin:0 16px 24px}.analyst-img{min-height:160px}
+  .reg-metrics{grid-template-columns:1fr;margin:0 16px 14px}.metric-sub{grid-template-columns:1fr 1fr}
+  .sent-foot{grid-template-columns:1fr 1fr}
+  .footer{padding:20px 16px}.footer-top{flex-direction:column;gap:16px}
+  .footer-links{flex-wrap:wrap;gap:16px}.footer-bot{flex-direction:column;gap:6px}
+}
+
+/* ── RESPONSIVE: very small (≤480px) ──────────────────── */
+@media(max-width:480px){
+  .kpi-row{grid-template-columns:1fr}
+  .kpi-row .kpi:first-child+.kpi{border-left:none;border-top:1px solid var(--bds)}
+  .metric-sub{grid-template-columns:1fr}.ms+.ms{border-left:none;border-top:1px solid var(--bds)}
+  .td{font-size:1.5rem}.tdata{font-size:1.75rem}
+}
 </style>
 </head>
 
@@ -432,6 +478,7 @@ input,textarea{font-family:var(--sans)}
      TOP NAVIGATION
 ════════════════════════════════════════════════════════ -->
 <header class="nav">
+  <button class="mob-menu-btn" id="mob-menu-btn" aria-label="메뉴 열기">☰</button>
   <div class="nav-logo">
     <span class="nav-logo-a">D2C Intel</span>
     <span class="nav-logo-b">LG 글로벌 D2C 인텔리전스</span>
@@ -453,10 +500,11 @@ input,textarea{font-family:var(--sans)}
 <!-- ═══════════════════════════════════════════════════════
      APP BODY
 ════════════════════════════════════════════════════════ -->
+<div class="sb-overlay" id="sb-overlay"></div>
 <div class="app-body">
 
 <!-- SIDEBAR -->
-<aside class="sb">
+<aside class="sb" id="sidebar">
   <div class="sb-sec tl">지역 인텔리전스</div>
   <div class="sb-sub tl" style="font-size:.5rem">국가별 필터</div>
   <div class="sbi active" data-view="global" data-region="global"><span class="sb-icon">⊞</span>전체 집계</div>
@@ -1945,16 +1993,37 @@ async function loadReportLinks() {
   }
 }
 
+/* ── MOBILE SIDEBAR TOGGLE ────────────────────────────── */
+function initMobileMenu() {
+  const btn = document.getElementById('mob-menu-btn');
+  const sb  = document.getElementById('sidebar');
+  const ov  = document.getElementById('sb-overlay');
+  if (!btn || !sb || !ov) return;
+
+  function openSb()  { sb.classList.add('mob-open'); ov.classList.add('mob-open'); }
+  function closeSb() { sb.classList.remove('mob-open'); ov.classList.remove('mob-open'); }
+
+  btn.addEventListener('click', () => sb.classList.contains('mob-open') ? closeSb() : openSb());
+  ov.addEventListener('click', closeSb);
+
+  // Close sidebar when a menu item is tapped on mobile
+  document.querySelectorAll('.sbi').forEach(el => {
+    el.addEventListener('click', () => { if (window.innerWidth <= 768) closeSb(); });
+  });
+}
+
 /* ── INIT ─────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
   loadGlobalDashboard();
   loadReportLinks();
+  initMobileMenu();
 });
 
 // Also trigger immediately if DOM is already ready
 if (document.readyState !== 'loading') {
   loadGlobalDashboard();
   loadReportLinks();
+  initMobileMenu();
 }
 </script>
 </body>

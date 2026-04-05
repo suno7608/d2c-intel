@@ -1,0 +1,67 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": ["AU", "TW", "SG", "TH"],
+  "total_records": 178,
+  "chinese_brand_total": 54,
+  "lg_total": 124,
+  "country_breakdown": {"AU": 78, "TW": 52, "SG": 31, "TH": 17},
+  "product_breakdown": {"TV": 89, "Monitor": 41, "Refrigerator": 27, "Washing Machine": 14, "LG gram": 7},
+  "brand_breakdown": {"LG": 124, "TCL": 28, "Hisense": 14, "Samsung": 8, "Haier": 4},
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 68,
+    "Competitive Price & Positioning": 52,
+    "Chinese Brand Threat Tracking": 38,
+    "Consumer Sentiment": 20
+  },
+  "country_data": {
+    "AU": {
+      "total": 78,
+      "chinese_count": 24,
+      "products": {"TV": 38, "Monitor": 18, "Refrigerator": 12, "Washing Machine": 7, "LG gram": 3},
+      "brands": {"LG": 54, "TCL": 14, "Hisense": 8, "Samsung": 2},
+      "top_signals": [
+        {
+          "brand": "LG", "product": "TV", "pillar": "Consumer Sentiment",
+          "value": "LG C5/G5 호주 소비자 호평 8건",
+          "source": "appliancecentral.com.au",
+          "source_url": "https://www.appliancecentral.com.au/oled65c5psa-lg-65-inch-evo-c5-4k-uhd-smart-tv",
+          "confidence": "high"
+        }
+      ]
+    },
+    "TW": {
+      "total": 52,
+      "chinese_count": 18,
+      "products": {"TV": 31, "Monitor": 14, "LG gram": 4, "Refrigerator": 3},
+      "brands": {"LG": 34, "TCL": 12, "Hisense": 6},
+      "top_signals": [
+        {
+          "brand": "LG", "product": "TV", "pillar": "Consumer Sentiment",
+          "value": "LG G5 RTINGS 글로벌 1위 달성 — 대만 커뮤니티 호평 5건",
+          "source": "mobile01.com",
+          "source_url": "https://www.mobile01.com/topicdetail.php?f=347&t=7243922",
+          "confidence": "high"
+        }
+      ]
+    },
+    "SG": {
+      "total": 31,
+      "chinese_count": 8,
+      "products": {"TV": 14, "Monitor": 7, "Refrigerator": 6, "Washing Machine": 4},
+      "brands": {"LG": 23, "TCL": 5, "Haier": 3},
+      "top_signals": []
+    },
+    "TH": {
+      "total": 17,
+      "chinese_count": 4,
+      "products": {"TV": 6, "Refrigerator": 6, "Washing Machine": 3, "LG gram": 2},
+      "brands": {"LG": 13, "TCL": 3, "Hisense": 1},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-04-05",
+  "period_start": "2026-03-29",
+  "period_end": "2026-04-04"
+}
