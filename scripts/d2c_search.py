@@ -678,10 +678,10 @@ def main():
 
     logger.info(f"D2C Brave Search Collection — date={date_key}")
     logger.info(f"Output: {output_path}")
-    logger.info(f"Scrapling enrichment: {collector.page_enricher.summary()}")
 
     # Collect
     collector = BraveSearchCollector(api_key, config)
+    logger.info(f"Scrapling enrichment: {collector.page_enricher.summary()}")
     records = collector.collect_all(date_key)
     logger.info(f"Initial collection: {len(records)} records, {collector.total_api_calls} API calls")
 
