@@ -1,0 +1,156 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 65,
+  "country_breakdown": {
+    "SA": 65
+  },
+  "product_breakdown": {
+    "TV": 22,
+    "Refrigerator": 17,
+    "Washing Machine": 15,
+    "Monitor": 1,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 38,
+    "Hisense": 11,
+    "TCL": 5,
+    "Samsung": 1,
+    "Haier": 10
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 24,
+    "Chinese Brand Threat Tracking": 32,
+    "Retail Channel Promotions": 9
+  },
+  "chinese_brand_total": 26,
+  "lg_total": 38,
+  "country_data": {
+    "SA": {
+      "total": 65,
+      "products": {
+        "TV": 22,
+        "Refrigerator": 17,
+        "Washing Machine": 15,
+        "Monitor": 1,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 38,
+        "Hisense": 11,
+        "TCL": 5,
+        "Samsung": 1,
+        "Haier": 10
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Samsung S90H vs S95H OLED: Which new TV should you buy? | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/samsung-s90h-vs-s95h-oled-which-new-tv-should-you-buy",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Refrigerators - LG / Refrigerators / Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-LG-Freezers-Ice-Makers/s?keywords=Refrigerators&rh=n:3741361,p_89:LG&c=ts&ts_id=3741361",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: LG - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-LG-Laundry-Appliances/s?rh=n:2383576011,p_89:LG",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier HWD90B14959S8NUK Series X5 9kg/6kg WiFi Washer Dryer at Appliance City",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/haier-hwd90b14959s8nuk-series-x5-9kg6kg-wifi-washer-dryer-graphite-4860816",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Laptop Computers – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-computing/lg-laptops/pcmcat1531506580106.c?id=pcmcat1531506580106",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: Lg Gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/lg-gram/s?k=lg+gram",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL - Smart TV: Electronics",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Smart-TV-TCL-Electronics/s?rh=n:5969290011,p_4:TCL",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Hisense: All Our TVs",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/Hisense/page/20E858DC-25EA-4935-874C-81BB2E100E26",
+          "confidence": "high"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-04-12",
+  "period_start": "2026-04-05",
+  "period_end": "2026-04-11"
+}

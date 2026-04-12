@@ -1,0 +1,278 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 94,
+  "country_breakdown": {
+    "AU": 41,
+    "TW": 53
+  },
+  "product_breakdown": {
+    "TV": 33,
+    "Refrigerator": 22,
+    "Washing Machine": 28,
+    "Monitor": 5,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "LG": 60,
+    "TCL": 9,
+    "Samsung": 3,
+    "Hisense": 4,
+    "Haier": 13,
+    "Midea": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 25,
+    "Competitive Price & Positioning": 23,
+    "Consumer Sentiment": 15,
+    "Chinese Brand Threat Tracking": 31
+  },
+  "chinese_brand_total": 31,
+  "lg_total": 60,
+  "country_data": {
+    "AU": {
+      "total": 41,
+      "products": {
+        "TV": 15,
+        "Refrigerator": 11,
+        "Washing Machine": 11,
+        "Monitor": 1,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 13,
+        "TCL": 7,
+        "Haier": 13,
+        "Samsung": 1,
+        "Midea": 5,
+        "Hisense": 2
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 55\" C7K Premium QD-Mini LED 4K Google TV $845.75 Delivered @ Bing Lee - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/954655",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG C6 vs. LG C5: I compared two generations of OLED TVs, and it was pretty darn close | ZDNET",
+          "source": "zdnet.com",
+          "source_url": "https://www.zdnet.com/home-and-office/home-entertainment/lg-c6-vs-lg-c5/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 Inch Class LG OLED evo AI G6 4K Smart TV 2026 with Supplied Wall Mount - OLED55G6WUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled55g6wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 2026 QNED evo Mini LED TV announced » YugaTech | Philippines Tech News & Reviews",
+          "source": "yugatech.com",
+          "source_url": "https://www.yugatech.com/news/lg-2026-qned-evo-mini-led-tv-announced/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "OLED55B5PSA LG 55 INCH OLED B5 AI UHD 4K Smart TV (2025)",
+          "source": "appliancecentral.com.au",
+          "source_url": "https://www.appliancecentral.com.au/oled55b5psa-lg-55-inch-oled-b5-ai-uhd-4k-smart-tv-2025",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "75NANO80ASA LG 75 INCH NANO80A AI LED UHD 4K Smart TV (2025)",
+          "source": "appliancecentral.com.au",
+          "source_url": "https://www.appliancecentral.com.au/75nano80asa-lg-75-inch-nano80a-ai-led-uhd-4k-smart-tv-2025",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "2025 Model – LG UHD 55in AI 4K Smart TV 55UA7350PSB - Ansons",
+          "source": "ansons.ph",
+          "source_url": "https://ansons.ph/product/2025-model-lg-uhd-55in-ai-4k-smart-tv-55ua7350psb/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs 2026: SQD-Mini LED, a new alternative to RGB Mini LED - HomeCineSolutions",
+          "source": "en.homecinesolutions.fr",
+          "source_url": "https://en.homecinesolutions.fr/blog/posts/2428-tcl-tvs-2026-sqd-mini-led-a-new-alternative-to-rgb-mini-led",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 53,
+      "products": {
+        "TV": 18,
+        "Refrigerator": 11,
+        "Washing Machine": 17,
+        "Monitor": 4,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 47,
+        "TCL": 2,
+        "Samsung": 2,
+        "Hisense": 2
+      },
+      "chinese_count": 4,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 台灣優惠碼及折扣2026｜4月最新折扣與會員優惠 | Dealy",
+          "source": "dealy.tw",
+          "source_url": "https://dealy.tw/shop/lg.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG | < 4% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "【2026電視推薦】大螢幕追劇畫質不踩雷！7款Dcard/PTT熱議評比！小資租屋/頂級家庭劇院、小米/LG",
+          "source": "vocus.cc",
+          "source_url": "https://vocus.cc/article/69d6ecb2fd897800013dd7e1",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "不到一公分的超薄電視！LG 正在重新定義電視和螢幕的邊界 | T客邦",
+          "source": "techbang.com",
+          "source_url": "https://www.techbang.com/posts/128733-lg-ultra-thin-tv-redefines-boundaries",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "觀眾年齡中位數70歲…美國電視新聞龍頭重用TikTok網紅記者，能救收入危機？－商周頭條｜商周",
+          "source": "businessweekly.com.tw",
+          "source_url": "https://www.businessweekly.com.tw/business/blog/3021083",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "酷澎(Coupang) | < 2.5% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/coupang",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "(公布得獎名單)「普發來土銀 刷卡滿額抽」優惠活動",
+          "source": "landbank.com.tw",
+          "source_url": "https://www.landbank.com.tw/Bulletin/Detail/822356b0-90f7-494d-aaac-b4260062b4c3",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Apr 2026 | 53% OFF | Tom's Hardware",
+          "source": "tomshardware.com",
+          "source_url": "https://www.tomshardware.com/coupons/lg.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Trip.com | < 6% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/tripcom",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "十大 TCL電視 好口碑榜單 2026年4月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/TCL_%E9%9B%BB%E8%A6%96",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-04-12",
+  "period_start": "2026-04-05",
+  "period_end": "2026-04-11"
+}

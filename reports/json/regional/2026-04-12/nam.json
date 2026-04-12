@@ -1,0 +1,262 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 172,
+  "country_breakdown": {
+    "US": 151,
+    "CA": 21
+  },
+  "product_breakdown": {
+    "TV": 46,
+    "Refrigerator": 38,
+    "Washing Machine": 41,
+    "Monitor": 29,
+    "LG gram": 18
+  },
+  "brand_breakdown": {
+    "LG": 110,
+    "TCL": 14,
+    "Samsung": 7,
+    "Haier": 17,
+    "Midea": 22,
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 54,
+    "Competitive Price & Positioning": 29,
+    "Consumer Sentiment": 29,
+    "Chinese Brand Threat Tracking": 60
+  },
+  "chinese_brand_total": 55,
+  "lg_total": 110,
+  "country_data": {
+    "US": {
+      "total": 151,
+      "products": {
+        "TV": 43,
+        "Refrigerator": 29,
+        "Washing Machine": 34,
+        "Monitor": 28,
+        "LG gram": 17
+      },
+      "brands": {
+        "LG": 105,
+        "TCL": 13,
+        "Samsung": 7,
+        "Haier": 10,
+        "Midea": 14,
+        "Hisense": 2
+      },
+      "chinese_count": 39,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The cheapest OLED TV deals and sales in April 2026 | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/deals/best-oled-tv-prices-deals",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Best OLED TVs in 2026 tested: Our top picks from LG, Samsung and more | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/best-oled-tvs",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "This 65-inch Mini-LED TV is bright, packed with features and down to its lowest price ever | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/qled-tvs/this-65-inch-mini-led-tv-is-bright-packed-with-features-and-down-to-its-lowest-price-ever",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Extra 20% Off a first LG order - Coupon Code",
+          "source": "slickdeals.net",
+          "source_url": "https://slickdeals.net/promo-codes/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in April 2026 | 53% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Apr 2026 | 53% OFF | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/lg-coupon-codes",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/Appliances on Reddit: Samsung Vs LG appliances",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1sdb0l7/samsung_vs_lg_appliances/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "Monitor Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 4 Best Ultrawide Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/ultrawide-gaming",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "r/Monitors on Reddit: Is my LG monitor to blame for bad performance?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Monitors/comments/1sczx6q/is_my_lg_monitor_to_blame_for_bad_performance/",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 21,
+      "products": {
+        "TV": 3,
+        "Refrigerator": 9,
+        "Monitor": 1,
+        "LG gram": 1,
+        "Washing Machine": 7
+      },
+      "brands": {
+        "LG": 5,
+        "TCL": 1,
+        "Haier": 7,
+        "Midea": 8
+      },
+      "chinese_count": 16,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/homeowners on Reddit: Lower middle class refrigerator",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/homeowners/comments/1sev1k4/lower_middle_class_refrigerator/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 65\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/lg-65%22-class---oledc5-series---4k-uhd-oled-tv.product.4000370787.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "Forget 4K, OLED is the visual upgrade you need for gaming",
+          "source": "mobilesyrup.com",
+          "source_url": "https://mobilesyrup.com/2026/04/03/lg-gx7-oled-monitor-review/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "[Newegg] [Big Spring Sale] $149.99 LG UltraGear 27\" 1440p 200Hz IPS FreeSync Premium Monitor - RedFlagDeals.com Forums",
+          "source": "forums.redflagdeals.com",
+          "source_url": "https://forums.redflagdeals.com/newegg-149-99-lg-ultragear-27-1440p-200hz-ips-freesync-premium-monitor-2806654/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "65 Inch LG OLED evo AI G6 4K Smart TV 2026 - OLED65G6SUB.ACC | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/tv-soundbars/oled-evo/oled65g6sub/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 85-Inch QM7K Series QLED 4K Smart QD-Mini LED TV with Google TV (2025 Model) + JBL Bar 500MK2-5.1 Channel soundbar System | Amazon price tracker / tracking, Amazon price history charts, Amazon price watches, Amazon price drop alerts | camelcamelcamel.com",
+          "source": "ca.camelcamelcamel.com",
+          "source_url": "https://ca.camelcamelcamel.com/product/B0FYPQ8XN2",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Appliances: Shop Refrigerators, Dishwashers and more",
+          "source": "coastappliances.ca",
+          "source_url": "https://www.coastappliances.ca/collections/haier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier: Fridges, Dishwashers & more Appliances | Best Buy Canada",
+          "source": "bestbuy.ca",
+          "source_url": "https://www.bestbuy.ca/en-ca/brand/haier",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-04-12",
+  "period_start": "2026-04-05",
+  "period_end": "2026-04-11"
+}
