@@ -1,8 +1,46 @@
 {
-  "generated_at": "2026-03-28T22:33:45.732Z",
-  "total_weeks": 8,
-  "latest_week": "2026-03-29",
+  "generated_at": "2026-04-12T07:38:41.565Z",
+  "total_weeks": 9,
+  "latest_week": "2026-04-12",
   "weeks": [
+    {
+      "week": "2026-04-12",
+      "report_period": {
+        "start": "2026-04-05",
+        "end": "2026-04-11"
+      },
+      "version": "Weekly Vol.2026-04-12-R2",
+      "generated_at": "2026-04-12T07:37:39.881Z",
+      "metrics": {
+        "covered_countries": 16,
+        "lg_promotion_signals": 230,
+        "competitor_promotion_signals": 95,
+        "chinese_threat_signals": 337,
+        "consumer_negative_countries": 9,
+        "critical_country_count": 8
+      },
+      "critical_countries": [
+        "🇺🇸 US",
+        "🇬🇧 UK",
+        "🇩🇪 DE",
+        "🇫🇷 FR",
+        "🇪🇸 ES",
+        "🇮🇹 IT",
+        "🇧🇷 BR",
+        "🇸🇦 SA"
+      ],
+      "executive_key_insights": [
+        "이번 주 수집 데이터는 총 **955건**이며, 핵심 법인 **16개국**에서 신호가 확인되었다. 가장 많은 신호가 집중된 제품군은 **TV(465건)**이다.",
+        "프로모션 신호는 LG 230건, 경쟁사 95건으로 관측되어, **🇺🇸 US**에서 LG 집행 강도가 가장 높았다.",
+        "중국 브랜드(TCL/Hisense/Haier/Midea) 위협 신호는 **337건**이며, **🇮🇹 IT**에서 집중도가 가장 높아 MS/HS 동시 대응이 필요하다."
+      ],
+      "links": {
+        "html": "./2026-04-12/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-04-12_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-04-12_R2_16country.md",
+        "share": "./2026-04-12/share.html"
+      }
+    },
     {
       "week": "2026-03-29",
       "report_period": {
