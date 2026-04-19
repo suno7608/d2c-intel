@@ -1,0 +1,31 @@
+{
+  "week": "2026-04-19",
+  "report_period": {
+    "start": "2026-04-12",
+    "end": "2026-04-18"
+  },
+  "version": "Weekly Vol.2026-04-19-R2",
+  "generated_at": "2026-04-19T08:27:04.694Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 343,
+    "competitor_promotion_signals": 9,
+    "chinese_threat_signals": 13,
+    "consumer_negative_countries": 11,
+    "critical_country_count": 1
+  },
+  "critical_countries": [
+    "🇧🇷 브라질 (BR)"
+  ],
+  "executive_key_insights": [
+    "**LG OLED TV 공격적 프로모션 성과**: 미국 Best Buy에서 B5 OLED TV 구매 시 무료 TV 증정 프로모션이 주요 테크 미디어 전반에 노출되며 브랜드 가시성 극대화 — 전주 대비 LG 프로모션 감지 건수 6.5% 증가(343건 vs 322건)",
+    "**중국 브랜드 가전 위협 심화**: 냉장고/세탁기 부문에서 Haier(87건), Midea(81건)의 유통 확장 및 가격 공세가 16개국 전반에 감지되어 MS(TV) 대비 HS(생활가전) 부문 방어 전략 시급",
+    "**부정 소비자 반응 2배 급증**: 전주 11건 → 금주 22건으로 증가하며 브라질 A/S 불만(에어컨 관련 다수)과 독일 세탁기 유지보수 이슈가 핵심 경보 대상"
+  ],
+  "links": {
+    "html": "./2026-04-19/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-04-19_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-04-19_R2_16country.md",
+    "share": "./2026-04-19/share.html"
+  }
+}

@@ -1,8 +1,39 @@
 {
-  "generated_at": "2026-04-18T20:14:27.835Z",
-  "total_weeks": 9,
-  "latest_week": "2026-04-12",
+  "generated_at": "2026-04-19T08:31:21.823Z",
+  "total_weeks": 11,
+  "latest_week": "2026-04-19",
   "weeks": [
+    {
+      "week": "2026-04-19",
+      "report_period": {
+        "start": "2026-04-12",
+        "end": "2026-04-18"
+      },
+      "version": "Weekly Vol.2026-04-19-R2",
+      "generated_at": "2026-04-19T08:27:04.694Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 343,
+        "competitor_promotion_signals": 9,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 11,
+        "critical_country_count": 1
+      },
+      "critical_countries": [
+        "🇧🇷 브라질 (BR)"
+      ],
+      "executive_key_insights": [
+        "**LG OLED TV 공격적 프로모션 성과**: 미국 Best Buy에서 B5 OLED TV 구매 시 무료 TV 증정 프로모션이 주요 테크 미디어 전반에 노출되며 브랜드 가시성 극대화 — 전주 대비 LG 프로모션 감지 건수 6.5% 증가(343건 vs 322건)",
+        "**중국 브랜드 가전 위협 심화**: 냉장고/세탁기 부문에서 Haier(87건), Midea(81건)의 유통 확장 및 가격 공세가 16개국 전반에 감지되어 MS(TV) 대비 HS(생활가전) 부문 방어 전략 시급",
+        "**부정 소비자 반응 2배 급증**: 전주 11건 → 금주 22건으로 증가하며 브라질 A/S 불만(에어컨 관련 다수)과 독일 세탁기 유지보수 이슈가 핵심 경보 대상"
+      ],
+      "links": {
+        "html": "./2026-04-19/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-04-19_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-04-19_R2_16country.md",
+        "share": "./2026-04-19/share.html"
+      }
+    },
     {
       "week": "2026-04-12",
       "report_period": {
@@ -10,35 +41,66 @@
         "end": "2026-04-11"
       },
       "version": "Weekly Vol.2026-04-12-R2",
-      "generated_at": "2026-04-12T07:37:39.881Z",
+      "generated_at": "2026-04-12T13:31:39.073Z",
       "metrics": {
-        "covered_countries": 16,
-        "lg_promotion_signals": 230,
-        "competitor_promotion_signals": 95,
-        "chinese_threat_signals": 337,
-        "consumer_negative_countries": 9,
-        "critical_country_count": 8
+        "covered_countries": 14,
+        "lg_promotion_signals": 349,
+        "competitor_promotion_signals": 8,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 11,
+        "critical_country_count": 4
       },
       "critical_countries": [
-        "🇺🇸 US",
-        "🇬🇧 UK",
-        "🇩🇪 DE",
-        "🇫🇷 FR",
-        "🇪🇸 ES",
-        "🇮🇹 IT",
-        "🇧🇷 BR",
-        "🇸🇦 SA"
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)",
+        "🇧🇷 브라질 (BR)",
+        "🇦🇺 호주 (AU)"
       ],
       "executive_key_insights": [
-        "이번 주 수집 데이터는 총 **955건**이며, 핵심 법인 **16개국**에서 신호가 확인되었다. 가장 많은 신호가 집중된 제품군은 **TV(465건)**이다.",
-        "프로모션 신호는 LG 230건, 경쟁사 95건으로 관측되어, **🇺🇸 US**에서 LG 집행 강도가 가장 높았다.",
-        "중국 브랜드(TCL/Hisense/Haier/Midea) 위협 신호는 **337건**이며, **🇮🇹 IT**에서 집중도가 가장 높아 MS/HS 동시 대응이 필요하다."
+        "**제품 포트폴리오 다변화 성공**: TV 비중이 전주 43.5%에서 34.3%로 9.2%p 감소하며, 냉장고(25.4%), 세탁기(21.4%), 모니터(12.4%) 중심의 균형 잡힌 데이터 수집 구조 달성",
+        "**중국 브랜드 공세 지속**: 291건의 중국 브랜드 위협 신호 감지, 특히 Haier(93건)/Midea(65건)의 가전 시장 침투와 TCL(70건)/Hisense(63건)의 TV 시장 공격이 동시 진행 중",
+        "**소비자 부정 반응 급감**: 부정 소비자 반응이 전주 59건에서 21건으로 64% 감소, LG 프로모션은 284건에서 349건으로 23% 증가하며 브랜드 이미지 개선 추세"
       ],
       "links": {
         "html": "./2026-04-12/index.html",
         "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-04-12_R2_16country.pdf",
         "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-04-12_R2_16country.md",
         "share": "./2026-04-12/share.html"
+      }
+    },
+    {
+      "week": "2026-04-05",
+      "report_period": {
+        "start": "2026-03-29",
+        "end": "2026-04-04"
+      },
+      "version": "Weekly Vol.2026-04-05-R2",
+      "generated_at": "2026-04-05T08:09:55.482Z",
+      "metrics": {
+        "covered_countries": 15,
+        "lg_promotion_signals": 419,
+        "competitor_promotion_signals": 11,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 59,
+        "critical_country_count": 5
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇬🇧 영국 (UK)",
+        "🇩🇪 독일 (DE)",
+        "🇪🇸 스페인 (ES)",
+        "🇹🇷 튀르키예 (TR)"
+      ],
+      "executive_key_insights": [
+        "**데이터 수집 규모 역대 최고 기록**: 총 1,147건으로 전주 대비 20.1% 증가(+192건), TV 비율 43.5%로 제품 균형 개선 확인",
+        "**중국 브랜드 위협 전방위 확대**: TCL의 SQD-Mini LED 기술이 유럽 전역 확산 중이며, Haier/Midea의 가전 시장 침투가 북미·유럽에서 동시 가속화",
+        "**LG 프로모션 공세 효과 가시화**: LG 프로모션 감지 419건(전주 대비 +82.2%)으로 Amazon Spring Sale 기간 OLED TV·UltraGear 모니터 중심의 공격적 가격 정책이 시장 반응 견인"
+      ],
+      "links": {
+        "html": "./2026-04-05/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-04-05_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-04-05_R2_16country.md",
+        "share": "./2026-04-05/share.html"
       }
     },
     {

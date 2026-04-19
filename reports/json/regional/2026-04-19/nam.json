@@ -1,0 +1,259 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 178,
+  "country_breakdown": {
+    "US": 157,
+    "CA": 21
+  },
+  "product_breakdown": {
+    "TV": 40,
+    "Refrigerator": 43,
+    "Washing Machine": 46,
+    "Monitor": 30,
+    "LG gram": 19
+  },
+  "brand_breakdown": {
+    "LG": 111,
+    "TCL": 11,
+    "Samsung": 6,
+    "Haier": 22,
+    "Midea": 27,
+    "Hisense": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 51,
+    "Competitive Price & Positioning": 33,
+    "Consumer Sentiment": 28,
+    "Chinese Brand Threat Tracking": 66
+  },
+  "chinese_brand_total": 61,
+  "lg_total": 111,
+  "country_data": {
+    "US": {
+      "total": 157,
+      "products": {
+        "TV": 39,
+        "Refrigerator": 32,
+        "Washing Machine": 37,
+        "Monitor": 30,
+        "LG gram": 19
+      },
+      "brands": {
+        "LG": 106,
+        "TCL": 11,
+        "Samsung": 6,
+        "Haier": 14,
+        "Midea": 19,
+        "Hisense": 1
+      },
+      "chinese_count": 45,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED TV Deal Offers 50% Off and an Extra TV Thrown in for Free. Here's How to Nab It - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/lg-b5-oled-tv-with-freebie/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "One of my favorite LG OLED TVs is down to its Black Friday price of just $599 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/one-of-my-favorite-lg-oled-tvs-is-down-to-its-black-friday-price-of-just-usd599",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/Hue on Reddit: Possibilities for 2023 LG tv model",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Hue/comments/1sl281c/possibilities_for_2023_lg_tv_model/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "Amazon.com: LG 65-Inch Class OLED evo AI 4K C5 Series Smart TV w/Dolby Atmos, Dolby Vision, HDR10, AI Super Upscaling 4K, Filmmaker Mode, Wow Orchestra, Alexa Built-in (OLED65C5PUA, 2025) : Electronics",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/LG-Upscaling-Filmmaker-Orchestra-OLED65C5PUA/dp/B0DYQM4BDB",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "I upgraded to an OLED TV and I wasn't prepared for the jump in picture quality | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/i-upgraded-to-an-oled-tv-and-i-wasnt-prepared-for-the-jump-in-picture-quality",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "I tested the TCL QM9K Mini-LED TV and it’s incredibly bright — but not the best value | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/tcl-qm9k-mini-led-tv-review",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best French Door Refrigerators of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/french-door",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 6 Best Refrigerator Brands of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/brands",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/Appliances on Reddit: Samsung refrigerator",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1sjx5r8/samsung_refrigerator/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/Appliances on Reddit: Trying to decide between buying newer LG washing machine VS older Kenmore/Whirlpool",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1smmfyt/trying_to_decide_between_buying_newer_lg_washing/",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 21,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 11,
+        "Washing Machine": 9
+      },
+      "brands": {
+        "LG": 5,
+        "Haier": 8,
+        "Midea": 8
+      },
+      "chinese_count": 16,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/appliancerepair on Reddit: Any tips for a Samsung French Door fridge that isn't getting sufficiently cool?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/appliancerepair/comments/1sjl6xu/any_tips_for_a_samsung_french_door_fridge_that/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 inch LG OLED evo AI G5 4K Smart TV 2025 (Table Stand Included) - OLED65G5SUB | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/tv-soundbars/oled-evo/oled65g5sub/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG FRIDGE - 4 DOOR FRENCH DOOR - appliances - by owner - sale - craigslist",
+          "source": "seattle.craigslist.org",
+          "source_url": "https://seattle.craigslist.org/oly/app/d/olympia-lg-fridge-door-french-door/7928111832.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "[Costco] Samsung washer and dryer + stacking kit $1666 inc taxes or $1381 - Page 2 - RedFlagDeals.com Forums",
+          "source": "forums.redflagdeals.com",
+          "source_url": "https://forums.redflagdeals.com/costco-samsung-washer-dryer-stacking-kit-1666-inc-taxes-1381-2809971/2/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HAIER Refrigerators for Your 2026 Home Upgrade 🏠❄️ | RONA",
+          "source": "rona.ca",
+          "source_url": "https://www.rona.ca/en/appliances/refrigerators/haier--104-4fa2b",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Appliances: Shop Refrigerators, Dishwashers and more",
+          "source": "coastappliances.ca",
+          "source_url": "https://www.coastappliances.ca/collections/haier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-04-19",
+  "period_start": "2026-04-12",
+  "period_end": "2026-04-18"
+}

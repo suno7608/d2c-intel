@@ -1,0 +1,239 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 119,
+  "country_breakdown": {
+    "BR": 113,
+    "MX": 4,
+    "CL": 2
+  },
+  "product_breakdown": {
+    "TV": 34,
+    "Refrigerator": 33,
+    "Washing Machine": 28,
+    "Monitor": 18,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "LG": 67,
+    "TCL": 7,
+    "Samsung": 18,
+    "Hisense": 12,
+    "Midea": 13,
+    "Electrolux": 1,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 39,
+    "Chinese Brand Threat Tracking": 40,
+    "Competitive Price & Positioning": 15,
+    "Consumer Sentiment": 25
+  },
+  "chinese_brand_total": 33,
+  "lg_total": 67,
+  "country_data": {
+    "BR": {
+      "total": 113,
+      "products": {
+        "TV": 32,
+        "Refrigerator": 33,
+        "Washing Machine": 26,
+        "Monitor": 16,
+        "LG gram": 6
+      },
+      "brands": {
+        "LG": 62,
+        "TCL": 7,
+        "Samsung": 18,
+        "Hisense": 12,
+        "Midea": 12,
+        "Electrolux": 1,
+        "Haier": 1
+      },
+      "chinese_count": 32,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "r/tcltvs on Reddit: A TCL anuncia quatro novas séries de TVs acessíveis com suporte total a HDR, até 144Hz e tamanhos de 43\" a 98\"",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/tcltvs/comments/1sn7cq5/tcl_announces_four_new_affordable_tv_series_with/?tl=pt-br",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Our Favorite Budget Hisense TV Just Got Cheaper, With Prices Starting at $278 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/hisense-qd7-qled-fire-tv-2025-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL vs. Hisense TVs: Which One Is The Best For You? - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/learn/tcl-vs-hisense-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "I’m a TV expert, and here are the best TVs you can buy today for every budget",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 3.049: Geladeira LG 2 Portas, 461 Litros, Frost Free - GN-B452PFF | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-lg-frost-free-2-portas-461l-68ce",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.346: Geladeira Inverter Midea 394 Litros Frost Free Duplex - 110V ou 220V | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-inverter-midea-394-litros-frost-free-duplex-110v-ou-220v-282a",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 3.989: Geladeira Midea 442 Litros Frost Free Side by Side RS598FGA042 110V | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-midea-442-litros-frost-free-side-by-side-rs598fga042-110v-37e3",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 4.199: Refrigerador Midea Side by Side 442 L MDRS598 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/refrigerador-midea-side-by-side-442-l-mdrs598-8a0a",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Essa compra dá m3rda? : r/ConselhosLegais",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/ConselhosLegais/comments/1sko54e/essa_compra_d%C3%A1_m3rda/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.895: Monitor Gamer LG UltraGear Curvo 34G600A-B 34\" QuadHD 2K, UltraWide 1800R | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-lg-ultragear-34g600a-b-curvo-34-160hz-1ms-da13",
+          "confidence": "high"
+        }
+      ]
+    },
+    "MX": {
+      "total": 4,
+      "products": {
+        "TV": 2,
+        "Washing Machine": 1,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 3,
+        "Midea": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG QNED evo, así es la nueva gama de televisores MiniLED de LG para 2026",
+          "source": "tuexperto.com",
+          "source_url": "https://www.tuexperto.com/2026/04/15/lg-qned-evo-televisores-miniled-2026-mini-led-caracteristicas-cuando-sale-fecha-lanzamiento/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Samsung prepara teles QNED y la confusión está servida: se llaman igual que las de LG, pero no juegan al mismo juego",
+          "source": "xatakahome.com",
+          "source_url": "https://www.xatakahome.com/televisores/samsung-esta-trabajando-televisores-que-no-encajan-etiquetas-siempre-qned-real-viene-para-unificarlo-todo",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Bristol | La mejor casa de electrodomésticos del país",
+          "source": "bristol.com.py",
+          "source_url": "https://www.bristol.com.py/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Pantalla LG 4K de 75 pulgadas en oferta en Soriana: así puedes llevártela al mejor precio y a meses sin intereses – La Crónica de Hoy",
+          "source": "cronica.com.mx",
+          "source_url": "https://www.cronica.com.mx/tendencias/2026/04/16/pantalla-lg-4k-de-75-pulgadas-en-oferta-en-soriana-asi-puedes-llevartela-al-mejor-precio-y-a-meses-sin-intereses/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 2,
+      "products": {
+        "Washing Machine": 1,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 2
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lg 8400 Washer and Dryer How to Conect to Wifi",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/content/lg-8400-washer-and-dryer-how-to-conect-to-wifi",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG’s 32-Inch 6K professional monitor plummets to an all-time low price | WePC",
+          "source": "wepc.com",
+          "source_url": "https://www.wepc.com/news/lgs-32-inch-6k-professional-monitor-plummets-to-an-all-time-lowest-price/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-04-19",
+  "period_start": "2026-04-12",
+  "period_end": "2026-04-18"
+}

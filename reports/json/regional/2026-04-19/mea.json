@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 76,
+  "country_breakdown": {
+    "SA": 76
+  },
+  "product_breakdown": {
+    "TV": 25,
+    "Refrigerator": 18,
+    "Washing Machine": 18,
+    "Monitor": 5,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 47,
+    "Hisense": 10,
+    "Samsung": 2,
+    "Haier": 12,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 24,
+    "Retail Channel Promotions": 12,
+    "Chinese Brand Threat Tracking": 37,
+    "Consumer Sentiment": 3
+  },
+  "chinese_brand_total": 27,
+  "lg_total": 47,
+  "country_data": {
+    "SA": {
+      "total": 76,
+      "products": {
+        "TV": 25,
+        "Refrigerator": 18,
+        "Washing Machine": 18,
+        "Monitor": 5,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 47,
+        "Hisense": 10,
+        "Samsung": 2,
+        "Haier": 12,
+        "TCL": 5
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "You’ll Have to Act Fast to Snag This 75-Inch Hisense U6 TV at Its Lowest Price Ever - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/hisense-75-inch-u6-tv-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The only cheap 75-inch Mini-LED TV I would buy just crashed to an all-time low price of $499 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/qled-tvs/the-only-cheap-75-inch-mini-led-tv-i-would-buy-just-crashed-to-an-all-time-low-price-of-usd499",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Refrigerators - LG / Refrigerators / Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-LG-Freezers-Ice-Makers/s?keywords=Refrigerators&rh=n:3741361,p_89:LG&c=ts&ts_id=3741361",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier HSR5918DIMP Freestanding 60/40 Fridge Freezer at John Lewis & Partners £737",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/haier-hsr5918dimp-freestanding-6040-fridge-freezer-plumbed-silver-with-code-claim-further-ps100-cashback-4867993",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: LG - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-LG-Laundry-Appliances/s?rh=n:2383576011,p_89:LG",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Buy | Official Online Store | Shop Now & Save",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "r/LG_UserHub on Reddit: LG UltraGear Evo 52\" 5k2k Gaming Monitor - First Impressions / Q&A",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/LG_UserHub/comments/1sj9wmt/lg_ultragear_evo_52_5k2k_gaming_monitor_first/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "r/ultrawidemasterrace on Reddit: LG UltraGear Evo 52\" 5k2k Gaming Monitor - First Impressions / Q&A",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1sj9w2q/lg_ultragear_evo_52_5k2k_gaming_monitor_first/",
+          "confidence": "high"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-04-19",
+  "period_start": "2026-04-12",
+  "period_end": "2026-04-18"
+}

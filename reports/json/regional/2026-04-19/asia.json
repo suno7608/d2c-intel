@@ -1,0 +1,276 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 89,
+  "country_breakdown": {
+    "AU": 37,
+    "TW": 52
+  },
+  "product_breakdown": {
+    "TV": 27,
+    "Refrigerator": 20,
+    "Washing Machine": 30,
+    "Monitor": 9,
+    "LG gram": 3
+  },
+  "brand_breakdown": {
+    "LG": 53,
+    "TCL": 9,
+    "Hisense": 5,
+    "Samsung": 2,
+    "Haier": 14,
+    "Midea": 6
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 28,
+    "Competitive Price & Positioning": 21,
+    "Chinese Brand Threat Tracking": 30,
+    "Consumer Sentiment": 10
+  },
+  "chinese_brand_total": 34,
+  "lg_total": 53,
+  "country_data": {
+    "AU": {
+      "total": 37,
+      "products": {
+        "TV": 10,
+        "Refrigerator": 10,
+        "Washing Machine": 14,
+        "Monitor": 3
+      },
+      "brands": {
+        "LG": 9,
+        "TCL": 8,
+        "Samsung": 2,
+        "Haier": 12,
+        "Midea": 6
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL is adding three more new mini-LED and QLED models to its 2026 TV lineup, and one of my favourite budget models I tested last year is continuing | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/tcl-is-adding-three-more-new-mini-led-and-qled-models-to-its-2026-tv-lineup-and-one-of-my-favourite-budget-models-i-tested-last-year-is-continuing",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 6 Best Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-usage/gaming",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "You can grab LG’s B5 OLED TV for over 50 percent off right now | The Verge",
+          "source": "theverge.com",
+          "source_url": "https://www.theverge.com/gadgets/911719/lg-b5-oled-tv-48-55-inch-best-buy-deal-sale",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG QNED 8AA Series 43 inch Ultra HD 4K Smart QN… vs ...",
+          "source": "smartprix.com",
+          "source_url": "https://www.smartprix.com/tvs/lg_qned_8aa_series_43_inch_ult_vs_xiaomi_x_pro_2025_75_inch_ultr-cpd1wmk9f5yj_pd199r787st.php",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C7L SQD-Mini LED TV – 55\" to 98\" Affordable Premium TV | TCL Global",
+          "source": "tcl.com",
+          "source_url": "https://www.tcl.com/global/en/tvs/55c7l",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL launches new QM8L and QM7L TVs with premium Mini-LED tech at lower prices | Technobezz",
+          "source": "technobezz.com",
+          "source_url": "https://www.technobezz.com/news/tcl-launches-new-qm8l-and-qm7l-tvs-with-premium-mini-led-tech-at-lower-prices",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "636L AI Family Hub™ Fridge w/ Beverage Centre™ | Samsung AU",
+          "source": "samsung.com",
+          "source_url": "https://www.samsung.com/au/refrigerators/french-door/rf9000d-rf9000dc-t-style-french-door-21-5inch-family-hub-636l-black-rf65dg9hc3b1sa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigeration | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 52,
+      "products": {
+        "TV": 17,
+        "Refrigerator": 10,
+        "Washing Machine": 16,
+        "Monitor": 6,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 44,
+        "Hisense": 5,
+        "TCL": 1,
+        "Haier": 2
+      },
+      "chinese_count": 8,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in April 2026 | 25% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "8 Verified LG Coupon Codes Hong Kong April 2026",
+          "source": "mycouponcodes.hk",
+          "source_url": "https://www.mycouponcodes.hk/lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "直擊LG InnoFest 2026最新Micro RGB與OLED TV 極致視聽盛宴",
+          "source": "hk01.com",
+          "source_url": "https://www.hk01.com/%E6%95%B8%E7%A2%BC%E7%94%9F%E6%B4%BB/60340303/%E7%9B%B4%E6%93%8Alg-innofest-2026%E6%9C%80%E6%96%B0micro-rgb%E8%88%87oled-tv-%E6%A5%B5%E8%87%B4%E8%A6%96%E8%81%BD%E7%9B%9B%E5%AE%B4",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "酷澎(Coupang) | < 4% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/coupang",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "蝦皮| < 20% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/shopee-official",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "十大 LG樂金冷氣/冷暖空調 必買推薦 2026年4月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/LG%E6%A8%82%E9%87%91_%E5%86%B7%E6%B0%A3-%E5%86%B7%E6%9A%96%E7%A9%BA%E8%AA%BF",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "只有9mm！LG超薄Wallpaper TV定義真無線美學 打造頂級顯示娛樂生態系 | 流行消費 | 生活 | 聯合新聞網",
+          "source": "udn.com",
+          "source_url": "https://udn.com/news/story/7270/9444003",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "市場研究：海信 Vidaa 智慧電視系統 2025 年歐洲市佔超越 LG webOS - 商傳媒",
+          "source": "sunmedia.tw",
+          "source_url": "https://sunmedia.tw/news/Industry-information/1776209878-%E5%B8%82%E5%A0%B4%E7%A0%94%E7%A9%B6%EF%BC%9A%E6%B5%B7%E4%BF%A1%20Vidaa%20%E6%99%BA%E6%85%A7%E9%9B%BB%E8%A6%96%E7%B3%BB%E7%B5%B1%202025%20%E5%B9%B4%E6%AD%90%E6%B4%B2%E5%B8%82%E4%BD%94%E8%B6%85%E8%B6%8A%20LG%20webOS",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "【逆狱】雾面低反抗眩屏！新4K Miniled旗舰显示器入场——创维G27U Max实测报告_哔哩哔哩_bilibili",
+          "source": "bilibili.com",
+          "source_url": "https://www.bilibili.com/video/BV1VpXpBHEun/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "【2026年4月显示器推荐】百万设备教你怎么选显示器！万字爆肝高性价比购买攻略，涵盖所有规格/性价比/电竞/游戏 高刷 办公屏 设计_哔哩哔哩_bilibili",
+          "source": "bilibili.com",
+          "source_url": "https://www.bilibili.com/video/BV1M8XCBTE7M/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-04-19",
+  "period_start": "2026-04-12",
+  "period_end": "2026-04-18"
+}
