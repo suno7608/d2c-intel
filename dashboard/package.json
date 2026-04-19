@@ -1,0 +1,17 @@
+{
+  "name": "d2c-intel-dashboard",
+  "version": "2.0.0",
+  "description": "D2C Intelligence Dashboard — LG Global D2C Market Intelligence Platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "vercel-build": "echo 'Static build — no build step needed'"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "vercel": "^50.39.0"
+  }
+}

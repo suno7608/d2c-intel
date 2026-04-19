@@ -1,0 +1,94 @@
+{
+  "region": "eur",
+  "region_name_ko": "유럽",
+  "region_name_en": "Europe",
+  "countries": [
+    "UK",
+    "DE",
+    "FR",
+    "IT",
+    "ES",
+    "TR"
+  ],
+  "total_records": 96,
+  "chinese_brand_total": 4,
+  "lg_total": 92,
+  "country_breakdown": {
+    "UK": 1,
+    "DE": 94,
+    "FR": 0,
+    "IT": 0,
+    "ES": 1,
+    "TR": 0
+  },
+  "product_breakdown": {
+    "Hisense/TCL TV 가격 공세 + Midea 가전 침투": 92
+  },
+  "brand_breakdown": {
+    "Haier": 1,
+    "TCL": 1,
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 34,
+    "Competitive Price & Positioning": 24,
+    "Chinese Brand Threat Tracking": 4,
+    "Consumer Sentiment": 10
+  },
+  "country_data": {
+    "UK": {
+      "total": 1,
+      "chinese_count": 1,
+      "products": {},
+      "brands": {
+        "Haier": 1
+      },
+      "top_signals": []
+    },
+    "DE": {
+      "total": 94,
+      "chinese_count": 2,
+      "products": {
+        "Hisense/TCL TV 가격 공세 + Midea 가전 침투": 92
+      },
+      "brands": {
+        "TCL": 1,
+        "Hisense": 1
+      },
+      "top_signals": []
+    },
+    "FR": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "IT": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "ES": {
+      "total": 1,
+      "chinese_count": 1,
+      "products": {},
+      "brands": {
+        "Hisense": 1
+      },
+      "top_signals": []
+    },
+    "TR": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-03-01",
+  "period_start": "2026-02-22",
+  "period_end": "2026-02-28"
+}

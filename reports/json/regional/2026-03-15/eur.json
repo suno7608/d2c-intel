@@ -1,0 +1,90 @@
+{
+  "region": "eur",
+  "region_name_ko": "유럽",
+  "region_name_en": "Europe",
+  "countries": [
+    "UK",
+    "DE",
+    "FR",
+    "IT",
+    "ES",
+    "TR"
+  ],
+  "total_records": 152,
+  "chinese_brand_total": 5,
+  "lg_total": 147,
+  "country_breakdown": {
+    "UK": 25,
+    "DE": 25,
+    "FR": 25,
+    "IT": 25,
+    "ES": 25,
+    "TR": 25
+  },
+  "product_breakdown": {
+    "TV": 0,
+    "Refrigerator": 0,
+    "Washing Machine": 0,
+    "Monitor": 0,
+    "LG gram": 0
+  },
+  "brand_breakdown": {
+    "LG": 147,
+    "TCL": 0,
+    "Haier": 0,
+    "Midea": 0
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 53,
+    "Competitive Price & Positioning": 38,
+    "Chinese Brand Threat Tracking": 5,
+    "Consumer Sentiment": 15
+  },
+  "country_data": {
+    "UK": {
+      "total": 25,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "DE": {
+      "total": 25,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "FR": {
+      "total": 25,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "IT": {
+      "total": 25,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "ES": {
+      "total": 25,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "TR": {
+      "total": 25,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-03-15",
+  "period_start": "2026-03-08",
+  "period_end": "2026-03-14"
+}

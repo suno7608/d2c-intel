@@ -1,0 +1,316 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 94,
+  "country_breakdown": {
+    "AU": 34,
+    "TW": 57,
+    "SG": 3
+  },
+  "product_breakdown": {
+    "TV": 28,
+    "Refrigerator": 21,
+    "Washing Machine": 26,
+    "Monitor": 11,
+    "LG gram": 8
+  },
+  "brand_breakdown": {
+    "LG": 55,
+    "TCL": 9,
+    "Hisense": 5,
+    "Haier": 15,
+    "Samsung": 3,
+    "Whirlpool": 1,
+    "Midea": 6
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 32,
+    "Chinese Brand Threat Tracking": 36,
+    "Competitive Price & Positioning": 18,
+    "Consumer Sentiment": 8
+  },
+  "chinese_brand_total": 35,
+  "lg_total": 55,
+  "country_data": {
+    "AU": {
+      "total": 34,
+      "products": {
+        "TV": 10,
+        "Refrigerator": 11,
+        "Washing Machine": 11,
+        "Monitor": 1,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 5,
+        "TCL": 7,
+        "Haier": 13,
+        "Samsung": 1,
+        "Whirlpool": 1,
+        "Hisense": 1,
+        "Midea": 6
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 42\" OLED EVO C5 AI UHD 4K Smart TV (2025) $1341 + Delivery ($0 C&C/ In-Store) @ Domayne - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/950317",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Good news, LG OLED fans! You can pre-order the first 2026 sets now, and the price hasn't gone up — even for the brighter C6 models",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/the-new-lg-c6-and-g6-oled-tvs-get-prices-and-its-good-news-even-the-new-brighter-c6-models-arent-more-expensive",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75\" C7K Premium QD Mini LED Google TV 2025 $584 (via Price Check Button) + Delivery ($0 C&C) @ The Good Guys - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/950163",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "[NSW, ACT, VIC, QLD] TCL 75\" C7K 4K UHD QD-Mini LED TV (2025) $1,355 + Delivery ($0 to Select Areas / C&C) @ Bing Lee - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/950282",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Bottom Mounted Refrigerator : Buy Bottom Mount Fridge at Best Price | Haier Appliances",
+          "source": "shop.haierindia.com",
+          "source_url": "https://shop.haierindia.com/shop/Refrigerators/Bottom-Mounted-Refrigerators/13/28",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges Complete Range",
+          "source": "appliancesonline.com.au",
+          "source_url": "https://www.appliancesonline.com.au/filter/refrigeration/fridges/haier/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 57,
+      "products": {
+        "TV": 18,
+        "Refrigerator": 9,
+        "Washing Machine": 15,
+        "Monitor": 9,
+        "LG gram": 6
+      },
+      "brands": {
+        "LG": 47,
+        "Hisense": 4,
+        "TCL": 2,
+        "Haier": 2,
+        "Samsung": 2
+      },
+      "chinese_count": 8,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in March 2026 | Exclusive $15 Gift Card",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2026智慧電視推薦PTT/Dcard熱議！6款4K電視評比，終極懶人包一篇搞懂不踩雷！",
+          "source": "vocus.cc",
+          "source_url": "https://vocus.cc/article/69a53d6cfd89780001b9ace6",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2026 電視選購指南！百吋巨幕不再是天價，LG透明電視、三星抗反光OLED，哪台最值得入手？ | T客邦",
+          "source": "techbang.com",
+          "source_url": "https://www.techbang.com/posts/127130-new-wave-tech-100-inch-tv-era",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "好市多買電視踩雷！外媒點名三星、LG平價款別買 這3款便宜好用 | 居家生活 | 房產 | NOWnews今日新聞",
+          "source": "nownews.com",
+          "source_url": "https://www.nownews.com/news/6790923",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Mar 2026 | $800 OFF | Tom's Hardware",
+          "source": "tomshardware.com",
+          "source_url": "https://www.tomshardware.com/coupons/lg.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2026追劇神隊友！6款PTT/Dcard 熱銷「智慧大螢幕」實測評比，4K真實原色視覺感動，窩在沙發就是最頂級的享受！",
+          "source": "vocus.cc",
+          "source_url": "https://vocus.cc/article/69a65435fd8978000102a3c5",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for Mar 2026 | $60 OFF | PC Gamer",
+          "source": "pcgamer.com",
+          "source_url": "https://www.pcgamer.com/coupons/lg.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "#情報 Uber + Uber Eat 三月份 優惠序號整理 - 省錢 forum | Dcard",
+          "source": "dcard.tw",
+          "source_url": "https://www.dcard.tw/f/savemoney/p/260977367",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "酷澎 (Coupang) | < 3% 現金回饋, 優惠碼 & 折扣碼",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/coupang",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "中系品牌急起而追 海信站上2025百吋等級電視出貨榜首",
+          "source": "digitimes.com.tw",
+          "source_url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000747716_Y2C85FCL0D2YJC71JF3WW",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 3,
+      "products": {
+        "Refrigerator": 1,
+        "Monitor": 1,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 3
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG ELECTRONICS SHINES BRIGHT AT KBIS 2026 GARNERING ACCOLADES FOR INNOVATION AND DESIGN EXCELLENCE",
+          "source": "prnewswire.com",
+          "source_url": "https://www.prnewswire.com/news-releases/lg-electronics-shines-bright-at-kbis-2026-garnering-accolades-for-innovation-and-design-excellence-302702166.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "This Asus Curved Gaming Monitor Deal Will Save You Over $150 Today | PCMag",
+          "source": "pcmag.com",
+          "source_url": "https://www.pcmag.com/deals/amazon-deals-of-the-day-asus-curved-gaming-monitor-save-150-mar-2",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG ANNOUNCES PRICING AND AVAILABILITY FOR 2026 FLAGSHIP TV MODELS",
+          "source": "finance.yahoo.com",
+          "source_url": "https://finance.yahoo.com/news/lg-announces-pricing-availability-2026-170000987.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-03-08",
+  "period_start": "2026-03-01",
+  "period_end": "2026-03-07"
+}

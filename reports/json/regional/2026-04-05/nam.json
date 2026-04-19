@@ -1,0 +1,81 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": ["US", "CA"],
+  "total_records": 247,
+  "chinese_brand_total": 82,
+  "lg_total": 165,
+  "country_breakdown": {"US": 218, "CA": 29},
+  "product_breakdown": {"TV": 98, "Refrigerator": 58, "Washing Machine": 52, "Monitor": 26, "LG gram": 13},
+  "brand_breakdown": {"LG": 165, "TCL": 14, "Haier": 28, "Midea": 34, "Samsung": 6},
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 89,
+    "Competitive Price & Positioning": 51,
+    "Chinese Brand Threat Tracking": 82,
+    "Consumer Sentiment": 25
+  },
+  "country_data": {
+    "US": {
+      "total": 218,
+      "chinese_count": 67,
+      "products": {"TV": 91, "Refrigerator": 45, "Washing Machine": 41, "Monitor": 26, "LG gram": 15},
+      "brands": {"LG": 151, "TCL": 14, "Haier": 19, "Midea": 28, "Samsung": 6},
+      "top_signals": [
+        {
+          "brand": "LG", "product": "TV", "pillar": "Retail Channel Promotions",
+          "value": "Amazon Spring Sale LG 98\" OLED G5 $5,000 OFF — 역대 최저가 기록",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/article/march-30-best-amazon-spring-sale-lg-97-inch-oled-evo-ai-g5-deal",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "Refrigerator", "pillar": "Consumer Sentiment",
+          "value": "냉장고 컴프레서 고장 및 A/S 불만 Reddit 15건+ — 긴급 품질 점검 필요",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1s9hsqp/lg_refrigerators_beware/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "TV", "pillar": "Consumer Sentiment",
+          "value": "OLED 화질·가격 하락 호평 25건+",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea", "product": "Refrigerator", "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 냉장고·세탁기 Costco/Amazon/Walmart 유통채널 동시 확대",
+          "source": "midea.com",
+          "source_url": "https://www.midea.com/us/refrigerators",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "Washing Machine", "pillar": "Consumer Sentiment",
+          "value": "신제품 세탁기 소음/진동 이슈 Reddit 8건",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/appliancerepair/comments/1s8gulm/if_your_brand_new_lg_washer_sounds_like_its/",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 29,
+      "chinese_count": 15,
+      "products": {"TV": 7, "Refrigerator": 13, "Washing Machine": 7, "LG gram": 2},
+      "brands": {"LG": 14, "Haier": 9, "Midea": 6},
+      "top_signals": [
+        {
+          "brand": "Haier", "product": "Refrigerator", "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier 캐나다 Best Buy·Costco·Canadian Appliance 채널 입점 확대",
+          "source": "bestbuy.ca",
+          "source_url": "https://www.bestbuy.ca/en-ca/brand/haier",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-04-05",
+  "period_start": "2026-03-29",
+  "period_end": "2026-04-04"
+}

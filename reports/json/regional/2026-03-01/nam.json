@@ -1,0 +1,53 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 140,
+  "chinese_brand_total": 3,
+  "lg_total": 137,
+  "country_breakdown": {
+    "US": 140,
+    "CA": 0
+  },
+  "product_breakdown": {
+    "TCL Mini-LED 플래그십 X11L 출시, OLED 대체제 포지셔닝 강화": 137
+  },
+  "brand_breakdown": {
+    "TCL": 2,
+    "Midea": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 49,
+    "Competitive Price & Positioning": 35,
+    "Chinese Brand Threat Tracking": 3,
+    "Consumer Sentiment": 14
+  },
+  "country_data": {
+    "US": {
+      "total": 140,
+      "chinese_count": 3,
+      "products": {
+        "TCL Mini-LED 플래그십 X11L 출시, OLED 대체제 포지셔닝 강화": 137
+      },
+      "brands": {
+        "TCL": 2,
+        "Midea": 1
+      },
+      "top_signals": []
+    },
+    "CA": {
+      "total": 0,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-03-01",
+  "period_start": "2026-02-22",
+  "period_end": "2026-02-28"
+}

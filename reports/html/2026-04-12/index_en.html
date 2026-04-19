@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+<meta http-equiv="X-Frame-Options" content="SAMEORIGIN"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self';"/>
+<meta name="referrer" content="strict-origin-when-cross-origin"/>
+<title>LG Electronics Global D2C Weekly Market Intelligence Report</title>
+<style>
+:root{--bg:#f6f8fb;--paper:#fff;--ink:#0f172a;--muted:#475569;--line:#dbe2ea;--brand:#005a9c;--alert:#b91c1c;--warn:#a16207;--ok:#166534;--shadow:0 10px 30px rgba(15,23,42,.08)}
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--ink)}
+body{font:15px/1.6 "Noto Sans KR","Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.layout{display:grid;grid-template-columns:290px minmax(0,1fr);gap:22px;max-width:1440px;margin:0 auto;padding:24px}
+.toc-panel{position:sticky;top:18px;align-self:start;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:var(--shadow);max-height:calc(100vh - 36px);overflow:auto}
+.toc-title{margin:0 0 10px;padding:10px 11px;border-radius:10px;background:linear-gradient(95deg,#003a66 0%,#005a9c 58%,#0a7ac4 100%);color:#fff;font-size:13px;font-weight:800;letter-spacing:.2px}
+.toc-panel ul{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.toc-panel li{margin:0}
+.toc-panel a{display:block;color:#0b4f88;text-decoration:none;border:1px solid transparent;border-radius:9px;background:#f8fbff;padding:7px 10px;font-size:13px;line-height:1.35;transition:background-color .12s,border-color .12s,transform .12s}
+.toc-panel a:hover{background:#edf5ff;border-color:#d5e5f6;transform:translateX(1px)}
+.toc-panel a:focus-visible{outline:3px solid rgba(10,122,196,.35);outline-offset:1px}
+.toc-panel li.l3 a{margin-left:12px;background:#fcfdff;color:#28435f}
+.toc-panel li.l4 a{margin-left:24px;background:#fff;color:#3f5871;font-size:12px}
+.toc-panel a.is-active{background:#e5f1ff;border-color:#c9ddf3;color:#0b4f88;font-weight:800}
+.paper{background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+.cover{background:linear-gradient(140deg,#003a66,#005a9c 55%,#0a7ac4);color:#fff;padding:34px 36px}
+.cover h1{margin:0 0 8px;font-size:34px;line-height:1.2;font-weight:800}
+.cover p{margin:6px 0;opacity:.95}
+.cover .meta{margin-top:14px;font-size:14px;opacity:.92}
+.content{padding:30px 34px 38px}
+.report-title{margin-top:8px;font-size:30px;line-height:1.25}
+.section-title{margin:30px 0 12px;font-size:22px;color:#fff;border-left:0;padding:12px 14px;border-radius:12px;background:linear-gradient(95deg,#003a66 0%,#005a9c 58%,#0a7ac4 100%);box-shadow:0 8px 18px rgba(15,23,42,.12);letter-spacing:.1px;line-height:1.35}
+.sub-title{margin:20px 0 10px;font-size:17px;color:#0b3354;border:1px solid #cfe0f1;border-radius:10px;padding:9px 12px;background:linear-gradient(120deg,#f8fbff 0%,#eef5fd 100%);box-shadow:0 4px 10px rgba(15,23,42,.06);line-height:1.35}
+.sub-title.key-insight-banner{border-color:#d1e4f7;background:linear-gradient(120deg,#eff7ff 0%,#e5f1ff 100%);color:#0b4f88;font-weight:800}
+.sub-title.action-required-banner{border-color:#f1dfc4;background:linear-gradient(120deg,#fff8ea 0%,#ffefcf 100%);color:#8a4b00;font-weight:800}
+p{margin:10px 0}
+hr.section-divider{border:0;border-top:1px solid var(--line);margin:18px 0}
+blockquote{margin:14px 0;padding:10px 14px;border-left:4px solid var(--brand);background:#eef6fc;color:#15324a}
+a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
+ul,ol{margin:8px 0 10px 22px}
+.chart-container{max-width:800px;margin:18px auto 24px;padding:16px;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.chart-container canvas{width:100%!important;min-height:300px;height:400px!important}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px;margin:12px 0 18px}
+table{width:100%;border-collapse:collapse;min-width:760px;background:#fff;font-size:14px}
+th,td{border-bottom:1px solid #e7edf4;border-right:1px solid #eef3f8;padding:8px 10px;vertical-align:top;text-align:left}
+th:last-child,td:last-child{border-right:0}
+thead th{position:sticky;top:0;z-index:1;background:#f1f7fd;color:#15324a;font-weight:700}
+code{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1px 5px;font-size:.92em}
+.foot{border-top:1px solid var(--line);color:var(--muted);padding:14px 34px 24px;font-size:13px}
+@media(max-width:1100px){.layout{grid-template-columns:1fr;padding:14px}.toc-panel{position:relative;top:0;max-height:none}.toc-title{margin-bottom:8px}.toc-panel li.l3 a,.toc-panel li.l4 a{margin-left:0}.cover h1{font-size:28px}.content{padding:20px 16px 28px}.foot{padding:14px 16px 22px}.section-title{font-size:20px}.sub-title{font-size:17px}}
+@media print{body{background:#fff}.layout{display:block;max-width:none;padding:0}.toc-panel{display:none}.paper{border:none;box-shadow:none}.cover{border-radius:0}.content{padding:18mm 12mm 16mm}.foot{padding:8mm 12mm 0}.section-title{break-after:avoid}.section-title,.sub-title{background:#fff!important;color:#003a66!important;border:1px solid #cfd8e3!important;box-shadow:none!important}.table-wrap{break-inside:avoid}a{color:#003a66}}
+
+.monthly{--brand:#9c1a1a}
+.monthly .toc-title{background:linear-gradient(95deg,#4a0e0e 0%,#9c1a1a 58%,#c43a0a 100%)}
+.monthly .toc-panel a{color:#881a0b;background:#fff8f6}
+.monthly .toc-panel a:hover{background:#ffedea;border-color:#f6d5d0}
+.monthly .toc-panel a:focus-visible{outline-color:rgba(196,58,10,.35)}
+.monthly .toc-panel li.l3 a{background:#fffcfb;color:#5f2818}
+.monthly .toc-panel li.l4 a{color:#71382a}
+.monthly .toc-panel a.is-active{background:#ffe5e3;border-color:#f3c9c9;color:#881a0b}
+.monthly .cover{background:linear-gradient(140deg,#4a0e0e,#9c1a1a 55%,#c43a0a)}
+.monthly .section-title{background:linear-gradient(95deg,#4a0e0e 0%,#9c1a1a 58%,#c43a0a 100%);box-shadow:0 8px 18px rgba(74,14,14,.15)}
+.monthly .sub-title{color:#3b1010;border-color:#f1cfcf;background:linear-gradient(120deg,#fff8f8 0%,#fdeeed 100%)}
+.monthly .sub-title.key-insight-banner{border-color:#f1d1cf;background:linear-gradient(120deg,#fff0ef 0%,#ffe5e3 100%);color:#881a0b}
+.monthly .sub-title.action-required-banner{border-color:#f1dfc4;background:linear-gradient(120deg,#fff8ea 0%,#ffefcf 100%);color:#8a4b00}
+.monthly blockquote{border-left-color:#9c1a1a;background:#fceeed;color:#3b1515}
+.monthly a{color:#9c1a1a}
+.monthly thead th{background:#fdf1f1;color:#3b1515}
+.monthly .foot{border-top-color:#f1cfcf}
+@media print{.monthly .section-title,.monthly .sub-title{color:#4a0e0e!important}.monthly a{color:#4a0e0e}}
+</style>
+</head>
+<body>
+<nav style="background:#0f3f67;padding:10px 20px;display:flex;gap:16px;align-items:center;font:14px sans-serif;position:sticky;top:0;z-index:1000"><a href="/d2c-intel/" style="color:#fbbf24;text-decoration:none;font-weight:800">🌐 Hub</a><a href="/d2c-intel/reports/html/latest/hub.html" style="color:#93c5fd;text-decoration:none">📋 Weekly</a><a href="/d2c-intel/monthly/latest/index.html" style="color:#fde68a;text-decoration:none">📊 Monthly</a><a href="/d2c-intel/monthly/latest/index_en.html" style="color:#d1d5db;text-decoration:none">Monthly EN</a></nav>
+<div class="layout">
+<aside class="toc-panel"><div class="toc-title">Quick Navigation</div><ul><li class="l2"><a href="#sec-2">1. Executive Summary</a></li><li class="l2"><a href="#sec-5">2. Fallback Notice</a></li><li class="l2"><a href="#sec-6">3. Source Links (Preserved)</a></li></ul></aside>
+<main class="paper">
+<header class="cover"><h1>LG Electronics Global D2C Weekly Market Intelligence Report</h1><p>Consumer Sentiment · Retail Channel Promotion · Price Intelligence · Chinese Brand Tracking</p><p class="meta">Report Period: N/A</p></header>
+<section class="content"><h1 id="sec-1" class="report-title">LG Electronics Global D2C Weekly Market Intelligence Report</h1>
+<p>Consumer Sentiment · Retail Channel Promotion · Price Intelligence · Chinese Brand Tracking</p>
+<p>Report Period: N/A
+Date Generated: 2026-04-12
+Version: Weekly Vol.2026-04-12-R2</p>
+<h2 id="sec-2" class="section-title">1. Executive Summary</h2>
+<h3 id="sec-3" class="sub-title key-insight-banner">Key Insight</h3>
+<ul>
+<li>This week captured <strong>N/A signals</strong> across <strong>N/A core countries</strong>.</li>
+<li>LG promotion signals: <strong>N/A</strong>, China-brand threat signals: <strong>N/A</strong>.</li>
+<li>Customer negative mentions: <strong>N/A</strong>; critical alert countries: <strong>N/A</strong>.</li>
+</ul>
+<h3 id="sec-4" class="sub-title action-required-banner">Action Required</h3>
+<ol>
+<li>Activate weekly pricing guardrails in critical countries and react within 48 hours.</li>
+<li>Prioritize TV+HS bundle offers in markets with strong Chinese-brand momentum.</li>
+<li>Enforce service SLA for negative VOC cases to reduce cancellation risk.</li>
+</ol>
+<h2 id="sec-5" class="section-title">2. Fallback Notice</h2>
+<ul>
+<li>This English file was generated by offline fallback due translation runner/network constraints.</li>
+<li>Korean source report remains the primary full-detail document for this week.</li>
+</ul>
+<h2 id="sec-6" class="section-title">3. Source Links (Preserved)</h2>
+<ul>
+<li><a href="https://9to5toys.com/2026/04/08/lg-77-inch-c5-oled-tv-deal/">🔗 Source</a></li>
+<li><a href="https://mashable.com/article/feb-6-tcl-98-inch-qm6k-mini-led-qled-4k-tv-deal">🔗 Source</a></li>
+<li><a href="https://www.4kfilme.de/hisense-fuehrt-geheime-funktion-ein-displayport-fuer-smart-tvs/">🔗 Source</a></li>
+<li><a href="https://www.mytopdeals.net/user-deals/deals/haushalt/midea-side-by-side-kuehlschrank-nur-80999e-statt-1-000e-bei-amazon/">🔗 Source</a></li>
+<li><a href="https://www.mundoconectado.com.br/eletrodomesticos/lg-washtower-vendas-sucesso/">🔗 Source</a></li>
+<li><a href="https://www.thegoodguys.com.au/haier/fridges-and-freezers">🔗 Source</a></li>
+<li><a href="https://www.lg.com/us/monitors/lg-39gx950b-b-gaming-monitor">🔗 Source</a></li>
+<li><a href="https://wccftech.com/lg-introduces-a-price-hike-of-up-to-400-for-its-gram-2026-series-laptops/">🔗 Source</a></li>
+<li><a href="https://forums.redflagdeals.com/costco-midea-front-load-laundry-bundle-1249-98-2808977/">🔗 Source</a></li>
+<li><a href="https://tw.news.yahoo.com/lg%E6%8E%A8ai%E7%86%B1%E6%B3%B5%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%84%AA%E5%8C%96%E6%B4%97%E8%84%AB%E7%83%98%E7%AF%80%E9%9B%BB%E5%85%BC%E8%AD%B7%E8%A1%A3-030300859.html">🔗 Source</a></li>
+<li><a href="https://9to5toys.com/2026/04/08/lg-77-inch-c5-oled-tv-deal/">🔗 Source</a></li>
+<li><a href="https://www.costco.ca/lg-65%22-class---oledc5-series---4k-uhd-oled-tv.product.4000370787.html">🔗 Source</a></li>
+<li><a href="https://www.eurogamer.net/tech-one-of-our-favourite-oled-tvs-has-dropped-under-700-with-a-code-from-john-lewis">🔗 Source</a></li>
+<li><a href="https://www.4kfilme.de/hisense-fuehrt-geheime-funktion-ein-displayport-fuer-smart-tvs/">🔗 Source</a></li>
+<li><a href="https://www.ecranlarge.com/high-tech/bons-plan/tcl-nxtvision-75a300w-042026">🔗 Source</a></li>
+<li><a href="https://www.xataka.com/seleccion/lg-tiene-su-outlet-oled-c5-mucho-barata-smart-tv-todoterreno-para-jugar-ver-pelis">🔗 Source</a></li>
+<li><a href="https://www.hwupgrade.it/news/audio-video/lg-oled-e-hisense-qled-da-85-e-98-sei-tv-4k-in-offerta-su-amazon-alcuni-ai-minimi-storici_152170.html">🔗 Source</a></li>
+<li><a href="https://www.mundoconectado.com.br/audio-e-video/tv-tcl-c7l-linha-2026/">🔗 Source</a></li>
+<li><a href="https://heraldodemexico.com.mx/economia/2026/4/7/sams-club-pone-precio-de-regalo-pantalla-hisense-de-65-pulgadas-qled-con-descuento-colores-mas-puros-realistas-792465.html">🔗 Source</a></li>
+<li><a href="https://www.instagram.com/reel/DWztCOJBbv5/">🔗 Source</a></li>
+<li><a href="https://www.thegoodguys.com.au/haier/fridges-and-freezers">🔗 Source</a></li>
+<li><a href="https://www.techbang.com/posts/128726-lg-signature-ai-appliances-new-phase">🔗 Source</a></li>
+<li><a href="https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035">🔗 Source</a></li>
+<li><a href="https://www.trendyol.com/oled-televizyon-x-c104156-a133-v1765">🔗 Source</a></li>
+<li><a href="https://www.clubic.com/actualite-608329-qd-oled-lg-en-discussion-avec-samsung-pour-ses-futurs-moniteurs-gaming.html">🔗 Source</a></li>
+<li><a href="https://www.reddit.com/r/buildapc/comments/1sct735/lg_ultragear_monitor_beeps_once_when_i_plug_it_in/">🔗 Source</a></li>
+<li><a href="https://terrabrasilnoticias.com/2026/04/o-modo-da-maquina-de-lavar-roupa-que-piora-o-resultado-da-lavagem-e-ainda-faz-voce-perder-mais-tempo">🔗 Source</a></li>
+<li><a href="https://www.lg.com/at/service/produktsupport/fehlerbehebung/help-library/cs-CT52010497-20154981130973/">🔗 Source</a></li>
+<li><a href="https://www.shemomedjamo.de/09-163958-warum-du-deine-waschmaschine-zu/">🔗 Source</a></li>
+<li><a href="https://www.sikayetvar.com/lg/lg-yetkili-servisinde-asiri-parca-fiyati-ve-pos-eksikligi">🔗 Source</a></li>
+<li><a href="https://mashable.com/article/feb-6-tcl-98-inch-qm6k-mini-led-qled-4k-tv-deal">🔗 Source</a></li>
+<li><a href="https://www.4kfilme.de/hisense-fuehrt-geheime-funktion-ein-displayport-fuer-smart-tvs/">🔗 Source</a></li>
+<li><a href="https://forums.redflagdeals.com/costco-midea-front-load-laundry-bundle-1249-98-2808977/">🔗 Source</a></li>
+<li><a href="https://www.thegoodguys.com.au/haier/fridges-and-freezers">🔗 Source</a></li>
+<li><a href="https://www.mundoconectado.com.br/audio-e-video/tv-tcl-c7l-linha-2026/">🔗 Source</a></li>
+<li><a href="https://blog.son-video.com/en/2026/04/hisense-2026-tv-lineup-color-is-at-the-heart-of-the-new-generation-of-rgb-mini-led-tvs/">🔗 Source</a></li>
+<li><a href="https://mashable.com/article/april-8-tcl-tv-deal">🔗 Source</a></li>
+<li><a href="https://forums.redflagdeals.com/costco-midea-front-load-laundry-bundle-1249-98-2808977/">🔗 Source</a></li>
+<li><a href="https://www.prad.de/hisense-termine-und-uvp-zu-neuen-rgb-mini-led-tvs/">🔗 Source</a></li>
+<li><a href="https://www.dealdoktor.de/user-deals/midea-side-by-side/">🔗 Source</a></li>
+<li><a href="https://www.haier.com.au/refrigeration/refrigerators/">🔗 Source</a></li>
+<li><a href="https://www.mundoconectado.com.br/audio-e-video/tv-tcl-c7l-linha-2026/">🔗 Source</a></li>
+<li><a href="https://www.pelando.com.br/d/geladeira-refrigerador-inverse-midea-de-02-portas-frost-free-com-416-litros-inox-bivolt-mdrb593fgd463-7361">🔗 Source</a></li>
+<li><a href="https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier">🔗 Source</a></li>
+<li><a href="https://www.homecinesolutions.fr/blog/posts/2428-televiseurs-tcl-2026-le-sqd-mini-led-nouvelle-alternative-au-rgb-mini-led">🔗 Source</a></li>
+<li><a href="https://www.haier-europe.com/it_IT/blogs/news/come-funziona-centrifuga-lavatrice">🔗 Source</a></li>
+<li><a href="https://www.ign.com/articles/best-lg-evo-c5-4k-oled-tv-deal-in-april-2026">🔗 Source</a></li>
+<li><a href="https://www.pcgamer.com/hardware/gaming-monitors/lg-has-unveiled-the-worlds-first-39-inch-5k2k-curved-oled-gaming-monitor-and-its-about-as-expensive-as-you-think-it-would-be/">🔗 Source</a></li>
+<li><a href="https://www.computerbild.de/artikel/Deals-Fernseher-smart-tv-lg-oled42c57la-media-markt-angebot-40851367.html">🔗 Source</a></li>
+<li><a href="https://www.techradar.com/televisions/prices-for-the-lg-g6-and-lg-c6-oled-tvs-have-appeared-on-amazon-and-boy-have-i-got-good-news-for-you">🔗 Source</a></li>
+<li><a href="https://www.mundoconectado.com.br/eletrodomesticos/lg-washtower-vendas-sucesso/">🔗 Source</a></li>
+<li><a href="https://www.techbang.com/posts/128726-lg-signature-ai-appliances-new-phase">🔗 Source</a></li>
+<li><a href="https://tw.news.yahoo.com/lg%E6%8E%A8ai%E7%86%B1%E6%B3%B5%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%84%AA%E5%8C%96%E6%B4%97%E8%84%AB%E7%83%98%E7%AF%80%E9%9B%BB%E5%85%BC%E8%AD%B7%E8%A1%A3-030300859.html">🔗 Source</a></li>
+<li><a href="https://www.zdnet.com/home-and-office/home-entertainment/lg-c6-vs-lg-c5/">🔗 Source</a></li>
+<li><a href="https://www.lefigaro.fr/bons-plans/high-tech/lg-oled65g5-10-avec-le-code-cloche-une-oled-65-pensee-pour-le-cinema-et-le-jeu-20260404">🔗 Source</a></li>
+<li><a href="https://techprincess.it/lg-oled-2026-lineup-tv/">🔗 Source</a></li>
+<li><a href="https://9to5toys.com/2026/04/08/lg-77-inch-c5-oled-tv-deal/">🔗 Source</a></li>
+<li><a href="https://9to5toys.com/2026/04/11/best-buy-1-day-lg-sale-oled/">🔗 Source</a></li>
+<li><a href="https://www.popsci.com/gear/lg-appliance-home-depot-deals-march-madness/">🔗 Source</a></li>
+<li><a href="https://mashable.com/article/april-2-lg-gaming-monitor-deal">🔗 Source</a></li>
+<li><a href="https://www.eurogamer.net/tech-one-of-our-favourite-oled-tvs-has-dropped-under-700-with-a-code-from-john-lewis">🔗 Source</a></li>
+<li><a href="https://www.techradar.com/televisions/currys-launches-a-massive-lg-tv-sale-with-up-to-15-percent-off-top-rated-oled-and-qled-displays">🔗 Source</a></li>
+<li><a href="https://www.notebookcheck.com/Deal-LG-OLED-G5-Flaggschiff-Smart-TV-kostet-jetzt-nur-777EUR.1267074.0.html">🔗 Source</a></li>
+<li><a href="https://www.pcgameshardware.de/Fernseher-Hardware-134500/News/Erst-1999-jetzt-599-MediaMarkt-mit-Tiefstpreis-bei-gutem-Mini-LED-TV-von-LG-1524977-1524977/">🔗 Source</a></li>
+<li><a href="https://tecnoblog.net/achados/smart-tv-lg-oled-55-sai-com-30-de-desconto-em-oferta-no-mercado-livre/">🔗 Source</a></li>
+<li><a href="https://www.pelando.com.br/d/monitor-gamer-lg-ultragear-34-curvo-ultrawide-157f">🔗 Source</a></li>
+<li><a href="https://www.numerama.com/tech/2230323-la-meilleure-gamme-de-tv-lg-se-retrouve-bradee-avant-larrivee-des-nouveaux-modeles.html">🔗 Source</a></li>
+<li><a href="https://www.xataka.com/seleccion/lg-tiene-su-outlet-oled-c5-mucho-barata-smart-tv-todoterreno-para-jugar-ver-pelis">🔗 Source</a></li>
+<li><a href="https://www.lg.com/us/tvs/lg-oled65c5pua-oled-4k-tv">🔗 Source</a></li>
+<li><a href="https://www.tomsguide.com/tvs/oled-tvs/samsung-s90h-vs-s95h-oled-which-new-tv-should-you-buy">🔗 Source</a></li>
+<li><a href="https://mashable.com/article/april-8-tcl-tv-deal">🔗 Source</a></li>
+<li><a href="https://mashable.com/article/best-amazon-spring-sale-hisense-tv-deals-2026">🔗 Source</a></li>
+<li><a href="https://www.lg.com/us/refrigerators">🔗 Source</a></li>
+<li><a href="https://www.haierappliances.com/refrigeration/refrigerators">🔗 Source</a></li>
+<li><a href="https://www.dealdoktor.de/user-deals/midea-side-by-side/">🔗 Source</a></li>
+<li><a href="https://www.lg.com/us/washers-dryers">🔗 Source</a></li>
+<li><a href="https://forums.redflagdeals.com/costco-midea-front-load-laundry-bundle-1249-98-2808977/">🔗 Source</a></li>
+<li><a href="https://www.haierappliances.com/laundry">🔗 Source</a></li>
+<li><a href="https://www.ign.com/articles/the-27-lg-ultragear-qhd-280hz-oled-gaming-monitor-drops-to-39999-for-this-weekend-only">🔗 Source</a></li>
+<li><a href="https://www.lg.com/us/monitors/lg-39gx950b-b-gaming-monitor">🔗 Source</a></li>
+<li><a href="https://www.samsung.com/us/">🔗 Source</a></li>
+<li><a href="https://www.aftvnews.com/tcls-new-flagship-mini-led-fire-tv-is-the-first-to-run-android-14-based-fire-os-14-in-the-us/">🔗 Source</a></li>
+<li><a href="https://forums.redflagdeals.com/costco-midea-front-load-laundry-bundle-1249-98-2808977/">🔗 Source</a></li>
+<li><a href="https://www.4kfilme.de/hisense-fuehrt-geheime-funktion-ein-displayport-fuer-smart-tvs/">🔗 Source</a></li>
+<li><a href="https://www.mytopdeals.net/user-deals/deals/haushalt/midea-side-by-side-kuehlschrank-nur-80999e-statt-1-000e-bei-amazon/">🔗 Source</a></li>
+<li><a href="https://www.thegoodguys.com.au/haier/fridges-and-freezers">🔗 Source</a></li>
+<li><a href="https://www.ozbargain.com.au/node/954655">🔗 Source</a></li>
+<li><a href="https://www.mundoconectado.com.br/audio-e-video/tv-tcl-c7l-linha-2026/">🔗 Source</a></li>
+<li><a href="https://www.pelando.com.br/d/geladeira-refrigerator-inverse-midea-de-02-portas-frost-free-com-416-litros-inox-bivolt-mdrb593fgd463-7361">🔗 Source</a></li>
+<li><a href="https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier">🔗 Source</a></li>
+<li><a href="https://www.homecinesolutions.fr/blog/posts/2428-televiseurs-tcl-2026-le-sqd-mini-led-nouvelle-alternative-au-rgb-mini-led">🔗 Source</a></li>
+<li><a href="https://blog.son-video.com/en/2026/04/hisense-2026-tv-lineup-color-is-at-the-heart-of-the-new-generation-of-rgb-mini-led-tvs/">🔗 Source</a></li>
+<li><a href="https://www.haier-europe.com/it_IT/blogs/news/come-funziona-centrifuga-lavatrice">🔗 Source</a></li>
+<li><a href="https://www.trendyol.com/tcl-televizyon-x-b110476-c104156">🔗 Source</a></li>
+<li><a href="https://www.bestbuy.ca/en-ca/brand/haier">🔗 Source</a></li>
+<li><a href="https://www.pcguide.com/deals/massive-hisense-100-inch-mini-led-tv-tumbles-back-to-its-lowest-price-again-with-amazon-limited-time-deal/">🔗 Source</a></li>
+<li><a href="https://navascenter.es/producto/electrodomesticos/fri-combinados/fricom-haier-hfw7720ewmp-200x70-inox-disp-4p/">🔗 Source</a></li>
+<li><a href="https://mashable.com/article/april-8-tcl-tv-deal">🔗 Source</a></li>
+<li><a href="https://www.pcgameshardware.de/Fernseher-Hardware-134500/News/75-zoll-tv-guenstig-bei-amazon-im-angebot-1524581/">🔗 Source</a></li>
+<li><a href="https://www.homecinesolutions.fr/blog/posts/2428-televiseurs-tcl-2026-le-sqd-mini-led-nouvelle-alternative-au-rgb-mini-led">🔗 Source</a></li>
+<li><a href="https://www.4kfilme.de/hisense-fuehrt-geheime-funktion-ein-displayport-fuer-smart-tvs/">🔗 Source</a></li>
+<li><a href="https://blog.son-video.com/en/2026/04/hisense-2026-tv-lineup-color-is-at-the-heart-of-the-new-generation-of-rgb-mini-led-tvs/">🔗 Source</a></li>
+<li><a href="https://www.mundobola.com/copa-do-mundo-compre-uma-tv-hisense-e-concorra-a-ingressos-para-ver-a-selecao-brasileira/">🔗 Source</a></li>
+</ul>
+</section>
+<footer class="foot">Generated for executive sharing · LG Global D2C Intelligence</footer>
+</main>
+</div>
+<script>
+(function(){var tl=Array.from(document.querySelectorAll('.toc-panel a[href^="#"]'));if(!tl.length)return;var m=new Map();tl.forEach(function(l){var id=(l.getAttribute('href')||'').slice(1);if(id)m.set(id,l)});function sa(id){tl.forEach(function(l){l.classList.remove('is-active')});var t=m.get(id);if(t)t.classList.add('is-active')}var hs=Array.from(m.keys()).map(function(id){return document.getElementById(id)}).filter(Boolean);if(!hs.length)return;sa(hs[0].id);var ob=new IntersectionObserver(function(es){var v=es.filter(function(e){return e.isIntersecting}).sort(function(a,b){return a.boundingClientRect.top-b.boundingClientRect.top});if(v.length)sa(v[0].target.id)},{root:null,rootMargin:'-22% 0px -64% 0px',threshold:[0,1]});hs.forEach(function(h){ob.observe(h)});tl.forEach(function(l){l.addEventListener('click',function(){var id=(l.getAttribute('href')||'').slice(1);if(id)sa(id)})})})();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<script>
+(function(){document.querySelectorAll('canvas[data-chart]').forEach(function(c){try{var d=JSON.parse(c.getAttribute('data-chart'));if(!d||!d.type)return;var ctx=c.getContext('2d');var ds=(d.datasets||[]).map(function(s){var b={label:s.label||'',data:s.data||[]};if(d.type==='doughnut'||d.type==='polarArea'){b.backgroundColor=(s.data||[]).map(function(_,i){return['#003a66','#0a7ac4','#2196F3','#4CAF50','#FF9800','#e63946','#9c27b0','#607d8b'][i%8]})}else{b.borderColor=s.color||'#003a66';b.backgroundColor=(s.color||'#003a66')+'33';b.tension=0.3;b.fill=d.type==='line'}return b});new Chart(ctx,{type:d.type,data:{labels:d.labels||[],datasets:ds},options:{responsive:true,maintainAspectRatio:true,plugins:{title:{display:true,text:d.title||'',font:{size:16}},legend:{position:'bottom'}},scales:(d.type==='doughnut'||d.type==='polarArea')?{}:{y:{beginAtZero:true}}}})}catch(e){}})})();
+</script>
+</body>
+</html>

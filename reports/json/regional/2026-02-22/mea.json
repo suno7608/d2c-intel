@@ -1,0 +1,63 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG",
+    "AE"
+  ],
+  "total_records": 19,
+  "chinese_brand_total": 1,
+  "lg_total": 18,
+  "country_breakdown": {
+    "SA": 6,
+    "EG": 6,
+    "AE": 6
+  },
+  "product_breakdown": {
+    "TV": 0,
+    "Refrigerator": 0,
+    "Washing Machine": 0,
+    "Monitor": 0,
+    "LG gram": 0
+  },
+  "brand_breakdown": {
+    "LG": 18,
+    "TCL": 0,
+    "Haier": 0,
+    "Midea": 0
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 7,
+    "Competitive Price & Positioning": 5,
+    "Chinese Brand Threat Tracking": 1,
+    "Consumer Sentiment": 2
+  },
+  "country_data": {
+    "SA": {
+      "total": 6,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "EG": {
+      "total": 6,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "AE": {
+      "total": 6,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-02-22",
+  "period_start": null,
+  "period_end": null
+}

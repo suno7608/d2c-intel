@@ -1,0 +1,52 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": ["SA", "EG", "AE"],
+  "total_records": 96,
+  "chinese_brand_total": 19,
+  "lg_total": 77,
+  "country_breakdown": {"SA": 51, "EG": 27, "AE": 18},
+  "product_breakdown": {"TV": 41, "Monitor": 22, "Refrigerator": 18, "Washing Machine": 11, "LG gram": 4},
+  "brand_breakdown": {"LG": 77, "TCL": 9, "Haier": 6, "Samsung": 4},
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 38,
+    "Competitive Price & Positioning": 24,
+    "Chinese Brand Threat Tracking": 19,
+    "Consumer Sentiment": 15
+  },
+  "country_data": {
+    "SA": {
+      "total": 51,
+      "chinese_count": 11,
+      "products": {"TV": 22, "Monitor": 12, "Refrigerator": 9, "Washing Machine": 6, "LG gram": 2},
+      "brands": {"LG": 40, "TCL": 6, "Haier": 5},
+      "top_signals": [
+        {
+          "brand": "LG", "product": "Monitor", "pillar": "Retail Channel Promotions",
+          "value": "LG 게이밍 모니터 사우디 딜 호평 4건",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-monitor-deals/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 27,
+      "chinese_count": 5,
+      "products": {"TV": 12, "Refrigerator": 8, "Washing Machine": 4, "Monitor": 3},
+      "brands": {"LG": 22, "TCL": 3, "Haier": 2},
+      "top_signals": []
+    },
+    "AE": {
+      "total": 18,
+      "chinese_count": 3,
+      "products": {"TV": 7, "Monitor": 7, "Refrigerator": 2, "LG gram": 2},
+      "brands": {"LG": 15, "Samsung": 3},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-04-05",
+  "period_start": "2026-03-29",
+  "period_end": "2026-04-04"
+}

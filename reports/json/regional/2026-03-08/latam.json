@@ -1,0 +1,276 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 89,
+  "country_breakdown": {
+    "BR": 79,
+    "MX": 5,
+    "CL": 5
+  },
+  "product_breakdown": {
+    "TV": 29,
+    "Refrigerator": 25,
+    "Washing Machine": 16,
+    "Monitor": 17,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 45,
+    "TCL": 8,
+    "Hisense": 6,
+    "Electrolux": 1,
+    "Samsung": 6,
+    "Midea": 21,
+    "Haier": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 41,
+    "Chinese Brand Threat Tracking": 42,
+    "Consumer Sentiment": 4,
+    "Competitive Price & Positioning": 2
+  },
+  "chinese_brand_total": 37,
+  "lg_total": 45,
+  "country_data": {
+    "BR": {
+      "total": 79,
+      "products": {
+        "TV": 24,
+        "Refrigerator": 24,
+        "Washing Machine": 16,
+        "Monitor": 14,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 36,
+        "TCL": 8,
+        "Electrolux": 1,
+        "Samsung": 6,
+        "Midea": 21,
+        "Hisense": 5,
+        "Haier": 2
+      },
+      "chinese_count": 36,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 5.200: Smart TV LG OLED 4K 55\" C5 - OLED55C5PSA | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-lg-oled-55-4k-a9-gen8-ai-webos-wi-fi-f187",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 6.526: Monitor Gamer Alienware 34\" WQHD 240Hz QD-OLED Curvo | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-alienware-34-wqhd-240hz-qd-oled-curvo-8d59",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 4.239: Monitor Gamer LG UltraGear OLED 27” QHD 240Hz HDR400 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-lg-ultragear-oled-27-qhd-240hz-hdr400-9b5d",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.789: Smart TV 65\" 4K UHD LED TCL 65P755 Wi-Fi Bluetooth 3 HDMI 1 USB | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-65-4k-uhd-led-tcl-65p755-wi-fi-bluetooth-3-hdmi-1-usb-3fd2",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.820: Smart TV TCL 55 4K QD-Mini LED Google TV 144hz | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-tcl-55-4k-qd-mini-led-google-tv-144hz-14c3",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 3.248: Smart TV TCL 75 4K UHD Google TV Wi-Fi Bluetooth | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-tcl-75-4k-uhd-google-tv-wi-fi-bluetooth-a650",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.794: Smart TV TCL 55 QLED Mini LED 4K Google TV HDR10+ | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-tcl-55-qled-mini-led-4k-google-tv-hdr10-9d49",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 3.735: Smart TV TCL 65 QLED Mini LED 4K HDR10+ 144Hz | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-tcl-65-qled-mini-led-4k-hdr10-144hz-be15",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 2.799: Ar-Condicionado LG Dual Inverter 18.000 BTUs Frio | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/ar-condicionado-lg-dual-inverter-18000-btus-frio-5246",
+          "confidence": "high"
+        },
+        {
+          "brand": "Electrolux",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 8.099: Geladeira Electrolux 3 Portas Frost Free 540L Inox IM8IS | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-electrolux-3-portas-frost-free-540l-inox-im8is-21ea",
+          "confidence": "high"
+        }
+      ]
+    },
+    "MX": {
+      "total": 5,
+      "products": {
+        "TV": 3,
+        "Refrigerator": 1,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 5
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/ultrawidemasterrace on Reddit: ¡Me hice el periférico que le faltaba al LG 45GX950A - un control remoto!",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1rhw277/i_made_the_missing_peripheral_for_the_lg_45gx950a/?tl=es-419",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Review | LG OLED C5, un televisor que representa lo mejor de lo mejor y que exige sacarle verdadero provecho - La Cuarta",
+          "source": "lacuarta.com",
+          "source_url": "https://www.lacuarta.com/tendencias/noticia/review-lg-oled-c5-un-televisor-que-representa-lo-mejor-de-lo-mejor-y-que-exige-sacarle-verdadero-provecho/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense lidera los envíos globales de televisores en 2025 con televisores de más de 100 pulgadas y láser",
+          "source": "prnewswire.com",
+          "source_url": "https://www.prnewswire.com/news-releases/hisense-lidera-los-envios-globales-de-televisores-en-2025-con-televisores-de-mas-de-100-pulgadas-y-laser-302700994.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense lanzará pronto el nuevo televisor MiniLED 2026 UX RGB - NotebookCheck.org News",
+          "source": "notebookcheck.org",
+          "source_url": "https://www.notebookcheck.org/Hisense-lanzara-pronto-el-nuevo-televisor-MiniLED-2026-UX-RGB.1241226.0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Mi mejor compra en mucho tiempo ha sido un frigorífico de Clase A. Ojalá hubiera visto este ofertón entonces",
+          "source": "xatakahome.com",
+          "source_url": "https://www.xatakahome.com/territorio-samsung/mi-mejor-compra-mucho-tiempo-ha-sido-frigorifico-clase-a-ojala-hubiera-visto-este-oferton-entonces",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 5,
+      "products": {
+        "TV": 2,
+        "Monitor": 2,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 4,
+        "Hisense": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "De más de 2500 euros a solo 999: el bajadón de precio de esta tele OLED de LG es espectacular",
+          "source": "larazon.es",
+          "source_url": "https://www.larazon.es/compras/nuestra-eleccion/mas-2500-euros-solo-999-bajadon-precio-esta-tele-oled-espectacular_2026030269a2cc832f00a046882d2f9d.html?outputType=amp",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "¿Por qué No se habla tanto de los Televisores Hisense? 🖥️ - YouTube",
+          "source": "youtube.com",
+          "source_url": "https://www.youtube.com/watch?v=rVtIpqnzTwE",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear evo G9 52-Inch 5K2K Monitor Redefines Immersive Gaming Scale | stupidDOPE | Est. 2008",
+          "source": "stupiddope.com",
+          "source_url": "https://stupiddope.com/2026/03/lg-ultragear-evo-g9-52-inch-5k2k-monitor-redefines-immersive-gaming-scale/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Apple Studio Display and Studio Display XDR | Hacker News",
+          "source": "news.ycombinator.com",
+          "source_url": "https://news.ycombinator.com/item?id=47232421",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Gram Book 15 sacrifica el rendimiento del procesador por un ventilador mucho más silencioso - NotebookCheck.org News",
+          "source": "notebookcheck.org",
+          "source_url": "https://www.notebookcheck.org/LG-Gram-Book-15-sacrifica-el-rendimiento-del-procesador-por-un-ventilador-mucho-mas-silencioso.1239427.0.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-03-08",
+  "period_start": "2026-03-01",
+  "period_end": "2026-03-07"
+}

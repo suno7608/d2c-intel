@@ -1,0 +1,258 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 166,
+  "country_breakdown": {
+    "US": 147,
+    "CA": 19
+  },
+  "product_breakdown": {
+    "TV": 43,
+    "Refrigerator": 36,
+    "Washing Machine": 41,
+    "Monitor": 27,
+    "LG gram": 19
+  },
+  "brand_breakdown": {
+    "LG": 113,
+    "TCL": 11,
+    "Samsung": 3,
+    "Haier": 18,
+    "Midea": 21
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 58,
+    "Competitive Price & Positioning": 36,
+    "Chinese Brand Threat Tracking": 56,
+    "Consumer Sentiment": 16
+  },
+  "chinese_brand_total": 50,
+  "lg_total": 113,
+  "country_data": {
+    "US": {
+      "total": 147,
+      "products": {
+        "TV": 42,
+        "Refrigerator": 27,
+        "Washing Machine": 33,
+        "Monitor": 27,
+        "LG gram": 18
+      },
+      "brands": {
+        "LG": 109,
+        "TCL": 11,
+        "Samsung": 3,
+        "Haier": 9,
+        "Midea": 15
+      },
+      "chinese_count": 35,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best cheap OLED TV deals for March 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/news/best-oled-tv-deals",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The award-winning LG B5 is named our 'best budget OLED TV of 2026' — and it's 50% off at Best Buy today only | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/seasonal-sales/the-award-winning-lg-b5-is-named-our-best-budget-oled-tv-of-2026-and-its-50-percent-off-at-best-buy-today-only",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The cheapest OLED TV deals and sales in March 2026 | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/deals/best-oled-tv-prices-deals",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Mar 2026 | Exclusive $15 Gift Card | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/lg-coupon-codes",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Consumer Sentiment",
+          "value": "r/Appliances on Reddit: Lg top loader smell",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1rlve9f/lg_top_loader_smell/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "[NSW, ACT, VIC, WA] Samsung 9kg/6kg Addwash Smart Washer Dryer Combo WD90T554DBW $467 Delivered @ Appliances Online - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/950173",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/Appliances on Reddit: LG vs GE combo units",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1rhw0er/lg_vs_ge_combo_units/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/OLED_Gaming on Reddit: 42\" LG C5 vs 32\" 4K OLED for single player gaming + media?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/OLED_Gaming/comments/1rj9kbn/42_lg_c5_vs_32_4k_oled_for_single_player_gaming/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG's G6 OLED TV Offers Even Higher Brightness, Comes Out in March - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/lgs-g6-oled-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "LG's C6H OLED Gets Brighter Than Ever. Here's When You Can Buy One - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/lgs-2026-c6-series-oled-get-brighter-than-ever-heres-when-you-can-buy-one/",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 19,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 9,
+        "Washing Machine": 8,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 4,
+        "Haier": 9,
+        "Midea": 6
+      },
+      "chinese_count": 15,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "58% Off LG in March 2026",
+          "source": "slickdeals.net",
+          "source_url": "https://slickdeals.net/promo-codes/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "[Costco] LG B5 55B5 OLED TV clearance in store $899.97 ymmv - RedFlagDeals.com Forums",
+          "source": "forums.redflagdeals.com",
+          "source_url": "https://forums.redflagdeals.com/costco-lg-b5-55b5-oled-tv-clearance-store-899-97-ymmv-2802377/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Speed Queen Appliances: Are They Worth It in 2026? | Nick's Appliance Repair",
+          "source": "nappliancerepair.ca",
+          "source_url": "https://nappliancerepair.ca/blog/speed-queen-appliances/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 4 Best LG TVs of 2026",
+          "source": "businessinsider.com",
+          "source_url": "https://www.businessinsider.com/guides/tech/best-lg-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Appliances: Shop Refrigerators, Dishwashers and more",
+          "source": "coastappliances.ca",
+          "source_url": "https://www.coastappliances.ca/collections/haier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HAIER Refrigerators for Your 2026 Home Upgrade 🏠❄️ | RONA",
+          "source": "rona.ca",
+          "source_url": "https://www.rona.ca/en/appliances/refrigerators/haier--104-4fa2b",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier: Fridges, Dishwashers & more Appliances | Best Buy Canada",
+          "source": "bestbuy.ca",
+          "source_url": "https://www.bestbuy.ca/en-ca/brand/haier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-03-08",
+  "period_start": "2026-03-01",
+  "period_end": "2026-03-07"
+}

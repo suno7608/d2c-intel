@@ -53,6 +53,12 @@
 │                                         │  enhance)    │            │
 │                                         └──────┬───────┘            │
 │                                                │                     │
+│  ┌──────────────┐                               │                     │
+│  │ Brave Search │──────────────┐               │                     │
+│  │ + Scrapling  │ fresh        │               │                     │
+│  │ fallback     │ fallback     │               │                     │
+│  └──────────────┘──────────────┘               │                     │
+│                                                │                     │
 │                     ⑤ Render & QA              ▼                     │
 │                   ┌───────────────────────────────────┐             │
 │                   │  render HTML/PDF │ quality gate   │             │
@@ -81,11 +87,13 @@
 | **Bash** | 4+ | Pipeline scripts |
 | **Node.js** | 18+ | HTML/PDF rendering (`render_professional_report.mjs`) |
 | **Python** | 3.10+ | Translation fallback (Google Translate) |
-| **OpenClaw CLI** | latest | AI agent runner for data collection |
+| **OpenClaw CLI** | latest | AI agent runner for primary data collection |
+| **Brave Search API** | latest | Fresh fallback discovery when OpenClaw fails |
 | **Claude CLI** | latest | Co-work review & translation |
 | **gh CLI** | latest | GitHub integration (optional) |
 | **ripgrep (`rg`)** | any | Quality gate checks |
 | **ngrok** | any | Public link sharing (optional) |
+| **Scrapling parser deps** | latest | Result-page enrichment for stronger evidence |
 
 ```bash
 # macOS (Homebrew)
@@ -175,6 +183,7 @@ bash scripts/run_weekly.sh
   - 품질 게이트 미통과 (데이터 최소치/metadata/hub 링크 등)
 - **안정화 옵션:**
   - `ENABLE_PREFLIGHT_CHECK=1`: 실행 전 환경 점검
+  - `ENABLE_BRAVE_SEARCH_FALLBACK=1`: OpenClaw 실패 시 Brave Search + Scrapling 기반 fresh fallback 실행
   - `ENABLE_OPENCLAW_LAST_SUCCESS_FALLBACK=1`: 수집 실패 시 최근 정상 raw 재사용
   - `OPENCLAW_MAX_RETRIES=3`: OpenClaw 재시도 횟수
   - `OPENCLAW_BACKOFF_BASE_SECONDS=10`: 지수 백오프 기본값
@@ -182,6 +191,7 @@ bash scripts/run_weekly.sh
   - `OPENCLAW_SESSION_LOCK_EXTRA_SECONDS=15`: session lock 발생 시 추가 대기
   - `OPENCLAW_ENABLE_STALE_LOCK_CLEANUP=1`: dead PID stale lock 안전 정리
   - `OPENCLAW_ADAPTIVE_POLICY_MAX_LEVEL=3`: 반복 실패 패턴 강화 레벨 상한
+  - `ENABLE_SCRAPLING_ENRICHMENT=1`: 검색 결과 URL 본문을 추가 파싱하여 title/summary/price evidence 강화
   - `FAIL_ON_STALE_COLLECTION=1`: fallback 재사용 시 배포 차단 (엄격 모드)
 - **진단 로그:**
   - `logs/openclaw_[DATE].diag.jsonl` — attempt/원인/백오프/요약

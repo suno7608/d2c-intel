@@ -1,0 +1,54 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 17,
+  "chinese_brand_total": 4,
+  "lg_total": 13,
+  "country_breakdown": {
+    "US": 8,
+    "CA": 8
+  },
+  "product_breakdown": {
+    "TV": 0,
+    "Refrigerator": 0,
+    "Washing Machine": 0,
+    "Monitor": 0,
+    "LG gram": 0
+  },
+  "brand_breakdown": {
+    "LG": 13,
+    "TCL": 0,
+    "Haier": 0,
+    "Midea": 0
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 6,
+    "Competitive Price & Positioning": 4,
+    "Chinese Brand Threat Tracking": 4,
+    "Consumer Sentiment": 2
+  },
+  "country_data": {
+    "US": {
+      "total": 8,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    },
+    "CA": {
+      "total": 8,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-02-16",
+  "period_start": "2026-02-09",
+  "period_end": "2026-02-15"
+}

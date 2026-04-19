@@ -1,0 +1,66 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": ["BR", "MX", "CL"],
+  "total_records": 167,
+  "chinese_brand_total": 42,
+  "lg_total": 125,
+  "country_breakdown": {"BR": 98, "MX": 47, "CL": 22},
+  "product_breakdown": {"TV": 76, "Refrigerator": 38, "Washing Machine": 31, "Monitor": 15, "LG gram": 7},
+  "brand_breakdown": {"LG": 125, "TCL": 19, "Haier": 12, "Midea": 11},
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 63,
+    "Competitive Price & Positioning": 41,
+    "Chinese Brand Threat Tracking": 42,
+    "Consumer Sentiment": 21
+  },
+  "country_data": {
+    "BR": {
+      "total": 98,
+      "chinese_count": 26,
+      "products": {"TV": 48, "Refrigerator": 22, "Washing Machine": 16, "Monitor": 8, "LG gram": 4},
+      "brands": {"LG": 72, "TCL": 12, "Haier": 8, "Midea": 6},
+      "top_signals": [
+        {
+          "brand": "LG", "product": "TV", "pillar": "Retail Channel Promotions",
+          "value": "OLED C5 55\" R$5,075 — Pelando 딜 호평 20건+",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-lg-oled-evo-ai-c5-4k-55-polegadas-6a54",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "TV", "pillar": "Consumer Sentiment",
+          "value": "OLED 패널 결함 보증 종료 직후 발생 불만",
+          "source": "reclameaqui.com.br",
+          "source_url": "https://www.reclameaqui.com.br/lg-electronics/smart-tv-oled-lg-com-defeito-no-painel-apos-2-meses-do-fim-da-garantia-estendida_oixDIYteWNDJgv-j/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "Refrigerator", "pillar": "Consumer Sentiment",
+          "value": "에어컨 보증 수리 지연 불만",
+          "source": "reclameaqui.com.br",
+          "source_url": "https://www.reclameaqui.com.br/lg-electronics/ar-condicionado-lg-com-defeito-na-garantia-e-falha-na-prestacao-de-servico-de-assistencia-tecnica_1jZdjqWNryYaGHZf/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 47,
+      "chinese_count": 11,
+      "products": {"TV": 21, "Refrigerator": 12, "Washing Machine": 9, "Monitor": 5},
+      "brands": {"LG": 36, "TCL": 7, "Midea": 4},
+      "top_signals": []
+    },
+    "CL": {
+      "total": 22,
+      "chinese_count": 5,
+      "products": {"TV": 7, "Refrigerator": 7, "Washing Machine": 6, "LG gram": 2},
+      "brands": {"LG": 17, "Haier": 3, "Midea": 2},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-04-05",
+  "period_start": "2026-03-29",
+  "period_end": "2026-04-04"
+}

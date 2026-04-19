@@ -1,0 +1,35 @@
+{
+  "week": "2026-04-05",
+  "report_period": {
+    "start": "2026-03-29",
+    "end": "2026-04-04"
+  },
+  "version": "Weekly Vol.2026-04-05-R2",
+  "generated_at": "2026-04-05T08:09:55.482Z",
+  "metrics": {
+    "covered_countries": 15,
+    "lg_promotion_signals": 419,
+    "competitor_promotion_signals": 11,
+    "chinese_threat_signals": 14,
+    "consumer_negative_countries": 59,
+    "critical_country_count": 5
+  },
+  "critical_countries": [
+    "🇺🇸 미국 (US)",
+    "🇬🇧 영국 (UK)",
+    "🇩🇪 독일 (DE)",
+    "🇪🇸 스페인 (ES)",
+    "🇹🇷 튀르키예 (TR)"
+  ],
+  "executive_key_insights": [
+    "**데이터 수집 규모 역대 최고 기록**: 총 1,147건으로 전주 대비 20.1% 증가(+192건), TV 비율 43.5%로 제품 균형 개선 확인",
+    "**중국 브랜드 위협 전방위 확대**: TCL의 SQD-Mini LED 기술이 유럽 전역 확산 중이며, Haier/Midea의 가전 시장 침투가 북미·유럽에서 동시 가속화",
+    "**LG 프로모션 공세 효과 가시화**: LG 프로모션 감지 419건(전주 대비 +82.2%)으로 Amazon Spring Sale 기간 OLED TV·UltraGear 모니터 중심의 공격적 가격 정책이 시장 반응 견인"
+  ],
+  "links": {
+    "html": "./2026-04-05/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-04-05_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-04-05_R2_16country.md",
+    "share": "./2026-04-05/share.html"
+  }
+}

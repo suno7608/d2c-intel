@@ -18,3 +18,4 @@ HEARTBEAT.md
 TOOLS.md
 node_modules/
 scripts/__pycache__/
+.env.local

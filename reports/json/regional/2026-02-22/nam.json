@@ -1,0 +1,52 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 60,
+  "chinese_brand_total": 2,
+  "lg_total": 58,
+  "country_breakdown": {
+    "US": 30,
+    "CA": 30
+  },
+  "product_breakdown": {
+    "Presidents Day 세일 종료 후 가격 복원 리스크": 4
+  },
+  "brand_breakdown": {
+    "LG": 58,
+    "TCL": 0,
+    "Haier": 0,
+    "Midea": 0
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 21,
+    "Competitive Price & Positioning": 15,
+    "Chinese Brand Threat Tracking": 2,
+    "Consumer Sentiment": 6
+  },
+  "country_data": {
+    "US": {
+      "total": 30,
+      "chinese_count": 0,
+      "products": {
+        "Presidents Day 세일 종료 후 가격 복원 리스크": 4
+      },
+      "brands": {},
+      "top_signals": []
+    },
+    "CA": {
+      "total": 30,
+      "chinese_count": 0,
+      "products": {},
+      "brands": {},
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-02-22",
+  "period_start": null,
+  "period_end": null
+}

@@ -1,0 +1,276 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 108,
+  "country_breakdown": {
+    "BR": 98,
+    "MX": 6,
+    "CL": 4
+  },
+  "product_breakdown": {
+    "TV": 42,
+    "Refrigerator": 32,
+    "Washing Machine": 16,
+    "Monitor": 16,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 58,
+    "TCL": 9,
+    "Hisense": 14,
+    "Samsung": 9,
+    "Midea": 12,
+    "Haier": 6
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 34,
+    "Chinese Brand Threat Tracking": 51,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 17
+  },
+  "chinese_brand_total": 41,
+  "lg_total": 58,
+  "country_data": {
+    "BR": {
+      "total": 98,
+      "products": {
+        "TV": 36,
+        "Refrigerator": 31,
+        "Washing Machine": 14,
+        "Monitor": 15,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 51,
+        "TCL": 9,
+        "Hisense": 13,
+        "Samsung": 8,
+        "Midea": 12,
+        "Haier": 5
+      },
+      "chinese_count": 39,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 4.768: Smart TV 4K 55 Polegadas LG OLED OLED55C5PSA Ultra Slim a9 Gen8 até 144Hz Charcoal Black | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-4k-55-polegadas-lg-oled-oled55c5psa-ultra-slim-a9-gen8-ate-144hz-charcoal-black-7996",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 4.925: [Selecionados] Smart TV LG OLED evo AI C5 4K 55 polegadas 2025 Processador α9 AI Ger 8 webOS 25 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/lg-oled-evo-c5-4k-tv-com-a9-ai-gen-8-79eb",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 4.850: LG OLED evo C5 4K TV 55 polegadas | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/lg-oled-evo-c5-4k-tv-55-polegadas-e119",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.978: Smart Tv Tcl 65 Polegadas Qled 4k P7k Wifi Bluetooth Google Tv Hdr10+ Dolby Atmos Dolby Vision 65p7k | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-tcl-65-polegadas-qled-4k-p7k-wifi-bluetooth-google-tv-hdr10-dolby-atmos-dolby-vision-65p7k-a46e",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.000: Smart TV 55 TCL 55P7K 4K QLED 60Hz com Sistema Operacional Google TV | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-55-tcl-55p7k-4k-qled-60hz-com-sistema-operacional-google-tv-3227",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 1.473: Hisense Smart TV UHD 4K QLED 43\" Polegadas 43Q6Q com HDR10+ | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/hisense-smart-tv-qled-4k-43-polegadas-hdr10-alexa-c25a",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.391: Hisense Smart TV UHD 4K QLED 55\" Polegadas 55Q7QG | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/hisense-smart-tv-4k-qled-55-polegadas-google-tv-c30f",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "'It's a HARD pass': some TV fans aren't happy that the Samsung S90H switches QD-OLED for W-OLED across the lineup — but our LG C6 panel measurements should give you hope",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/some-tv-fans-arent-happy-about-samsung-dropping-qd-oled-from-its-mid-range-oled-tvs-but-our-early-measurements-of-the-lg-c6-show-why-it-probably-makes-sense",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 3.039: Combo LG Geladeira Frost Free Inverter 395L Duplex Branca 127V + Micro-ondas 30L EasyClean™ Branco 127V | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/combo-lg-geladeira-frost-free-inverter-395l-duplex-branca-127v-micro-ondas-30l-easycleantm-branco-127v-3c21",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 6.459: Geladeira Samsung RF49A Inverter Frost Free 3 Portas com Dispenser de Água 470L Inox Look 220V | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-samsung-rf49a-inverter-frost-free-3-portas-com-dispenser-de-agua-470l-inox-look-220v-14bc",
+          "confidence": "high"
+        }
+      ]
+    },
+    "MX": {
+      "total": 6,
+      "products": {
+        "TV": 3,
+        "Refrigerator": 1,
+        "Washing Machine": 1,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 4,
+        "Samsung": 1,
+        "Haier": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "165 Hz, panel OLED, Gemini y Copilot: la nueva gama de televisiones 2026 de LG llega a México",
+          "source": "xataka.com.mx",
+          "source_url": "https://www.xataka.com.mx/home/165-hz-panel-oled-google-gemini-copilot-lg-se-prepara-para-mundial-2026-asi-sus-nuevas-pantallas-mexico",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Sam’s Club pone a precio de regalo pantalla Hisense de 65 pulgadas QLED con descuento: colores más puros y realistas y 1 - El Heraldo de México",
+          "source": "heraldodemexico.com.mx",
+          "source_url": "https://heraldodemexico.com.mx/economia/2026/4/7/sams-club-pone-precio-de-regalo-pantalla-hisense-de-65-pulgadas-qled-con-descuento-colores-mas-puros-realistas-792465.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los mejores televisores 4K baratos en Argentina 2026 desde $326.499 | MejoresCompras",
+          "source": "mejorescompras.com.ar",
+          "source_url": "https://mejorescompras.com.ar/televisores/mejores-televisores-4k-baratos-argentina-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "FRICOM. HAIER HFW7720EWMP 200x70 INOX DISP 4p - NavasCenter.es",
+          "source": "navascenter.es",
+          "source_url": "https://navascenter.es/producto/electrodomesticos/fri-combinados/fricom-haier-hfw7720ewmp-200x70-inox-disp-4p-2/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG WashTower la solución de lavado supera las 3.2 millones de unidades vendidas - TechGames",
+          "source": "techgames.com.mx",
+          "source_url": "https://www.techgames.com.mx/lg-washtower-la-solucion-de-lavado-supera-las-3-2-millones-de-unidades-vendidas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG lanza el nuevo monitor para juegos UltraGear OLED 39GX950B con 1.500 nits de brillo máximo - NotebookCheck.org News",
+          "source": "notebookcheck.org",
+          "source_url": "https://www.notebookcheck.org/LG-lanza-el-nuevo-monitor-para-juegos-UltraGear-OLED-39GX950B-con-1-500-nits-de-brillo-maximo.1268137.0.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 4,
+      "products": {
+        "TV": 3,
+        "Washing Machine": 1
+      },
+      "brands": {
+        "LG": 3,
+        "Hisense": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED evo TVs | AI-Powered Ultra Vivid 4K Smart TVs | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/oled-evo-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 inch Class LG OLED evo AI G5 4K Smart TV 2025 with Supplied Wall Mount - OLED65G5WUA | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled65g5wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "¿Porqué elegir si podes tener ambos? 🤩🖼️ #HisenseCanva #CanvasTV #Hisense #artmode #Televisores",
+          "source": "instagram.com",
+          "source_url": "https://www.instagram.com/reel/DWztCOJBbv5/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Bodega Aurrera liquida lavadora LG carga superior ...",
+          "source": "radioformula.com.mx",
+          "source_url": "https://www.radioformula.com.mx/estilo-de-vida/bodega-aurrera-liquida-lavadora-lg-carga-superior-inverter-direct-drive-silenciosa-con-tapa-de-vidrio-templado-20260406-0107.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-04-12",
+  "period_start": "2026-04-05",
+  "period_end": "2026-04-11"
+}

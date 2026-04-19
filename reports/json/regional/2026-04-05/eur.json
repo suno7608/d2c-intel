@@ -1,0 +1,162 @@
+{
+  "region": "eur",
+  "region_name_ko": "유럽",
+  "region_name_en": "Europe",
+  "countries": ["UK", "DE", "FR", "IT", "ES", "TR"],
+  "total_records": 459,
+  "chinese_brand_total": 193,
+  "lg_total": 266,
+  "country_breakdown": {"UK": 78, "DE": 112, "FR": 87, "IT": 69, "ES": 71, "TR": 42},
+  "product_breakdown": {"TV": 218, "Refrigerator": 97, "Washing Machine": 84, "Monitor": 38, "LG gram": 22},
+  "brand_breakdown": {"LG": 266, "TCL": 98, "Haier": 52, "Hisense": 31, "Samsung": 12},
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 148,
+    "Competitive Price & Positioning": 118,
+    "Chinese Brand Threat Tracking": 131,
+    "Consumer Sentiment": 62
+  },
+  "country_data": {
+    "DE": {
+      "total": 112,
+      "chinese_count": 61,
+      "products": {"TV": 58, "Refrigerator": 21, "Washing Machine": 18, "Monitor": 11, "LG gram": 4},
+      "brands": {"LG": 51, "TCL": 41, "Haier": 11, "Hisense": 9},
+      "top_signals": [
+        {
+          "brand": "TCL", "product": "TV", "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL X11L SQD-Mini LED 10,000nit — RTINGS Top10 진입, OLED 시장 직접 도전",
+          "source": "computerbild.de",
+          "source_url": "https://www.computerbild.de/artikel/Tests-Fernseher-TCL-X11L-SQD-mini-led-test-2026-40826767.html",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "TV", "pillar": "Retail Channel Promotions",
+          "value": "MediaMarkt 부활절 세일 OLED 55\" €1,400 할인",
+          "source": "gamepro.de",
+          "source_url": "https://www.gamepro.de/artikel/lg-oled-tv-1400-euro-guenstiger-mediamarkt-55-zoll-high-end-fernseher-bestpreis-angebot,3450579.html",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "TV", "pillar": "Competitive Price & Positioning",
+          "value": "OLED65C5 €1,300 vs Samsung S95H €1,400 — LG 가격 경쟁력 우위 확인",
+          "source": "hifi.de",
+          "source_url": "https://hifi.de/angebot/lgs-oled-c5-in-65-zoll-fuer-unter-1300-euro-und-das-ohne-cashback-und-co-240465",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "TV", "pillar": "Consumer Sentiment",
+          "value": "OLED G6 신제품 독일 미디어 호평 18건",
+          "source": "hifi.de",
+          "source_url": "https://hifi.de/test/lg-oled-g6-test-268677",
+          "confidence": "high"
+        }
+      ]
+    },
+    "UK": {
+      "total": 78,
+      "chinese_count": 28,
+      "products": {"TV": 31, "Refrigerator": 26, "Washing Machine": 14, "Monitor": 7},
+      "brands": {"LG": 50, "Haier": 19, "TCL": 9},
+      "top_signals": [
+        {
+          "brand": "Haier", "product": "Refrigerator", "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Horizon Collection 프리미엄 냉장고 런던 런칭 — 프리미엄 시장 직접 공략",
+          "source": "kbbfocus.com",
+          "source_url": "https://kbbfocus.com/news/5955-haier-introduces-new-horizon-refrigeration-collection-at-london-launch",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "Refrigerator", "pillar": "Consumer Sentiment",
+          "value": "LG vs Samsung 냉장고 비교 우위 6건 — LG 선호도 높음",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/tools/compare/lg-lf30s8210s-vs-lg-lf29h8330s/67362/67365",
+          "confidence": "high"
+        }
+      ]
+    },
+    "FR": {
+      "total": 87,
+      "chinese_count": 38,
+      "products": {"TV": 42, "Refrigerator": 18, "Washing Machine": 19, "Monitor": 8},
+      "brands": {"LG": 49, "TCL": 22, "Haier": 16},
+      "top_signals": [
+        {
+          "brand": "TCL", "product": "TV", "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C9K 65\" (B&O 사운드) €1,200 이하 — 월드컵 시즌 프랑스 공략",
+          "source": "lefigaro.fr",
+          "source_url": "https://www.lefigaro.fr/bons-plans/high-tech/tcl-65c9k-ce-televiseur-mini-led-144-hz-avec-son-bang-olufsen-passe-sous-les-1-200-euros-parfait-pour-les-matchs-de-la-coupe-du-monde-20260328",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier", "product": "TV", "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier TV 프랑스 시장 공식 진출",
+          "source": "journaldugeek.com",
+          "source_url": "https://www.journaldugeek.com/2026/03/29/les-televiseurs-haier-debarquent-en-france/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "Washing Machine", "pillar": "Retail Channel Promotions",
+          "value": "LG 11kg 세탁기 딜 호평 5건",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/lg-lave-linge-hublot-f14r15whs-11-kg-blanc-3306816",
+          "confidence": "high"
+        }
+      ]
+    },
+    "IT": {
+      "total": 69,
+      "chinese_count": 24,
+      "products": {"TV": 42, "Monitor": 14, "Refrigerator": 8, "Washing Machine": 5},
+      "brands": {"LG": 45, "TCL": 18, "Hisense": 6},
+      "top_signals": [
+        {
+          "brand": "LG", "product": "TV", "pillar": "Retail Channel Promotions",
+          "value": "OLED 77\" B5 Amazon €1,472 역대 최저가 달성",
+          "source": "tomshw.it",
+          "source_url": "https://www.tomshw.it/hardware/lg-oled-77-b5-in-offerta-a-soli-1472eur-su-amazon-2026-04-03",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG", "product": "Monitor", "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear OLED 27\" Amazon €422 딜",
+          "source": "tomshw.it",
+          "source_url": "https://www.tomshw.it/hardware/lg-ultragear-oled-27-in-offerta-a-soli-422eur-su-amazon-2026-04-02",
+          "confidence": "high"
+        }
+      ]
+    },
+    "ES": {
+      "total": 71,
+      "chinese_count": 31,
+      "products": {"TV": 38, "Refrigerator": 16, "Washing Machine": 12, "Monitor": 5},
+      "brands": {"LG": 40, "TCL": 21, "Hisense": 10},
+      "top_signals": [
+        {
+          "brand": "TCL", "product": "TV", "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL SQD-Mini LED 스페인 론칭 — LG OLED 가격 재정립 필요",
+          "source": "computerbild.de",
+          "source_url": "https://www.computerbild.de/artikel/Tests-Fernseher-TCL-X11L-SQD-mini-led-test-2026-40826767.html",
+          "confidence": "high"
+        }
+      ]
+    },
+    "TR": {
+      "total": 42,
+      "chinese_count": 11,
+      "products": {"TV": 22, "Refrigerator": 14, "Washing Machine": 6},
+      "brands": {"LG": 31, "TCL": 6, "Haier": 5},
+      "top_signals": [
+        {
+          "brand": "LG", "product": "TV", "pillar": "Consumer Sentiment",
+          "value": "튀르키예 서비스 품질 불만 12건 — Critical 국가 지정, CS 개선 긴급 필요",
+          "source": "sikayetvar.com",
+          "source_url": "https://www.sikayetvar.com/lg/lg-bulasik-makinesinin-yani-ezik-yetkili-servis-yardim-reddetti",
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-04-05",
+  "period_start": "2026-03-29",
+  "period_end": "2026-04-04"
+}

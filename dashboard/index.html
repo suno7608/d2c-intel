@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D2C Intel — LG 글로벌 D2C 인텔리전스</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400;1,6..72,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+/* ── TOKENS ───────────────────────────────────────────── */
+:root{
+  --ink:#000d2f;--ink2:#00205b;--acc:#1c6299;--acc2:#154d78;
+  --paper:#fcf9f8;--paper2:#f2eeec;--paper3:#e8e3e0;--page:#ffffff;
+  --tx:#1a1714;--txm:#5c5450;--txf:#9c9491;
+  --bd:rgba(28,20,16,.12);--bds:rgba(28,20,16,.06);
+  --ok:#1a6640;--er:#8b1c1c;--wn:#7a5100;
+  --serif:'Newsreader',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif;
+  --nav:56px;--sb:208px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;-webkit-font-smoothing:antialiased}
+body{font-family:var(--sans);background:var(--paper);color:var(--tx);min-height:100vh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer;font-family:var(--sans)}
+input,textarea{font-family:var(--sans)}
+
+/* ── TYPE ─────────────────────────────────────────────── */
+.td{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.6rem);font-weight:600;line-height:1.15;letter-spacing:-.02em}
+.th{font-family:var(--serif);font-size:1.25rem;font-weight:600;line-height:1.3}
+.tt{font-family:var(--serif);font-size:1.05rem;font-weight:500;line-height:1.4}
+.tl{font-size:.6875rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase}
+.tlm{font-size:.75rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase}
+.tb{font-size:.875rem;line-height:1.65}
+.tbs{font-family:var(--serif);font-size:.9375rem;line-height:1.75}
+.tdata{font-size:2.25rem;font-weight:700;letter-spacing:-.03em;line-height:1}
+.cm{color:var(--txm)}.cf{color:var(--txf)}.ca{color:var(--acc)}
+.cok{color:var(--ok)}.cer{color:var(--er)}.cwn{color:var(--wn)}
+.cp{color:#fcf9f8}
+
+/* ── SHELL ────────────────────────────────────────────── */
+.shell{display:flex;flex-direction:column;min-height:100vh}
+
+/* ── NAV ──────────────────────────────────────────────── */
+.nav{
+  position:sticky;top:0;z-index:200;height:var(--nav);
+  background:var(--ink);display:flex;align-items:center;padding:0 24px;
+  border-bottom:1px solid rgba(255,255,255,.06)
+}
+.nav-logo{display:flex;flex-direction:column;gap:1px;margin-right:40px;flex-shrink:0}
+.nav-logo-a{font-weight:700;font-size:.8125rem;letter-spacing:.14em;text-transform:uppercase;color:#fcf9f8}
+.nav-logo-b{font-size:.5625rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(252,249,248,.4)}
+.nav-links{display:flex;align-items:center;flex:1;overflow-x:auto}
+.ni{
+  height:var(--nav);display:flex;align-items:center;padding:0 14px;
+  font-size:.6875rem;font-weight:500;letter-spacing:.07em;text-transform:uppercase;
+  color:rgba(252,249,248,.5);border-bottom:2px solid transparent;
+  transition:color .15s,border-color .15s;cursor:pointer;white-space:nowrap;user-select:none
+}
+.ni:hover{color:rgba(252,249,248,.85)}
+.ni.active{color:#fcf9f8;border-bottom-color:var(--acc)}
+.nav-r{display:flex;align-items:center;gap:14px;margin-left:auto;flex-shrink:0}
+.nav-search{
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);
+  padding:6px 12px;font-size:.75rem;color:#fcf9f8;width:160px;outline:none;
+  transition:border-color .15s
+}
+.nav-search::placeholder{color:rgba(252,249,248,.3)}
+.nav-search:focus{border-color:var(--acc)}
+.btn-nav{
+  background:var(--acc);color:#fcf9f8;border:none;
+  padding:7px 14px;font-size:.6875rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+  transition:background .15s
+}
+.btn-nav:hover{background:var(--acc2)}
+
+/* ── APP BODY ─────────────────────────────────────────── */
+.app-body{display:flex;flex:1;min-height:0}
+
+/* ── SIDEBAR ──────────────────────────────────────────── */
+.sb{
+  width:var(--sb);min-width:var(--sb);background:var(--paper2);
+  border-right:1px solid var(--bd);display:flex;flex-direction:column;
+  padding-top:24px;overflow-y:auto
+}
+.sb-sec{padding:0 16px 8px;color:var(--txm)}
+.sb-sub{padding:0 16px 16px;color:var(--txf);font-size:.5625rem}
+.sbi{
+  display:flex;align-items:center;gap:10px;padding:10px 16px;
+  font-size:.8125rem;font-weight:400;color:var(--txm);
+  cursor:pointer;border-right:2px solid transparent;transition:background .1s,color .1s;user-select:none
+}
+.sbi:hover{background:var(--paper3);color:var(--tx)}
+.sbi.active{background:var(--paper);color:var(--tx);font-weight:600;border-right-color:var(--acc)}
+.sb-icon{font-size:.875rem;width:18px;text-align:center;flex-shrink:0}
+.sb-div{height:1px;background:var(--bd);margin:14px 0}
+.sb-foot{margin-top:auto;padding:16px}
+.sb-btn{
+  display:block;width:100%;background:var(--ink2);color:#fcf9f8;border:none;
+  padding:12px 8px;font-size:.6875rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+  text-align:center;transition:background .15s
+}
+.sb-btn:hover{background:var(--ink)}
+
+/* ── MAIN ─────────────────────────────────────────────── */
+.main{flex:1;overflow-y:auto;background:var(--paper)}
+
+/* ── VIEWS ────────────────────────────────────────────── */
+.view{display:none}
+.view.active{display:block}
+
+/* ── PAGE HEADER ──────────────────────────────────────── */
+.ph{padding:40px 48px 32px;display:flex;justify-content:space-between;align-items:flex-start}
+.ph-l{max-width:620px}
+.ph-bc{color:var(--acc);margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.ph-bc::before{content:'——';opacity:.5;margin-right:2px}
+.ph-desc{margin-top:14px;color:var(--txm);font-family:var(--serif);font-style:italic;font-size:.9375rem;line-height:1.65}
+.status-chip{display:flex;align-items:center;gap:6px;justify-content:flex-end}
+.dot{width:7px;height:7px;border-radius:50%;background:#22c55e;animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* ── SECTION WRAPPER ──────────────────────────────────── */
+.sec{padding:0 48px 32px}
+.sec-bg{background:var(--paper2);padding:2px 0}
+
+/* ── BUTTONS ──────────────────────────────────────────── */
+.btn{display:inline-flex;align-items:center;gap:6px;border:none;cursor:pointer;font-family:var(--sans);font-weight:600;letter-spacing:.07em;text-transform:uppercase;transition:background .15s}
+.btn-f{background:var(--ink);color:#fcf9f8;padding:10px 20px;font-size:.6875rem}
+.btn-f:hover{background:var(--ink2)}
+.btn-o{background:transparent;color:var(--tx);border:1px solid var(--bd);padding:10px 20px;font-size:.6875rem}
+.btn-o:hover{background:var(--paper3)}
+.btn-gl{background:transparent;color:rgba(252,249,248,.75);border:1px solid rgba(252,249,248,.2);padding:10px 16px;font-size:.6875rem;width:100%;justify-content:center;margin-top:20px}
+.btn-gl:hover{background:rgba(255,255,255,.08);color:#fcf9f8}
+
+/* ── KPI ROW ──────────────────────────────────────────── */
+.kpi-row{display:grid;grid-template-columns:repeat(3,1fr);margin:0 48px 28px;background:var(--page)}
+.kpi{padding:26px 30px}
+.kpi+.kpi{border-left:1px solid var(--bds)}
+.kpi-lbl{color:var(--txm);margin-bottom:12px}
+.kpi-val{font-size:2.25rem;font-weight:700;letter-spacing:-.03em;line-height:1}
+.kpi-unit{font-size:1rem;font-weight:600;color:var(--acc);margin-left:3px}
+.kpi-dl{display:inline-flex;align-items:center;gap:4px;font-size:.75rem;font-weight:500;margin-top:8px}
+.up{color:var(--ok)}.dn{color:var(--er)}.wn2{color:var(--wn)}
+.kpi-sub{color:var(--txf);font-size:.75rem;margin-top:4px}
+
+/* ── DUAL COL ─────────────────────────────────────────── */
+.dual{display:grid;grid-template-columns:1fr 272px;margin:0 48px 28px}
+.panel{background:var(--page);padding:26px 30px}
+.panel-dark{background:var(--ink2);color:#fcf9f8;padding:26px 22px}
+.panel-title{margin-bottom:4px}
+.panel-sub{color:var(--txm);font-size:.8125rem;margin-bottom:20px}
+.panel-sub-d{color:rgba(252,249,248,.5);font-size:.75rem;margin-bottom:18px}
+.chart-wrap{position:relative;height:196px}
+.leg{display:flex;gap:14px;justify-content:flex-end;margin-bottom:16px}
+.leg-i{display:flex;align-items:center;gap:5px;font-size:.625rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.leg-dot{width:10px;height:10px}
+.sent-foot{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px;padding-top:16px;border-top:1px solid var(--bds)}
+.sf{text-align:center}
+.sf-lbl{display:block;color:var(--txm);margin-bottom:4px}
+.sf-val{font-size:1.125rem;font-weight:700}
+
+/* ── PULSES ───────────────────────────────────────────── */
+.pulse{padding:13px 0;border-bottom:1px solid rgba(252,249,248,.1)}
+.pulse:last-of-type{border:none}
+.pulse-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:3px}
+.pulse-r{font-size:.8125rem;font-weight:500;color:rgba(252,249,248,.85)}
+.pulse-s{font-size:.875rem;font-weight:700}
+.ow{color:#4ade80}.nt{color:#fbbf24}.sl{color:#60a5fa}.ct{color:#f87171}
+.pulse-d{font-size:.6875rem;color:rgba(252,249,248,.45);line-height:1.5}
+
+/* ── ANALYST ──────────────────────────────────────────── */
+.analyst{display:grid;grid-template-columns:272px 1fr;margin:0 48px 36px;background:var(--page)}
+.analyst-img{
+  background:linear-gradient(155deg,var(--ink) 0%,var(--ink2) 55%,var(--acc) 100%);
+  display:flex;flex-direction:column;justify-content:flex-end;padding:24px;
+  position:relative;overflow:hidden;min-height:240px
+}
+.analyst-img::before{content:'';position:absolute;width:300px;height:300px;border:1px solid rgba(252,249,248,.06);border-radius:50%;top:-80px;right:-80px}
+.analyst-img::after{content:'';position:absolute;width:180px;height:180px;border:1px solid rgba(252,249,248,.05);border-radius:50%;bottom:-50px;left:-40px}
+.analyst-badge{position:absolute;top:0;left:0;right:0;padding:8px 16px;background:rgba(0,0,0,.35);font-size:.5625rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(252,249,248,.6)}
+.analyst-ttl{font-family:var(--serif);font-size:1.1rem;font-weight:600;color:#fcf9f8;line-height:1.35;position:relative;z-index:1}
+.analyst-body{padding:28px 32px}
+.analyst-body h3{font-family:var(--serif);font-size:1.2rem;margin-bottom:16px}
+.analyst-q{font-family:var(--serif);font-style:italic;font-size:.9375rem;color:var(--tx);line-height:1.7;margin-bottom:14px}
+.analyst-p{color:var(--txm);font-size:.875rem;line-height:1.7;margin-bottom:22px}
+.btn-row{display:flex;gap:12px}
+
+/* ── REGIONAL ─────────────────────────────────────────── */
+.reg-metrics{display:grid;grid-template-columns:188px 1fr;gap:14px;margin:0 48px 20px}
+.health-box{background:var(--page);padding:22px}
+.health-val{font-size:2.5rem;font-weight:700}
+.health-tag{font-size:.875rem;font-weight:600;margin-left:6px}
+.health-tag.ok{color:var(--ok)}.health-tag.wn{color:var(--wn)}.health-tag.er{color:var(--er)}
+.metric-sub{display:grid;grid-template-columns:repeat(3,1fr);background:var(--page)}
+.ms{padding:16px 18px}
+.ms+.ms{border-left:1px solid var(--bds)}
+.ms-lbl{color:var(--txm);margin-bottom:8px}
+.ms-val{font-size:1.25rem;font-weight:700}
+.geo-box{
+  background:var(--ink);color:#fcf9f8;padding:22px;
+  position:relative;overflow:hidden;display:flex;flex-direction:column
+}
+.geo-chip{position:absolute;top:14px;right:14px;background:var(--ok);color:#fff;font-size:.5625rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px}
+.geo-ttl{font-family:var(--serif);font-size:1.125rem;font-weight:600;color:#fcf9f8;margin-bottom:2px}
+.geo-sub{font-size:.8125rem;color:rgba(252,249,248,.55);margin-bottom:16px}
+.geo-hubs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(252,249,248,.1)}
+.gh{background:rgba(0,13,47,.45);padding:12px;text-align:center}
+.gh-lbl{font-size:.5625rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(252,249,248,.45);margin-bottom:4px}
+.gh-val{font-size:1rem;font-weight:700}
+.gh-val.pos{color:#4ade80}.gh-val.neg{color:#f87171}
+.analysis-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin:0 48px 20px;background:var(--paper3)}
+.ac{background:var(--page);padding:22px}
+.ac-tag{color:var(--acc);margin-bottom:10px}
+.ac-h{font-family:var(--serif);font-size:1rem;font-weight:600;margin-bottom:8px}
+.ac-p{font-size:.8125rem;color:var(--txm);line-height:1.65}
+.ch-table{width:calc(100% - 96px);margin:0 48px 20px;border-collapse:collapse}
+.ch-table th{text-align:left;padding:9px 14px;font-size:.625rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--txm);background:var(--paper2);border-bottom:1px solid var(--bd)}
+.ch-table td{padding:11px 14px;font-size:.875rem;background:var(--page);border-bottom:1px solid var(--bds)}
+.ch-table td.vol{font-weight:700}
+.ch-table td.pos{color:var(--ok);font-weight:600}
+.ch-table td.neg{color:var(--er);font-weight:600}
+.comp-table{width:calc(100% - 96px);margin:0 48px 20px;border-collapse:collapse}
+.comp-table th{text-align:left;padding:9px 14px;font-size:.625rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--txm);background:var(--paper2);border-bottom:1px solid var(--bd)}
+.comp-table td{padding:11px 14px;font-size:.875rem;background:var(--page);border-bottom:1px solid var(--bds)}
+.level-d{font-size:.6875rem;font-weight:700;padding:3px 8px;background:var(--er);color:#fff}
+.level-d.wn{background:var(--wn)}.level-d.ok{background:var(--ok)}
+.action-box{margin:0 48px 40px;background:var(--page);padding:22px;border-left:4px solid var(--er)}
+.action-h{display:flex;align-items:center;gap:8px;font-size:.875rem;font-weight:600;margin-bottom:18px;color:var(--er)}
+.action-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--paper3)}
+.agc{background:var(--paper2);padding:16px}
+.agc-type{color:var(--txm);margin-bottom:8px}
+.agc-desc{font-family:var(--serif);font-size:.9375rem;color:var(--tx);margin-bottom:14px;line-height:1.5}
+.agc-foot{display:flex;justify-content:space-between}
+.agc-owner{font-size:.75rem;color:var(--txm)}
+.agc-dl{font-size:.75rem;font-weight:700;color:var(--er)}
+
+/* ── REGIONAL REPORT DRILL-DOWN ───────────────────────── */
+.rr-tabs{display:flex;gap:0;margin:0 48px 20px;border-bottom:1px solid var(--bd)}
+.rr-tab{padding:10px 18px;font-size:.75rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--txm);cursor:pointer;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;background:none;border-top:none;border-left:none;border-right:none}
+.rr-tab:hover{color:var(--tx)}
+.rr-tab.active{color:var(--acc);border-bottom-color:var(--acc)}
+.rr-section{margin:0 48px 28px}
+.rr-section-h{font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:14px;color:var(--ink);display:flex;align-items:center;gap:8px}
+.rr-insight{background:var(--page);border-left:3px solid var(--acc);padding:14px 18px;margin-bottom:8px}
+.rr-insight-txt{font-size:.875rem;line-height:1.65;color:var(--tx)}
+.rr-action{background:var(--page);padding:14px 18px;margin-bottom:6px;border-left:3px solid var(--er);display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.rr-action-main{flex:1}
+.rr-action-txt{font-size:.875rem;font-weight:500;line-height:1.5;color:var(--tx);margin-bottom:4px}
+.rr-action-meta{font-size:.6875rem;color:var(--txf)}
+.rr-action-pri{font-size:.625rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;flex-shrink:0}
+.rr-action-pri.p1{background:#fef3f2;color:var(--er)}
+.rr-action-pri.p2{background:#fffbeb;color:var(--wn)}
+.rr-action-pri.p3{background:#f0fdf4;color:var(--ok)}
+.rr-finding{display:grid;grid-template-columns:28px 1fr 120px 80px;gap:10px;padding:10px 14px;font-size:.8125rem;background:var(--page);border-bottom:1px solid var(--bds);align-items:center}
+.rr-finding-hd{font-weight:600;text-transform:uppercase;font-size:.625rem;letter-spacing:.08em;color:var(--txm);background:var(--paper2)}
+.rr-severity{font-size:.6875rem;font-weight:700;padding:2px 6px;text-align:center}
+.rr-severity.cr{background:#fef3f2;color:var(--er)}
+.rr-severity.wn{background:#fffbeb;color:var(--wn)}
+.rr-severity.nm{background:#f0fdf4;color:var(--ok)}
+.rr-md{padding:28px;background:var(--page);margin:0 48px 28px;font-family:var(--serif);font-size:.9375rem;line-height:1.75;color:var(--tx);overflow-x:auto}
+.rr-md h1,.rr-md h2,.rr-md h3{font-family:var(--serif);color:var(--ink);margin:18px 0 10px}
+.rr-md h1{font-size:1.3rem}.rr-md h2{font-size:1.15rem}.rr-md h3{font-size:1rem}
+.rr-md table{width:100%;border-collapse:collapse;margin:10px 0;font-size:.8125rem;font-family:var(--sans)}
+.rr-md table th{text-align:left;padding:8px 10px;font-size:.625rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--txm);background:var(--paper2);border-bottom:1px solid var(--bd)}
+.rr-md table td{padding:8px 10px;border-bottom:1px solid var(--bds)}
+.rr-md ul,.rr-md ol{margin:8px 0 8px 20px}
+.rr-md li{margin-bottom:4px}
+.rr-md a{color:var(--acc);text-decoration:underline}
+.rr-country-tabs{display:flex;gap:8px;margin:0 48px 16px;flex-wrap:wrap}
+.rr-country-tab{padding:6px 14px;font-size:.6875rem;font-weight:600;letter-spacing:.06em;cursor:pointer;border:1px solid var(--bd);background:var(--page);color:var(--txm);transition:all .15s}
+.rr-country-tab:hover{background:var(--paper2);color:var(--tx)}
+.rr-country-tab.active{background:var(--ink);color:#fcf9f8;border-color:var(--ink)}
+.rr-loading{text-align:center;padding:40px;color:var(--txm);font-size:.875rem}
+.rr-empty{text-align:center;padding:60px 48px;color:var(--txm)}
+
+/* ── NEWS HUB ─────────────────────────────────────────── */
+.hub-h{padding:32px 48px 22px;display:flex;justify-content:space-between;align-items:flex-end}
+.hub-live{display:flex;align-items:center;gap:7px;color:var(--txm);margin-bottom:8px}
+.mkt-open{display:inline-flex;align-items:center;gap:5px;background:var(--ok);color:#fff;font-size:.5625rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 9px}
+.hub-layout{display:grid;grid-template-columns:1fr 268px;margin:0 48px 40px;gap:2px}
+.news-feed{display:flex;flex-direction:column;gap:2px}
+.news-item{background:var(--page);padding:22px}
+.news-item.feat{border-left:4px solid var(--ink2);padding-left:24px}
+.news-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px}
+.ntag{display:inline-block;padding:3px 8px;font-size:.5625rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
+.ntag.threat{background:#fef3f2;color:var(--er)}
+.ntag.pos{background:#f0fdf4;color:var(--ok)}
+.ntag.alert{background:#fffbeb;color:var(--wn)}
+.ntag.info{background:var(--paper2);color:var(--txm)}
+.nsent{font-size:.6875rem;font-weight:600}
+.nsent.bear{color:var(--er)}.nsent.bull{color:var(--ok)}.nsent.neut{color:var(--txm)}
+.news-ttl{font-family:var(--serif);font-size:1rem;font-weight:600;line-height:1.4;margin-bottom:8px}
+.news-exc{font-size:.8125rem;color:var(--txm);line-height:1.6;margin-bottom:10px}
+.news-foot{display:flex;gap:10px;align-items:center;font-size:.6875rem;color:var(--txf)}
+.news-cat{border:1px solid var(--bd);padding:2px 6px;font-size:.5625rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.news-thumb{width:80px;height:64px;flex-shrink:0}
+.news-with-thumb{display:grid;grid-template-columns:80px 1fr;gap:18px}
+.load-more{display:block;width:100%;text-align:center;padding:15px;background:transparent;border:1px solid var(--bd);font-size:.75rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--tx);cursor:pointer;margin-top:2px}
+.load-more:hover{background:var(--page)}
+.hub-sb{display:flex;flex-direction:column;gap:2px}
+.nl-card{background:var(--page);padding:18px}
+.nl-ttl{font-family:var(--serif);font-size:1.05rem;font-weight:600;margin-bottom:8px}
+.nl-desc{font-size:.8125rem;color:var(--txm);margin-bottom:14px;line-height:1.5}
+.nl-item{display:flex;align-items:flex-start;gap:9px;margin-bottom:12px}
+.nl-cb{width:14px;height:14px;background:var(--acc);flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center}
+.nl-cb.off{background:transparent;border:1px solid var(--bd)}
+.nl-n{font-size:.8125rem;font-weight:600}
+.nl-d{font-size:.6875rem;color:var(--txm)}
+.sd-card{background:var(--page);padding:18px}
+.sd-ttl{font-family:var(--serif);font-size:1.05rem;font-weight:600;margin-bottom:14px}
+.sd-row{display:flex;justify-content:space-between;margin-bottom:5px}
+.sd-lbl{font-size:.6875rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--txm)}
+.sd-pct{font-size:.875rem;font-weight:700}
+.sd-bar{height:3px;background:var(--paper3);margin-bottom:12px}
+.sd-fill{height:100%}
+.sd-fill.bull{background:var(--ok)}.sd-fill.bear{background:var(--er)}.sd-fill.neu{background:var(--txm)}
+.sd-meta{font-size:.5625rem;color:var(--txf);line-height:1.5;margin-top:10px}
+
+/* ── AI AGENT ─────────────────────────────────────────── */
+.ai-h{padding:36px 48px 22px}
+.ai-meta{display:flex;gap:14px;margin-top:8px}
+.ai-mc{font-size:.6875rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--txm)}
+.ai-chat{margin:0 48px 20px;display:flex;flex-direction:column;gap:14px}
+.bubble{display:flex;gap:14px}
+.bav{width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-size:.875rem;flex-shrink:0}
+.bav.usr{background:var(--paper3)}
+.bav.ai{background:var(--ink2);color:#fcf9f8}
+.bcont{flex:1;padding:18px 22px}
+.bcont.usr{background:var(--paper2);font-family:var(--serif);font-size:.9375rem;line-height:1.65}
+.bcont.ai{background:var(--page)}
+.resp-tag{display:inline-block;background:var(--acc);color:#fcf9f8;font-size:.5625rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;margin-bottom:14px}
+.conf{float:right;text-align:right}
+.conf-lbl{display:block;font-size:.5625rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--txm);margin-bottom:3px}
+.conf-val{font-size:1.75rem;font-weight:700}
+.resp-p{font-family:var(--serif);font-size:.9375rem;line-height:1.75;clear:both}
+.resp-hi{font-weight:700;border-bottom:2px solid var(--acc)}
+.resp-foot{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px;padding-top:16px;border-top:1px solid var(--bds)}
+.risk-p{background:var(--paper2);padding:14px}
+.risk-ttl{color:var(--txm);margin-bottom:10px}
+.risk-i{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;font-size:.8125rem}
+.risk-bar{height:2px;background:var(--paper3);margin-bottom:10px}
+.risk-fill{height:100%;background:var(--er)}
+.risk-fill.wn{background:var(--wn)}
+.rl{font-size:.75rem;font-weight:700;color:var(--er)}.rl.wn{color:var(--wn)}
+.src-p{background:var(--paper2);padding:14px}
+.src-lnk{display:flex;align-items:center;gap:7px;font-size:.8125rem;color:var(--acc);margin-bottom:7px;cursor:pointer}
+.src-lnk:hover{text-decoration:underline}
+.ai-input-row{
+  margin:0 48px 16px;background:var(--page);border:1px solid var(--bd);
+  display:flex;align-items:center;padding:4px 4px 4px 16px;gap:10px
+}
+.ai-inp{flex:1;border:none;background:transparent;font-size:.875rem;color:var(--tx);padding:12px 0;outline:none}
+.ai-inp::placeholder{color:var(--txm)}
+.ai-meta-row{display:flex;gap:20px;margin:0 48px 30px}
+.ai-mi{font-size:.625rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--txm)}
+.ai-mi::before{content:'● ';color:var(--ok);font-size:.5rem;vertical-align:middle}
+.recent{margin:0 48px 36px}
+.rec-lbl{color:var(--txm);margin-bottom:10px;padding-top:20px;border-top:1px solid var(--bd)}
+.rec-i{padding:9px 0;color:var(--acc);font-size:.875rem;cursor:pointer;border-bottom:1px solid var(--bds)}
+.rec-i:hover{color:var(--ink2)}
+
+/* ── SEARCH ───────────────────────────────────────────── */
+.srch-h{padding:36px 48px 24px}
+.srch-bar{margin:0 48px 24px;display:flex;gap:0}
+.srch-inp{
+  flex:1;border:1px solid var(--bd);border-right:none;background:var(--page);
+  padding:14px 18px;font-size:.9375rem;color:var(--tx);outline:none
+}
+.srch-inp:focus{border-color:var(--acc)}
+.srch-btn{background:var(--ink);color:#fcf9f8;border:none;padding:14px 24px;font-size:.75rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.srch-btn:hover{background:var(--ink2)}
+.srch-filters{display:flex;gap:12px;margin:0 48px 28px;flex-wrap:wrap}
+.filter-g{display:flex;flex-direction:column;gap:5px}
+.filter-lbl{font-size:.5625rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--txm)}
+.filter-sel{background:var(--page);border:1px solid var(--bd);padding:7px 10px;font-size:.8125rem;color:var(--tx);outline:none;cursor:pointer;min-width:120px}
+.srch-results{margin:0 48px 40px;display:flex;flex-direction:column;gap:2px}
+.sr-item{background:var(--page);padding:20px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:start}
+.sr-title{font-family:var(--serif);font-size:1rem;font-weight:600;margin-bottom:6px;color:var(--tx)}
+.sr-excerpt{font-size:.8125rem;color:var(--txm);line-height:1.6}
+.sr-meta{display:flex;gap:10px;margin-top:8px;align-items:center}
+.sr-tags{display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.sr-sev{padding:4px 10px;font-size:.5625rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
+.sr-sev.high{background:var(--er);color:#fff}.sr-sev.med{background:var(--wn);color:#fff}.sr-sev.low{background:var(--ok);color:#fff}
+.sr-date{font-size:.6875rem;color:var(--txf)}
+.sr-country{font-size:.6875rem;color:var(--acc);border:1px solid var(--acc);padding:2px 6px}
+
+/* ── NEWSLETTER ───────────────────────────────────────── */
+.nl-page{padding:36px 48px}
+.nl-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:28px;background:var(--paper3)}
+.nl-card2{background:var(--page);padding:26px}
+.nl-card2-h{font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:6px}
+.nl-card2-d{font-size:.8125rem;color:var(--txm);margin-bottom:20px;line-height:1.6}
+.nl-check-item{display:flex;align-items:flex-start;gap:10px;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--bds)}
+.nl-check-item:last-child{border:none;margin:0;padding:0}
+.nl-toggle{width:36px;height:20px;background:var(--acc);flex-shrink:0;position:relative;cursor:pointer;margin-top:2px;border-radius:10px}
+.nl-toggle::after{content:'';position:absolute;width:14px;height:14px;background:#fff;border-radius:50%;top:3px;right:3px;transition:right .2s}
+.nl-toggle.off{background:var(--paper3)}
+.nl-toggle.off::after{right:19px}
+.nl-ni{font-size:.875rem;font-weight:600;margin-bottom:3px}
+.nl-nd{font-size:.75rem;color:var(--txm);line-height:1.5}
+.nl-freq{display:flex;gap:8px;margin-top:16px}
+.nl-freq-btn{padding:6px 14px;font-size:.6875rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;border:1px solid var(--bd);background:transparent;cursor:pointer;transition:all .15s}
+.nl-freq-btn.active{background:var(--ink);color:#fcf9f8;border-color:var(--ink)}
+.nl-pref-row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--bds)}
+.nl-pref-row:last-child{border:none}
+.nl-pref-lbl{font-size:.875rem;font-weight:500}
+.nl-pref-val{font-size:.75rem;color:var(--acc);cursor:pointer}
+
+/* ── FOOTER ───────────────────────────────────────────── */
+.footer{background:var(--ink);color:#fcf9f8;padding:30px 48px}
+.footer-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:22px}
+.footer-logo{font-weight:700;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase}
+.footer-links{display:flex;gap:24px}
+.fl{font-size:.6875rem;letter-spacing:.07em;text-transform:uppercase;color:rgba(252,249,248,.4);transition:color .15s;cursor:pointer}
+.fl:hover{color:#fcf9f8}
+.footer-bot{display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,.08);padding-top:14px}
+.footer-copy{font-size:.5625rem;color:rgba(252,249,248,.3);letter-spacing:.04em}
+
+/* ── SCROLLBAR ────────────────────────────────────────── */
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background:var(--paper2)}
+::-webkit-scrollbar-thumb{background:var(--bd)}
+
+/* ── MOBILE HAMBURGER ─────────────────────────────────── */
+.mob-menu-btn{display:none;background:none;border:none;color:#fcf9f8;font-size:1.25rem;padding:8px;line-height:1;margin-right:8px;cursor:pointer}
+.sb-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:149}
+
+/* ── RESPONSIVE: tablet (≤1024px) ─────────────────────── */
+@media(max-width:1024px){
+  :root{--sb:180px}
+  .ph{padding:28px 28px 22px}.sec{padding:0 28px 24px}
+  .kpi-row{margin:0 28px 20px}.dual{margin:0 28px 20px}
+  .analyst{margin:0 28px 28px}.reg-metrics{margin:0 28px 16px}
+  .footer{padding:24px 28px}
+}
+
+/* ── RESPONSIVE: mobile (≤768px) ──────────────────────── */
+@media(max-width:768px){
+  :root{--nav:52px;--sb:240px}
+  .mob-menu-btn{display:flex;align-items:center;justify-content:center}
+  .nav{padding:0 12px}.nav-logo{margin-right:auto}
+  .nav-links{display:none}.nav-search{display:none}.btn-nav{display:none}
+  .sb{position:fixed;top:var(--nav);left:-260px;bottom:0;z-index:150;width:240px;min-width:240px;transition:left .25s cubic-bezier(.4,0,.2,1);box-shadow:2px 0 16px rgba(0,0,0,.18)}
+  .sb.mob-open{left:0}
+  .sb-overlay.mob-open{display:block}
+  .app-body{flex-direction:column}.main{width:100%;overflow-x:hidden}
+  .ph{padding:20px 16px 16px;flex-direction:column;gap:12px}.ph-l{max-width:100%}
+  .status-chip{justify-content:flex-start}
+  .sec{padding:0 16px 20px}
+  .kpi-row{grid-template-columns:1fr 1fr;margin:0 16px 16px}
+  .kpi-row .kpi:nth-child(3){grid-column:1/-1;border-left:none;border-top:1px solid var(--bds)}
+  .kpi{padding:18px 16px}.kpi+.kpi{border-left:none;border-top:1px solid var(--bds)}
+  .kpi-row .kpi:first-child+.kpi{border-left:1px solid var(--bds);border-top:none}
+  .dual{grid-template-columns:1fr;margin:0 16px 16px}
+  .analyst{grid-template-columns:1fr;margin:0 16px 24px}.analyst-img{min-height:160px}
+  .reg-metrics{grid-template-columns:1fr;margin:0 16px 14px}.metric-sub{grid-template-columns:1fr 1fr}
+  .sent-foot{grid-template-columns:1fr 1fr}
+  .footer{padding:20px 16px}.footer-top{flex-direction:column;gap:16px}
+  .footer-links{flex-wrap:wrap;gap:16px}.footer-bot{flex-direction:column;gap:6px}
+}
+
+/* ── RESPONSIVE: very small (≤480px) ──────────────────── */
+@media(max-width:480px){
+  .kpi-row{grid-template-columns:1fr}
+  .kpi-row .kpi:first-child+.kpi{border-left:none;border-top:1px solid var(--bds)}
+  .metric-sub{grid-template-columns:1fr}.ms+.ms{border-left:none;border-top:1px solid var(--bds)}
+  .td{font-size:1.5rem}.tdata{font-size:1.75rem}
+}
+</style>
+</head>
+
+<body>
+<div class="shell">
+
+<!-- ═══════════════════════════════════════════════════════
+     TOP NAVIGATION
+════════════════════════════════════════════════════════ -->
+<header class="nav">
+  <button class="mob-menu-btn" id="mob-menu-btn" aria-label="메뉴 열기">☰</button>
+  <div class="nav-logo">
+    <span class="nav-logo-a">D2C Intel</span>
+    <span class="nav-logo-b">LG 글로벌 D2C 인텔리전스</span>
+  </div>
+  <nav class="nav-links">
+    <span class="ni active" data-view="global">글로벌 대시보드</span>
+    <span class="ni" data-view="region">지역 분석</span>
+    <span class="ni" data-view="news">뉴스피드</span>
+    <span class="ni" data-view="search">인텔리전스 검색</span>
+    <span class="ni" data-view="agent">AI 에이전트</span>
+    <span class="ni" data-view="newsletter">뉴스레터</span>
+  </nav>
+  <div class="nav-r">
+    <input class="nav-search" type="text" placeholder="인텔리전스 검색...">
+    <button class="btn-nav">클라이언트 액세스</button>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════════════
+     APP BODY
+════════════════════════════════════════════════════════ -->
+<div class="sb-overlay" id="sb-overlay"></div>
+<div class="app-body">
+
+<!-- SIDEBAR -->
+<aside class="sb" id="sidebar">
+  <div class="sb-sec tl">지역 인텔리전스</div>
+  <div class="sb-sub tl" style="font-size:.5rem">국가별 필터</div>
+  <div class="sbi active" data-view="global" data-region="global"><span class="sb-icon">⊞</span>전체 집계</div>
+  <div class="sbi" data-view="region" data-region="nam"><span class="sb-icon">🌎</span>북미</div>
+  <div class="sbi" data-view="region" data-region="eur"><span class="sb-icon">🌍</span>유럽</div>
+  <div class="sbi" data-view="region" data-region="latam"><span class="sb-icon">🌎</span>중남미</div>
+  <div class="sbi" data-view="region" data-region="asia"><span class="sb-icon">🌏</span>아시아</div>
+  <div class="sbi" data-view="region" data-region="mea"><span class="sb-icon">🌍</span>중동·아프리카</div>
+  <div class="sb-div"></div>
+  <div class="sbi" data-view="news"><span class="sb-icon">📡</span>뉴스피드</div>
+  <div class="sbi" data-view="search"><span class="sb-icon">🔍</span>인텔리전스 검색</div>
+  <div class="sbi" data-view="agent"><span class="sb-icon">⚡</span>AI 에이전트</div>
+  <div class="sbi" data-view="newsletter"><span class="sb-icon">✉</span>뉴스레터</div>
+  <div class="sb-foot"><button class="sb-btn">리포트 생성</button></div>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="main">
+
+<!-- ═══════ VIEW: 글로벌 대시보드 ════════════════════════ -->
+<div class="view active" id="view-global">
+  <div class="ph">
+    <div class="ph-l">
+      <div class="ph-bc tl">주간 인텔리전스 브리핑</div>
+      <h1 class="td">D2C 글로벌 대시보드<br>2026 W13 브리핑</h1>
+      <p class="ph-desc">16개국 LG D2C 채널의 거시적 흐름과 전략적 위협 요인을 종합 분석합니다.</p>
+    </div>
+    <div style="text-align:right;flex-shrink:0">
+      <div class="tl cf" style="margin-bottom:6px">파이프라인 상태</div>
+      <div class="status-chip">
+        <span class="dot"></span>
+        <span style="font-size:.9rem;font-weight:700">라이브 피드: 동기화됨</span>
+      </div>
+      <div class="tl cf" style="margin-top:8px">마지막 업데이트: 2026-03-29</div>
+    </div>
+  </div>
+
+  <!-- KPI -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="tl kpi-lbl">총 데이터 포인트</div>
+      <div><span class="kpi-val">699</span><span class="kpi-unit">건</span></div>
+      <div class="kpi-dl up">▲ +4.2% 전주 대비</div>
+      <div class="kpi-sub">16개국 · 5개 제품 카테고리</div>
+    </div>
+    <div class="kpi">
+      <div class="tl kpi-lbl">중국 브랜드 위협 지수</div>
+      <div><span class="kpi-val cer">7.4</span><span class="kpi-unit" style="color:var(--er)">/10</span></div>
+      <div class="kpi-dl dn">⬆ 고위험 환경</div>
+      <div class="kpi-sub">TCL · Hisense · Haier · Midea</div>
+    </div>
+    <div class="kpi">
+      <div class="tl kpi-lbl">D2C 채널 성장률</div>
+      <div><span class="kpi-val">+18.4</span><span class="kpi-unit">%</span></div>
+      <div class="kpi-dl up">▲ YoY 직판 채널</div>
+      <div class="kpi-sub">도매 -4.2% 대비 역전 진행</div>
+    </div>
+  </div>
+
+  <!-- CHART + PULSES -->
+  <div class="dual">
+    <div class="panel">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start">
+        <div>
+          <h2 class="th panel-title">시장 센티먼트 지수</h2>
+          <p class="panel-sub">LG 포지션 vs 중국 브랜드 프록시 — 6주 추이</p>
+        </div>
+        <div class="leg">
+          <div class="leg-i"><div class="leg-dot" style="background:var(--ink2)"></div>LG</div>
+          <div class="leg-i"><div class="leg-dot" style="background:rgba(28,98,153,.4)"></div>중국 브랜드</div>
+        </div>
+      </div>
+      <div class="chart-wrap"><canvas id="sentChart"></canvas></div>
+      <div class="sent-foot">
+        <div class="sf"><span class="sf-lbl tl">강세</span><span class="sf-val cok">58%</span></div>
+        <div class="sf"><span class="sf-lbl tl">약세</span><span class="sf-val cer">32%</span></div>
+        <div class="sf"><span class="sf-lbl tl">중립</span><span class="sf-val">10%</span></div>
+        <div class="sf"><span class="sf-lbl tl">모멘텀</span><span class="sf-val cok">+0.26</span></div>
+      </div>
+    </div>
+    <div class="panel-dark">
+      <div class="tl" style="color:rgba(252,249,248,.45);margin-bottom:4px">지역 펄스</div>
+      <div class="panel-sub-d">주간 지역별 시그널 요약</div>
+      <div class="pulse">
+        <div class="pulse-h"><span class="pulse-r">북미</span><span class="pulse-s ow">비중확대</span></div>
+        <div class="pulse-d">빅스프링 세일 효과 지속. LG C5 OLED 수요 견조.</div>
+      </div>
+      <div class="pulse">
+        <div class="pulse-h"><span class="pulse-r">EMEA 중부</span><span class="pulse-s nt">중립</span></div>
+        <div class="pulse-d">에너지 정책 불확실성 지속. Haier 가전 유통 확장.</div>
+      </div>
+      <div class="pulse">
+        <div class="pulse-h"><span class="pulse-r">동아시아</span><span class="pulse-s sl">선별적</span></div>
+        <div class="pulse-d">TCL 1,040Hz 모니터 위협. UltraGear 대응 필요.</div>
+      </div>
+      <div class="pulse">
+        <div class="pulse-h"><span class="pulse-r">신흥시장</span><span class="pulse-s ct">주의</span></div>
+        <div class="pulse-d">브라질 Midea 불만 급증. 역공 포지셔닝 기회.</div>
+      </div>
+      <button class="btn btn-gl">전체 히트맵 보기</button>
+    </div>
+  </div>
+
+  <!-- ANALYST COMMENTARY -->
+  <div class="analyst">
+    <div class="analyst-img">
+      <div class="analyst-badge">인스티튜셔널 인사이트</div>
+      <div class="analyst-ttl">2026 D2C<br>채널 전략과<br>중국 브랜드 대응</div>
+    </div>
+    <div class="analyst-body">
+      <h3>애널리스트 코멘터리</h3>
+      <p class="analyst-q">"2026년 1분기 D2C 채널의 구조적 전환이 가속화되고 있습니다. 중국 브랜드의 가격 공세가 프리미엄 OLED 세그먼트까지 확대되는 추세가 명확히 확인됩니다. TCL Mini-LED(65인치 $797.99)는 기존 OLED 가격대와의 간극을 급격히 좁히고 있어, 프리미엄 포지셔닝 전략 재검토가 요구됩니다."</p>
+      <p class="analyst-p">현재 모델은 신흥시장에서 분기 내 변동성 돌파 가능성 15%를 시사합니다. D2C 직판 채널은 YoY +18.4% 성장을 기록 중이나, 도매 파트너 채널(-4.2%)과의 확산이 진행 중입니다. 기관 헤지는 프리미엄 OLED 및 LG gram 안정 수익 카테고리에 집중되어 있습니다.</p>
+      <div class="btn-row">
+        <button class="btn btn-f">전체 리포트 보기</button>
+        <button class="btn btn-o">레저에 저장</button>
+      </div>
+    </div>
+  </div>
+</div><!-- /view-global -->
+
+<!-- ═══════ VIEW: 지역 분석 ══════════════════════════════ -->
+<div class="view" id="view-region">
+  <!-- JS가 동적으로 렌더링 -->
+  <div id="region-content"></div>
+</div>
+
+<!-- ═══════ VIEW: 뉴스피드 ══════════════════════════════ -->
+<div class="view" id="view-news">
+  <div class="hub-h">
+    <div>
+      <div class="hub-live tl"><span class="dot"></span>라이브 인텔리전스 피드</div>
+      <h1 class="td">전략 인텔리전스 뉴스 허브</h1>
+    </div>
+    <div style="text-align:right">
+      <div style="margin-bottom:6px"><span class="mkt-open"><span class="dot" style="width:5px;height:5px"></span>마켓 오픈</span></div>
+      <div class="tl cf">마지막 업데이트: 09:15 KST</div>
+    </div>
+  </div>
+
+  <div class="hub-layout">
+    <div class="news-feed">
+      <!-- Featured -->
+      <div class="news-item feat">
+        <div class="news-meta">
+          <span class="ntag threat">경쟁사 동향</span>
+          <span class="nsent bear">▼ 약세 센티먼트</span>
+        </div>
+        <div class="news-ttl">TCL 1,040Hz 모니터 발표 — LG UltraGear 프리미엄 포지션 직접 압박</div>
+        <div class="news-exc">TCL이 세계 최고 주사율 1,040Hz 게이밍 모니터를 공개하며 LG UltraGear의 고성능 세그먼트를 직접 겨냥했다. 가격은 LG 동급 대비 22% 낮게 책정될 예정이며, Q3 아시아 우선 출시 후 글로벌 확장이 예고됐다.</div>
+        <div class="news-foot">
+          <span class="news-cat">기술</span><span class="news-cat">경쟁</span>
+          <span style="margin-left:4px">4분 전 · D2C 인텔 분석팀</span>
+        </div>
+      </div>
+      <!-- Article 2 -->
+      <div class="news-item">
+        <div class="news-with-thumb">
+          <div class="news-thumb" style="background:linear-gradient(135deg,#1a3a5c,#2d6899)"></div>
+          <div>
+            <div class="news-meta">
+              <span class="ntag pos">지역 핵심 시그널</span>
+              <span class="nsent bull">▲ 강세</span>
+            </div>
+            <div class="news-ttl">LG gram 인텔 팬서레이크 사전예약 — 북미·유럽 동시 1위</div>
+            <div class="news-exc">Intel Panther Lake 탑재 LG gram 2026 신모델이 Amazon, Best Buy, Currys에서 사전예약 동시 1위 기록. 프리미엄 노트북 세그먼트 점유율 회복 기대.</div>
+            <div class="news-foot">
+              <span class="news-cat">기술</span><span class="news-cat">북미</span>
+              <span style="margin-left:4px">28분 전 · 북미 인텔 데스크</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Article 3 -->
+      <div class="news-item">
+        <div class="news-with-thumb">
+          <div class="news-thumb" style="background:linear-gradient(135deg,#3a1c1c,#7a3030)"></div>
+          <div>
+            <div class="news-meta">
+              <span class="ntag alert">소비자 센티먼트</span>
+              <span class="nsent bear">▼ 약세</span>
+            </div>
+            <div class="news-ttl">브라질 Midea 세탁기 불만 급증 — D2C 역공 기회 포착</div>
+            <div class="news-exc">Reclame Aqui에서 Midea 세탁기 불만 건수 전월 대비 340% 급증. LG 세탁기 AS 품질 포지셔닝 캠페인으로 역공 가능성 분석.</div>
+            <div class="news-foot">
+              <span class="news-cat">제조</span><span class="news-cat">브라질</span>
+              <span style="margin-left:4px">1시간 전 · 신흥시장 인텔 데스크</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Article 4 -->
+      <div class="news-item">
+        <div class="news-with-thumb">
+          <div class="news-thumb" style="background:linear-gradient(135deg,#1c3a1c,#2d6b3a)"></div>
+          <div>
+            <div class="news-meta">
+              <span class="ntag pos">LG 동향</span>
+              <span class="nsent bull">▲ 강세</span>
+            </div>
+            <div class="news-ttl">LG OLED C6/G6 2026 글로벌 사전주문 — 가격 안정세 유지</div>
+            <div class="news-exc">LG OLED C6/G6 2026년형 글로벌 사전주문 개시. 전작 대비 가격 동결 전략으로 프리미엄 포지셔닝 방어에 성공. 미국·유럽 동시 런칭.</div>
+            <div class="news-foot">
+              <span class="news-cat">제품</span><span class="news-cat">글로벌</span>
+              <span style="margin-left:4px">2시간 전 · 제품 인텔 데스크</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Article 5 -->
+      <div class="news-item">
+        <div class="news-with-thumb">
+          <div class="news-thumb" style="background:linear-gradient(135deg,#3a2a1c,#7a5530)"></div>
+          <div>
+            <div class="news-meta">
+              <span class="ntag threat">경쟁사 동향</span>
+              <span class="nsent bear">▼ 약세</span>
+            </div>
+            <div class="news-ttl">Hisense 100인치 TV $1,400 — 대형 스크린 가격 전쟁 임박</div>
+            <div class="news-exc">Hisense가 100인치 TV를 $1,400에 공개하며 LG 대형 스크린 프리미엄 가격대에 직접 도전. 동급 LG 제품 대비 약 62% 저렴한 가격.</div>
+            <div class="news-foot">
+              <span class="news-cat">가격</span><span class="news-cat">EMEA</span>
+              <span style="margin-left:4px">3시간 전 · 글로벌 경쟁 인텔</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="load-more">과거 인텔리전스 로드</button>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="hub-sb">
+      <div class="nl-card">
+        <div class="nl-ttl">뉴스레터 관리</div>
+        <p class="nl-desc">일간 인텔리전스 수신 설정을 커스터마이즈하세요.</p>
+        <div class="nl-item">
+          <div class="nl-cb"><svg width="10" height="8" viewBox="0 0 10 8"><path d="M1 4l3 3 5-6" stroke="white" stroke-width="1.5" fill="none"/></svg></div>
+          <div><div class="nl-n">모닝 D2C 레저 (일간)</div><div class="nl-d">전 세계 신호의 프리마켓 브리핑.</div></div>
+        </div>
+        <div class="nl-item">
+          <div class="nl-cb off"></div>
+          <div><div class="nl-n">EMEA 미드나잇 랩</div><div class="nl-d">유럽 마켓 클로징 시그널.</div></div>
+        </div>
+        <div class="nl-item" style="border:none;margin:0">
+          <div class="nl-cb"><svg width="10" height="8" viewBox="0 0 10 8"><path d="M1 4l3 3 5-6" stroke="white" stroke-width="1.5" fill="none"/></svg></div>
+          <div><div class="nl-n">중국 브랜드 위협 알러터</div><div class="nl-d">고우선순위 위협만 수신.</div></div>
+        </div>
+        <div style="padding-top:14px;margin-top:14px;border-top:1px solid var(--bds)">
+          <div class="tl cm" style="margin-bottom:6px">구독자 인사이트</div>
+          <div style="font-size:.8125rem;color:var(--txm)">현재 설정은 <span style="color:var(--acc);font-weight:600">기술 시그널</span>과 <span style="color:var(--acc);font-weight:600">APAC 지역</span>을 우선 수신합니다.</div>
+        </div>
+        <button class="btn btn-f" style="width:100%;justify-content:center;margin-top:14px">설정 업데이트</button>
+      </div>
+      <div class="sd-card">
+        <div class="sd-ttl">시장 센티먼트 델타</div>
+        <div class="sd-row"><span class="sd-lbl">강세 시그널</span><span class="sd-pct cok">64%</span></div>
+        <div class="sd-bar"><div class="sd-fill bull" style="width:64%"></div></div>
+        <div class="sd-row"><span class="sd-lbl">약세 시그널</span><span class="sd-pct cer">21%</span></div>
+        <div class="sd-bar"><div class="sd-fill bear" style="width:21%"></div></div>
+        <div class="sd-row"><span class="sd-lbl">중립/프로모</span><span class="sd-pct cm">15%</span></div>
+        <div class="sd-bar"><div class="sd-fill neu" style="width:15%"></div></div>
+        <p class="sd-meta">최근 24시간 4,200개 검증된 기관 소스에서 집계.</p>
+      </div>
+    </div>
+  </div>
+</div><!-- /view-news -->
+
+<!-- ═══════ VIEW: 인텔리전스 검색 ════════════════════════ -->
+<div class="view" id="view-search">
+  <div class="srch-h">
+    <div class="tl cm" style="margin-bottom:10px">인텔리전스 검색</div>
+    <h1 class="td">D2C 인텔리전스 데이터베이스</h1>
+    <p class="ph-desc" style="margin-top:12px">누적 주간 데이터·리포트·시그널에서 키워드·지역·카테고리로 검색합니다.</p>
+  </div>
+  <div class="srch-bar">
+    <input class="srch-inp" id="srchInput" type="text" placeholder="예: TCL 가격, 브라질 세탁기, OLED 북미...">
+    <button class="srch-btn" onclick="doSearch()">검색</button>
+  </div>
+  <div class="srch-filters">
+    <div class="filter-g">
+      <label class="filter-lbl">지역</label>
+      <select class="filter-sel" id="filterRegion">
+        <option value="">전체 지역</option>
+        <option>북미</option><option>유럽</option><option>중남미</option>
+        <option>아시아</option><option>중동·아프리카</option>
+      </select>
+    </div>
+    <div class="filter-g">
+      <label class="filter-lbl">카테고리</label>
+      <select class="filter-sel" id="filterCat">
+        <option value="">전체 카테고리</option>
+        <option>TV</option><option>냉장고</option><option>세탁기</option>
+        <option>모니터</option><option>gram 노트북</option>
+      </select>
+    </div>
+    <div class="filter-g">
+      <label class="filter-lbl">기간</label>
+      <select class="filter-sel">
+        <option>최근 1주</option><option>최근 1개월</option>
+        <option>최근 3개월</option><option>전체</option>
+      </select>
+    </div>
+    <div class="filter-g">
+      <label class="filter-lbl">위협 수준</label>
+      <select class="filter-sel">
+        <option value="">전체</option>
+        <option>위험</option><option>주의</option><option>정보</option>
+      </select>
+    </div>
+  </div>
+  <div class="srch-results" id="srchResults">
+    <!-- 기본 결과 -->
+    <div class="sr-item">
+      <div>
+        <div class="sr-title">TCL 65인치 Mini-LED $797.99 — Amazon Best Sellers #1 진입</div>
+        <div class="sr-excerpt">북미 빅스프링 세일 기간 중 TCL 65인치 Mini-LED TV가 $797.99로 Amazon Best Sellers TV 카테고리 1위 진입. LG C5 65인치($999 프로모 후)와의 가격 갭이 201달러로 축소됨.</div>
+        <div class="sr-meta"><span class="tl cf">2026-03-22~28</span><span class="sr-country">북미</span><span class="news-cat">TV</span></div>
+      </div>
+      <div class="sr-tags"><span class="sr-sev high">위험</span></div>
+    </div>
+    <div class="sr-item">
+      <div>
+        <div class="sr-title">브라질 Midea 세탁기 Reclame Aqui 불만 340% 급증</div>
+        <div class="sr-excerpt">브라질 최대 소비자 불만 플랫폼 Reclame Aqui에서 Midea 세탁기 관련 불만 건수가 전월 대비 340% 급증. 주요 불만은 소음, 배수 불량, AS 불응 등.</div>
+        <div class="sr-meta"><span class="tl cf">2026-03-22~28</span><span class="sr-country">중남미</span><span class="news-cat">세탁기</span></div>
+      </div>
+      <div class="sr-tags"><span class="sr-sev med">기회</span></div>
+    </div>
+    <div class="sr-item">
+      <div>
+        <div class="sr-title">LG gram Panther Lake 북미·유럽 동시 사전예약 1위</div>
+        <div class="sr-excerpt">Intel Panther Lake 탑재 LG gram 2026 신모델이 Amazon, Best Buy, Currys에서 사전예약 동시 1위 기록. 배터리 22시간, 990g 경량 설계가 핵심 구매 동인.</div>
+        <div class="sr-meta"><span class="tl cf">2026-03-25</span><span class="sr-country">북미/유럽</span><span class="news-cat">gram 노트북</span></div>
+      </div>
+      <div class="sr-tags"><span class="sr-sev low">기회</span></div>
+    </div>
+    <div class="sr-item">
+      <div>
+        <div class="sr-title">Hisense 100인치 TV $1,400 — EMEA 대형 스크린 시장 가격 전쟁</div>
+        <div class="sr-excerpt">Hisense U8 시리즈 100인치 TV를 $1,400에 EMEA 론칭. 동급 LG 제품(약 $3,700) 대비 62% 저렴. 대형 TV 프리미엄 시장 잠식 위협 수위 '위험'으로 상향.</div>
+        <div class="sr-meta"><span class="tl cf">2026-03-20</span><span class="sr-country">유럽</span><span class="news-cat">TV</span></div>
+      </div>
+      <div class="sr-tags"><span class="sr-sev high">위험</span></div>
+    </div>
+    <div class="sr-item">
+      <div>
+        <div class="sr-title">ASEAN 반도체 코리도 확장 — 베트남·태국 FDI 15% 증가</div>
+        <div class="sr-excerpt">미중 디커플링 가속화로 ASEAN 반도체·가전 제조 허브가 급부상. 베트남, 태국에 FDI 15% 증가. LG 현지 생산 기지 활용 원가 절감 기회.</div>
+        <div class="sr-meta"><span class="tl cf">2026-03-18</span><span class="sr-country">아시아</span><span class="news-cat">공급망</span></div>
+      </div>
+      <div class="sr-tags"><span class="sr-sev low">정보</span></div>
+    </div>
+  </div>
+</div><!-- /view-search -->
+
+<!-- ═══════ VIEW: AI 에이전트 ════════════════════════════ -->
+<div class="view" id="view-agent">
+  <div class="ai-h">
+    <div class="tl cm" style="margin-bottom:8px">SOVEREIGN ANALYST PORTAL</div>
+    <h1 class="td">D2C AI 인텔리전스 <span style="color:var(--acc)">v2.0</span></h1>
+    <div class="ai-meta">
+      <span class="ai-mc">세션: D2C-2026-W13</span>
+      <span class="ai-mc">·</span>
+      <span class="ai-mc">클리어런스: 파트너 레벨</span>
+      <span class="ai-mc">·</span>
+      <span class="ai-mc">실시간 데이터 동기화됨</span>
+    </div>
+  </div>
+
+  <div class="ai-chat">
+    <div class="bubble">
+      <div class="bav usr">👤</div>
+      <div class="bcont usr">"미국 빅스프링 세일 기간 중국 브랜드의 가격 침투 현황과 LG OLED 방어 전략을 요약해줘."</div>
+    </div>
+    <div class="bubble">
+      <div class="bav ai">⊞</div>
+      <div class="bcont ai">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start">
+          <span class="resp-tag">통합 분석</span>
+          <div class="conf">
+            <span class="conf-lbl">신뢰도 점수</span>
+            <span class="conf-val">93.2%</span>
+          </div>
+        </div>
+        <p class="resp-p">분석 결과 북미 빅스프링 세일 기간 중 <span class="resp-hi">TCL 65인치 Mini-LED($797.99)가 Amazon #1 베스트셀러에 진입</span>, LG C5 65인치($999 프로모 후)와의 가격 갭이 201달러로 축소됐습니다. 동 기간 Hisense U8N(65인치 $899.99)도 Top-5 진입을 기록하며 <span class="resp-hi">중국 브랜드 합산 점유율이 TV 카테고리 상위 10개 SKU 중 6개를 차지</span>했습니다. LG OLED는 C5/G5 번들 프로모션(사운드바 포함) 전략으로 평균판매가(ASP) 방어에 성공했습니다.</p>
+        <div class="resp-foot">
+          <div class="risk-p">
+            <div class="tl risk-ttl">카테고리별 위험도</div>
+            <div class="risk-i"><span>TV 65인치</span><span class="rl">위험</span></div>
+            <div class="risk-bar"><div class="risk-fill" style="width:85%"></div></div>
+            <div class="risk-i"><span>모니터 UltraGear</span><span class="rl wn">보통</span></div>
+            <div class="risk-bar"><div class="risk-fill wn" style="width:55%"></div></div>
+            <div class="risk-i"><span>세탁기 신흥시장</span><span class="rl">위험</span></div>
+            <div class="risk-bar"><div class="risk-fill" style="width:72%"></div></div>
+          </div>
+          <div class="src-p">
+            <div class="tl risk-ttl">검증 출처</div>
+            <div class="src-lnk">🔗 Amazon Best Sellers (2026-03-22~28)</div>
+            <div class="src-lnk">🔗 Rtings.com 가격 추적 리포트</div>
+            <div class="src-lnk">🔗 Best Buy 주간 딜 인텔리전스</div>
+            <div class="src-lnk">🔗 LG D2C 내부 판매 데이터</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ai-input-row">
+    <input class="ai-inp" id="aiInput" type="text" placeholder="지역별 포트 혼잡 또는 특정 SKU 영향도 추가 조회..." onkeydown="if(event.key==='Enter')sendAI()">
+    <span style="color:var(--txm);cursor:pointer;padding:8px;font-size:1.1rem">📎</span>
+    <button class="btn btn-f" style="padding:14px 22px" onclick="sendAI()">실행</button>
+  </div>
+  <div class="ai-meta-row">
+    <span class="ai-mi">뉴럴 엔진 온라인</span>
+    <span class="ai-mi">지연시간: 18ms</span>
+    <span class="ai-mi">토큰 풀: 엔터프라이즈 무제한</span>
+  </div>
+  <div class="recent">
+    <div class="tl rec-lbl">최근 리포트</div>
+    <div class="rec-i">▸ Q1 반도체 디스플레이 물류 감사 (2026-03-29)</div>
+    <div class="rec-i">▸ 브라질 소비자 불만 심층 분석 리포트 (2026-03-22)</div>
+    <div class="rec-i">▸ TCL vs LG OLED 가격 전쟁 시뮬레이션 (2026-03-15)</div>
+    <div class="rec-i">▸ ASEAN D2C 채널 성장 기회 분석 (2026-03-08)</div>
+  </div>
+</div><!-- /view-agent -->
+
+<!-- ═══════ VIEW: 뉴스레터 ══════════════════════════════ -->
+<div class="view" id="view-newsletter">
+  <div class="nl-page">
+    <div class="tl cm" style="margin-bottom:10px">뉴스레터 관리</div>
+    <h1 class="td">D2C 인텔리전스 구독 설정</h1>
+    <p class="ph-desc" style="margin-top:12px">수신할 리포트 유형·지역·빈도를 커스터마이즈하세요. 변경사항은 즉시 적용됩니다.</p>
+    <div class="nl-grid">
+      <!-- 구독 목록 -->
+      <div class="nl-card2">
+        <div class="nl-card2-h">구독 리포트</div>
+        <div class="nl-card2-d">수신할 인텔리전스 리포트를 선택하세요.</div>
+        <div class="nl-check-item">
+          <div class="nl-toggle"></div>
+          <div><div class="nl-ni">모닝 D2C 레저 (일간)</div><div class="nl-nd">전 세계 D2C 신호의 프리마켓 요약. 매일 오전 7시 수신.</div></div>
+        </div>
+        <div class="nl-check-item">
+          <div class="nl-toggle off"></div>
+          <div><div class="nl-ni">EMEA 미드나잇 랩</div><div class="nl-nd">유럽 시장 클로징 시그널. 매일 자정 수신.</div></div>
+        </div>
+        <div class="nl-check-item">
+          <div class="nl-toggle"></div>
+          <div><div class="nl-ni">중국 브랜드 위협 알러터</div><div class="nl-nd">고우선순위 위협 센티먼트만 실시간 발송.</div></div>
+        </div>
+        <div class="nl-check-item">
+          <div class="nl-toggle off"></div>
+          <div><div class="nl-ni">주간 종합 브리핑 (월요일)</div><div class="nl-nd">16개국 전체 인텔리전스 주간 요약본.</div></div>
+        </div>
+        <div class="nl-check-item">
+          <div class="nl-toggle"></div>
+          <div><div class="nl-ni">월간 전략 분석 리포트</div><div class="nl-nd">거시 트렌드 및 경쟁 포지셔닝 월간 심층 분석.</div></div>
+        </div>
+      </div>
+      <!-- 수신 빈도 -->
+      <div class="nl-card2">
+        <div class="nl-card2-h">수신 빈도 설정</div>
+        <div class="nl-card2-d">리포트 종류별 수신 빈도를 설정하세요.</div>
+        <div style="margin-bottom:20px">
+          <div class="tl cm" style="margin-bottom:10px">일반 리포트</div>
+          <div class="nl-freq">
+            <button class="nl-freq-btn active">즉시</button>
+            <button class="nl-freq-btn">일간</button>
+            <button class="nl-freq-btn">주간</button>
+          </div>
+        </div>
+        <div style="margin-bottom:20px">
+          <div class="tl cm" style="margin-bottom:10px">경쟁사 위협 알러트</div>
+          <div class="nl-freq">
+            <button class="nl-freq-btn active">즉시</button>
+            <button class="nl-freq-btn">일간</button>
+            <button class="nl-freq-btn">주간</button>
+          </div>
+        </div>
+        <div>
+          <div class="tl cm" style="margin-bottom:10px">전략 리포트</div>
+          <div class="nl-freq">
+            <button class="nl-freq-btn">즉시</button>
+            <button class="nl-freq-btn">일간</button>
+            <button class="nl-freq-btn active">주간</button>
+          </div>
+        </div>
+      </div>
+      <!-- 지역 우선순위 -->
+      <div class="nl-card2">
+        <div class="nl-card2-h">지역 우선순위</div>
+        <div class="nl-card2-d">우선 수신할 지역 인텔리전스를 선택하세요.</div>
+        <div class="nl-pref-row"><span class="nl-pref-lbl">🌎 북미</span><span class="nl-pref-val">우선</span></div>
+        <div class="nl-pref-row"><span class="nl-pref-lbl">🌍 유럽</span><span class="nl-pref-val">표준</span></div>
+        <div class="nl-pref-row"><span class="nl-pref-lbl">🌎 중남미</span><span class="nl-pref-val">표준</span></div>
+        <div class="nl-pref-row"><span class="nl-pref-lbl">🌏 아시아</span><span class="nl-pref-val">우선</span></div>
+        <div class="nl-pref-row"><span class="nl-pref-lbl">🌍 중동·아프리카</span><span class="nl-pref-val">표준</span></div>
+      </div>
+      <!-- 카테고리 -->
+      <div class="nl-card2">
+        <div class="nl-card2-h">제품 카테고리</div>
+        <div class="nl-card2-d">모니터링할 제품 카테고리를 선택하세요.</div>
+        <div class="nl-check-item">
+          <div class="nl-toggle"></div>
+          <div><div class="nl-ni">TV (OLED · QNED · NanoCell)</div><div class="nl-nd">프리미엄 TV 전 라인업 모니터링.</div></div>
+        </div>
+        <div class="nl-check-item">
+          <div class="nl-toggle"></div>
+          <div><div class="nl-ni">냉장고 (InstaView · 오브제)</div><div class="nl-nd">가전 프리미엄 냉장고 라인업.</div></div>
+        </div>
+        <div class="nl-check-item">
+          <div class="nl-toggle"></div>
+          <div><div class="nl-ni">세탁기 (ThinQ)</div><div class="nl-nd">세탁기·건조기 제품군.</div></div>
+        </div>
+        <div class="nl-check-item">
+          <div class="nl-toggle"></div>
+          <div><div class="nl-ni">모니터 (UltraGear · UltraWide)</div><div class="nl-nd">게이밍·비즈니스 모니터 라인업.</div></div>
+        </div>
+        <div class="nl-check-item">
+          <div class="nl-toggle"></div>
+          <div><div class="nl-ni">gram 노트북</div><div class="nl-nd">LG gram 전 모델 모니터링.</div></div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:16px;display:flex;gap:12px">
+      <button class="btn btn-f">설정 저장</button>
+      <button class="btn btn-o">기본값으로 초기화</button>
+    </div>
+  </div>
+</div><!-- /view-newsletter -->
+
+</main>
+</div><!-- /.app-body -->
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-top">
+    <span class="footer-logo">D2C Intel</span>
+    <div class="footer-links">
+      <span class="fl">개인정보 정책</span>
+      <span class="fl">이용 약관</span>
+      <span class="fl">방법론</span>
+      <span class="fl">분석가 문의</span>
+    </div>
+  </div>
+  <div class="footer-bot">
+    <span class="footer-copy">© 2026 LG D2C Intelligence Framework — 기밀 &amp; 독점</span>
+    <span class="footer-copy">버전 2.0.0 · 2026-03-29 기준</span>
+  </div>
+</footer>
+
+</div><!-- /.shell -->
+
+<script>
+/* ══════════════════════════════════════════════════════════
+   D2C Intel — Live Data Engine
+   Connects to Vercel Serverless API for real data
+═══════════════════════════════════════════════════════════ */
+
+/* ── API CONFIG ───────────────────────────────────────── */
+const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? '' // same-origin during local dev
+  : ''; // same-origin on Vercel
+
+async function apiFetch(endpoint, options = {}) {
+  try {
+    const res = await fetch(`${API_BASE}/api/${endpoint}`, options);
+    if (!res.ok) throw new Error(`API ${res.status}: ${res.statusText}`);
+    return await res.json();
+  } catch (e) {
+    console.warn(`API fetch failed for ${endpoint}:`, e.message);
+    return null;
+  }
+}
+
+/* ── REGION STATIC FALLBACK (used until API provides full analysis) ── */
+const R_FALLBACK = {
+  nam: { name:'북미', countries:'미국 · 캐나다', ch_names:['D2C 직판','도매 파트너','직영 Tier-1'], ch_channels:['lg.com / LG ThinQ','Best Buy / Costco','LG Experience Store'] },
+  eur: { name:'유럽', countries:'독일 · 영국 · 프랑스 · 이탈리아 · 스페인', ch_names:['D2C 직판','도매 파트너','직영 Tier-1'], ch_channels:['lg.com EU / MediaMarkt','Currys / Fnac / Saturn','LG Showroom EU'] },
+  latam: { name:'중남미', countries:'브라질 · 멕시코 · 칠레', ch_names:['D2C 직판','도매 파트너','직영 Tier-1'], ch_channels:['lg.com / Mercado Libre','Magazine Luiza / Liverpool','LG BR 쇼룸'] },
+  asia: { name:'아시아 태평양', countries:'호주 · 대만 · 싱가포르 · 태국', ch_names:['D2C 직판','도매 파트너','직영 Tier-1'], ch_channels:['LGE.com / Lazada','Best Denki / JB Hi-Fi','LG 브랜드샵 아시아'] },
+  mea: { name:'중동·아프리카', countries:'사우디 · 이집트', ch_names:['D2C 직판','도매 파트너','직영 Tier-1'], ch_channels:['lg.com / Noon','Sharaf DG','LG Experience Zone UAE'] }
+};
+const REGION_NAMES_KR = { nam:'북미', eur:'유럽', latam:'중남미', asia:'아시아', mea:'중동·아프리카' };
+
+/* ── GLOBAL STATE ─────────────────────────────────────── */
+let cachedKPIs = null;
+let cachedRegions = null;
+let cachedRegionalReports = {};
+let cachedNews = null;
+let aiHistory = [];
+let chartInstance = null;
+
+/* ── LOAD DASHBOARD DATA ──────────────────────────────── */
+async function loadGlobalDashboard() {
+  // Show loading state
+  document.querySelectorAll('.kpi-val').forEach(el => el.style.opacity = '0.5');
+
+  const kpiData = await apiFetch('kpis');
+  if (kpiData?.success) {
+    cachedKPIs = kpiData.data;
+    renderKPIs(kpiData.data, kpiData.meta);
+  }
+
+  // Load regions in background
+  loadRegions();
+}
+
+function renderKPIs(d, meta) {
+  const kpiRow = document.querySelector('.kpi-row');
+  if (!kpiRow) return;
+
+  const deltaSign = d.totalSignalsDelta >= 0 ? '+' : '';
+  const deltaPct = d.totalSignalsDelta !== 0 && cachedKPIs
+    ? ((d.totalSignalsDelta / (d.totalSignals - d.totalSignalsDelta)) * 100).toFixed(1)
+    : '0.0';
+  const chineseThreat = Math.min(10, (d.chineseBrandPct / 5).toFixed(1));
+
+  kpiRow.innerHTML = `
+    <div class="kpi">
+      <div class="tl kpi-lbl">총 데이터 포인트</div>
+      <div><span class="kpi-val">${d.totalSignals.toLocaleString()}</span><span class="kpi-unit">건</span></div>
+      <div class="kpi-dl ${d.totalSignalsDelta >= 0 ? 'up' : 'dn'}">${d.totalSignalsDelta >= 0 ? '▲' : '▼'} ${deltaSign}${deltaPct}% 전주 대비</div>
+      <div class="kpi-sub">${d.countriesCovered}개국 · ${Object.keys(d.products).length}개 제품 카테고리</div>
+    </div>
+    <div class="kpi">
+      <div class="tl kpi-lbl">중국 브랜드 위협 지수</div>
+      <div><span class="kpi-val cer">${chineseThreat}</span><span class="kpi-unit" style="color:var(--er)">/10</span></div>
+      <div class="kpi-dl dn">위협 시그널 ${d.chineseBrandThreats}건</div>
+      <div class="kpi-sub">TCL · Hisense · Haier · Midea</div>
+    </div>
+    <div class="kpi">
+      <div class="tl kpi-lbl">LG 프로모 활동</div>
+      <div><span class="kpi-val">${d.lgPromoCount}</span><span class="kpi-unit">건</span></div>
+      <div class="kpi-dl up">▲ 프로모 시그널 수집</div>
+      <div class="kpi-sub">TV ${d.tvRatio}% 비중</div>
+    </div>`;
+
+  // Update page header
+  const dateKey = meta?.dateKey || d.dateKey;
+  if (dateKey) {
+    const weekNum = getWeekNumber(dateKey);
+    document.querySelector('#view-global .td').innerHTML = `D2C 글로벌 대시보드<br>2026 W${weekNum} 브리핑`;
+    document.querySelector('#view-global .tl.cf:last-child').textContent = `마지막 업데이트: ${dateKey}`;
+  }
+
+  // Update chart with real brand data
+  updateChart(d);
+
+  // Update sentiment footer
+  updateSentimentFooter(d);
+}
+
+function getWeekNumber(dateStr) {
+  const d = new Date(dateStr);
+  d.setHours(0,0,0,0);
+  d.setDate(d.getDate() + 3 - (d.getDay() + 6) % 7);
+  const w1 = new Date(d.getFullYear(), 0, 4);
+  return 1 + Math.round(((d - w1) / 86400000 - 3 + (w1.getDay() + 6) % 7) / 7);
+}
+
+function updateChart(d) {
+  const ctx = document.getElementById('sentChart');
+  if (!ctx) return;
+
+  if (chartInstance) chartInstance.destroy();
+
+  // Build chart from product distribution
+  const products = Object.keys(d.products);
+  const lgCounts = products.map(p => d.brands?.LG ? Math.round((d.brands.LG / d.totalSignals) * d.products[p]) : d.products[p]);
+  const chCounts = products.map(p => {
+    const chinese = ['TCL','Hisense','Haier','Midea'].reduce((s, b) => s + (d.brands?.[b] || 0), 0);
+    return Math.round((chinese / d.totalSignals) * d.products[p]);
+  });
+
+  chartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: products,
+      datasets: [
+        { label:'LG', data: lgCounts, backgroundColor:'rgba(0,32,91,.85)', barPercentage:.4, categoryPercentage:.7 },
+        { label:'중국 브랜드', data: chCounts, backgroundColor:'rgba(28,98,153,.35)', barPercentage:.4, categoryPercentage:.7 }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { backgroundColor:'rgba(0,13,47,.95)', padding:10 } },
+      scales: {
+        x: { grid:{ display:false }, border:{ display:false }, ticks:{ font:{ family:'Inter',size:10,weight:'600' }, color:'#5c5450' } },
+        y: { grid:{ color:'rgba(28,20,16,.05)' }, border:{ display:false }, ticks:{ font:{ family:'Inter',size:10 }, color:'#5c5450', maxTicksLimit:5 } }
+      }
+    }
+  });
+}
+
+function updateSentimentFooter(d) {
+  const lgPct = d.brands?.LG ? Math.round((d.brands.LG / d.totalSignals) * 100) : 50;
+  const chPct = d.chineseBrandPct ? Math.round(d.chineseBrandPct) : 30;
+  const neutPct = 100 - lgPct - chPct;
+  const momentum = ((lgPct - chPct) / 100).toFixed(2);
+
+  const foot = document.querySelector('.sent-foot');
+  if (foot) {
+    foot.innerHTML = `
+      <div class="sf"><span class="sf-lbl tl">LG</span><span class="sf-val cok">${lgPct}%</span></div>
+      <div class="sf"><span class="sf-lbl tl">중국 브랜드</span><span class="sf-val cer">${chPct}%</span></div>
+      <div class="sf"><span class="sf-lbl tl">기타</span><span class="sf-val">${Math.max(0, neutPct)}%</span></div>
+      <div class="sf"><span class="sf-lbl tl">모멘텀</span><span class="sf-val ${parseFloat(momentum) >= 0 ? 'cok' : 'cer'}">${parseFloat(momentum) >= 0 ? '+' : ''}${momentum}</span></div>`;
+  }
+}
+
+/* ── REGIONAL DATA ────────────────────────────────────── */
+async function loadRegions() {
+  const data = await apiFetch('regions');
+  if (data?.success) {
+    cachedRegions = data.data;
+    updateRegionalPulses(data.data);
+  }
+}
+
+function updateRegionalPulses(data) {
+  const container = document.querySelector('.panel-dark');
+  if (!container || !data?.regions) return;
+
+  const pulseRatings = { high: { cls:'ct', label:'주의' }, medium: { cls:'nt', label:'중립' }, low: { cls:'ow', label:'비중확대' } };
+
+  const pulseHtml = data.regions.map(r => {
+    const chineseRatio = r.chineseSignals / Math.max(1, r.totalRecords);
+    const rating = chineseRatio > 0.4 ? pulseRatings.high : chineseRatio > 0.25 ? pulseRatings.medium : pulseRatings.low;
+    const topProd = r.topProduct;
+    return `<div class="pulse">
+      <div class="pulse-h"><span class="pulse-r">${REGION_NAMES_KR[r.id] || r.name}</span><span class="pulse-s ${rating.cls}">${rating.label}</span></div>
+      <div class="pulse-d">${r.totalRecords}건 수집. 주요 제품: ${topProd}. 중국 브랜드: ${r.chineseSignals}건.</div>
+    </div>`;
+  }).join('');
+
+  container.innerHTML = `
+    <div class="tl" style="color:rgba(252,249,248,.45);margin-bottom:4px">지역 펄스</div>
+    <div class="panel-sub-d">주간 지역별 시그널 요약 (실시간 데이터)</div>
+    ${pulseHtml}
+    <button class="btn btn-gl">전체 히트맵 보기</button>`;
+}
+
+/* ── RENDER REGION (DYNAMIC + DRILL-DOWN) ────────────── */
+async function loadRegionalReport(key) {
+  if (cachedRegionalReports[key]) return cachedRegionalReports[key];
+  const data = await apiFetch(`regional-reports?region=${key}`);
+  if (data?.success) {
+    cachedRegionalReports[key] = data.data;
+    return data.data;
+  }
+  return null;
+}
+
+function parseMarkdownSections(md) {
+  if (!md) return {};
+  const sections = {};
+  let currentKey = '_intro';
+  let current = [];
+  for (const line of md.split('\n')) {
+    const h2 = line.match(/^## \d+\.\s*(.+)/);
+    if (h2) {
+      sections[currentKey] = current.join('\n').trim();
+      currentKey = h2[1].trim();
+      current = [];
+    } else {
+      current.push(line);
+    }
+  }
+  sections[currentKey] = current.join('\n').trim();
+  return sections;
+}
+
+function simpleMarkdownToHtml(md) {
+  if (!md) return '';
+  let html = md
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^#### (.+)$/gm, '<h4 style="font-size:.9rem;margin:12px 0 6px">$4</h4>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>')
+    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/^\d+\. (.+)$/gm, '<li>$1</li>');
+  // Wrap consecutive <li> in <ul>
+  html = html.replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>');
+  // Tables
+  html = html.replace(/^(\|.+\|)\n(\|[-| :]+\|)\n((?:\|.+\|\n?)+)/gm, (m, hdr, sep, body) => {
+    const ths = hdr.split('|').filter(c=>c.trim()).map(c=>`<th>${c.trim()}</th>`).join('');
+    const rows = body.trim().split('\n').map(row => {
+      const tds = row.split('|').filter(c=>c.trim()).map(c=>`<td>${c.trim()}</td>`).join('');
+      return `<tr>${tds}</tr>`;
+    }).join('');
+    return `<table><thead><tr>${ths}</tr></thead><tbody>${rows}</tbody></table>`;
+  });
+  // Paragraphs
+  html = html.split('\n\n').map(p => {
+    p = p.trim();
+    if (!p || p.startsWith('<')) return p;
+    return `<p>${p}</p>`;
+  }).join('\n');
+  return html;
+}
+
+function extractInsightsFromMd(md) {
+  const insights = [];
+  const lines = (md || '').split('\n');
+  let inInsight = false;
+  for (const line of lines) {
+    if (/핵심 인사이트|핵심 발견/i.test(line)) { inInsight = true; continue; }
+    if (/^##/.test(line) || /실행 필요|권장 실행/.test(line)) { inInsight = false; continue; }
+    if (inInsight && /^[-*]\s+(.+)/.test(line)) {
+      insights.push(line.replace(/^[-*]\s+/, '').trim());
+    }
+  }
+  return insights.slice(0, 6);
+}
+
+function extractActionsFromMd(md) {
+  const actions = [];
+  const lines = (md || '').split('\n');
+  let inAction = false;
+  for (const line of lines) {
+    if (/실행 필요|권장 실행 과제/.test(line)) { inAction = true; continue; }
+    if (/^## [^1]/.test(line) || /^### [^1]/.test(line) && !/실행/.test(line)) { if (inAction && actions.length > 0) inAction = false; }
+    if (inAction) {
+      const numMatch = line.match(/^\d+\.\s+(.+)/);
+      const bulletMatch = line.match(/^[-*]\s+(.+)/);
+      const tableMatch = line.match(/^\|\s*(P[123])\s*\|(.+)/);
+      if (numMatch) actions.push({ priority: 'P' + Math.min(actions.length + 1, 3), text: numMatch[1].trim() });
+      else if (bulletMatch && !bulletMatch[1].startsWith('|')) actions.push({ priority: 'P' + Math.min(actions.length + 1, 3), text: bulletMatch[1].trim() });
+      else if (tableMatch) {
+        const cols = tableMatch[2].split('|').map(c => c.trim()).filter(Boolean);
+        actions.push({ priority: tableMatch[1], text: cols.join(' · ') });
+      }
+    }
+  }
+  return actions.slice(0, 8);
+}
+
+function renderRegion(key) {
+  const container = document.getElementById('region-content');
+  if (!container) return;
+
+  const fallback = R_FALLBACK[key] || {};
+  const regionName = fallback.name || key;
+  const countriesStr = fallback.countries || '';
+  const detail = cachedRegions?.detail?.[key];
+
+  // ── 항상 탭 구조부터 렌더링 ──
+  const subTitle = detail
+    ? `${detail.totalRecords}건 시그널 수집 · 중국 브랜드 위협 ${(((['TCL','Hisense','Haier','Midea'].reduce((s,b)=>s+(detail.brands[b]||0),0))/Math.max(1,detail.totalRecords))*100).toFixed(1)}%`
+    : `${countriesStr} | API 연결 대기 중`;
+
+  container.innerHTML = `
+    <div class="ph">
+      <div class="ph-l">
+        <div class="ph-bc tl">${regionName} — 지역 인텔리전스</div>
+        <h1 class="td">${regionName} 지역 분석</h1>
+        <p class="ph-desc">${subTitle}</p>
+      </div>
+    </div>
+    <div class="rr-tabs" id="rr-tabs">
+      <button class="rr-tab active" data-tab="overview">개요</button>
+      <button class="rr-tab" data-tab="insights">핵심 인사이트</button>
+      <button class="rr-tab" data-tab="actions">실행 과제</button>
+      <button class="rr-tab" data-tab="competitor">경쟁사 분석</button>
+      <button class="rr-tab" data-tab="countries">국가별 상세</button>
+      <button class="rr-tab" data-tab="fullreport">전체 리포트</button>
+    </div>
+    <div id="rr-tab-content"></div>`;
+
+  // 탭 이벤트 연결
+  const tabs = container.querySelectorAll('.rr-tab');
+  const tabContent = container.querySelector('#rr-tab-content');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderRegionTab(key, tab.dataset.tab, tabContent, cachedRegions?.detail?.[key]);
+    });
+  });
+
+  // 개요 탭 초기 렌더
+  renderRegionTab(key, 'overview', tabContent, detail);
+
+  // API 데이터 없으면 백그라운드 로드 후 개요 업데이트
+  if (!detail) {
+    loadRegions().then(() => {
+      const newDetail = cachedRegions?.detail?.[key];
+      if (newDetail) {
+        const activeTab = container.querySelector('.rr-tab.active')?.dataset?.tab || 'overview';
+        renderRegionTab(key, activeTab, tabContent, newDetail);
+        // 헤더 업데이트
+        const chCnt = ['TCL','Hisense','Haier','Midea'].reduce((s,b)=>s+(newDetail.brands[b]||0),0);
+        const chPct = ((chCnt/Math.max(1,newDetail.totalRecords))*100).toFixed(1);
+        container.querySelector('.ph-desc').textContent =
+          `${newDetail.totalRecords}건 시그널 수집 · 중국 브랜드 위협 ${chPct}%`;
+      }
+    });
+  }
+}
+
+function renderOverviewTab(key, detail) {
+  if (!detail) {
+    return `<div class="rr-section">
+      <div style="background:var(--page);padding:28px;text-align:center;color:var(--txm)">
+        <div class="th" style="margin-bottom:10px">실시간 데이터 연결 대기 중</div>
+        <p class="tb">Vercel API 서버가 연결되면 지역 시그널 데이터가 표시됩니다.<br>
+        <code style="font-size:.75rem;background:var(--paper2);padding:2px 6px">vercel dev</code> 로 로컬 API를 실행하거나 배포 후 확인하세요.</p>
+        <div style="margin-top:20px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+          ${['핵심 인사이트','실행 과제','경쟁사 분석','국가별 상세','전체 리포트'].map(t=>
+            `<span style="padding:6px 14px;background:var(--paper2);font-size:.75rem;font-weight:600;color:var(--txm)">${t}</span>`
+          ).join('')}
+        </div>
+        <p class="tb cf" style="margin-top:14px">위 탭을 클릭하면 리포트 데이터를 바로 확인할 수 있습니다 →</p>
+      </div>
+    </div>`;
+  }
+
+  const totalRec = detail.totalRecords;
+  const chineseCount = ['TCL','Hisense','Haier','Midea'].reduce((s,b)=>s+(detail.brands[b]||0),0);
+  const chinesePct = totalRec > 0 ? ((chineseCount/totalRec)*100).toFixed(1) : 0;
+  const lgCount = detail.brands['LG'] || 0;
+  const healthScore = Math.max(0, Math.min(100, Math.round(70+(lgCount-chineseCount)/Math.max(1,totalRec)*100)));
+  const healthLabel = healthScore>=80?'최적':healthScore>=65?'양호':healthScore>=50?'주의':'위험';
+  const healthCls = healthScore>=80?'ok':healthScore>=65?'ok':healthScore>=50?'wn':'er';
+
+  const geoHtml = Object.entries(detail.countries).sort((a,b)=>b[1]-a[1]).slice(0,5).map(([c,cnt])=>`
+    <div class="gh"><div class="gh-lbl">${c}</div><div class="gh-val pos">${cnt}건</div></div>`).join('');
+
+  const anHtml = Object.entries(detail.products).sort((a,b)=>b[1]-a[1]).slice(0,2).map(([prod,count])=>`
+    <div class="ac">
+      <div class="ac-tag tl">${prod} 인텔리전스</div>
+      <div class="ac-h">${prod} 시그널 ${count}건 수집</div>
+      <p class="ac-p">전체 ${totalRec}건 중 ${((count/totalRec)*100).toFixed(1)}% 비중을 차지합니다.</p>
+    </div>`).join('');
+
+  const chineseBrands = ['TCL','Hisense','Haier','Midea'].filter(b=>detail.brands[b]);
+  const compHtml = chineseBrands.map(b=>{
+    const cnt=detail.brands[b];
+    const lvl=cnt>totalRec*0.15?'위험':cnt>totalRec*0.08?'주의':'정보';
+    const lvc=lvl==='위험'?'high':lvl==='주의'?'wn':'ok';
+    return `<tr><td><strong>${b}</strong></td><td>시그널 ${cnt}건 (${((cnt/totalRec)*100).toFixed(1)}%)</td><td><span class="level-d ${lvc}">${lvl}</span></td></tr>`;
+  }).join('');
+
+  const topSignals = detail.signals.slice(0,3);
+  const signalHtml = topSignals.map(s=>`
+    <div class="agc">
+      <div class="agc-type tl">${s.pillar||'시그널'}</div>
+      <div class="agc-desc">${s.value}</div>
+      <div class="agc-foot"><span class="agc-owner">${s.country} · ${s.brand}</span><span class="agc-dl">${s.confidence}</span></div>
+    </div>`).join('');
+
+  return `
+    <div class="reg-metrics">
+      <div class="health-box">
+        <div class="tl cm" style="margin-bottom:12px">핵심 지표</div>
+        <div style="margin-bottom:10px"><div class="tl cf" style="margin-bottom:4px">총 시그널</div><div class="ms-val">${totalRec}</div></div>
+        <div style="margin-bottom:10px"><div class="tl cf" style="margin-bottom:4px">LG 시그널</div><div class="ms-val">${lgCount}</div></div>
+        <div><div class="tl cf" style="margin-bottom:4px">중국 브랜드</div><div class="ms-val">${chineseCount}</div></div>
+        <div style="margin-top:14px;border-top:1px solid var(--bd);padding-top:14px">
+          <div class="tl cf" style="margin-bottom:6px">지역 건강 지수</div>
+          <div><span class="health-val">${healthScore}%</span><span class="health-tag ${healthCls}">${healthLabel}</span></div>
+        </div>
+      </div>
+      <div class="geo-box">
+        <div class="geo-chip">실시간 데이터</div>
+        <div class="geo-ttl">국가별 시그널</div>
+        <div class="geo-sub">상위 수집국</div>
+        <div class="geo-hubs">${geoHtml}</div>
+      </div>
+    </div>
+    <div class="analysis-grid">${anHtml}</div>
+    ${compHtml ? `
+    <div style="padding:0 48px 8px"><div class="tl cm">중국 브랜드 경쟁 동향</div></div>
+    <table class="comp-table"><thead><tr><th>브랜드</th><th>동향</th><th>위험 수준</th></tr></thead><tbody>${compHtml}</tbody></table>` : ''}
+    ${signalHtml ? `
+    <div class="action-box" style="border-left-color:var(--acc)">
+      <div class="action-h" style="color:var(--acc)">주요 시그널</div>
+      <div class="action-grid">${signalHtml}</div>
+    </div>` : ''}`;
+}
+
+async function renderRegionTab(key, tab, container, detail) {
+  if (tab === 'overview') {
+    container.innerHTML = renderOverviewTab(key, detail);
+    return;
+  }
+
+  // For drill-down tabs, load the regional report
+  container.innerHTML = '<div class="rr-loading">리포트 데이터 로딩 중...</div>';
+  const report = await loadRegionalReport(key);
+  const md = report?.regions?.[key]?.markdown || '';
+  const jsonData = report?.regions?.[key]?.data || null;
+
+  if (!md && !jsonData) {
+    container.innerHTML = `<div class="rr-empty">
+      <div class="th" style="margin-bottom:8px">지역 리포트 데이터 없음</div>
+      <p class="tb cm">아직 ${REGION_NAMES_KR[key] || key} 지역의 주간 리포트가 생성되지 않았습니다.</p>
+      <p class="tb cf" style="margin-top:6px">주간 파이프라인이 실행되면 인사이트, 실행 과제, 경쟁사 분석이 이곳에 표시됩니다.</p>
+    </div>`;
+    return;
+  }
+
+  if (tab === 'insights') {
+    const insights = extractInsightsFromMd(md);
+    const sections = parseMarkdownSections(md);
+    const alertSection = Object.entries(sections).find(([k]) => /핵심 경보|경보/.test(k));
+    container.innerHTML = `
+      <div class="rr-section">
+        <div class="rr-section-h">🔍 핵심 인사이트</div>
+        ${insights.length > 0
+          ? insights.map(i => `<div class="rr-insight"><div class="rr-insight-txt">${escapeHtml(i)}</div></div>`).join('')
+          : '<p class="tb cm">인사이트 데이터를 파싱할 수 없습니다. 전체 리포트 탭을 참조하세요.</p>'
+        }
+      </div>
+      ${alertSection ? `
+      <div class="rr-section">
+        <div class="rr-section-h">🚨 핵심 경보</div>
+        <div class="rr-md">${simpleMarkdownToHtml(alertSection[1])}</div>
+      </div>` : ''}
+      ${jsonData ? `
+      <div class="rr-section">
+        <div class="rr-section-h">📊 데이터 분포</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <div style="background:var(--page);padding:16px">
+            <div class="tl cm" style="margin-bottom:10px">제품별 시그널</div>
+            ${Object.entries(jsonData.product_breakdown || {}).sort((a,b)=>b[1]-a[1]).map(([p,c]) =>
+              `<div style="display:flex;justify-content:space-between;padding:4px 0;font-size:.8125rem;border-bottom:1px solid var(--bds)"><span>${p}</span><strong>${c}건</strong></div>`
+            ).join('')}
+          </div>
+          <div style="background:var(--page);padding:16px">
+            <div class="tl cm" style="margin-bottom:10px">브랜드별 시그널</div>
+            ${Object.entries(jsonData.brand_breakdown || {}).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([b,c]) =>
+              `<div style="display:flex;justify-content:space-between;padding:4px 0;font-size:.8125rem;border-bottom:1px solid var(--bds)"><span>${b}</span><strong>${c}건</strong></div>`
+            ).join('')}
+          </div>
+        </div>
+      </div>` : ''}`;
+  }
+
+  else if (tab === 'actions') {
+    const actions = extractActionsFromMd(md);
+    const sections = parseMarkdownSections(md);
+    const strategySection = Object.entries(sections).find(([k]) => /전략 요약|전략/.test(k));
+    container.innerHTML = `
+      <div class="rr-section">
+        <div class="rr-section-h">⚡ 실행 필요 과제</div>
+        ${actions.length > 0
+          ? actions.map(a => {
+              const priCls = a.priority === 'P1' ? 'p1' : a.priority === 'P2' ? 'p2' : 'p3';
+              return `<div class="rr-action">
+                <div class="rr-action-main">
+                  <div class="rr-action-txt">${escapeHtml(a.text)}</div>
+                </div>
+                <span class="rr-action-pri ${priCls}">${a.priority}</span>
+              </div>`;
+            }).join('')
+          : '<p class="tb cm">실행 과제 데이터를 파싱할 수 없습니다. 전체 리포트 탭을 참조하세요.</p>'
+        }
+      </div>
+      ${strategySection ? `
+      <div class="rr-section">
+        <div class="rr-section-h">📋 전략 요약</div>
+        <div class="rr-md">${simpleMarkdownToHtml(strategySection[1])}</div>
+      </div>` : ''}`;
+  }
+
+  else if (tab === 'competitor') {
+    const sections = parseMarkdownSections(md);
+    const compSection = Object.entries(sections).find(([k]) => /커버리지 대시보드|경쟁|가격/.test(k));
+    const chineseSection = Object.entries(sections).find(([k]) => /중국 브랜드/.test(k));
+    const totalRec = detail.totalRecords;
+    const chineseBrandsData = ['TCL','Hisense','Haier','Midea'].filter(b => detail.brands[b]);
+
+    container.innerHTML = `
+      <div class="rr-section">
+        <div class="rr-section-h">🏭 중국 브랜드 위협 분석</div>
+        ${chineseBrandsData.length > 0 ? `
+        <table class="comp-table" style="width:100%;margin:0">
+          <thead><tr><th>브랜드</th><th>시그널 수</th><th>비중</th><th>위협 수준</th></tr></thead>
+          <tbody>
+            ${chineseBrandsData.map(b => {
+              const cnt = detail.brands[b];
+              const pct = ((cnt / totalRec) * 100).toFixed(1);
+              const lvl = cnt > totalRec * 0.15 ? '🔴 Critical' : cnt > totalRec * 0.08 ? '🟡 Warning' : '🟢 Normal';
+              const lvc = cnt > totalRec * 0.15 ? 'high' : cnt > totalRec * 0.08 ? 'wn' : 'ok';
+              return `<tr><td><strong>${b}</strong></td><td>${cnt}건</td><td>${pct}%</td><td><span class="level-d ${lvc}">${lvl}</span></td></tr>`;
+            }).join('')}
+          </tbody>
+        </table>` : '<p class="tb cm">중국 브랜드 시그널이 감지되지 않았습니다.</p>'}
+      </div>
+      ${compSection ? `
+      <div class="rr-section">
+        <div class="rr-section-h">📊 커버리지 대시보드</div>
+        <div class="rr-md">${simpleMarkdownToHtml(compSection[1])}</div>
+      </div>` : ''}`;
+  }
+
+  else if (tab === 'countries') {
+    const countryData = jsonData?.country_data || {};
+    const countries = Object.keys(countryData);
+    if (countries.length === 0) {
+      container.innerHTML = '<div class="rr-empty"><p>국가별 상세 데이터가 없습니다.</p></div>';
+      return;
+    }
+
+    const COUNTRY_FLAGS = {US:'🇺🇸',CA:'🇨🇦',UK:'🇬🇧',DE:'🇩🇪',FR:'🇫🇷',IT:'🇮🇹',ES:'🇪🇸',BR:'🇧🇷',MX:'🇲🇽',CL:'🇨🇱',AU:'🇦🇺',TW:'🇹🇼',SG:'🇸🇬',TH:'🇹🇭',SA:'🇸🇦',EG:'🇪🇬'};
+    const COUNTRY_NAMES_KR = {US:'미국',CA:'캐나다',UK:'영국',DE:'독일',FR:'프랑스',IT:'이탈리아',ES:'스페인',BR:'브라질',MX:'멕시코',CL:'칠레',AU:'호주',TW:'대만',SG:'싱가포르',TH:'태국',SA:'사우디',EG:'이집트'};
+
+    container.innerHTML = `
+      <div class="rr-country-tabs" id="rr-country-tabs">
+        ${countries.map((c, i) => `<button class="rr-country-tab${i===0?' active':''}" data-country="${c}">${COUNTRY_FLAGS[c]||''} ${COUNTRY_NAMES_KR[c]||c}</button>`).join('')}
+      </div>
+      <div id="rr-country-detail"></div>`;
+
+    function renderCountryDetail(cCode) {
+      const cd = countryData[cCode];
+      if (!cd) return;
+      const detailEl = container.querySelector('#rr-country-detail');
+      const topSignals = (cd.top_signals || []).slice(0, 8);
+
+      detailEl.innerHTML = `
+        <div class="rr-section">
+          <div class="rr-section-h">${COUNTRY_FLAGS[cCode]||''} ${COUNTRY_NAMES_KR[cCode]||cCode} 상세 분석</div>
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px">
+            <div style="background:var(--page);padding:14px;text-align:center">
+              <div class="tl cf" style="margin-bottom:6px">총 시그널</div>
+              <div style="font-size:1.5rem;font-weight:700">${cd.total}</div>
+            </div>
+            <div style="background:var(--page);padding:14px;text-align:center">
+              <div class="tl cf" style="margin-bottom:6px">중국 브랜드</div>
+              <div style="font-size:1.5rem;font-weight:700;color:var(--er)">${cd.chinese_count}</div>
+            </div>
+            <div style="background:var(--page);padding:14px;text-align:center">
+              <div class="tl cf" style="margin-bottom:6px">제품 카테고리</div>
+              <div style="font-size:1.5rem;font-weight:700">${Object.keys(cd.products||{}).length}</div>
+            </div>
+            <div style="background:var(--page);padding:14px;text-align:center">
+              <div class="tl cf" style="margin-bottom:6px">브랜드 수</div>
+              <div style="font-size:1.5rem;font-weight:700">${Object.keys(cd.brands||{}).length}</div>
+            </div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">
+            <div style="background:var(--page);padding:16px">
+              <div class="tl cm" style="margin-bottom:10px">제품별</div>
+              ${Object.entries(cd.products||{}).sort((a,b)=>b[1]-a[1]).map(([p,c]) => {
+                const pct = ((c/cd.total)*100).toFixed(0);
+                return `<div style="margin-bottom:6px">
+                  <div style="display:flex;justify-content:space-between;font-size:.8125rem;margin-bottom:2px"><span>${p}</span><span>${c}건 (${pct}%)</span></div>
+                  <div style="height:4px;background:var(--paper3);overflow:hidden"><div style="height:100%;width:${pct}%;background:var(--acc)"></div></div>
+                </div>`;
+              }).join('')}
+            </div>
+            <div style="background:var(--page);padding:16px">
+              <div class="tl cm" style="margin-bottom:10px">브랜드별</div>
+              ${Object.entries(cd.brands||{}).sort((a,b)=>b[1]-a[1]).slice(0,6).map(([b,c]) => {
+                const pct = ((c/cd.total)*100).toFixed(0);
+                const isChinese = ['TCL','Hisense','Haier','Midea'].includes(b);
+                return `<div style="margin-bottom:6px">
+                  <div style="display:flex;justify-content:space-between;font-size:.8125rem;margin-bottom:2px"><span>${b}${isChinese?' 🇨🇳':''}</span><span>${c}건 (${pct}%)</span></div>
+                  <div style="height:4px;background:var(--paper3);overflow:hidden"><div style="height:100%;width:${pct}%;background:${isChinese?'var(--er)':'var(--ink)'}"></div></div>
+                </div>`;
+              }).join('')}
+            </div>
+          </div>
+
+          ${topSignals.length > 0 ? `
+          <div class="tl cm" style="margin-bottom:10px">주요 시그널</div>
+          ${topSignals.map(s => `
+            <div style="background:var(--page);padding:12px 16px;margin-bottom:4px;border-left:3px solid ${s.confidence==='high'?'var(--acc)':'var(--bd)'}">
+              <div style="display:flex;gap:8px;margin-bottom:4px">
+                <span class="ntag ${['TCL','Hisense','Haier','Midea'].includes(s.brand)?'threat':'pos'}" style="font-size:.5rem">${s.brand || '?'}</span>
+                <span class="ntag info" style="font-size:.5rem">${s.product || '?'}</span>
+                <span class="ntag info" style="font-size:.5rem">${s.pillar || '?'}</span>
+              </div>
+              <div style="font-size:.8125rem;line-height:1.5">${escapeHtml(s.value || '')}</div>
+              ${s.source_url ? `<div style="font-size:.6875rem;color:var(--txf);margin-top:4px"><a href="${s.source_url}" target="_blank" style="color:var(--acc)">${s.source || 'Source'} ↗</a></div>` : ''}
+            </div>`).join('')}` : ''}
+        </div>`;
+    }
+
+    // Initial render
+    renderCountryDetail(countries[0]);
+
+    // Country tab handlers
+    container.querySelectorAll('.rr-country-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        container.querySelectorAll('.rr-country-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderCountryDetail(btn.dataset.country);
+      });
+    });
+  }
+
+  else if (tab === 'fullreport') {
+    if (md) {
+      container.innerHTML = `
+        <div class="rr-section">
+          <div class="rr-section-h">📄 ${REGION_NAMES_KR[key] || key} 주간 인텔리전스 리포트</div>
+          ${report?.period_start ? `<p class="tb cf" style="margin-bottom:16px">보고 기간: ${report.period_start} — ${report.period_end}</p>` : ''}
+        </div>
+        <div class="rr-md">${simpleMarkdownToHtml(md)}</div>`;
+    } else {
+      container.innerHTML = '<div class="rr-empty"><p>전체 리포트가 아직 생성되지 않았습니다.</p></div>';
+    }
+  }
+}
+
+/* ── NEWS FEED (LIVE) ─────────────────────────────────── */
+async function loadNewsFeed() {
+  const feed = document.querySelector('.news-feed');
+  if (!feed) return;
+
+  feed.innerHTML = '<div style="padding:30px;text-align:center;color:var(--txm)">뉴스 데이터 로딩 중...</div>';
+
+  const data = await apiFetch('news?days=7&limit=20');
+  if (!data?.success) {
+    feed.innerHTML = '<div style="padding:30px;text-align:center;color:var(--txm)">뉴스 데이터를 불러올 수 없습니다. API 연결을 확인하세요.</div>';
+    return;
+  }
+
+  cachedNews = data.data;
+  const articles = data.data.articles;
+
+  if (articles.length === 0) {
+    feed.innerHTML = '<div style="padding:30px;text-align:center;color:var(--txm)">수집된 뉴스가 없습니다.</div>';
+    return;
+  }
+
+  const isChinese = b => ['TCL','Hisense','Haier','Midea'].includes(b);
+
+  feed.innerHTML = articles.map((a, i) => {
+    const tagClass = isChinese(a.brand) ? 'threat' : a.pillar?.includes('Consumer') ? 'alert' : 'pos';
+    const tagLabel = isChinese(a.brand) ? '경쟁사 동향' : a.pillar?.includes('Consumer') ? '소비자 센티먼트' : 'LG 동향';
+    const sentClass = isChinese(a.brand) ? 'bear' : 'bull';
+    const sentLabel = isChinese(a.brand) ? '▼ 약세' : '▲ 강세';
+    const timeAgo = getTimeAgo(a.collectedAt);
+    const isFeatured = i === 0;
+
+    return `<div class="news-item${isFeatured ? ' feat' : ''}">
+      <div class="news-meta">
+        <span class="ntag ${tagClass}">${tagLabel}</span>
+        <span class="nsent ${sentClass}">${sentLabel}</span>
+      </div>
+      <div class="news-ttl"><a href="${a.url}" target="_blank" style="color:inherit">${escapeHtml(a.title)}</a></div>
+      <div class="news-exc">${escapeHtml(a.snippet?.substring(0, 200))}${a.snippet?.length > 200 ? '...' : ''}</div>
+      <div class="news-foot">
+        <span class="news-cat">${a.product || ''}</span>
+        <span class="news-cat">${a.country || ''}</span>
+        <span style="margin-left:4px">${timeAgo} · ${a.source || ''}</span>
+      </div>
+    </div>`;
+  }).join('') + '<button class="load-more" onclick="loadMoreNews()">과거 인텔리전스 로드</button>';
+}
+
+let newsOffset = 20;
+async function loadMoreNews() {
+  const data = await apiFetch(`news?days=14&limit=20`);
+  if (data?.success && data.data.articles.length > 0) {
+    const feed = document.querySelector('.news-feed');
+    const loadBtn = feed.querySelector('.load-more');
+    const isChinese = b => ['TCL','Hisense','Haier','Midea'].includes(b);
+
+    data.data.articles.forEach(a => {
+      const tagClass = isChinese(a.brand) ? 'threat' : 'pos';
+      const tagLabel = isChinese(a.brand) ? '경쟁사 동향' : 'LG 동향';
+      const html = `<div class="news-item">
+        <div class="news-meta"><span class="ntag ${tagClass}">${tagLabel}</span></div>
+        <div class="news-ttl"><a href="${a.url}" target="_blank" style="color:inherit">${escapeHtml(a.title)}</a></div>
+        <div class="news-exc">${escapeHtml(a.snippet?.substring(0, 150) || '')}</div>
+        <div class="news-foot"><span class="news-cat">${a.product || ''}</span><span class="news-cat">${a.country || ''}</span><span style="margin-left:4px">${a.source || ''}</span></div>
+      </div>`;
+      loadBtn.insertAdjacentHTML('beforebegin', html);
+    });
+  }
+}
+
+function getTimeAgo(dateStr) {
+  if (!dateStr) return '';
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 60) return `${mins}분 전`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return `${hrs}시간 전`;
+  return `${Math.floor(hrs / 24)}일 전`;
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+/* ── SEARCH (LIVE API) ────────────────────────────────── */
+async function doSearch() {
+  const q = document.getElementById('srchInput').value.trim();
+  if (!q) return;
+
+  const results = document.getElementById('srchResults');
+  results.innerHTML = '<div style="padding:30px;text-align:center;color:var(--txm)">검색 중...</div>';
+
+  const product = document.getElementById('filterCat')?.value || '';
+  const productMap = { '냉장고':'Refrigerator', '세탁기':'Washing Machine', '모니터':'Monitor', 'gram 노트북':'LG gram' };
+  const productEn = productMap[product] || product;
+
+  const params = new URLSearchParams({ q });
+  if (productEn) params.set('product', productEn);
+
+  const data = await apiFetch(`search?${params}`);
+  if (!data?.success || data.data.results.length === 0) {
+    results.innerHTML = '<div style="padding:30px;text-align:center;color:var(--txm)">검색 결과가 없습니다. 다른 키워드로 시도해보세요.</div>';
+    return;
+  }
+
+  results.innerHTML = data.data.results.map(r => {
+    const sevClass = r.confidence === 'high' ? 'high' : 'med';
+    const sevLabel = r.confidence === 'high' ? '고신뢰' : '보통';
+    return `<div class="sr-item">
+      <div>
+        <div class="sr-title"><a href="${r.url}" target="_blank" style="color:inherit">${escapeHtml(r.title)}</a></div>
+        <div class="sr-excerpt">${escapeHtml(r.snippet?.substring(0, 200) || '')}</div>
+        <div class="sr-meta">
+          <span class="tl cf">${r.dateKey || ''}</span>
+          <span class="sr-country">${r.country || ''}</span>
+          <span class="news-cat">${r.product || ''}</span>
+          <span class="news-cat">${r.brand || ''}</span>
+        </div>
+      </div>
+      <div class="sr-tags"><span class="sr-sev ${sevClass}">${sevLabel}</span></div>
+    </div>`;
+  }).join('');
+}
+document.getElementById('srchInput')?.addEventListener('keydown', e => { if(e.key==='Enter') doSearch() });
+
+/* ── AI AGENT (LIVE CLAUDE API) ───────────────────────── */
+async function sendAI() {
+  const inp = document.getElementById('aiInput');
+  const q = inp.value.trim();
+  if (!q) return;
+
+  const chat = document.querySelector('.ai-chat');
+
+  // Add user message
+  chat.insertAdjacentHTML('beforeend', `
+    <div class="bubble">
+      <div class="bav usr">👤</div>
+      <div class="bcont usr">"${escapeHtml(q)}"</div>
+    </div>
+    <div class="bubble" id="ai-loading">
+      <div class="bav ai">⊞</div>
+      <div class="bcont ai">
+        <span class="resp-tag">분석 중...</span>
+        <p class="resp-p" style="margin-top:12px;color:var(--txm)">D2C 인텔리전스 데이터를 분석하고 있습니다...</p>
+      </div>
+    </div>`);
+
+  inp.value = '';
+  chat.lastElementChild.scrollIntoView({ behavior:'smooth' });
+
+  // Add to history
+  aiHistory.push({ role:'user', content: q });
+
+  // Call AI Agent API
+  const data = await apiFetch('agent', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message: q, history: aiHistory.slice(-6) })
+  });
+
+  const loadingEl = document.getElementById('ai-loading');
+  if (loadingEl) loadingEl.remove();
+
+  if (data?.success) {
+    const reply = data.data.reply;
+    aiHistory.push({ role:'assistant', content: reply });
+
+    chat.insertAdjacentHTML('beforeend', `
+      <div class="bubble">
+        <div class="bav ai">⊞</div>
+        <div class="bcont ai">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start">
+            <span class="resp-tag">통합 분석</span>
+            <div style="text-align:right">
+              <span style="font-size:.5625rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--txm)">데이터 기준</span>
+              <span style="display:block;font-size:.875rem;font-weight:700;color:var(--acc)">${data.data.dataDate || 'latest'}</span>
+            </div>
+          </div>
+          <div class="resp-p" style="margin-top:12px;white-space:pre-wrap">${escapeHtml(reply)}</div>
+        </div>
+      </div>`);
+  } else {
+    chat.insertAdjacentHTML('beforeend', `
+      <div class="bubble">
+        <div class="bav ai">⊞</div>
+        <div class="bcont ai">
+          <span class="resp-tag" style="background:var(--er)">오류</span>
+          <p class="resp-p" style="margin-top:12px;color:var(--txm)">AI 에이전트 응답을 받지 못했습니다. API 키 설정을 확인하세요.</p>
+        </div>
+      </div>`);
+  }
+
+  chat.lastElementChild.scrollIntoView({ behavior:'smooth' });
+}
+
+/* ── VIEW / NAV SWITCHING ─────────────────────────────── */
+let curRegion = 'nam';
+const views = document.querySelectorAll('.view');
+const navIs = document.querySelectorAll('.ni');
+const sbIs = document.querySelectorAll('.sbi');
+
+function showView(id) {
+  views.forEach(v => v.classList.remove('active'));
+  document.getElementById('view-' + id)?.classList.add('active');
+}
+function setNavActive(id) {
+  navIs.forEach(n => n.classList.toggle('active', n.dataset.view === id));
+}
+function setSbActive(view, region) {
+  sbIs.forEach(s => {
+    const vMatch = s.dataset.view === view;
+    const rMatch = !s.dataset.region || s.dataset.region === region;
+    s.classList.toggle('active', vMatch && rMatch);
+  });
+}
+
+navIs.forEach(n => n.addEventListener('click', () => {
+  const v = n.dataset.view;
+  showView(v); setNavActive(v);
+  setSbActive(v, v === 'global' ? 'global' : curRegion);
+  if (v === 'region') renderRegion(curRegion);
+  if (v === 'news') loadNewsFeed();
+}));
+
+sbIs.forEach(s => s.addEventListener('click', () => {
+  const v = s.dataset.view, r = s.dataset.region || null;
+  if (r && r !== 'global') curRegion = r;
+  showView(v); setNavActive(v); setSbActive(v, r || curRegion);
+  if (v === 'region') renderRegion(curRegion);
+  if (v === 'news') loadNewsFeed();
+}));
+
+/* ── CHART (DEFAULT / FALLBACK) ───────────────────────── */
+chartInstance = new Chart(document.getElementById('sentChart'), {
+  type: 'bar',
+  data: {
+    labels: ['TV','냉장고','세탁기','모니터','gram'],
+    datasets: [
+      { label:'LG', data:[0,0,0,0,0], backgroundColor:'rgba(0,32,91,.85)', barPercentage:.4, categoryPercentage:.7 },
+      { label:'중국 브랜드', data:[0,0,0,0,0], backgroundColor:'rgba(28,98,153,.35)', barPercentage:.4, categoryPercentage:.7 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend:{ display:false }, tooltip:{ backgroundColor:'rgba(0,13,47,.95)', padding:10 } },
+    scales: {
+      x: { grid:{ display:false }, border:{ display:false }, ticks:{ font:{ family:'Inter', size:10, weight:'600' }, color:'#5c5450' } },
+      y: { grid:{ color:'rgba(28,20,16,.05)' }, border:{ display:false }, ticks:{ font:{ family:'Inter', size:10 }, color:'#5c5450', maxTicksLimit:5 } }
+    }
+  }
+});
+
+/* ── NEWSLETTER TOGGLES ───────────────────────────────── */
+document.querySelectorAll('.nl-toggle').forEach(t => {
+  t.addEventListener('click', () => t.classList.toggle('off'));
+});
+document.querySelectorAll('.nl-freq-btn').forEach(b => {
+  b.addEventListener('click', () => {
+    b.closest('.nl-freq').querySelectorAll('.nl-freq-btn').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+  });
+});
+
+/* ── REPORT LINKS ─────────────────────────────────────── */
+async function loadReportLinks() {
+  const data = await apiFetch('reports?list=true');
+  if (data?.success) {
+    const recents = document.querySelector('.recent');
+    if (recents && data.data.reports.length > 0) {
+      recents.innerHTML = `
+        <div class="tl rec-lbl">최근 리포트</div>
+        ${data.data.reports.slice(0, 5).map(r =>
+          `<div class="rec-i"><a href="${r.htmlUrl}" target="_blank" style="color:var(--acc)">▸ ${r.date} 주간 인텔리전스 리포트</a></div>`
+        ).join('')}`;
+    }
+  }
+}
+
+/* ── MOBILE SIDEBAR TOGGLE ────────────────────────────── */
+function initMobileMenu() {
+  const btn = document.getElementById('mob-menu-btn');
+  const sb  = document.getElementById('sidebar');
+  const ov  = document.getElementById('sb-overlay');
+  if (!btn || !sb || !ov) return;
+
+  function openSb()  { sb.classList.add('mob-open'); ov.classList.add('mob-open'); }
+  function closeSb() { sb.classList.remove('mob-open'); ov.classList.remove('mob-open'); }
+
+  btn.addEventListener('click', () => sb.classList.contains('mob-open') ? closeSb() : openSb());
+  ov.addEventListener('click', closeSb);
+
+  // Close sidebar when a menu item is tapped on mobile
+  document.querySelectorAll('.sbi').forEach(el => {
+    el.addEventListener('click', () => { if (window.innerWidth <= 768) closeSb(); });
+  });
+}
+
+/* ── INIT ─────────────────────────────────────────────── */
+document.addEventListener('DOMContentLoaded', () => {
+  loadGlobalDashboard();
+  loadReportLinks();
+  initMobileMenu();
+});
+
+// Also trigger immediately if DOM is already ready
+if (document.readyState !== 'loading') {
+  loadGlobalDashboard();
+  loadReportLinks();
+  initMobileMenu();
+}
+</script>
+</body>
+</html>
