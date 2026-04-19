@@ -33,12 +33,16 @@ jobs:
   monthly-report:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       # ── Setup ──
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Setup Node.js
@@ -147,7 +151,7 @@ jobs:
           bash scripts/quality_gate_monthly.sh ${{ env.YEAR_MONTH }} || echo "⚠️ Monthly quality gate warnings (non-blocking)"
           echo "::endgroup::"
 
-      # ── Step 5: Commit & Push ──
+      # ── Step 5: Commit & Push to main ──
       - name: Commit and push monthly report
         run: |
           git config user.name "github-actions[bot]"
@@ -157,29 +161,21 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Monthly Deep Dive Report: ${{ env.YEAR_MONTH }} [auto]"
-            git push
+            git push origin main
           fi
 
       # ── Step 6: Deploy to GitHub Pages ──
-      - name: Deploy monthly to main branch (Pages)
-        run: |
-          DEPLOY_DIR=$(mktemp -d)
-          git worktree add "$DEPLOY_DIR" main 2>/dev/null || git worktree add "$DEPLOY_DIR" --orphan main
-          # Copy monthly HTML
-          mkdir -p "$DEPLOY_DIR/monthly/${{ env.YEAR_MONTH }}"
-          cp -r reports/html/monthly/${{ env.YEAR_MONTH }}/* "$DEPLOY_DIR/monthly/${{ env.YEAR_MONTH }}/" || true
-          mkdir -p "$DEPLOY_DIR/monthly/latest"
-          cp -r reports/html/monthly/latest/* "$DEPLOY_DIR/monthly/latest/" || true
-          # Copy PDF
-          cp reports/pdf/LG_Global_D2C_Monthly_Intelligence_${{ env.YEAR_MONTH }}.pdf "$DEPLOY_DIR/monthly/" 2>/dev/null || true
-          cd "$DEPLOY_DIR"
-          git add -A
-          if ! git diff --staged --quiet; then
-            git commit -m "Deploy monthly report: ${{ env.YEAR_MONTH }}"
-            git push origin main
-          fi
-          cd -
-          git worktree remove "$DEPLOY_DIR" --force || true
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       # ── Step 7: Job Summary ──
       - name: Job summary
