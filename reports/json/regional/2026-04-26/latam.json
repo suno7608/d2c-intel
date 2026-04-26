@@ -1,0 +1,316 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 124,
+  "country_breakdown": {
+    "BR": 109,
+    "MX": 11,
+    "CL": 4
+  },
+  "product_breakdown": {
+    "TV": 43,
+    "Refrigerator": 31,
+    "Washing Machine": 29,
+    "Monitor": 15,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "LG": 74,
+    "TCL": 9,
+    "Samsung": 14,
+    "Hisense": 12,
+    "Midea": 11,
+    "Haier": 3,
+    "Electrolux": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 51,
+    "Chinese Brand Threat Tracking": 42,
+    "Competitive Price & Positioning": 8,
+    "Consumer Sentiment": 23
+  },
+  "chinese_brand_total": 35,
+  "lg_total": 74,
+  "country_data": {
+    "BR": {
+      "total": 109,
+      "products": {
+        "TV": 37,
+        "Refrigerator": 29,
+        "Washing Machine": 26,
+        "Monitor": 12,
+        "LG gram": 5
+      },
+      "brands": {
+        "LG": 64,
+        "TCL": 9,
+        "Samsung": 14,
+        "Hisense": 9,
+        "Midea": 11,
+        "Electrolux": 1,
+        "Haier": 1
+      },
+      "chinese_count": 30,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 7.469: Combo Smart TV LG OLED B5 65 pol. + Soundbar LG S60TR 4K | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/combo-smart-tv-lg-oled-b5-65-pol-soundbar-lg-s60tr-4k-cbf6",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 3.719: (APP) Monitor Gamer ASUS ROG Strix OLED 27\", QHD, 280Hz, XG27ACDMS | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/app-monitor-gamer-asus-rog-strix-oled-27-qhd-280hz-003ms-qd-oled-g-sync-adaptive-sync-hdr10-xg27acdms-d567",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/LGOLED",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/LGOLED/hot/?after=dDNfMXN1cGo0dA%3D%3D&sort=hot&t=DAY",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.990: Smart TV TCL 55C6K QLED Mini LED 4K | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-tcl-55c6k-qled-mini-led-4k-6af1",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.345: Smart TV 50\" TCL 4K UHD MiniLED C6KS 50C6KS Google TV 2025 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/tcl-smart-tv-50-miniled-4k-google-tv-8cc4",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/appletv on Reddit: Samsung or LG TV",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/appletv/comments/1stz4ns/samsung_or_lg_tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG C5 vs Samsung S90F OLED: Which TV Is Better? - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/tools/compare/lg-c5-oled-vs-samsung-s90f-oled/88602/92237",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 3.641: [Moedas Ali] Geladeira/Refrigerador LG Frost Free Smart Inverse Prata 451L Inox Look GC-B569NLLM | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/moedas-ali-geladeirarefrigerador-lg-frost-free-smart-inverse-prata-451l-inox-look-gc-b569nllm-a2f1",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.425: [App / Cliente Ouro] Geladeira / Refrigerador Midea Frost Free Duplex Branco 394L RT533 110V 220V | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/app-geladeira-refrigerador-midea-frost-free-duplex-branco-394l-rt533-110v-220v-6707",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "O que acham da geladeira Midea Multidoor 672L Inverter? Vale a pena pelo preço de lançamento? | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/t/o-que-acham-da-geladeira-lancamento-da-midea-multidoor-672l-inverter-vale-a-pena-pelo-preco-de-lancamento-27e5",
+          "confidence": "high"
+        }
+      ]
+    },
+    "MX": {
+      "total": 11,
+      "products": {
+        "TV": 4,
+        "Refrigerator": 1,
+        "Washing Machine": 3,
+        "Monitor": 3
+      },
+      "brands": {
+        "LG": 8,
+        "Hisense": 2,
+        "Haier": 1
+      },
+      "chinese_count": 3,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/pcmasterrace on Reddit: [Prueba de usuario] LG UltraGear 27GM950B: Necesitamos que la PCMR lo exprima para probar el Hyper Mini-LED — ¿Este es el monitor gaming definitivo para tu setup?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/pcmasterrace/comments/1sr87rx/usertrial_lg_ultragear_27gm950b_we_need_pcmr_to/?tl=es-419",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sam’s Club lanza a precio de regalo la pantalla LG OLED Smart TV de 77 pulgadas más Barra de Sonido S70TR - Terra",
+          "source": "terra.com",
+          "source_url": "https://www.terra.com/estilo-de-vida/2026/4/22/sams-club-lanza-precio-de-regalo-la-pantalla-lg-oled-smart-tv-de-77-pulgadas-mas-barra-de-sonido-s70tr-34120.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Es una de las 3 mejores smart TVs del mercado y la compras a mitad de precio: OLED, 4K y funciones de IA",
+          "source": "larazon.es",
+          "source_url": "https://www.larazon.es/compras/nuestra-eleccion/3-mejores-smart-tvs-mercado-compras-mitad-precio-oled-funciones_2026042069e5df60f106942d528b98b0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Display investing €630+ in new OLED line | Advanced Television",
+          "source": "advanced-television.com",
+          "source_url": "https://www.advanced-television.com/2026/04/23/lg-display-investing-e630-in-new-oled-line/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerador Hisense 9 Pies con Despachador de Agua | No Frost",
+          "source": "rac.mx",
+          "source_url": "https://www.rac.mx/producto/refrigerador-hisense-9-pies-con-despachador-color-gris",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier 'juega con los números uno' dentro y fuera de la pista en el Mutua Madrid Open",
+          "source": "notimerica.com",
+          "source_url": "https://www.notimerica.com/deportes/noticia-haier-juega-numeros-dentro-fuera-pista-mutua-madrid-open-20260422142644.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lavadora Se Para Antes De Centrifugar",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/lavadora-se-para-antes-de-centrifugar",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadora Hisense 11 Kg",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/linea-blanca/lavadoras-y-secadoras/lavadoras/lavadora-hisense-11-kg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Secadora De Ropa Lg",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/secadora-de-ropa-lg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Bodega Aurrera rebaja a precio de regalo Smart TV LG de 55 pulgadas: con resolución 4K y tecnología ULTRA HD - El Heraldo de México",
+          "source": "heraldodemexico.com.mx",
+          "source_url": "https://heraldodemexico.com.mx/economia/2026/4/21/bodega-aurrera-rebaja-precio-de-regalo-smart-tv-lg-de-55-pulgadas-con-resolucion-4k-tecnologia-ultra-hd-799792.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 4,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 1,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 2,
+        "Hisense": 1,
+        "Haier": 1
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65EP5Q: a proposal to return OLED monitors to broadcast and cinema environments",
+          "source": "panoramaaudiovisual.com",
+          "source_url": "https://www.panoramaaudiovisual.com/en/2026/04/22/lg-65ep5q-propuesta-devolver-monitores-oled-broadcast-cinematograficos/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HISENSE FHD Smart TV 40A4Q - Big Boom",
+          "source": "bigboom.eu",
+          "source_url": "https://www.bigboom.eu/hisense-fhd-smart-tv-40a4q/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier presenta su tecnología más puntera para el hogar en el marco del Mutua Madrid Open",
+          "source": "diarioestrategia.cl",
+          "source_url": "https://www.diarioestrategia.cl/texto-diario/mostrar/5854410/haier-presenta-tecnologia-puntera-hogar-marco-mutua-madrid-open",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "16 Inch IPS Touchscreen laptop - 16Z90U-H.AU89U1 | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/laptops/lg-16z90u-h.au89u1-gram-laptop",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-04-26",
+  "period_start": "2026-04-19",
+  "period_end": "2026-04-25"
+}

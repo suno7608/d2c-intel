@@ -1,0 +1,153 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 62,
+  "country_breakdown": {
+    "SA": 62
+  },
+  "product_breakdown": {
+    "TV": 23,
+    "Refrigerator": 17,
+    "Washing Machine": 17,
+    "Monitor": 5
+  },
+  "brand_breakdown": {
+    "LG": 34,
+    "Hisense": 11,
+    "Haier": 13,
+    "TCL": 4
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 19,
+    "Chinese Brand Threat Tracking": 32,
+    "Retail Channel Promotions": 10,
+    "Consumer Sentiment": 1
+  },
+  "chinese_brand_total": 28,
+  "lg_total": 34,
+  "country_data": {
+    "SA": {
+      "total": 62,
+      "products": {
+        "TV": 23,
+        "Refrigerator": 17,
+        "Washing Machine": 17,
+        "Monitor": 5
+      },
+      "brands": {
+        "LG": 34,
+        "Hisense": 11,
+        "Haier": 13,
+        "TCL": 4
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG just announced the pricing for its fist Micro RGB evo TV, and it's not cheap, but not as bad as you think | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/lg-just-announced-the-pricing-for-its-fist-micro-rgb-evo-tv-and-its-not-cheap-but-not-as-bad-as-you-think",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG's Micro RGB TVs Boast Big Screens, Big Colors and Big Prices - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/lgs-micro-rgb-tvs-boast-big-screens-big-colors-and-big-prices/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/Appliances on Reddit: Samsung vs. LG vs. Sony: Best smart TV for streaming and gaming?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1srmw4f/samsung_vs_lg_vs_sony_best_smart_tv_for_streaming/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Refrigerators - LG / Refrigerators / Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-LG-Freezers-Ice-Makers/s?keywords=Refrigerators&rh=n:3741361,p_89:LG&c=ts&ts_id=3741361",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "r/appliancerepair on Reddit: Haier fridge problem plus solution!",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/appliancerepair/comments/1srgkds/haier_fridge_problem_plus_solution/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: LG - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-LG-Laundry-Appliances/s?rh=n:2383576011,p_89:LG",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 27 inch UltraGear Gaming Monitor IPS QHD 1440p 300Hz 1ms NVIDIA G Sync Compatible - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-27-inch-ultragear-gaming-monitor-ips-qhd-1440p-300hz-1ms-nvidia-g-sync-compatible/JJ8VPZK6L3",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-04-26",
+  "period_start": "2026-04-19",
+  "period_end": "2026-04-25"
+}

@@ -1,8 +1,42 @@
 {
-  "generated_at": "2026-04-19T08:31:21.823Z",
-  "total_weeks": 11,
-  "latest_week": "2026-04-19",
+  "generated_at": "2026-04-26T08:40:43.139Z",
+  "total_weeks": 12,
+  "latest_week": "2026-04-26",
   "weeks": [
+    {
+      "week": "2026-04-26",
+      "report_period": {
+        "start": "2026-04-19",
+        "end": "2026-04-25"
+      },
+      "version": "Weekly Vol.2026-04-26-R2",
+      "generated_at": "2026-04-26T08:36:35.848Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 382,
+        "competitor_promotion_signals": 9,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 11,
+        "critical_country_count": 4
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)",
+        "🇫🇷 프랑스 (FR)",
+        "🇹🇷 튀르키예 (TR)"
+      ],
+      "executive_key_insights": [
+        "**중국 브랜드 위협 급증**: 이번 주 중국 브랜드 관련 데이터 312건으로 전주(292건) 대비 6.8% 증가, 특히 Haier의 가전 부문(냉장고/세탁기)에서 신제품 출시와 공격적 마케팅이 16개국 전역에서 포착됨",
+        "**LG 프로모션 확대**: LG 프로모션 건수 382건으로 전주(310건) 대비 23.2% 급증, 2026 FIFA 월드컵 대비 TV 할인 행사와 Spring Black Friday 가전 세일이 주요 채널에서 동시 진행",
+        "**소비자 부정 반응 급증 경고**: 부정 소비자 반응 29건으로 전주(11건) 대비 163.6% 폭증, 냉장고 증발기 결빙 문제와 세탁기 소음 이슈가 🇩🇪 독일, 🇹🇷 튀르키예에서 집중 발생"
+      ],
+      "links": {
+        "html": "./2026-04-26/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-04-26_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-04-26_R2_16country.md",
+        "share": "./2026-04-26/share.html"
+      }
+    },
     {
       "week": "2026-04-19",
       "report_period": {

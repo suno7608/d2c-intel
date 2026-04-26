@@ -1,0 +1,277 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 95,
+  "country_breakdown": {
+    "AU": 47,
+    "TW": 48
+  },
+  "product_breakdown": {
+    "TV": 36,
+    "Refrigerator": 20,
+    "Washing Machine": 24,
+    "Monitor": 9,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "LG": 57,
+    "TCL": 9,
+    "Hisense": 6,
+    "Haier": 16,
+    "Samsung": 1,
+    "Midea": 6
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 32,
+    "Competitive Price & Positioning": 18,
+    "Chinese Brand Threat Tracking": 32,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 37,
+  "lg_total": 57,
+  "country_data": {
+    "AU": {
+      "total": 47,
+      "products": {
+        "TV": 17,
+        "Refrigerator": 12,
+        "Washing Machine": 12,
+        "Monitor": 3,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 17,
+        "TCL": 9,
+        "Haier": 13,
+        "Samsung": 1,
+        "Hisense": 1,
+        "Midea": 6
+      },
+      "chinese_count": 29,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 42\" OLED Evo AI C5 4K UHD Smart TV 2025 $1,094 Delivered @ Amazon AU - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/956549",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG C5 77\" OLED TV $3,050 + Delivery ($0 to Selected Cities) @ Appliance Central - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/956710",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "[Perks] LG 42\" OLED Evo AI C5 4K UHD Smart TV 2025 $1,039.30, 48\" C5 $1,281.55, 65\" C5 $2,081.45 @ JB Hi-Fi - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/956691",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 77\" G5 4K OLED evo AI Smart TV (2025) $4239 & 10% Back in Gift Cards + Delivery ($0 C&C/ In-Store) @ Harvey Norman - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/956812",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "[Perks] TCL C8k 85\" Mini LED TV $2295.20 + Delivery ($0 C&C) @ JB Hi-Fi - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/956698",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75\" C8K Premium QD Mini LED Google TV 2025 $1,850.45 + Delivery ($0 C&C/ In-Store) @ The Good Guys - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/956566",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 98\" C7K Premium QD Mini LED Google TV (2025) 98C7K $2,765.90 + Delivery ($0 C&C/ In-Store) @ The Good Guys - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/956800",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 39GX90SA-W 39-inch OLED 240Hz WQHD Curved Smart Gaming Monitor $1,519.05 Delivered @ LG Partner Store - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/956727",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 inch LG OLED evo AI C5 4K Smart TV 2025 - OLED65C5PSA | LG Australia | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/oled-evo-tv/oled65c5psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 189cm (75) QNED AI TV (QNED88), α8 AI Processor 4K, 120Hz Native Refresh Rate, 20W Audio Output - 75QNED88T6A | LG India",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/in/tv-soundbars/qned/75qned88t6a/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 48,
+      "products": {
+        "TV": 19,
+        "Refrigerator": 8,
+        "Washing Machine": 12,
+        "Monitor": 6,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 40,
+        "Hisense": 5,
+        "Haier": 3
+      },
+      "chinese_count": 8,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in April 2026 | 53% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "[情報] LG C5 OLED特價 - 看板 PC_Shopping - 批踢踢實業坊",
+          "source": "ptt.cc",
+          "source_url": "https://www.ptt.cc/bbs/PC_Shopping/M.1776664150.A.EE5.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "把消費者「懶得修」變大生意 LG家電如何用訂閱制突破紅海？ - 商業周刊第2006期 - 商周線上讀",
+          "source": "businessweekly.com.tw",
+          "source_url": "https://www.businessweekly.com.tw/Archive/Article?StrId=7014104",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Styler 母親節活動開跑，代言人許光漢演示衣物除臭與日常護理方式 | T客邦",
+          "source": "techbang.com",
+          "source_url": "https://www.techbang.com/posts/128958-lg-styler-greg-hsu-mothers-day",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Apr 2026 | 53% OFF | Tom's Hardware",
+          "source": "tomshardware.com",
+          "source_url": "https://www.tomshardware.com/coupons/lg.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "家電買不如租？LG挑戰亞洲家庭「擁有欲」，卻意外撬開企業市場|數位時代 BusinessNext",
+          "source": "bnext.com.tw",
+          "source_url": "https://www.bnext.com.tw/article/90652/lg-innofest2026-careservice-subscribe",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG如何靠「情感AI」與「訂閱制」逆襲中國紅色海嘯？|數位時代 BusinessNext",
+          "source": "bnext.com.tw",
+          "source_url": "https://www.bnext.com.tw/article/90623/lg-innofest2026-ai-appliance",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG gram Pro 16 Aerominum 機種預購價 NTD55000!?!? - Mobile01",
+          "source": "mobile01.com",
+          "source_url": "https://www.mobile01.com/topicdetail.php?f=760&t=7253631",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "把消費者「懶得修」變大生意 LG家電如何用訂閱制突破紅海？ | 雜誌 | 聯合新聞網",
+          "source": "udn.com",
+          "source_url": "https://udn.com/news/story/6837/9461376",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "十大 電視 好口碑榜單 2026年4月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/%E9%9B%BB%E8%A6%96",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-04-26",
+  "period_start": "2026-04-19",
+  "period_end": "2026-04-25"
+}

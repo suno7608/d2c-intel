@@ -1,0 +1,262 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 188,
+  "country_breakdown": {
+    "US": 164,
+    "CA": 24
+  },
+  "product_breakdown": {
+    "TV": 42,
+    "Refrigerator": 43,
+    "Washing Machine": 51,
+    "Monitor": 29,
+    "LG gram": 23
+  },
+  "brand_breakdown": {
+    "LG": 121,
+    "TCL": 12,
+    "Samsung": 5,
+    "Haier": 22,
+    "Midea": 27,
+    "Hisense": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 54,
+    "Competitive Price & Positioning": 33,
+    "Chinese Brand Threat Tracking": 65,
+    "Consumer Sentiment": 36
+  },
+  "chinese_brand_total": 62,
+  "lg_total": 121,
+  "country_data": {
+    "US": {
+      "total": 164,
+      "products": {
+        "TV": 39,
+        "Refrigerator": 33,
+        "Washing Machine": 43,
+        "Monitor": 28,
+        "LG gram": 21
+      },
+      "brands": {
+        "LG": 113,
+        "TCL": 11,
+        "Samsung": 5,
+        "Haier": 14,
+        "Midea": 20,
+        "Hisense": 1
+      },
+      "chinese_count": 46,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "'It would be my pick': I tested the LG C6 and LG C5 OLED TVs side-by-side, and I'm impressed by the upgrade — but it's not all clear-cut | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/i-tested-the-lg-c6-and-lg-c5-oled-tvs-side-by-side",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Home theater fans will be happy the LG G6 OLED TV fixes this overlooked picture issue its predecessors had — but there's a catch | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/home-theater-fans-will-be-happy-the-lg-g6-oled-tv-fixes-this-overlooked-picture-issue-its-predecessors-had-but-theres-a-catch",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Extra 20% Off a first LG order - Coupon Code",
+          "source": "slickdeals.net",
+          "source_url": "https://slickdeals.net/promo-codes/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/AskAnAustralian on Reddit: French door Fridges vs Bottom Mount",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/AskAnAustralian/comments/1sr9pku/french_door_fridges_vs_bottom_mount/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "r/GadgetsIndia on Reddit: Got the haier 3 door fridge yesterday but the store told me to not to turn this on until the haier technician comes because of that all my food items are becoming soggy",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/GadgetsIndia/comments/1sqro5k/got_the_haier_3_door_fridge_yesterday_but_the/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/Appliances on Reddit: New washer - Is ‘Agitator’ important? Front load or top load?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1ss6tbl/new_washer_is_agitator_important_front_load_or/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/BuyItForLife on Reddit: Deciding on a Front Load Washer",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/BuyItForLife/comments/1svjtmd/deciding_on_a_front_load_washer/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Consumer Sentiment",
+          "value": "r/Appliances on Reddit: Just ordered the LG front load washing machine. 5.2cubic feet capacity",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1sq4ike/just_ordered_the_lg_front_load_washing_machine/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "LG 27GX704A-B Monitor Review",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/lg/27gx704a-b",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 5 Best 34-49 Inch Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-size/34-49-inch",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 24,
+      "products": {
+        "TV": 3,
+        "Refrigerator": 10,
+        "Washing Machine": 8,
+        "Monitor": 1,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 8,
+        "TCL": 1,
+        "Haier": 8,
+        "Midea": 7
+      },
+      "chinese_count": 16,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-65-class-oledc5-series-4k-uhd-oled-tv/4000370787",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 55QNED93A6A - TV 55\", 4K QNED EVO, Smart TV, WebOS 25, Procesador Potente e Inteligente, MiniLED AI, Super Upscaling, Dolby Vision y Atmos, Alexa/Google Assistant, Negro | Amazon price tracker / tracking, Amazon price history charts, Amazon price watches, Amazon price drop alerts | camelcamelcame",
+          "source": "es.camelcamelcamel.com",
+          "source_url": "https://es.camelcamelcamel.com/product/B0F2GJ482T?active=price_amazon",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Electronics 36-inch W 30 cu. ft. SMART Standard-Depth MAX 4-Door French Door Refrigerator with Full Convert Drawer in PrintProof Stainless Steel - ENERGY STAR® LF30S8210S/02 - appliancenow",
+          "source": "appliancenow.ca",
+          "source_url": "https://www.appliancenow.ca/product/lg-electronics-36-inch-w-30-cu-ft-smart-standard-depth-max-4-door-french-door-refrigerator-with-full-convert-drawer-in-printproof-stainless-steel-energy-star-lf30s8210s-02/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Washers & Dryers - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/washers-and-dryers.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 37-inch smart 4K monitor drops to $449.99 on Amazon | Technobezz",
+          "source": "technobezz.com",
+          "source_url": "https://www.technobezz.com/best/lg-37-inch-smart-4k-monitor-drops-to-44999-on-amazon",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "17-Inch LG gram Pro | Copilot+ PC | Windows 11 Home | Lightweight Dual AI Laptop (1.3kg) | AI powered Intel® Core™ U7, IPS - 17Z90U-G1 | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/laptops/all-laptops/17z90u-g78/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "Exclusive: LG Gram set for India comeback with Make in India push and Panther Lake CPUs - xpertpick",
+          "source": "xpertpick.com",
+          "source_url": "https://www.xpertpick.com/personal-computing/exclusive-lg-gram-set-for-india-comeback-with-make-in-india-push-and-panther-lake-cpus/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL's New TV Launch Pushes 2025 55-Inch Smart TV into Clearance at Record Low, Works With Amazon Alexa, Google Assistant, and Apple HomeKit",
+          "source": "gizmodo.com",
+          "source_url": "https://gizmodo.com/tcls-new-tv-launch-pushes-2025-55-inch-smart-tv-into-clearance-at-record-low-works-with-amazon-alexa-google-assistant-and-apple-homekit-2000748432",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-04-26",
+  "period_start": "2026-04-19",
+  "period_end": "2026-04-25"
+}
