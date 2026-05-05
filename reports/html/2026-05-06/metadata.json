@@ -1,0 +1,32 @@
+{
+  "week": "2026-05-06",
+  "report_period": {
+    "start": "2026-04-26",
+    "end": "2026-05-02"
+  },
+  "version": "Weekly Vol.2026-05-06-R2",
+  "generated_at": "2026-05-05T21:08:31.111Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 371,
+    "competitor_promotion_signals": 10,
+    "chinese_threat_signals": 14,
+    "consumer_negative_countries": 2,
+    "critical_country_count": 2
+  },
+  "critical_countries": [
+    "🇺🇸 미국 (US)",
+    "🇩🇪 독일 (DE)"
+  ],
+  "executive_key_insights": [
+    "**LG OLED TV 가격 경쟁력 강화**: 미국·유럽 시장에서 LG C5/B5 엔트리급 OLED가 $599~€699까지 하락하며 Black Friday 수준 가격 도달 — 프리미엄 OLED 대중화 전략 본격화",
+    "**가전 중국 브랜드 위협 확대**: Haier MultiWash(3중 드럼) 독일 출시, Midea 북미 냉장고 JV 추진 등 HS 영역에서 중국 브랜드의 혁신 공세 심화 — TV 외 가전 방어 전략 긴급 필요",
+    "**2026 gram 라인업 미국 출시**: Aerominum 소재 적용 초경량 노트북 $1,150부터 판매 개시 — IT 제품 포트폴리오 확장 기회 확보"
+  ],
+  "links": {
+    "html": "./2026-05-06/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-05-06_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-05-06_R2_16country.md",
+    "share": "./2026-05-06/share.html"
+  }
+}

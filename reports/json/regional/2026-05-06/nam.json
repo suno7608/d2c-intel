@@ -1,0 +1,259 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 162,
+  "country_breakdown": {
+    "US": 145,
+    "CA": 17
+  },
+  "product_breakdown": {
+    "TV": 40,
+    "Refrigerator": 33,
+    "Washing Machine": 38,
+    "Monitor": 35,
+    "LG gram": 16
+  },
+  "brand_breakdown": {
+    "LG": 105,
+    "TCL": 11,
+    "Samsung": 5,
+    "Haier": 18,
+    "Midea": 22,
+    "Hisense": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 52,
+    "Competitive Price & Positioning": 30,
+    "Chinese Brand Threat Tracking": 56,
+    "Consumer Sentiment": 24
+  },
+  "chinese_brand_total": 52,
+  "lg_total": 105,
+  "country_data": {
+    "US": {
+      "total": 145,
+      "products": {
+        "TV": 40,
+        "Refrigerator": 26,
+        "Washing Machine": 32,
+        "Monitor": 31,
+        "LG gram": 16
+      },
+      "brands": {
+        "LG": 101,
+        "TCL": 11,
+        "Samsung": 5,
+        "Haier": 11,
+        "Midea": 16,
+        "Hisense": 1
+      },
+      "chinese_count": 39,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Not a typo — this LG OLED TV just crashed to its Black Friday price of $599 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/not-a-typo-this-lg-oled-tv-just-crashed-to-its-black-friday-price-of-usd599",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/LGOLED on Reddit: Is this a good deal? And a good TV? Why so much the discount?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/LGOLED/comments/1szyxka/is_this_a_good_deal_and_a_good_tv_why_so_much_the/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/LG_UserHub on Reddit: LG 2026 TVs Earn Multiple Eco Certifications Across OLED, QNED, and Micro RGB Lineups",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/LG_UserHub/comments/1sxo08k/lg_2026_tvs_earn_multiple_eco_certifications/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TVs of 2026 tested: top OLEDs, Mini-LEDs and QLEDs for every budget | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/us/best-tvs,review-2224.html",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL QM8L vs QM8K: Is the new SQD TV worth the upgrade? | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/tcl-qm8l-vs-qm8k-is-the-new-sqd-tv-worth-the-upgrade",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best Refrigerators of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/refrigerators",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "r/Appliances on Reddit: Run away from Midea washers and dryers!",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1sxopus/run_away_from_midea_washers_and_dryers/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 32\" OLED Dual Mode (4K UHD 240Hz, FHD 480Hz) 0.03ms G SYNC Compatible, AMD FreeSync Premium Pro Gaming Monitor Black 32GX870A-B - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-ultragear-32-oled-dual-mode-4k-uhd-240hz-fhd-480hz-0-03ms-g-sync-compatible-amd-freesync-premium-pro-gaming-monitor-black/JJ8VPZWLPW",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "r/ultrawidemasterrace on Reddit: LG Unveils 4K Tandem OLED and 5K2K Curved Gaming Displays",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1t198ey/lg_unveils_4k_tandem_oled_and_5k2k_curved_gaming/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best 4k Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-resolution/4k-ultra-hd-uhd",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 17,
+      "products": {
+        "Monitor": 4,
+        "Refrigerator": 7,
+        "Washing Machine": 6
+      },
+      "brands": {
+        "LG": 4,
+        "Haier": 7,
+        "Midea": 6
+      },
+      "chinese_count": 13,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG ELECTRONICS CANADA ANNOUNCES PRICING AND AVAILABILITY FOR 2026 ULTRAGEAR GAMING MONITORS AND OLED EVO W6 WALLPAPER TV",
+          "source": "newswire.ca",
+          "source_url": "https://www.newswire.ca/news-releases/lg-electronics-canada-announces-pricing-and-availability-for-2026-ultragear-gaming-monitors-and-oled-evo-w6-wallpaper-tv-856175462.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear Gaming Monitors and Wallpaper TV Now Available in Canada",
+          "source": "cgmagonline.com",
+          "source_url": "https://www.cgmagonline.com/news/lg-gaming-wallpaper-tv-canadian-pricing/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 32GX850B Gaming Monitor: Major Upgrades from Older Model",
+          "source": "giznewsdaily.com",
+          "source_url": "https://giznewsdaily.com/lg-ultragear-32gx850b-gaming-monitor-major-upgrades-from-older-model/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Monitors & Displays — Canada 2026: Best Monitors, Reviews & Buying Guide",
+          "source": "inceptionai.ca",
+          "source_url": "https://inceptionai.ca/en-CA/electronics-computers/monitors-displays",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/haier/ki8-6sg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators | P.C. Richard & Son",
+          "source": "pcrichard.com",
+          "source_url": "https://www.pcrichard.com/haier-refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-06",
+  "period_start": "2026-04-26",
+  "period_end": "2026-05-02"
+}

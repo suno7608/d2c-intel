@@ -1,0 +1,317 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 108,
+  "country_breakdown": {
+    "BR": 93,
+    "CL": 4,
+    "MX": 11
+  },
+  "product_breakdown": {
+    "TV": 35,
+    "Refrigerator": 22,
+    "Washing Machine": 22,
+    "Monitor": 26,
+    "LG gram": 3
+  },
+  "brand_breakdown": {
+    "LG": 62,
+    "TCL": 11,
+    "Samsung": 8,
+    "Hisense": 11,
+    "Electrolux": 1,
+    "Midea": 9,
+    "Haier": 4,
+    "Panasonic": 1,
+    "Xiaomi": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 50,
+    "Chinese Brand Threat Tracking": 41,
+    "Competitive Price & Positioning": 10,
+    "Consumer Sentiment": 7
+  },
+  "chinese_brand_total": 35,
+  "lg_total": 62,
+  "country_data": {
+    "BR": {
+      "total": 93,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 18,
+        "Washing Machine": 17,
+        "Monitor": 22,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 50,
+        "TCL": 11,
+        "Samsung": 8,
+        "Hisense": 10,
+        "Electrolux": 1,
+        "Midea": 9,
+        "Panasonic": 1,
+        "Xiaomi": 1,
+        "Haier": 2
+      },
+      "chinese_count": 32,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 3.588: Smart TV LG OLED evo AI C5 4K 55\" 2025 Processador α9 AI Ger 8 webOS 25 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-lg-oled-evo-ai-c5-4k-55-polegadas-2025-processador-a9-ai-ger-8-webos-25-intensificador-de-brilho-d7bc",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 1.831: Smart TV 50\" TCL 4K UHD QLED 50P7K Google TV AiPQ Google Assistente 3 HDMI | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-50-tcl-4k-uhd-qled-50p7k-google-tv-aipq-google-assistente-3-hdmi-db8f",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 899: Hisense Smart TV 32’’ HDR10 DTS Virtual X Alexa | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/hisense-smart-tv-hdr10-dts-virtual-x-alexa-cb48",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "OLED is safe: I tested the Hisense UR9 RGB Mini-LED TV, and it's very good but falls short | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/qled-tvs/hisense-ur9-rgb-mini-led-tv-review",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.174: Geladeira/Refrigerador Midea Cycle Defrost Duplex Branca 410L RT554 110V e 220V | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeirarefrigerador-midea-cycle-defrost-duplex-branca-410l-rt554-110v-e-220v-b2e1",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.673: (APP) Monitor Gamer Curvo LG UltraGear 34\", QHD, UltraWide, 160Hz, 1ms, HDR10, Altura Ajustável, Som Integrado - 34G600A-B | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/app-monitor-gamer-curvo-lg-ultragear-34-qhd-ultrawide-160hz-1ms-hdr10-altura-ajustavel-som-integrado-34g600a-b-9a12",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 485: Monitor Gamer LG 27 IPS Full HD 100Hz - 27MS500-B | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-lg-27-ips-full-hd-100hz-27ms500-b-8cfc",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 633: Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-lg-ultrageartm-24g411a-b-24fhd-144hz-1ms-mbr-nvidia-g-sync-amd-freesync-hdr10-2933",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.189: Monitor LG UltraFine 27 polegadas IPS 4K HDR10 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-lg-ultrafine-27-polegadas-ips-4k-hdr10-d6fb",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.089: Monitor LG UltraFine 27 4K IPS HDR10 DCI-P3 90% | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-lg-ultrafine-27-4k-ips-hdr10-dci-p3-90porcento-0f16",
+          "confidence": "high"
+        }
+      ]
+    },
+    "MX": {
+      "total": 11,
+      "products": {
+        "Refrigerator": 3,
+        "Washing Machine": 5,
+        "Monitor": 3
+      },
+      "brands": {
+        "LG": 9,
+        "Haier": 2
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Preço da carne nos EUA expõe pressão política sobre JBS e empresas do setor frigorífico",
+          "source": "economicnewsbrasil.com.br",
+          "source_url": "https://economicnewsbrasil.com.br/2026/05/05/preco-da-carne-nos-eua-jbs-brasileiras-pressao/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Semana de Marcas Premium en Amazon: relojes Diesel y Tommy, cafeteras De'Longhi, Roborock, Haier y chollos de hasta el 60% | Marca",
+          "source": "marca.com",
+          "source_url": "https://www.marca.com/regalos-promociones/2026/04/29/69f1e2d5ca47419b058b459a.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier inicia operação no Brasil com linha premium de eletrodomésticos – Revista do Frio",
+          "source": "revistadofrio.com.br",
+          "source_url": "https://revistadofrio.com.br/haier-inicia-operacao-no-brasil-com-linha-premium-de-eletrodomesticos/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lavadora LG 19 kg con inteligencia artificial, 6 motion y 13 MSI en Bodega Aurrera",
+          "source": "msn.com",
+          "source_url": "https://www.msn.com/es-mx/dinero/noticias/lavadora-lg-19-kg-con-inteligencia-artificial-6-motion-y-13-msi-en-bodega-aurrera/ar-AA21SBVx?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Debate | Las noticias más importantes de México y el mundo | DEBATE",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/tecnologia/estas-dos-lavadoras-maytag-son-la-mejor-opcion-si-quieres-whirlpool-o-lg--precio-de-liquidacion-20260428-0273.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lavadora 20 kg Maytag at Maytag - precio 12,739 MXN | Promodescuentos",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/lavadora-20-kg-maytag-1154430",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Whirlpool vs LG: cuál lavadora es más completa y barata en ...",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/tecnologia/whirlpool-vs-lg-cual-lavadora-es-mas-completa-y-barata-en-2026--precio-en-walmart-20260430-0181.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadora Daewoo 19 Kg Air Bubble 4d",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/linea-blanca/lavadoras-y-secadoras/lavadoras/lavadora-daewoo-19-kg-air-bubble-4d/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear OLED: el monitor gamer de “gran alcance” en tu escritorio | Generación Universitaria - EL UNIVERSAL",
+          "source": "generacionuniversitaria.com.mx",
+          "source_url": "https://www.generacionuniversitaria.com.mx/vida-universitaria/lg-ultragear-oled-el-monitor-gamer-de-gran-alcance-en-tu-escritorio/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear evo 27GM950B el nuevo monitor gamer con Hyper Mini LED - TechGames",
+          "source": "techgames.com.mx",
+          "source_url": "https://www.techgames.com.mx/lg-ultragear-evo-27gm950b-el-nuevo-monitor-gamer-con-hyper-mini-led/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 4,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 1,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 3,
+        "Hisense": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los mejores chollos de Amazon: Huawei Watch FIT 3 con un 44% de descuento y Adidas desde 11 euros | Marca",
+          "source": "marca.com",
+          "source_url": "https://www.marca.com/regalos-promociones/2026/05/03/69f64894ca47411d4b8b4597.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense Reviews | Read Customer Service Reviews of hisense.es",
+          "source": "trustpilot.com",
+          "source_url": "https://www.trustpilot.com/review/hisense.es",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Frigorífico Santa Lúcia entra em recuperação judicial após desastre climático — CompreRural",
+          "source": "comprerural.com",
+          "source_url": "https://www.comprerural.com/frigorifico-santa-lucia-entra-em-recuperacao-judicial-apos-desastre-climatico",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG releases new UltraGear 32GX850B gaming monitor with major changes from older model - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/LG-releases-new-UltraGear-32GX850B-gaming-monitor-with-major-changes-from-older-model.1287501.0.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-06",
+  "period_start": "2026-04-26",
+  "period_end": "2026-05-02"
+}

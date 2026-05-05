@@ -1,0 +1,283 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 88,
+  "country_breakdown": {
+    "AU": 34,
+    "TW": 54
+  },
+  "product_breakdown": {
+    "TV": 31,
+    "Refrigerator": 24,
+    "Washing Machine": 18,
+    "Monitor": 10,
+    "LG gram": 5
+  },
+  "brand_breakdown": {
+    "LG": 53,
+    "TCL": 8,
+    "Xiaomi": 1,
+    "Hisense": 4,
+    "Haier": 14,
+    "Samsung": 2,
+    "Panasonic": 1,
+    "Midea": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 33,
+    "Consumer Sentiment": 10,
+    "Chinese Brand Threat Tracking": 28,
+    "Competitive Price & Positioning": 17
+  },
+  "chinese_brand_total": 31,
+  "lg_total": 53,
+  "country_data": {
+    "AU": {
+      "total": 34,
+      "products": {
+        "TV": 12,
+        "Refrigerator": 10,
+        "Washing Machine": 10,
+        "Monitor": 1,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 8,
+        "TCL": 6,
+        "Haier": 13,
+        "Samsung": 2,
+        "Hisense": 1,
+        "Midea": 4
+      },
+      "chinese_count": 24,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "77 inch Class LG OLED AI B5 4K Smart TV 2025 - OLED77B5PUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled77b5pua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 Inch Class LG OLED evo AI G6 4K Smart TV 2026 with Supplied Wall Mount - OLED65G6WUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled65g6wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 Inch Class LG OLED evo AI G6 4K Smart TV 2026 with Supplied Wall Mount - OLED55G6WUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled55g6wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "All TVs&Soundbars : Buy latest TVs Exclusive Deals & Sales | LG India",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/in/tv-soundbars/all-tv-soundbars/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "65 inch LG OLED evo AI C5 4K Smart TV 2025 - OLED65C5PSA | LG Australia | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/oled-evo-tv/oled65c5psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL's SQD-Mini LED X11L is coming to Australia: Why it matters",
+          "source": "gadgetguy.com.au",
+          "source_url": "https://www.gadgetguy.com.au/tcls-sqd-mini-led-x11l-is-coming-to-australia-why-it-matters/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG - Wikipedia",
+          "source": "en.wikipedia.org",
+          "source_url": "https://en.wikipedia.org/wiki/LG",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 54,
+      "products": {
+        "TV": 19,
+        "Refrigerator": 14,
+        "Washing Machine": 8,
+        "Monitor": 9,
+        "LG gram": 4
+      },
+      "brands": {
+        "LG": 45,
+        "Xiaomi": 1,
+        "Hisense": 3,
+        "TCL": 2,
+        "Haier": 1,
+        "Panasonic": 1,
+        "Midea": 1
+      },
+      "chinese_count": 7,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for May 2026 | Exclusive $40 Gift Card",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/hardware on Reddit: LG UltraGear 32GX870B-B [31.5\" 4k Tandem WOLED dual mode] and 45GX950B-B [44.5\" 5k2k OLED 800R dual mode] monitors detailed [with JP yen prices], first shipments start in June",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/hardware/comments/1t1ujji/lg_ultragear_32gx870bb_315_4k_tandem_woled_dual/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for May 2026 | 53% OFF | PC Gamer",
+          "source": "pcgamer.com",
+          "source_url": "https://www.pcgamer.com/coupons/lg.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Xiaomi",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Xiaomi® Taiwan | 小米台灣官網 | 官網商城出貨 | 智慧手機、平板、居家電器等",
+          "source": "mi.com",
+          "source_url": "https://www.mi.com/tw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "酷澎(Coupang) | < 3% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/coupang",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "三星擬全撤在華家電銷售 傳月底決定",
+          "source": "paper.hket.com",
+          "source_url": "https://paper.hket.com/article/4120996/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "蝦皮| < 15% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/shopee-official",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG秀未來居家AI Home藍圖 家電變身生活管家 目標打造「零勞務家庭」 | 流行消費 | 生活 | 聯合新聞網",
+          "source": "udn.com",
+          "source_url": "https://udn.com/news/story/7270/9468285",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "iRent優惠碼-2026年5月»iRent共享汽機車優惠碼/信用卡優惠/租車費用/使用教學",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/irent-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "肯德基優惠-2026年5月»最新肯德基 KFC優惠/優惠碼/折扣碼總整理",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/kfc-coupon-code/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-06",
+  "period_start": "2026-04-26",
+  "period_end": "2026-05-02"
+}

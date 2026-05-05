@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 72,
+  "country_breakdown": {
+    "SA": 72
+  },
+  "product_breakdown": {
+    "TV": 20,
+    "Refrigerator": 20,
+    "Washing Machine": 19,
+    "Monitor": 4,
+    "LG gram": 9
+  },
+  "brand_breakdown": {
+    "LG": 37,
+    "Hisense": 11,
+    "TCL": 6,
+    "Samsung": 3,
+    "Haier": 15
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 24,
+    "Chinese Brand Threat Tracking": 37,
+    "Retail Channel Promotions": 9,
+    "Consumer Sentiment": 2
+  },
+  "chinese_brand_total": 32,
+  "lg_total": 37,
+  "country_data": {
+    "SA": {
+      "total": 72,
+      "products": {
+        "TV": 20,
+        "Refrigerator": 20,
+        "Washing Machine": 19,
+        "Monitor": 4,
+        "LG gram": 9
+      },
+      "brands": {
+        "LG": 37,
+        "Hisense": 11,
+        "TCL": 6,
+        "Samsung": 3,
+        "Haier": 15
+      },
+      "chinese_count": 32,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The Hisense UR9’s massive, $1,500 discount is the quickest I’ve seen a flagship TV go on sale — and it proves that competition is fierce for RGB LED TVs | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/the-hisense-ur9s-massive-usd1-500-discount-is-the-quickest-ive-seen-a-flagship-tv-go-on-sale-and-it-proves-that-competition-is-fierce-for-rgb-led-tvs",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: LG - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-LG-Laundry-Appliances/s?rh=n:2383576011,p_89:LG",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier discount codes for May 2026 | £130 OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/haier-uk",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "r/OLED_Gaming on Reddit: LG UltraGear 32GX870B-B and 45GX950B-B monitors detailed, first shipments start in June",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/OLED_Gaming/comments/1t1n9ip/lg_ultragear_32gx870bb_and_45gx950bb_monitors/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Laptop Computers – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-computing/lg-laptops/pcmcat1531506580106.c?id=pcmcat1531506580106",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: Lg Gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/lg-gram/s?k=lg+gram",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/TCL/page/0BC8946D-897E-41F0-837E-F776CEDFD8B3",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-06",
+  "period_start": "2026-04-26",
+  "period_end": "2026-05-02"
+}
