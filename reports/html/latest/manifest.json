@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-05-05T21:12:16.748Z",
-  "total_weeks": 13,
-  "latest_week": "2026-05-06",
+  "generated_at": "2026-05-10T09:16:30.479Z",
+  "total_weeks": 14,
+  "latest_week": "2026-05-10",
   "weeks": [
+    {
+      "week": "2026-05-10",
+      "report_period": {
+        "start": "2026-05-03",
+        "end": "2026-05-09"
+      },
+      "version": "Weekly Vol.2026-05-10-R2",
+      "generated_at": "2026-05-10T09:12:24.857Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 347,
+        "competitor_promotion_signals": 8,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 5,
+        "critical_country_count": 3
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)",
+        "🇧🇷 브라질 (BR)"
+      ],
+      "executive_key_insights": [
+        "**LG OLED C5/G5 시리즈 글로벌 최저가 경쟁 심화**: 미국·독일·프랑스·이탈리아에서 Best Buy, MediaMarkt, Amazon 등 주요 리테일러가 OLED TV 역대 최저가 프로모션을 동시 진행 중이며, 이는 2026 FIFA 월드컵 시청 수요 선점을 위한 전략적 가격 공세로 분석됨",
+        "**중국 브랜드 RGB Mini-LED 공세 본격화**: TCL X11L(9,000nit), Hisense UR9(RGB Mini-LED)가 미국·브라질에서 LG QNED 대비 30-40% 저가 포지셔닝으로 출시되어 가성비 시장 점유율 위협이 가시화됨",
+        "**생활가전 부문 중국 브랜드 침투 가속**: Haier MultiWash(3중 드럼 세탁기) 독일 출시, Midea 냉장고 라틴아메리카 확장 등 HS 영역에서의 경쟁 압력이 MS 대비 더욱 급격히 상승 중"
+      ],
+      "links": {
+        "html": "./2026-05-10/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-05-10_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-05-10_R2_16country.md",
+        "share": "./2026-05-10/share.html"
+      }
+    },
     {
       "week": "2026-05-06",
       "report_period": {

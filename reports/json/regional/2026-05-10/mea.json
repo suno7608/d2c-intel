@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 72,
+  "country_breakdown": {
+    "SA": 72
+  },
+  "product_breakdown": {
+    "TV": 22,
+    "Refrigerator": 19,
+    "Washing Machine": 16,
+    "Monitor": 6,
+    "LG gram": 9
+  },
+  "brand_breakdown": {
+    "LG": 44,
+    "Hisense": 13,
+    "Haier": 9,
+    "Samsung": 1,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 12,
+    "Competitive Price & Positioning": 23,
+    "Chinese Brand Threat Tracking": 34,
+    "Consumer Sentiment": 3
+  },
+  "chinese_brand_total": 27,
+  "lg_total": 44,
+  "country_data": {
+    "SA": {
+      "total": 72,
+      "products": {
+        "TV": 22,
+        "Refrigerator": 19,
+        "Washing Machine": 16,
+        "Monitor": 6,
+        "LG gram": 9
+      },
+      "brands": {
+        "LG": 44,
+        "Hisense": 13,
+        "Haier": 9,
+        "Samsung": 1,
+        "TCL": 5
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Add a 2026 Hisense CanvasTV to Your Wall With Up to $1,800 in Savings - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/hisense-s7-canvas-tv-smart-art-tv-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Walmart Deals of the Day: Put a 65-Inch Hisense TV in Your Room for Less Than $300 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/walmart-deals-of-the-day-may-7/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: Refrigerators - LG / Refrigerators / Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-LG-Freezers-Ice-Makers/s?keywords=Refrigerators&rh=n%3A3741361%2Cp_89%3ALG&c=ts&ts_id=3741361",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: LG - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-LG-Laundry-Appliances/s?rh=n:2383576011,p_89:LG",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Reviews and Ratings - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Buy | Official Online Store | Shop Now & Save",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Monitor Deals in 2026: 4K, Gaming and Ultrawide Displays on Sale - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-monitor-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "r/Monitors on Reddit: [User-trial] LG UltraGear 27GM950B: Testing the New Standard for the Best Mini-LED Monitor",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Monitors/comments/1sr8473/usertrial_lg_ultragear_27gm950b_testing_the_new/",
+          "confidence": "high"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-10",
+  "period_start": "2026-05-03",
+  "period_end": "2026-05-09"
+}

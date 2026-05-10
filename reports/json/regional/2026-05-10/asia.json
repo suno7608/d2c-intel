@@ -1,0 +1,280 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 87,
+  "country_breakdown": {
+    "AU": 36,
+    "TW": 51
+  },
+  "product_breakdown": {
+    "TV": 31,
+    "Refrigerator": 22,
+    "Washing Machine": 16,
+    "Monitor": 12,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "LG": 51,
+    "TCL": 7,
+    "Xiaomi": 1,
+    "Hisense": 6,
+    "Haier": 13,
+    "Samsung": 3,
+    "Midea": 6
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 31,
+    "Chinese Brand Threat Tracking": 29,
+    "Competitive Price & Positioning": 18,
+    "Consumer Sentiment": 9
+  },
+  "chinese_brand_total": 32,
+  "lg_total": 51,
+  "country_data": {
+    "AU": {
+      "total": 36,
+      "products": {
+        "TV": 12,
+        "Refrigerator": 10,
+        "Washing Machine": 10,
+        "Monitor": 3,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 12,
+        "TCL": 6,
+        "Haier": 13,
+        "Samsung": 1,
+        "Midea": 4
+      },
+      "chinese_count": 23,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 Inch Class LG OLED evo AI G6 4K Smart TV 2026 with Supplied Wall Mount - OLED65G6WUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled65g6wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "77 Inch LG OLED evo AI G6 4K Smart TV 2026 - OLED77G6PSB | LG Australia | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/oled-evo-tv/oled77g6psb/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 Inch Class LG OLED evo AI G6 4K Smart TV 2026 with Supplied Wall Mount - OLED55G6WUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled55g6wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 Inch Class LG OLED AI B5 4K Smart TV 2025 - OLED55B5PUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled55b5pua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Carrefour está liquidando teles QNED, QLED y OLED hasta el 11 de mayo: LG, Samsung y TCL a precios de outlet",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/seleccion/carrefour-esta-liquidando-teles-qned-qled-oled-11-mayo-lg-samsung-tcl-a-precio-outlet",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "These 100- and 98-inch TVs deliver a true home theater experience, and prices now start under $1,500",
+          "source": "businessinsider.com",
+          "source_url": "https://www.businessinsider.com/guides/tech/best-100-inch-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "65C8L TCL 65 INCH Premium SQD-Mini LED 4K UHD Google TV (2026)",
+          "source": "appliancecentral.com.au",
+          "source_url": "https://www.appliancecentral.com.au/65c8l-tcl-65-inch-premium-sqd-mini-led-4k-uhd-google-tv-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Samsung Electronics - Wikipedia",
+          "source": "en.wikipedia.org",
+          "source_url": "https://en.wikipedia.org/wiki/Samsung_Electronics",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 51,
+      "products": {
+        "TV": 19,
+        "Refrigerator": 12,
+        "Washing Machine": 6,
+        "Monitor": 9,
+        "LG gram": 5
+      },
+      "brands": {
+        "LG": 39,
+        "Xiaomi": 1,
+        "Hisense": 6,
+        "TCL": 1,
+        "Midea": 2,
+        "Samsung": 2
+      },
+      "chinese_count": 9,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for May 2026 | Exclusive $40 Gift Card",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG UltraGear evo GX9 39\" 5K2K OLED 165Hz 0.03ms G SYNC FreeSync Premium Pro Gaming Monitor with DisplayHDR TRUE 500 Black 39GX950B-B - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-ultragear-evo-gx9-39-5k2k-oled-165hz-0-03ms-g-sync-freesync-premium-pro-gaming-monitor-with-displayhdr-true-500-black/JJ8VPZZYYH",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "酷澎(Coupang) | < 3% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/coupang",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "蝦皮| < 15% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/shopee-official",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "This OLED breakthrough has me super excited for next-gen LG TVs | T3",
+          "source": "t3.com",
+          "source_url": "https://www.t3.com/home-living/this-oled-breakthrough-has-me-super-excited-for-the-next-gen-lg-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "肯德基優惠-2026年5月»最新肯德基 KFC優惠/優惠碼/折扣碼總整理",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/kfc-coupon-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Display 揭示 720Hz 電競 OLED，引領顯示技術新紀元 | 記者爆料網",
+          "source": "new-reporter.com",
+          "source_url": "https://new-reporter.com/news/189577/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Xiaomi",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Xiaomi® Taiwan | 小米台灣官網 | 官網商城出貨 | 智慧手機、平板、居家電器等",
+          "source": "mi.com",
+          "source_url": "https://www.mi.com/tw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "iRent優惠碼-2026年5月»iRent共享汽機車優惠碼/信用卡優惠/租車費用/使用教學",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/irent-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "【樂天旅遊優惠券】2026年5月：信用卡優惠碼疊加實測，日本訂房省錢攻略",
+          "source": "vocus.cc",
+          "source_url": "https://vocus.cc/article/69e7b504fd89780001c57d16",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-10",
+  "period_start": "2026-05-03",
+  "period_end": "2026-05-09"
+}

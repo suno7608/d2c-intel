@@ -1,0 +1,259 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 156,
+  "country_breakdown": {
+    "US": 139,
+    "CA": 17
+  },
+  "product_breakdown": {
+    "TV": 38,
+    "Refrigerator": 40,
+    "Washing Machine": 35,
+    "Monitor": 23,
+    "LG gram": 20
+  },
+  "brand_breakdown": {
+    "LG": 105,
+    "Hisense": 3,
+    "TCL": 11,
+    "Samsung": 4,
+    "Haier": 14,
+    "Midea": 19
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 50,
+    "Competitive Price & Positioning": 27,
+    "Chinese Brand Threat Tracking": 54,
+    "Consumer Sentiment": 25
+  },
+  "chinese_brand_total": 47,
+  "lg_total": 105,
+  "country_data": {
+    "US": {
+      "total": 139,
+      "products": {
+        "TV": 36,
+        "Refrigerator": 30,
+        "Washing Machine": 30,
+        "Monitor": 23,
+        "LG gram": 20
+      },
+      "brands": {
+        "LG": 101,
+        "Hisense": 3,
+        "TCL": 11,
+        "Samsung": 4,
+        "Haier": 8,
+        "Midea": 12
+      },
+      "chinese_count": 34,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "On Sale LG OLED TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/searchpage.jsp?browsedCategory=pcmcat321700050001&id=pcat17071&qp=currentoffers_facet%3DCurrent+Deals~On+Sale&st=pcmcat321700050001_categoryid$abcat0101001",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The cheapest OLED TV deals and sales in April 2026 | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/deals/best-oled-tv-prices-deals",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best cheap OLED TV deals for April 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/news/best-oled-tv-deals",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TVs for 2026: Expert Tested and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best Refrigerators of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/refrigerators",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 6 Best 27-Inch Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/27-inch-gaming",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "RGB LED TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tvs/rgb-led-tvs/pcmcat1775232429347.c?id=pcmcat1775232429347",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The Hisense UR9’s massive, $1,500 discount is the quickest I’ve seen a flagship TV go on sale — and it proves that competition is fierce for RGB LED TVs | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/the-hisense-ur9s-massive-usd1-500-discount-is-the-quickest-ive-seen-a-flagship-tv-go-on-sale-and-it-proves-that-competition-is-fierce-for-rgb-led-tvs",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: MIDEA - Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-Freezers-Ice-Makers-MIDEA-Appliances/s?rh=n:17921061011,p_89:MIDEA",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Haier Washing Machine",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/haier-washing-machine/s?k=haier+washing+machine",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 17,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 10,
+        "Washing Machine": 5
+      },
+      "brands": {
+        "LG": 4,
+        "Haier": 6,
+        "Midea": 7
+      },
+      "chinese_count": 13,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "These Are The Best TV Deals This Cyber Monday",
+          "source": "wired.com",
+          "source_url": "https://www.wired.com/story/cyber-monday-tv-deals-2025/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 77\" B5 Series OLED AI 4K Ultra HD Smart webOS TV - $1,299.99 Shipped Free - Online Hot Deals - GottaDEAL Forums",
+          "source": "forums.gottadeal.com",
+          "source_url": "https://forums.gottadeal.com/topic/387000-lg-77-b5-series-oled-ai-4k-ultra-hd-smart-webos-tv-129999-shipped-free",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Discount Home Appliances | NEW | 30-60% Off Retail – SecondShop",
+          "source": "secondshop.ca",
+          "source_url": "https://secondshop.ca/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/haier/ki8-6sg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier | Etobicoke, ON",
+          "source": "faulknersappliances.ca",
+          "source_url": "https://www.faulknersappliances.ca/catalog/special/manufacturer/Haier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-10",
+  "period_start": "2026-05-03",
+  "period_end": "2026-05-09"
+}

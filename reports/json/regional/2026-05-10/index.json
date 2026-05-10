@@ -1,0 +1,58 @@
+{
+  "date_key": "2026-05-10",
+  "period_start": "2026-05-03",
+  "period_end": "2026-05-09",
+  "regions": {
+    "nam": {
+      "name_ko": "북미",
+      "total_records": 156,
+      "chinese_brand_total": 47,
+      "countries": [
+        "US",
+        "CA"
+      ]
+    },
+    "eur": {
+      "name_ko": "유럽",
+      "total_records": 361,
+      "chinese_brand_total": 142,
+      "countries": [
+        "UK",
+        "DE",
+        "FR",
+        "IT",
+        "ES"
+      ]
+    },
+    "latam": {
+      "name_ko": "중남미",
+      "total_records": 99,
+      "chinese_brand_total": 35,
+      "countries": [
+        "BR",
+        "MX",
+        "CL"
+      ]
+    },
+    "asia": {
+      "name_ko": "아시아 태평양",
+      "total_records": 87,
+      "chinese_brand_total": 32,
+      "countries": [
+        "AU",
+        "TW",
+        "SG",
+        "TH"
+      ]
+    },
+    "mea": {
+      "name_ko": "중동·아프리카",
+      "total_records": 72,
+      "chinese_brand_total": 27,
+      "countries": [
+        "SA",
+        "EG"
+      ]
+    }
+  }
+}

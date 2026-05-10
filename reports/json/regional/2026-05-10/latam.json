@@ -1,0 +1,287 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 99,
+  "country_breakdown": {
+    "BR": 88,
+    "MX": 8,
+    "CL": 3
+  },
+  "product_breakdown": {
+    "TV": 37,
+    "Refrigerator": 21,
+    "Washing Machine": 23,
+    "Monitor": 17,
+    "LG gram": 1
+  },
+  "brand_breakdown": {
+    "LG": 53,
+    "TCL": 10,
+    "Samsung": 9,
+    "Hisense": 12,
+    "Electrolux": 1,
+    "Whirlpool": 1,
+    "Midea": 8,
+    "Haier": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 36,
+    "Chinese Brand Threat Tracking": 41,
+    "Competitive Price & Positioning": 8,
+    "Consumer Sentiment": 14
+  },
+  "chinese_brand_total": 35,
+  "lg_total": 53,
+  "country_data": {
+    "BR": {
+      "total": 88,
+      "products": {
+        "TV": 35,
+        "Refrigerator": 18,
+        "Washing Machine": 19,
+        "Monitor": 15,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 46,
+        "TCL": 10,
+        "Samsung": 9,
+        "Hisense": 11,
+        "Electrolux": 1,
+        "Midea": 6,
+        "Haier": 5
+      },
+      "chinese_count": 32,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 3.588: Smart TV LG OLED evo AI C5 4K 55\" 2025 Processador α9 AI Ger 8 webOS 25 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-lg-oled-evo-ai-c5-4k-55-polegadas-2025-processador-a9-ai-ger-8-webos-25-intensificador-de-brilho-d7bc",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/gamesEcultura on Reddit: Quase metendo uma OLED. Menor preço que vi em anos! (LG C5)",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/gamesEcultura/comments/1t3r0vr/quase_metendo_uma_oled_menor_pre%C3%A7o_que_vi_em_anos/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 1.691: [APP] Smart TV 50\" TCL 4K UHD QLED 50P7K Google TV AiPQ Google Assistente 3 HDMI | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-50-tcl-4k-uhd-qled-50p7k-google-tv-aipq-google-assistente-3-hdmi-5f25",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.583: Smart TV 55” 4K UHD Hisense 55U6QV Mini LED 60Hz Vidaa Dolby Vision | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-55-4k-uhd-hisense-55u6qv-mini-led-60hz-vidaa-dolby-vision-11bd",
+          "confidence": "high"
+        },
+        {
+          "brand": "Electrolux",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 35,00: Escorredor de Louças Electrolux Top Dry Dobrável | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/escorredor-de-loucas-electrolux-top-dry-dobravel-6817",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 2.606: Geladeira Electrolux Frost Free Inverter 399L | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-electrolux-frost-free-inverter-399l-a285",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 3.699: Geladeira Electrolux Frost Free Inverter 484L Efficient AutoSense 3 Portas Branca (IM7) | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-electrolux-frost-free-inverter-484l-efficient-autosense-3-portas-branca-im7-743f",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 62,68: [Leve 2 R$ 31,34 cada] Detergente Lava Louças em Pó para Máquina Ypê 1Kg | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/leve-2-rdollar-3134-cada-detergente-lava-loucas-em-po-para-maquina-ype-1kg-b319",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.664: Monitor Gamer Curvo LG UltraGear 34\", QHD, UltraWide, 160Hz, 1ms, FreeSync Premium, HDR10, Altura Ajustável, Som Integrado - 34G600A-B | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-curvo-lg-ultragear-34-qhd-ultrawide-160hz-1ms-freesync-premium-hdr10-altura-ajustavel-som-integrado-34g600a-b-060e",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.124: Monitor Gamer LG UltraGear 32\", 2K QHD HDR10 - 32GN600-B | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/lg-ultragear-monitor-32-2k-qhd-165hz-5209",
+          "confidence": "high"
+        }
+      ]
+    },
+    "MX": {
+      "total": 8,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 3,
+        "Washing Machine": 1,
+        "Monitor": 2
+      },
+      "brands": {
+        "LG": 6,
+        "Hisense": 1,
+        "Whirlpool": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "La mejor tele OLED que puedes comprar se pone de oferta: 65 pulgadas 4K y 2500 nits de brillo",
+          "source": "larazon.es",
+          "source_url": "https://www.larazon.es/compras/nuestra-eleccion/mejor-tele-oled-que-puedes-comprar-pone-oferta-65-pulgadas-2500-nits-brillo_2026050669fb739d88bf0a6b02c589a3.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "4 Common Hisense TV Problems That Owners Run Into (And",
+          "source": "eternitylab.com",
+          "source_url": "https://eternitylab.com/all/4-common-hisense-tv-problems-that-owners-run-into-and/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Dulce Desy, la nueva cafetería de Huelva con obrador propio y opciones sin gluten: «Esperábamos un sitio así como agua de mayo»",
+          "source": "huelva24.com",
+          "source_url": "https://www.huelva24.com/gurme/huelva/aperturas/dulce-desy-nueva-cafeteria-huelva-obrador-propio-20260509171449-nth.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Whirlpool",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Home, Kitchen & Laundry Appliances & Products | Whirlpool",
+          "source": "whirlpool.com",
+          "source_url": "https://www.whirlpool.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Candy apuesta por el color en su gama Fresco: | casa actual",
+          "source": "casaactual.com",
+          "source_url": "https://casaactual.com/candy-apuesta-por-el-color-en-su-gama-fresco/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Reparar Lavadora Lg Se Apaga Sola | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/reparar-lavadora-lg-se-apaga-sola",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear evo 27GM950B el nuevo monitor gamer con Hyper Mini LED - TechGames",
+          "source": "techgames.com.mx",
+          "source_url": "https://www.techgames.com.mx/lg-ultragear-evo-27gm950b-el-nuevo-monitor-gamer-con-hyper-mini-led/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Display muestra su primer panel OLED RGB Stripe de 27 pulgadas con resolución 5K",
+          "source": "elchapuzasinformatico.com",
+          "source_url": "https://elchapuzasinformatico.com/2026/05/lg-display-panel-oled-5k-rgb-stripe-monitor-27-pulgadas/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 3,
+      "products": {
+        "Washing Machine": 3
+      },
+      "brands": {
+        "LG": 1,
+        "Midea": 2
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Como Instalar La Lavadora Lg De 23 Kg Con Ia",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/como-instalar-la-lavadora-lg-de-23-kg-con-ia",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Filtro Da Bomba De Drenagem Lavadora Midea",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/filtro-da-bomba-de-drenagem-lavadora-midea",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Solucionar Error F8 En Lavadora Midea",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/solucionar-error-f8-en-lavadora-midea",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-10",
+  "period_start": "2026-05-03",
+  "period_end": "2026-05-09"
+}
