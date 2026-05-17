@@ -1,0 +1,254 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 87,
+  "country_breakdown": {
+    "BR": 79,
+    "MX": 6,
+    "CL": 2
+  },
+  "product_breakdown": {
+    "TV": 36,
+    "Refrigerator": 20,
+    "Washing Machine": 14,
+    "Monitor": 15,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 47,
+    "TCL": 8,
+    "Hisense": 10,
+    "Samsung": 8,
+    "Midea": 11,
+    "Haier": 3
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 27,
+    "Chinese Brand Threat Tracking": 37,
+    "Competitive Price & Positioning": 8,
+    "Consumer Sentiment": 15
+  },
+  "chinese_brand_total": 32,
+  "lg_total": 47,
+  "country_data": {
+    "BR": {
+      "total": 79,
+      "products": {
+        "TV": 32,
+        "Refrigerator": 20,
+        "Washing Machine": 13,
+        "Monitor": 13,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 39,
+        "TCL": 8,
+        "Hisense": 10,
+        "Samsung": 8,
+        "Midea": 11,
+        "Haier": 3
+      },
+      "chinese_count": 32,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 4.821: LG OLED evo C5 4K 55 polegadas Smart TV | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/lg-oled-evo-c5-4k-55-polegadas-smart-tv-6a48",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 3.504: Monitor LG OLED UltraGear 27GX704A-B 240 Hz QHD | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-lg-oled-ultragear-27gx704a-b-240-hz-qhd-cupom-mibr-8d7b",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 2.925: Monitor Gamer Odyssey OLED G5 27\" | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-odyssey-oled-g5-27-e952",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "I’m a TV expert, and here are the best TVs you can buy today for every budget",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.552: Monitor Gamer LG UltraGear Curvo 34\" WQHD UltraWide 3440x1440 160Hz 1ms (MBR) HDR10 AMD FreeSync HDMI 34GP63A-B | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-lg-ultragear-curvo-34-wqhd-ultrawide-3440x1440-160hz-1ms-mbr-hdr10-amd-freesync-hdmi-34gp63a-b-6125",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 475: Monitor Gamer LG 24\" Full HD, 100Hz, IPS, 5ms, HDMI, Ajuste de Inclinação, Preto - 24MS500-B | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-lg-24-full-hd-100hz-ips-5ms-hdmi-ajuste-de-inclinacao-preto-24ms500-b-ca77",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.019: MONITOR LG ULTRAGEAR 32GN600 - 32\" 2K QHD 165HZ, 1MS (MBR), HDR10, FREE SYNC | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-lg-ultragear-32gn600-32-2k-qhd-165hz-1ms-mbr-hdr10-free-sync-5aba",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.187: Monitor LG UltraFine Tela IPS UHD 4K 27 - 27US500-W | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-lg-ultrafine-tela-ips-uhd-4k-27-27us500-w-d0f9",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 77\" LG Evo C5 4K OLED TV Drops to the Lowest Price Ever for My Best Buy Plus Members",
+          "source": "sea.ign.com",
+          "source_url": "https://sea.ign.com/lg-c5/242700/the-77-lg-evo-c5-4k-oled-tv-drops-to-the-lowest-price-ever-for-my-best-buy-plus-members",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Upgrading to OLED on a budget for the World Cup? This five-star LG TV with £618 off is one to watch | What Hi-Fi?",
+          "source": "whathifi.com",
+          "source_url": "https://www.whathifi.com/tv-home-cinema/televisions/upgrading-to-oled-on-a-budget-for-the-world-cup-this-five-star-lg-tv-with-gbp618-off-is-one-to-watch",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 6,
+      "products": {
+        "TV": 3,
+        "Monitor": 2,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 6
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sam’s Club lanza a precio de regalo pantalla Smart TV LG OLED de 77 pulgadas + barra de sonido: con casi 45% de descuent - El Heraldo de México",
+          "source": "heraldodemexico.com.mx",
+          "source_url": "https://heraldodemexico.com.mx/economia/2026/5/14/sams-club-lanza-precio-de-regalo-pantalla-smart-tv-lg-oled-de-77-pulgadas-barra-de-sonido-con-casi-45-de-descuent-812695.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED Evo G6, análisis: cuando un procesador nuevo convierte un gran televisor en uno casi perfecto",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/analisis/lg-oled-evo-ai-g6-analisis-caracteristicas-precio-especificaciones",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Portaltic.-LG trae al mercado español los televisores OLED evo 2026, que reúne los avances de la compañía en imagen e IA",
+          "source": "notimerica.com",
+          "source_url": "https://www.notimerica.com/ciencia-tecnologia/noticia-portaltic-lg-trae-mercado-espanol-televisores-oled-evo-2026-reune-avances-compania-imagen-ia-20260513154717.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG has announced the 32GX870B-B, a 31.5-inch 4K resolution gaming monitor featuring the latest organic EL panel (Tandem OLED). Pre-orders are open until Wednesday, June 10, 2026, and general sales will begin on Thursday, June 11, 2026.",
+          "source": "saiganak.com",
+          "source_url": "https://saiganak.com/product/lg-32gx870b-b-announcement/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Coppel liquida el precio de pantalla LG de 75 pulgadas con control de voz, super escalado 4K que realza los...",
+          "source": "radioformula.com.mx",
+          "source_url": "https://www.radioformula.com.mx/estilo-de-vida/coppel-liquida-el-precio-de-pantalla-lg-de-75-pulgadas-con-control-de-voz-super-escalado-4k-que-realza-los-colores-y-alta-fidelidad-en-sonido-20260513-0008.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "14インチ軽量モバイルPC「LG gram 14」に販路限定モデルを追加、2026年5月下旬より順次発売",
+          "source": "prtimes.jp",
+          "source_url": "https://prtimes.jp/main/html/rd/p/000000477.000023289.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 2,
+      "products": {
+        "TV": 1,
+        "Washing Machine": 1
+      },
+      "brands": {
+        "LG": 2
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED TV: por qué sigue siendo la referencia en pantallas premium",
+          "source": "ad-hoc-news.de",
+          "source_url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/lg-oled-tv-por-que-sigue-siendo-la-referencia-en-pantallas-premium/69338637",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lavadora inteligente LG F0P3CYV2E 20 Kg, Clase B, 1000 rpm, AI Direct Drive, TurboWash 360º, Inox antihuellas, Serie XXL | Puntronic",
+          "source": "puntronic.com",
+          "source_url": "https://www.puntronic.com/lavadora-inteligente-lg-f0p3cyv2e-20-kg-clase-b-1000-rpm-ai-direct-drive-turbowash-360-inox-antihuellas-serie-xxl",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-17",
+  "period_start": "2026-05-10",
+  "period_end": "2026-05-16"
+}

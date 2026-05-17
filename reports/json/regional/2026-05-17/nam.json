@@ -1,0 +1,260 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 153,
+  "country_breakdown": {
+    "US": 131,
+    "CA": 22
+  },
+  "product_breakdown": {
+    "TV": 41,
+    "Refrigerator": 38,
+    "Washing Machine": 34,
+    "Monitor": 24,
+    "LG gram": 16
+  },
+  "brand_breakdown": {
+    "LG": 98,
+    "TCL": 11,
+    "Samsung": 2,
+    "Haier": 18,
+    "Midea": 21,
+    "Hisense": 3
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 48,
+    "Competitive Price & Positioning": 23,
+    "Chinese Brand Threat Tracking": 57,
+    "Consumer Sentiment": 25
+  },
+  "chinese_brand_total": 53,
+  "lg_total": 98,
+  "country_data": {
+    "US": {
+      "total": 131,
+      "products": {
+        "TV": 39,
+        "Refrigerator": 28,
+        "Washing Machine": 26,
+        "Monitor": 24,
+        "LG gram": 14
+      },
+      "brands": {
+        "LG": 92,
+        "TCL": 11,
+        "Samsung": 2,
+        "Haier": 10,
+        "Midea": 13,
+        "Hisense": 3
+      },
+      "chinese_count": 37,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best cheap OLED TV deals for May 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/news/best-oled-tv-deals",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED TVs are on sale from $649 at Best Buy — here's the models I'd buy with my own money | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/lg-oled-tvs-are-on-sale-from-usd649-at-best-buy-heres-the-models-id-buy-with-my-own-money",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 43\" Class 75B Series QNED AI Mini LED 4K Smart webOS TV (2026) 43QNED75BUA - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-43-class-75b-series-qned-ai-mini-led-4k-smart-webos-tv-2026/JJ8VPZZ7JH",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Best LG TVs: LG OLED, Nano Cell, QNED and 4K TVs | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/best/best-lg-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "All Appliance Deals - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/all-electronics-on-sale/all-appliances-on-sale/pcmcat1637009144989.c?id=pcmcat1637009144989",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sales and Promotions at Best Buy: On Sale Electronics, Coupons and Promo Codes",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/electronics/sale-page/pcmcat185700050011.c?id=pcmcat185700050011",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best French Door Refrigerators of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/french-door",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 6 Best Refrigerator Brands of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/brands",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 6 Best Washing Machines We Tested for 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/home/kitchen-and-household/best-washing-machines/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 4 Best 4k Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/gaming-monitors-4k",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 22,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 10,
+        "LG gram": 2,
+        "Washing Machine": 8
+      },
+      "brands": {
+        "LG": 6,
+        "Haier": 8,
+        "Midea": 8
+      },
+      "chinese_count": 16,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-65-class-oledc5-series-4k-uhd-oled-tv/4000370787",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "20% Off LG Promo Code & Coupons | May 2026 | WIRED",
+          "source": "wired.com",
+          "source_url": "https://www.wired.com/story/lg-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Discount Home Appliances | NEW | 30-60% Off Retail – SecondShop",
+          "source": "secondshop.ca",
+          "source_url": "https://secondshop.ca/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "LG C6 (2026) Review: A Refined Display For a Cinematic Viewing Exerience | iPhone in Canada",
+          "source": "iphoneincanada.ca",
+          "source_url": "https://www.iphoneincanada.ca/2026/05/12/lg-c6-2026-review/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Electronics Share Price, LG Electronics Stock Price, LG Electronics India Ltd. Stock Price, Share Price, Live BSE/NSE, LG Electronics India Ltd. Bids Offers. Buy/Sell LG Electronics India Ltd. news & tips, & F&O Quotes, NSE/BSE Forecast News and Live Quotes - Moneycontrol.com",
+          "source": "moneycontrol.com",
+          "source_url": "https://www.moneycontrol.com/india/stockpricequote/domestic-appliances/lgelectronicsindia/LEI",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/haier/ki8-6sg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/refrigerators.html?brand=Haier&refine=%7C%7CBrand_attr-Haier",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-17",
+  "period_start": "2026-05-10",
+  "period_end": "2026-05-16"
+}

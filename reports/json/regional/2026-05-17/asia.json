@@ -1,0 +1,277 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 83,
+  "country_breakdown": {
+    "AU": 40,
+    "TW": 43
+  },
+  "product_breakdown": {
+    "TV": 33,
+    "Refrigerator": 20,
+    "Washing Machine": 17,
+    "Monitor": 11,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 41,
+    "Samsung": 3,
+    "TCL": 11,
+    "Hisense": 8,
+    "Haier": 13,
+    "Midea": 7
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 30,
+    "Chinese Brand Threat Tracking": 36,
+    "Competitive Price & Positioning": 11,
+    "Consumer Sentiment": 6
+  },
+  "chinese_brand_total": 39,
+  "lg_total": 41,
+  "country_data": {
+    "AU": {
+      "total": 40,
+      "products": {
+        "TV": 16,
+        "Refrigerator": 12,
+        "Washing Machine": 10,
+        "Monitor": 2
+      },
+      "brands": {
+        "LG": 9,
+        "Samsung": 2,
+        "TCL": 7,
+        "Haier": 13,
+        "Hisense": 2,
+        "Midea": 7
+      },
+      "chinese_count": 29,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 45-Inch OLED Dual-Mode 5K2K Gaming Monitor $2,136.64 Delivered @ LG Partners - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/959442",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The Highly Rated LG Evo C5 4K OLED TVs Have Dropped to a New Monthly Low Price on Amazon",
+          "source": "ign.com",
+          "source_url": "https://www.ign.com/articles/best-lg-evo-c5-4k-oled-tv-deal-for-my-best-buy-plus-members",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 Inch Class LG OLED evo AI G6 4K Smart TV 2026 with Supplied Wall Mount - OLED65G6WUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled65g6wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 Inch Class LG OLED evo AI G6 4K Smart TV 2026 with Supplied Wall Mount - OLED55G6WUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled55g6wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "77 inch Class LG OLED AI B5 4K Smart TV 2025 - OLED77B5PUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled77b5pua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 Inch Class LG OLED AI B5 4K Smart TV 2025 - OLED55B5PUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled55b5pua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 Inch Class LG OLED AI B5 4K Smart TV 2025 - OLED65B5PUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled65b5pua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL improves Mini LED with more quantum dots – Pickr",
+          "source": "pickr.com.au",
+          "source_url": "https://www.pickr.com.au/news/2026/tcl-improves-mini-led-with-more-quantum-dots/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL Brings SQD-Mini LED Television Range To Australia Across Three Models – SMBtech",
+          "source": "smbtech.au",
+          "source_url": "https://smbtech.au/news/tcl-brings-sqd-mini-led-television-range-to-australia-across-three-models/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Get your sunglasses, TCL just showcased a dazzling Mini LED TV that exceeds 10,000nits | Club386",
+          "source": "club386.com",
+          "source_url": "https://www.club386.com/tcl-mini-led-tv-10000nits/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 43,
+      "products": {
+        "TV": 17,
+        "Refrigerator": 8,
+        "Washing Machine": 7,
+        "Monitor": 9,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 32,
+        "Hisense": 6,
+        "TCL": 4,
+        "Samsung": 1
+      },
+      "chinese_count": 10,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for May 2026 | 20% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 吋LG OLED evo AI G5 4K 智能電視2025 | LG 香港",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/hk/tv-soundbars/oled-evo/oled65g5pca/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 27吋UltraGear電競螢幕亞馬遜激殺44% 價格下探280美元 - 墨新聞 MORE News",
+          "source": "more-news.tw",
+          "source_url": "https://more-news.tw/616373/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "蝦皮| < 15% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/shopee-official",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG gram Pro 2026輕薄巔峰再進化！導入Aerominum材質 攜手Mr. Donothing打造風格體驗 - ZEEK玩家誌",
+          "source": "zeekmagazine.com",
+          "source_url": "https://zeekmagazine.com/archives/257888",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Smart TV - Lantern by Labaton",
+          "source": "lantern.labaton.com",
+          "source_url": "https://lantern.labaton.com/case/lg-smart-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "GoShare優惠碼-2026年5月»GoShare 共享機車優惠碼/租車費用/營運範圍/使用教學",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/goshare-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "2026年显示器推荐：从2499元到万元级，海信这次真的把画质卷明白了_驱动中国",
+          "source": "tech.qudong.com",
+          "source_url": "https://tech.qudong.com/2026/0513/884808.shtml",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "RGB-Mini LED显示器与智能投影领衔，海信&Vidda六大3C潮品重磅发布-中新网",
+          "source": "chinanews.com.cn",
+          "source_url": "https://www.chinanews.com.cn/cj/2026/05-12/10619464.shtml",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "2026年（5月）预算6000—8000元电视选购指南|内附内行人公认海信/Vidda/TCL/创维/小米/华为/雷鸟/酷开高端高性价比爆款系列电视选购清单！闭眼入不踩坑！ - 知乎",
+          "source": "zhuanlan.zhihu.com",
+          "source_url": "https://zhuanlan.zhihu.com/p/2025157080705693136",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-17",
+  "period_start": "2026-05-10",
+  "period_end": "2026-05-16"
+}

@@ -1,0 +1,159 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 71,
+  "country_breakdown": {
+    "SA": 71
+  },
+  "product_breakdown": {
+    "TV": 20,
+    "Refrigerator": 18,
+    "Washing Machine": 19,
+    "Monitor": 4,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 41,
+    "Hisense": 10,
+    "TCL": 5,
+    "Samsung": 4,
+    "Haier": 10,
+    "Midea": 1
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 21,
+    "Chinese Brand Threat Tracking": 36,
+    "Retail Channel Promotions": 13,
+    "Consumer Sentiment": 1
+  },
+  "chinese_brand_total": 26,
+  "lg_total": 41,
+  "country_data": {
+    "SA": {
+      "total": 71,
+      "products": {
+        "TV": 20,
+        "Refrigerator": 18,
+        "Washing Machine": 19,
+        "Monitor": 4,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 41,
+        "Hisense": 10,
+        "TCL": 5,
+        "Samsung": 4,
+        "Haier": 10,
+        "Midea": 1
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "I Know How You Can Grab a New TV for Up to $1,300 Off - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Should you buy a new 2026 TV or save money on a 2025 model? Here's how to shop for a screen like an expert | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/should-you-buy-a-new-2026-tv-or-save-money-on-a-2025-model-heres-how-to-shop-for-a-screen-like-an-expert",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: LG - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-LG-Laundry-Appliances/s?rh=n:2383576011,p_89:LG",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Reviews and Ratings - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Buy | Official Online Store | Shop Now & Save",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "lg gram - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&st=lg+gram",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/TCL/page/0BC8946D-897E-41F0-837E-F776CEDFD8B3",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-17",
+  "period_start": "2026-05-10",
+  "period_end": "2026-05-16"
+}

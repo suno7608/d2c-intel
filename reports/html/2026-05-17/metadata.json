@@ -1,0 +1,35 @@
+{
+  "week": "2026-05-17",
+  "report_period": {
+    "start": "2026-05-10",
+    "end": "2026-05-16"
+  },
+  "version": "Weekly Vol.2026-05-17-R2",
+  "generated_at": "2026-05-17T09:23:07.886Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 291,
+    "competitor_promotion_signals": 8,
+    "chinese_threat_signals": 12,
+    "consumer_negative_countries": 3,
+    "critical_country_count": 5
+  },
+  "critical_countries": [
+    "🇬🇧 영국 (UK)",
+    "🇩🇪 독일 (DE)",
+    "🇧🇷 브라질 (BR)",
+    "🇦🇺 호주 (AU)",
+    "🇸🇦 사우디아라비아 (SA)"
+  ],
+  "executive_key_insights": [
+    "**중국 브랜드 가전 공세 본격화**: Haier/Midea가 냉장고·세탁기 시장에서 16개국 전반에 걸쳐 공격적 가격 프로모션 전개, 특히 호주·브라질·사우디에서 Haier의 유통망 확대가 두드러짐",
+    "**TV 외 제품 관심 급증**: 모니터(103건, +87% WoW), LG gram(50건)에 대한 미디어 노출 증가, 특히 UltraGear OLED 39인치 $850 할인 딜이 미국 시장에서 바이럴",
+    "**부정 소비자 반응 급증 경고**: 전주 대비 부정 반응 220% 증가(5건→16건), 냉장고 A/S 불만 및 세탁기 내구성 이슈가 주요 원인으로 독일·브라질에서 집중 발생"
+  ],
+  "links": {
+    "html": "./2026-05-17/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-05-17_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-05-17_R2_16country.md",
+    "share": "./2026-05-17/share.html"
+  }
+}
