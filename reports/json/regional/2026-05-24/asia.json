@@ -1,0 +1,278 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 84,
+  "country_breakdown": {
+    "AU": 36,
+    "TW": 48
+  },
+  "product_breakdown": {
+    "TV": 27,
+    "Refrigerator": 27,
+    "Washing Machine": 16,
+    "Monitor": 11,
+    "LG gram": 3
+  },
+  "brand_breakdown": {
+    "LG": 45,
+    "TCL": 9,
+    "Hisense": 7,
+    "Samsung": 2,
+    "Haier": 14,
+    "Midea": 7
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 28,
+    "Competitive Price & Positioning": 11,
+    "Chinese Brand Threat Tracking": 31,
+    "Consumer Sentiment": 14
+  },
+  "chinese_brand_total": 37,
+  "lg_total": 45,
+  "country_data": {
+    "AU": {
+      "total": 36,
+      "products": {
+        "TV": 9,
+        "Refrigerator": 13,
+        "Washing Machine": 11,
+        "Monitor": 1,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 10,
+        "TCL": 6,
+        "Samsung": 1,
+        "Haier": 12,
+        "Midea": 7
+      },
+      "chinese_count": 25,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear™ 27-inch 240Hz UHD 4K Nano IPS Black Gaming Monitor 27G850A-B $699@LG online store (save $700) - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/960289",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "LG Gram 16 16Z90TL, Intel Core Ultra 5-226V, 512GB SSD, 16GB RAM $1459 + Delivery ($0 NSW C&C) @ Mwave - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/959928",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 Inch Class LG OLED evo AI C6 4K Smart TV 2026 - OLED65C6PUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled65c6pua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Carrefour liquida este fin de semana el Smart TV LG QNED de 86 pulgadas perfecto para salones enormes",
+          "source": "compradiccion.com",
+          "source_url": "https://www.compradiccion.com/television/carrefour-liquida-este-fin-semana-smart-tv-lg-qned-86-pulgadas-perfecto-para-salones-enormes",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Lg 50uq70 Tv Review | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/lg-50uq70-tv-review",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL’s SQD-Mini LED technology is reshaping the premium TV conversation",
+          "source": "me.pcmag.com",
+          "source_url": "https://me.pcmag.com/en/tvs/37207/tcls-sqd-mini-led-technology-is-reshaping-the-premium-tv-conversation",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Electronics promo codes - 53% OFF for April 2026",
+          "source": "homesandgardens.com",
+          "source_url": "https://www.homesandgardens.com/coupons/lg-electronics",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Samsung Vs LG AC - 1.5 Ton 5 Star AC Comparison - CoolingInsights - 15+ Data driven Split AC Comparison and Usage Guide",
+          "source": "coolinginsights.in",
+          "source_url": "https://coolinginsights.in/comparison/samsung-vs-lg-ac/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 48,
+      "products": {
+        "TV": 18,
+        "Refrigerator": 14,
+        "Washing Machine": 5,
+        "Monitor": 10,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 35,
+        "Hisense": 7,
+        "TCL": 3,
+        "Haier": 2,
+        "Samsung": 1
+      },
+      "chinese_count": 12,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for May 2026 | Exclusive $40 Gift Card",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 吋 LG OLED evo AI G5 4K 智能電視 2025 - OLED65G5PCA | LG 香港",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/hk/tv-soundbars/oled-evo/oled65g5pca/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG｜新 RGB 顯示技術重塑高端電視版圖 OLED、LCD 同步升級",
+          "source": "inews.hket.com",
+          "source_url": "https://inews.hket.com/article/4132084/LG%EF%BD%9C%E6%96%B0%20RGB%20%E9%A1%AF%E7%A4%BA%E6%8A%80%E8%A1%93%E9%87%8D%E5%A1%91%E9%AB%98%E7%AB%AF%E9%9B%BB%E8%A6%96%E7%89%88%E5%9C%96%E3%80%80OLED%E3%80%81LCD%20%E5%90%8C%E6%AD%A5%E5%8D%87%E7%B4%9A?mtc=20040",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG推出2026年全新電視系列 提升OLED與LCD畫質體驗 | Techritual 香港",
+          "source": "techritual.com",
+          "source_url": "https://www.techritual.com/2026/05/20/534201/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for May 2026 | 58% OFF | PC Gamer",
+          "source": "pcgamer.com",
+          "source_url": "https://www.pcgamer.com/coupons/lg.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG發佈2026年全新電視系列 打造市場上最完整RGB電視組合 - FunkyKit 中文版",
+          "source": "hk.funkykit.com",
+          "source_url": "https://hk.funkykit.com/2026/05/41217",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 2026年全新電視系列 OLED與Micro RGB LCD雙線升級",
+          "source": "u4get.com",
+          "source_url": "https://www.u4get.com/2026/05/21/lg-2026%E5%B9%B4%E5%85%A8%E6%96%B0%E9%9B%BB%E8%A6%96%E7%B3%BB%E5%88%97-oled%E8%88%87micro-rgb-lcd%E9%9B%99%E7%B7%9A%E5%8D%87%E7%B4%9A/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "酷澎(Coupang) | < 3% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/coupang",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "中國海信電視疑監控家庭觀看紀錄 美集體訴訟曝隱私風險-新聞-Rti 中央廣播電臺",
+          "source": "rti.org.tw",
+          "source_url": "https://www.rti.org.tw/news?uid=3&pid=210195",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "你的電視在監控你 中國海信在美遭控「每半秒蒐集觀看內容」回傳母公司",
+          "source": "tw.news.yahoo.com",
+          "source_url": "https://tw.news.yahoo.com/%E4%BD%A0%E7%9A%84%E9%9B%BB%E8%A6%96%E5%9C%A8%E7%9B%A3%E6%8E%A7%E4%BD%A0-%E4%B8%AD%E5%9C%8B%E6%B5%B7%E4%BF%A1%E5%9C%A8%E7%BE%8E%E9%81%AD%E6%8E%A7-%E6%AF%8F%E5%8D%8A%E7%A7%92%E8%92%90%E9%9B%86%E8%A7%80%E7%9C%8B%E5%85%A7%E5%AE%B9-%E5%9B%9E%E5%82%B3%E6%AF%8D%E5%85%AC%E5%8F%B8-072342434.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-24",
+  "period_start": "2026-05-17",
+  "period_end": "2026-05-23"
+}

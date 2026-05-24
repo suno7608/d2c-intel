@@ -1,0 +1,311 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 98,
+  "country_breakdown": {
+    "BR": 84,
+    "MX": 10,
+    "CL": 4
+  },
+  "product_breakdown": {
+    "TV": 40,
+    "Refrigerator": 20,
+    "Washing Machine": 19,
+    "Monitor": 19
+  },
+  "brand_breakdown": {
+    "LG": 52,
+    "TCL": 12,
+    "Hisense": 11,
+    "Midea": 10,
+    "Samsung": 8,
+    "Haier": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 39,
+    "Chinese Brand Threat Tracking": 43,
+    "Competitive Price & Positioning": 5,
+    "Consumer Sentiment": 11
+  },
+  "chinese_brand_total": 38,
+  "lg_total": 52,
+  "country_data": {
+    "BR": {
+      "total": 84,
+      "products": {
+        "TV": 37,
+        "Refrigerator": 18,
+        "Washing Machine": 15,
+        "Monitor": 14
+      },
+      "brands": {
+        "LG": 42,
+        "TCL": 11,
+        "Hisense": 10,
+        "Midea": 9,
+        "Samsung": 8,
+        "Haier": 4
+      },
+      "chinese_count": 34,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "This 55-inch Hisense 4K TV with a vibrant Mini-LED panel and a super smooth 144Hz refresh rate is a bargain for your World Cup viewing | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/this-55-inch-hisense-4k-tv-with-a-vibrant-mini-led-panel-and-a-super-smooth-144hz-refresh-rate-is-a-bargain-for-your-world-cup-viewing",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 2.676: Geladeira LG Frost Free Inverter Duplex 395L | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-lg-frost-free-inverter-duplex-395l-4376",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Geladeira / Refrigerador LG Frost Free Inox Duplex Branca ...",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-refrigerador-lg-frost-free-inox-duplex-branca-375l-gn-b372pqw-110v-220v-839e",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 899: Monitor Gamer LG UltraGear 27GS60F-B IPS FHD 180Hz | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/lg-ultragear-27gs60f-b-monitor-gamer-ips-fhd-180hz-7716",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 4 Best Ultrawide Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-features/ultrawide",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Copa do Mundo 2026: TVs de 32\" a 75\" com até 46% OFF na Amazon e Mercado Livre • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/copa-do-mundo-2026-tvs-de-32-a-75-com-ate-46-off-na-amazon-e-mercado-livre/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG’s 77-inch B5 OLED TV is down to $1,500 and comes with a $200 gift card | The Verge",
+          "source": "theverge.com",
+          "source_url": "https://www.theverge.com/gadgets/936122/lg-b5-oled-77-best-buy-gift-card-memorial-day-deal-sale",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG's value-packed 77-inch B5 OLED TV is $1,500 off and includes a $200 Best Buy gift card today",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/05/22/lg-b5-oled-tv-best-buy-gift-card-offer/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Save $200 on this 77-inch OLED LG TV and soundbar bundle | WePC",
+          "source": "wepc.com",
+          "source_url": "https://www.wepc.com/news/save-200-on-this-77-inch-oled-lg-tv-and-soundbar-bundle/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG offers the 77 inch OLED evo AI C6H for $2999.99 | Technobezz",
+          "source": "technobezz.com",
+          "source_url": "https://www.technobezz.com/best/lg-offers-the-77-inch-oled-evo-ai-c6h-for-299999",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 10,
+      "products": {
+        "TV": 3,
+        "Refrigerator": 1,
+        "Washing Machine": 4,
+        "Monitor": 2
+      },
+      "brands": {
+        "LG": 7,
+        "TCL": 1,
+        "Hisense": 1,
+        "Midea": 1
+      },
+      "chinese_count": 3,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Las mejores lavadoras LG con IA para tener la ropa lista durante el gran torneo futbolero de 2026 | TechRadar",
+          "source": "global.techradar.com",
+          "source_url": "https://global.techradar.com/es-mx/tech/las-mejores-lavadoras-lg-con-ia-para-tener-la-ropa-lista-durante-el-gran-torneo-futbolero-de-2026",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "El espectacular televisor RGB Mini LED Hisense UR9S sigue a precio de derribo en 65 pulgadas",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/espectacular-rgb-mini-led-hisense-ur9s-derribo/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense Xplorer X1 Pro: el nuevo televisor 4K láser de Hisense es una bestia de 120 pulgadas con pantalla plegable y triple láser RGB",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/hisense-xplorer-x1-pro-televisor-laser-plegable/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Grey's Anatomy tendrá nuevo spin-off: prepárate con estas 4 Smart tv de 40\" Aiwa, Hisense y TCL | Oferta",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/viral/greys-anatomy-tendra-nuevo-spin-off-preparate-con-estas-4-smart-tv-de-40-aiwa-hisense-y-tcl--oferta-20260520-0147.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Comparativa de los mejores frigoríficos combi de 2026",
+          "source": "lavanguardia.com",
+          "source_url": "https://www.lavanguardia.com/comprar/mas-valorados/20260523/11535062/mejores-frigorificos-combi-comparativa-mkt-eo.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Lavadoras Lg - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavadoras-lg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Bodega Aurrera regala precio de lavadora LG de 18 kilos, tecnología Smart Diagnosis, y sistema de lavado in...",
+          "source": "radioformula.com.mx",
+          "source_url": "https://www.radioformula.com.mx/estilo-de-vida/bodega-aurrera-regala-precio-de-lavadora-lg-de-18-kilos-tecnologia-smart-diagnosis-y-sistema-de-lavado-inteligente-para-cada-tipo-de-tela-20260520-0115.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Así es la lavadora barata de Midea para 13KG de ropa: por menos de $3,500 y 15 MSI en Mercado Libre",
+          "source": "msn.com",
+          "source_url": "https://www.msn.com/es-mx/noticias/other/as%C3%AD-es-la-lavadora-barata-de-midea-para-13kg-de-ropa-por-menos-de-3-500-y-15-msi-en-mercado-libre/ar-AA22WiVb?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 25G590B el primer monitor gaming Full HD con frecuencia 1000Hz - TechGames",
+          "source": "techgames.com.mx",
+          "source_url": "https://www.techgames.com.mx/lg-ultragear-25g590b-el-primer-monitor-gaming-full-hd-con-frecuencia-1000hz/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Bodega Aurrera pone a precio de regalo Pantalla Smart TV LG QNED de 55 pulgadas con descuento superior al 50%: con tecnología 4K y Quantum Dot - El Heraldo de México",
+          "source": "heraldodemexico.com.mx",
+          "source_url": "https://heraldodemexico.com.mx/economia/2026/5/20/bodega-aurrera-pone-precio-de-regalo-pantalla-smart-tv-lg-qned-de-55-pulgadas-con-descuento-superior-al-50-con-tecnologia-4k-quantum-dot-816166.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 4,
+      "products": {
+        "Refrigerator": 1,
+        "Monitor": 3
+      },
+      "brands": {
+        "Haier": 1,
+        "LG": 3
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier HVAC comparte claves para climatizar hogares ahorrando energía este verano",
+          "source": "climanoticias.com",
+          "source_url": "https://www.climanoticias.com/texto-diario/mostrar/5891202/haier-hvac-comparte-claves-climatizar-hogares-ahorrando-energia-verano",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Unveils \"World's First\" Native 1,000Hz UltraGear Gaming Monitor",
+          "source": "androidheadlines.com",
+          "source_url": "https://www.androidheadlines.com/2026/05/lg-unveils-worlds-first-native-1000hz-ultragear-gaming-monitor.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "This LG OLED gaming monitor packs a 480Hz refresh rate and it's now 25% off at Newegg - PC Guide",
+          "source": "pcguide.com",
+          "source_url": "https://www.pcguide.com/deals/this-lg-oled-gaming-monitor-packs-a-480hz-refresh-rate-and-its-now-25-off-at-newegg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "1080p monitor with a native 1000Hz refresh rate: LG unveils 25G590B - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/1080p-monitor-with-a-native-1000Hz-refresh-rate-LG-unveils-25G590B.1300162.0.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-24",
+  "period_start": "2026-05-17",
+  "period_end": "2026-05-23"
+}

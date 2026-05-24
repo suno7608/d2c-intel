@@ -1,0 +1,261 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 157,
+  "country_breakdown": {
+    "US": 136,
+    "CA": 21
+  },
+  "product_breakdown": {
+    "TV": 38,
+    "Refrigerator": 31,
+    "Washing Machine": 48,
+    "Monitor": 23,
+    "LG gram": 17
+  },
+  "brand_breakdown": {
+    "LG": 100,
+    "TCL": 10,
+    "Samsung": 6,
+    "Haier": 14,
+    "Midea": 25,
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 48,
+    "Competitive Price & Positioning": 29,
+    "Chinese Brand Threat Tracking": 58,
+    "Consumer Sentiment": 22
+  },
+  "chinese_brand_total": 51,
+  "lg_total": 100,
+  "country_data": {
+    "US": {
+      "total": 136,
+      "products": {
+        "TV": 34,
+        "Refrigerator": 23,
+        "Washing Machine": 39,
+        "Monitor": 23,
+        "LG gram": 17
+      },
+      "brands": {
+        "LG": 96,
+        "TCL": 9,
+        "Samsung": 6,
+        "Haier": 8,
+        "Midea": 16,
+        "Hisense": 1
+      },
+      "chinese_count": 34,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Buy's Memorial Day TV sale is live, and this 55-inch LG OLED for $799 is my favorite deal of the entire event | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/best-buys-memorial-day-tv-sale-is-live-and-this-55-inch-lg-oled-for-usd799-is-my-favorite-deal-of-the-entire-event",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TVs for 2026: Expert Tested and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "I Tested the Best Budget TVs Head-to-Head. This One Was Shockingly Good - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-budget-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sales and Promotions at Best Buy: On Sale Electronics, Coupons and Promo Codes",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/electronics/sale-page/pcmcat185700050011.c?id=pcmcat185700050011",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 4 Best 32-Inch Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-size/32-inch",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 3 Best Mini LED Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/mini-led",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG gram Pro Max 17\" 144Hz Touch Screen Gaming Laptop WQXGA Intel Core Ultra 9 Processor 386H, RTX 5050, 32GB RAM 1TB SSD Brushed Bronze 17Z90UR-P.AU99U3 - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-gram-pro-max-17-144hz-touch-screen-gaming-laptop-wqxga-intel-core-ultra-9-processor-386h-rtx-5050-32gb-ram-1tb-ssd-brushed-bronze/JJ8VPZZCVX",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "r/LG_UserHub on Reddit: LG UltraGear evo™ 39GX950B & 27GM950B: Pre-order Launching Schedule by Region",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/LG_UserHub/comments/1ssff3o/lg_ultragear_evo_39gx950b_27gm950b_preorder/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 6 Best TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: MIDEA - Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-Freezers-Ice-Makers-MIDEA-Appliances/s?rh=n%3A17921061011%2Cp_89%3AMIDEA",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 21,
+      "products": {
+        "TV": 4,
+        "Refrigerator": 8,
+        "Washing Machine": 9
+      },
+      "brands": {
+        "LG": 4,
+        "TCL": 1,
+        "Hisense": 1,
+        "Haier": 6,
+        "Midea": 9
+      },
+      "chinese_count": 17,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 55\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-55-class-oledc5-series-4k-uhd-oled-tv/4000370709",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "This 55-Inch LG OLED TV Is Nearly Half Off Right Now | Lifehacker",
+          "source": "lifehacker.com",
+          "source_url": "https://lifehacker.com/tech/lg-b5-oled-tv-deal-may-2026?test_uuid=zXnWOLjQQwkYjMVwrvo5w&test_variant=A",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG vs Frigidaire for May 2026 | Best Dishwashers",
+          "source": "topconsumerreviews.com",
+          "source_url": "https://www.topconsumerreviews.com/best-dishwashers/compare/lg-vs-frigidaire.php",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 10 Best Washing Machines for 2026 | Free Buyers Guide",
+          "source": "topconsumerreviews.com",
+          "source_url": "https://www.topconsumerreviews.com/best-washing-machines/detailed-reviews.php",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "We test TVs year-round, and the TCL QM8K is the best 85-inch TV for most people",
+          "source": "businessinsider.com",
+          "source_url": "https://www.businessinsider.com/guides/tech/best-85-inch-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense Goes Big With $1,300 Off This 98\" QLED 4K UHD Smart Google TV as Theater-Sized Screens Crash in Price for Memorial Day",
+          "source": "gizmodo.com",
+          "source_url": "https://gizmodo.com/hisense-goes-big-with-1300-off-this-98-qled-4k-uhd-smart-google-tv-as-theater-sized-screens-crash-in-price-for-memorial-day-2000762295",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/haier/ki8-6sg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-24",
+  "period_start": "2026-05-17",
+  "period_end": "2026-05-23"
+}

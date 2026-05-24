@@ -1,0 +1,602 @@
+{
+  "region": "eur",
+  "region_name_ko": "유럽",
+  "region_name_en": "Europe",
+  "countries": [
+    "UK",
+    "DE",
+    "FR",
+    "IT",
+    "ES"
+  ],
+  "total_records": 315,
+  "country_breakdown": {
+    "UK": 52,
+    "DE": 101,
+    "FR": 74,
+    "IT": 56,
+    "ES": 32
+  },
+  "product_breakdown": {
+    "TV": 122,
+    "Refrigerator": 68,
+    "Washing Machine": 41,
+    "Monitor": 75,
+    "LG gram": 9
+  },
+  "brand_breakdown": {
+    "LG": 168,
+    "Hisense": 24,
+    "Samsung": 29,
+    "TCL": 35,
+    "Haier": 29,
+    "Midea": 29,
+    "Bosch": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 99,
+    "Chinese Brand Threat Tracking": 137,
+    "Competitive Price & Positioning": 42,
+    "Consumer Sentiment": 37
+  },
+  "chinese_brand_total": 117,
+  "lg_total": 168,
+  "country_data": {
+    "UK": {
+      "total": 52,
+      "products": {
+        "TV": 19,
+        "Refrigerator": 18,
+        "Washing Machine": 6,
+        "Monitor": 7,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 28,
+        "Haier": 10,
+        "TCL": 2,
+        "Hisense": 2,
+        "Midea": 10
+      },
+      "chinese_count": 24,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "There’s No Need to Wait Until Memorial Day Sales to Nab a New TV for Up to $1,300 Off - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 6 Best Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/monitors",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The five-star LG C6 OLED TV has its first discount ahead of the World Cup – but stock is drying up | What Hi-Fi?",
+          "source": "whathifi.com",
+          "source_url": "https://www.whathifi.com/tv-home-cinema/televisions/the-five-star-lg-c6-oled-tv-has-its-first-discount-ahead-of-the-world-cup-but-stock-is-drying-up",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2 flagship OLED TV deals worth buying land at $2799.99 each | Technobezz",
+          "source": "technobezz.com",
+          "source_url": "https://www.technobezz.com/best/2-flagship-oled-tv-deals-worth-buying-land-at-279999-each",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55-inch LG Class OLED Smart TV: Get it for under $800 on Amazon today | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/article/may-15-lg-55-inch-tv-deal",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "This 55-Inch LG OLED TV Is Nearly Half Off Right Now | Lifehacker",
+          "source": "lifehacker.com",
+          "source_url": "https://lifehacker.com/tech/lg-b5-oled-tv-deal-may-2026?test_uuid=zXnWOLjQQwkYjMVwrvo5w&test_variant=B",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes and Coupons for May 2026 | WIRED",
+          "source": "wired.com",
+          "source_url": "https://www.wired.com/story/lg-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The Best Memorial Day TV Deals Are Here and They’re Looking Sharp With Up to 50% off | PCMag",
+          "source": "pcmag.com",
+          "source_url": "https://www.pcmag.com/deals/best-tv-deals-memorial-day-2026-sale",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Memorial Day 2026 TV sale: LG OLED 77-inch now 50% off with free $200 gift card at Best Buy - cleveland.com",
+          "source": "cleveland.com",
+          "source_url": "https://www.cleveland.com/shopping/2026/05/get-50-off-massive-77-inch-lg-oled-tv-plus-free-200-gift-card-in-best-buy-memorial-day-sale.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Memorial Day TV deals 2026: Save on Hisense, Samsung, LG, and more | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/best-memorial-day-tv-live-deals-2026",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "DE": {
+      "total": 101,
+      "products": {
+        "TV": 39,
+        "Refrigerator": 21,
+        "Washing Machine": 17,
+        "Monitor": 22,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 55,
+        "Hisense": 8,
+        "Samsung": 10,
+        "TCL": 10,
+        "Haier": 9,
+        "Midea": 8,
+        "Bosch": 1
+      },
+      "chinese_count": 35,
+      "top_signals": [
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea PortaSplit 3,5 kW mobile Klimaanlage – 668,77€ effektiver Preis bei Toom, Selbstabholung, jetzt anlegen at toom | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/toom-lokal-midea-portasplit-35-kw-12000-btu-mobile-split-klimaanlage-selbstabholer-2784392",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED-TVs zum WM-Preis: Lohnen sich die MediaMarkt-Deals? - CHIP",
+          "source": "chip.de",
+          "source_url": "https://www.chip.de/angebote/schnaeppchen/lg-oled-tvs-zum-wm-preis-lohnen-sich-die-mediamarkt-deals-wirklich_9bf7a421-d057-405c-b94d-ecdc69f68150.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG-Fernseher mit 65 Zoll im Deal: 100 Euro sparen! - COMPUTER BILD",
+          "source": "computerbild.de",
+          "source_url": "https://www.computerbild.de/artikel/deals-fernseher-lg-oled-c5-65-zoll-angebot-40936229.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG G5 sehr günstig bei MediaMarkt: Jetzt OLED-Aushängeschild in 55 Zoll schnappen",
+          "source": "hifi.de",
+          "source_url": "https://hifi.de/angebot/lg-g5-sehr-guenstig-bei-mediamarkt-jetzt-oled-aushaengeschild-in-55-zoll-schnappen-263529",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart-TV von LG mit 65 Zoll & OLED-Display für unter 1.600 Euro - COMPUTER BILD",
+          "source": "computerbild.de",
+          "source_url": "https://www.computerbild.de/artikel/Deals-Fernseher-smart-tv-lg-oled65g56ls-media-markt-angebot-40949445.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED C5, Samsung-TV etc. geschenkt? MediaMarkt macht's bei jedem 11. Einkauf möglich",
+          "source": "pcgameshardware.de",
+          "source_url": "https://www.pcgameshardware.de/Fernseher-Hardware-134500/News/LG-OLED-C5-Samsung-TV-etc-geschenkt-MediaMarkt-machts-bei-jedem-11-Einkauf-moeglich-1535851-1535851/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Top-TV reduziert: LG OLED B3 mit 65 Zoll zum starken WM-Preis - COMPUTER BILD",
+          "source": "computerbild.de",
+          "source_url": "https://www.computerbild.de/artikel/Deals-Fernseher-lg-oled-b39la-65-zoll-media-markt-angebot-40954449.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Günstiger G5-Deal bei MediaMarkt: Jetzt OLED-Aushängeschild in 55 Zoll schnappen",
+          "source": "hifi.de",
+          "source_url": "https://hifi.de/angebot/guenstiger-g5-deal-bei-mediamarkt-jetzt-oled-aushaengeschild-in-55-zoll-schnappen-2-263529",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "MediaMarkt verschenkt jeden elften LG-Fernseher und sorgt für bis zu 70 Prozent Rabatt",
+          "source": "inside-digital.de",
+          "source_url": "https://www.inside-digital.de/kaufberatungen/mediamarkt-verschenkt-jeden-elften-lg-fernseher-und-sorgt-fuer-bis-zu-70-prozent-rabatt",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED-Wahnsinn bei MediaMarkt: LG C5 über 60% reduziert und jeder 11. Einkauf geschenkt - Kino News - FILMSTARTS.de",
+          "source": "filmstarts.de",
+          "source_url": "https://www.filmstarts.de/nachrichten/1000205166.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "FR": {
+      "total": 74,
+      "products": {
+        "TV": 30,
+        "Refrigerator": 14,
+        "Washing Machine": 5,
+        "Monitor": 22,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 38,
+        "TCL": 11,
+        "Hisense": 8,
+        "Samsung": 15,
+        "Haier": 2
+      },
+      "chinese_count": 21,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in May 2026 | Exclusive $40 Gift Card | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/lg-coupon-codes",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Extra 20% Off a first LG order - Coupon Code",
+          "source": "slickdeals.net",
+          "source_url": "https://slickdeals.net/promo-codes/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lave-linge Samsung AI ecobubble 11kg Blanc – à Veepee, 469,99 € | Dealabs",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/lave-linge-ai-ecobubble-11kg-blanc-3339401",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "800€ de remise - Code promo LG - mai 2026",
+          "source": "reduc.fr",
+          "source_url": "https://www.reduc.fr/codes-promo/lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Code: Coupons 20% Off + Cash Back March 2026",
+          "source": "dealnews.com",
+          "source_url": "https://www.dealnews.com/features/lg/promo-codes/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Code 5% OFF | May 2026",
+          "source": "lg.valuecom.com",
+          "source_url": "https://lg.valuecom.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Guide : Quels sont les meilleurs TV 4K OLED ? Mai 2026 - Les Numériques",
+          "source": "lesnumeriques.com",
+          "source_url": "https://www.lesnumeriques.com/tv-televiseur/guide-achat-les-meilleurs-televiseurs-4k-oled-g93.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Guide : Quels sont les meilleurs TV 4K 65 pouces (165 cm) ? Mai 2026 - Les Numériques",
+          "source": "lesnumeriques.com",
+          "source_url": "https://www.lesnumeriques.com/tv-televiseur/guide-achat-les-meilleurs-televiseurs-4k-de-65-pouces-165-cm-g89.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in May 2026 | 40% OFF | Tom's Hardware",
+          "source": "tomshardware.com",
+          "source_url": "https://www.tomshardware.com/coupons/lg.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Promo Samsung tv oled 4k chez Pulsat",
+          "source": "promocatalogues.fr",
+          "source_url": "https://www.promocatalogues.fr/magasins/pulsat/offres/samsung-tv-oled-4k-offre-61839604/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "IT": {
+      "total": 56,
+      "products": {
+        "TV": 23,
+        "Refrigerator": 11,
+        "Washing Machine": 7,
+        "Monitor": 14,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 29,
+        "TCL": 6,
+        "Hisense": 6,
+        "Haier": 6,
+        "Samsung": 3,
+        "Midea": 6
+      },
+      "chinese_count": 24,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "La nuova gamma di TV OLED LG è finalmente disponibile, tutti i prezzi e la promo di lancio | DDay.it",
+          "source": "dday.it",
+          "source_url": "https://www.dday.it/redazione/57478/la-nuova-gamma-di-tv-oled-lg-e-finalmente-disponibile-tutti-i-prezzi-e-la-promo-di-lancio",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED Evo AI C5 da 65“ in offerta su Amazon: il migliore per rapporto qualità/prezzo | DDay.it",
+          "source": "dday.it",
+          "source_url": "https://www.dday.it/redazione/55189/lg-oled-evo-c5-in-offerta-su-amazon-il-migliore-per-rapporto-qualita-prezzo-",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV OLED LG 2026: tutti i prezzi italiani... e c'è anche una super promozione",
+          "source": "afdigitale.it",
+          "source_url": "https://www.afdigitale.it/tv-oled-lg-2026-tutti-i-prezzi-italiani-e-ce-anche-una-super-promozione/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo AI 2026 arrivano in Italia: TV più luminosi, IA avanzata e prezzi fino a 20.000 euro - Multiplayer.it",
+          "source": "multiplayer.it",
+          "source_url": "https://multiplayer.it/notizie/lg-oled-evo-ai-2026-italia-tv-piu-luminosi-ia-avanzata-prezzi-20000-euro.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo AI 2026 arrivano in Italia: luminosità quasi 4x, tre AI integrate e prezzi da 1.299 euro",
+          "source": "smartworld.it",
+          "source_url": "https://www.smartworld.it/news/lg-oled-evo-ai-2026-prezzi-italia.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo AI 2026 arrivano in Italia: prezzi e promo",
+          "source": "tecnoandroid.it",
+          "source_url": "https://www.tecnoandroid.it/2026/05/20/lg-oled-evo-ai-2026-arrivano-in-italia-prezzi-e-promo-1892967/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Crollo prezzi Smart TV su Amazon: sconti verticali fino a 1.500 euro e prezzi a partire da 280€",
+          "source": "tuttotech.net",
+          "source_url": "https://www.tuttotech.net/news/2026/05/23/televisori-85-pollici-lg-ai-samsung-oled-offerte.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG lancia in Italia la nuova gamma TV OLED evo AI 2026: colori, AI e design innovativo - MEGAMODO",
+          "source": "megamodo.com",
+          "source_url": "https://www.megamodo.com/lg-tv-oled-evo-ai-2026-italia-colori-intelligenza-artificiale-design/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG OLED B6, G6, C6, W6 e Mini RGB 2026: i prezzi ufficiali della nuova gamma | AV Magazine",
+          "source": "avmagazine.it",
+          "source_url": "https://www.avmagazine.it/news/4K/tv-lg-oled-b6-g6-c6-w6-e-mini-rgb-2026-i-prezzi-ufficiali-della-nuova-gamma_25000.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG porta in Italia i nuovi TV OLED evo AI 2026: più luminosi, più intelligenti e fino a 97 pollici",
+          "source": "tuttotech.net",
+          "source_url": "https://www.tuttotech.net/news/2026/05/21/lg-tv-oled-evo-ai-2026-ufficiali-italia-prezzo-caratteristiche.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "ES": {
+      "total": 32,
+      "products": {
+        "TV": 11,
+        "Refrigerator": 4,
+        "Washing Machine": 6,
+        "Monitor": 10,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 18,
+        "TCL": 6,
+        "Haier": 2,
+        "Samsung": 1,
+        "Midea": 5
+      },
+      "chinese_count": 13,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "El Corte Inglés hunde el precio de sus televisores OLED LG, Sony y Samsung: modelos de 65 pulgadas",
+          "source": "madridinforma.eldiario.es",
+          "source_url": "https://madridinforma.eldiario.es/el-corte-ingles-hunde-el-precio-de-sus-televisores-oled-lg-sony-y-samsung-modelos-de-65-pulgadas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "El Corte Inglés liquida en su Ahórrate el IVA todas estas teles LG, Samsung y Sony en su outlet online con precios desde 495 euros",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/seleccion/corte-ingles-liquida-su-ahorrate-iva-todas-estas-teles-lg-samsung-sony-su-outlet-online-precios-495-euros",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Precio mínimo histórico para esta gigantesca Smart TV de LG: te llevas 65 pulgadas por menos de 550 euros",
+          "source": "larazon.es",
+          "source_url": "https://www.larazon.es/compras/nuestra-eleccion/precio-minimo-historico-esta-gigantesca-smart-llevas-65-pulgadas-menos-550-euros_202605196a0b145db5b0662996149ddf.html?outputType=amp",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Smart TV TCL QLED 55: la oferta de Mercado Libre que muchos miran para el Mundial 2026",
+          "source": "mdzol.com",
+          "source_url": "https://www.mdzol.com/tecnologia/smart-tv-tcl-qled-55-la-oferta-mercado-libre-que-muchos-miran-el-mundial-2026-n1524917",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C6K de 65 pulgadas: si buscas un televisor top por menos de 500 euros, esta es tu oportunidad",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/tcl-c6k-65-si-buscas-televisor-top-400-euros/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Si tienes una tele de TCL de 2023 en adelante, prepárate: llega una actualización con mejoras muy top",
+          "source": "xatakahome.com",
+          "source_url": "https://www.xatakahome.com/televisores/tienes-tele-tcl-2023-adelante-preparate-llega-actualizacion-mejoras-muy-top",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL actualiza sus televisores Google TV con Dolby Vision Filmmaker, DTS:X en Disney+ y hasta subwoofer inalámbrico",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/tcl-mejora-televisores-google-tv-dolby-vision/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV TCL 55\" Pulgadas 139 cm 55V6C 4K-UHD LED Smart TV",
+          "source": "alkosto.com",
+          "source_url": "https://www.alkosto.com/tv-tcl-55-pulgadas-139-cm-55v6c-4k-uhd-led-smart-tv-google/p/6921732899387",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Bonne nouvelle pour les TV TCL : une mise à jour majeure est en cours de déploiement. Votre TV est-il concerné ?",
+          "source": "clubic.com",
+          "source_url": "https://www.clubic.com/actualite-613348-bonne-nouvelle-pour-les-tv-tcl-une-mise-a-jour-majeure-est-en-cours-de-deploiement-votre-tv-est-il-concerne.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "📺 TCL Televizyon Modelleri ile Eşsiz Görüntü Deneyimi 2026",
+          "source": "trendyol.com",
+          "source_url": "https://www.trendyol.com/tcl-x-b110476",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-24",
+  "period_start": "2026-05-17",
+  "period_end": "2026-05-23"
+}

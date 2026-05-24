@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 58,
+  "country_breakdown": {
+    "SA": 58
+  },
+  "product_breakdown": {
+    "TV": 22,
+    "Refrigerator": 17,
+    "Washing Machine": 5,
+    "Monitor": 4,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 32,
+    "Hisense": 11,
+    "Samsung": 2,
+    "Haier": 8,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 17,
+    "Chinese Brand Threat Tracking": 30,
+    "Retail Channel Promotions": 9,
+    "Consumer Sentiment": 2
+  },
+  "chinese_brand_total": 24,
+  "lg_total": 32,
+  "country_data": {
+    "SA": {
+      "total": 58,
+      "products": {
+        "TV": 22,
+        "Refrigerator": 17,
+        "Washing Machine": 5,
+        "Monitor": 4,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 32,
+        "Hisense": 11,
+        "Samsung": 2,
+        "Haier": 8,
+        "TCL": 5
+      },
+      "chinese_count": 24,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Add a 2026 Hisense CanvasTV to Your Wall With Up to $1,800 in Savings - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/hisense-s7-canvas-tv-smart-art-tv-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Buy | Official Online Store | Shop Now & Save",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Laptop Computers – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-computing/lg-laptops/pcmcat1531506580106.c?id=pcmcat1531506580106",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "lg gram - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&st=lg+gram",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best TCL TVs of 2026: Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/tcl",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "97 inch Class LG OLED evo AI G5 4K Smart TV 2025 with Supplied Wall Mount - OLED97G5WUA | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled97g5wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Reveals Pricing and Availability for 2026 OLED evo G6, C6 and C6H TVs - ecoustics.com",
+          "source": "ecoustics.com",
+          "source_url": "https://www.ecoustics.com/products/lg-g6-c6-oled-tv-pricing/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-24",
+  "period_start": "2026-05-17",
+  "period_end": "2026-05-23"
+}

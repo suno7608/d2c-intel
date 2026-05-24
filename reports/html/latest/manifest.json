@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-05-17T09:27:12.882Z",
-  "total_weeks": 15,
-  "latest_week": "2026-05-17",
+  "generated_at": "2026-05-24T09:43:30.301Z",
+  "total_weeks": 16,
+  "latest_week": "2026-05-24",
   "weeks": [
+    {
+      "week": "2026-05-24",
+      "report_period": {
+        "start": "2026-05-17",
+        "end": "2026-05-23"
+      },
+      "version": "Weekly Vol.2026-05-24-R2",
+      "generated_at": "2026-05-24T09:39:42.742Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 309,
+        "competitor_promotion_signals": 6,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 6,
+        "critical_country_count": 3
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)",
+        "🇧🇷 브라질 (BR)"
+      ],
+      "executive_key_insights": [
+        "**메모리얼 데이 세일 & FIFA 월드컵 2026 마케팅 절정기 진입**: 미국, 독일, 브라질 등 핵심 법인에서 LG OLED TV 최대 50% 할인 프로모션이 대규모로 전개되며, 경쟁사 대비 번들 프로모션(사운드바+TV, $200 기프트카드 포함)이 차별화 요소로 작용 중",
+        "**중국 브랜드 가전(Haier/Midea) 위협 확대**: TV 영역의 TCL/Hisense 공세에 더해, 냉장고·세탁기 시장에서 Haier·Midea가 독일·호주·브라질에서 공격적 가격 정책과 AI 기능 강조 마케팅으로 점유율 확대 시도 중",
+        "**LG UltraGear 1000Hz 모니터 세계 최초 출시**: 25G590B 모델이 글로벌 게이밍 커뮤니티에서 화제를 모으며, 독일·프랑스·이탈리아 등 유럽 법인에서 기술 리더십 포지셔닝 강화 기회 확보"
+      ],
+      "links": {
+        "html": "./2026-05-24/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-05-24_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-05-24_R2_16country.md",
+        "share": "./2026-05-24/share.html"
+      }
+    },
     {
       "week": "2026-05-17",
       "report_period": {
