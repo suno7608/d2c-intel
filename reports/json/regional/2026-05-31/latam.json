@@ -1,0 +1,286 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 84,
+  "country_breakdown": {
+    "BR": 71,
+    "MX": 12,
+    "CL": 1
+  },
+  "product_breakdown": {
+    "TV": 38,
+    "Refrigerator": 14,
+    "Washing Machine": 18,
+    "Monitor": 13,
+    "LG gram": 1
+  },
+  "brand_breakdown": {
+    "LG": 45,
+    "TCL": 11,
+    "Hisense": 10,
+    "Samsung": 7,
+    "Haier": 2,
+    "Midea": 8,
+    "Xiaomi": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 32,
+    "Chinese Brand Threat Tracking": 36,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 10
+  },
+  "chinese_brand_total": 31,
+  "lg_total": 45,
+  "country_data": {
+    "BR": {
+      "total": 71,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 12,
+        "Washing Machine": 14,
+        "Monitor": 11,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 37,
+        "TCL": 11,
+        "Hisense": 8,
+        "Samsung": 7,
+        "Midea": 6,
+        "Xiaomi": 1,
+        "Haier": 1
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 4.599: Smart TV LG OLED B5 55 polegadas 4K OLED55B5PSA | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-lg-oled-b5-55-polegadas-4k-oled55b5psa-1b5c",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense 85\" Class UR8 RGB MiniLED Series UHD 4K HDR Smart Google TV (2026) 85UR8SG - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/hisense-85-class-ur8-rgb-miniled-series-uhd-4k-hdr-smart-google-tv-2026/J3Z9Z42KXY/sku/6673610",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "These Are the Best 65-Inch TVs I’ve Tested for 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-65-inch-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 33,99: Protetor de Surtos iCLAMPER 3P 10A Bivolt | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/protetor-de-surtos-iclamper-3p-10a-bivolt-5e54",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/LG_UserHub on Reddit: My initial impressions and small review of the new LG UltraGear evo 39GX950B",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/LG_UserHub/comments/1tqp4c0/my_initial_impressions_and_small_review_of_the/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 77\" LG G5 Gallery Series 4K OLED TV Drops to $2,199 During the Amazon Memorial Day Sale",
+          "source": "sea.ign.com",
+          "source_url": "https://sea.ign.com/lg-g5/243162/the-77-lg-g5-gallery-series-4k-oled-tv-drops-to-2199-during-the-amazon-memorial-day-sale",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Gamer Week: Monitores UltraGear Têm Desconto, OLED Dual-Mode Atinge 720Hz - Gamerscore Brasil",
+          "source": "gamerscore.com.br",
+          "source_url": "https://www.gamerscore.com.br/lg-gamer-week-monitores-ultragear-tem-desconto-oled-dual-mode-atinge-720hz/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Novo LG UltraGear OLED 32\" chega ao Brasil com tecnologia Dual-Mode",
+          "source": "prnewswire.com",
+          "source_url": "https://www.prnewswire.com/br/comunicados-para-a-imprensa/novo-lg-ultragear-oled-32-chega-ao-brasil-com-tecnologia-dual-mode-302782320.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Agência de Comunicação - Novo LG UltraGear OLED 32″ chega ao Brasil com tecnologia Dual-Mode",
+          "source": "bluestudio.estadao.com.br",
+          "source_url": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/novo-lg-ultragear-oled-32-chega-ao-brasil-com-tecnologia-dual-mode/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Gamer Week oferece descontos em monitores UltraGear e modelos OLED Dual-Mode – Gamers & Games",
+          "source": "gamersegames.com.br",
+          "source_url": "https://www.gamersegames.com.br/2026/05/25/lg-gamer-week-oferece-descontos-em-monitores-ultragear-e-modelos-oled-dual-mode/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 12,
+      "products": {
+        "TV": 4,
+        "Refrigerator": 2,
+        "Washing Machine": 4,
+        "Monitor": 2
+      },
+      "brands": {
+        "LG": 7,
+        "Hisense": 2,
+        "Haier": 1,
+        "Midea": 2
+      },
+      "chinese_count": 5,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Amazon tiene la pantalla LG OLED 4K perfecta para ver el Mundial 2026, gracias al Hot Sale tiene 41% de descuento",
+          "source": "xataka.com.mx",
+          "source_url": "https://www.xataka.com.mx/seleccion/amazon-tiene-pantalla-lg-oled-4k-perfecta-para-ver-mundial-2026-gracias-al-hot-sale-tiene-41-descuento/amp",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon-rebaja-pantalla-Hisense-65-pulgadas-por-Hot-Sale",
+          "source": "chicmagazine.com.mx",
+          "source_url": "https://www.chicmagazine.com.mx/consejos/amazon-rebaja-pantalla-hisense-65-pulgadas-por-hot-sale",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Hisense Smart Tv - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/pantallas/hisense-smart-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "El Hot Sale lo logró: Barra de sonido Hisense de 240W a MITAD DE PRECIO con Mercado Libre",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/tecnologia/el-hot-sale-lo-logro-barra-de-sonido-hisense-de-240w-a-mitad-de-precio-con-mercado-libre-20260527-0213.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Cupones y promociones: Hasta 55% en refrigeradores y lavadoras",
+          "source": "eluniversal.com.mx",
+          "source_url": "https://www.eluniversal.com.mx/descubre-y-compra/lg-cupones-y-promociones-hasta-55-en-refrigeradores-y-lavadoras/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Frigorífico Combi 193x54 Total No Frost Haier HBW7519C Wifi Integrable Clase C - Hnos. García",
+          "source": "muebleshnosgarcia.com",
+          "source_url": "https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-combi/frigorifico-combi-193x54-total-no-frost-haier-hbw7519c-wifi-integrable-clase-c/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sam's Club México, los ahorros en grande ahora online",
+          "source": "sams.com.mx",
+          "source_url": "https://www.sams.com.mx/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Así es la lavadora barata de Midea para 13KG de ropa: por menos de $3,500 y 15 MSI en Mercado Libre",
+          "source": "msn.com",
+          "source_url": "https://www.msn.com/es-mx/noticias/other/as%C3%AD-es-la-lavadora-barata-de-midea-para-13kg-de-ropa-por-menos-de-3-500-y-15-msi-en-mercado-libre/ar-AA22WiVb?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Limpieza profunda de la lavadora | El Siglo de Torreón",
+          "source": "elsiglodetorreon.com.mx",
+          "source_url": "https://www.elsiglodetorreon.com.mx/noticia/2026/limpieza-profunda-de-la-lavadora.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lg Lavasecadora - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavasecadora/lg-lavasecadora/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 1,
+      "products": {
+        "TV": 1
+      },
+      "brands": {
+        "LG": 1
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "MediaMarkt tiene de oferta (solo hoy) la smart TV que más recomendamos en 2026 por su relación calidad-precio",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/seleccion/mediamarkt-tiene-oferta-solo-hoy-smart-tv-que-recomendamos-2026-su-relacion-calidad-precio",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-31",
+  "period_start": "2026-05-24",
+  "period_end": "2026-05-30"
+}

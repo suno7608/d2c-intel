@@ -1,0 +1,159 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 75,
+  "country_breakdown": {
+    "SA": 75
+  },
+  "product_breakdown": {
+    "TV": 22,
+    "Refrigerator": 20,
+    "Washing Machine": 15,
+    "Monitor": 8,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 47,
+    "Hisense": 13,
+    "Haier": 8,
+    "Samsung": 1,
+    "TCL": 5,
+    "Midea": 1
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 29,
+    "Chinese Brand Threat Tracking": 33,
+    "Retail Channel Promotions": 10,
+    "Consumer Sentiment": 3
+  },
+  "chinese_brand_total": 27,
+  "lg_total": 47,
+  "country_data": {
+    "SA": {
+      "total": 75,
+      "products": {
+        "TV": 22,
+        "Refrigerator": 20,
+        "Washing Machine": 15,
+        "Monitor": 8,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 47,
+        "Hisense": 13,
+        "Haier": 8,
+        "Samsung": 1,
+        "TCL": 5,
+        "Midea": 1
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: Refrigerators - LG / Refrigerators / Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-LG-Freezers-Ice-Makers/s?keywords=Refrigerators&rh=n%3A3741361%2Cp_89%3ALG&c=ts&ts_id=3741361",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Reviews and Ratings - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Buy | Official Online Store | Shop Now & Save",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Hisense: TVs by Size",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/Hisense/page/2A05A676-3EF9-4072-A46D-C80BCF4BE213",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "97 inch Class LG OLED evo AI G5 4K Smart TV 2025 with Supplied Wall Mount - OLED97G5WUA | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled97g5wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best 75-inch TV deal: Save $801 on the 2026 Hisense U7 Mini LED 4K TV | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/may-26-hisense-u7-mini-led-tv-deal",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-31",
+  "period_start": "2026-05-24",
+  "period_end": "2026-05-30"
+}

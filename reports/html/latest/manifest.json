@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-05-24T09:43:30.301Z",
-  "total_weeks": 16,
-  "latest_week": "2026-05-24",
+  "generated_at": "2026-05-31T10:12:22.287Z",
+  "total_weeks": 17,
+  "latest_week": "2026-05-31",
   "weeks": [
+    {
+      "week": "2026-05-31",
+      "report_period": {
+        "start": "2026-05-24",
+        "end": "2026-05-30"
+      },
+      "version": "Weekly Vol.2026-05-31-R2",
+      "generated_at": "2026-05-31T10:08:11.862Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 316,
+        "competitor_promotion_signals": 11,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 4,
+        "critical_country_count": 3
+      },
+      "critical_countries": [
+        "🇩🇪 독일 (DE)",
+        "🇧🇷 브라질 (BR)",
+        "🇦🇺 호주 (AU)"
+      ],
+      "executive_key_insights": [
+        "**중국 브랜드 가전 위협 심화**: Haier/Midea의 냉장고·세탁기 공세가 북미·유럽 전역으로 확대되며 가격 경쟁력 기반 점유율 잠식이 본격화됨. 특히 독일에서 Haier 3-드럼 세탁기 혁신 제품 출시로 기술 차별화까지 시도",
+        "**메모리얼 데이 프로모션 효과 극대화**: 미국 Best Buy/Amazon에서 LG OLED TV 및 UltraGear 모니터 대규모 할인 캠페인 전개, 전주 대비 LG 프로모션 건수 12.9% 증가(280→316건)로 채널 노출 강화",
+        "**부정 소비자 반응 급증 경보**: 전주 6건에서 이번 주 11건으로 83% 증가, 브라질 Midea 세탁기 A/S 불만 및 미국 LG 냉장고 냉각 불량 이슈가 주요 원인으로 사전 대응 필요"
+      ],
+      "links": {
+        "html": "./2026-05-31/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-05-31_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-05-31_R2_16country.md",
+        "share": "./2026-05-31/share.html"
+      }
+    },
     {
       "week": "2026-05-24",
       "report_period": {

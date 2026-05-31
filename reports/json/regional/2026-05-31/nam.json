@@ -1,0 +1,260 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 157,
+  "country_breakdown": {
+    "US": 138,
+    "CA": 19
+  },
+  "product_breakdown": {
+    "TV": 41,
+    "Refrigerator": 33,
+    "Washing Machine": 41,
+    "Monitor": 23,
+    "LG gram": 19
+  },
+  "brand_breakdown": {
+    "LG": 91,
+    "TCL": 9,
+    "Samsung": 10,
+    "Haier": 16,
+    "Midea": 29,
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 37,
+    "Competitive Price & Positioning": 34,
+    "Consumer Sentiment": 25,
+    "Chinese Brand Threat Tracking": 61
+  },
+  "chinese_brand_total": 56,
+  "lg_total": 91,
+  "country_data": {
+    "US": {
+      "total": 138,
+      "products": {
+        "TV": 41,
+        "Refrigerator": 23,
+        "Washing Machine": 33,
+        "Monitor": 23,
+        "LG gram": 18
+      },
+      "brands": {
+        "LG": 89,
+        "TCL": 9,
+        "Samsung": 9,
+        "Haier": 9,
+        "Midea": 20,
+        "Hisense": 2
+      },
+      "chinese_count": 40,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Huge LG OLED TV sale at Best Buy — my top deals from $649 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/huge-lg-oled-tv-sale-at-best-buy-my-top-deals-from-usd649",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 3 Best OLED TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-type/oled",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "2026 TV Lineup: The Year Of RGB Mini LED - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/learn/2026-lineup",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "I’m a TV expert, and here are the best TVs you can buy today for every budget",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "All Appliance Deals - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/all-electronics-on-sale/all-appliances-on-sale/pcmcat1637009144989.c?id=pcmcat1637009144989",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sales and Promotions at Best Buy: On Sale Electronics, Coupons and Promo Codes",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/electronics/sale-page/pcmcat185700050011.c?id=pcmcat185700050011",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/BuyItForLife on Reddit: Best washer and dryer in 2026 that actually lasts? (No smart junk please)",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/BuyItForLife/comments/1tnd3mz/best_washer_and_dryer_in_2026_that_actually_lasts/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG gram Pro Max 17\" 144Hz Touch Screen Gaming Laptop WQXGA Intel Core Ultra 9 Processor 386H, RTX 5050, 32GB RAM 1TB SSD Brushed Bronze 17Z90UR-P.AU99U3 - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-gram-pro-max-17-144hz-touch-screen-gaming-laptop-wqxga-intel-core-ultra-9-processor-386h-rtx-5050-32gb-ram-1tb-ssd-brushed-bronze/JJ8VPZZCVX",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "It's the final 24 hours of the Best Buy Memorial Day sale — check out the 47 best tech deals on Apple, Ninja, Garmin, LG, Sonos, Hisense, and more | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/seasonal-sales/best-buys-memorial-day-sale-is-packed-with-top-tech-offers-ive-picked-the-47-best-deals-on-apple-ninja-garmin-lg-sonos-hisense-and-more",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: MIDEA - Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-Freezers-Ice-Makers-MIDEA-Appliances/s?rh=n%3A17921061011%2Cp_89%3AMIDEA",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 19,
+      "products": {
+        "Refrigerator": 10,
+        "LG gram": 1,
+        "Washing Machine": 8
+      },
+      "brands": {
+        "LG": 2,
+        "Samsung": 1,
+        "Haier": 7,
+        "Midea": 9
+      },
+      "chinese_count": 16,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "27 cu. ft. Mega Capacity Counter Depth 3-Door French Door Refrigerator with Dual Auto Ice Maker in Stainless Steel | Samsung US",
+          "source": "samsung.com",
+          "source_url": "https://www.samsung.com/us/refrigerators/french-door/27-cu-ft-mega-capacity-counter-depth-3-door-french-door-refrigerator-with-dual-auto-ice-maker-in-stainless-steel-sku-rf27cg5100sraa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Chem, Ltd. (051910.KS) Stock Price, News, Quote & History - Yahoo Finance",
+          "source": "ca.finance.yahoo.com",
+          "source_url": "https://ca.finance.yahoo.com/quote/051910.KS/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/haier/ki8-6sg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HAIER Refrigerators for Your 2026 Home Upgrade 🏠❄️ | RONA",
+          "source": "rona.ca",
+          "source_url": "https://www.rona.ca/en/appliances/refrigerators/haier--104-4fa2b",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "MIDEA Refrigerators for Your 2026 Home Upgrade 🏠❄️ | RONA",
+          "source": "rona.ca",
+          "source_url": "https://www.rona.ca/en/appliances/refrigerators/midea--104-4ce66",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-05-31",
+  "period_start": "2026-05-24",
+  "period_end": "2026-05-30"
+}

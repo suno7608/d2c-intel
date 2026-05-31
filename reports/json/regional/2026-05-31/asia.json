@@ -1,0 +1,278 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 96,
+  "country_breakdown": {
+    "AU": 36,
+    "TW": 60
+  },
+  "product_breakdown": {
+    "TV": 25,
+    "Refrigerator": 30,
+    "Washing Machine": 25,
+    "Monitor": 10,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "LG": 60,
+    "TCL": 7,
+    "Midea": 9,
+    "Hisense": 1,
+    "Samsung": 2,
+    "Haier": 15,
+    "Panasonic": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 33,
+    "Consumer Sentiment": 9,
+    "Chinese Brand Threat Tracking": 38,
+    "Competitive Price & Positioning": 16
+  },
+  "chinese_brand_total": 32,
+  "lg_total": 60,
+  "country_data": {
+    "AU": {
+      "total": 36,
+      "products": {
+        "TV": 9,
+        "Refrigerator": 14,
+        "Washing Machine": 13
+      },
+      "brands": {
+        "LG": 7,
+        "TCL": 6,
+        "Samsung": 2,
+        "Haier": 13,
+        "Midea": 8
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 Inch Class LG OLED evo AI G6 4K Smart TV 2026 with Supplied Wall Mount - OLED55G6WUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled55g6wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "65 inch LG OLED evo AI C5 4K Smart TV 2025 - OLED65C5PSA | LG Australia | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/oled-evo-tv/oled65c5psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The Best 55-Inch TVs for 2026",
+          "source": "au.pcmag.com",
+          "source_url": "https://au.pcmag.com/tvs/97432/the-best-55-inch-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C8L SQD-Mini LED TV-The Ultimate Choice with 6000nits | TCL Australia",
+          "source": "tcl.com",
+          "source_url": "https://www.tcl.com/au/en/tvs/c8l",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Bespoke 29 cu. ft. 4-Door French Door Refrigerator with AI Family Hub™+ & AI Vision Inside™ in White Glass | Samsung US",
+          "source": "samsung.com",
+          "source_url": "https://www.samsung.com/us/refrigerators/french-door/bespoke-29-cu-ft-4-door-french-door-refrigerator-with-ai-family-hub-ai-vision-inside-in-white-glass-sku-rf90f29aewaa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Samsung Electronics - Wikipedia",
+          "source": "en.wikipedia.org",
+          "source_url": "https://en.wikipedia.org/wiki/Samsung_Electronics",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier - Appliances Warehouse",
+          "source": "applianceswarehouse.com.au",
+          "source_url": "https://www.applianceswarehouse.com.au/brand/haier/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 60,
+      "products": {
+        "TV": 16,
+        "Refrigerator": 16,
+        "Washing Machine": 12,
+        "Monitor": 10,
+        "LG gram": 6
+      },
+      "brands": {
+        "LG": 53,
+        "Midea": 1,
+        "Hisense": 1,
+        "TCL": 1,
+        "Haier": 2,
+        "Panasonic": 2
+      },
+      "chinese_count": 5,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for May 2026 | 20% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 香港推出 2026 年全新電視系列 | Techritual 香港",
+          "source": "techritual.com",
+          "source_url": "https://www.techritual.com/2026/05/29/541623/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "繼「Sony 變成 Tony」，現在 LG 電視也可能出售給中國海信 | TechNews 科技新報",
+          "source": "finance.technews.tw",
+          "source_url": "https://finance.technews.tw/2026/05/28/lg-tv-2/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "南韓LG傳接洽中國海信出售電視業務 官方澄清：毫無根據",
+          "source": "tw.news.yahoo.com",
+          "source_url": "https://tw.news.yahoo.com/%E5%8D%97%E9%9F%93lg%E5%82%B3%E6%8E%A5%E6%B4%BD%E4%B8%AD%E5%9C%8B%E6%B5%B7%E4%BF%A1%E5%87%BA%E5%94%AE%E9%9B%BB%E8%A6%96%E6%A5%AD%E5%8B%99-%E5%AE%98%E6%96%B9%E6%BE%84%E6%B8%85-%E6%AF%AB%E7%84%A1%E6%A0%B9%E6%93%9A-145200461.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 吋 LG OLED evo AI G5 4K 智能電視 2025 - OLED65G5PCA | LG 香港",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/hk/tv-soundbars/oled-evo/oled65g5pca/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG電視業務恐賣給中國海信！官方回應了：消息毫無根據 - 自由電子報 3C科技",
+          "source": "3c.ltn.com.tw",
+          "source_url": "https://3c.ltn.com.tw/news/66255",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "海信傳收購LG電視業務 雙方高層協商重組計畫 | 陸港經貿 | 兩岸 | 聯合新聞網",
+          "source": "udn.com",
+          "source_url": "https://udn.com/news/story/7333/9532353",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "SONY之後換LG撐不住？傳考慮出售電視業務 已找這家陸企會談 | 陸港經貿 | 兩岸 | 聯合新聞網",
+          "source": "udn.com",
+          "source_url": "https://udn.com/news/story/7333/9531887",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "韓媒曝LG電子與海信進行磋商 針對出售電視業務展開交涉｜知新聞",
+          "source": "knews.com.tw",
+          "source_url": "https://www.knews.com.tw/news/CB2FE1BBEAD4F8C702C414D7C4B30C00",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信傳收購 LG 電視業務 雙方高層協商重組計畫 | 大陸政經 | 兩岸 | 經濟日報",
+          "source": "money.udn.com",
+          "source_url": "https://money.udn.com/money/story/5603/9532353",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-05-31",
+  "period_start": "2026-05-24",
+  "period_end": "2026-05-30"
+}
