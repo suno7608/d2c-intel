@@ -1,0 +1,286 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 86,
+  "country_breakdown": {
+    "BR": 75,
+    "MX": 10,
+    "CL": 1
+  },
+  "product_breakdown": {
+    "TV": 26,
+    "Refrigerator": 22,
+    "Washing Machine": 14,
+    "Monitor": 21,
+    "LG gram": 3
+  },
+  "brand_breakdown": {
+    "LG": 51,
+    "TCL": 8,
+    "Hisense": 6,
+    "Samsung": 5,
+    "Midea": 9,
+    "Haier": 6,
+    "Electrolux": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 35,
+    "Chinese Brand Threat Tracking": 37,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 8
+  },
+  "chinese_brand_total": 29,
+  "lg_total": 51,
+  "country_data": {
+    "BR": {
+      "total": 75,
+      "products": {
+        "TV": 25,
+        "Refrigerator": 19,
+        "Washing Machine": 12,
+        "Monitor": 17,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 42,
+        "TCL": 8,
+        "Hisense": 6,
+        "Samsung": 5,
+        "Midea": 8,
+        "Electrolux": 1,
+        "Haier": 5
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG's and Samsung's 2026 mid-range OLED TVs both look great, but I know which one I'm more excited for | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/lgs-and-samsungs-2026-mid-range-oled-tvs-both-look-great-but-i-know-which-one-im-more-excited-for",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.699: Monitor Gamer Curvo LG UltraGear 34\" - 34GP63A-B | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-curvo-lg-ultragear-34-2k-wqhd-ultrawide-160hz-1ms-freesync-premium-hdr10-som-integrado-34gp63a-b-6f75",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.580: (APP) Monitor Gamer Curvo LG UltraGear 34\", 2K WQHD, UltraWide, 160Hz, 1ms, HDR10, Som Integrado - 34GP63A-B | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/app-monitor-gamer-curvo-lg-ultragear-34-2k-wqhd-ultrawide-160hz-1ms-freesync-premium-hdr10-som-integrado-34gp63a-b-a33a",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "Amazon.com: LG 39GX950B-B 39-inch Ultragear evo 5K2K WUHD (5120 x 2160) OLED Curved Gaming Monitor, Dual-Mode,165Hz, 0.03ms, NVIDIA G-Sync, FreeSync Premium Pro, DisplayHDR True Black 500, HDMI, DP, USB-C, Black : Electronics",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/LG-39GX950B-B-Ultragear-Dual-Mode-DisplayHDR/dp/B0GVPBVRPP",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Códigos promocionais e cupons LG para junho de 2026 | Cinema e Cerveja",
+          "source": "cinemaecerveja.com.br",
+          "source_url": "https://cinemaecerveja.com.br/tecnologia/codigos-promocionais-e-cupons-lg-para-junho-de-2026/18283/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Want a brand new OLED TV for the World Cup? This is our experts' favourite TV of 2026 – and it's down £400 to its lowest-ever price | What Hi-Fi?",
+          "source": "whathifi.com",
+          "source_url": "https://www.whathifi.com/tv-home-cinema/televisions/want-a-brand-new-oled-tv-for-the-world-cup-this-is-our-experts-favourite-tv-of-2026-and-its-down-gbp400-to-its-lowest-ever-price",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Display mostra OLED gamer de 720Hz e monitor 5K2K de 39″ na SID 2026 - Adrenaline",
+          "source": "adrenaline.com.br",
+          "source_url": "https://www.adrenaline.com.br/perifericos/lg-display-oled-720hz-5k2k-sid-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Só hoje: Smart TV TCL Mini LED 50” fica 20% mais barata em oferta no Magalu • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/so-hoje-smart-tv-tcl-mini-led-50-fica-23-mais-barata-com-cupom-em-oferta-no-magalu/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV premiada da TCL com tela de 75'' está com preço no chão; parcelada em 12x - Canaltech",
+          "source": "canaltech.com.br",
+          "source_url": "https://canaltech.com.br/tv/tv-premiada-da-tcl-com-tela-de-75-esta-com-preco-no-chao-parcelada-em-12x/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "R$ 200 OFF! Smart TV TCL 50\" despenca de preço no Esquenta 6.6 da Amazon",
+          "source": "xataka.com.br",
+          "source_url": "https://www.xataka.com.br/ofertas/r-200-off-smart-tv-tcl-50-despenca-preco-no-esquenta-6-6-da-amazon",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 10,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 3,
+        "Washing Machine": 2,
+        "Monitor": 3,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 8,
+        "Haier": 1,
+        "Midea": 1
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense sabe que México ama las pantallas grandes, bonitas y a buen precio, por eso trae el RGB MiniLED más barato del mercado: UR8",
+          "source": "xataka.com.mx",
+          "source_url": "https://www.xataka.com.mx/home/hisense-sabe-que-mexico-ama-pantallas-grandes-bonitas-a-buen-precio-eso-trae-rgb-miniled-barato-mercado-ur8",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Cupones y promociones: Hasta 55% en refrigeradores y lavadoras",
+          "source": "eluniversal.com.mx",
+          "source_url": "https://www.eluniversal.com.mx/descubre-y-compra/lg-cupones-y-promociones-hasta-55-en-refrigeradores-y-lavadoras/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Pantallas OLED, estufas con freidora de aire y hasta lavasecadoras: descuentos de LG en Hot Sale 2026",
+          "source": "xataka.com.mx",
+          "source_url": "https://www.xataka.com.mx/seleccion/pantallas-oled-estufas-freidora-aire-lavasecadoras-descuentos-lg-hot-sale-2026/amp",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "How Haier Improves Food Freshness and Storage",
+          "source": "shop.haierindia.com",
+          "source_url": "https://shop.haierindia.com/blog/haier-improves-food-freshness-and-storage/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "¡Estrena pantalla hoy! Estos son los descuentos de Julio Regalado en Samsung, LG, Vios y TLC",
+          "source": "telediario.mx",
+          "source_url": "https://www.telediario.mx/economia/julio-regalado-2026-ofertas-pantallas-lavadoras-licuadoras",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "La lavadora de una tina Midea de 10.1 kg con más del 30% descuento y más barato que en tiendas oficiales",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/viral/la-lavadora-de-una-tina-midea-de-10.1-kg-con-mas-del-30-descuento-y-mas-barato-que-en-tiendas-oficiales-20260601-0191.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Oferta en tendencia en el Monitor Gaming LG Ultragear de 34 pulgadas con 160Hz y pantalla curva | 25% OFF",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/amp/tecnologia/oferta-en-tendencia-en-el-monitor-gaming-lg-ultragear-de-34-pulgadas-con-160hz-y-pantalla-curva--25-off-20260603-0117.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Este monitor para Gamers de LG UltraGear de 200Hzn esta en tendencia por su oferta con más del 20%",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/tecnologia/este-monitor-para-gamers-de-lg-ultragear-de-200hzn-esta-en-tendencia-por-su-oferta-con-mas-del-20-20260605-0216.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Mercado Libre ofrece a precio de regalo monitor gaming LG Ultragear de 27 pulgadas: con imagen nítida 360° y colores reales",
+          "source": "msn.com",
+          "source_url": "https://www.msn.com/es-mx/dinero/noticias/mercado-libre-ofrece-a-precio-de-regalo-monitor-gaming-lg-ultragear-de-27-pulgadas-con-imagen-n%C3%ADtida-360-y-colores-reales/ar-AA24JMZX",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG xboom Grab by will.i.am | Bocina Bluetooth portátil | xboom Signature Sound con portabilidad suprema | LG México",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/mx/equipos-de-sonido/bocina-bluetooth/grab/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 1,
+      "products": {
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 1
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Gaming Monitors on Sale at LG | Cheap Ass Gamer",
+          "source": "cheapassgamer.com",
+          "source_url": "https://www.cheapassgamer.com/threads/gaming-monitors-on-sale-at-lg.375812/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-06-07",
+  "period_start": "2026-05-31",
+  "period_end": "2026-06-06"
+}

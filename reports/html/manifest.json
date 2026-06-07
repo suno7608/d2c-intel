@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-05-31T10:12:22.287Z",
-  "total_weeks": 17,
-  "latest_week": "2026-05-31",
+  "generated_at": "2026-06-07T10:23:56.464Z",
+  "total_weeks": 18,
+  "latest_week": "2026-06-07",
   "weeks": [
+    {
+      "week": "2026-06-07",
+      "report_period": {
+        "start": "2026-05-31",
+        "end": "2026-06-06"
+      },
+      "version": "Weekly Vol.2026-06-07-R2",
+      "generated_at": "2026-06-07T10:19:45.602Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 336,
+        "competitor_promotion_signals": 8,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 8,
+        "critical_country_count": 3
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)",
+        "🇦🇺 호주 (AU)"
+      ],
+      "executive_key_insights": [
+        "**중국 브랜드 공세 확대**: TCL/Hisense의 TV 시장 공세와 함께 Haier/Midea의 가전(냉장고·세탁기) 시장 침투가 16개국 전역에서 동시 다발적으로 관측되며, 총 314건의 중국 브랜드 위협 신호가 전주 대비 12.5% 증가",
+        "**FIFA 월드컵 2026 마케팅 경쟁 본격화**: Hisense가 공식 파트너십을 활용한 글로벌 프로모션을 전개 중이며, LG의 OLED 프로모션 대응 필요성 증대",
+        "**HS(생활가전) 부문 경쟁 심화**: 호주·독일·브라질에서 Haier 냉장고 Horizon 시리즈 및 Midea 세탁기의 가격 공세가 LG의 프리미엄 포지셔닝에 위협 요인으로 작용"
+      ],
+      "links": {
+        "html": "./2026-06-07/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-06-07_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-06-07_R2_16country.md",
+        "share": "./2026-06-07/share.html"
+      }
+    },
     {
       "week": "2026-05-31",
       "report_period": {

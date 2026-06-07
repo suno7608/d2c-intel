@@ -1,0 +1,275 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 88,
+  "country_breakdown": {
+    "AU": 34,
+    "TW": 54
+  },
+  "product_breakdown": {
+    "TV": 26,
+    "Refrigerator": 27,
+    "Washing Machine": 22,
+    "Monitor": 11,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 45,
+    "TCL": 7,
+    "Hisense": 7,
+    "Samsung": 2,
+    "Haier": 19,
+    "Midea": 8
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 18,
+    "Chinese Brand Threat Tracking": 31,
+    "Competitive Price & Positioning": 18,
+    "Consumer Sentiment": 21
+  },
+  "chinese_brand_total": 41,
+  "lg_total": 45,
+  "country_data": {
+    "AU": {
+      "total": 34,
+      "products": {
+        "TV": 11,
+        "Refrigerator": 13,
+        "Monitor": 1,
+        "Washing Machine": 9
+      },
+      "brands": {
+        "LG": 5,
+        "TCL": 7,
+        "Samsung": 2,
+        "Haier": 12,
+        "Midea": 8
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 27GX700A 27\" QHD 280hz Oled Gaming Monitor $799 (Save $600) + Shipping / $0 C&C / In-Store @ JB Hi-Fi - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/962317",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 Inch Class LG OLED evo AI C6 4K Smart TV 2026 - OLED65C6PUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled65c6pua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 Inch Class LG OLED evo AI C6 4K Smart TV 2026 - OLED55C6PUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled55c6pua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "83 Inch Class LG OLED evo AI G6 4K Smart TV 2026 with Supplied Wall Mount - OLED83G6WUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled83g6wua-oled-4k-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "75 to 83 Inch TVs | Upgrade Your Home Theatre | Harvey Norman",
+          "source": "harveynorman.com.au",
+          "source_url": "https://www.harveynorman.com.au/tv-blu-ray-home-theatre/tvs-by-screen-size/tvs-75-inch-and-above",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Oubliez l’OLED hors de prix : ce monstre TCL Mini-LED de 65 pouces est la claque technologique de l’année",
+          "source": "lefigaro.fr",
+          "source_url": "https://www.lefigaro.fr/bons-plans/high-tech/oubliez-l-oled-hors-de-prix-ce-monstre-tcl-mini-led-de-65-pouces-est-la-claque-technologique-de-l-annee-20260601",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C89K : le téléviseur Mini LED premium qui bouscule la règle des 2 000 € - Les Numériques",
+          "source": "lesnumeriques.com",
+          "source_url": "https://www.lesnumeriques.com/tv-televiseur/tcl-c89k-le-televiseur-mini-led-premium-qui-bouscule-la-regle-des-2-000-na257122.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "This Is One Of The Best Fridges On The Market, According To Consumer Reports",
+          "source": "chowhound.com",
+          "source_url": "https://www.chowhound.com/2182743/consumer-reports-best-fridge-samsung/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 54,
+      "products": {
+        "TV": 15,
+        "Refrigerator": 14,
+        "Washing Machine": 13,
+        "Monitor": 10,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 40,
+        "Hisense": 7,
+        "Haier": 7
+      },
+      "chinese_count": 14,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart Monitor 智慧螢幕斜槓機系列選購指南",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/myview-smart/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 吋 LG OLED evo AI G5 4K 智能電視 2025 - OLED65G5PCA | LG 香港",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/hk/tv-soundbars/oled-evo/oled65g5pca/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 77吋 4K AI語音物聯網電視 OLED77C6PTA",
+          "source": "3uo.tw",
+          "source_url": "https://www.3uo.tw/ecommerce/OLED77C6PTA/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 清淨生活大師選購指南｜從客廳到臥室、從毛孩到打造質感生活 - Mobile01",
+          "source": "mobile01.com",
+          "source_url": "https://www.mobile01.com/topicdetail.php?f=731&t=7267607",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2026年最新：LG PuriCare AeroTower 空氣淨化風扇 FS15GPBF0 評測與選購指南｜BUILT-IN PRO - BUILT-IN PRO - 網購名牌廚房及家庭電器",
+          "source": "builtinpro.hk",
+          "source_url": "https://www.builtinpro.hk/posts/lg-puricare-aerotower-fs15gpbf0",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "2026 節能家電補助倒數！PChome 24h 購物大型家電網購送裝服務升級，熱銷冰箱與電視選購指南 - News Pie",
+          "source": "newspie.com.tw",
+          "source_url": "https://www.newspie.com.tw/pchome-24h-20260601/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "霸榜618！海信电视斩获多项第一 RGB-Mini LED普及风暴来袭--快科技--科技改变未来",
+          "source": "news.mydrivers.com",
+          "source_url": "https://news.mydrivers.com/1/1127/1127353.htm",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "霸榜618热度不减！海信电视多平台登顶，RGB-Mini LED成全民首选_中华网",
+          "source": "tech.china.com",
+          "source_url": "https://tech.china.com/articles/20260531/202605311882765.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "618 买电视参考热销榜单：海信全渠道量额双冠，RGB-Mini LED 成换代首选 - 雷科技",
+          "source": "leikeji.com",
+          "source_url": "https://www.leikeji.com/article/77224",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Mini LED領TCL電視1Q26出貨大增22% 追平三星僅一步之遙",
+          "source": "digitimes.com.tw",
+          "source_url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000757262_1J61SMJ87OTITQ1MBV986",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-06-07",
+  "period_start": "2026-05-31",
+  "period_end": "2026-06-06"
+}

@@ -1,0 +1,261 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 160,
+  "country_breakdown": {
+    "US": 135,
+    "CA": 25
+  },
+  "product_breakdown": {
+    "TV": 41,
+    "Refrigerator": 38,
+    "Washing Machine": 41,
+    "Monitor": 25,
+    "LG gram": 15
+  },
+  "brand_breakdown": {
+    "LG": 99,
+    "TCL": 11,
+    "Samsung": 6,
+    "Haier": 20,
+    "Midea": 20,
+    "Hisense": 4
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 53,
+    "Competitive Price & Positioning": 23,
+    "Consumer Sentiment": 23,
+    "Chinese Brand Threat Tracking": 61
+  },
+  "chinese_brand_total": 55,
+  "lg_total": 99,
+  "country_data": {
+    "US": {
+      "total": 135,
+      "products": {
+        "TV": 36,
+        "Refrigerator": 28,
+        "Washing Machine": 31,
+        "Monitor": 25,
+        "LG gram": 15
+      },
+      "brands": {
+        "LG": 93,
+        "TCL": 10,
+        "Samsung": 5,
+        "Haier": 12,
+        "Midea": 11,
+        "Hisense": 4
+      },
+      "chinese_count": 37,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The cheapest OLED TV deals and sales in June 2026 | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/deals/best-oled-tv-prices-deals",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TVs of 2026 tested: top OLEDs, Mini-LEDs and QLEDs for every budget | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/us/best-tvs,review-2224.html",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL 55 Inch Class QM6K Series | Mini LED QLED 4K HDR | 55QM6K, 2025 Model | 120HZ-144HZ High Brightness Smart Google TV Dolby Atmos Onkyo Audio | Voice Remote Alexa Gaming Streaming Television : Electronics",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/TCL-55QM6K-120HZ-144HZ-Brightness-Television/dp/B0DSR9CHB1",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best refrigerator sales and deals in June 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/deals/best-refrigerator-sales",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerator Deals - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/major-appliances-on-sale/refrigerators-on-sale/pcmcat1637590307724.c?id=pcmcat1637590307724",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best Refrigerators of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/refrigerators",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/Appliances on Reddit: Fridge brands to buy vs. not buy- my summary based on a quick scan",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/14p2cuw/fridge_brands_to_buy_vs_not_buy_my_summary_based/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best 4k Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-resolution/4k-ultra-hd-uhd",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 3 Best Ultrawide Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/ultrawide-gaming",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG G5 OLED vs C6 OLED 2026: Which TV Is Better? - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/tools/compare/lg-g5-oled-vs-lg-c6-oled-2026/88601/132977",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 25,
+      "products": {
+        "TV": 5,
+        "Refrigerator": 10,
+        "Washing Machine": 10
+      },
+      "brands": {
+        "LG": 6,
+        "Samsung": 1,
+        "TCL": 1,
+        "Haier": 8,
+        "Midea": 9
+      },
+      "chinese_count": 18,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2026 OLED Launch Offer | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/shop/all-promotions/2026-oled-launch-offer-terms-and-conditions-20260601/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-65-class-oledc5-series-4k-uhd-oled-tv/4000370787",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 77\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-77-class-oledc5-series-4k-uhd-oled-tv/4000370727",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV LG QNED 50” entra em promoção na Amazon por até 12x de 191,62 sem juros • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/smart-tv-lg-qned-50-entra-em-promocao-na-amazon-por-ate-12x-de-19162-sem-juros/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Samsung US | Mobile | TV | Home Electronics | Home Appliances | Samsung US",
+          "source": "samsung.com",
+          "source_url": "https://www.samsung.com/us/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Washing Machine Not Draining? Error Codes by Brand",
+          "source": "canadianapplianceservice.ca",
+          "source_url": "https://www.canadianapplianceservice.ca/washing-machine-not-draining-error-codes/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 55\" Class - QM67K Series - 4K UHD QD-Mini LED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/tcl-55-class-qm67k-series-4k-uhd-qd-mini-led-tv/4000369779",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/haier/ki8-6sg",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-06-07",
+  "period_start": "2026-05-31",
+  "period_end": "2026-06-06"
+}
