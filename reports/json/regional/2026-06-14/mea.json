@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 76,
+  "country_breakdown": {
+    "SA": 76
+  },
+  "product_breakdown": {
+    "TV": 23,
+    "Refrigerator": 23,
+    "Washing Machine": 16,
+    "Monitor": 4,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 40,
+    "Hisense": 15,
+    "Samsung": 2,
+    "Haier": 14,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 26,
+    "Chinese Brand Threat Tracking": 40,
+    "Retail Channel Promotions": 9,
+    "Consumer Sentiment": 1
+  },
+  "chinese_brand_total": 34,
+  "lg_total": 40,
+  "country_data": {
+    "SA": {
+      "total": 76,
+      "products": {
+        "TV": 23,
+        "Refrigerator": 23,
+        "Washing Machine": 16,
+        "Monitor": 4,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 40,
+        "Hisense": 15,
+        "Samsung": 2,
+        "Haier": 14,
+        "TCL": 5
+      },
+      "chinese_count": 34,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "TVs: Televisions & HDTVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tv-home-theater/tvs/abcat0101000.c?id=abcat0101000",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: LG - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-LG-Laundry-Appliances/s?rh=n:2383576011,p_89:LG",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier discount codes for June 2026 | 15% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/haier-uk",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: LG Electronics: LG gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/LGElectronics/page/1441EF5F-AC04-42AC-B365-50C2B32350C2",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL: Google TVs",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/TCL/page/3F48286A-1778-4541-BF89-E6512DFDE5F3",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "42 Inch Class LG OLED evo AI C6 4K Smart TV 2026 - OLED42C6PUA.AUS | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/tvs/lg-oled42c6pua-oled-4k-tv",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-06-14",
+  "period_start": "2026-06-07",
+  "period_end": "2026-06-13"
+}

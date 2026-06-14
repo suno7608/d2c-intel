@@ -1,0 +1,281 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 103,
+  "country_breakdown": {
+    "AU": 41,
+    "TW": 62
+  },
+  "product_breakdown": {
+    "TV": 27,
+    "Refrigerator": 26,
+    "Washing Machine": 28,
+    "Monitor": 12,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 63,
+    "TCL": 8,
+    "Samsung": 3,
+    "Hisense": 6,
+    "Haier": 15,
+    "Midea": 7,
+    "Whirlpool": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 32,
+    "Competitive Price & Positioning": 20,
+    "Chinese Brand Threat Tracking": 29,
+    "Consumer Sentiment": 22
+  },
+  "chinese_brand_total": 36,
+  "lg_total": 63,
+  "country_data": {
+    "AU": {
+      "total": 41,
+      "products": {
+        "TV": 11,
+        "Refrigerator": 10,
+        "Washing Machine": 14,
+        "Monitor": 5,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 14,
+        "TCL": 7,
+        "Haier": 13,
+        "Samsung": 2,
+        "Midea": 5
+      },
+      "chinese_count": 25,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "These are the 3 best OLED TVs we've tested for bright rooms, watching movies and gaming without breaking the bank",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/best-oled-tvs",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED TVs - Shop Online & In-Store | Retravision",
+          "source": "retravision.com.au",
+          "source_url": "https://www.retravision.com.au/tv-audio/televisions/oled-tvs/lg-oled-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED TVs | Shop Latest Models from LG, Samsung & Sony | Harvey Norman",
+          "source": "harveynorman.com.au",
+          "source_url": "https://www.harveynorman.com.au/tv-blu-ray-home-theatre/tvs-by-type/oled-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "[Costco] LG B6E 65 Inch $1498-$200=$1298 - RedFlagDeals.com Forums",
+          "source": "forums.redflagdeals.com",
+          "source_url": "https://forums.redflagdeals.com/costco-lg-b6e-65-inch-1498-200-1298-2812966/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "[Costco] TCL 65\" QM7K Series 4K UHD QD-Mini LED TV - $1048 (New Lower Price) - RedFlagDeals.com Forums",
+          "source": "forums.redflagdeals.com",
+          "source_url": "https://forums.redflagdeals.com/costco-tcl-65-qm7k-series-4k-uhd-qd-mini-led-tv-1048-new-lower-price-2815695/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL confirms 32X3A OLED+ and 57-inch Dual 4K Mini LED monitors for Europe - VideoCardz.com",
+          "source": "videocardz.com",
+          "source_url": "https://videocardz.com/newz/tcl-confirms-32x3a-oled-and-57-inch-dual-4k-mini-led-monitors-for-europe",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG GF-L570MBL 506L Black Slim French Door Refrigerator - Refurbished -",
+          "source": "pselectronics.com.au",
+          "source_url": "https://pselectronics.com.au/shop/refurbished/lg-gf-l570mbl-506l-black-slim-french-door-refrigerator-refurbished/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 62,
+      "products": {
+        "TV": 16,
+        "Refrigerator": 16,
+        "Washing Machine": 14,
+        "Monitor": 7,
+        "LG gram": 9
+      },
+      "brands": {
+        "LG": 49,
+        "TCL": 1,
+        "Samsung": 1,
+        "Hisense": 6,
+        "Haier": 2,
+        "Midea": 2,
+        "Whirlpool": 1
+      },
+      "chinese_count": 11,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for Jun 2026 | Exclusive $40 Gift Card",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG倡導家電保養新習慣！攜「全家、億電通」限時推指定舊電池回收服務 | 流行消費 | 生活 | 聯合新聞網",
+          "source": "udn.com",
+          "source_url": "https://udn.com/news/story/124378/9558142",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "【2026獨家優惠】LiTV 優惠比官方更便宜！教你選擇最適合你的訂閱方案",
+          "source": "onion-net.com.tw",
+          "source_url": "https://www.onion-net.com.tw/news_detail/litv-offers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "體感溫度上看40度！夏季電費高壓來襲LG揭四大家電「理財」術 - OP響樂生活",
+          "source": "myfone.blog",
+          "source_url": "https://myfone.blog/tech-news/interview/news3-lg-2606031/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG官方商城六月三重盛典启幕 618、周年庆联动足球盛事狂欢燃动盛夏_中华网",
+          "source": "hea.china.com",
+          "source_url": "https://hea.china.com/articles/20260610/202606101890100.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "肯德基優惠-2026年6月»最新肯德基 KFC優惠/優惠碼/折扣碼總整理",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/kfc-coupon-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 韓式喵汪圈:寵物異味研究所🐱🐶 🕵🏻 | U Community 社群平台",
+          "source": "ulifestyle.com.hk",
+          "source_url": "https://www.ulifestyle.com.hk/community/detailpost/65d40d73-070d-4e4d-890d-ed7e47a5bce4/%E5%AF%B5%E7%89%A9/3DogsFamily/779928",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "【买前必看】618什么电视值得买？7大品牌43款对比推荐，海信/TCL/创维/Vidda/雷鸟/小米/索尼等_哔哩哔哩_bilibili",
+          "source": "bilibili.com",
+          "source_url": "https://www.bilibili.com/video/BV1NBEm6tE6M/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "智慧手機 | 電視 | 冰箱 洗衣機 吸塵器 空氣清淨機 微波爐 | Samsung 台灣",
+          "source": "samsung.com",
+          "source_url": "https://www.samsung.com/tw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信 75E5S 液晶电视直播间特惠，仅 5324.41 元_海信 75E5S_电视导购-中关村在线",
+          "source": "tv.zol.com.cn",
+          "source_url": "https://tv.zol.com.cn/1197/11970074.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-06-14",
+  "period_start": "2026-06-07",
+  "period_end": "2026-06-13"
+}

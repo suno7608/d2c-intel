@@ -1,0 +1,32 @@
+{
+  "week": "2026-06-14",
+  "report_period": {
+    "start": "2026-06-07",
+    "end": "2026-06-13"
+  },
+  "version": "Weekly Vol.2026-06-14-R2",
+  "generated_at": "2026-06-14T10:42:51.444Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 328,
+    "competitor_promotion_signals": 10,
+    "chinese_threat_signals": 14,
+    "consumer_negative_countries": 6,
+    "critical_country_count": 2
+  },
+  "critical_countries": [
+    "🇩🇪 독일 (DE)",
+    "🇹🇷 튀르키예 (TR)"
+  ],
+  "executive_key_insights": [
+    "FIFA 월드컵 2026 개막(6/11)으로 전 세계 TV 프로모션이 폭발적으로 증가했으며, LG OLED는 프리미엄 세그먼트에서 브랜드 리더십을 유지하고 있으나 TCL/Hisense의 공격적 가격 전략이 중저가 시장 점유율을 위협하고 있음",
+    "생활가전(냉장고/세탁기) 부문에서 Haier와 Midea의 유럽·호주 시장 침투가 가속화되고 있으며, 특히 독일(42건)과 호주(25건)에서 중국 브랜드 데이터가 급증하여 경쟁 심화 신호 포착",
+    "LG UltraGear 모니터 2026 라인업이 글로벌 출시되며 gaming 모니터 시장에서 기술 리더십을 확보했으나, gram 노트북은 상대적으로 프로모션 노출이 부족하여 인지도 제고 필요"
+  ],
+  "links": {
+    "html": "./2026-06-14/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-06-14_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-06-14_R2_16country.md",
+    "share": "./2026-06-14/share.html"
+  }
+}

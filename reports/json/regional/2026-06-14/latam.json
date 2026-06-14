@@ -1,0 +1,299 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 93,
+  "country_breakdown": {
+    "BR": 76,
+    "MX": 14,
+    "CL": 3
+  },
+  "product_breakdown": {
+    "TV": 40,
+    "Refrigerator": 24,
+    "Washing Machine": 8,
+    "Monitor": 21
+  },
+  "brand_breakdown": {
+    "LG": 61,
+    "TCL": 6,
+    "Samsung": 12,
+    "Hisense": 6,
+    "Midea": 5,
+    "Haier": 3
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 39,
+    "Chinese Brand Threat Tracking": 34,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 14
+  },
+  "chinese_brand_total": 20,
+  "lg_total": 61,
+  "country_data": {
+    "BR": {
+      "total": 76,
+      "products": {
+        "TV": 30,
+        "Refrigerator": 20,
+        "Washing Machine": 8,
+        "Monitor": 18
+      },
+      "brands": {
+        "LG": 47,
+        "TCL": 6,
+        "Samsung": 12,
+        "Hisense": 5,
+        "Midea": 5,
+        "Haier": 1
+      },
+      "chinese_count": 17,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 4.499: Smart TV TCL 65 Polegadas QLED Mini LED 4K C7K WiFi Bluetooth Google TV 4 HDMI 144Hz HDR10+ 65C7K | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/tcl-tv-65-c7k-65-polegadas-qled-mini-led-4k-af94",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best TCL TVs of 2026: Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/tcl",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "I’m a TV expert, and here are the best TVs you can buy today for every budget",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.699: Monitor Gamer Curvo LG UltraGear 34\" - 34GP63A-B | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-curvo-lg-ultragear-34-2k-wqhd-ultrawide-160hz-1ms-freesync-premium-hdr10-som-integrado-34gp63a-b-6f75",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "r/buildapc on Reddit: Considering a 4K OLED Monitor – Is It Worth It?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/buildapc/comments/1jbvqe2/considering_a_4k_oled_monitor_is_it_worth_it/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG apresenta linha de TVs OLED 2026 com processamento avançado de AI",
+          "source": "oficinadanet.com.br",
+          "source_url": "https://www.oficinadanet.com.br/noticias/70202-lg-apresenta-linha-de-tvs-oled-2026-com-processamento-avancado-de-ai",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Novas TVs OLED da LG chegam ao Brasil com telas gigantes; veja preços - Canaltech",
+          "source": "canaltech.com.br",
+          "source_url": "https://canaltech.com.br/tv/novas-tvs-oled-da-lg-chegam-ao-brasil-com-telas-gigantes-veja-precos/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG lança OLED evo G6 com Processador α11 AI 4K Gen3 e brilho ainda mais intenso",
+          "source": "mundoconectado.com.br",
+          "source_url": "https://www.mundoconectado.com.br/smart-tvs/lg-lanca-oled-evo-g6-com-brilho-ainda-mais-intenso/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG revela novas televisões OLED evo para o Brasil",
+          "source": "tecmundo.com.br",
+          "source_url": "https://www.tecmundo.com.br/produto/413741-novas-tvs-oled-da-lg-trazem-mais-funcoes-de-controles-para-luzes-e-cores.htm",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Nova LG OLED evo C6 chega em tamanhos de 42 a 83 polegadas com foco em games e entretenimento",
+          "source": "mundoconectado.com.br",
+          "source_url": "https://www.mundoconectado.com.br/smart-tvs/nova-lg-oled-evo-c6-chega-em-tamanhos-de-42-a-83-polegadas-com-foco-em-games-e-entretenimento/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 14,
+      "products": {
+        "TV": 8,
+        "Refrigerator": 4,
+        "Monitor": 2
+      },
+      "brands": {
+        "LG": 12,
+        "Haier": 2
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Esta Smart TV OLED de LG baja 2.000 euros para el Mundial y activa grandes ofertas - AS.com",
+          "source": "as.com",
+          "source_url": "https://as.com/showroom/smart-tv-lg-grandes-descuentos-mundial-f202606-n/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "El Mundial empieza en PcComponentes con teles OLED o QLED con hasta un 60 % de descuento",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/seleccion/mundial-empieza-pccomponentes-teles-oled-qled-60-descuento",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Daniel Aguilar, director de comunicación de LG: “El mejor televisor del mundo es OLED y se produce en México”",
+          "source": "adn40.mx",
+          "source_url": "https://www.adn40.mx/es-tendencia/2026-06-07/daniel-aguilar-director-de-comunicacion-de-lg-el-mejor-televisor-del-mundo-es-oled-y-se-produce-en-mexico/?outputType=amp",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Pantalla 55 pulgadas LG AI OLED B5 4K Smart TV 2025 - OLED55B5PSA | LG México",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/mx/tv-soundbars/oled/oled55b5psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Pantalla Hisense de 50 pulgadas baja de precio $3,500 pesos en Soriana",
+          "source": "adn40.mx",
+          "source_url": "https://www.adn40.mx/es-tendencia/2026-06-07/pantalla-hisense-de-50-pulgadas-baja-de-precio-3500-pesos-en-soriana/?outputType=amp",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Liverpool rebaja Pantalla Smart TV Hisense Mini Led de 65 pulgadas: con AI Smooth Motion - El Heraldo de México",
+          "source": "heraldodemexico.com.mx",
+          "source_url": "https://heraldodemexico.com.mx/economia/2026/6/12/liverpool-rebaja-pantalla-smart-tv-hisense-mini-led-de-65-pulgadas-con-ai-smooth-motion-830819.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Pantallas Hisense - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/pantallas/pantallas-hisense/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense pone en oferta esta Smart TV QLED de 55 pulgadas: cuesta menos de $7,000 antes del Mundial",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/amp/tecnologia/hisense-pone-en-oferta-esta-smart-tv-qled-de-55-pulgadas-cuesta-menos-de-7000-antes-del-mundial-20260609-0218.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "32 pies cúbicos LG French Door Refrigerador-GM90FQT | LG México",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/mx/refrigeradores/instaview-refrigeradores/gm90fqt/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Fabricador de Hielo Frigorífico LG AEQ32178402",
+          "source": "servihogartarraco.com",
+          "source_url": "https://www.servihogartarraco.com/producto/fabricador-de-hielo-frigorifico-lg-aeq32178402/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 3,
+      "products": {
+        "TV": 2,
+        "Monitor": 1
+      },
+      "brands": {
+        "Hisense": 1,
+        "LG": 2
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Gaming Monitors - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/pc-gaming/gaming-monitors/pcmcat304600050011.c?id=pcmcat304600050011",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense 48H5 TV Review - Consumer Reports",
+          "source": "consumerreports.org",
+          "source_url": "https://www.consumerreports.org/electronics-computers/tvs/hisense-48h5/m262209/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Televisores Mini LED 4K HISENSE U7ESG vs LG QNED85B. #hisense #lg #tecnologia #smarttv #miniled",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/@andy.tecnologia.tv/video/7648723581991505173",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-06-14",
+  "period_start": "2026-06-07",
+  "period_end": "2026-06-13"
+}
