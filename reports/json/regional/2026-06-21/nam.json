@@ -1,0 +1,259 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 149,
+  "country_breakdown": {
+    "US": 133,
+    "CA": 16
+  },
+  "product_breakdown": {
+    "TV": 41,
+    "Refrigerator": 35,
+    "Washing Machine": 34,
+    "Monitor": 21,
+    "LG gram": 18
+  },
+  "brand_breakdown": {
+    "LG": 94,
+    "Samsung": 7,
+    "TCL": 11,
+    "Haier": 16,
+    "Hisense": 3,
+    "Midea": 18
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 41,
+    "Chinese Brand Threat Tracking": 60,
+    "Competitive Price & Positioning": 23,
+    "Consumer Sentiment": 25
+  },
+  "chinese_brand_total": 48,
+  "lg_total": 94,
+  "country_data": {
+    "US": {
+      "total": 133,
+      "products": {
+        "TV": 40,
+        "Refrigerator": 27,
+        "Washing Machine": 27,
+        "Monitor": 21,
+        "LG gram": 18
+      },
+      "brands": {
+        "LG": 93,
+        "Samsung": 7,
+        "TCL": 11,
+        "Haier": 9,
+        "Hisense": 3,
+        "Midea": 10
+      },
+      "chinese_count": 33,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Help Me Find Deals's Amazon Page - Best Early Prime Day LG OLED TV Deals 2026",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/shop/helpmefinddeals/list/X0QMGCBSVGPX",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Massive LG OLED TV sale at Best Buy — my top deals from $899 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/massive-lg-oled-tv-sale-at-best-buy-my-top-deals-from-usd899",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Huge LG OLED TV sale at Best Buy knocks up to $1,500 off the LG B5, LG G5, and LG C5 — the 'best TV for most people' | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/huge-lg-oled-tv-sale-at-best-buy-knocks-up-to-usd1-500-off-the-lg-b5-lg-g5-and-lg-c5-the-best-tv-for-most-people",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "23 Prime Day TV deals worth your money — best bets for gaming, World Cup parties and more | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/prime-day-tv-deals-worth-your-money-2026",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED TVs | Amazon.com",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/oled-tvs/b?ie=UTF8&node=6463520011",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "2026 TV Lineup: The Year Of RGB Mini LED - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/learn/2026-lineup",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TVs for 2026: Expert Tested and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 6 Best 55-Inch TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-size/55-inch",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Act fast! TCL's excellent QM8L SQD-Mini LED 4K TV is $700 off | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/act-fast-tcls-excellent-qm8l-sqd-mini-led-4k-tv-is-usd700-off",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 6 Best Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/monitors",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 16,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 8,
+        "Washing Machine": 7
+      },
+      "brands": {
+        "LG": 1,
+        "Haier": 7,
+        "Midea": 8
+      },
+      "chinese_count": 15,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Jun 2026 | $3000 OFF | Tom's Hardware",
+          "source": "tomshardware.com",
+          "source_url": "https://www.tomshardware.com/coupons/lg.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HAIER Refrigerators for Your 2026 Home Upgrade 🏠❄️ | RONA",
+          "source": "rona.ca",
+          "source_url": "https://www.rona.ca/en/appliances/refrigerators/haier--104-4fa2b",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/haier/ki8-6sg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.ca: Midea - Freezers & Refrigerators / Large Appliances: Home & Kitchen",
+          "source": "amazon.ca",
+          "source_url": "https://www.amazon.ca/Freezers-Refrigerators-Midea-Large-Appliances/s?rh=n:17836127011,p_89:Midea",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Buy Front Load Washing Machines at Best Price | Haier Appliances",
+          "source": "shop.haierindia.com",
+          "source_url": "https://shop.haierindia.com/shop/Washing-Machines/Front-Load-Washing-Machines/12/34",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-06-21",
+  "period_start": "2026-06-14",
+  "period_end": "2026-06-20"
+}

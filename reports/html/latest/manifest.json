@@ -1,8 +1,39 @@
 {
-  "generated_at": "2026-06-14T10:46:40.448Z",
-  "total_weeks": 19,
-  "latest_week": "2026-06-14",
+  "generated_at": "2026-06-21T10:52:15.731Z",
+  "total_weeks": 20,
+  "latest_week": "2026-06-21",
   "weeks": [
+    {
+      "week": "2026-06-21",
+      "report_period": {
+        "start": "2026-06-14",
+        "end": "2026-06-20"
+      },
+      "version": "Weekly Vol.2026-06-21-R2",
+      "generated_at": "2026-06-21T10:48:14.615Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 272,
+        "competitor_promotion_signals": 9,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 7,
+        "critical_country_count": 1
+      },
+      "critical_countries": [
+        "🇹🇷 튀르키예 (TR)"
+      ],
+      "executive_key_insights": [
+        "**월드컵 시즌 LG OLED TV 프로모션 집중**: 미국·독일·프랑스·이탈리아 등 주요 법인에서 Best Buy, MediaMarkt, Amazon을 통한 대규모 OLED 할인이 동시 진행되며, C5/G5 시리즈가 $899~€1,600대로 가격 경쟁력 확보",
+        "**중국 브랜드 위협 다각화 심화**: TV 영역의 TCL/Hisense 공세에 더해, Haier·Midea가 냉장고·세탁기 분야에서 15개국 이상에서 공격적 가격 전략 전개 — 특히 🇹🇷 튀르키예에 Hisense 공식 진출",
+        "**LG 생활가전 AI 혁신 강조**: 브라질·한국에서 18kg AI DD 세탁기, 브라질에서 ThinQ 스마트 냉장고, 대만에서 전가·편의점 연계 'Care 寄存+' 서비스 론칭으로 프리미엄·서비스 차별화 가속"
+      ],
+      "links": {
+        "html": "./2026-06-21/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-06-21_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-06-21_R2_16country.md",
+        "share": "./2026-06-21/share.html"
+      }
+    },
     {
       "week": "2026-06-14",
       "report_period": {

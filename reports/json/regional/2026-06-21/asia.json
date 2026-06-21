@@ -1,0 +1,278 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 101,
+  "country_breakdown": {
+    "AU": 40,
+    "TW": 61
+  },
+  "product_breakdown": {
+    "TV": 29,
+    "Refrigerator": 31,
+    "Washing Machine": 23,
+    "Monitor": 14,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "LG": 59,
+    "TCL": 9,
+    "Hisense": 7,
+    "Samsung": 2,
+    "Haier": 16,
+    "Midea": 8
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 27,
+    "Chinese Brand Threat Tracking": 37,
+    "Competitive Price & Positioning": 18,
+    "Consumer Sentiment": 19
+  },
+  "chinese_brand_total": 40,
+  "lg_total": 59,
+  "country_data": {
+    "AU": {
+      "total": 40,
+      "products": {
+        "TV": 11,
+        "Refrigerator": 15,
+        "Washing Machine": 12,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 9,
+        "TCL": 8,
+        "Samsung": 2,
+        "Haier": 13,
+        "Hisense": 1,
+        "Midea": 7
+      },
+      "chinese_count": 29,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for Jun 2026 | Exclusive $40 Gift Card",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 3 Best OLED TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-type/oled",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 65\" C8K 4K UHD Premium QD-Mini LED TV $1411.85 + Delivery ($0 C&C) @ Harvey Norman - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/964395",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best 75-77 Inch TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-size/70-75-77-inch",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75-Inch C8L SQD-Mini LED 4K Google TV 75C8L",
+          "source": "appliancegiant.com.au",
+          "source_url": "https://www.appliancegiant.com.au/products/tcl-75c8l-75-inch-c8l-sqd-mini-led-4k-google-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL Mini LED TV Buying Guide for B2B Buyers",
+          "source": "electronics.alibaba.com",
+          "source_url": "https://electronics.alibaba.com/product/tv-mini-led-tcl",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Fridges & Fridge Freezers | French Door, Top & Bottom Mount | Harvey Norman",
+          "source": "harveynorman.com.au",
+          "source_url": "https://www.harveynorman.com.au/kitchen-appliances/appliances/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "What are the best French-door fridges? - CHOICE",
+          "source": "choice.com.au",
+          "source_url": "https://www.choice.com.au/home-and-living/kitchen/fridges/articles/the-best-french-door-fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Bespoke Counter Depth 3-Door French Door Refrigerator, White (30 cu. ft.) | Samsung US",
+          "source": "samsung.com",
+          "source_url": "https://www.samsung.com/us/refrigerators/french-door/bespoke-3-door-french-door-refrigerator-30-cu-ft-with-beverage-center-in-white-glass-sku-rf30bb660012aa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 61,
+      "products": {
+        "TV": 18,
+        "Refrigerator": 16,
+        "Washing Machine": 11,
+        "Monitor": 14,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 50,
+        "TCL": 1,
+        "Hisense": 6,
+        "Haier": 3,
+        "Midea": 1
+      },
+      "chinese_count": 11,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "23.8吋平價螢幕1999元 LG 24MR400-B具備100Hz螢幕更新率 低成本文書螢幕 #低預算 (249512) - Cool3c",
+          "source": "cool3c.com",
+          "source_url": "https://www.cool3c.com/article/249512",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "京東 MALL 灣仔開業直擊！iPhone 9 折/TCL 電視 $666 / 滿 $9,999 送平板 HSBC 再減 $688 | ezone",
+          "source": "ezone.hk",
+          "source_url": "https://ezone.hk/article/20100156/%E4%BA%AC%E6%9D%B1-MALL-%E7%81%A3%E4%BB%94%E9%96%8B%E6%A5%AD%E7%9B%B4%E6%93%8A",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2026 最新 Surfshark 優惠碼｜VPN 折扣最高 86% + 加送 3 個月",
+          "source": "surfshark.com",
+          "source_url": "https://surfshark.com/zh-tw/deal/coupon",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 攜手米其林主廚孫鍾元於宜蘭打造 Housewarming 韓式智慧生活體驗空間 | T客邦",
+          "source": "techbang.com",
+          "source_url": "https://www.techbang.com/posts/130370-lg-michelin-chef-son-housewarming-yilan",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "肯德基優惠-2026年6月»最新肯德基 KFC優惠/優惠碼/折扣碼總整理",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/kfc-coupon-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "iRent優惠碼-2026年6月»iRent共享汽機車優惠碼/信用卡優惠/租車費用/使用教學",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/irent-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "特斯拉與AI儲能需求推動 韓媒：LG新能源南京廠滿載運轉 | 陸港經貿 | 兩岸 | 聯合新聞網",
+          "source": "udn.com",
+          "source_url": "https://udn.com/news/story/7333/9579121",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Como Puedo Instalar La App Xupertv En Tv Marca Lg",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/content/como-puedo-instalar-la-app-xupertv-en-tv-marca-lg?lang=en",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信推 65 吋 Mini-LED 電視 165Hz 防眩光搶攻電競市場 - 獨家報導",
+          "source": "scooptw.com",
+          "source_url": "https://www.scooptw.com/sunmedia/488553/%E6%B5%B7%E4%BF%A1%E6%8E%A8-65-%E5%90%8B-mini-led-%E9%9B%BB%E8%A6%96-165hz-%E9%98%B2%E7%9C%A9%E5%85%89%E6%90%B6%E6%94%BB%E9%9B%BB%E7%AB%B6%E5%B8%82%E5%A0%B4/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "2026美加墨世界杯开幕，海信RGB-Mini LED助裁判精准判罚",
+          "source": "m.ikanchai.com",
+          "source_url": "https://m.ikanchai.com/article/161439",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-06-21",
+  "period_start": "2026-06-14",
+  "period_end": "2026-06-20"
+}

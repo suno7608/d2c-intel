@@ -1,0 +1,245 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 85,
+  "country_breakdown": {
+    "BR": 78,
+    "MX": 6,
+    "CL": 1
+  },
+  "product_breakdown": {
+    "TV": 36,
+    "Refrigerator": 13,
+    "Washing Machine": 16,
+    "Monitor": 16,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "LG": 52,
+    "TCL": 9,
+    "Hisense": 10,
+    "Midea": 11,
+    "Samsung": 2,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 34,
+    "Chinese Brand Threat Tracking": 38,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 7
+  },
+  "chinese_brand_total": 31,
+  "lg_total": 52,
+  "country_data": {
+    "BR": {
+      "total": 78,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 13,
+        "Washing Machine": 14,
+        "Monitor": 16,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 47,
+        "TCL": 9,
+        "Hisense": 10,
+        "Midea": 9,
+        "Samsung": 2,
+        "Haier": 1
+      },
+      "chinese_count": 29,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 1.734: TV TCL 50S62 Smart 4K UHD LED com Google TV | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/tcl-50s62-smart-tv-4k-uhd-led-com-google-tv-fe8c",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best Samsung TVs of 2026: Reviews and Smart Features - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/samsung",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 2.540: Geladeira/Refrigerador LG Frost Free Black 395L | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeirarefrigerador-lg-frost-free-black-395l-44cd",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Termina mañana: el chollo histórico de LG para llevarte sus Smart TV OLED y paneles gigantes de 100 pulgadas con 2000€ de regalo",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/mejores-televisores-lg-gran-pulgada-descuentos/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Precio mínimo histórico para esta tele OLED de LG: es ideal para ver pelis o jugar a videojuegos",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/seleccion/precio-minimo-historico-para-esta-tele-oled-lg-ideal-para-ver-pelis-jugar-a-videojuegos",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo AI G6: The Next-Generation OLED TV That Meets Hollywood",
+          "source": "variety.com",
+          "source_url": "https://variety.com/2026/biz/news/lg-oled-evo-ai-g6-next-generation-oled-tv-that-meets-hollywood-1236785615/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "83 inch LG OLED evo AI C6 4K Smart TV 2026 - OLED83C64LA - OLED83C64LA | LG UK",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/uk/tvs-soundbars/oled-evo/oled83c64la/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG G6 (OLED55G6) review: the only OLED TV you need? | Stuff",
+          "source": "stuff.tv",
+          "source_url": "https://www.stuff.tv/review/lg-g6-oled55g6-review/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Monitor OLED gamer da LG entra em oferta na Amazon e ...",
+          "source": "guialacerda.net",
+          "source_url": "https://guialacerda.net/2026/06/15/monitor-oled-gamer-da-lg-entra-em-oferta-na-amazon-e-chama-atencao-por-tela-de-240hz/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV 4K TCL MiniLED 65\" aparece 31% mais barata durante a Copa do Mundo • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/tv-4k-tcl-miniled-65-aparece-31-mais-barata-durante-a-copa-do-mundo/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 6,
+      "products": {
+        "TV": 2,
+        "Washing Machine": 2,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 4,
+        "Midea": 2
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG tiene una smart TV de 55 pulgadas tan equilibrada que cuesta mirar otras",
+          "source": "larazon.es",
+          "source_url": "https://www.larazon.es/compras/nuestra-eleccion/tiene-smart-55-pulgadas-tan-equilibrada-que-cuesta-mirar-otras_202606176a325a989b079e64f68ad968.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Costco lanza a precio de regalo Smart TV Hisense QLED de 65 pulgadas: con colores vibrantes 4K Quantum D | El Heraldo de México",
+          "source": "heraldodemexico.com.mx",
+          "source_url": "https://heraldodemexico.com.mx/economia/2026/6/17/costco-lanza-precio-de-regalo-smart-tv-hisense-qled-de-65-pulgadas-con-colores-vibrantes-4k-quantum-833479-amp.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Bodega Aurrera liquida lavadora Midea de 18 kilos: opción Turbo para lavados urgentes, 8 ciclos y perfecta para depas chicos",
+          "source": "radioformula.com.mx",
+          "source_url": "https://www.radioformula.com.mx/estilo-de-vida/bodega-aurrera-liquida-lavadora-midea-de-18-kilos-opcion-turbo-para-lavados-urgentes-8-ciclos-y-perfecta-para-depas-chicos-20260616-0002.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Lavadora Midea de 18 kg cae a menos de $7,000 en Mercado Libre: tiene tecnología Inverter y 40% OFF",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/viral/lavadora-midea-de-18-kg-cae-a-menos-de-7000-en-mercado-libre-tiene-tecnologia-inverter-y-40-off-20260617-0205.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Gram Pro 2026, un portátil profesional optimizado para la IA, más ligero que nunca",
+          "source": "computerhoy.20minutos.es",
+          "source_url": "https://computerhoy.20minutos.es/tecnologia/lg-gram-pro-2026-un-portatil-profesional-optimizado-para-ia-mas-ligero-que-nunca_6985212_0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Portátil LG gram 16Z90TL de 16\" Ultra 7 258V 32GB 512GB W11P - INCOPYME",
+          "source": "incopyme.com",
+          "source_url": "https://www.incopyme.com/producto/portatil-lg-gram-16z90tl-de-16-ultra-7-258v-32gb-512gb-w11p/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 1,
+      "products": {
+        "TV": 1
+      },
+      "brands": {
+        "LG": 1
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "El fútbol como él lo vive, ahora desde casa con LG OLED | LG Colombia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/co/historias-con-lg/juego-redescubierto-en-casa-con-lg/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-06-21",
+  "period_start": "2026-06-14",
+  "period_end": "2026-06-20"
+}

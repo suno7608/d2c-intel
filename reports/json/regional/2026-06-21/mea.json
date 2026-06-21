@@ -1,0 +1,155 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 51,
+  "country_breakdown": {
+    "SA": 51
+  },
+  "product_breakdown": {
+    "TV": 21,
+    "Refrigerator": 13,
+    "Washing Machine": 14,
+    "Monitor": 2,
+    "LG gram": 1
+  },
+  "brand_breakdown": {
+    "LG": 24,
+    "Hisense": 14,
+    "Haier": 8,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 17,
+    "Chinese Brand Threat Tracking": 27,
+    "Retail Channel Promotions": 6,
+    "Consumer Sentiment": 1
+  },
+  "chinese_brand_total": 27,
+  "lg_total": 24,
+  "country_data": {
+    "SA": {
+      "total": 51,
+      "products": {
+        "TV": 21,
+        "Refrigerator": 13,
+        "Washing Machine": 14,
+        "Monitor": 2,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 24,
+        "Hisense": 14,
+        "Haier": 8,
+        "TCL": 5
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "9 early Prime Day deals on Hisense TVs — starting at just $99 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/9-early-prime-day-deals-on-hisense-tvs-starting-at-just-usd99",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best cheap TV deals in June 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/us/best-tv-deals,news-26008.html",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: Refrigerators - LG / Refrigerators / Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-LG-Freezers-Ice-Makers/s?keywords=Refrigerators&rh=n%3A3741361%2Cp_89%3ALG&c=ts&ts_id=3741361",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 6 Best 1440p Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/1440p-gaming-monitors",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/TCL/page/0BC8946D-897E-41F0-837E-F776CEDFD8B3",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL - Smart TV: Electronics",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Smart-TV-TCL-Electronics/s?rh=n%3A5969290011%2Cp_4%3ATCL",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Hisense: TVs by Size",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/Hisense/page/2A05A676-3EF9-4072-A46D-C80BCF4BE213",
+          "confidence": "high"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-06-21",
+  "period_start": "2026-06-14",
+  "period_end": "2026-06-20"
+}
