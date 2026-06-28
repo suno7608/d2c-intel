@@ -1,0 +1,261 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 163,
+  "country_breakdown": {
+    "US": 142,
+    "CA": 21
+  },
+  "product_breakdown": {
+    "TV": 48,
+    "Refrigerator": 32,
+    "Washing Machine": 39,
+    "Monitor": 26,
+    "LG gram": 18
+  },
+  "brand_breakdown": {
+    "LG": 105,
+    "TCL": 16,
+    "Samsung": 3,
+    "Haier": 16,
+    "Midea": 21,
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 47,
+    "Chinese Brand Threat Tracking": 62,
+    "Competitive Price & Positioning": 28,
+    "Consumer Sentiment": 26
+  },
+  "chinese_brand_total": 55,
+  "lg_total": 105,
+  "country_data": {
+    "US": {
+      "total": 142,
+      "products": {
+        "TV": 45,
+        "Refrigerator": 23,
+        "Washing Machine": 32,
+        "Monitor": 26,
+        "LG gram": 16
+      },
+      "brands": {
+        "LG": 100,
+        "TCL": 15,
+        "Samsung": 3,
+        "Haier": 9,
+        "Midea": 13,
+        "Hisense": 2
+      },
+      "chinese_count": 39,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Help Me Find Deals's Amazon Page - Best Prime Day LG OLED TV Deals 2026",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/shop/helpmefinddeals/list/X0QMGCBSVGPX",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "$297 Off a 65-Inch LG OLED TV Is the Prime Day Deal Worth Ending the Sale On - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/prime-day-lg-tv-deal-26-06-26/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 6 Best 4k TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-resolution/4k-ultra-hd-uhd",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "I’m a TV expert, and here are the best TVs you can buy today for every budget",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV (2025) 75QM6K - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/tcl-75-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQWFJ/sku/12377039",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 6 Best Refrigerator Brands of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/brands",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 6 Best 27-Inch Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-size/27-inch",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG G5 OLED vs C6 OLED 2026: Which TV Is Better? - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/tools/compare/lg-g5-oled-vs-lg-c6-oled-2026/88601/132977",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "I Was Shocked by How Good These Budget TVs Were - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-budget-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best cheap TV deals in June 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/us/best-tv-deals,news-26008.html",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 21,
+      "products": {
+        "TV": 3,
+        "Refrigerator": 9,
+        "LG gram": 2,
+        "Washing Machine": 7
+      },
+      "brands": {
+        "LG": 5,
+        "TCL": 1,
+        "Haier": 7,
+        "Midea": 8
+      },
+      "chinese_count": 16,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-65-class-oledc5-series-4k-uhd-oled-tv/4000370787",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Latest generation LG OLED C6 TV drops within $20 of its lowest ever price in unmissable Prime Day TV deal - PC Guide",
+          "source": "pcguide.com",
+          "source_url": "https://www.pcguide.com/deals/latest-generation-lg-oled-c6-tv-drops-within-20-of-its-lowest-ever-price-in-unmissable-prime-day-tv-deal/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Micro RGB or LG OLED TVs? Which 2026 LG TV should you buy",
+          "source": "blog.bestbuy.ca",
+          "source_url": "https://blog.bestbuy.ca/tv-audio-home-theatre/televisions/lg-micro-rgb-vs-oled",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Price to sales forward of LG Chem Ltd. – KRX:051910 – TradingView",
+          "source": "tradingview.com",
+          "source_url": "https://www.tradingview.com/symbols/KRX-051910/financials-statistics-and-ratios/price-sales-fwd/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Roku Pro Series 4K Mini-LED 120Hz QLED TVs in 55\", 65\", & 75\" | Roku",
+          "source": "roku.com",
+          "source_url": "https://www.roku.com/products/roku-tv/roku-made-tvs/pro-series",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Haier/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/refrigeration/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HAIER Refrigerators for Your 2026 Home Upgrade 🏠❄️ | RONA",
+          "source": "rona.ca",
+          "source_url": "https://www.rona.ca/en/appliances/refrigerators/haier--104-4fa2b",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/haier/ki8-6sg",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-06-29",
+  "period_start": "2026-06-21",
+  "period_end": "2026-06-27"
+}

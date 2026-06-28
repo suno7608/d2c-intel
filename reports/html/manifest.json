@@ -1,8 +1,39 @@
 {
-  "generated_at": "2026-06-21T10:52:15.731Z",
-  "total_weeks": 20,
-  "latest_week": "2026-06-21",
+  "generated_at": "2026-06-28T21:25:36.195Z",
+  "total_weeks": 21,
+  "latest_week": "2026-06-29",
   "weeks": [
+    {
+      "week": "2026-06-29",
+      "report_period": {
+        "start": "2026-06-21",
+        "end": "2026-06-27"
+      },
+      "version": "Weekly Vol.2026-06-29-R2",
+      "generated_at": "2026-06-28T21:21:12.345Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 354,
+        "competitor_promotion_signals": 9,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 13,
+        "critical_country_count": 1
+      },
+      "critical_countries": [
+        "🇦🇺 호주 (AU)"
+      ],
+      "executive_key_insights": [
+        "**Amazon Prime Day + FIFA 월드컵 시너지 극대화**: 글로벌 주요 리테일러들이 Prime Day(6/24-26)와 FIFA 월드컵 2026을 연계한 대규모 프로모션을 전개, LG OLED C5/G5 시리즈가 최저가 기록을 갱신하며 소비자 관심 집중",
+        "**중국 브랜드 공세 가속화**: TCL/Hisense의 Mini-LED TV 공격적 가격 정책과 함께 Haier/Midea의 생활가전 시장 침투가 본격화되어 16개 핵심 법인 전역에서 314건의 위협 신호 감지 (전주 대비 +8.7%)",
+        "**생활가전 A/S 불만 급증 우려**: 냉장고·세탁기 관련 소비자 부정 반응이 23건으로 전주(7건) 대비 228% 급증, 특히 BR/FR/DE 법인에서 냉각 문제 및 유지보수 관련 불만 집중"
+      ],
+      "links": {
+        "html": "./2026-06-29/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-06-29_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-06-29_R2_16country.md",
+        "share": "./2026-06-29/share.html"
+      }
+    },
     {
       "week": "2026-06-21",
       "report_period": {

@@ -1,0 +1,279 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 88,
+  "country_breakdown": {
+    "AU": 35,
+    "TW": 53
+  },
+  "product_breakdown": {
+    "TV": 27,
+    "Refrigerator": 29,
+    "Washing Machine": 21,
+    "Monitor": 7,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "LG": 53,
+    "Hisense": 5,
+    "Haier": 14,
+    "Samsung": 2,
+    "Midea": 8,
+    "Panasonic": 1,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 25,
+    "Chinese Brand Threat Tracking": 31,
+    "Competitive Price & Positioning": 16,
+    "Consumer Sentiment": 16
+  },
+  "chinese_brand_total": 32,
+  "lg_total": 53,
+  "country_data": {
+    "AU": {
+      "total": 35,
+      "products": {
+        "TV": 10,
+        "Refrigerator": 13,
+        "Washing Machine": 11,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 7,
+        "Haier": 13,
+        "Samsung": 2,
+        "TCL": 5,
+        "Hisense": 1,
+        "Midea": 7
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED TVs - Premium Selection of OLED Televisions in Australia",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/televisions/oled-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The discount on this stellar OLED TV is the greatest Prime Day alternative deal I've found so far | ZDNET",
+          "source": "zdnet.com",
+          "source_url": "https://www.zdnet.com/home-and-office/home-entertainment/lg-c5-oled-best-buy-deal-amazon-prime-day-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The best Prime Day OLED TV deal: LG C5 vs. Samsung S90F (updated) | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/prime-day-deal-2026-lg-c5-oled-tv-versus-samsung-s90f",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Televisions | Smart TVs, OLED, QLED, QNED, 4K & 8K | Retravision",
+          "source": "retravision.com.au",
+          "source_url": "https://www.retravision.com.au/tv-audio/televisions",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The Good Guys sales: Calendar and deals for 2026 | Getprice",
+          "source": "getprice.com.au",
+          "source_url": "https://www.getprice.com.au/articles/feature/the-good-guys-sales",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges | Joyce Mayne",
+          "source": "joycemayne.com.au",
+          "source_url": "https://www.joycemayne.com.au/kitchen-appliances/appliances/fridges/haier/993",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 53,
+      "products": {
+        "TV": 17,
+        "Refrigerator": 16,
+        "Washing Machine": 10,
+        "Monitor": 7,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 46,
+        "Hisense": 4,
+        "Haier": 1,
+        "Midea": 1,
+        "Panasonic": 1
+      },
+      "chinese_count": 6,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for Jun 2026 | $25 OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG電視推薦10款高評價人氣LG電視品牌排行榜【2026最新版】 – PTT推薦評價開箱",
+          "source": "pttbuy.tw",
+          "source_url": "https://pttbuy.tw/lg-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 韓式生活提案｜Housewarming by LG｜LG 台灣",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/housewarming/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 公告: LG客服中心服務時間調整 | LG 台灣",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/support/announcement/TWNTC2025032701/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "良興購物網 (EcLife) | < 1.5% 現金回饋, 優惠碼 & 折扣碼",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/eclife",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "嘖嘖 | 最後倒數 ⏰ LG WallFit 邊淨機｜首創貼牆美型！上下雙向出風淨化 × 智慧節能空氣清淨機",
+          "source": "zeczec.com",
+          "source_url": "https://www.zeczec.com/projects/lg-wallfit",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "酷澎(Coupang) | < 0.1% 現金回饋, 優惠碼& 折扣碼 - ShopBack",
+          "source": "shopback.com.tw",
+          "source_url": "https://www.shopback.com.tw/coupang",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "油塘教育機構專案 Hisense海信65吋A6N 60Hz電視 專享60日數期",
+          "source": "hktvpro.com",
+          "source_url": "https://www.hktvpro.com/post/65a6n",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "营收下滑还要砸重金？海信死磕世界杯背后，藏着中国制造的野心_风闻",
+          "source": "user.guancha.cn",
+          "source_url": "https://user.guancha.cn/main/content?id=1674227",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "618彩电数据出炉：RGB-Mini LED销量暴涨，海信U6S Pro观赛闭眼冲 -- 飞象网",
+          "source": "cctime.com",
+          "source_url": "http://www.cctime.com/m/1737269.htm",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-06-29",
+  "period_start": "2026-06-21",
+  "period_end": "2026-06-27"
+}

@@ -1,0 +1,303 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 98,
+  "country_breakdown": {
+    "BR": 85,
+    "MX": 9,
+    "CL": 4
+  },
+  "product_breakdown": {
+    "TV": 42,
+    "Refrigerator": 22,
+    "Washing Machine": 14,
+    "Monitor": 16,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "LG": 56,
+    "TCL": 10,
+    "Hisense": 11,
+    "Samsung": 10,
+    "Midea": 9,
+    "Haier": 2
+  },
+  "pillar_breakdown": {
+    "Chinese Brand Threat Tracking": 40,
+    "Retail Channel Promotions": 39,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 32,
+  "lg_total": 56,
+  "country_data": {
+    "BR": {
+      "total": 85,
+      "products": {
+        "TV": 37,
+        "Refrigerator": 20,
+        "Washing Machine": 12,
+        "Monitor": 14,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 45,
+        "TCL": 10,
+        "Hisense": 9,
+        "Samsung": 10,
+        "Midea": 9,
+        "Haier": 2
+      },
+      "chinese_count": 30,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.978: TCL Smart TV 65 QLED 4K P7K Google TV | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/tcl-smart-tv-65-qled-4k-p7k-google-tv-4959",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Hisense 65\" U7 Mini-LED ULED 4K UHD Best Premium Gaming Smart Google TV (65U7SG, 2026 NEW) - Hi-QLED, Native 165Hz, VRR 330, HDR10+, Dolby Vision IQ · Atmos, IMAX Enhanced, Anti-Reflection, 2.1.2 Ch : Electronics",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Hisense-Mini-LED-Premium-Gaming-65U7SG/dp/B0GR9BLPJ8",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 6 Best Smart TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-features/smart-internet-streaming",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 3 Best TVs For PC Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-usage/pc-monitor",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Tantas TVs de 65 polegadas à venda no Prime Day: até US$ 1.000 de desconto em mini TVs QLED 2026 TCL e TVs LG OLED | Cinema e Cerveja",
+          "source": "cinemaecerveja.com.br",
+          "source_url": "https://cinemaecerveja.com.br/tecnologia/tantas-tvs-de-65-polegadas-a-venda-no-prime-day-ate-us-1-000-de-desconto-em-mini-tvs-qled-2026-tcl-e-tvs-lg-oled/55473/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Pesquisei os descontos chamativos da TV OLED do Prime Day e esses dois realmente fazem sentido | Cinema e Cerveja",
+          "source": "cinemaecerveja.com.br",
+          "source_url": "https://cinemaecerveja.com.br/tecnologia/pesquisei-os-descontos-chamativos-da-tv-oled-do-prime-day-e-esses-dois-realmente-fazem-sentido/57992/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Agência de Comunicação - LG apresenta nova OLED evo G6 e reforça liderança global de 13 anos em TVs OLED",
+          "source": "bluestudio.estadao.com.br",
+          "source_url": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/lg-apresenta-nova-oled-evo-g6-e-reforca-lideranca-global-de-13-anos-em-tvs-oled/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Agência de Comunicação - LG apresenta linha de TVs OLED 2026 com processamento avançado de AI",
+          "source": "bluestudio.estadao.com.br",
+          "source_url": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/lg-apresenta-linha-de-tvs-oled-2026-com-processamento-avancado-de-ai/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Evo C5 65-Inch OLED atinge menor preço do ano no Prime Day | GAMES.GG",
+          "source": "games.gg",
+          "source_url": "https://games.gg/pt-BR/news/lg-evo-c5-65-inch-oled-atinge-menor-pre%C3%A7o-do-ano-no-prime-day/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG diz ter resolvido um dos maiores problemas das TVs OLED em ambientes claros",
+          "source": "mundoconectado.com.br",
+          "source_url": "https://www.mundoconectado.com.br/smart-tvs/lg-tvs-oled-certificacao-cor-brilho-ambientes-claros/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 9,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 1,
+        "Washing Machine": 2,
+        "Monitor": 2,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 8,
+        "Hisense": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Encontramos la Smart TV Hisense A4N de 40 pulgadas a mejor precio que en Walmart y con 15 MSI",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/tecnologia/encontramos-la-smart-tv-hisense-a4n-de-40-pulgadas-a-mejor-precio-que-en-walmart-y-con-15-msi-20260627-0140.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Pantalla Hisense - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/pantallas/pantalla-hisense/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG fortalece su competitividad en Europa ante la demanda de sistemas eficientes y de fácil instalación - friocaloraireacondicionado",
+          "source": "friocaloraireacondicionado.com",
+          "source_url": "https://friocaloraireacondicionado.com/lg-facil-instalacion/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Oferta de Julio Regalado: Soriana remata lavadora y secadora LG con WiFi al precio más bajo | Terra México",
+          "source": "terra.com.mx",
+          "source_url": "https://www.terra.com.mx/estilo-de-vida/2026/6/24/oferta-de-julio-regalado-soriana-remata-lavadora-y-secadora-lg-con-wifi-al-precio-mas-bajo-72545.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cómo Cambiar El Motor Drive De Una Lavadora Lg ...",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/c%C3%B3mo-cambiar-el-motor-drive-de-una-lavadora-lg-autom%C3%A1tica",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cazando Gangas México, especial del Prime Day 2026: las mejores ofertas, descuentos y promociones en tecnología del día uno",
+          "source": "xataka.com.mx",
+          "source_url": "https://www.xataka.com.mx/seleccion/cazando-gangas-mexico-especial-prime-day-2026-mejores-ofertas-descuentos-promociones-tecnologia-dia-uno",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cazando Gangas México especial con las mejores 107 ofertas del Prime Day 2026: últimos días con descuentos en Amazon México",
+          "source": "xataka.com.mx",
+          "source_url": "https://www.xataka.com.mx/seleccion/cazando-gangas-mexico-especial-mejores-107-ofertas-prime-day-2026-ultimos-dias-descuentos-amazon-mexico",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "El LG Gram Pro 17 registra una bajada de precio récord: portátil ultraligero de 17 pulgadas con tarjeta gráfica integrada RTX 5050.",
+          "source": "vietnam.vn",
+          "source_url": "https://www.vietnam.vn/es/lg-gram-pro-17-giam-gia-ky-luc-laptop-17-inch-sieu-nhe-tich-hop-card-do-hoa-rtx-5050",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "El LG Gram Pro 17 registra una bajada de precio récord: un portátil ultraligero de 17 pulgadas para profesionales creativos.",
+          "source": "vietnam.vn",
+          "source_url": "https://www.vietnam.vn/es/lg-gram-pro-17-giam-gia-ky-luc-laptop-17-inch-sieu-nhe-cho-nguoi-lam-sang-tao",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 4,
+      "products": {
+        "TV": 3,
+        "Refrigerator": 1
+      },
+      "brands": {
+        "LG": 3,
+        "Hisense": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Carrefour liquida esta tele OLED de LG y además te llevas un cupón de casi 150 euros para futuras compras",
+          "source": "xatakahome.com",
+          "source_url": "https://www.xatakahome.com/seleccion/carrefour-esta-liquidando-esta-tele-oled-55-pulgadas-te-regala-cupon-casi-150-euros",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Este verano toca cambiar de televisor: LG OLED evo quiere que vivas el fútbol como si estuvieras en el estadio",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/este-verano-cambiar-televisor-lg-oled-evo-futbol/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "La Marca Hisense Es Buena En Tv | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/la-marca-hisense-es-buena-en-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "El Corte Inglés da el pistoletazo de salida a sus rebajas de verano con hasta el 50% en moda y electrodomésticos",
+          "source": "moncloa.com",
+          "source_url": "https://www.moncloa.com/2026/06/26/el-corte-ingles-rebajas-verano-3390109/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-06-29",
+  "period_start": "2026-06-21",
+  "period_end": "2026-06-27"
+}
