@@ -1,8 +1,39 @@
 {
-  "generated_at": "2026-06-28T21:25:36.195Z",
-  "total_weeks": 21,
-  "latest_week": "2026-06-29",
+  "generated_at": "2026-07-05T10:03:57.589Z",
+  "total_weeks": 22,
+  "latest_week": "2026-07-05",
   "weeks": [
+    {
+      "week": "2026-07-05",
+      "report_period": {
+        "start": "2026-06-28",
+        "end": "2026-07-04"
+      },
+      "version": "Weekly Vol.2026-07-05-R2",
+      "generated_at": "2026-07-05T09:59:53.103Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 319,
+        "competitor_promotion_signals": 10,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 5,
+        "critical_country_count": 1
+      },
+      "critical_countries": [
+        "🇦🇺 호주 (AU)"
+      ],
+      "executive_key_insights": [
+        "**미국 7월 4일 독립기념일 프로모션 시즌 돌입**: LG 전 제품군(TV·냉장고·세탁기·모니터·gram)에서 대규모 할인 캠페인이 전개되며, Prime Day와 연계된 최대 52% 할인으로 경쟁사 대비 공격적 가격 포지셔닝 확보",
+        "**중국 브랜드 가전 위협 심화**: Haier/Midea의 냉장고·세탁기 라인업이 북미·유럽·호주에서 가격 경쟁력을 앞세워 B2C 채널 침투 가속화, 특히 Costco·Walmart 등 대형 리테일러 입점 확대",
+        "**LG UltraGear 모니터 글로벌 신제품 출시 모멘텀**: 720Hz OLED 게이밍 모니터 등 혁신 제품 라인업으로 프리미엄 시장 주도권 강화, 브라질·프랑스·독일에서 신제품 런칭 기사 다수 확인"
+      ],
+      "links": {
+        "html": "./2026-07-05/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-07-05_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-07-05_R2_16country.md",
+        "share": "./2026-07-05/share.html"
+      }
+    },
     {
       "week": "2026-06-29",
       "report_period": {

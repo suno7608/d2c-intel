@@ -1,0 +1,286 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 94,
+  "country_breakdown": {
+    "BR": 83,
+    "CL": 3,
+    "MX": 8
+  },
+  "product_breakdown": {
+    "TV": 39,
+    "Refrigerator": 23,
+    "Washing Machine": 17,
+    "Monitor": 11,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "LG": 53,
+    "TCL": 8,
+    "Hisense": 7,
+    "Samsung": 9,
+    "Midea": 14,
+    "Haier": 2,
+    "Electrolux": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 35,
+    "Chinese Brand Threat Tracking": 40,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 31,
+  "lg_total": 53,
+  "country_data": {
+    "BR": {
+      "total": 83,
+      "products": {
+        "TV": 38,
+        "Refrigerator": 19,
+        "Washing Machine": 13,
+        "Monitor": 11,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 45,
+        "TCL": 8,
+        "Hisense": 7,
+        "Samsung": 9,
+        "Midea": 13,
+        "Electrolux": 1
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 6.753: Smart TV LG OLED evo AI 4K C6 55 polegadas 2026 OLED55C6PSA | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-lg-oled-evo-ai-4k-c6-55-polegadas-2026-oled55c6psa-0b67",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Hisense 65\" U7 Mini-LED ULED 4K UHD Best Premium Gaming Smart Google TV (65U7SG, 2026 NEW) - Hi-QLED, Native 165Hz, VRR 330, HDR10+, Dolby Vision IQ · Atmos, IMAX Enhanced, Anti-Reflection, 2.1.2 Ch : Electronics",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Hisense-Mini-LED-Premium-Gaming-65U7SG/dp/B0GR9BLPJ8",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The best Samsung TV for all budgets, tested by our reviewers | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-samsung-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG oferece descontos de até US$ 1.700 em TVs OLED e Gallery – Portal de notícias Brasil em Folhas",
+          "source": "brasilemfolhas.com.br",
+          "source_url": "https://www.brasilemfolhas.com.br/2026/07/lg-oferece-descontos-de-ate-us-1-700-em-tvs-oled-e-gallery/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Prime Day 2026: Smart TV LG OLED de 120 Hz sai 33% mais barata em até 12x | WebaDesign - Empresa de Webdesign - Desenvolvimento Web Design Macaé e Curitiba",
+          "source": "webadesign.com.br",
+          "source_url": "https://webadesign.com.br/prime-day-2026-smart-tv-lg-oled-de-120-hz-sai-33-mais-barata-em-ate-12x/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG OLED 4K de 55\" entra em oferta no Prime Day com desconto por tempo limitado",
+          "source": "gamevicio.com",
+          "source_url": "https://www.gamevicio.com/noticias/2026/07/tv-lg-oled-4k-de-55-oferta-prime-day-amazon/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Prime Day 2026: Smart TV LG OLED de 120 Hz sai 33% mais barata em até 12x • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/prime-day-2026-smart-tv-lg-oled-de-120-hz-sai-33-mais-barata-em-ate-12x/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG OLED 4K de 55″ entra em oferta no Prime Day com desconto por tempo limitado",
+          "source": "gamevicio.com",
+          "source_url": "https://www.gamevicio.com/noticias/2026/07/tv-lg-oled-4k-de-55-oferta-prime-day-amazon/amp/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupom LG | Desconto até 50% - Fevereiro ...",
+          "source": "meliuz.com.br",
+          "source_url": "https://www.meliuz.com.br/desconto/cupom-lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV LG OLED B6 chega ao Brasil com foco em IA e 144 Hz - EpicGeek",
+          "source": "epicgeek.com.br",
+          "source_url": "https://epicgeek.com.br/smart-tv-lg-oled-b6-chega-brasil-foco-ia-e-144-hz/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 8,
+      "products": {
+        "Refrigerator": 3,
+        "Washing Machine": 3,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 7,
+        "Haier": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Guía tech para el Mundial 2026: cómo mejorar el confort con electrodomésticos inteligentes",
+          "source": "sonitron.net",
+          "source_url": "https://sonitron.net/guia-tech-mundial-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Antevisão Folheto RADIO POPULAR Promoções até 14 julho - Blog 200 – Todos os Folhetos, Antevisões, Notícias e Acumulações",
+          "source": "blog200porcento.com",
+          "source_url": "https://blog200porcento.com/antevisao-folheto-radio-popular-promocoes-ate-14-julho-316729",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Climatización Inteligente: Los Mejores Modelos Haier para Pisos Pequeños y Espacios Reducidos - Fricor",
+          "source": "fricor.com",
+          "source_url": "https://www.fricor.com/climatizacion-inteligente-los-mejores-modelos-haier-para-pisos-pequenos-y-espacios-reducidos/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Oferta: lavadora LG de 18 kg en COPPEL; doble tina, filtro atrapapelusa y 3 ciclos",
+          "source": "telediario.mx",
+          "source_url": "https://www.telediario.mx/tendencias/coppel-liquida-lavadora-lg-de-18-kg-oferta-y-precio-exclusivo",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sam's Club México, los ahorros en grande ahora online",
+          "source": "sams.com.mx",
+          "source_url": "https://www.sams.com.mx/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Es real. Soriana remata lavadora LG con secadora y le baja 10 mil pesos por Julio Regalado",
+          "source": "milenio.com",
+          "source_url": "https://www.milenio.com/consejos/soriana-remata-lavadora-lg-con-secadora-10-mil-pesos-julio-regalado",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG ra mắt thế hệ laptop mới LG gram AI 2026",
+          "source": "techsignin.com",
+          "source_url": "https://www.techsignin.com/030726-ra-mat-lg-gram-ai-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Um super portátil a pesar 1.6Kg? Sim, ASUS e LG ficaram a ver — Leak",
+          "source": "leak.pt",
+          "source_url": "https://www.leak.pt/um-super-portatil-a-pesar-1-6kg-sim-asus-e-lg-ficaram-a-ver/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 3,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 1,
+        "Washing Machine": 1
+      },
+      "brands": {
+        "LG": 1,
+        "Haier": 1,
+        "Midea": 1
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "How to disable ACR on your TV (and why it makes such a big difference when you do) | ZDNET",
+          "source": "zdnet.com",
+          "source_url": "https://www.zdnet.com/home-and-office/home-entertainment/how-to-disable-acr-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Frigorífico Combi 205x60 Total No Frost Haier HTR3620ENMG Inox Clase E - Hnos. García",
+          "source": "muebleshnosgarcia.com",
+          "source_url": "https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-combi/frigorifico-combi-205x60-total-no-frost-haier-htr3620enmg-inox-clase-e/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "LAVARROPAS MIDEA AUTOMATICA 16KG C/S 500W160 GRIS",
+          "source": "electroban.com.py",
+          "source_url": "https://www.electroban.com.py/producto/20626/lavarropas-midea-automatica-16kg-cs-500w160-gris",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-07-05",
+  "period_start": "2026-06-28",
+  "period_end": "2026-07-04"
+}

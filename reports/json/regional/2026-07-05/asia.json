@@ -1,0 +1,279 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 77,
+  "country_breakdown": {
+    "AU": 34,
+    "TW": 43
+  },
+  "product_breakdown": {
+    "TV": 23,
+    "Refrigerator": 28,
+    "Washing Machine": 16,
+    "Monitor": 6,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "TCL": 9,
+    "LG": 41,
+    "Hisense": 2,
+    "Samsung": 2,
+    "Haier": 13,
+    "Panasonic": 1,
+    "Midea": 9
+  },
+  "pillar_breakdown": {
+    "Chinese Brand Threat Tracking": 33,
+    "Retail Channel Promotions": 23,
+    "Competitive Price & Positioning": 12,
+    "Consumer Sentiment": 9
+  },
+  "chinese_brand_total": 33,
+  "lg_total": 41,
+  "country_data": {
+    "AU": {
+      "total": 34,
+      "products": {
+        "TV": 8,
+        "Refrigerator": 13,
+        "Washing Machine": 12,
+        "LG gram": 1
+      },
+      "brands": {
+        "TCL": 7,
+        "Samsung": 2,
+        "Haier": 12,
+        "LG": 3,
+        "Midea": 9,
+        "Hisense": 1
+      },
+      "chinese_count": 29,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75\" C7L Premium Mini LED TV + TCL 2.1ch 220W Dolby Atmos Soundbar $1788.80 (via Price Check) + Del ($0 C&C) @ The Good Guys - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/966310",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV-TCL C7L SQD-Mini LED TV TCL C7L SQD-Mini LED TV | TCL Australia / English",
+          "source": "tcl.com",
+          "source_url": "https://www.tcl.com/au/en/tvs/75c7l",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Samsung Fridges - Bottom Mount, French Door & More - JB Hi-Fi",
+          "source": "jbhifi.com.au",
+          "source_url": "https://www.jbhifi.com.au/collections/home-appliances/samsung-fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigeration | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier - Appliances Warehouse",
+          "source": "applianceswarehouse.com.au",
+          "source_url": "https://www.applianceswarehouse.com.au/brand/haier/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges | Domayne",
+          "source": "domayne.com.au",
+          "source_url": "https://www.domayne.com.au/home-appliances/kitchen-appliances/fridges/haier/993",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 43,
+      "products": {
+        "TV": 15,
+        "Refrigerator": 15,
+        "Washing Machine": 4,
+        "Monitor": 6,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 38,
+        "Hisense": 1,
+        "TCL": 2,
+        "Haier": 1,
+        "Panasonic": 1
+      },
+      "chinese_count": 4,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 吋 LG OLED evo AI C5 4K 電視 - OLED55C5PTA.ATT | LG 台灣",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled55c5pta/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Sound Suite 無線音響支援新電視直接連線 第三季韌體更新可解鎖「雙超重低音」格局",
+          "source": "news.post76.hk",
+          "source_url": "https://news.post76.hk/2026/06/lg-sound-suite-2/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "肯德基優惠-2026年7月»最新肯德基 KFC優惠/優惠碼/折扣碼總整理",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/kfc-coupon-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "iRent優惠碼-2026年7月»iRent共享汽機車優惠碼/信用卡優惠/租車費用/使用教學",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/irent-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG｜未來家居 AI 變身具理解力的智慧夥伴",
+          "source": "inews.hket.com",
+          "source_url": "https://inews.hket.com/article/4155023/LG%EF%BD%9C%E6%9C%AA%E4%BE%86%E5%AE%B6%E5%B1%85%E3%80%80AI%20%E8%AE%8A%E8%BA%AB%E5%85%B7%E7%90%86%E8%A7%A3%E5%8A%9B%E7%9A%84%E6%99%BA%E6%85%A7%E5%A4%A5%E4%BC%B4?mtc=80028",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "这些海信电视不要买！2026年（海信电视）避坑指南！ - 知乎",
+          "source": "zhuanlan.zhihu.com",
+          "source_url": "https://zhuanlan.zhihu.com/p/396641269",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "即時新聞│TVBS新聞網",
+          "source": "news.tvbs.com.tw",
+          "source_url": "https://news.tvbs.com.tw/realtime",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "電腦螢幕推薦十大熱銷精選排行榜-【2026年】 - 台灣推薦王",
+          "source": "review.com.tw",
+          "source_url": "https://review.com.tw/%E9%9B%BB%E8%85%A6%E8%9E%A2%E5%B9%95%E6%8E%A8%E8%96%A6/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "國際金融- Yahoo奇摩股市",
+          "source": "tw.stock.yahoo.com",
+          "source_url": "https://tw.stock.yahoo.com/markets",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "美股 - Yahoo股市",
+          "source": "tw.stock.yahoo.com",
+          "source_url": "https://tw.stock.yahoo.com/us-market",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-07-05",
+  "period_start": "2026-06-28",
+  "period_end": "2026-07-04"
+}
