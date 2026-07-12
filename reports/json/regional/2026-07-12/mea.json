@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 73,
+  "country_breakdown": {
+    "SA": 73
+  },
+  "product_breakdown": {
+    "TV": 22,
+    "Refrigerator": 20,
+    "Washing Machine": 14,
+    "Monitor": 7,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 45,
+    "Samsung": 1,
+    "Hisense": 13,
+    "Haier": 9,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 27,
+    "Chinese Brand Threat Tracking": 34,
+    "Retail Channel Promotions": 9,
+    "Consumer Sentiment": 3
+  },
+  "chinese_brand_total": 27,
+  "lg_total": 45,
+  "country_data": {
+    "SA": {
+      "total": 73,
+      "products": {
+        "TV": 22,
+        "Refrigerator": 20,
+        "Washing Machine": 14,
+        "Monitor": 7,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 45,
+        "Samsung": 1,
+        "Hisense": 13,
+        "Haier": 9,
+        "TCL": 5
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "TVs: Televisions & HDTVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tv-home-theater/tvs/abcat0101000.c?id=abcat0101000",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Monitor Deals in 2026: 4K, Gaming and Ultrawide Displays on Sale - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-monitor-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: LG Electronics: LG gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/LGElectronics/page/1441EF5F-AC04-42AC-B365-50C2B32350C2",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Laptop Computers – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-computing/lg-laptops/pcmcat1531506580106.c?id=pcmcat1531506580106",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/TCL/page/0BC8946D-897E-41F0-837E-F776CEDFD8B3",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Time Is Ticking On The Best July 4th TV Deals: Save Over 50% on Hisense, Samsung, Sony, and More | PCMag",
+          "source": "pcmag.com",
+          "source_url": "https://www.pcmag.com/news/best-tv-deals-july-4th-2026-sale",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TV deal: Save $100 on Hisense 65-inch E6 Cinema Series | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/july-7-hisense-cinema-series-e6-tv-deal",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-07-12",
+  "period_start": "2026-07-05",
+  "period_end": "2026-07-11"
+}

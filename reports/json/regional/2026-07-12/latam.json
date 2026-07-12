@@ -1,0 +1,292 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 86,
+  "country_breakdown": {
+    "BR": 74,
+    "MX": 8,
+    "CL": 4
+  },
+  "product_breakdown": {
+    "TV": 30,
+    "Refrigerator": 14,
+    "Washing Machine": 24,
+    "Monitor": 16,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 44,
+    "TCL": 6,
+    "Samsung": 12,
+    "Hisense": 10,
+    "Midea": 13,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 34,
+    "Chinese Brand Threat Tracking": 36,
+    "Competitive Price & Positioning": 7,
+    "Consumer Sentiment": 9
+  },
+  "chinese_brand_total": 30,
+  "lg_total": 44,
+  "country_data": {
+    "BR": {
+      "total": 74,
+      "products": {
+        "TV": 26,
+        "Refrigerator": 13,
+        "Washing Machine": 18,
+        "Monitor": 16,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 34,
+        "TCL": 6,
+        "Samsung": 12,
+        "Hisense": 9,
+        "Midea": 12,
+        "Haier": 1
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Promoção LG OLED C5 55'' | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/t/lg-oled-c5-55-polegadas-5358",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 1.434: Monitor Gamer LG UltraGear Curvo 34G600A 34 QuadHD 2K | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-gamer-lg-ultragear-curvo-34g600a-34-quadhd-2k-5c48",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 494: Monitor LG UltraGear™ 24G411A-B 24 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-lg-ultrageartm-24g411a-b-24-c369",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG OLED evo C6 de 55″ entra em oferta na Amazon e aparece com um dos menores preços já registrados",
+          "source": "gamevicio.com",
+          "source_url": "https://www.gamevicio.com/noticias/2026/07/tv-lg-oled-evo-c6-55-oferta-amazon/amp/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG C6 OLED TVs now up to $700 off with FREE $200 Uber Eats credit, FREE installation, more",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/07/08/lg-c6-oled-tv-deals/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Lança Smart TV OLED B6 no Brasil: 4K a 144Hz com G-SYNC para Sua Jogatina - Gamerscore Brasil",
+          "source": "gamerscore.com.br",
+          "source_url": "https://www.gamerscore.com.br/lg-lanca-smart-tv-oled-b6-no-brasil-4k-a-144hz-com-g-sync-para-sua-jogatina/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED TVs | LG Africa",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/africa/tvs/lg-oled65c46la-65-inch-oled-evo-4k-c4-smart-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Campanhas LG",
+          "source": "campanhaslg.com",
+          "source_url": "https://campanhaslg.com/index.php?prizes%2F114487228=",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C7L chegou perto das OLED? Primeiras impressões",
+          "source": "mundoconectado.com.br",
+          "source_url": "https://www.mundoconectado.com.br/smart-tvs/tv-tcl-c7l-mini-led-primeiras-impressoes/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL lança TV gamer no Brasil com sistema de som poderoso; veja preços e tamanhos - Canaltech",
+          "source": "canaltech.com.br",
+          "source_url": "https://canaltech.com.br/eletro/tcl-lanca-tv-gamer-no-brasil-com-soundbar-embutida-veja-precos-e-tamanhos/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 8,
+      "products": {
+        "TV": 2,
+        "Washing Machine": 6
+      },
+      "brands": {
+        "LG": 6,
+        "Hisense": 1,
+        "Midea": 1
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lo nunca visto: una OLED Samsung de 77 pulgadas para montarte el cine en casa por poco más de 1.000 euros",
+          "source": "xatakahome.com",
+          "source_url": "https://www.xatakahome.com/territorio-samsung/nunca-visto-oled-samsung-77-pulgadas-para-montarte-cine-casa-poco-1-000-euros",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Hisense 65 4k - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/pantallas/hisense-65-4k/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sam's Club México, los ahorros en grande ahora online",
+          "source": "sams.com.mx",
+          "source_url": "https://www.sams.com.mx/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Haz tus compras en Bodega Aurrera en Línea",
+          "source": "bodegaaurrera.com.mx",
+          "source_url": "https://www.bodegaaurrera.com.mx/inicio",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Cómo lavar tenis en lavadora: guía práctica paso a paso",
+          "source": "midea.com",
+          "source_url": "https://www.midea.com/mx/blog/ver-todas/tips/como-lavar-tenis-en-lavadora",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por qué mi lavadora no tira el agua: diagnóstico y solución",
+          "source": "midea.com",
+          "source_url": "https://www.midea.com/mx/blog/ver-todas/tips/porque-mi-lavadora-no-tira-el-agua",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Lavadora Midea 22 Kilos Opiniones",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/lavadora-midea-22-kilos-opiniones",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por qué pierde agua la lavadora y cómo solucionarlo paso a paso",
+          "source": "midea.com",
+          "source_url": "https://www.midea.com/mx/blog/ver-todas/tips/mantenimiento-aire-acondicionado/porque-tira-agua-la-lavadora",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 4,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 1,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 4
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Solo hasta la semana que viene: descuentazos en teles, móviles de gama alta y más por el 27 aniversario de MediaMarkt",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/seleccion/solo-semana-que-viene-descuentazos-teles-moviles-gama-alta-27-aniversario-mediamarkt",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "No mires más: por qué el mejor televisor que puedes comprar en 2026 es uno de 2025 (o anterior)",
+          "source": "elconfidencial.com",
+          "source_url": "https://www.elconfidencial.com/tecnologia/2026-07-07/televisores-tv-memoria-ram-precios-lg-android-tv_4382521/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Refrigerator Compressor Price, 2026 LG Refrigerator Compressor Price Manufacturers & Suppliers | Made-in-China.com",
+          "source": "made-in-china.com",
+          "source_url": "https://www.made-in-china.com/products-search/hot-china-products/LG_Refrigerator_Compressor_Price.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "ACER ASPIRE 5 15.6\" FHD I5-13420H 8GB 256GB SSD WINDOWS 11 HOME - GRAY | eBay",
+          "source": "ebay.com",
+          "source_url": "https://www.ebay.com/itm/137493513848",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-07-12",
+  "period_start": "2026-07-05",
+  "period_end": "2026-07-11"
+}

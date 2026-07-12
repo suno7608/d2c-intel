@@ -1,0 +1,277 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 83,
+  "country_breakdown": {
+    "AU": 36,
+    "TW": 47
+  },
+  "product_breakdown": {
+    "TV": 26,
+    "Refrigerator": 30,
+    "Washing Machine": 16,
+    "Monitor": 7,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "LG": 45,
+    "TCL": 7,
+    "Hisense": 8,
+    "Samsung": 2,
+    "Haier": 14,
+    "Panasonic": 1,
+    "Midea": 6
+  },
+  "pillar_breakdown": {
+    "Chinese Brand Threat Tracking": 33,
+    "Competitive Price & Positioning": 15,
+    "Consumer Sentiment": 14,
+    "Retail Channel Promotions": 21
+  },
+  "chinese_brand_total": 35,
+  "lg_total": 45,
+  "country_data": {
+    "AU": {
+      "total": 36,
+      "products": {
+        "TV": 13,
+        "Refrigerator": 12,
+        "Washing Machine": 11
+      },
+      "brands": {
+        "LG": 5,
+        "TCL": 7,
+        "Haier": 14,
+        "Samsung": 1,
+        "Hisense": 3,
+        "Midea": 6
+      },
+      "chinese_count": 30,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "The 4 Best LG Monitors of 2026: Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Televisions | Smart TVs, OLED, QLED, QNED, 4K & 8K | Retravision",
+          "source": "retravision.com.au",
+          "source_url": "https://www.retravision.com.au/tv-audio/televisions",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 55QNED7S6 55 Inch QNED 4K WebOS Smart TV Price in Kenya",
+          "source": "almuritec.com",
+          "source_url": "https://almuritec.com/product/lg-55-inch-55qned7s6-qned-4k-uhd-webos-smart-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 65C6K 65\" C6K Premium QD-MiniLED TV -",
+          "source": "smartelectronicsqld.com",
+          "source_url": "https://www.smartelectronicsqld.com/product/tcl-65c6k-65-c6k-premium-qd-miniled-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 27P2A Ultra launches with 1080Hz 720p Mini LED mode for $555 - VideoCardz.com",
+          "source": "videocardz.com",
+          "source_url": "https://videocardz.com/newz/tcl-27p2a-ultra-launches-with-1080hz-720p-mini-led-mode-for-555",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators | Reviews, Features, Prices – Canstar Blue",
+          "source": "canstarblue.com.au",
+          "source_url": "https://www.canstarblue.com.au/appliances/brands/haier-refrigerators/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 47,
+      "products": {
+        "TV": 13,
+        "Refrigerator": 18,
+        "Washing Machine": 5,
+        "Monitor": 7,
+        "LG gram": 4
+      },
+      "brands": {
+        "LG": 40,
+        "Hisense": 5,
+        "Samsung": 1,
+        "Panasonic": 1
+      },
+      "chinese_count": 5,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 2026 智慧顯示器登台！OLED evo W6 壁畫系列回歸、Micro RGB evo 大尺寸新機首度亮相 | T客邦",
+          "source": "techbang.com",
+          "source_url": "https://www.techbang.com/posts/130923-lg-2026-oled-evo-w6-wallpaper-tv-ai-rgb",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 2026全新智慧顯示器陣容亮相！LG OLED evo W6極薄壁畫系列回歸",
+          "source": "stufftaiwan.com",
+          "source_url": "https://www.stufftaiwan.com/2026/07/09/lg-2026%E5%85%A8%E6%96%B0%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8%E9%99%A3%E5%AE%B9%E4%BA%AE%E7%9B%B8%EF%BC%81lg-oled-evo-w6%E6%A5%B5%E8%96%84%E5%A3%81%E7%95%AB%E7%B3%BB%E5%88%97%E5%9B%9E/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Styler® 蒸氣電子衣櫥 | LG 台灣",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/washer-dryers/styler/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信集團 - 維基百科，自由的百科全書",
+          "source": "zh.wikipedia.org",
+          "source_url": "https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E4%BF%A1",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信高刷电视机-海信高刷电视机促销价格、海信高刷电视机品牌 - 淘宝",
+          "source": "guangtao.taobao.com",
+          "source_url": "https://guangtao.taobao.com/product-5660f6f8d7f55a4429f34671fa4e4d127846ce6e710c344a36b040b63e4f3fc3.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "智慧手機 | 電視 | 冰箱 洗衣機 吸塵器 空氣清淨機 微波爐 | Samsung 台灣",
+          "source": "samsung.com",
+          "source_url": "https://www.samsung.com/tw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信 98E3Q - PRO 电视低至 6472.84 元_电视导购-中关村在线",
+          "source": "tv.zol.com.cn",
+          "source_url": "https://tv.zol.com.cn/1213/12133082.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Studio Display XDR，现在更以国产的形式呈现！海信 27GX Ultra 5K180Hz/2K330Hz 双模显示器评测_哔哩哔哩_bilibili",
+          "source": "bilibili.com",
+          "source_url": "https://www.bilibili.com/video/BV1U9T96nEuH/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "電視廣播有限公司 - 維基百科，自由的百科全書",
+          "source": "zh.wikipedia.org",
+          "source_url": "https://zh.wikipedia.org/zh-tw/%E9%9B%BB%E8%A6%96%E5%BB%A3%E6%92%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信打造居家觀賽絕佳體驗 助力2026國際足聯世界杯™ - 國際新聞 - PChome Online 新聞",
+          "source": "news.pchome.com.tw",
+          "source_url": "https://news.pchome.com.tw/internation/xpm/20260708/index-17835030607704360011.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-07-12",
+  "period_start": "2026-07-05",
+  "period_end": "2026-07-11"
+}

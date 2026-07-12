@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-07-05T10:03:57.589Z",
-  "total_weeks": 22,
-  "latest_week": "2026-07-05",
+  "generated_at": "2026-07-12T09:25:43.859Z",
+  "total_weeks": 23,
+  "latest_week": "2026-07-12",
   "weeks": [
+    {
+      "week": "2026-07-12",
+      "report_period": {
+        "start": "2026-07-05",
+        "end": "2026-07-11"
+      },
+      "version": "Weekly Vol.2026-07-12-R2",
+      "generated_at": "2026-07-12T09:21:56.075Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 292,
+        "competitor_promotion_signals": 5,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 6,
+        "critical_country_count": 2
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)"
+      ],
+      "executive_key_insights": [
+        "**LG OLED TV 프로모션 공세 지속**: 미국·독일·이탈리아에서 C5/C6/G5 시리즈 최대 50% 할인 프로모션이 집중 전개되며, 2026 FIFA 월드컵 시즌 수요 선점을 위한 공격적 가격 전략이 효과를 발휘 중",
+        "**중국 브랜드 가전 위협 본격화**: Haier/Midea가 냉장고·세탁기 시장에서 영국·호주·독일 주요 유통채널 입점을 확대하며, TV 중심이던 중국 브랜드 위협이 HS(생활가전) 영역으로 급속 확산 중",
+        "**소비자 부정 반응 급증 (전주 대비 +200%)**: LG 모니터의 무단 소프트웨어 설치(McAfee 애드웨어) 이슈가 미국·독일 테크 미디어에서 집중 보도되며 브랜드 신뢰도 리스크 발생"
+      ],
+      "links": {
+        "html": "./2026-07-12/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-07-12_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-07-12_R2_16country.md",
+        "share": "./2026-07-12/share.html"
+      }
+    },
     {
       "week": "2026-07-05",
       "report_period": {

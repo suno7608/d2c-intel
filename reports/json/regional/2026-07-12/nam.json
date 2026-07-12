@@ -1,0 +1,262 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 159,
+  "country_breakdown": {
+    "US": 141,
+    "CA": 18
+  },
+  "product_breakdown": {
+    "TV": 39,
+    "Refrigerator": 29,
+    "Washing Machine": 44,
+    "Monitor": 28,
+    "LG gram": 19
+  },
+  "brand_breakdown": {
+    "LG": 109,
+    "Samsung": 6,
+    "TCL": 10,
+    "Haier": 12,
+    "Midea": 21,
+    "Hisense": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 48,
+    "Chinese Brand Threat Tracking": 54,
+    "Competitive Price & Positioning": 26,
+    "Consumer Sentiment": 31
+  },
+  "chinese_brand_total": 44,
+  "lg_total": 109,
+  "country_data": {
+    "US": {
+      "total": 141,
+      "products": {
+        "TV": 38,
+        "Refrigerator": 22,
+        "Washing Machine": 36,
+        "Monitor": 27,
+        "LG gram": 18
+      },
+      "brands": {
+        "LG": 104,
+        "Samsung": 6,
+        "TCL": 9,
+        "Haier": 8,
+        "Midea": 13,
+        "Hisense": 1
+      },
+      "chinese_count": 31,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The LG C6 OLED just got a huge discount — and I’m officially recommending it over the C5",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/the-lg-c6-oled-just-got-a-huge-discount-and-im-officially-recommending-it-over-the-c5",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Our favorite budget LG OLED TV is $1,500 off at Best Buy today — the perfect opportunity to watch the World Cup in its full glory | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/our-favorite-budget-lg-oled-tv-is-usd1-500-off-at-best-buy-today-the-perfect-opportunity-to-watch-the-world-cup-in-its-full-glory",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TVs of 2026: Expert Tested and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV Reviews & Recommendations - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 55\" Class QM7K Series 4K UHD QD Mini LED Smart TV with Google TV (2025) 55QM7K - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/tcl-55-class-qm7k-series-4k-uhd-qd-mini-led-smart-tv-with-google-tv-2025/J36QYTQTCP",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL's QM8L Is the Best TV I've Tested in 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/tcl-qm8l-tv-review/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes: 20% Off for July 2026",
+          "source": "daily.slickdeals.net",
+          "source_url": "https://daily.slickdeals.net/stores/lg-promo-codes/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG LRFLC2706S vs Frigidaire Gallery GRMC2273CF: Which Refrigerator Is Better? - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/tools/compare/lg-lrflc2706s-vs-frigidaire-gallery-grmc2273cf/52818/66351",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "4K Monitors - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/computer-monitors/4k-ultra-hd-monitors/pcmcat374100050017.c?id=pcmcat374100050017",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 4 Best Samsung Monitors of 2026: Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/samsung",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 18,
+      "products": {
+        "Refrigerator": 7,
+        "Monitor": 1,
+        "LG gram": 1,
+        "TV": 1,
+        "Washing Machine": 8
+      },
+      "brands": {
+        "LG": 5,
+        "TCL": 1,
+        "Midea": 8,
+        "Haier": 4
+      },
+      "chinese_count": 13,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "LG LF25S6206S Refrigerator",
+          "source": "electroqc.ca",
+          "source_url": "https://electroqc.ca/en/product/lg-33-inch-25-1-cu-ft-french-door-refrigerator-lf25s6206s/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Top Freezer Smart Refrigerators in Canada 2025 - InceptionAi",
+          "source": "inceptionai.ca",
+          "source_url": "https://inceptionai.ca/en-CA/electronics-computers/smart-home/smart-refrigerators/top-freezer-smart-refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "LG | 31.5 in. UHD 4K Monitor with HDR10 and AMD FreeSync | 32UR500-B",
+          "source": "sonicdirect.ca",
+          "source_url": "https://sonicdirect.ca/en/computers/monitors/lg-31-5-in-uhd-4k-monitor-with-hdr10-and-amd-freesync-32ur500-b",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "LG C6 OLED Long Term Review (2026): Honest Verdict After Testing | The Inspect Aspect",
+          "source": "theinspectaspect.com",
+          "source_url": "https://www.theinspectaspect.com/en/tech/tv-streaming/lg-c6-oled-long-term-review-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL's art-like QLED TV has hundreds slashed off its price in Amazon deal - PC Guide",
+          "source": "pcguide.com",
+          "source_url": "https://www.pcguide.com/deals/tcls-art-like-qled-tv-has-hundreds-slashed-off-its-price-in-amazon-deal/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Fridge | Walmart Canada",
+          "source": "walmart.ca",
+          "source_url": "https://www.walmart.ca/en/c/kp/midea-fridge",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Home & Kitchen Appliances | Shop Online or In-Store - Coast Appliances",
+          "source": "coastappliances.ca",
+          "source_url": "https://www.coastappliances.ca/collections/midea",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-07-12",
+  "period_start": "2026-07-05",
+  "period_end": "2026-07-11"
+}
