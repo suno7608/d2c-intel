@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-07-12T09:25:43.859Z",
-  "total_weeks": 23,
-  "latest_week": "2026-07-12",
+  "generated_at": "2026-07-19T09:29:54.368Z",
+  "total_weeks": 24,
+  "latest_week": "2026-07-19",
   "weeks": [
+    {
+      "week": "2026-07-19",
+      "report_period": {
+        "start": "2026-07-12",
+        "end": "2026-07-18"
+      },
+      "version": "Weekly Vol.2026-07-19-R2",
+      "generated_at": "2026-07-19T09:25:35.415Z",
+      "metrics": {
+        "covered_countries": 13,
+        "lg_promotion_signals": 302,
+        "competitor_promotion_signals": 9,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 4,
+        "critical_country_count": 3
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)",
+        "🇦🇺 호주 (AU)"
+      ],
+      "executive_key_insights": [
+        "**LG 모니터 소프트웨어 이슈 글로벌 확산**: 미국·영국·독일·호주 등 Tier 1 법인에서 LG 모니터의 McAfee 애드웨어 자동 설치 및 개인정보 수집 논란이 동시다발적으로 발생하여 브랜드 신뢰도에 심각한 위협이 되고 있으며, GamersNexus 등 주요 테크 미디어의 \"DO NOT BUY\" 권고가 확산 중",
+        "**중국 브랜드 가전 공세 본격화**: Haier/Midea의 냉장고·세탁기 부문 공격적 프로모션이 호주·캐나다·브라질 등 12개국에서 감지되었으며, TCL/Hisense의 TV 부문과 함께 전 제품군에서 중국 브랜드 위협이 가속화",
+        "**LG WashTower 대만 출시 호평**: 65cm 슬림 디자인의 2세대 WashTower가 대만에서 출시되어 공간 효율성과 AI 기능으로 긍정적 미디어 반응을 확보, HS 제품군의 프리미엄 전략 성공 사례로 평가"
+      ],
+      "links": {
+        "html": "./2026-07-19/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-07-19_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-07-19_R2_16country.md",
+        "share": "./2026-07-19/share.html"
+      }
+    },
     {
       "week": "2026-07-12",
       "report_period": {

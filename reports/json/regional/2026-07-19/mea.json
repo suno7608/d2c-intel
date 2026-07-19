@@ -1,0 +1,156 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 61,
+  "country_breakdown": {
+    "SA": 61
+  },
+  "product_breakdown": {
+    "TV": 21,
+    "Refrigerator": 19,
+    "Washing Machine": 17,
+    "Monitor": 3,
+    "LG gram": 1
+  },
+  "brand_breakdown": {
+    "LG": 28,
+    "Hisense": 11,
+    "Samsung": 2,
+    "Haier": 15,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Chinese Brand Threat Tracking": 33,
+    "Retail Channel Promotions": 8,
+    "Competitive Price & Positioning": 20
+  },
+  "chinese_brand_total": 31,
+  "lg_total": 28,
+  "country_data": {
+    "SA": {
+      "total": 61,
+      "products": {
+        "TV": 21,
+        "Refrigerator": 19,
+        "Washing Machine": 17,
+        "Monitor": 3,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 28,
+        "Hisense": 11,
+        "Samsung": 2,
+        "Haier": 15,
+        "TCL": 5
+      },
+      "chinese_count": 31,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Our favorite Hisense budget TVs are on sale at Best Buy — here's what I recommend | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/our-favorite-hisense-budget-tvs-are-on-sale-at-best-buy-heres-what-i-recommend",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier 300 Series Freestanding Dishwasher (Satina) – $399.20 + Delivery ($0 C&C) @ Harvey Norman - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/968264",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier discount codes for July 2026 | 40% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/haier-uk",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG UltraGear evo GX9 39\" 5K2K OLED 165Hz 0.03ms G SYNC FreeSync Premium Pro Gaming Monitor with DisplayHDR TRUE 500 Black 39GX950B-B - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-ultragear-evo-gx9-39-5k2k-oled-165hz-0-03ms-g-sync-freesync-premium-pro-gaming-monitor-with-displayhdr-true-500-black/JJ8VPZZYYH",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/TCL/page/0BC8946D-897E-41F0-837E-F776CEDFD8B3",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Hisense: All Our TVs",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/Hisense/page/20E858DC-25EA-4935-874C-81BB2E100E26",
+          "confidence": "high"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-07-19",
+  "period_start": "2026-07-12",
+  "period_end": "2026-07-18"
+}

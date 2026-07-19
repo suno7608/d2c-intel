@@ -1,0 +1,259 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 156,
+  "country_breakdown": {
+    "US": 142,
+    "CA": 14
+  },
+  "product_breakdown": {
+    "TV": 42,
+    "Refrigerator": 32,
+    "Washing Machine": 41,
+    "Monitor": 28,
+    "LG gram": 13
+  },
+  "brand_breakdown": {
+    "LG": 96,
+    "Samsung": 10,
+    "TCL": 13,
+    "Haier": 13,
+    "Midea": 23,
+    "Hisense": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 45,
+    "Chinese Brand Threat Tracking": 59,
+    "Competitive Price & Positioning": 23,
+    "Consumer Sentiment": 29
+  },
+  "chinese_brand_total": 50,
+  "lg_total": 96,
+  "country_data": {
+    "US": {
+      "total": 142,
+      "products": {
+        "TV": 42,
+        "Refrigerator": 27,
+        "Washing Machine": 33,
+        "Monitor": 28,
+        "LG gram": 12
+      },
+      "brands": {
+        "LG": 94,
+        "Samsung": 10,
+        "TCL": 13,
+        "Haier": 9,
+        "Midea": 15,
+        "Hisense": 1
+      },
+      "chinese_count": 38,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The Show Isn’t Over for These Can’t-Miss TV Deals. Get Up to $1,500 Off on Your Next TV - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "These Are the Best 65-Inch TVs I’ve Tested for 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-65-inch-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "TV Reviews & Recommendations - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL's new SQD Mini-LED TVs are up to $1,000 off — here's what's on sale at Best Buy | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/tcls-new-sqd-mini-led-tvs-are-up-to-usd1-000-off-heres-whats-on-sale-at-best-buy",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: TCL 27” C2A Series QD-Mini LED 4K UHD HDR Gaming Monitor (27C2A, 2026 Model) Halo Control System, Dual Mode, LD1196 Precise Dimming Series, HDR1000 Brightness, 1ms, AMD FreeSync Premium : Electronics",
+          "source": "us.amazon.com",
+          "source_url": "https://us.amazon.com/TCL-QD-Mini-27C2A-Brightness-FreeSync/dp/B0H34SQ7KV",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 4 Best 4k 144Hz Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/4k-144hz",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/pcmasterrace on Reddit: LG TVs and monitors said to surveil users and install bloatware without asking",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/pcmasterrace/comments/1uyxivn/lg_tvs_and_monitors_said_to_surveil_users_and/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "r/pcmasterrace on Reddit: Gamers Nexus doing the lords work ~ DO NOT BUY: LG’s Spyware Monitors",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/pcmasterrace/comments/1uyp54j/gamers_nexus_doing_the_lords_work_do_not_buy_lgs/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG gram Pro 16\" 144Hz 2.5K Laptop AMD Ryzen AI 7 ...",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-gram-pro-16-144hz-2-5k-laptop-amd-ryzen-ai-7-processor-450-with-32gb-ram-2tb-ssd-copilot-pc-aerominum-white/JJ8VPZZGTV",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best cheap TV deals in June 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/us/best-tv-deals,news-26008.html",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 14,
+      "products": {
+        "Refrigerator": 5,
+        "LG gram": 1,
+        "Washing Machine": 8
+      },
+      "brands": {
+        "LG": 2,
+        "Midea": 8,
+        "Haier": 4
+      },
+      "chinese_count": 12,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LF21C6000V LG French Door Refrigerator 33 inch 21 cu. ft. Canada - Sale! Best Price, Reviews and Specs",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/product/LG_LF21C6000V_French_Door_Refrigerator_LG_LF21C6000V.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Gram 17\" WQXGA IPS Touchscreen Laptop - Intel Core ...",
+          "source": "bestbuy.ca",
+          "source_url": "https://www.bestbuy.ca/en-ca/product/lg-gram-17-wqxga-ips-touchscreen-laptop-intel-core-ultra-7-258v-32gb-lpddr5-8tb-ssd-intel-arc-140v-windows-11-home-black/19822123",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Fridge | Walmart Canada",
+          "source": "walmart.ca",
+          "source_url": "https://www.walmart.ca/en/c/kp/midea-fridge",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Buy Front Load Washing Machines at Best Price | Haier Appliances",
+          "source": "shop.haierindia.com",
+          "source_url": "https://shop.haierindia.com/shop/Washing-Machines/Front-Load-Washing-Machines/12/34",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Washing Machines for sale | eBay",
+          "source": "ebay.ca",
+          "source_url": "https://www.ebay.ca/b/Haier-Washing-Machines/71256/bn_1644490",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Shop Washing Machines Online at Best Price - Washers & Dryers – Tagged \"Haier\"",
+          "source": "darlingretail.com",
+          "source_url": "https://darlingretail.com/collections/washing-machine/haier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Washing Machine | Home Appliance",
+          "source": "abenson.com",
+          "source_url": "https://www.abenson.com/home-appliances/washing-machine/product-brand/haier.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-07-19",
+  "period_start": "2026-07-12",
+  "period_end": "2026-07-18"
+}

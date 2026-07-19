@@ -1,0 +1,278 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 89,
+  "country_breakdown": {
+    "AU": 36,
+    "TW": 53
+  },
+  "product_breakdown": {
+    "TV": 25,
+    "Refrigerator": 24,
+    "Washing Machine": 25,
+    "Monitor": 9,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "LG": 56,
+    "TCL": 7,
+    "Hisense": 5,
+    "Haier": 13,
+    "Samsung": 1,
+    "Bosch": 1,
+    "Midea": 6
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 19,
+    "Chinese Brand Threat Tracking": 30,
+    "Retail Channel Promotions": 27,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 31,
+  "lg_total": 56,
+  "country_data": {
+    "AU": {
+      "total": 36,
+      "products": {
+        "TV": 9,
+        "Refrigerator": 12,
+        "Washing Machine": 10,
+        "Monitor": 3,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 8,
+        "TCL": 7,
+        "Haier": 13,
+        "Samsung": 1,
+        "Hisense": 1,
+        "Midea": 6
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75\" C8L 4k Mini LED TV - $2770 (Free Delivery to Some Locations) @ Powerland - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/968295",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "I've tested a huge number of 55-inch TVs, and right now, there are just four models I recommend",
+          "source": "whathifi.com",
+          "source_url": "https://www.whathifi.com/best-buys/best-55-inch-tvs-great-value-4k-smart-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV-TCL C7L SQD-Mini LED TV TCL C7L SQD-Mini LED TV | TCL Australia / English",
+          "source": "tcl.com",
+          "source_url": "https://www.tcl.com/au/en/tvs/65c7l",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators | Reviews, Features, Prices – Canstar Blue",
+          "source": "canstarblue.com.au",
+          "source_url": "https://www.canstarblue.com.au/appliances/brands/haier-refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Haier - Brands | e&s - Kitchen, Laundry, Bathroom",
+          "source": "eands.com.au",
+          "source_url": "https://www.eands.com.au/brands/haier/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier - Appliances Warehouse",
+          "source": "applianceswarehouse.com.au",
+          "source_url": "https://www.applianceswarehouse.com.au/brand/haier/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 53,
+      "products": {
+        "TV": 16,
+        "Refrigerator": 12,
+        "Washing Machine": 15,
+        "Monitor": 6,
+        "LG gram": 4
+      },
+      "brands": {
+        "LG": 48,
+        "Hisense": 4,
+        "Bosch": 1
+      },
+      "chinese_count": 4,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Electronics",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/jp/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2026 LG 電視陣容總整理！OLED、Micro RGB 到 QNED 規格差異與選購指南 - News Pie",
+          "source": "newspie.com.tw",
+          "source_url": "https://www.newspie.com.tw/lg-oled-evo-micro-rgb-evo-mini-rgb-evo-qned-evo-mini-led-20260713/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "一對一變頻空調｜分離式變頻冷氣 | LG 台灣",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/residential-air-conditioners/single-split-inverter-air-conditioners/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "昨晚去AV Life 睇睇，陳列品 LG G5 65吋 4200元，好動心 - 家庭影院 - Post76.hk - Powered by Discuz!",
+          "source": "post76.hk",
+          "source_url": "https://post76.hk/thread-361320-1-1.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "#情報 Uber + Uber Eat 七月份 優惠序號整理 - 省錢 forum | Dcard",
+          "source": "dcard.tw",
+          "source_url": "https://www.dcard.tw/f/savemoney/p/261754723",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Computer Monitors: Gaming, UltraWide, 4K, OLED Smart Monitors | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/monitors",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "GoShare優惠碼-2026年7月»GoShare 共享機車優惠碼/租車費用/營運範圍/使用教學",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/goshare-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信 A10 電子紙手機預熱：磁吸彩色副螢幕、5G 規格整理 | Read with Pro",
+          "source": "readwithpro.com",
+          "source_url": "https://www.readwithpro.com/blog/hisense-a10-e-ink-phone-detachable-color-display",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "台股跌幅排行 - Yahoo股市",
+          "source": "tw.stock.yahoo.com",
+          "source_url": "https://tw.stock.yahoo.com/rank/change-down",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "告別選擇困難！海信 Hisense A10 電子紙螢幕手機加上「可拆卸」彩色 LCD 背蓋，護眼與娛樂一機搞定",
+          "source": "m.eprice.com.tw",
+          "source_url": "https://m.eprice.com.tw/mobile/talk/102/5826361/1",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-07-19",
+  "period_start": "2026-07-12",
+  "period_end": "2026-07-18"
+}

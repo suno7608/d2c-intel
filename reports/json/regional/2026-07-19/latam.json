@@ -1,0 +1,192 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 90,
+  "country_breakdown": {
+    "BR": 88,
+    "MX": 2
+  },
+  "product_breakdown": {
+    "TV": 32,
+    "Refrigerator": 11,
+    "Washing Machine": 24,
+    "Monitor": 16,
+    "LG gram": 7
+  },
+  "brand_breakdown": {
+    "LG": 53,
+    "TCL": 4,
+    "Samsung": 10,
+    "Hisense": 8,
+    "Midea": 13,
+    "Haier": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 30,
+    "Chinese Brand Threat Tracking": 35,
+    "Competitive Price & Positioning": 9,
+    "Consumer Sentiment": 16
+  },
+  "chinese_brand_total": 27,
+  "lg_total": 53,
+  "country_data": {
+    "BR": {
+      "total": 88,
+      "products": {
+        "TV": 32,
+        "Refrigerator": 11,
+        "Washing Machine": 22,
+        "Monitor": 16,
+        "LG gram": 7
+      },
+      "brands": {
+        "LG": 52,
+        "TCL": 4,
+        "Samsung": 10,
+        "Hisense": 8,
+        "Midea": 12,
+        "Haier": 2
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/OLED_Gaming on Reddit: DO NOT BUY: LG’s Spyware TVs, Monitors, and Wiretapping Concerns",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/OLED_Gaming/comments/1uyok42/do_not_buy_lgs_spyware_tvs_monitors_and/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "[Monitor] LG ‎27GS93QE 27-inch Ultragear OLED Gaming ...",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/buildapcsales/comments/1uxf34w/monitor_lg_27gs93qe_27inch_ultragear_oled_gaming/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 5.499: Smart TV 4K TCL C7L SQD-Mini LED 65” Polegadas | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-4k-tcl-premium-65-led-google-tv-515f",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lançamento da LG com desconto brutal: Smart TV OLED C6 de 55\" cai mais de R$ 2.400",
+          "source": "tudocelular.com",
+          "source_url": "https://www.tudocelular.com/tech/noticias/n258924/lg-oled-c6-55-polegadas-promocao-desconto.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupom LG | Até 45% OFF - Novembro 2025 | 10 Cupons",
+          "source": "cupomdesconto.com.br",
+          "source_url": "https://www.cupomdesconto.com.br/cupom-lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG QNED70 Mini LED de 55″ sai por R$ 2.982 no Pix no Magazine Luiza com 17% de desconto",
+          "source": "mobilebit.com.br",
+          "source_url": "https://www.mobilebit.com.br/achados/2026/07/15/lg-qned70-mini-led-de-55-sai-por-2-982",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV LG OLED 4K B6 chega ao Brasil com exclusividade na loja oficial LG – NãoSeiNada",
+          "source": "naoseinada.com.br",
+          "source_url": "https://naoseinada.com.br/2026/07/13/smart-tv-lg-oled-4k-b6-chega-ao-brasil-com-exclusividade-na-loja-oficial-lg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Como posso ajudar? - Suporte e ajuda | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/suporte/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "As melhores televisões qualidade/preço em 2026 em Portugal - 4gnews",
+          "source": "4gnews.pt",
+          "source_url": "https://4gnews.pt/melhores-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Smart TV TCL 65\" de 144 Hz tem melhor oferta que já vimos no Magalu • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/smart-tv-tcl-65-de-144-hz-tem-melhor-oferta-que-ja-vimos-no-magalu/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 2,
+      "products": {
+        "Washing Machine": 2
+      },
+      "brands": {
+        "Midea": 1,
+        "LG": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadora Midea 11 Kg - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavadora-midea-11-kg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadora Con Ropa - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavadora-con-ropa/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-07-19",
+  "period_start": "2026-07-12",
+  "period_end": "2026-07-18"
+}
