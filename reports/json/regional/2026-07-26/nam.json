@@ -1,0 +1,259 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 164,
+  "country_breakdown": {
+    "US": 149,
+    "CA": 15
+  },
+  "product_breakdown": {
+    "TV": 41,
+    "Refrigerator": 28,
+    "Washing Machine": 45,
+    "Monitor": 31,
+    "LG gram": 19
+  },
+  "brand_breakdown": {
+    "LG": 110,
+    "TCL": 11,
+    "Samsung": 7,
+    "Haier": 10,
+    "Midea": 22,
+    "Hisense": 4
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 61,
+    "Chinese Brand Threat Tracking": 55,
+    "Competitive Price & Positioning": 22,
+    "Consumer Sentiment": 26
+  },
+  "chinese_brand_total": 47,
+  "lg_total": 110,
+  "country_data": {
+    "US": {
+      "total": 149,
+      "products": {
+        "TV": 39,
+        "Refrigerator": 23,
+        "Washing Machine": 37,
+        "Monitor": 31,
+        "LG gram": 19
+      },
+      "brands": {
+        "LG": 108,
+        "TCL": 11,
+        "Samsung": 7,
+        "Haier": 6,
+        "Midea": 13,
+        "Hisense": 4
+      },
+      "chinese_count": 34,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Thinking of Upgrading Your TV? The 77-Inch LG B5 OLED Just Hit Huge Discounts - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/lg-b5-oled-tv-with-freebie/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "These TV Deals That Will Give You Up to $1,800 Off Are Stealing the Show - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best LG TVs of 2026: Reviews and Smart Features - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "We've tested the best 55-inch TVs and these are the 3 I recommend right now for movies, gaming and live sport",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/best-55-inch-tvs",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Best OLED TV for 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-oled-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL's premium SQD Mini-LED TVs are up to $1,000 off — here's what I'd buy | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/tcls-premium-sqd-mini-led-tvs-are-up-to-usd1-000-off-heres-what-id-buy",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best TCL TVs of 2026: Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/tcl",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/Appliances on Reddit: Do not buy LG",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1v308x5/do_not_buy_lg/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 6 Best Washing Machines We Tested for 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/home/kitchen-and-household/best-washing-machines/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 4 Best 4k Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/gaming-monitors-4k",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 15,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 5,
+        "Washing Machine": 8
+      },
+      "brands": {
+        "LG": 2,
+        "Midea": 9,
+        "Haier": 4
+      },
+      "chinese_count": 13,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-65-class-oledc5-series-4k-uhd-oled-tv/4000370787",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 55\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-55-class-oledc5-series-4k-uhd-oled-tv/4000370709",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "MIDEA Refrigerators for Your 2026 Home Upgrade 🏠❄️ | RONA",
+          "source": "rona.ca",
+          "source_url": "https://www.rona.ca/en/appliances/refrigerators/midea--104-4ce66",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Home & Kitchen Appliances | Shop Online or In-Store - Coast Appliances",
+          "source": "coastappliances.ca",
+          "source_url": "https://www.coastappliances.ca/collections/midea",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Buy Front Load Washing Machines at Best Price | Haier Appliances",
+          "source": "shop.haierindia.com",
+          "source_url": "https://shop.haierindia.com/shop/Washing-Machines/Front-Load-Washing-Machines/12/34",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Buy Latest Washing Machines Online at Best Price | Haier India",
+          "source": "haier.com",
+          "source_url": "https://www.haier.com/in/washing-machines/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Washing Machines for sale | eBay",
+          "source": "ebay.ca",
+          "source_url": "https://www.ebay.ca/b/Haier-Washing-Machines/71256/bn_1644490",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-07-26",
+  "period_start": "2026-07-19",
+  "period_end": "2026-07-25"
+}

@@ -1,0 +1,304 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 97,
+  "country_breakdown": {
+    "BR": 82,
+    "MX": 12,
+    "CL": 3
+  },
+  "product_breakdown": {
+    "TV": 36,
+    "Refrigerator": 20,
+    "Washing Machine": 20,
+    "Monitor": 14,
+    "LG gram": 7
+  },
+  "brand_breakdown": {
+    "LG": 59,
+    "TCL": 6,
+    "Hisense": 9,
+    "Samsung": 10,
+    "Midea": 8,
+    "Haier": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 38,
+    "Chinese Brand Threat Tracking": 39,
+    "Competitive Price & Positioning": 7,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 28,
+  "lg_total": 59,
+  "country_data": {
+    "BR": {
+      "total": 82,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 17,
+        "Washing Machine": 16,
+        "Monitor": 13,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 48,
+        "TCL": 6,
+        "Hisense": 8,
+        "Samsung": 10,
+        "Midea": 6,
+        "Haier": 4
+      },
+      "chinese_count": 24,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 5.828: Smart TV 55 OLED 4K 120Hz LG Preto | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-55-oled-4k-120hz-lg-preto-da3a",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 6.030: Smart TV LG OLED evo AI 4K C6 55 polegadas 2026 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-lg-oled-evo-ai-4k-c6-55-polegadas-2026-61a7",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Tv TCL 65 vale a pena? | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/t/tv-tcl-65-vale-a-pena-f588",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "I've Tested Most 2026 TVs, and Hisense's U7SG Proves You Don't Need Micro RGB for a Good Picture - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/hisense-u7sg-tv-review/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG launches Black Friday in July sale: Up to $1,000 off new C6/G6 OLED TVs, C5 up to $2,400 off, FREE mounts, more",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/07/22/lg-black-friday-july-sale-oled-c6-g6/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED B5: Como é a TV OLED mais BARATA da LG! - YouTube",
+          "source": "youtube.com",
+          "source_url": "https://www.youtube.com/watch?v=OST0-0Vn414",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV LG de 43\" com IA, HDR e Alexa entra em oferta por menos de R$ 1.430 em promoção - Hardware.com.br",
+          "source": "hardware.com.br",
+          "source_url": "https://www.hardware.com.br/hardware-indica/smart-tv-lg-de-43-com-ia-hdr-e-alexa-entra-em-oferta-por-menos-de-r-1-430-em-promocao/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG's G5 OLED TV gets a serious £500 price cut today - Trusted Reviews",
+          "source": "trustedreviews.com",
+          "source_url": "https://www.trustedreviews.com/deals/lgs-g5-oled-tv-gets-a-serious-500-price-cut-today",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG lança o 1º monitor gamer UltraGear OLED com webOS no Brasil | Produto",
+          "source": "tecmundo.com.br",
+          "source_url": "https://www.tecmundo.com.br/produto/414741-lg-lanca-o-1-monitor-gamer-ultragear-oled-com-webos-no-brasil.htm",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UHD 55UA85 ou OLED: qual tecnologia de TV 4K faz sentido?",
+          "source": "cabinecelular.com.br",
+          "source_url": "https://cabinecelular.com.br/guias-de-compra/lg-uhd-55ua85-ou-oled-qual-tecnologia-de-tv-4k-faz-sentido/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 12,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 3,
+        "Washing Machine": 4,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 8,
+        "Hisense": 1,
+        "Haier": 1,
+        "Midea": 2
+      },
+      "chinese_count": 4,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG estrena el modo 'Creator Original' en sus televisores OLED de 2026 para acercarse a la referencia de estudio",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/lg-creator-original-televisores-oled-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Hisense 65 4k - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/pantallas/hisense-65-4k/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupón LG México de 15% Comprobado en Julio 2026",
+          "source": "tuscupones.com.mx",
+          "source_url": "https://tuscupones.com.mx/lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Planet Geek",
+          "source": "planetgeek.org",
+          "source_url": "https://planetgeek.org/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Cómo climatizar cada estancia de la casa para mejorar el confort en verano",
+          "source": "sonitron.net",
+          "source_url": "https://sonitron.net/climatizar-estancia-confort-verano/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG presenta una lavadora con IA diseñada para eliminar olores y residuos de mascotas",
+          "source": "dailymotion.com",
+          "source_url": "https://www.dailymotion.com/video/xarbni6",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadora Midea 11 Kg - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavadora-midea-11-kg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "¿Cómo usar una lavadora:? Guía paso a paso para principiantes",
+          "source": "midea.com",
+          "source_url": "https://www.midea.com/mx/blog/ver-todas/tips/como-usar-una-lavadora",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "¿Cómo reparar una lavadora?: Problemas comunes y soluciones",
+          "source": "midea.com",
+          "source_url": "https://www.midea.com/mx/blog/ver-todas/tips/como-reparar-una-lavadora",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Состоялся дебют обновленной модели ноутбука LG Gram 16",
+          "source": "mobile-review.com",
+          "source_url": "https://mobile-review.com/all/news/sostoyalsya-debyut-obnovlennoj-modeli-noutbuka-lg-gram-16/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 3,
+      "products": {
+        "TV": 1,
+        "Monitor": 1,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 3
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG's 2026 OLED evo TVs are getting a smarter alternative to Filmmaker Mode - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/LG-s-2026-OLED-evo-TVs-are-getting-a-smarter-alternative-to-Filmmaker-Mode.1348855.0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "This LG 1440p ultrawide OLED gaming monitor is over $500 off | PCWorld",
+          "source": "pcworld.com",
+          "source_url": "https://www.pcworld.com/article/3195904/this-lg-1440p-ultrawide-oled-gaming-monitor-is-over-500-off.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "What Is Lginnote Device | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/what-is-lginnote-device",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-07-26",
+  "period_start": "2026-07-19",
+  "period_end": "2026-07-25"
+}

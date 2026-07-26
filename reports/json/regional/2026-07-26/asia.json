@@ -1,0 +1,278 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 88,
+  "country_breakdown": {
+    "AU": 39,
+    "TW": 49
+  },
+  "product_breakdown": {
+    "TV": 26,
+    "Refrigerator": 30,
+    "Washing Machine": 20,
+    "Monitor": 9,
+    "LG gram": 3
+  },
+  "brand_breakdown": {
+    "LG": 53,
+    "TCL": 6,
+    "Samsung": 3,
+    "Hisense": 4,
+    "Haier": 15,
+    "Midea": 7
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 24,
+    "Chinese Brand Threat Tracking": 33,
+    "Competitive Price & Positioning": 11,
+    "Consumer Sentiment": 20
+  },
+  "chinese_brand_total": 32,
+  "lg_total": 53,
+  "country_data": {
+    "AU": {
+      "total": 39,
+      "products": {
+        "TV": 9,
+        "Refrigerator": 15,
+        "Washing Machine": 10,
+        "Monitor": 4,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 10,
+        "TCL": 6,
+        "Samsung": 2,
+        "Haier": 13,
+        "Hisense": 1,
+        "Midea": 7
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C7L Mini LED TVs - 55” $1,099.98 | 65” $1,499.99 | 75” $1,999.99 | 85” $2,899.99 (Inc Delivery) @ Costco (Membership Req.) - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/968976",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 2026 G6 OLED TVs - Value Electronics",
+          "source": "valueelectronics.com",
+          "source_url": "https://valueelectronics.com/product/lg-2026-g6-oled-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C8L & TCL C7L Hands-on Comparison: SQD-MiniLED is Amazing! - CyberShack",
+          "source": "cybershack.com.au",
+          "source_url": "https://cybershack.com.au/av/tcl-c8l-tcl-c7l-review/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG InstaView™ REFRIGERATOR SURPASSES 5.3 MILLION IN GLOBAL SALES - PR Newswire APAC",
+          "source": "en.prnasia.com",
+          "source_url": "https://en.prnasia.com/releases/apac/lg-instaview-refrigerator-surpasses-5-3-million-in-global-sales-541770.shtml",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "LG 506L French Door Refrigerator Plumbed Water And Ice GF-L500MWH - GoGetAppliances",
+          "source": "gogetappliances.com.au",
+          "source_url": "https://gogetappliances.com.au/product/lg-506l-french-door-refrigerator-plumbed-water-and-ice-gf-l500mwh/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators | Reviews, Features, Prices – Canstar Blue",
+          "source": "canstarblue.com.au",
+          "source_url": "https://www.canstarblue.com.au/appliances/brands/haier-refrigerators/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 49,
+      "products": {
+        "TV": 17,
+        "Refrigerator": 15,
+        "Washing Machine": 10,
+        "Monitor": 5,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 43,
+        "Hisense": 3,
+        "Samsung": 1,
+        "Haier": 2
+      },
+      "chinese_count": 5,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for Jul 2026 | Exclusive $40 Gift Card",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 吋 LG OLED evo AI C6 4K 智慧顯示器 2026 - OLED65C6PTA.ATT | LG 台灣",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "蘇寧沙田新城市廣場限時優惠！9 款家電低至 59 折 + 滿 $2,000 即減 $200 額外再慳 | ezone",
+          "source": "ezone.hk",
+          "source_url": "https://ezone.hk/article/20103440/%E8%98%87%E5%AF%A7%E6%B2%99%E7%94%B0%E6%96%B0%E5%9F%8E%E5%B8%82%E5%BB%A3%E5%A0%B4%E9%99%90%E6%99%82%E5%84%AA%E6%83%A0",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG集團 - 維基百科，自由的百科全書",
+          "source": "zh.wikipedia.org",
+          "source_url": "https://zh.wikipedia.org/zh-tw/LG%E9%9B%86%E5%9B%A2",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG to Ban Residential Proxies from Smart TV Apps – Krebs on Security",
+          "source": "krebsonsecurity.com",
+          "source_url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "foodpanda 優惠碼 2026年7月｜新戶3折、外送與信用卡優惠",
+          "source": "kb56.tw",
+          "source_url": "https://kb56.tw/foodpanda-coupon/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG螢幕偷安裝廣告引來微軟關切 同意不再推送防毒軟體優惠通知 | 4Gamers",
+          "source": "4gamers.com.tw",
+          "source_url": "https://www.4gamers.com.tw/news/detail/80861/lg-promise-microsoft-stop-pushing-ads-from-monitor",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Computer Monitors: Gaming, UltraWide, 4K, OLED Smart Monitors | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/monitors",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "十大 電視 好口碑榜單 2026年7月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/%E9%9B%BB%E8%A6%96",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信E3S Pro 75英寸电视直降2665元_海信 75E3S Pro+_电视导购-中关村在线",
+          "source": "tv.zol.com.cn",
+          "source_url": "https://tv.zol.com.cn/1219/12197618.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-07-26",
+  "period_start": "2026-07-19",
+  "period_end": "2026-07-25"
+}

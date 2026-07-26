@@ -1,0 +1,33 @@
+{
+  "week": "2026-07-26",
+  "report_period": {
+    "start": "2026-07-19",
+    "end": "2026-07-25"
+  },
+  "version": "Weekly Vol.2026-07-26-R2",
+  "generated_at": "2026-07-26T09:30:34.048Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 335,
+    "competitor_promotion_signals": 8,
+    "chinese_threat_signals": 13,
+    "consumer_negative_countries": 10,
+    "critical_country_count": 3
+  },
+  "critical_countries": [
+    "🇺🇸 미국 (US)",
+    "🇩🇪 독일 (DE)",
+    "🇦🇺 호주 (AU)"
+  ],
+  "executive_key_insights": [
+    "**LG 모니터 소프트웨어 이슈 글로벌 확산**: 미국, 영국, 독일, 호주 등 핵심 시장에서 LG 모니터의 Windows 자동 소프트웨어 설치 및 McAfee 광고 팝업 논란이 급속 확산 중이며, Microsoft까지 공식 대응에 나서 브랜드 신뢰도 리스크가 심화되고 있음",
+    "**중국 브랜드 가전 시장 공세 본격화**: Haier/Midea가 냉장고·세탁기 분야에서 유럽(독일, 영국, 이탈리아)과 호주 시장에 대규모 가격 공세를 펼치며, 단순 TV 경쟁을 넘어 생활가전 전선으로 위협이 확대됨",
+    "**LG gram 신제품 글로벌 런칭 모멘텀**: 23.5시간 배터리의 LG gram 16 신모델이 미국, 유럽, 사우디 등에서 동시 출시되며 울트라북 시장 경쟁력 강화 신호가 감지됨"
+  ],
+  "links": {
+    "html": "./2026-07-26/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-07-26_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-07-26_R2_16country.md",
+    "share": "./2026-07-26/share.html"
+  }
+}
