@@ -1,0 +1,279 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 87,
+  "country_breakdown": {
+    "AU": 41,
+    "TW": 46
+  },
+  "product_breakdown": {
+    "TV": 27,
+    "Refrigerator": 27,
+    "Washing Machine": 18,
+    "Monitor": 6,
+    "LG gram": 9
+  },
+  "brand_breakdown": {
+    "LG": 49,
+    "TCL": 9,
+    "Hisense": 3,
+    "Samsung": 2,
+    "Haier": 17,
+    "Panasonic": 1,
+    "Midea": 6
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 22,
+    "Competitive Price & Positioning": 12,
+    "Chinese Brand Threat Tracking": 36,
+    "Consumer Sentiment": 17
+  },
+  "chinese_brand_total": 35,
+  "lg_total": 49,
+  "country_data": {
+    "AU": {
+      "total": 41,
+      "products": {
+        "TV": 13,
+        "Refrigerator": 14,
+        "Washing Machine": 11,
+        "Monitor": 2,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 11,
+        "TCL": 8,
+        "Samsung": 2,
+        "Haier": 14,
+        "Midea": 6
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 635 Litre Side by Side Instaview Fridge GS-V600MBLC $1787 + Delivery @ Harvey Norman - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/969940",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Samsung 9kg Smart Front Load Washer $743 ($676 via Price Check Button) + Delivery ($0 C&C) @ The Good Guys - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/969944",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "[RAC] LG UltraGear 45\" 5K2K OLED 165Hz 800R 21:9 Monitor $1933.20 Delivered (Was $3498) @ Retravision - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/969236",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG C2 65-Inch OLED TV Deal: 2022's Best High-End Display",
+          "source": "theinventory.com",
+          "source_url": "https://theinventory.com/lg-c2-65-inch-oled-tv-deal-2022-flagship",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 2026 G6 OLED TVs - Value Electronics",
+          "source": "valueelectronics.com",
+          "source_url": "https://valueelectronics.com/product/lg-2026-g6-oled-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG QNED81 reviews | ProductReview.com.au",
+          "source": "productreview.com.au",
+          "source_url": "https://www.productreview.com.au/listings/lg-qned81",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TV in Australia 2026: Samsung, TCL, Hisense, and LG tested",
+          "source": "gadgetguy.com.au",
+          "source_url": "https://www.gadgetguy.com.au/best-tv-australia/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "Smart Tv Lg Uhd 55au801 Review | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/smart-tv-lg-uhd-55au801-review",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL Launches Its ‘Most Advanced Gaming Monitor’ In New QD-Mini LED Range – channelnews",
+          "source": "channelnews.com.au",
+          "source_url": "https://www.channelnews.com.au/tcl-launches-its-most-advanced-gaming-monitor-in-new-qd-mini-led-range/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL brings Premium QD-Mini LED Display Fleet to Australian gamers",
+          "source": "eftm.com",
+          "source_url": "https://eftm.com/2026/07/tcl-brings-premium-qd-mini-led-display-fleet-to-australian-gamers-278811",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 46,
+      "products": {
+        "TV": 14,
+        "Refrigerator": 13,
+        "Washing Machine": 7,
+        "Monitor": 4,
+        "LG gram": 8
+      },
+      "brands": {
+        "LG": 38,
+        "Hisense": 3,
+        "Panasonic": 1,
+        "TCL": 1,
+        "Haier": 3
+      },
+      "chinese_count": 7,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in August 2026 | 20% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Display 開發新款雙層 OLED 面板，畫質不減、成本大降 | TechNews 科技新報",
+          "source": "technews.tw",
+          "source_url": "https://technews.tw/2026/07/30/lg-display-develops-low-cost-dual-stack-oled/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "AEON 網上購物城 | 香港島 | AEONCITY網上購物城 - 24小時網上日式超市",
+          "source": "aeoncity.com.hk",
+          "source_url": "https://www.aeoncity.com.hk/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "小米台灣官網｜徠卡影像旗艦手機．智慧家電．穿戴裝置－台灣小米商城",
+          "source": "mi.com",
+          "source_url": "https://www.mi.com/tw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "foodpanda 優惠碼 2026年8月｜新戶3折、外送與信用卡優惠",
+          "source": "kb56.tw",
+          "source_url": "https://kb56.tw/foodpanda-coupon/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Vidda C5 Master 分期避坑指南：破解零利率迷思與安裝隱藏費用攻略",
+          "source": "world.taobao.com",
+          "source_url": "https://world.taobao.com/lang/zh-tw/shopping-guide/2016990124604129280.htm",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "十大 電視盒/智慧棒 好口碑榜單 2026年7月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/%E9%9B%BB%E8%A6%96%E7%9B%92-%E6%99%BA%E6%85%A7%E6%A3%92",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "LG、TCL輸了！最強電視品牌冠軍是它，「畫質好音效猛、功能好操作」：耐用7年像新的 | 蔡惠芯 | 風生活 - 風傳媒",
+          "source": "storm.mg",
+          "source_url": "https://www.storm.mg/lifestyle/11143195",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信 85E7Q 液晶电视，京东优惠低至 6206.77 元_电视导购-中关村在线",
+          "source": "tv.zol.com.cn",
+          "source_url": "https://tv.zol.com.cn/1223/12236577.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "可免費換面板、寄放到年底！65吋電視展示機不到6萬該買嗎？過來人點破入手2前提 | 3C家電 | udn科技玩家",
+          "source": "tech.udn.com",
+          "source_url": "https://tech.udn.com/tech/story/123152/9624968",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-08-02",
+  "period_start": "2026-07-26",
+  "period_end": "2026-08-01"
+}

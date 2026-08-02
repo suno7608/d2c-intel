@@ -1,0 +1,33 @@
+{
+  "week": "2026-08-02",
+  "report_period": {
+    "start": "2026-07-26",
+    "end": "2026-08-01"
+  },
+  "version": "Weekly Vol.2026-08-02-R2",
+  "generated_at": "2026-08-02T09:27:57.251Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 297,
+    "competitor_promotion_signals": 8,
+    "chinese_threat_signals": 14,
+    "consumer_negative_countries": 10,
+    "critical_country_count": 3
+  },
+  "critical_countries": [
+    "🇺🇸 미국 (US)",
+    "🇩🇪 독일 (DE)",
+    "🇦🇺 호주 (AU)"
+  ],
+  "executive_key_insights": [
+    "이번 주 총 743건의 데이터 수집 완료, TV 비율 32.6%로 제품 균형 달성 — 냉장고(24.8%), 세탁기(19.7%), 모니터(15.1%), gram(7.9%)으로 다각화된 인텔리전스 확보",
+    "중국 브랜드 위협 264건 감지, 독일(37건)과 미국(33건)에서 TCL/Hisense TV 및 Haier/Midea 가전 공세 집중 — 특히 독일 내 TCL Mini-LED와 Midea PortaSplit 클리마 공격적 가격 정책 주목",
+    "LG 프로모션 297건으로 전주(307건) 대비 소폭 감소, 그러나 미국 Best Buy OLED 할인(~$900 off), 호주 Harvey Norman InstaView 냉장고 특가 등 핵심 채널 프로모션 활발 유지"
+  ],
+  "links": {
+    "html": "./2026-08-02/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-08-02_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-08-02_R2_16country.md",
+    "share": "./2026-08-02/share.html"
+  }
+}

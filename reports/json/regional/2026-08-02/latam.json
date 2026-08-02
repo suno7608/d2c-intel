@@ -1,0 +1,323 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 84,
+  "country_breakdown": {
+    "BR": 68,
+    "MX": 11,
+    "CL": 5
+  },
+  "product_breakdown": {
+    "TV": 36,
+    "Refrigerator": 22,
+    "Washing Machine": 12,
+    "Monitor": 13,
+    "LG gram": 1
+  },
+  "brand_breakdown": {
+    "LG": 51,
+    "TCL": 8,
+    "Samsung": 5,
+    "Hisense": 9,
+    "Midea": 7,
+    "Haier": 4
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 34,
+    "Chinese Brand Threat Tracking": 35,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 9
+  },
+  "chinese_brand_total": 28,
+  "lg_total": 51,
+  "country_data": {
+    "BR": {
+      "total": 68,
+      "products": {
+        "TV": 30,
+        "Refrigerator": 17,
+        "Washing Machine": 9,
+        "Monitor": 11,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 43,
+        "TCL": 8,
+        "Samsung": 4,
+        "Hisense": 7,
+        "Midea": 5,
+        "Haier": 1
+      },
+      "chinese_count": 21,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "I tested LG's newest OLED TVs side-by-side, and as a certified TV calibrator, there's one clear winner for me | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/i-tested-lg-newest-oled-tvs-side-by-side-and-as-a-certified-tv-calibrator-theres-one-clear-winner-for-me",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TV report card 2026: 'I suspect that I've recommended TCL TVs more than any other brand' | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/tcl-tv-report-card-2026-i-suspect-that-ive-recommended-tcl-tvs-more-than-any-other-brand",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "This CNET-Favorite TCL 4K TV Just Hit Its Lowest Price Ever - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/tcls-qm8l-4k-tv-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Samsung S95H vs LG G6 OLED: Which TV Is Better? - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/tools/compare/samsung-s95h-oled-vs-lg-g6-oled/127420/131546",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Dia dos Pais 2026: Smart TV LG OLED 55” cai de preço com cupom no Magalu • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/dia-dos-pais-2026-smart-tv-lg-oled-55-cai-de-preco-com-cupom-no-magalu/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Black Friday in July rolls on with up to $900 off latest C6 and G6 OLED TVs, Wallpaper models, more",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/07/30/lg-black-friday-july-c6-g6-oled-tv-wallpaper/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best TV deal: LG's 65-inch C5 OLED is $1,300 off | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/july-27-lg-c5-oled-65-inch-tv-deal",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Melhor TV OLED: ranking atualizado com 5 modelos para 2026",
+          "source": "techinter.com.br",
+          "source_url": "https://techinter.com.br/audio-e-video/smart-tvs/tv-oled/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "I have been tracking the price of LG’s brilliant 2026 mid-range OLED – and it has just hit a new low | What Hi-Fi?",
+          "source": "whathifi.com",
+          "source_url": "https://www.whathifi.com/tv-home-cinema/televisions/i-have-been-tracking-the-price-of-lgs-brilliant-2026-mid-range-oled-and-it-has-just-hit-a-new-low",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Monitor LG Ultragear OLED de 39″ ao preço mais baixo de sempre",
+          "source": "techenet.com",
+          "source_url": "https://www.techenet.com/2026/07/monitor-lg-ultragear-oled-de-39-ao-preco-mais-baixo-de-sempre/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 11,
+      "products": {
+        "TV": 5,
+        "Refrigerator": 5,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 6,
+        "Hisense": 1,
+        "Samsung": 1,
+        "Haier": 3
+      },
+      "chinese_count": 4,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Comparamos los nuevos televisores OLED de LG frente a frente y, según nuestro especialista, hay un claro ganador | TechRadar",
+          "source": "global.techradar.com",
+          "source_url": "https://global.techradar.com/es-mx/televisions/comparamos-los-nuevos-televisores-oled-de-lg-frente-a-frente-y-segun-nuestro-especialista-hay-un-claro-ganador",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Costco lanza a precio de regalo pantalla LG OLED evo AI de 65 pulgadas 4K Smart TV con 25% descuento – adn Noticias",
+          "source": "adn40.mx",
+          "source_url": "https://www.adn40.mx/es-tendencia/2026-07-29/costco-lanza-a-precio-de-regalo-pantalla-lg-oled-evo-ai-de-65-pulgadas-4k-smart-tv-con-25-descuento/?outputType=amp",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Pantalla Hisense Canvas 4K de 55 pulgadas en menos de 13 mil pesos en Amazon México",
+          "source": "eluniversal.com.mx",
+          "source_url": "https://www.eluniversal.com.mx/descubre-y-compra/pantalla-hisense-canvas-4k-de-55-pulgadas-en-menos-de-13-mil-pesos-en-amazon-mexico-aprovecha-la-oferta-especial/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Hisense 65 4k - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/pantallas/hisense-65-4k/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Tu televisor Hisense puede convertirse en un Xbox: así puedes jugar Game Pass sin necesidad de una consola",
+          "source": "3djuegos.com.mx",
+          "source_url": "https://www.3djuegos.com.mx/xbox/tu-televisor-hisense-puede-convertirse-xbox-asi-puedes-jugar-game-pass-necesidad-consola",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "El frigorífico combi Samsung RB34C672EWW cae de precio y se convierte en una compra muy recomendable",
+          "source": "muyinteresante.okdiario.com",
+          "source_url": "https://muyinteresante.okdiario.com/bazar/el-frigorifico-combi-samsung-rb34c672eww-cae-de-precio-y-se-convierte-en-una-compra-muy-recomendable.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Frigorífico Combi 200x70 NoFrost Haier HTW7720ENMB Wifi Negro Clase E - Hnos. García",
+          "source": "muebleshnosgarcia.com",
+          "source_url": "https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-combi/frigorifico-combi-200x70-nofrost-haier-htw7720enmb-wifi-negro-clase-e/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Frigorífico Combi 185X60 Total No Frost Haier HTW5618DNPT 3D My Zone Wifi Negro Clase D - Hnos. García",
+          "source": "muebleshnosgarcia.com",
+          "source_url": "https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-combi/frigorifico-combi-185x60-total-no-frost-haier-htw5618dnpt-3d-my-zone-wifi-negro-clase-d/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Frigorífico Combi 205x60 Total No Frost Haier HTR3620CNPW Wifi hOn AppBlanco Clase C - Hnos. García",
+          "source": "muebleshnosgarcia.com",
+          "source_url": "https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-combi/frigorifico-combi-205x60-total-no-frost-haier-htr3620cnpw-wifi-hon-appblanco-clase-c/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Réfrigérateur — Wikipédia",
+          "source": "fr.wikipedia.org",
+          "source_url": "https://fr.wikipedia.org/wiki/R%C3%A9frig%C3%A9rateur",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 5,
+      "products": {
+        "TV": 1,
+        "Washing Machine": 3,
+        "Monitor": 1
+      },
+      "brands": {
+        "Hisense": 1,
+        "LG": 2,
+        "Midea": 2
+      },
+      "chinese_count": 3,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense tv 50 inch 4k smart tv - Best deals on PriceRunner UK",
+          "source": "pricerunner.com",
+          "source_url": "https://www.pricerunner.com/sp/hisense-tv-50-inch-4k-smart-tv.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Chollos, ofertas y cupones ⇒ Chollometro.com » Nº1 en España",
+          "source": "chollometro.com",
+          "source_url": "https://www.chollometro.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Como Programar Una Lavadora Midea 17 Kg Ma500 | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/como-programar-una-lavadora-midea-17-kg-ma500",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Atrapa Pelusa En Lavadora Midea | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/atrapa-pelusa-en-lavadora-midea",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "39-inch LG UltraGear 240Hz gaming monitor drops 51% on Amazon — one of its biggest discounts yet - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/39-inch-LG-UltraGear-240Hz-gaming-monitor-drops-51-on-Amazon-one-of-its-biggest-discounts-yet.1350315.0.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-08-02",
+  "period_start": "2026-07-26",
+  "period_end": "2026-08-01"
+}
