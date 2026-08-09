@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 69,
+  "country_breakdown": {
+    "SA": 69
+  },
+  "product_breakdown": {
+    "TV": 19,
+    "Refrigerator": 18,
+    "Washing Machine": 18,
+    "Monitor": 4,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 39,
+    "Hisense": 11,
+    "Samsung": 2,
+    "Haier": 12,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 11,
+    "Chinese Brand Threat Tracking": 32,
+    "Competitive Price & Positioning": 24,
+    "Consumer Sentiment": 2
+  },
+  "chinese_brand_total": 28,
+  "lg_total": 39,
+  "country_data": {
+    "SA": {
+      "total": 69,
+      "products": {
+        "TV": 19,
+        "Refrigerator": 18,
+        "Washing Machine": 18,
+        "Monitor": 4,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 39,
+        "Hisense": 11,
+        "Samsung": 2,
+        "Haier": 12,
+        "TCL": 5
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: LG - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-LG-Laundry-Appliances/s?rh=n%3A2383576011%2Cp_89%3ALG",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: LG Electronics: LG gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/LGElectronics/page/1441EF5F-AC04-42AC-B365-50C2B32350C2",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Laptop Computers – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-computing/lg-laptops/pcmcat1531506580106.c?id=pcmcat1531506580106",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 inch LG gallery TV deal drops price of this smart art set to just $899.99 in 31% off discount - PC Guide",
+          "source": "pcguide.com",
+          "source_url": "https://www.pcguide.com/deals/55-inch-lg-gallery-tv-deal-drops-price-of-this-smart-art-set-to-just-899-99-in-31-off-discount/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Buy TV Online & Get Big Discounts This World Cup on Amazon.in",
+          "source": "amazon.in",
+          "source_url": "https://www.amazon.in/l/1389396031",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Hisense deal: Save $501 on the Hisense 65-inch U6 Pro Series Mini‑LED ULED 4K TV | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/aug-5-hisense-mini-led-4k-tv-best-ever-deal",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-08-09",
+  "period_start": "2026-08-02",
+  "period_end": "2026-08-08"
+}

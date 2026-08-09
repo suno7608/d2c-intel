@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-08-02T09:31:55.726Z",
-  "total_weeks": 26,
-  "latest_week": "2026-08-02",
+  "generated_at": "2026-08-09T08:15:19.379Z",
+  "total_weeks": 27,
+  "latest_week": "2026-08-09",
   "weeks": [
+    {
+      "week": "2026-08-09",
+      "report_period": {
+        "start": "2026-08-02",
+        "end": "2026-08-08"
+      },
+      "version": "Weekly Vol.2026-08-09-R2",
+      "generated_at": "2026-08-09T08:11:07.918Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 282,
+        "competitor_promotion_signals": 9,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 8,
+        "critical_country_count": 3
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇫🇷 프랑스 (FR)",
+        "🇹🇷 튀르키예 (TR)"
+      ],
+      "executive_key_insights": [
+        "**LG OLED TV 프로모션 공세 강화**: 미국·독일·이탈리아 전역에서 C6/G6 시리즈 최대 $900 할인 프로모션이 집중 전개되며, 경쟁사 대비 프리미엄 포지셔닝과 가격 경쟁력을 동시에 확보하는 전략적 균형점 달성",
+        "**중국 가전 브랜드 위협 다각화**: TV 영역(TCL/Hisense)을 넘어 Haier/Midea가 냉장고·세탁기 시장에서 유럽·호주·브라질 등 핵심 법인에 적극 침투 중이며, 가격 파괴 전략과 유통 확대로 HS 사업부 시장점유율 위협 심화",
+        "**부정 소비자 반응 급증**: 전주 대비 부정 소비자 반응이 60% 증가(10건→16건)했으며, 특히 LG 모니터의 Windows 애드웨어 설치 이슈가 미국 주요 테크 매체에 광범위하게 보도되어 브랜드 신뢰도 관리 필요"
+      ],
+      "links": {
+        "html": "./2026-08-09/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-08-09_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-08-09_R2_16country.md",
+        "share": "./2026-08-09/share.html"
+      }
+    },
     {
       "week": "2026-08-02",
       "report_period": {

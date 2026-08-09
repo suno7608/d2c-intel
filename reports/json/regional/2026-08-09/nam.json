@@ -1,0 +1,260 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 152,
+  "country_breakdown": {
+    "US": 139,
+    "CA": 13
+  },
+  "product_breakdown": {
+    "TV": 41,
+    "Refrigerator": 30,
+    "Washing Machine": 37,
+    "Monitor": 29,
+    "LG gram": 15
+  },
+  "brand_breakdown": {
+    "LG": 103,
+    "Samsung": 6,
+    "TCL": 11,
+    "Haier": 12,
+    "Midea": 19,
+    "Hisense": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 53,
+    "Chinese Brand Threat Tracking": 49,
+    "Competitive Price & Positioning": 25,
+    "Consumer Sentiment": 25
+  },
+  "chinese_brand_total": 43,
+  "lg_total": 103,
+  "country_data": {
+    "US": {
+      "total": 139,
+      "products": {
+        "TV": 40,
+        "Refrigerator": 26,
+        "Washing Machine": 29,
+        "Monitor": 29,
+        "LG gram": 15
+      },
+      "brands": {
+        "LG": 101,
+        "Samsung": 6,
+        "TCL": 10,
+        "Haier": 10,
+        "Midea": 11,
+        "Hisense": 1
+      },
+      "chinese_count": 32,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "One of the top LG OLEDs of the year just got a huge $900 discount | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/one-of-the-top-lg-oleds-of-the-year-just-got-a-huge-usd900-discount",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The best OLED TVs for all budgets, as reviewed by our experts | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/the-best-oled-tvs",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "People's Picks TV Winners: Upgrading Your TV Soon? CNET Readers Have a Favorite Brand - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/peoples-picks-2026-tvs/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best refrigerator sales and deals in August 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/deals/best-refrigerator-sales",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerator Deals - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/major-appliances-on-sale/refrigerators-on-sale/pcmcat1637590307724.c?id=pcmcat1637590307724",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best Monitors For Xbox Series X of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/xbox-series-x",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Haier Washing Machine",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/haier-washing-machine/s?k=haier+washing+machine",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: MIDEA - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-MIDEA-Laundry-Appliances/s?rh=n%3A2383576011%2Cp_4%3AMIDEA",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes and Coupons for August 2026 | WIRED",
+          "source": "wired.com",
+          "source_url": "https://www.wired.com/story/lg-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" Class - OLED evo AI C5 Series - 4K Smart TV - Allstate 3-Year Protection Plan Bundle Included For 5 Years of Total Coverage* | Costco",
+          "source": "costco.com",
+          "source_url": "https://www.costco.com/p/-/lg-65-class-oled-evo-ai-c5-series-4k-smart-tv-allstate-3-year-protection-plan-bundle-included-for-5-years-of-total-coverage/4000368599",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CA": {
+      "total": 13,
+      "products": {
+        "Washing Machine": 8,
+        "TV": 1,
+        "Refrigerator": 4
+      },
+      "brands": {
+        "LG": 2,
+        "TCL": 1,
+        "Midea": 8,
+        "Haier": 2
+      },
+      "chinese_count": 11,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Washing Machine Buying Checklist | Clean Results",
+          "source": "ysvara.com",
+          "source_url": "https://www.ysvara.com/blogs/news/lg-washing-machine-buying-checklist-for-smart-choices",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washer Repair in Vancouver | Same-Day Service · Tech Angels",
+          "source": "tech-angels.ca",
+          "source_url": "https://tech-angels.ca/brands/lg/washer-repair/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Buy TLC C6K Premium QD-MiniLed TV | 50% Cashback Promo | Senheng Online | 20% S-Coin Cashback | Senheng",
+          "source": "senheng.com.my",
+          "source_url": "https://www.senheng.com.my/product/tcl-55-c6k-premium-qd-miniled-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Fridge | Walmart Canada",
+          "source": "walmart.ca",
+          "source_url": "https://www.walmart.ca/en/c/kp/midea-fridge",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.ca: Haier Washing Machine",
+          "source": "amazon.ca",
+          "source_url": "https://www.amazon.ca/haier-washing-machine/s?k=haier+washing+machine",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Washing Machines for sale | eBay",
+          "source": "ebay.ca",
+          "source_url": "https://www.ebay.ca/b/Haier-Washing-Machines/71256/bn_1644490",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Washers and Washing Machines - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Washers-And-Washing-Machines-66/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-08-09",
+  "period_start": "2026-08-02",
+  "period_end": "2026-08-08"
+}

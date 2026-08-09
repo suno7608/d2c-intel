@@ -1,0 +1,278 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 71,
+  "country_breakdown": {
+    "AU": 32,
+    "TW": 39
+  },
+  "product_breakdown": {
+    "TV": 24,
+    "Refrigerator": 20,
+    "Washing Machine": 15,
+    "Monitor": 6,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "LG": 35,
+    "TCL": 9,
+    "Hisense": 3,
+    "Samsung": 3,
+    "Haier": 14,
+    "Midea": 7
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 22,
+    "Chinese Brand Threat Tracking": 32,
+    "Competitive Price & Positioning": 10,
+    "Consumer Sentiment": 7
+  },
+  "chinese_brand_total": 33,
+  "lg_total": 35,
+  "country_data": {
+    "AU": {
+      "total": 32,
+      "products": {
+        "TV": 9,
+        "Refrigerator": 12,
+        "Washing Machine": 10,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 5,
+        "TCL": 8,
+        "Samsung": 1,
+        "Haier": 12,
+        "Midea": 6
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 2026 G6 OLED TVs - Value Electronics",
+          "source": "valueelectronics.com",
+          "source_url": "https://valueelectronics.com/product/lg-2026-g6-oled-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL flexes its gaming TV chops with new Mini LED monitors",
+          "source": "gadgetguy.com.au",
+          "source_url": "https://www.gadgetguy.com.au/tcl-gaming-monitor-launch-australia-32r84-qd-mini-led/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL QD-Mini LED Gaming Monitors: AU Price, Specs | BTTR",
+          "source": "bttr.reviews",
+          "source_url": "https://www.bttr.reviews/tcl-new-gaming-monitors-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL SQD Mini-LED TVs Deliver Up to 10,000 Nits – Why Brightness Matters More Than Ever in Australian Homes",
+          "source": "au.pcmag.com",
+          "source_url": "https://au.pcmag.com/tvs/119123/tcl-sqd-mini-led-tvs-deliver-up-to-10000-nits-why-brightness-matters-more-than-ever-in-australian-ho",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG GF-L706MBL 637L French Door Fridge - Price History, Comparison & Alerts | BuyWisely",
+          "source": "buywisely.com.au",
+          "source_url": "https://buywisely.com.au/au/product/lg-gf-l706mbl-637l-french-door-fridge-1",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Haier - Brands | e&s - Kitchen, Laundry, Bathroom",
+          "source": "eands.com.au",
+          "source_url": "https://www.eands.com.au/brands/haier/fridges-freezers",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 39,
+      "products": {
+        "TV": 15,
+        "Refrigerator": 8,
+        "Washing Machine": 5,
+        "Monitor": 5,
+        "LG gram": 6
+      },
+      "brands": {
+        "LG": 30,
+        "Hisense": 3,
+        "TCL": 1,
+        "Haier": 2,
+        "Samsung": 2,
+        "Midea": 1
+      },
+      "chinese_count": 7,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The LG UltraGear Evo Gaming Monitor Is $200 Off Right Now | Lifehacker",
+          "source": "lifehacker.com",
+          "source_url": "https://lifehacker.com/tech/lg-evo-ultragear-gaming-monitor-sale-august-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Uplus Makes First M&A in 7 Years, Targeting Security Market - Seoul Economic Daily",
+          "source": "en.sedaily.com",
+          "source_url": "https://en.sedaily.com/technology/2026/08/04/lg-uplus-makes-first-ma-in-7-years-targeting-security-market",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lg 치어리더 명단 진수",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/lg-%EC%B9%98%EC%96%B4%EB%A6%AC%EB%8D%94-%EB%AA%85%EB%8B%A8-%EC%A7%84%EC%88%98",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Porque A Tv Lg De 3 Dias De Uso Sumiu A Imagem",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/porque-a-tv-lg-de-3-dias-de-uso-sumiu-a-imagem",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Como Instalar Tv 4k Lg Qned73 86",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/como-instalar-tv-4k-lg-qned73-86",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "보넥도 Lg 포카 얻는법",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/%EB%B3%B4%EB%84%A5%EB%8F%84-lg-%ED%8F%AC%EC%B9%B4-%EC%96%BB%EB%8A%94%EB%B2%95",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "十大 電視 好口碑榜單 2026年8月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/%E9%9B%BB%E8%A6%96",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "【26年8月电视推荐】全实拍对比+万字文案分析！买电视看这期就够了 壁纸电视 游戏电视 电视机推荐2026_哔哩哔哩_bilibili",
+          "source": "bilibili.com",
+          "source_url": "https://www.bilibili.com/video/BV1up3X6tENP/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "【2026年8月显示器推荐】【暑期特辑】【绝不恰饭！】小白保姆级决赛圈式讲解！每期更新补测！涵盖电竞屏、带鱼屏、设计屏、办公屏！建议收藏_哔哩哔哩_bilibili",
+          "source": "bilibili.com",
+          "source_url": "https://www.bilibili.com/video/BV15yMX6aEUi/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "IT之家",
+          "source": "ithome.com",
+          "source_url": "https://www.ithome.com/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-08-09",
+  "period_start": "2026-08-02",
+  "period_end": "2026-08-08"
+}

@@ -1,0 +1,268 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 84,
+  "country_breakdown": {
+    "BR": 75,
+    "CL": 6,
+    "MX": 3
+  },
+  "product_breakdown": {
+    "TV": 36,
+    "Refrigerator": 18,
+    "Washing Machine": 14,
+    "Monitor": 13,
+    "LG gram": 3
+  },
+  "brand_breakdown": {
+    "LG": 45,
+    "TCL": 9,
+    "Hisense": 13,
+    "Samsung": 6,
+    "Midea": 8,
+    "Haier": 2,
+    "Electrolux": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 28,
+    "Chinese Brand Threat Tracking": 35,
+    "Competitive Price & Positioning": 8,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 32,
+  "lg_total": 45,
+  "country_data": {
+    "BR": {
+      "total": 75,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 16,
+        "Washing Machine": 13,
+        "Monitor": 11,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 41,
+        "TCL": 9,
+        "Hisense": 10,
+        "Samsung": 6,
+        "Midea": 8,
+        "Haier": 1
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs Reviews - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/shop/hisense-tvs-reviews",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 4 Best Curved Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/curved-gaming-monitors",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Finalmente! LG lança TV OLED 4K B6 da linha 2026 no Brasil",
+          "source": "melhorescartoes.com.br",
+          "source_url": "https://www.melhorescartoes.com.br/tv-lg-oled-4k-b6-lancamento-preco.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG now offering $900 off latest C6 OLED TV + 10% back on purchase price, FREE wall mount, more",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/08/07/lg-c6-oled-tv-cash-back-deal/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Melhor TV LG 65 polegadas: 8 modelos para comprar em 2026",
+          "source": "techinter.com.br",
+          "source_url": "https://techinter.com.br/audio-e-video/smart-tvs/tv-lg-65-polegadas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Super OLED? LG inventou um novo modo de imagem! | Leak",
+          "source": "leak.pt",
+          "source_url": "https://www.leak.pt/super-oled-lg-inventou-um-novo-modo-de-imagem/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Elite demais! LG lança monitor gamer OLED curvo com sistema operacional integrado",
+          "source": "melhorescartoes.com.br",
+          "source_url": "https://www.melhorescartoes.com.br/monitor-lg-oled-ultragear-smart-gx9s-lancamento.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Grupo de Ofertas Achados do Tecnoblog • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Nova tecnologia da LG pode baratear TVs OLED sem abrir mão da qualidade - Canaltech",
+          "source": "canaltech.com.br",
+          "source_url": "https://canaltech.com.br/tv/nova-tecnologia-da-lg-pode-baratear-tvs-oled-sem-abrir-mao-da-qualidade/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED TVs | LG Africa",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/africa/tvs/lg-oled65c46la-65-inch-oled-evo-4k-c4-smart-tv",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 3,
+      "products": {
+        "Refrigerator": 1,
+        "Monitor": 2
+      },
+      "brands": {
+        "Haier": 1,
+        "LG": 2
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Frigorífico Side by Side 181x84 4 Puertas NoFrost Haier HCR3818DNMM Inox Clase D - Hnos. García",
+          "source": "muebleshnosgarcia.com",
+          "source_url": "https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-usa-sbyside/frigorifico-side-by-side-181x84-4-puertas-nofrost-haier-hcr3818dnmm-inox-clase-d/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "An MVP Deal: This Powerful LG Curved Gaming Monitor Is Over 30% Off Today | PCMag",
+          "source": "pcmag.com",
+          "source_url": "https://www.pcmag.com/deals/mvp-deal-lg-curved-gaming-monitor-is-over-30-off-today-august-6",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Bodega Aurrera remata precio de pantalla LG AI NanoCell con control de voz y escalamiento 4K: ofrece calidad cinematográfica",
+          "source": "radioformula.com.mx",
+          "source_url": "https://www.radioformula.com.mx/tecnologia/bodega-aurrera-remata-precio-de-pantalla-lg-ai-nanocell-con-control-de-voz-y-escalamiento-4k-ofrece-calidad-cinematografica-20260802-0043.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 6,
+      "products": {
+        "TV": 3,
+        "Refrigerator": 1,
+        "Washing Machine": 1,
+        "LG gram": 1
+      },
+      "brands": {
+        "Hisense": 3,
+        "LG": 2,
+        "Electrolux": 1
+      },
+      "chinese_count": 3,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Las mejores ofertas en Soportes de TV Hisense",
+          "source": "ebay.com",
+          "source_url": "https://www.ebay.com/b/Hisense-TV-Mounts/163768/bn_90014373",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TELEVISOR HISENSE 4K ULTRA HD 50” SMART TV 50A6N - Peru Smart",
+          "source": "peru-smart.com",
+          "source_url": "https://www.peru-smart.com/producto/televisor-hisense-4k-ultra-hd-50-smart-tv-50a6n/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "How to Screen Mirror on Hisense TV in 2026",
+          "source": "pigeoncast.com",
+          "source_url": "https://pigeoncast.com/blogs/how-to-screen-mirror-on-hisense-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "El horno en el que puedes hacer 'toc toc' para ver el interior sin abrirlo: es de LG y está rebajado 200€",
+          "source": "elindependiente.com",
+          "source_url": "https://www.elindependiente.com/de-tiendas/2026/08/07/el-horno-en-el-que-puedes-hacer-toc-toc-para-ver-el-interior-sin-abrirlo-es-de-lg-y-esta-rebajado-200e/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Electrolux",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Que Es Mejor Electrolux O Mabe",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/que-es-mejor-electrolux-o-mabe",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lenovo releases new 17-inch laptop with over 14 hours battery life and Intel Wildcat Lake processors - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/Lenovo-releases-new-17-inch-laptop-with-over-14-hours-battery-life-and-Intel-Wildcat-Lake-processors.1360025.0.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-08-09",
+  "period_start": "2026-08-02",
+  "period_end": "2026-08-08"
+}
