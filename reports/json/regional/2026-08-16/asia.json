@@ -1,0 +1,277 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 74,
+  "country_breakdown": {
+    "AU": 37,
+    "TW": 37
+  },
+  "product_breakdown": {
+    "TV": 24,
+    "Refrigerator": 18,
+    "Washing Machine": 16,
+    "Monitor": 8,
+    "LG gram": 8
+  },
+  "brand_breakdown": {
+    "LG": 43,
+    "TCL": 11,
+    "Hisense": 2,
+    "Haier": 12,
+    "Samsung": 1,
+    "Midea": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 17,
+    "Chinese Brand Threat Tracking": 33,
+    "Competitive Price & Positioning": 11,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 30,
+  "lg_total": 43,
+  "country_data": {
+    "AU": {
+      "total": 37,
+      "products": {
+        "TV": 13,
+        "Refrigerator": 11,
+        "Washing Machine": 10,
+        "Monitor": 2,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 8,
+        "TCL": 10,
+        "Haier": 12,
+        "Samsung": 1,
+        "Hisense": 1,
+        "Midea": 5
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "[Perks] TCL C8L Premium SQD-Mini LED 4K TV 65C8L $1836, 75C8L $2368.80, 85C8L $2956 + Delivery @ JB Hi-Fi - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/971433",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C8L SQD-Mini LED 4K TV 65C8L $1828, 75C8L $2366, 85C8L $2950 + Delivery ($0 to Selected Areas / NSW C&C) @ Appliance Central - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/971472",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 98\" C8L Smart 4K Premium SQD-Mini LED UHD Google TV (2026) $5,525 + Del ($0 Metro) @ Stan Cash - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/971422",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 85C8l Mini LED 144Hz 4K Google TV $2950.40 + Delivery (+ Bonus $250 HN Gift Card) @ Harvey Norman - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/971443",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED evo TVs | Self Lit Pixel & Ultra-Slim TVs | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/oled-evo-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV Sale - OLED, QLED, Mini LED & 4K Smart TV Deals",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/deals/tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL Unveils Father’s Day Home Entertainment Lineup Built Around Mini LED And Bang & Olufsen – SMBtech",
+          "source": "smbtech.au",
+          "source_url": "https://smbtech.au/news/tcl-unveils-fathers-day-home-entertainment-lineup-built-around-mini-led-and-bang-olufsen/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 37,
+      "products": {
+        "TV": 11,
+        "Refrigerator": 7,
+        "Washing Machine": 6,
+        "Monitor": 6,
+        "LG gram": 7
+      },
+      "brands": {
+        "LG": 35,
+        "TCL": 1,
+        "Hisense": 1
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in August 2026 | 20% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lg Dirz",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/lg-dirz",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "2026国产电视哪个牌子好？海信/TCL/创维/小米四大品牌深度对比+FAQ|国产电视推荐|电视选购攻略|海信电视|TCL电视|Mini LED_新浪新闻",
+          "source": "sina.cn",
+          "source_url": "https://www.sina.cn/gc/article/nimysyf4285679.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "万元内75寸电视怎么选？三大核心标准，避开90%选购坑",
+          "source": "m.cheaa.com",
+          "source_url": "https://m.cheaa.com/n_detail/w_657340.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "就是節目表",
+          "source": "xn--i0yt6h0rn.tw",
+          "source_url": "https://xn--i0yt6h0rn.tw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "節目表 - 華視全球資訊網",
+          "source": "cts.com.tw",
+          "source_url": "https://www.cts.com.tw/schedule",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "地球黃金線 | 提供國內外最新汽機車新聞、新車上市、車展特輯以及電視節目內容",
+          "source": "cars.tvbs.com.tw",
+          "source_url": "https://cars.tvbs.com.tw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "PTS節目表",
+          "source": "web.pts.org.tw",
+          "source_url": "http://web.pts.org.tw/php/programX/main.php",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "🖥️ Arçelik Televizyon Fiyatları 2026 | Garantili & Güvenilir",
+          "source": "hepsiburada.com",
+          "source_url": "https://www.hepsiburada.com/arcelik-led-tv-televizyonlar-xc-163192-b10647",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "【2026年最新】テレビの買取価格を比較（12358点・953社）| ヒカカク！",
+          "source": "hikakaku.com",
+          "source_url": "https://hikakaku.com/category/all-category/home-appliances/video-display/tv-set/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-08-16",
+  "period_start": "2026-08-09",
+  "period_end": "2026-08-15"
+}

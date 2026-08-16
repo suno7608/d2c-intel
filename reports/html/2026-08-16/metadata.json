@@ -1,0 +1,31 @@
+{
+  "week": "2026-08-16",
+  "report_period": {
+    "start": "2026-08-09",
+    "end": "2026-08-15"
+  },
+  "version": "Weekly Vol.2026-08-16-R2",
+  "generated_at": "2026-08-16T07:47:13.885Z",
+  "metrics": {
+    "covered_countries": 13,
+    "lg_promotion_signals": 281,
+    "competitor_promotion_signals": 8,
+    "chinese_threat_signals": 12,
+    "consumer_negative_countries": 9,
+    "critical_country_count": 1
+  },
+  "critical_countries": [
+    "🇦🇺 호주 (AU)"
+  ],
+  "executive_key_insights": [
+    "**브라질 냉장고 신공장 전략적 성과**: LG가 파라나주에 R$15억 규모 냉장고 공장을 개소하며 Brastemp/Electrolux와 본격 경쟁 체제 돌입. 현지 생산을 통한 가격 경쟁력 확보와 \"Brasileira, do jeito que deve ser\" 캠페인으로 로컬 브랜드 이미지 강화",
+    "**중국 가전 브랜드 Haier/Midea 다각화 공세 심화**: TV 브랜드 TCL/Hisense 외에 Haier의 F17 AI 세탁기(인도 출시 ₹75,990), Midea의 PortaSplit 에어컨(유럽 €899)이 핵심 시장에서 공격적 확장 중. 가전 전 카테고리 위협 증가",
+    "**LG 모니터/gram 프로모션 호조**: UltraGear OLED 모니터 $400 할인, gram Pro 노트북 $460 역대 최저가 등 Back-to-School 시즌 공격적 가격 정책으로 프리미엄 세그먼트 점유율 방어 중"
+  ],
+  "links": {
+    "html": "./2026-08-16/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-08-16_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-08-16_R2_16country.md",
+    "share": "./2026-08-16/share.html"
+  }
+}

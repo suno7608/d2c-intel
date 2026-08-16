@@ -1,0 +1,208 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 88,
+  "country_breakdown": {
+    "BR": 84,
+    "MX": 4
+  },
+  "product_breakdown": {
+    "TV": 33,
+    "Refrigerator": 23,
+    "Washing Machine": 15,
+    "Monitor": 17
+  },
+  "brand_breakdown": {
+    "LG": 51,
+    "TCL": 9,
+    "Hisense": 8,
+    "Samsung": 10,
+    "Midea": 9,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 32,
+    "Chinese Brand Threat Tracking": 32,
+    "Competitive Price & Positioning": 8,
+    "Consumer Sentiment": 16
+  },
+  "chinese_brand_total": 27,
+  "lg_total": 51,
+  "country_data": {
+    "BR": {
+      "total": 84,
+      "products": {
+        "TV": 32,
+        "Refrigerator": 23,
+        "Washing Machine": 12,
+        "Monitor": 17
+      },
+      "brands": {
+        "LG": 47,
+        "TCL": 9,
+        "Hisense": 8,
+        "Samsung": 10,
+        "Midea": 9,
+        "Haier": 1
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Gear Up for Game Day With Up to $800 Off LG’s Class B6 OLED TVs - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/lg-class-b6-oled-tv-deals-2026-08-13/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED TVs | Amazon.com",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/oled-tvs/b?ie=UTF8&node=6463520011",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "'It's not an OLED-killer yet': I tested Hisense’s affordable RGB TV, and while I like its picture quality and performance, it surprisingly falls short in the area I had the highest hopes for",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/its-not-an-oled-killer-yet-i-tested-hisenses-affordable-rgb-tv-and-while-i-like-its-picture-quality-and-performance-it-surprisingly-falls-short-in-the-area-i-had-the-highest-hopes-for",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 3 Best OLED TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-type/oled",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 7 Best Monitor Brands of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/brands",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG lança no Brasil novas TVs OLED evo AI G6 e C6 com tecnologia premiada - Canaltech",
+          "source": "canaltech.com.br",
+          "source_url": "https://canaltech.com.br/tv/lg-lanca-no-brasil-novas-tvs-oled-evo-ai-g6-e-c6-com-tecnologia-premiada/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Ofertas do dia: smart TV UHD da LG com super desconto de 57%",
+          "source": "jcconcursos.uol.com.br",
+          "source_url": "https://jcconcursos.uol.com.br/amp/noticia/ofertas/ofertas-do-dia-smart-tv-uhd-da-lg-com-super-desconto-de-57-480-144775",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Is a well-lit room ruining your TV viewing? This dazzlingly bright, five-star OLED fights glare with ease | What Hi-Fi?",
+          "source": "whathifi.com",
+          "source_url": "https://www.whathifi.com/tv-home-cinema/televisions/is-a-well-lit-room-ruining-your-tv-viewing-this-dazzlingly-bright-five-star-oled-fights-glare-with-ease",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV OLED PREZZI ASSURDI 😱 - LG Smart TV 48” OLED 4K UHD con AI a 599,99€ * LG Smart TV 55” OLED 4K UHD con AI a 699,99€ * LG Smart TV 65” OLED 4K UHD con AI a 999,99€ * LG Smart TV 83” OLED 4K UHD con AI a 1999,99€ Promo valide fino a",
+          "source": "facebook.com",
+          "source_url": "https://www.facebook.com/EuronicsGruppoTufano/posts/tv-oled-prezzi-assurdi-lg-smart-tv-48-oled-4k-uhd-con-ai-a-59999-lg-smart-tv-55-/1562455622588100/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Melhor TV TCL: 8 modelos com ótimo custo-benefício para comprar em 2026",
+          "source": "techtudo.com.br",
+          "source_url": "https://www.techtudo.com.br/listas/2026/08/melhor-tv-tcl-modelos-com-otimo-custo-beneficio-para-comprar-em-2026-edqualcomprarie.ghtml",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 4,
+      "products": {
+        "TV": 1,
+        "Washing Machine": 3
+      },
+      "brands": {
+        "LG": 4
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Da el salto a las nuevas Smart TV RGB Mini-LED con esta LG de 2026 a precio mínimo histórico y disfruta de colores deslumbrantes sin los inconvenientes del OLED",
+          "source": "larazon.es",
+          "source_url": "https://www.larazon.es/compras/nuestra-eleccion/salto-nuevas-smart-rgb-miniled-esta-2026-precio-minimo-historico-disfruta-colores-deslumbrantes-inconvenientes-oled_202608106a7a039d71b42a0b5de807bc.html?outputType=amp",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Lavasecadora Lg 12 Kg",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavasecadora/lavasecadora-lg-12-kg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Cómo Funciona una Lavadora: Una Forma Sencilla de Entenderlo",
+          "source": "midea.com",
+          "source_url": "https://www.midea.com/mx/blog/ver-todas/tips/como-funciona-una-lavadora",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Conceptos básicos sobre una lavadora: ¿Qué es centrifugar en una lavadora?",
+          "source": "midea.com",
+          "source_url": "https://www.midea.com/mx/blog/ver-todas/tips/que-es-centrifugar-en-una-lavadora",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-08-16",
+  "period_start": "2026-08-09",
+  "period_end": "2026-08-15"
+}

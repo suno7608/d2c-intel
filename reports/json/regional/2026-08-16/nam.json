@@ -1,0 +1,259 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 141,
+  "country_breakdown": {
+    "US": 127,
+    "CA": 14
+  },
+  "product_breakdown": {
+    "TV": 37,
+    "Refrigerator": 23,
+    "Washing Machine": 39,
+    "Monitor": 22,
+    "LG gram": 20
+  },
+  "brand_breakdown": {
+    "LG": 96,
+    "TCL": 9,
+    "Samsung": 5,
+    "Haier": 10,
+    "Midea": 19,
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 52,
+    "Chinese Brand Threat Tracking": 43,
+    "Competitive Price & Positioning": 22,
+    "Consumer Sentiment": 24
+  },
+  "chinese_brand_total": 40,
+  "lg_total": 96,
+  "country_data": {
+    "US": {
+      "total": 127,
+      "products": {
+        "TV": 36,
+        "Refrigerator": 18,
+        "Washing Machine": 31,
+        "Monitor": 22,
+        "LG gram": 20
+      },
+      "brands": {
+        "LG": 93,
+        "TCL": 9,
+        "Samsung": 5,
+        "Haier": 7,
+        "Midea": 11,
+        "Hisense": 2
+      },
+      "chinese_count": 29,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TVs of 2026: Expert Tested and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "I tested the TCL QM7L — and it’s my top Mini-LED TV value of the year | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/qled-tvs/tcl-qm7l-review",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes: 20% Off for August 2026",
+          "source": "daily.slickdeals.net",
+          "source_url": "https://daily.slickdeals.net/stores/lg-promo-codes/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best 4k Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-resolution/4k-ultra-hd-uhd",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Haier Washing Machine",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/haier-washing-machine/s?k=haier+washing+machine",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: MIDEA - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-MIDEA-Laundry-Appliances/s?rh=n%3A2383576011%2Cp_4%3AMIDEA",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG TV Sale & Deals – OLED & QNED & 4K UHD TV Discounts | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/promotions/tv-sale-deals",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED TVs | 4K & 8K TVs With AI ThinQ & Dolby Vision | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/oled-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED TV and UltraFine 6K monitor deals offer up to $5,000 off",
+          "source": "appleinsider.com",
+          "source_url": "https://appleinsider.com/articles/26/08/11/save-up-to-5000-on-lg-oled-tvs-32-ultrafine-6k-monitor-plunges-to-1099",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Launches Back to School Sale With Major Discounts on OLED TVs and Monitors - MacRumors",
+          "source": "macrumors.com",
+          "source_url": "https://www.macrumors.com/2026/08/11/lg-back-to-school-sale/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CA": {
+      "total": 14,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 5,
+        "Washing Machine": 8
+      },
+      "brands": {
+        "LG": 3,
+        "Midea": 8,
+        "Haier": 3
+      },
+      "chinese_count": 11,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED & QLED TVs - Canada Computers & Electronics",
+          "source": "canadacomputers.com",
+          "source_url": "https://www.canadacomputers.com/en/16/oled-qled-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Convertible vs regular fridge: Is the extra money worth it? Features, power use and storage compared | Technology News (HT Tech)",
+          "source": "hindustantimes.com",
+          "source_url": "https://www.hindustantimes.com/technology/convertible-vs-regular-fridge-is-the-extra-money-worth-it-features-power-use-and-storage-compared-101786428627757.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Consumer Sentiment",
+          "value": "LG 5.2 cu ft. White Front Load Washer with Cold Wash Technology | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/lg-5.2-cu-ft.-white-front-load-washer-with-cold-wash-technology.product.100790456.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Fridge | Walmart Canada",
+          "source": "walmart.ca",
+          "source_url": "https://www.walmart.ca/en/c/kp/midea-fridge",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.ca: Haier Washing Machine",
+          "source": "amazon.ca",
+          "source_url": "https://www.amazon.ca/haier-washing-machine/s?k=haier+washing+machine",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Washing Machines for sale | eBay",
+          "source": "ebay.ca",
+          "source_url": "https://www.ebay.ca/b/Haier-Washing-Machines/71256/bn_1644490",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier – The Laundry Store",
+          "source": "thelaundrystore.ca",
+          "source_url": "https://www.thelaundrystore.ca/collections/haier",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-08-16",
+  "period_start": "2026-08-09",
+  "period_end": "2026-08-15"
+}

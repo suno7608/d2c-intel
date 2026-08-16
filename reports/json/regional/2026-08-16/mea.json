@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 72,
+  "country_breakdown": {
+    "SA": 72
+  },
+  "product_breakdown": {
+    "TV": 22,
+    "Refrigerator": 17,
+    "Washing Machine": 19,
+    "Monitor": 4,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 41,
+    "Hisense": 9,
+    "Samsung": 3,
+    "Haier": 14,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Chinese Brand Threat Tracking": 36,
+    "Competitive Price & Positioning": 23,
+    "Retail Channel Promotions": 12,
+    "Consumer Sentiment": 1
+  },
+  "chinese_brand_total": 28,
+  "lg_total": 41,
+  "country_data": {
+    "SA": {
+      "total": 72,
+      "products": {
+        "TV": 22,
+        "Refrigerator": 17,
+        "Washing Machine": 19,
+        "Monitor": 4,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 41,
+        "Hisense": 9,
+        "Samsung": 3,
+        "Haier": 14,
+        "TCL": 5
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Find Your Next TV Under $500 With These CNET-Picked Budget Deals - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-cheap-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "These TV Deals Are Giving Up to $1,500 Off and Your Living Room Has Never Been More Ready - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Our Editors Test Dozens of TVs, but Readers Love These 2 Brands - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/copy-of-our-editors-test-dozens-of-tvs-but-readers-love-these-2-brands/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 3 Best Frame TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/frame",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier discount codes for August 2026 | 15% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/haier-uk",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Monitor Deals in 2026: 4K, Gaming and Ultrawide Displays on Sale",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-monitor-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: LG Electronics: LG gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/LGElectronics/page/1441EF5F-AC04-42AC-B365-50C2B32350C2",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: Lg Gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/lg-gram/s?k=lg+gram",
+          "confidence": "high"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-08-16",
+  "period_start": "2026-08-09",
+  "period_end": "2026-08-15"
+}
