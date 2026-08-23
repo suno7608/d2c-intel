@@ -1,0 +1,275 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 75,
+  "country_breakdown": {
+    "AU": 33,
+    "TW": 42
+  },
+  "product_breakdown": {
+    "TV": 21,
+    "Refrigerator": 20,
+    "Washing Machine": 14,
+    "Monitor": 8,
+    "LG gram": 12
+  },
+  "brand_breakdown": {
+    "LG": 48,
+    "TCL": 6,
+    "Haier": 13,
+    "Samsung": 1,
+    "Midea": 6,
+    "Hisense": 1
+  },
+  "pillar_breakdown": {
+    "Chinese Brand Threat Tracking": 31,
+    "Retail Channel Promotions": 25,
+    "Competitive Price & Positioning": 7,
+    "Consumer Sentiment": 12
+  },
+  "chinese_brand_total": 26,
+  "lg_total": 48,
+  "country_data": {
+    "AU": {
+      "total": 33,
+      "products": {
+        "TV": 8,
+        "Refrigerator": 14,
+        "Washing Machine": 9,
+        "Monitor": 2
+      },
+      "brands": {
+        "LG": 7,
+        "Haier": 13,
+        "Samsung": 1,
+        "Midea": 6,
+        "TCL": 5,
+        "Hisense": 1
+      },
+      "chinese_count": 25,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Save Up to $2,000 on Top-Rated TVs From LG, Samsung, Sony and More - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "45 Inch to 54 Inch TVs | The Good Guys",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/televisions/all-tvs/tvs-45-inch-to-54-inch",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Samsung vs Frigidaire for August 2026 | Best Washing Machines",
+          "source": "topconsumerreviews.com",
+          "source_url": "https://www.topconsumerreviews.com/best-washing-machines/compare/samsung-vs-frigidaire.php",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Discover High-Quality Cooling Solutions - JB Hi-Fi",
+          "source": "jbhifi.com.au",
+          "source_url": "https://www.jbhifi.com.au/collections/haier-fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerators | Reviews, Features, Prices – Canstar Blue",
+          "source": "canstarblue.com.au",
+          "source_url": "https://www.canstarblue.com.au/appliances/brands/haier-refrigerators/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 42,
+      "products": {
+        "TV": 13,
+        "Refrigerator": 6,
+        "Washing Machine": 5,
+        "Monitor": 6,
+        "LG gram": 12
+      },
+      "brands": {
+        "LG": 41,
+        "TCL": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG TV Owners Can Access Hundreds Of Free Channels — Here's How - BGR",
+          "source": "bgr.com",
+          "source_url": "https://www.bgr.com/2234080/lg-tv-owners-free-channels-lg-channels/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "iRent優惠碼-2026年8月»iRent共享汽機車優惠碼/信用卡優惠/租車費用/使用教學",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/irent-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2026 8月最新漢堡王優惠券、買一送一、官網限定優惠懶人包！ - CashFeel 安錢感",
+          "source": "cashfeel.com.tw",
+          "source_url": "https://www.cashfeel.com.tw/article/%E6%BC%A2%E5%A0%A1%E7%8E%8B%E5%84%AA%E6%83%A0-%E5%84%AA%E6%83%A0%E7%A2%BC-%E4%BB%A3%E7%A2%BC-%E8%B2%B7%E4%B8%80%E9%80%81%E4%B8%80",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Electronics India bets on exports, B2B products for margin boost - The Economic Times",
+          "source": "m.economictimes.com",
+          "source_url": "https://m.economictimes.com/industry/cons-products/electronics/lg-electronics-india-bets-on-exports-b2b-products-for-margin-boost/amp_articleshow/133411736.cms",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lg Ultragear Evo G9 Review",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/lg-ultragear-evo-g9-review",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Bon plan – Le téléviseur LG 55G6 \"5 étoiles\" à 1 898,99 € - Les Numériques",
+          "source": "lesnumeriques.com",
+          "source_url": "https://www.lesnumeriques.com/tv-televiseur/bon-plan-le-televiseur-lg-55g6-5-etoiles-a-1-898-99-n260723.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lançamento do ano em oferta! Smart TV LG NANO AI com 4K Ultra HD fica 35% abaixo do preço no Mercado Livre - Notícias de cinema - AdoroCinema",
+          "source": "adorocinema.com",
+          "source_url": "https://www.adorocinema.com/noticias/filmes/noticia-1000219365/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "無綫集團 - 维基百科，自由的百科全书",
+          "source": "zh.wikipedia.org",
+          "source_url": "https://zh.wikipedia.org/wiki/%E9%9B%BB%E8%A6%96%E5%BB%A3%E6%92%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "TVBS (頻道) - 維基百科，自由的百科全書",
+          "source": "zh.wikipedia.org",
+          "source_url": "https://zh.wikipedia.org/zh-tw/TVBS_(%E9%A0%BB%E9%81%93)",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "中視新聞台 - 維基百科，自由的百科全書",
+          "source": "zh.wikipedia.org",
+          "source_url": "https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%A6%96%E6%96%B0%E8%81%9E%E5%8F%B0",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-08-23",
+  "period_start": "2026-08-16",
+  "period_end": "2026-08-22"
+}

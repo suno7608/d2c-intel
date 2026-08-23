@@ -1,0 +1,237 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 86,
+  "country_breakdown": {
+    "BR": 80,
+    "MX": 5,
+    "CL": 1
+  },
+  "product_breakdown": {
+    "TV": 33,
+    "Refrigerator": 24,
+    "Washing Machine": 16,
+    "Monitor": 11,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 51,
+    "TCL": 7,
+    "Hisense": 9,
+    "Midea": 12,
+    "Samsung": 6,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 32,
+    "Chinese Brand Threat Tracking": 34,
+    "Competitive Price & Positioning": 7,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 29,
+  "lg_total": 51,
+  "country_data": {
+    "BR": {
+      "total": 80,
+      "products": {
+        "TV": 30,
+        "Refrigerator": 22,
+        "Washing Machine": 15,
+        "Monitor": 11,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 48,
+        "TCL": 7,
+        "Hisense": 8,
+        "Midea": 11,
+        "Samsung": 6
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Aug 2026 | 20% OFF | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/lg-coupon-codes",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG C5 vs Samsung S90F OLED: Which TV Is Better? - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/tools/compare/lg-c5-oled-vs-samsung-s90f-oled/88602/92237",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The best Samsung TV for all budgets, tested by our reviewers | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-samsung-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupons",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/promocoes/cupons/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG cria tecnologia que promete telas OLED 1,6x mais brilhantes e 2,4x mais duráveis",
+          "source": "mundoconectado.com.br",
+          "source_url": "https://www.mundoconectado.com.br/smart-tvs/lg-flipp-tecnologia-oled-brilho-durabilidade/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupom LG - Até 55% ou R$ 100,00 OFF - Agosto 2026 - Promobit",
+          "source": "promobit.com.br",
+          "source_url": "https://www.promobit.com.br/cupons/loja/loja-lg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Buy has LG's most affordable 2026 OLED TV at $300 off right now, more",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/08/19/best-buy-lg-most-affordable-2026-oled-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Encontre uma loja | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/encontre-uma-loja/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Melhores marcas de TV em 2026: Samsung, LG, TCL e mais",
+          "source": "buscape.com.br",
+          "source_url": "https://www.buscape.com.br/tv/conteudo/melhores-marcas-de-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "A LG instala seu produto - Suporte e ajuda | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/lg-instala-seu-produto/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 5,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 2,
+        "Washing Machine": 1
+      },
+      "brands": {
+        "Hisense": 1,
+        "LG": 2,
+        "Haier": 1,
+        "Midea": 1
+      },
+      "chinese_count": 3,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Hisense H8e",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/pantallas/hisense-h8e/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Tele De 50 Pulgadas - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/pantallas/tele-de-50-pulgadas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerador Lg Smart Inverter Compressor Que Tan Bueno Es | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/refrigerador-lg-smart-inverter-compressor-que-tan-bueno-es",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Frigorifico Combi 205x60 Total No Frost Haier HTR3620CNMP Inox Clase C - Hnos. García",
+          "source": "muebleshnosgarcia.com",
+          "source_url": "https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-combi/frigorifico-combi-205x60-total-no-frost-haier-htr3620cnmp-inox-clase-c/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Liverpool remata lavadora Midea: le descuenta $4,800 pesos, es de carga superior e ideal para depas chicos",
+          "source": "radioformula.com.mx",
+          "source_url": "https://www.radioformula.com.mx/amp/estilo-de-vida/liverpool-remata-lavadora-midea-le-descuenta-4800-pesos-es-de-carga-superior-e-ideal-para-depas-chicos-20260821-0003.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 1,
+      "products": {
+        "TV": 1
+      },
+      "brands": {
+        "LG": 1
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "El outlet de El Corte Inglés está liquidando este televisor OLED de Samsung ideal para ver cine: cuesta la mitad",
+          "source": "compradiccion.com",
+          "source_url": "https://www.compradiccion.com/television/outlet-corte-ingles-esta-liquidando-este-televisor-oled-samsung-ideal-para-ver-cine-cuesta-mitad",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-08-23",
+  "period_start": "2026-08-16",
+  "period_end": "2026-08-22"
+}

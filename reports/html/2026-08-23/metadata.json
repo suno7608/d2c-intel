@@ -1,0 +1,34 @@
+{
+  "week": "2026-08-23",
+  "report_period": {
+    "start": "2026-08-16",
+    "end": "2026-08-22"
+  },
+  "version": "Weekly Vol.2026-08-23-R2",
+  "generated_at": "2026-08-23T07:50:03.934Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 268,
+    "competitor_promotion_signals": 6,
+    "chinese_threat_signals": 13,
+    "consumer_negative_countries": 6,
+    "critical_country_count": 4
+  },
+  "critical_countries": [
+    "🇩🇪 독일 (DE)",
+    "🇧🇷 브라질 (BR)",
+    "🇦🇺 호주 (AU)",
+    "🇸🇦 사우디아라비아 (SA)"
+  ],
+  "executive_key_insights": [
+    "**중국 브랜드 가전 공세 심화**: Haier·Midea가 냉장고/세탁기 시장에서 15개국 이상에서 공격적 가격 전략을 전개 중이며, 특히 🇩🇪 독일·🇦🇺 호주에서 Haier 세탁기가 LG 대비 15-20% 저가 포지셔닝으로 점유율 확대 시도",
+    "**LG OLED TV 프로모션 성과**: Best Buy 60주년 기념 세일에서 LG B5/C6 OLED 시리즈가 $1,600 이상 할인되며 🇺🇸 미국 시장 프리미엄 TV 수요 견인 중",
+    "**생활가전 A/S 불만 증가**: 🇧🇷 브라질에서 냉장고 배송 지연 및 제품 결함 관련 소비자 불만이 전주 대비 44% 증가(9건→13건), 법적 분쟁 사례 다수 발생"
+  ],
+  "links": {
+    "html": "./2026-08-23/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-08-23_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-08-23_R2_16country.md",
+    "share": "./2026-08-23/share.html"
+  }
+}
