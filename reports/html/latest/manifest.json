@@ -1,8 +1,39 @@
 {
-  "generated_at": "2026-08-23T07:54:01.827Z",
-  "total_weeks": 29,
-  "latest_week": "2026-08-23",
+  "generated_at": "2026-08-30T12:56:02.283Z",
+  "total_weeks": 30,
+  "latest_week": "2026-08-30",
   "weeks": [
+    {
+      "week": "2026-08-30",
+      "report_period": {
+        "start": "2026-08-23",
+        "end": "2026-08-29"
+      },
+      "version": "Weekly Vol.2026-08-30-R2",
+      "generated_at": "2026-08-30T12:52:04.165Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 262,
+        "competitor_promotion_signals": 9,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 4,
+        "critical_country_count": 1
+      },
+      "critical_countries": [
+        "🇧🇷 브라질 (BR)"
+      ],
+      "executive_key_insights": [
+        "**LG 1000Hz 모니터 글로벌 론칭**: LG UltraGear 25G590B가 세계 최초 네이티브 1000Hz Full HD 게이밍 모니터로 $999에 출시되며, 🇺🇸 US, 🇩🇪 DE, 🇬🇧 UK 등 주요 시장에서 프리미엄 게이밍 세그먼트 선점 기회 확보",
+        "**중국 브랜드 가전 공세 가속화**: Haier/Midea가 🇦🇺 AU, 🇬🇧 UK, 🇨🇦 CA에서 냉장고·세탁기 유통 채널 확대 중이며, 특히 Midea Lava e Seca(🇧🇷 BR)가 앱 기반 프로그래밍 기능으로 소비자 호평 확보",
+        "**Labor Day 시즌 OLED TV 공격적 프로모션**: LG B6/C6/G6 전 라인업에서 최대 $2,000 할인 진행 중이나, TCL Mini-LED가 동급 대비 40-50% 저가 포지셔닝으로 가격 민감 고객 이탈 위험 상존"
+      ],
+      "links": {
+        "html": "./2026-08-30/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-08-30_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-08-30_R2_16country.md",
+        "share": "./2026-08-30/share.html"
+      }
+    },
     {
       "week": "2026-08-23",
       "report_period": {

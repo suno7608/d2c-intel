@@ -1,0 +1,156 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 59,
+  "country_breakdown": {
+    "SA": 59
+  },
+  "product_breakdown": {
+    "TV": 20,
+    "Refrigerator": 16,
+    "Washing Machine": 11,
+    "Monitor": 2,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 37,
+    "TCL": 6,
+    "Hisense": 9,
+    "Samsung": 1,
+    "Haier": 6
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 23,
+    "Chinese Brand Threat Tracking": 24,
+    "Retail Channel Promotions": 12
+  },
+  "chinese_brand_total": 21,
+  "lg_total": 37,
+  "country_data": {
+    "SA": {
+      "total": 59,
+      "products": {
+        "TV": 20,
+        "Refrigerator": 16,
+        "Washing Machine": 11,
+        "Monitor": 2,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 37,
+        "TCL": 6,
+        "Hisense": 9,
+        "Samsung": 1,
+        "Haier": 6
+      },
+      "chinese_count": 21,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG OLED vs Samsung RGB : les deux TV phares testées côte à côte avec des Blu-ray 4K de référence — voici laquelle l’emporte | TechRadar",
+          "source": "global.techradar.com",
+          "source_url": "https://global.techradar.com/fr-fr/televisions/lg-oled-vs-samsung-rgb-les-deux-tv-phares-testees-cote-a-cote-avec-des-blu-ray-4k-de-reference-voici-laquelle-lemporte",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: LG Electronics: LG gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/LGElectronics/page/1441EF5F-AC04-42AC-B365-50C2B32350C2",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Hisense: All Our TVs",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/Hisense/page/20E858DC-25EA-4935-874C-81BB2E100E26",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Software, Firmware & Driver Downloads - Support & Help | LG India",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/in/support/product-support/manuals-software/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best 65-inch TV deals ahead of Prime Day: New savings on 2026 TCL TVs and Fire TVs | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/best-early-prime-day-65-inch-tv-deals-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Televizyon Fiyatları & LG TV Modelleri 2026",
+          "source": "trendyol.com",
+          "source_url": "https://www.trendyol.com/lg-televizyon-x-b791-c104156",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best 75-inch TV deal: Save $801 on the 2026 Hisense U7 Mini LED 4K TV | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/may-26-hisense-u7-mini-led-tv-deal",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-08-30",
+  "period_start": "2026-08-23",
+  "period_end": "2026-08-29"
+}

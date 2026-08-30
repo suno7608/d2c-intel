@@ -1,0 +1,219 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 64,
+  "country_breakdown": {
+    "BR": 60,
+    "MX": 3,
+    "CL": 1
+  },
+  "product_breakdown": {
+    "TV": 28,
+    "Refrigerator": 14,
+    "Washing Machine": 11,
+    "Monitor": 9,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 39,
+    "TCL": 8,
+    "Hisense": 4,
+    "Samsung": 8,
+    "Electrolux": 1,
+    "Midea": 3,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 28,
+    "Chinese Brand Threat Tracking": 23,
+    "Competitive Price & Positioning": 4,
+    "Consumer Sentiment": 9
+  },
+  "chinese_brand_total": 16,
+  "lg_total": 39,
+  "country_data": {
+    "BR": {
+      "total": 60,
+      "products": {
+        "TV": 27,
+        "Refrigerator": 12,
+        "Washing Machine": 10,
+        "Monitor": 9,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 37,
+        "TCL": 8,
+        "Hisense": 3,
+        "Samsung": 8,
+        "Electrolux": 1,
+        "Midea": 3
+      },
+      "chinese_count": 14,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 77\" Class C6H Series OLED evo AI 4K Smart webOS TV with Hyper Radiant Color Tech (2026) OLED77C6HUP - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-77-class-c6h-series-oled-evo-ai-4k-smart-webos-tv-with-hyper-radiant-color-tech-2026/JJ8VPZKKFW",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 4 Best Sony TVs of 2026: Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/sony",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Melhor Smart TV OLED para comprar | Guia do TudoCelular - TudoCelular.com",
+          "source": "tudocelular.com",
+          "source_url": "https://www.tudocelular.com/lg/noticias/n145178/guia-comprar-melhor-tv-oled.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG oficializa TVs 2026 no Brasil com OLED de 3.900 nits e Mini RGB",
+          "source": "mundoconectado.com.br",
+          "source_url": "https://www.mundoconectado.com.br/audio-e-video/lg-oled-linha-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG mostra lineup de smart TVs para 2026",
+          "source": "showmetech.com.br",
+          "source_url": "https://www.showmetech.com.br/lg-mostra-lineup-de-smart-tvs-para-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG aposta em Mini LED e canais para crescer no mercado de TVs no Brasil • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/noticias/lg-aposta-em-mini-led-e-canais-para-crescer-no-mercado-de-tvs-no-brasil/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG oficializa a chegada das linhas de TVs 2026 OLED, Mini RGB e QNED no Brasil",
+          "source": "tudocelular.com",
+          "source_url": "https://www.tudocelular.com/tech/noticias/n261499/lg-lanca-tvs-2026-oled-mini-rgb-e-qned-no-brasil.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Teclado Smart Tv Lg | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/teclado-smart-tv-lg?lang=pt-BR",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Samsung 55″ ou LG OLED 65″: a escolha muda com tela e tamanho",
+          "source": "cabinecelular.com.br",
+          "source_url": "https://cabinecelular.com.br/comparativos/samsung-55-ou-lg-oled-65-a-escolha-muda-com-tela-e-tamanho/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Melhor Smart TV de até 55\" para comprar | Guia do TudoCelular - TudoCelular.com",
+          "source": "tudocelular.com",
+          "source_url": "https://www.tudocelular.com/guia-de-compras/noticias/n201105/melhor-smart-tv-de-ate-50-comprar-guia-tudocelular.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 3,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 1,
+        "Washing Machine": 1
+      },
+      "brands": {
+        "Hisense": 1,
+        "LG": 2
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Lavadora Hisense de 22 kg a precio de locura en Amazon México; consíguela por menos de 9 mil peso",
+          "source": "eluniversal.com.mx",
+          "source_url": "https://www.eluniversal.com.mx/descubre-y-compra/lavadora-hisense-de-22-kg-a-precio-de-locura-en-amazon-mexico-consiguela-por-menos-de-9-mil-peso/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG quiere que los electrodomésticos de bajo consumo no sean solo los más caros, sino el \"nuevo estándar para todos sus clientes\"",
+          "source": "xatakahome.com",
+          "source_url": "https://www.xatakahome.com/electrodomesticos-innovadores/lg-quiere-que-electrodomesticos-consumo-no-sean-solo-caros-sino-nuevo-estandar-para-todos-sus-clientes",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "\"Antes ponía cuatro lavadoras y ahora solo una\": así es la lavadora inteligente de LG que hace la colada en solo 39 minutos",
+          "source": "elindependiente.com",
+          "source_url": "https://www.elindependiente.com/de-tiendas/2026/08/24/antes-ponia-cuatro-lavadoras-y-ahora-solo-una-asi-es-la-lavadora-inteligente-de-lg-que-hace-la-colada-en-solo-39-minutos/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 1,
+      "products": {
+        "Refrigerator": 1
+      },
+      "brands": {
+        "Haier": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los expertos en eficiencia energética avisan: \"Introducir alimentos calientes en el frigorífico aumenta la factura\"",
+          "source": "elespanol.com",
+          "source_url": "https://www.elespanol.com/omicrono/20260826/expertos-eficiencia-energetica-avisan-introducir-alimentos-calientes-frigorifico-aumenta-factura/1003744361598_0.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-08-30",
+  "period_start": "2026-08-23",
+  "period_end": "2026-08-29"
+}

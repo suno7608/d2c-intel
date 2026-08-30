@@ -1,0 +1,259 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 130,
+  "country_breakdown": {
+    "US": 116,
+    "CA": 14
+  },
+  "product_breakdown": {
+    "TV": 35,
+    "Refrigerator": 23,
+    "Washing Machine": 38,
+    "Monitor": 26,
+    "LG gram": 8
+  },
+  "brand_breakdown": {
+    "LG": 74,
+    "Samsung": 12,
+    "TCL": 10,
+    "Haier": 10,
+    "Midea": 22,
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 47,
+    "Chinese Brand Threat Tracking": 46,
+    "Competitive Price & Positioning": 18,
+    "Consumer Sentiment": 19
+  },
+  "chinese_brand_total": 44,
+  "lg_total": 74,
+  "country_data": {
+    "US": {
+      "total": 116,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 19,
+        "Washing Machine": 30,
+        "Monitor": 26,
+        "LG gram": 8
+      },
+      "brands": {
+        "LG": 72,
+        "Samsung": 12,
+        "TCL": 10,
+        "Haier": 6,
+        "Midea": 14,
+        "Hisense": 2
+      },
+      "chinese_count": 32,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Upgrade Your TV Setup and Save Up to $2,000 With These CNET-Approved Deals - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG is taking up to $1,100 off its OLED TVs — here's what's on sale | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/lg-is-taking-up-to-usd1-100-off-its-oled-tvs-heres-whats-on-sale",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "This TCL Mini-LED TV Offers Premium Features Without a Massive Price Tag - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/tcl-mini-led-tv-deal-2026-08-27/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG is taking up to $500 off its 4K monitors — here's 3 deals I'd buy now | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/computing/monitors/lg-is-taking-up-to-usd500-off-its-4k-monitors-heres-3-deals-id-buy-now",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 3 Best Mini LED Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/mini-led",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Laptop Deals in 2026: MacBook, Gaming and Budget Picks on Sale Now",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-laptop-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Haier Washing Machine",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/haier-washing-machine/s?k=haier+washing+machine",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: MIDEA - Washers & Dryers / Laundry Appliances: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Washers-Dryers-MIDEA-Laundry-Appliances/s?rh=n%3A2383576011%2Cp_4%3AMIDEA",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best OLED TV deal: Save $600 on the 65-inch LG B6 OLED 4K TV at Amazon | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/aug-26-lg-b6-oled-tv-deal",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 55-Inch C6 OLED TV Deal: $1,400 With Warranty & Cables",
+          "source": "theinventory.com",
+          "source_url": "https://theinventory.com/lg-55-inch-c6-oled-tv-deal-extended-warranty-hdmi-cables",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CA": {
+      "total": 14,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 4,
+        "Washing Machine": 8
+      },
+      "brands": {
+        "LG": 2,
+        "Midea": 8,
+        "Haier": 4
+      },
+      "chinese_count": 12,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "This impressive 65-inch LG B6 OLED TV is now $600 off on Amazon, but not for long - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/This-impressive-65-inch-LG-B6-OLED-TV-is-now-600-off-on-Amazon-but-not-for-long.1377277.0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" Class - OLEDC5 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-65-class-oledc5-series-4k-uhd-oled-tv/4000370787",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Fridge | Walmart Canada",
+          "source": "walmart.ca",
+          "source_url": "https://www.walmart.ca/en/c/kp/midea-fridge",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HAIER Washing machines - Cheap HAIER Washing machines Deals | Currys",
+          "source": "currys.co.uk",
+          "source_url": "https://www.currys.co.uk/appliances/laundry/washing-machines/haier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Washing Machines for sale | eBay",
+          "source": "ebay.ca",
+          "source_url": "https://www.ebay.ca/b/Haier-Washing-Machines/71256/bn_1644490",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier 1.46 Cubic Feet Portable Top Load Washer | The Home Depot Canada",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/product/haier-1-46-cubic-feet-portable-top-load-washer/1000752272",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.ca: Haier Washing Machine",
+          "source": "amazon.ca",
+          "source_url": "https://www.amazon.ca/haier-washing-machine/s?k=haier+washing+machine",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-08-30",
+  "period_start": "2026-08-23",
+  "period_end": "2026-08-29"
+}
