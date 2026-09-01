@@ -1,0 +1,731 @@
+{
+  "year_month": "2026-08",
+  "generated_at": "2026-09-01T11:22:38.715774",
+  "weeks_count": 6,
+  "week_keys": [
+    "2026-07-26",
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30"
+  ],
+  "total_records": 3226,
+  "countries": {
+    "US": 608,
+    "CA": 32,
+    "UK": 133,
+    "DE": 489,
+    "FR": 233,
+    "ES": 162,
+    "IT": 255,
+    "BR": 411,
+    "MX": 37,
+    "CL": 16,
+    "TH": 0,
+    "AU": 95,
+    "TW": 224,
+    "SG": 0,
+    "EG": 0,
+    "SA": 192
+  },
+  "countries_count": 14,
+  "products": {
+    "TV": 1158,
+    "Refrigerator": 735,
+    "Washing Machine": 603,
+    "Monitor": 500,
+    "LG gram": 230
+  },
+  "pillars": {
+    "Chinese Brand Threat Tracking": 1293,
+    "Retail Channel Promotions": 1017,
+    "Consumer Sentiment": 502,
+    "Competitive Price & Positioning": 414
+  },
+  "brands": {
+    "LG": 1990,
+    "TCL": 281,
+    "Hisense": 269,
+    "Haier": 269,
+    "Midea": 214,
+    "Samsung": 193,
+    "Bosch": 5,
+    "Electrolux": 2,
+    "Whirlpool": 1,
+    "Panasonic": 1,
+    "Sony": 1
+  },
+  "chinese_brand_total": 1033,
+  "chinese_by_country": {
+    "DE": 170,
+    "BR": 132,
+    "US": 123,
+    "IT": 106,
+    "FR": 95,
+    "SA": 95,
+    "TR": 91,
+    "UK": 59,
+    "AU": 51,
+    "ES": 48,
+    "TW": 24,
+    "CA": 20,
+    "MX": 12,
+    "CL": 7
+  },
+  "chinese_by_product": {
+    "TV": 543,
+    "Refrigerator": 258,
+    "Washing Machine": 231,
+    "LG gram": 1
+  },
+  "chinese_by_brand": {
+    "TCL": 281,
+    "Hisense": 269,
+    "Haier": 269,
+    "Midea": 214
+  },
+  "consumer_negative_count": 79,
+  "lg_promo_count": 1319,
+  "tv_ratio_pct": 35.9,
+  "weekly_breakdown": {
+    "2026-07-26": {
+      "week_label": "W1",
+      "date_key": "2026-07-26",
+      "total_records": 811,
+      "countries": {
+        "US": 149,
+        "UK": 43,
+        "DE": 109,
+        "AU": 39,
+        "BR": 82,
+        "CA": 15,
+        "FR": 67,
+        "IT": 62,
+        "ES": 40,
+        "SA": 68,
+        "TR": 73,
+        "MX": 12,
+        "CL": 3,
+        "TW": 49
+      },
+      "countries_count": 14,
+      "products": {
+        "TV": 247,
+        "Refrigerator": 210,
+        "Washing Machine": 177,
+        "Monitor": 111,
+        "LG gram": 66
+      },
+      "pillars": {
+        "Retail Channel Promotions": 245,
+        "Chinese Brand Threat Tracking": 341,
+        "Competitive Price & Positioning": 110,
+        "Consumer Sentiment": 115
+      },
+      "brands": {
+        "LG": 482,
+        "Haier": 86,
+        "Midea": 75,
+        "Hisense": 57,
+        "Samsung": 55,
+        "TCL": 54,
+        "Whirlpool": 1,
+        "Bosch": 1
+      },
+      "chinese_brand_total": 272,
+      "chinese_by_country": {
+        "US": 34,
+        "UK": 24,
+        "DE": 33,
+        "AU": 27,
+        "BR": 24,
+        "FR": 26,
+        "IT": 27,
+        "ES": 6,
+        "SA": 26,
+        "TR": 23,
+        "MX": 4,
+        "TW": 5,
+        "CA": 13
+      },
+      "chinese_by_product": {
+        "TV": 108,
+        "Refrigerator": 85,
+        "Washing Machine": 79
+      },
+      "consumer_negative_count": 24,
+      "lg_promo_count": 335,
+      "tv_ratio_pct": 30.5
+    },
+    "2026-08-02": {
+      "week_label": "W2",
+      "date_key": "2026-08-02",
+      "total_records": 575,
+      "countries": {
+        "US": 109,
+        "UK": 32,
+        "DE": 83,
+        "AU": 20,
+        "BR": 63,
+        "FR": 47,
+        "IT": 46,
+        "ES": 27,
+        "SA": 29,
+        "TR": 59,
+        "MX": 10,
+        "CL": 5,
+        "TW": 42,
+        "CA": 3
+      },
+      "countries_count": 14,
+      "products": {
+        "TV": 213,
+        "Refrigerator": 122,
+        "Washing Machine": 98,
+        "Monitor": 99,
+        "LG gram": 43
+      },
+      "pillars": {
+        "Retail Channel Promotions": 184,
+        "Competitive Price & Positioning": 76,
+        "Chinese Brand Threat Tracking": 214,
+        "Consumer Sentiment": 101
+      },
+      "brands": {
+        "LG": 370,
+        "TCL": 55,
+        "Hisense": 53,
+        "Haier": 40,
+        "Samsung": 28,
+        "Midea": 28,
+        "Panasonic": 1
+      },
+      "chinese_brand_total": 176,
+      "chinese_by_country": {
+        "US": 19,
+        "UK": 9,
+        "DE": 29,
+        "AU": 10,
+        "BR": 19,
+        "FR": 15,
+        "IT": 15,
+        "ES": 11,
+        "SA": 18,
+        "TR": 16,
+        "CL": 3,
+        "TW": 7,
+        "MX": 3,
+        "CA": 2
+      },
+      "chinese_by_product": {
+        "TV": 106,
+        "Refrigerator": 33,
+        "Washing Machine": 37
+      },
+      "consumer_negative_count": 15,
+      "lg_promo_count": 241,
+      "tv_ratio_pct": 37.0
+    },
+    "2026-08-09": {
+      "week_label": "W3",
+      "date_key": "2026-08-09",
+      "total_records": 533,
+      "countries": {
+        "US": 98,
+        "UK": 18,
+        "DE": 88,
+        "AU": 5,
+        "BR": 68,
+        "FR": 34,
+        "IT": 53,
+        "ES": 31,
+        "SA": 30,
+        "TR": 58,
+        "CL": 6,
+        "TW": 36,
+        "MX": 3,
+        "CA": 5
+      },
+      "countries_count": 14,
+      "products": {
+        "TV": 204,
+        "Refrigerator": 123,
+        "Washing Machine": 93,
+        "Monitor": 72,
+        "LG gram": 41
+      },
+      "pillars": {
+        "Retail Channel Promotions": 162,
+        "Competitive Price & Positioning": 70,
+        "Chinese Brand Threat Tracking": 227,
+        "Consumer Sentiment": 74
+      },
+      "brands": {
+        "LG": 319,
+        "Hisense": 55,
+        "TCL": 47,
+        "Haier": 47,
+        "Midea": 32,
+        "Samsung": 31,
+        "Bosch": 1,
+        "Electrolux": 1
+      },
+      "chinese_brand_total": 181,
+      "chinese_by_country": {
+        "US": 17,
+        "UK": 7,
+        "DE": 34,
+        "AU": 3,
+        "BR": 25,
+        "FR": 15,
+        "IT": 22,
+        "ES": 10,
+        "SA": 17,
+        "TR": 18,
+        "CL": 3,
+        "TW": 6,
+        "MX": 1,
+        "CA": 3
+      },
+      "chinese_by_product": {
+        "TV": 101,
+        "Refrigerator": 44,
+        "Washing Machine": 35,
+        "LG gram": 1
+      },
+      "consumer_negative_count": 11,
+      "lg_promo_count": 204,
+      "tv_ratio_pct": 38.3
+    },
+    "2026-08-16": {
+      "week_label": "W4",
+      "date_key": "2026-08-16",
+      "total_records": 490,
+      "countries": {
+        "US": 91,
+        "UK": 21,
+        "DE": 79,
+        "AU": 13,
+        "BR": 76,
+        "CA": 4,
+        "FR": 32,
+        "IT": 33,
+        "ES": 19,
+        "SA": 30,
+        "TR": 58,
+        "MX": 4,
+        "TW": 30
+      },
+      "countries_count": 13,
+      "products": {
+        "TV": 165,
+        "Refrigerator": 115,
+        "Washing Machine": 100,
+        "Monitor": 75,
+        "LG gram": 35
+      },
+      "pillars": {
+        "Retail Channel Promotions": 142,
+        "Competitive Price & Positioning": 67,
+        "Chinese Brand Threat Tracking": 194,
+        "Consumer Sentiment": 87
+      },
+      "brands": {
+        "LG": 305,
+        "TCL": 45,
+        "Haier": 39,
+        "Midea": 36,
+        "Hisense": 32,
+        "Samsung": 31,
+        "Bosch": 2
+      },
+      "chinese_brand_total": 152,
+      "chinese_by_country": {
+        "US": 19,
+        "UK": 5,
+        "DE": 27,
+        "AU": 6,
+        "BR": 26,
+        "FR": 18,
+        "IT": 15,
+        "SA": 15,
+        "TR": 16,
+        "TW": 2,
+        "ES": 2,
+        "CA": 1
+      },
+      "chinese_by_product": {
+        "TV": 77,
+        "Refrigerator": 45,
+        "Washing Machine": 30
+      },
+      "consumer_negative_count": 15,
+      "lg_promo_count": 191,
+      "tv_ratio_pct": 33.7
+    },
+    "2026-08-23": {
+      "week_label": "W5",
+      "date_key": "2026-08-23",
+      "total_records": 462,
+      "countries": {
+        "US": 92,
+        "UK": 11,
+        "DE": 69,
+        "AU": 8,
+        "BR": 72,
+        "CA": 4,
+        "FR": 29,
+        "IT": 29,
+        "ES": 26,
+        "SA": 21,
+        "TR": 58,
+        "MX": 5,
+        "CL": 1,
+        "TW": 37
+      },
+      "countries_count": 14,
+      "products": {
+        "TV": 178,
+        "Refrigerator": 97,
+        "Washing Machine": 83,
+        "Monitor": 75,
+        "LG gram": 29
+      },
+      "pillars": {
+        "Retail Channel Promotions": 151,
+        "Competitive Price & Positioning": 46,
+        "Consumer Sentiment": 78,
+        "Chinese Brand Threat Tracking": 187
+      },
+      "brands": {
+        "LG": 287,
+        "TCL": 43,
+        "Haier": 41,
+        "Hisense": 39,
+        "Midea": 31,
+        "Samsung": 20,
+        "Electrolux": 1
+      },
+      "chinese_brand_total": 154,
+      "chinese_by_country": {
+        "US": 18,
+        "UK": 9,
+        "DE": 26,
+        "BR": 25,
+        "FR": 15,
+        "IT": 13,
+        "ES": 12,
+        "SA": 12,
+        "TR": 16,
+        "MX": 3,
+        "TW": 1,
+        "AU": 3,
+        "CA": 1
+      },
+      "chinese_by_product": {
+        "TV": 81,
+        "Refrigerator": 37,
+        "Washing Machine": 36
+      },
+      "consumer_negative_count": 9,
+      "lg_promo_count": 182,
+      "tv_ratio_pct": 38.5
+    },
+    "2026-08-30": {
+      "week_label": "W6",
+      "date_key": "2026-08-30",
+      "total_records": 355,
+      "countries": {
+        "US": 69,
+        "UK": 8,
+        "DE": 61,
+        "AU": 10,
+        "BR": 50,
+        "CA": 1,
+        "FR": 24,
+        "IT": 32,
+        "ES": 19,
+        "SA": 14,
+        "TR": 33,
+        "MX": 3,
+        "TW": 30,
+        "CL": 1
+      },
+      "countries_count": 14,
+      "products": {
+        "TV": 151,
+        "Refrigerator": 68,
+        "Washing Machine": 52,
+        "Monitor": 68,
+        "LG gram": 16
+      },
+      "pillars": {
+        "Retail Channel Promotions": 133,
+        "Competitive Price & Positioning": 45,
+        "Consumer Sentiment": 47,
+        "Chinese Brand Threat Tracking": 130
+      },
+      "brands": {
+        "LG": 227,
+        "TCL": 37,
+        "Hisense": 33,
+        "Samsung": 28,
+        "Haier": 16,
+        "Midea": 12,
+        "Sony": 1,
+        "Bosch": 1
+      },
+      "chinese_brand_total": 98,
+      "chinese_by_country": {
+        "US": 16,
+        "UK": 5,
+        "DE": 21,
+        "AU": 2,
+        "BR": 13,
+        "FR": 6,
+        "IT": 14,
+        "ES": 7,
+        "SA": 7,
+        "TR": 2,
+        "MX": 1,
+        "TW": 3,
+        "CL": 1
+      },
+      "chinese_by_product": {
+        "TV": 70,
+        "Refrigerator": 14,
+        "Washing Machine": 14
+      },
+      "consumer_negative_count": 5,
+      "lg_promo_count": 166,
+      "tv_ratio_pct": 42.5
+    }
+  },
+  "weekly_trend": {
+    "labels": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6"
+    ],
+    "totals": [
+      811,
+      575,
+      533,
+      490,
+      462,
+      355
+    ],
+    "chinese": [
+      272,
+      176,
+      181,
+      152,
+      154,
+      98
+    ],
+    "negative": [
+      24,
+      15,
+      11,
+      15,
+      9,
+      5
+    ],
+    "promo": [
+      335,
+      241,
+      204,
+      191,
+      182,
+      166
+    ],
+    "products": {
+      "TV": [
+        247,
+        213,
+        204,
+        165,
+        178,
+        151
+      ],
+      "Refrigerator": [
+        210,
+        122,
+        123,
+        115,
+        97,
+        68
+      ],
+      "Washing Machine": [
+        177,
+        98,
+        93,
+        100,
+        83,
+        52
+      ],
+      "Monitor": [
+        111,
+        99,
+        72,
+        75,
+        75,
+        68
+      ],
+      "LG gram": [
+        66,
+        43,
+        41,
+        35,
+        29,
+        16
+      ]
+    }
+  },
+  "mom_comparison": {
+    "total_records": {
+      "this": 3226,
+      "prev": 2555,
+      "change_pct": 26.3
+    },
+    "chinese_brand_total": {
+      "this": 1033,
+      "prev": 810,
+      "change_pct": 27.5
+    },
+    "consumer_negative_count": {
+      "this": 79,
+      "prev": 64,
+      "change_pct": 23.4
+    },
+    "lg_promo_count": {
+      "this": 1319,
+      "prev": 1047,
+      "change_pct": 26.0
+    }
+  },
+  "chart_data": {
+    "monthly_product_trend": {
+      "type": "line",
+      "title": "제품별 주간 시그널 추이",
+      "labels": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6"
+      ],
+      "datasets": [
+        {
+          "label": "TV",
+          "data": [
+            247,
+            213,
+            204,
+            165,
+            178,
+            151
+          ],
+          "color": "#003a66"
+        },
+        {
+          "label": "Refrigerator",
+          "data": [
+            210,
+            122,
+            123,
+            115,
+            97,
+            68
+          ],
+          "color": "#0a7ac4"
+        },
+        {
+          "label": "Washing Machine",
+          "data": [
+            177,
+            98,
+            93,
+            100,
+            83,
+            52
+          ],
+          "color": "#2196F3"
+        },
+        {
+          "label": "Monitor",
+          "data": [
+            111,
+            99,
+            72,
+            75,
+            75,
+            68
+          ],
+          "color": "#4CAF50"
+        },
+        {
+          "label": "LG gram",
+          "data": [
+            66,
+            43,
+            41,
+            35,
+            29,
+            16
+          ],
+          "color": "#FF9800"
+        }
+      ]
+    },
+    "monthly_china_brand_bar": {
+      "type": "bar",
+      "title": "중국 브랜드 월간 시그널",
+      "labels": [
+        "TCL",
+        "Hisense",
+        "Haier",
+        "Midea"
+      ],
+      "datasets": [
+        {
+          "label": "시그널 수",
+          "data": [
+            281,
+            269,
+            269,
+            214
+          ],
+          "color": "#e63946"
+        }
+      ]
+    },
+    "monthly_sentiment_pie": {
+      "type": "doughnut",
+      "title": "인텔리전스 필라 분포",
+      "labels": [
+        "Chinese Brand Threat Tracking",
+        "Retail Channel Promotions",
+        "Consumer Sentiment",
+        "Competitive Price & Positioning"
+      ],
+      "datasets": [
+        {
+          "label": "건수",
+          "data": [
+            1293,
+            1017,
+            502,
+            414
+          ],
+          "color": "#003a66"
+        }
+      ]
+    }
+  }
+}
