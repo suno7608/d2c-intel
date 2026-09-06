@@ -1,0 +1,211 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 90,
+  "country_breakdown": {
+    "BR": 86,
+    "MX": 4
+  },
+  "product_breakdown": {
+    "TV": 35,
+    "Refrigerator": 19,
+    "Washing Machine": 18,
+    "Monitor": 14,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "LG": 47,
+    "TCL": 6,
+    "Samsung": 13,
+    "Hisense": 9,
+    "Midea": 10,
+    "Haier": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 28,
+    "Chinese Brand Threat Tracking": 38,
+    "Competitive Price & Positioning": 8,
+    "Consumer Sentiment": 16
+  },
+  "chinese_brand_total": 30,
+  "lg_total": 47,
+  "country_data": {
+    "BR": {
+      "total": 86,
+      "products": {
+        "TV": 35,
+        "Refrigerator": 16,
+        "Washing Machine": 17,
+        "Monitor": 14,
+        "LG gram": 4
+      },
+      "brands": {
+        "LG": 46,
+        "TCL": 6,
+        "Samsung": 13,
+        "Hisense": 9,
+        "Midea": 10,
+        "Haier": 2
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Shop These 30+ Labor Day TV Deals to Upgrade Your Entertainment Setup Without Overspending - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-labor-day-tv-deals-2026-09-05/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "I just saw the world’s first micro-LED 3D TV, and I really hope Hisense makes this available in more countries, because it’s the best 3D experience I’ve ever had",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/i-just-saw-hisenses-world-first-3d-micro-led-tv-and-it-looks-incredible-this-could-finally-solve-3d-tvs-biggest-problem",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "4K Gaming Monitors - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/gaming-monitors/4k-gaming-monitors/pcmcat1743704814898.c?id=pcmcat1743704814898",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG OLED C6 55” tem a melhor oferta registrada em até 12x sem juros • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/tv-lg-oled-c6-55-tem-a-melhor-oferta-registrada-em-ate-12x-sem-juros/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV LG de 55\" entra em oferta limitada na Amazon",
+          "source": "meups.com.br",
+          "source_url": "https://meups.com.br/promocoes/smart-tv-lg-de-55-entra-em-oferta-amazon/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG's most affordable 65-inch 2026 OLED TV just hit the Amazon all-time low at $800 off",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/09/04/lg-affordable-65-inch-2026-oled-tv-amazon-best-price/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Worten com TV LG ao melhor preço do mercado",
+          "source": "magazine-hd.com",
+          "source_url": "https://www.magazine-hd.com/apps/wp/worten-com-tv-lg-melhor-preco-sempre/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55\\\" LG OLED 4K AI ThinQ HDR Smart TV",
+          "source": "confialecorretora.com.br",
+          "source_url": "https://www.confialecorretora.com.br/?e=2091892441100",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG QNED 55″ tem 25% OFF em até 12x sem juros na Amazon | WebaDesign - Empresa de Webdesign - Desenvolvimento Web Design Macaé e Curitiba",
+          "source": "webadesign.com.br",
+          "source_url": "https://webadesign.com.br/tv-lg-qned-55%E2%80%B3-tem-25-off-em-ate-12x-sem-juros-na-amazon/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best TVs Under 2000: 65 Inch Samsung, Sony Bravia, LG OLED",
+          "source": "ysvara.com",
+          "source_url": "https://www.ysvara.com/blogs/news/smart-picks-for-tvs-under-2000-65-inch-oled-and-4k",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 4,
+      "products": {
+        "Refrigerator": 3,
+        "Washing Machine": 1
+      },
+      "brands": {
+        "Haier": 3,
+        "LG": 1
+      },
+      "chinese_count": 3,
+      "top_signals": [
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier revoluciona el hogar inteligente en IFA 2026: apuesta por la IA \"humana\", nuevos lanzamientos y robots domésticos - Infobae",
+          "source": "infobae.com",
+          "source_url": "https://www.infobae.com/america/agencias/2026/09/04/haier-revoluciona-el-hogar-inteligente-en-ifa-2026-apuesta-por-la-ia-humana-nuevos-lanzamientos-y-robots-domesticos/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier revoluciona el hogar con IA: electrodomésticos que entienden lo que necesitas",
+          "source": "adslzone.net",
+          "source_url": "https://www.adslzone.net/noticias/marcas/haier-ifa-2026-ia-domotica/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier muestra en la IFA de 2026 su nueva visión de hogar inteligente: electrodomésticos con IA que se adelantan a tus necesidades",
+          "source": "topesdegama.com",
+          "source_url": "https://topesdegama.com/actualidad/lanzamientos/ifa-2026-haier-030926",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Lavadoras Lg Walmart",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/linea-blanca/lavadoras-y-secadoras/lavadoras/lavadoras-lg-walmart/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-09-07",
+  "period_start": "2026-08-30",
+  "period_end": "2026-09-05"
+}

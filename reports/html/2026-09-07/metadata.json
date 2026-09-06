@@ -1,0 +1,34 @@
+{
+  "week": "2026-09-07",
+  "report_period": {
+    "start": "2026-08-30",
+    "end": "2026-09-05"
+  },
+  "version": "Weekly Vol.2026-09-07-R2",
+  "generated_at": "2026-09-06T21:38:05.888Z",
+  "metrics": {
+    "covered_countries": 13,
+    "lg_promotion_signals": 303,
+    "competitor_promotion_signals": 9,
+    "chinese_threat_signals": 13,
+    "consumer_negative_countries": 8,
+    "critical_country_count": 4
+  },
+  "critical_countries": [
+    "🇺🇸 미국 (US)",
+    "🇩🇪 독일 (DE)",
+    "🇮🇹 이탈리아 (IT)",
+    "🇧🇷 브라질 (BR)"
+  ],
+  "executive_key_insights": [
+    "**레이버데이 세일 기간 LG 프로모션 활동이 전주 대비 27% 급증(238→303건)**하며, 특히 미국·독일·이탈리아에서 TV·가전 전 제품군에 걸친 공격적 가격 할인이 전개됨",
+    "**중국 브랜드 위협이 32% 증가(196→260건)**하였으며, Haier/Midea의 냉장고·세탁기 분야 IFA 2026 신제품 발표와 공격적 가격 전략이 유럽·호주 시장에서 LG 가전 입지를 위협",
+    "**부정 소비자 반응이 4건에서 18건으로 350% 급증**하여, 브라질 세탁기 A/S 불만과 미국 모니터 광고 삽입 이슈가 브랜드 신뢰도에 잠재적 리스크로 부상"
+  ],
+  "links": {
+    "html": "./2026-09-07/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-09-07_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-09-07_R2_16country.md",
+    "share": "./2026-09-07/share.html"
+  }
+}

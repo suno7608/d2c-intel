@@ -1,0 +1,261 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 154,
+  "country_breakdown": {
+    "US": 140,
+    "CA": 14
+  },
+  "product_breakdown": {
+    "TV": 41,
+    "Refrigerator": 32,
+    "Washing Machine": 38,
+    "Monitor": 25,
+    "LG gram": 18
+  },
+  "brand_breakdown": {
+    "LG": 105,
+    "TCL": 13,
+    "Samsung": 7,
+    "Haier": 10,
+    "Hisense": 2,
+    "Midea": 17
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 55,
+    "Chinese Brand Threat Tracking": 53,
+    "Competitive Price & Positioning": 22,
+    "Consumer Sentiment": 24
+  },
+  "chinese_brand_total": 42,
+  "lg_total": 105,
+  "country_data": {
+    "US": {
+      "total": 140,
+      "products": {
+        "TV": 39,
+        "Refrigerator": 28,
+        "Washing Machine": 32,
+        "Monitor": 25,
+        "LG gram": 16
+      },
+      "brands": {
+        "LG": 102,
+        "TCL": 12,
+        "Samsung": 7,
+        "Haier": 7,
+        "Hisense": 2,
+        "Midea": 10
+      },
+      "chinese_count": 31,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Buy’s LG OLED TV deal looks too good to be true — our TV expert explains why LG's B6 is so cheap (and worth buying) | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/best-buys-lg-oled-tv-deal-looks-too-good-to-be-true-our-tv-expert-explains-why-lgs-b6-is-so-cheap-and-worth-buying",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Get Labor Day-Ready With $800 Off LG’s 65-Inch Class B6 OLED TV - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/lg-class-b6-oled-tv-deal-2026-09-04/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Better Than Labor Day? Check Out These TV Deals and Save Up to $2,000 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG has serious competition against its 45-inch 5K2K OD-OLED ultrawide — and that has seemingly led to its major 32% discount for Labor Day | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/computing/monitors/lg-has-serious-competition-against-its-45-inch-5k2k-od-oled-ultrawide-and-that-has-seemingly-led-to-its-major-32-percent-discount-for-labor-day",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "TV Reviews & Recommendations - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "All Appliance Deals - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/all-electronics-on-sale/all-appliances-on-sale/pcmcat1637009144989.c?id=pcmcat1637009144989",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best French Door Refrigerators of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/french-door",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best Refrigerators of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/refrigerators",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The Best Monitors to Buy in 2026",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/computing/best-monitor/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 4 Best 4k Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/gaming-monitors-4k",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 14,
+      "products": {
+        "TV": 2,
+        "LG gram": 2,
+        "Refrigerator": 4,
+        "Washing Machine": 6
+      },
+      "brands": {
+        "LG": 3,
+        "TCL": 1,
+        "Midea": 7,
+        "Haier": 3
+      },
+      "chinese_count": 11,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for September 2026 | 10% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "Az LG Electronics megszerezte a Formatervezési Díjak „Hármas Koronáját” - DigitalHungary",
+          "source": "digitalhungary.hu",
+          "source_url": "https://www.digitalhungary.hu/marketing/az-lg-electronics-megszerezte-a-formatervezesi-dijak-harmas-koronajat/76819",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "Η LG Electronics κερδίζει 17 βραβεία στα IDEA 2026 - techpress.gr",
+          "source": "techpress.gr",
+          "source_url": "https://www.techpress.gr/index.php/archives/205592",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TV i Danmark — 76 modeller med priser",
+          "source": "tv-anbefaling.dk",
+          "source_url": "https://tv-anbefaling.dk/brands/tcl/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Fridge | Walmart Canada",
+          "source": "walmart.ca",
+          "source_url": "https://www.walmart.ca/en/c/kp/midea-fridge",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HAIER Washing machines - Cheap HAIER Washing machines Deals | Currys",
+          "source": "currys.co.uk",
+          "source_url": "https://www.currys.co.uk/appliances/laundry/washing-machines/haier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Washing Machines for sale | eBay",
+          "source": "ebay.ca",
+          "source_url": "https://www.ebay.ca/b/Haier-Washing-Machines/71256/bn_1644490",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-09-07",
+  "period_start": "2026-08-30",
+  "period_end": "2026-09-05"
+}

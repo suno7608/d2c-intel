@@ -1,0 +1,275 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 79,
+  "country_breakdown": {
+    "AU": 32,
+    "TW": 47
+  },
+  "product_breakdown": {
+    "TV": 21,
+    "Refrigerator": 27,
+    "Washing Machine": 18,
+    "Monitor": 6,
+    "LG gram": 7
+  },
+  "brand_breakdown": {
+    "LG": 52,
+    "Samsung": 2,
+    "Hisense": 3,
+    "Haier": 12,
+    "TCL": 5,
+    "Midea": 5
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 21,
+    "Chinese Brand Threat Tracking": 28,
+    "Competitive Price & Positioning": 17,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 25,
+  "lg_total": 52,
+  "country_data": {
+    "AU": {
+      "total": 32,
+      "products": {
+        "TV": 8,
+        "Refrigerator": 13,
+        "Washing Machine": 10,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 7,
+        "Samsung": 2,
+        "Haier": 12,
+        "TCL": 5,
+        "Hisense": 1,
+        "Midea": 5
+      },
+      "chinese_count": 23,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Sep 2026 | 10% OFF | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/lg-coupon-codes",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL is suing Samsung for false advertising on its Mini-LED TVs — here’s how to tell if your TV is included | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/tcl-is-suing-samsung-for-false-advertising-on-its-mini-led-tvs-heres-how-to-tell-if-your-tv-is-included",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Buy Single Door Refrigerator, Mini Fridge Online | LG India",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/in/refrigerators/single-door-refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Rated Fridges 2026 | CHOICE Reviews",
+          "source": "choice.com.au",
+          "source_url": "https://www.choice.com.au/home-and-living/kitchen/fridges/review-and-compare/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Haier - Brands | e&s - Kitchen, Laundry, Bathroom",
+          "source": "eands.com.au",
+          "source_url": "https://www.eands.com.au/brands/haier/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Bottom Mounted Refrigerator : Buy Bottom Mount Fridge at Best Price | Haier Appliances",
+          "source": "shop.haierindia.com",
+          "source_url": "https://shop.haierindia.com/shop/Refrigerators/Bottom-Mounted-Refrigerators/13/28",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 47,
+      "products": {
+        "TV": 13,
+        "Refrigerator": 14,
+        "Washing Machine": 8,
+        "Monitor": 6,
+        "LG gram": 6
+      },
+      "brands": {
+        "LG": 45,
+        "Hisense": 2
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG TVs aren't the only ones spying on you [video] | Hacker News",
+          "source": "news.ycombinator.com",
+          "source_url": "https://news.ycombinator.com/item?id=49575176",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Energy Solution Secures Multi-Year Supply of U.S.- ...",
+          "source": "news.lgensol.com",
+          "source_url": "https://news.lgensol.com/company-news/press-releases/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Accessories AKC73249305 Refrigerator ice Bucket",
+          "source": "olums.com",
+          "source_url": "https://www.olums.com/products/lg/akc73249305.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "十大 CHIMEI奇美電視 好口碑榜單 2026年9月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/CHIMEI%E5%A5%87%E7%BE%8E_%E9%9B%BB%E8%A6%96",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信杜比视界2首批11款、Vidda一款没有：把推送时间线、X26 Pro机主维权帖和评论区两派对完，双11前谁该看这个变量就清楚了_电视_什么值得买",
+          "source": "post.smzdm.com",
+          "source_url": "https://post.smzdm.com/p/anvx0qrp/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "TVB | 無綫集團",
+          "source": "tvb.com",
+          "source_url": "https://www.tvb.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信 8kg WT80N1Q 波轮洗衣机低至 486.54 元_家电洗衣机-中关村在线",
+          "source": "jd.zol.com.cn",
+          "source_url": "https://jd.zol.com.cn/1242/12423801.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "2026-09月獨家-5G吃到飽不降速直殺57折! 限時特案別錯過 -地標網通",
+          "source": "landtop.com.tw",
+          "source_url": "https://www.landtop.com.tw/reviews/36",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "地球黃金線 | 提供國內外最新汽機車新聞、新車上市、車展特輯以及電視節目內容",
+          "source": "cars.tvbs.com.tw",
+          "source_url": "https://cars.tvbs.com.tw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Телевизоры | ТОП предложения | 220.lv",
+          "source": "220.lv",
+          "source_url": "https://220.lv/ru/televizory-i-bytovaya-tehnika/televizory-i-prinadlezhnosti/televizory",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-09-07",
+  "period_start": "2026-08-30",
+  "period_end": "2026-09-05"
+}

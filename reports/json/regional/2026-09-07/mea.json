@@ -1,0 +1,156 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 59,
+  "country_breakdown": {
+    "SA": 59
+  },
+  "product_breakdown": {
+    "TV": 19,
+    "Refrigerator": 16,
+    "Washing Machine": 12,
+    "Monitor": 2,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "LG": 35,
+    "Hisense": 10,
+    "Samsung": 2,
+    "Haier": 7,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 21,
+    "Chinese Brand Threat Tracking": 25,
+    "Retail Channel Promotions": 13
+  },
+  "chinese_brand_total": 22,
+  "lg_total": 35,
+  "country_data": {
+    "SA": {
+      "total": 59,
+      "products": {
+        "TV": 19,
+        "Refrigerator": 16,
+        "Washing Machine": 12,
+        "Monitor": 2,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 35,
+        "Hisense": 10,
+        "Samsung": 2,
+        "Haier": 7,
+        "TCL": 5
+      },
+      "chinese_count": 22,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Ready for a Picture-Perfect Upgrade? Save Up to $1,600 on 4K TVs With Early Labor Day Deals - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-4k-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Find Your Next TV Under $500 With These CNET-Picked Budget Deals - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-cheap-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Monitor Deals in 2026: 4K, Gaming and Ultrawide Displays on Sale",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-monitor-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: LG Electronics: LG gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/LGElectronics/page/1441EF5F-AC04-42AC-B365-50C2B32350C2",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerator - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/shop/haier-refrigerator",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Electronics Inc. (066570.KS) Stock Price, News, Quote & History - Yahoo Finance",
+          "source": "finance.yahoo.com",
+          "source_url": "https://finance.yahoo.com/quote/066570.KS/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-09-07",
+  "period_start": "2026-08-30",
+  "period_end": "2026-09-05"
+}
