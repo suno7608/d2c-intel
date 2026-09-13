@@ -1,0 +1,217 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 88,
+  "country_breakdown": {
+    "BR": 84,
+    "MX": 2,
+    "CL": 2
+  },
+  "product_breakdown": {
+    "TV": 20,
+    "Refrigerator": 31,
+    "Washing Machine": 25,
+    "Monitor": 10,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 48,
+    "TCL": 3,
+    "Hisense": 5,
+    "Samsung": 16,
+    "Midea": 15,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 27,
+    "Chinese Brand Threat Tracking": 35,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 20
+  },
+  "chinese_brand_total": 24,
+  "lg_total": 48,
+  "country_data": {
+    "BR": {
+      "total": 84,
+      "products": {
+        "TV": 18,
+        "Refrigerator": 30,
+        "Washing Machine": 24,
+        "Monitor": 10,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 44,
+        "TCL": 3,
+        "Hisense": 5,
+        "Samsung": 16,
+        "Midea": 15,
+        "Haier": 1
+      },
+      "chinese_count": 24,
+      "top_signals": [
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 6 Best Smart TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-features/smart-internet-streaming",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Yes, LG smart TVs know more about you than you think — but so do other TV brands | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/yes-lg-smart-tvs-know-more-about-you-than-you-think-but-so-do-other-tv-brands",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TVs LG: Smart TV, OLED, QNED e Soundbars | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/tvs-e-soundbars/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TVs, Áudio & Vídeo, Eletrodomésticos e Informática | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG: Com o melhor preço | Buscapé",
+          "source": "buscape.com.br",
+          "source_url": "https://www.buscape.com.br/tv/lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG: 43 polegadas, 50 polegadas e mais",
+          "source": "casasbahia.com.br",
+          "source_url": "https://www.casasbahia.com.br/tv-lg/b",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Promoção de Aniversário LG tem produtos com até 45% OFF e cupons - Estadão",
+          "source": "estadao.com.br",
+          "source_url": "https://www.estadao.com.br/tecmundo/guia-de-compras/415779-promocao-de-aniversario-lg-tem-produtos-com-ate-45-off-e-cupons/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TVs Tela Gigante LG: Modelos 77, 86 e 100 polegadas | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/tvs-e-soundbars/telas-gigantes/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart tv lg | Pontofrio",
+          "source": "pontofrio.com.br",
+          "source_url": "https://www.pontofrio.com.br/smart-tv-lg/b",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV TCL Mini LED 55\" sai R$ 1 mil mais barata com nosso cupom exclusivo • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/tv-tcl-mini-led-55-sai-r-1-mil-mais-barata-com-nosso-cupom-exclusivo/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 2,
+      "products": {
+        "TV": 1,
+        "Washing Machine": 1
+      },
+      "brands": {
+        "LG": 2
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "El LG 45GX90SA, un monitor con panel OLED de 45\" y 240 Hz, ahora con 600 euros de descuento",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/el-lg-45gx90sa-desploma-monitor-oled-45-240-hz/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Reparar Lavadora Lg Se Apaga Sola | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/reparar-lavadora-lg-se-apaga-sola",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 2,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 1
+      },
+      "brands": {
+        "LG": 2
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG webOS: A World of Content | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/webos",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "EL ESPAÑOL - Diario digital, plural, libre, indomable, tuyo",
+          "source": "elespanol.com",
+          "source_url": "https://www.elespanol.com/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-09-13",
+  "period_start": "2026-09-06",
+  "period_end": "2026-09-12"
+}

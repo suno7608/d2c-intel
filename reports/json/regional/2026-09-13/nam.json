@@ -1,0 +1,260 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 138,
+  "country_breakdown": {
+    "US": 120,
+    "CA": 18
+  },
+  "product_breakdown": {
+    "TV": 38,
+    "Refrigerator": 24,
+    "Washing Machine": 32,
+    "Monitor": 26,
+    "LG gram": 18
+  },
+  "brand_breakdown": {
+    "LG": 98,
+    "TCL": 11,
+    "Samsung": 5,
+    "Haier": 9,
+    "Midea": 15
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 47,
+    "Competitive Price & Positioning": 31,
+    "Chinese Brand Threat Tracking": 40,
+    "Consumer Sentiment": 20
+  },
+  "chinese_brand_total": 35,
+  "lg_total": 98,
+  "country_data": {
+    "US": {
+      "total": 120,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 19,
+        "Washing Machine": 26,
+        "Monitor": 25,
+        "LG gram": 17
+      },
+      "brands": {
+        "LG": 92,
+        "TCL": 10,
+        "Samsung": 5,
+        "Haier": 6,
+        "Midea": 7
+      },
+      "chinese_count": 23,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The cheapest OLED TV deals and sales in August 2026 | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/deals/best-oled-tv-prices-deals",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Televisions - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-tv-and-home-theater/lg-tvs/pcmcat388400050004.c?id=pcmcat388400050004",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "I’m a TV expert, and here are the best TVs you can buy today for every budget",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 4K Mini LED C8L 75\" Betta Electrical $2195 - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/974795",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "All Appliance Deals - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/all-electronics-on-sale/all-appliances-on-sale/pcmcat1637009144989.c?id=pcmcat1637009144989",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 6 Best Refrigerator Brands of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/brands",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 6 Best Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/monitors",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/technology on Reddit: LG strongly denies TV spying claims, says tracking and snooping concerns 'not true' — online investigation claims 216,000,000 TVs spy and record audio",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/technology/comments/1wce0ca/lg_strongly_denies_tv_spying_claims_says_tracking/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "'It's extremely creepy': LG TVs collect far more data on you than you'd expect, says new report — but LG hits back, saying the claims made 'are not true' | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/lg-tvs-collect-far-more-data-on-you-than-youd-expect-says-new-report-including-logging-microphone-audio-while-on-standby",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/LGOLED on Reddit: How are you guys going to respond to the new LG spying allegations?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/LGOLED/comments/1wbhl6s/how_are_you_guys_going_to_respond_to_the_new_lg/",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 18,
+      "products": {
+        "TV": 5,
+        "Monitor": 1,
+        "LG gram": 1,
+        "Refrigerator": 5,
+        "Washing Machine": 6
+      },
+      "brands": {
+        "LG": 6,
+        "TCL": 1,
+        "Midea": 8,
+        "Haier": 3
+      },
+      "chinese_count": 12,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "LG B6 OLED 2026 Review (OLED48B6GUA, OLED55B6GUA, OLED65B6GUA, OLED77B6GUA, OLED83B6GUA) - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/lg/b6-oled-2026",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG TVs & Soundbars | Buy LG TVs Exclusive Deals & Sales | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/tv-soundbars/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Televisions on Sale | Best Buy Canada",
+          "source": "bestbuy.ca",
+          "source_url": "https://www.bestbuy.ca/en-ca/collection/lg-televisions-on-sale/195132",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 4K Ultra HD AI Smart TVs | Deals & Offers on TVs | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/tv-soundbars/4k-uhd-tvs/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG TV Comparison | Resolution, Display Type, Processor | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/buying-guides/tv-lineup-guide/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG releases new UltraGear gaming monitor globally with 1,500-nit OLED display - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/LG-releases-new-UltraGear-gaming-monitor-globally-with-1-500-nit-OLED-display.1393240.0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL Televisions 2026: Reviews, Features, and Buying Guide | BrandChoose",
+          "source": "brandchoose.com",
+          "source_url": "https://brandchoose.com/brand/tcl/televisions",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Shop Midea Refrigerators",
+          "source": "midea.com",
+          "source_url": "https://www.midea.com/us/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-09-13",
+  "period_start": "2026-09-06",
+  "period_end": "2026-09-12"
+}

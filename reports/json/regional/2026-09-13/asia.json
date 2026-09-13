@@ -1,0 +1,273 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 87,
+  "country_breakdown": {
+    "AU": 40,
+    "TW": 47
+  },
+  "product_breakdown": {
+    "TV": 30,
+    "Refrigerator": 19,
+    "Washing Machine": 22,
+    "Monitor": 7,
+    "LG gram": 9
+  },
+  "brand_breakdown": {
+    "LG": 60,
+    "TCL": 10,
+    "Haier": 12,
+    "Samsung": 1,
+    "Midea": 4
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 25,
+    "Competitive Price & Positioning": 17,
+    "Consumer Sentiment": 17,
+    "Chinese Brand Threat Tracking": 28
+  },
+  "chinese_brand_total": 26,
+  "lg_total": 60,
+  "country_data": {
+    "AU": {
+      "total": 40,
+      "products": {
+        "TV": 20,
+        "Refrigerator": 9,
+        "Washing Machine": 10,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 14,
+        "TCL": 9,
+        "Haier": 12,
+        "Samsung": 1,
+        "Midea": 4
+      },
+      "chinese_count": 25,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Deals, Coupons, Vouchers, Discounts and Freebies - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 115\" C7K 4K QD-Mini LED (2025) $11,969.40 + Delivery (Coupon EXTRA20) - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/974773",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 55-Inch C6L UHD QD-Mini LED $795.20 + Delivery ($0 C&C/ in-Store) @ Harvey Norman - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/974689",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 85\" C6L QD-Mini LED 4K UHD Google TV [2026] $1695 (after TV500 coupon code)plus delivery@ JB Hi-Fi - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/974775",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED TVs | Shop the Latest LG OLED TV Range | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/oled-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG TVs | OLED, 4K & Smart TVs | Harvey Norman",
+          "source": "harveynorman.com.au",
+          "source_url": "https://www.harveynorman.com.au/tv-blu-ray-home-theatre/tvs-by-brand/lg-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG TVs - OLED, QNED, UHD, Smart TVs & More - JB Hi-Fi",
+          "source": "jbhifi.com.au",
+          "source_url": "https://www.jbhifi.com.au/collections/tvs/lg-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "New LG TVs - Shop OLED QNED Mini LED and 4K Deals - JB Hi-Fi",
+          "source": "jbhifi.com.au",
+          "source_url": "https://www.jbhifi.com.au/collections/tvs/lg-new-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "TVs & Soundbars | LG Smart TVs & Audio | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "All TVs | Shop Smart TVs | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/all-tv-soundbars/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 47,
+      "products": {
+        "TV": 10,
+        "Refrigerator": 10,
+        "Washing Machine": 12,
+        "Monitor": 7,
+        "LG gram": 8
+      },
+      "brands": {
+        "LG": 46,
+        "TCL": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Buy LG TV? | Coolblue - Before 23:59, delivered tomorrow",
+          "source": "coolblue.nl",
+          "source_url": "https://www.coolblue.nl/en/televisions/lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "十大 CHIMEI奇美電視 好口碑榜單 2026年9月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/CHIMEI%E5%A5%87%E7%BE%8E_%E9%9B%BB%E8%A6%96",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "電視運動館 - 線上看 | HamiVideo",
+          "source": "hamivideo.hinet.net",
+          "source_url": "https://hamivideo.hinet.net/main/%E9%9B%BB%E8%A6%96%E9%81%8B%E5%8B%95%E9%A4%A8/1110.do",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "电视哪个牌子质量好？2026年各品牌优缺点对比",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:nirsqpv0355088",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "集邦：需求回溫與成本支撐 9月電視止跌、IT 主流面板價格全面持平 | 科技產業 | 產經 | 聯合新聞網",
+          "source": "udn.com",
+          "source_url": "https://udn.com/news/story/7240/9739553",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "中華電信 Hami Video | 懂你想看的OTT線上影視平台",
+          "source": "hamivideo.hinet.net",
+          "source_url": "https://hamivideo.hinet.net/hamivideo/index.do",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "中華電信 HamiVideo | 視界首選、懂你想看",
+          "source": "stg.portal.ott.hinet.net",
+          "source_url": "https://stg.portal.ott.hinet.net/hamivideo/index.do",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Televizoriai pigiau – LED, OLED, 4K, Smart | pigu.lt",
+          "source": "pigu.lt",
+          "source_url": "https://pigu.lt/lt/televizoriai",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "広東語 - Wikipedia",
+          "source": "ja.wikipedia.org",
+          "source_url": "https://ja.wikipedia.org/wiki/%E5%BA%83%E6%9D%B1%E8%AA%9E",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "ちびまる子ちゃん - Wikipedia",
+          "source": "ja.wikipedia.org",
+          "source_url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%B3%E3%81%BE%E3%82%8B%E5%AD%90%E3%81%A1%E3%82%83%E3%82%93",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-09-13",
+  "period_start": "2026-09-06",
+  "period_end": "2026-09-12"
+}

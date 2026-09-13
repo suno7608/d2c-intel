@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-09-06T21:41:57.118Z",
-  "total_weeks": 31,
-  "latest_week": "2026-09-07",
+  "generated_at": "2026-09-13T12:54:32.250Z",
+  "total_weeks": 32,
+  "latest_week": "2026-09-13",
   "weeks": [
+    {
+      "week": "2026-09-13",
+      "report_period": {
+        "start": "2026-09-06",
+        "end": "2026-09-12"
+      },
+      "version": "Weekly Vol.2026-09-13-R2",
+      "generated_at": "2026-09-13T12:50:43.864Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 274,
+        "competitor_promotion_signals": 6,
+        "chinese_threat_signals": 12,
+        "consumer_negative_countries": 9,
+        "critical_country_count": 3
+      },
+      "critical_countries": [
+        "🇩🇪 독일 (DE)",
+        "🇧🇷 브라질 (BR)",
+        "🇹🇷 튀르키예 (TR)"
+      ],
+      "executive_key_insights": [
+        "**중국 브랜드 위협 급증**: 독일(38건), 호주(25건), 브라질(24건)에서 TCL/Hisense(TV)와 Haier/Midea(가전) 공세가 동시 확대되며, 특히 Hisense의 튀르키예 시장 공식 진출이 중동·유럽 확장 신호로 해석됨",
+        "**소비자 부정 반응 100% 급증**: 전주 8건 → 금주 16건으로 2배 증가, 브라질 냉장고 배송/하자 이슈와 세탁기 소음 민원이 핵심 불만 영역으로 부각",
+        "**LG gram Book AI 2026 글로벌 론칭 모멘텀**: Intel Wildcat Lake 탑재 및 30.5시간 배터리로 US/DE/TW/TR 등 10개국 이상 미디어 노출, MacBook 경쟁 포지셔닝 성공적 안착"
+      ],
+      "links": {
+        "html": "./2026-09-13/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-09-13_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-09-13_R2_16country.md",
+        "share": "./2026-09-13/share.html"
+      }
+    },
     {
       "week": "2026-09-07",
       "report_period": {
