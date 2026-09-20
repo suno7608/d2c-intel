@@ -1,0 +1,278 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 69,
+  "country_breakdown": {
+    "AU": 18,
+    "TW": 51
+  },
+  "product_breakdown": {
+    "TV": 24,
+    "Refrigerator": 19,
+    "Washing Machine": 18,
+    "Monitor": 2,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "TCL": 10,
+    "LG": 39,
+    "Samsung": 1,
+    "Hisense": 6,
+    "Haier": 5,
+    "Midea": 8
+  },
+  "pillar_breakdown": {
+    "Chinese Brand Threat Tracking": 20,
+    "Retail Channel Promotions": 20,
+    "Competitive Price & Positioning": 8,
+    "Consumer Sentiment": 21
+  },
+  "chinese_brand_total": 29,
+  "lg_total": 39,
+  "country_data": {
+    "AU": {
+      "total": 18,
+      "products": {
+        "TV": 7,
+        "LG gram": 2,
+        "Refrigerator": 2,
+        "Washing Machine": 7
+      },
+      "brands": {
+        "TCL": 6,
+        "LG": 2,
+        "Hisense": 1,
+        "Midea": 5,
+        "Haier": 4
+      },
+      "chinese_count": 16,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 98\" P8LS QD-MINI LED TV $2995 + Delivery ($0 C&C/in-store) & The Good Guys - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/975650",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "LG C6 OLED Long Term Review (2026): Honest Verdict After Testing | The Inspect Aspect",
+          "source": "theinspectaspect.com",
+          "source_url": "https://www.theinspectaspect.com/en/tech/tv-streaming/lg-c6-oled-long-term-review-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "8 Best LG TVs (September 2026)",
+          "source": "progressiveradionetwork.com",
+          "source_url": "https://progressiveradionetwork.com/best-lg-tvs/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL | Master Buy",
+          "source": "masterbuygroup.com.au",
+          "source_url": "https://masterbuygroup.com.au/product-category/brand/tcl/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs - Shop OLED 4K, Mini LED, SQD Mini LED - JB Hi-Fi",
+          "source": "jbhifi.com.au",
+          "source_url": "https://www.jbhifi.com.au/collections/tvs/tcl-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL: LED TVs, 4K HD & Android TVs - Costco Australia",
+          "source": "costco.com.au",
+          "source_url": "https://www.costco.com.au/TCL/c/TCL",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL - Browse & Shop the Latest TCL Products Online",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/tcl",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL - Appliances Warehouse",
+          "source": "applianceswarehouse.com.au",
+          "source_url": "https://www.applianceswarehouse.com.au/brand/tcl/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "45 Inches Hisense Tv Price in Nigeria | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/45-inches-hisense-tv-price-in-nigeria",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/midea/appliances/fridges-freezers",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 51,
+      "products": {
+        "TV": 17,
+        "Refrigerator": 17,
+        "Washing Machine": 11,
+        "Monitor": 2,
+        "LG gram": 4
+      },
+      "brands": {
+        "LG": 37,
+        "Samsung": 1,
+        "Hisense": 5,
+        "TCL": 4,
+        "Haier": 1,
+        "Midea": 3
+      },
+      "chinese_count": 13,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "55 吋 LG OLED AI B6 4K 智慧顯示器 2026 - OLED55B6PTA.ATT | LG 台灣",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/tv-soundbars/oled/oled55b6pta/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "中國品牌低價搶市，台灣 LG：大型家電競爭不只看價格 | TechNews 科技新報",
+          "source": "finance.technews.tw",
+          "source_url": "https://finance.technews.tw/2026/09/16/lg-home-appliance-rental/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 電視被爆連關機都在監聽你周遭環境，因為他「擁有你的玻璃」|行動裝置與消費電子產品 -",
+          "source": "forum.jorsindo.com",
+          "source_url": "https://forum.jorsindo.com/thread-2582614-1-1.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "想換新家電嗎？LG 台灣專屬「月付美好計畫」租賃方案與「維修時提供食材寄存」貼心服務上線！提供比更具彈性的新選擇 - 俏媽咪玩 3C",
+          "source": "prettyma3c.com.tw",
+          "source_url": "https://www.prettyma3c.com.tw/lg-ai-in-action-taiwan/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "房市降溫衝擊家電買氣 LG靠「月付美好計畫」租賃服務逆勢開拓新商機 | 流行消費 | 生活 | 聯合新聞網",
+          "source": "udn.com",
+          "source_url": "https://udn.com/news/story/7270/9760446",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG智慧電視遭質疑蒐集使用資料 隱私與資安風險引發關注 - 樂聯網",
+          "source": "leho.com.tw",
+          "source_url": "https://leho.com.tw/archives/381271",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 否認智能電視監聽指控 只承認掃描家居網絡追蹤 3.63 億部裝置",
+          "source": "unwire.hk",
+          "source_url": "https://unwire.hk/2026/09/13/lg-denies-smart-tv-eavesdropping-tracking-network-devices/life-tech/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "智慧手機 | 電視 | 冰箱 洗衣機 吸塵器 空氣清淨機 微波爐 | Samsung 台灣",
+          "source": "samsung.com",
+          "source_url": "https://www.samsung.com/tw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信100E7Q电视直降，到手低至8983元_电视导购-中关村在线",
+          "source": "tv.zol.com.cn",
+          "source_url": "https://tv.zol.com.cn/1249/12497460.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "两千元档电视推荐哪几款？3款闭眼入的性价比神机+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:nisktzp2138809",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-09-20",
+  "period_start": "2026-09-13",
+  "period_end": "2026-09-19"
+}

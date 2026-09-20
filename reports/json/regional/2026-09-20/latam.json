@@ -1,0 +1,247 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 71,
+  "country_breakdown": {
+    "BR": 64,
+    "CL": 3,
+    "MX": 4
+  },
+  "product_breakdown": {
+    "TV": 17,
+    "Refrigerator": 21,
+    "Washing Machine": 17,
+    "Monitor": 14,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 38,
+    "TCL": 3,
+    "Hisense": 6,
+    "Samsung": 12,
+    "Midea": 11,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 31,
+    "Chinese Brand Threat Tracking": 23,
+    "Competitive Price & Positioning": 4,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 21,
+  "lg_total": 38,
+  "country_data": {
+    "BR": {
+      "total": 64,
+      "products": {
+        "TV": 16,
+        "Refrigerator": 19,
+        "Washing Machine": 15,
+        "Monitor": 12,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 32,
+        "TCL": 3,
+        "Hisense": 6,
+        "Samsung": 12,
+        "Midea": 10,
+        "Haier": 1
+      },
+      "chinese_count": 20,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 8.999: Smart TV 4K 65\" LG OLED evo AI C6 2026 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-4k-65-lg-oled-evo-ai-c6-2026-4f52",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 5 Best Samsung TVs of 2026: Reviews and Smart Features - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/samsung",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Esta TV da LG é perfeita para jogar GTA VI e tem cupom",
+          "source": "meups.com.br",
+          "source_url": "https://meups.com.br/promocoes/esta-tv-da-lg-e-perfeita-para-jogar-gta-vi/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Micro RGB ou OLED: qual TV vale mais a pena?",
+          "source": "gameoverdrive.com.br",
+          "source_url": "https://gameoverdrive.com.br/micro-rgb-vs-oled-qual-tv-comprar/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Buy 1-day LG flash sale: Up to $2,000 off mini LED and OLED TVs, deals from $430",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/09/19/best-buy-lg-flash-sale-mini-led-and-oled-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "One of LG's Best New OLED TVs Is Selling for Way, Way Less",
+          "source": "gearpatrol.com",
+          "source_url": "https://www.gearpatrol.com/deals/lg-c6-oled-tv-sale/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Mercado Livre derrete preço de TV QLED da TCL e ainda parcela em 15x sem juros - Canaltech",
+          "source": "canaltech.com.br",
+          "source_url": "https://canaltech.com.br/tv/mercado-livre-derrete-preco-de-tv-qled-da-tcl-e-ainda-parcela-em-15x-sem-juros/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75T8D, TV gaming da 75 pollici QD-Mini LED a 751€ invece di 1099€ su Amazon",
+          "source": "tuttotech.net",
+          "source_url": "https://www.tuttotech.net/news/2026/09/13/tcl-75t8d-tv-gaming-da-75-pollici-qd-mini-led-a-751e-invece-di-1099e-su-amazon.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL televisiot | hobbyhall.fi",
+          "source": "hobbyhall.fi",
+          "source_url": "https://hobbyhall.fi/fi/kodinkoneet-ja-kodinelektroniikka/televisiot-ja-lisatarvikkeet/televisiot/f/tcl",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense orienta compra de TV MiniLED além das especificações",
+          "source": "mixvale.com.br",
+          "source_url": "https://www.mixvale.com.br/2026/09/17/hisense-orienta-compra-de-tv-miniled-alem-das-especificacoes/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 4,
+      "products": {
+        "Refrigerator": 1,
+        "Washing Machine": 2,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 3,
+        "Midea": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Microondas Smart Inverter Con Grill LG MH6535GIB, 1000W/25L Por 99€ Antes 139€. - Chollos En Cholloblog",
+          "source": "cholloblog.com",
+          "source_url": "https://cholloblog.com/chollo/microondas-smart-inverter-con-grill-lg-mh6535gib-1000w-25l-por-99e-antes-128e/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Costco tiene esta lavasecadora LG de 22/13 kg con pedestal con $8,000 de descuento por tiempo limitado – adn Noticias",
+          "source": "adn40.mx",
+          "source_url": "https://www.adn40.mx/es-tendencia/2026-09-17/costco-tiene-esta-lavasecadora-lg-de-2213-kg-con-pedestal-con-8000-de-descuento-por-tiempo-limitado/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadora Midea 11 Kg - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "http://ww4.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavadora-midea-11-kg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Los 5 Mejores Modelos De Pantalla Lg 49 Pulgadas - espacio18",
+          "source": "ww4.espacio18.com.mx",
+          "source_url": "https://ww4.espacio18.com.mx/hogar-y-cocina/pantallas/pantalla-lg-49-pulgadas/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 3,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 1,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 3
+      },
+      "chinese_count": 0,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "La LG OLED C6 de 65 y 77 pulgadas vuelven a estar de oferta a un precio espectacular: 1600 y 2000 euros",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/lg-oled-c6-65-77-oferta-precio-1600-2000-euros/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG GSLC41PYPE El frigorífico americano que ofrece enorme capacidad y refrigeración uniforme",
+          "source": "opinionesmalas.com",
+          "source_url": "https://www.opinionesmalas.com/lg-gslc41pype-no-frost-179-cm-638-l-linearcooling-spaceplus-inox-antihuellas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "QLED y modo gaming a precio de risa: por apenas 300 euros puedes tener ya una muy buena TV",
+          "source": "hobbyconsolas.com",
+          "source_url": "https://www.hobbyconsolas.com/recomendados/qled-modo-gaming-precio-risa-por-apenas-300-euros-puedes-tener-ya-una-muy-buena-tv_7038139_0.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-09-20",
+  "period_start": "2026-09-13",
+  "period_end": "2026-09-19"
+}

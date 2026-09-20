@@ -1,8 +1,44 @@
 {
-  "generated_at": "2026-09-13T12:54:32.250Z",
-  "total_weeks": 32,
-  "latest_week": "2026-09-13",
+  "generated_at": "2026-09-20T12:25:51.099Z",
+  "total_weeks": 33,
+  "latest_week": "2026-09-20",
   "weeks": [
+    {
+      "week": "2026-09-20",
+      "report_period": {
+        "start": "2026-09-13",
+        "end": "2026-09-19"
+      },
+      "version": "Weekly Vol.2026-09-20-R2",
+      "generated_at": "2026-09-20T12:19:52.681Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 239,
+        "competitor_promotion_signals": 8,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 5,
+        "critical_country_count": 6
+      },
+      "critical_countries": [
+        "🇩🇪 독일 (DE)",
+        "🇫🇷 프랑스 (FR)",
+        "🇹🇭 태국 (TH)",
+        "🇦🇺 호주 (AU)",
+        "🇸🇬 싱가포르 (SG)",
+        "🇪🇬 이집트 (EG)"
+      ],
+      "executive_key_insights": [
+        "**제품 다각화 성과**: TV 비율 29.4%로 전주(31.7%) 대비 2.3%p 감소, 냉장고(28.2%)·세탁기(23.3%)·모니터(11.0%)·gram(8.0%)의 균형 잡힌 인텔리전스 포트폴리오 확보",
+        "**중국 브랜드 위협 심화**: 독일(37건)·미국(29건)·사우디(22건)에서 집중적 중국 브랜드 활동 포착, 특히 Haier/Midea의 가전 시장 공세 본격화",
+        "**브라질 LG 시장 리더십 확인**: 모니터 시장 가치 기준 1위 달성, 24종 신규 모니터 라인업 발표로 프리미엄 포지셔닝 강화"
+      ],
+      "links": {
+        "html": "./2026-09-20/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-09-20_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-09-20_R2_16country.md",
+        "share": "./2026-09-20/share.html"
+      }
+    },
     {
       "week": "2026-09-13",
       "report_period": {
