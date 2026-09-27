@@ -1,0 +1,158 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 59,
+  "country_breakdown": {
+    "SA": 59
+  },
+  "product_breakdown": {
+    "TV": 19,
+    "Refrigerator": 17,
+    "Washing Machine": 12,
+    "Monitor": 1,
+    "LG gram": 10
+  },
+  "brand_breakdown": {
+    "Hisense": 9,
+    "LG": 35,
+    "Samsung": 1,
+    "Haier": 8,
+    "Whirlpool": 1,
+    "TCL": 5
+  },
+  "pillar_breakdown": {
+    "Chinese Brand Threat Tracking": 26,
+    "Competitive Price & Positioning": 22,
+    "Retail Channel Promotions": 11
+  },
+  "chinese_brand_total": 22,
+  "lg_total": 35,
+  "country_data": {
+    "SA": {
+      "total": 59,
+      "products": {
+        "TV": 19,
+        "Refrigerator": 17,
+        "Washing Machine": 12,
+        "Monitor": 1,
+        "LG gram": 10
+      },
+      "brands": {
+        "Hisense": 9,
+        "LG": 35,
+        "Samsung": 1,
+        "Haier": 8,
+        "Whirlpool": 1,
+        "TCL": 5
+      },
+      "chinese_count": 22,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Refrigerators: LG Fridges - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "r/BangaloreMarketplace on Reddit: Move out sale - resigned from my job, starting a new and simple life",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/BangaloreMarketplace/comments/1wqnbmm/move_out_sale_resigned_from_my_job_starting_a_new/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Washers and Dryers - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/lg-appliances/lg-washers-dryers/pcmcat134800050005.c?id=pcmcat134800050005",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Amazon.com: LG Electronics: LG gram",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/LGElectronics/page/1441EF5F-AC04-42AC-B365-50C2B32350C2",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL TVs – Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/tcl/tcl-tvs/pcmcat1526935930973.c?id=pcmcat1526935930973",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Hisense 4K TVs - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/hisense/hisense-tvs/pcmcat1529084601910.c?id=pcmcat1529084601910",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: Hisense: All Our TVs",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/stores/Hisense/page/20E858DC-25EA-4935-874C-81BB2E100E26",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerator - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/shop/haier-refrigerator",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TV deal: Hisense 65-inch U7 Mini-LED drops to $847.99 at Amazon | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/sept-22-hisense-65-inch-u7-google-tv-deal",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The lowest price ever on this 85 inch Mini LED TV for a limited time only in this fantastic Hisense television deal on Amazon - PC Guide",
+          "source": "pcguide.com",
+          "source_url": "https://www.pcguide.com/deals/the-lowest-price-ever-on-this-85-inch-mini-led-tv-for-a-limited-time-only-in-this-fantastic-hisense-television-deal-on-amazon/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-09-27",
+  "period_start": "2026-09-20",
+  "period_end": "2026-09-26"
+}

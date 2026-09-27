@@ -1,0 +1,280 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 88,
+  "country_breakdown": {
+    "AU": 30,
+    "TW": 58
+  },
+  "product_breakdown": {
+    "TV": 25,
+    "Refrigerator": 26,
+    "Washing Machine": 23,
+    "Monitor": 6,
+    "LG gram": 8
+  },
+  "brand_breakdown": {
+    "TCL": 9,
+    "Bosch": 1,
+    "Samsung": 2,
+    "LG": 42,
+    "Hisense": 10,
+    "Haier": 14,
+    "Midea": 10
+  },
+  "pillar_breakdown": {
+    "Chinese Brand Threat Tracking": 31,
+    "Retail Channel Promotions": 16,
+    "Competitive Price & Positioning": 15,
+    "Consumer Sentiment": 26
+  },
+  "chinese_brand_total": 43,
+  "lg_total": 42,
+  "country_data": {
+    "AU": {
+      "total": 30,
+      "products": {
+        "TV": 9,
+        "Refrigerator": 12,
+        "Washing Machine": 9
+      },
+      "brands": {
+        "TCL": 8,
+        "Haier": 13,
+        "Samsung": 1,
+        "LG": 1,
+        "Hisense": 1,
+        "Midea": 6
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "85C7L TCL 85 INCH SQD-Mini LED 4K UHD Google TV (2026) + Free Delivery to Selected cities - $2,150.00 @ Appliance Central - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/976312",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 98-Inch C7L UHD SQD-Mini LED 4K TV $3297.60 + Delivery from $59 ($0 C&C/ in-Store) @ Harvey Norman - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/976264",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.com: MIDEA - Refrigerators, Freezers & Ice Makers: Appliances",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/Refrigerators-Freezers-Ice-Makers-MIDEA-Appliances/s?rh=n%3A17921061011%2Cp_89%3AMIDEA",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL training specialist explains why all Mini LED TVs aren’t equal - Appliance Retailer",
+          "source": "applianceretailer.com.au",
+          "source_url": "https://www.applianceretailer.com.au/tcl-training-specialist-explains-why-all-mini-led-tvs-arent-equal/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Discover High-Quality Cooling Solutions - JB Hi-Fi",
+          "source": "jbhifi.com.au",
+          "source_url": "https://www.jbhifi.com.au/collections/haier-fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges | Joyce Mayne",
+          "source": "joycemayne.com.au",
+          "source_url": "https://www.joycemayne.com.au/kitchen-appliances/appliances/fridges/haier/993",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 58,
+      "products": {
+        "TV": 16,
+        "Refrigerator": 14,
+        "Washing Machine": 14,
+        "Monitor": 6,
+        "LG gram": 8
+      },
+      "brands": {
+        "Bosch": 1,
+        "Samsung": 1,
+        "LG": 41,
+        "Hisense": 9,
+        "TCL": 1,
+        "Haier": 1,
+        "Midea": 4
+      },
+      "chinese_count": 15,
+      "top_signals": [
+        {
+          "brand": "Bosch",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "提前布局2027新能效時代！燦坤3C家電「中秋團圓冰洗節」換機省很大 祭8重優惠 一級能效冰箱、洗衣機8折起 - 威傳媒新聞-WinNews",
+          "source": "winnews.com.tw",
+          "source_url": "https://www.winnews.com.tw/281409",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Samsung (HK) | < 8% 現金回贈, 優惠碼 & 折扣碼",
+          "source": "shopback.com.hk",
+          "source_url": "https://www.shopback.com.hk/samsung-hk",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG集团 - 维基百科，自由的百科全书",
+          "source": "zh.wikipedia.org",
+          "source_url": "https://zh.wikipedia.org/wiki/LG%E9%9B%86%E5%9B%A2",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Your LG ‘Smart TV’ is Spying on You - Here’s How to Stop It Permanently",
+          "source": "darkmarc.substack.com",
+          "source_url": "https://darkmarc.substack.com/p/your-lg-smart-tv-is-spying-on-you",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG India Targets Double-Digit Revenue Share from Exports via Sri City Expansion",
+          "source": "electronicsforyou.biz",
+          "source_url": "https://www.electronicsforyou.biz/industry-buzz/lg-india-targets-double-digit-revenue-share-from-exports-via-sri-city-expansion/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Terry Lg Running on Elliptical",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/terry-lg-running-on-elliptical",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信 E7S Pro+ RGB-Mini LED 电视发布，国补后首销价 9999 元起_游戏新闻_17173.com中国游戏门户站",
+          "source": "news.17173.com",
+          "source_url": "https://news.17173.com/content/09232026/200756447.shtml",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信 U7T Pro RGB-Mini LED 电视发布：103% BT.2020 色域，国补后首销价 9999 元起_游戏新闻_17173.com中国游戏门户站",
+          "source": "news.17173.com",
+          "source_url": "https://news.17173.com/content/09232026/200745589.shtml",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信 E7S Pro+ 发布，100 英寸国补后 19999 元_新浪新闻",
+          "source": "sina.cn",
+          "source_url": "https://www.sina.cn/weibo/detail/5346442484911292.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信 RGB-Mini LED 技术普及，两款旗舰定位清晰|海信|rgb-mini led|u7t pro|e7s pro+_新浪新闻",
+          "source": "sina.cn",
+          "source_url": "https://www.sina.cn/weibo/detail/5346411865964631.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-09-27",
+  "period_start": "2026-09-20",
+  "period_end": "2026-09-26"
+}

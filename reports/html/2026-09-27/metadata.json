@@ -1,0 +1,33 @@
+{
+  "week": "2026-09-27",
+  "report_period": {
+    "start": "2026-09-20",
+    "end": "2026-09-26"
+  },
+  "version": "Weekly Vol.2026-09-27-R2",
+  "generated_at": "2026-09-27T12:59:31.092Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 287,
+    "competitor_promotion_signals": 8,
+    "chinese_threat_signals": 14,
+    "consumer_negative_countries": 3,
+    "critical_country_count": 3
+  },
+  "critical_countries": [
+    "🇬🇧 영국 (UK)",
+    "🇩🇪 독일 (DE)",
+    "🇦🇺 호주 (AU)"
+  ],
+  "executive_key_insights": [
+    "**중국 브랜드 위협 급증**: 전주 대비 중국 브랜드 관련 데이터가 16.4% 증가(214건→249건)하며, 특히 독일(32건)·호주(28건)·미국(27건)에서 TCL/Hisense TV와 Haier/Midea 가전의 공격적 가격 전략이 LG 시장 점유율을 직접 위협",
+    "**생활가전 프로모션 강화 필요**: 냉장고(191건, 27.6%)와 세탁기(143건, 20.7%) 데이터가 TV(208건, 30.1%)에 육박하며, 소비자 관심이 가전 전반으로 분산—LG 프로모션 287건 중 가전 비중 확대 전략 수립 필요",
+    "**부정 소비자 반응 증가 주의**: 전주 5건에서 9건으로 80% 급증, 특히 브라질·이탈리아에서 Samsung 냉장고 펌웨어 오류로 인한 경쟁사 이슈가 LG에 기회 요인으로 작용 가능"
+  ],
+  "links": {
+    "html": "./2026-09-27/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-09-27_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-09-27_R2_16country.md",
+    "share": "./2026-09-27/share.html"
+  }
+}

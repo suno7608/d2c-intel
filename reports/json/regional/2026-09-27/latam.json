@@ -1,0 +1,334 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 93,
+  "country_breakdown": {
+    "BR": 69,
+    "MX": 18,
+    "CL": 6
+  },
+  "product_breakdown": {
+    "TV": 36,
+    "Refrigerator": 18,
+    "Washing Machine": 16,
+    "Monitor": 19,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "LG": 56,
+    "TCL": 7,
+    "Hisense": 10,
+    "Midea": 10,
+    "Samsung": 7,
+    "Haier": 3
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 36,
+    "Chinese Brand Threat Tracking": 37,
+    "Competitive Price & Positioning": 8,
+    "Consumer Sentiment": 12
+  },
+  "chinese_brand_total": 30,
+  "lg_total": 56,
+  "country_data": {
+    "BR": {
+      "total": 69,
+      "products": {
+        "TV": 30,
+        "Refrigerator": 13,
+        "Washing Machine": 9,
+        "Monitor": 15,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 42,
+        "TCL": 7,
+        "Hisense": 9,
+        "Midea": 6,
+        "Samsung": 5
+      },
+      "chinese_count": 22,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "This LG OLED Is the High-End TV to Choose for 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/lg-oled-g6-series-review/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "Amazon.com: LG 27US500-W Ultrafine Monitor 27-Inch 4K UHD (3840x2160) HDR10 IPS Borderless Design Reader Mode Flicker Safe Switch App HDMI DisplayPort - White : Electronics",
+          "source": "us.amazon.com",
+          "source_url": "https://us.amazon.com/clp/B0D9R7Q449",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "Amazon.com: 4k Monitor",
+          "source": "amazon.com",
+          "source_url": "https://www.amazon.com/4k-monitor/s?k=4k+monitor",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 4 Best Ultrawide Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-features/ultrawide",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cette TV OLED de 2,10 m peut coûter 809 euros de moins, mais l’offre LG s’arrête dimanche",
+          "source": "lefigaro.fr",
+          "source_url": "https://www.lefigaro.fr/bons-plans/high-tech/cette-tv-oled-de-2-10-m-peut-couter-809-euros-de-moins-mais-l-offre-lg-s-arrete-dimanche-20260925",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Ce TV OLED LG abordable de 2026 qui permet de jouer en 4K 120 Hz voit son prix s'alléger de 200 euros — Frandroid",
+          "source": "frandroid.com",
+          "source_url": "https://www.frandroid.com/bons-plans/3253945_ce-tv-oled-lg-abordable-de-2026-qui-permet-de-jouer-en-4k-120-hz-voit-son-prix-salleger-de-200-euros",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Why LG OLED evo TV | The Next OLED TV with Hyper Radiant Color | LG Hong Kong",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/hk_en/tv-soundbars/why-lg-oled-evo/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "A LG Display lança um painel OLED para jogos de 720 Hz, desenvolvido especificamente para os esportes eletrônicos - NotebookCheck.info News",
+          "source": "notebookcheck.info",
+          "source_url": "https://www.notebookcheck.info/A-LG-Display-lanca-um-painel-OLED-para-jogos-de-720-Hz-desenvolvido-especificamente-para-os-esportes-eletronicos.1404919.0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV spying: YouTuber rips microphones from LG OLED | Cybernews",
+          "source": "cybernews.com",
+          "source_url": "https://cybernews.com/privacy/youtuber-removes-microphones-lg-oled-tv-spying/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Premium LG OLED 240HZ QHD gaming monitor spotted at its 90-day low price on Amazon - PC Guide",
+          "source": "pcguide.com",
+          "source_url": "https://www.pcguide.com/deals/premium-lg-oled-240hz-qhd-gaming-monitor-spotted-at-its-90-day-low-price-on-amazon/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 18,
+      "products": {
+        "TV": 4,
+        "Refrigerator": 4,
+        "Washing Machine": 7,
+        "Monitor": 2,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 10,
+        "Samsung": 2,
+        "Haier": 2,
+        "Midea": 4
+      },
+      "chinese_count": 6,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 3 Best Ultrawide Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/ultrawide-gaming",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupón LG México de 15% Comprobado en Sept. 2026",
+          "source": "tuscupones.com.mx",
+          "source_url": "https://tuscupones.com.mx/lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Las mejores ofertas de la semana en Smart TV, barras de sonido, herramientas y más: Cazando gangas",
+          "source": "xatakahome.com",
+          "source_url": "https://www.xatakahome.com/seleccion/mejores-ofertas-semana-smart-tv-barras-sonido-herramientas-cazando-gangas",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Las mejores ofertas de MediaMarkt en tecnología, hoy domingo 20 de septiembre",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/seleccion/mejores-ofertas-mediamarkt-tecnologia-hoy-domingo-20-septiembre",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Me compro una tv Lg y me la cargo al sacarla de la caja - Forocoches",
+          "source": "forocoches.com",
+          "source_url": "https://forocoches.com/foro/showthread.php?t=10812455",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Las lavadoras y frigoríficos son en 2026 más inteligentes y sofisticados que nunca: su reto es convencerte de que merecen la pena « SerNoticias.com.mx",
+          "source": "sernoticias.com.mx",
+          "source_url": "https://www.sernoticias.com.mx/2026/09/26/las-lavadoras-y-frigorificos-son-en-2026-mas-inteligentes-y-sofisticados-que-nunca-su-reto-es-convencerte-de-que-merecen-la-pena/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Del horno al frigorífico: los errores cotidianos que pueden aumentar la factura eléctrica. | casa actual",
+          "source": "casaactual.com",
+          "source_url": "https://casaactual.com/del-horno-al-frigorifico-los-errores-cotidianos-que-pueden-aumentar-la-factura-electrica/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Las lavadoras y frigoríficos son en 2026 más inteligentes y sofisticados que nunca: su reto es convencerte de que merecen la pena",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/domotica-1/lavadoras-frigorificos-2026-inteligentes-sofisticados-que-nunca-su-reto-convencerte-que-merecen-pena",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Frigorífico Americano HAIER HB18FGSAAA (No Frost - 190 cm - 539 L - Inox) | Worten.pt",
+          "source": "worten.pt",
+          "source_url": "https://www.worten.pt/produtos/frigorifico-americano-haier-hb18fgsaaa-no-frost-190-cm-539-l-inox-6605695",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Costco remata lavadora LG de 22 kg carga frontal con pedestal, ahorro de energía y descuento de $6,500: la promoción está vigente durante todo septiembre 2026 – adn Noticias",
+          "source": "adn40.mx",
+          "source_url": "https://www.adn40.mx/es-tendencia/2026-09-24/costco-remata-lavadora-lg-de-22-kg-carga-frontal-con-pedestal-ahorro-de-energia-y-descuento-de-6500-la-promocion-esta-vigente-durante-todo-septiembre-2026/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 6,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 1,
+        "Monitor": 2,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 4,
+        "Hisense": 1,
+        "Haier": 1
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo W6, un televisor de diseño con tecnología sin cables y pantalla de 9 mm de ancho | tuexperto.com",
+          "source": "tuexperto.com",
+          "source_url": "https://www.tuexperto.com/2026/09/25/lg-oled-evo-w6-ai-precio-televisor-diseno-4k-smart-tv-specs-diagonales-pulgadas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense UR9S, análisis: pensábamos que el RGB MiniLED solo iba a dar juego en calidad imagen, hasta que llegó Hisense con su precio",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/analisis/hisense-ur9s-rgb-miniled-analisis-caracteristicas-precio-especificaciones",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Tu próximo electrodoméstico desinfecta el móvil, podría saber cuándo está lista la comida o qué ropa estás lavando: así está revolucionando la IA la cocina",
+          "source": "decoracion.trendencias.com",
+          "source_url": "https://decoracion.trendencias.com/cocina/tu-proximo-electrodomestico-desinfecta-movil-podria-saber-cuando-esta-lista-comida-que-ropa-estas-lavando-asi-esta-revolucionando-ia-cocina",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Display launches 720Hz Gaming OLED panel built specifically for Esports - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/LG-Display-launches-720Hz-Gaming-OLED-panel-built-specifically-for-Esports.1404675.0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "27\" 4K UHD UltraFine™ IPS Monitor - 27UK650-W | LG USA",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/us/monitors/lg-27uk650-w-4k-uhd-led-monitor",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Las mejores ofertas de la semana en un nuevo Red Friday",
+          "source": "muycomputer.com",
+          "source_url": "https://www.muycomputer.com/2026/09/25/las-mejores-ofertas-de-la-semana-en-un-nuevo-red-friday-55/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-09-27",
+  "period_start": "2026-09-20",
+  "period_end": "2026-09-26"
+}

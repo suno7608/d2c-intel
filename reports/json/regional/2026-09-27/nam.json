@@ -1,0 +1,258 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 123,
+  "country_breakdown": {
+    "US": 109,
+    "CA": 14
+  },
+  "product_breakdown": {
+    "TV": 28,
+    "Refrigerator": 29,
+    "Washing Machine": 36,
+    "Monitor": 16,
+    "LG gram": 14
+  },
+  "brand_breakdown": {
+    "LG": 79,
+    "TCL": 10,
+    "Samsung": 7,
+    "Haier": 9,
+    "Hisense": 1,
+    "Midea": 17
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 41,
+    "Competitive Price & Positioning": 27,
+    "Consumer Sentiment": 15,
+    "Chinese Brand Threat Tracking": 40
+  },
+  "chinese_brand_total": 37,
+  "lg_total": 79,
+  "country_data": {
+    "US": {
+      "total": 109,
+      "products": {
+        "TV": 28,
+        "Refrigerator": 24,
+        "Washing Machine": 27,
+        "Monitor": 16,
+        "LG gram": 14
+      },
+      "brands": {
+        "LG": 75,
+        "TCL": 10,
+        "Samsung": 7,
+        "Haier": 6,
+        "Hisense": 1,
+        "Midea": 10
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Don’t Wait for Prime Day: Upgrade Your TV Setup Now and Save Up to $1,500 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Buy's huge TV sale knocks up to $1,500 off our top rated OLEDs for 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/best-buys-huge-tv-sale-knocks-up-to-usd1-500-off-our-top-rated-oleds-for-2026",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 5 Best LG TVs of 2026: Reviews and Smart Features - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "We just crowned the TCL QM7L our top Mini-LED TV of the year — and it's at its lowest price to date on Amazon | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/we-just-crowned-the-tcl-qm7l-our-top-mini-led-tv-of-the-year-and-its-at-its-lowest-price-to-date-on-amazon",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best TCL TVs of 2026: Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/tcl",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "r/Appliances on Reddit: best samsung fridge 2026 for a family kitchen?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1wmakkd/best_samsung_fridge_2026_for_a_family_kitchen/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 6 Best Washing Machines We Tested for 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/home/kitchen-and-household/best-washing-machines/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best 4k Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-resolution/4k-ultra-hd-uhd",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "I'm a laptop expert and these are the 12 best laptops money can buy",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 6 Best Business Laptops of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/laptop/reviews/best/by-usage/business",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 14,
+      "products": {
+        "Refrigerator": 5,
+        "Washing Machine": 9
+      },
+      "brands": {
+        "LG": 4,
+        "Midea": 7,
+        "Haier": 3
+      },
+      "chinese_count": 10,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "15 Best Refrigerator Reviews for 2027: Top Picks Uncovered - Abrams Artists Agency",
+          "source": "abramsartists.com",
+          "source_url": "https://abramsartists.com/best-review-for-refrigerator/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "6 Best Wi‑Fi Smart Washers for 2026 That Make Laundry Easy - Toksick Magazine",
+          "source": "toksickmagazine.com",
+          "source_url": "https://toksickmagazine.com/vetted/best-smart-washing-machine-with-wifi/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "10 Best Basic Front Load Washers for Your Home",
+          "source": "bathroomexplorer.com",
+          "source_url": "https://bathroomexplorer.com/best-basic-front-load-washer/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "10 Best Washer Dryer Set Deals This September",
+          "source": "bathroomexplorer.com",
+          "source_url": "https://bathroomexplorer.com/best-deals-washer-dryer-sets/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30 in. 18 cu. ft. Stainless Steel Top Mount Refrigerator | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/midea/ki8-il9",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Washing Machines for sale | eBay",
+          "source": "ebay.ca",
+          "source_url": "https://www.ebay.ca/b/Haier-Washing-Machines/71256/bn_1644490",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Shop Washing Machines Online at Best Price - Washers & Dryers – Tagged \"Haier\"",
+          "source": "darlingretail.com",
+          "source_url": "https://darlingretail.com/collections/washing-machine/haier",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-09-27",
+  "period_start": "2026-09-20",
+  "period_end": "2026-09-26"
+}
