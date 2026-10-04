@@ -1,0 +1,312 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 101,
+  "country_breakdown": {
+    "BR": 85,
+    "MX": 12,
+    "CL": 4
+  },
+  "product_breakdown": {
+    "TV": 44,
+    "Refrigerator": 21,
+    "Washing Machine": 20,
+    "Monitor": 14,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 63,
+    "TCL": 7,
+    "Samsung": 5,
+    "Hisense": 12,
+    "Midea": 10,
+    "Haier": 4
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 38,
+    "Chinese Brand Threat Tracking": 44,
+    "Competitive Price & Positioning": 4,
+    "Consumer Sentiment": 15
+  },
+  "chinese_brand_total": 33,
+  "lg_total": 63,
+  "country_data": {
+    "BR": {
+      "total": 85,
+      "products": {
+        "TV": 35,
+        "Refrigerator": 17,
+        "Washing Machine": 18,
+        "Monitor": 13,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 51,
+        "TCL": 7,
+        "Samsung": 5,
+        "Hisense": 10,
+        "Midea": 10,
+        "Haier": 2
+      },
+      "chinese_count": 29,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 3.797: Smart TV 65” TCL 4K QD-Mini LED Google TV Dolby Vision | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-65-tcl-4k-qd-mini-led-google-tv-dolby-vision-fb8b",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sélection d'articles en promotion – Dealabs.com",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/de-10-a-30-de-reduction-ce-week-end-sur-lgcom-3424632",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Monitor Gamer LG UltraGear OLED Curvo 34”, QHD, — Menor Preço e Histórico | AchaPromo",
+          "source": "achapromo.com.br",
+          "source_url": "https://achapromo.com.br/produto/monitor-gamer-lg-ultragear-oled-curvo-34-qhd-240hz-0-03ms-gtg-nvidia-g-sync-amd-freesync-premium-pro-hdr400-34gs95qe-excelente-recondicionado/b46c3e5e-9590-4b85-b2a5-9dcbff05e1a7",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED C6 EVOLUIU e contou com ajuda da Samsung",
+          "source": "mundoconectado.com.br",
+          "source_url": "https://www.mundoconectado.com.br/smart-tvs/tv-lg-oled-c6-primeiras-impressoes/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65-Inch TVs Under 2000: Samsung, Sony Bravia, LG OLED Value",
+          "source": "ysvara.com",
+          "source_url": "https://www.ysvara.com/blogs/news/smart-picks-65-inch-tvs-under-2000-from-samsung-sony-lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV OLED: quais hábitos aumentam o risco de burn-in?",
+          "source": "mobilebit.com.br",
+          "source_url": "https://www.mobilebit.com.br/tecnologia/2026/10/03/tv-oled-risco-burn-in/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Samsung 65 Inch TV vs Sony Bravia and LG OLED Under 2000 | Value",
+          "source": "ysvara.com",
+          "source_url": "https://www.ysvara.com/blogs/news/best-65-inch-tv-picks-under-2000-samsung-vs-sony-vs-lg-oled",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "tech on dicas tv lg: Tech on Dicas Smart TV LG e Guia de Compra",
+          "source": "tech-on-dicas.com",
+          "source_url": "https://tech-on-dicas.com/tech-on-dicas-tv-lg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Carrefour tiene hoy a precio de liquidación esta tele LG OLED con hasta 144 Hz y Dolby Vision ideal para videojuegos",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/seleccion/carrefour-tiene-hoy-a-precio-liquidacion-esta-tele-lg-oled-144-hz-dolby-vision-ideal-para-videojuegos",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Serie G6, prezzo a picco per lo smart TV OLED top di gamma: affare per tutti | Libero Tecnologia",
+          "source": "libero.it",
+          "source_url": "https://www.libero.it/tecnologia/lg-oled-evo-ai-oled55g64lw-scheda-tecnica-sconto-offerta-rate-prezzo-amazon-124214",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 12,
+      "products": {
+        "TV": 7,
+        "Refrigerator": 3,
+        "Washing Machine": 2
+      },
+      "brands": {
+        "LG": 9,
+        "Hisense": 2,
+        "Haier": 1
+      },
+      "chinese_count": 3,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Lg Smart Tv - espacio18",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/pantallas/lg-smart-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "¿Por qué LG OLED evo TV? | El siguiente nivel de OLED con Tecnología de Color Hiperradiante | LG México",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/mx/tvs-soundbars/why-lg-oled-evo/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Lg Tv Smart - espacio18",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/pantallas/lg-tv-smart/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Hisense 55 4k - espacio18",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/pantallas/hisense-55-4k/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Pantallas Hisense",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/pantallas/pantallas-hisense/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Heisen Tv",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/pantallas/heisen-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Pantalla Hisense 75\" Hi-QLED Roku TV 75QD5SR",
+          "source": "sams.com.mx",
+          "source_url": "https://www.sams.com.mx/ip/pantalla-hisense-75-hi-qled-roku-tv-75qd5sr/981058414",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerador LG Side by Side 28 pies cúbicos Negro Mate Smart Inverter - VS28BT | LG México",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/mx/refrigeradores/refrigeradores-duplex-side-by-side/vs28bt/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupón LG: 55% Off en Septiembre 2026",
+          "source": "eluniversal.com.mx",
+          "source_url": "https://www.eluniversal.com.mx/descubre-y-compra/lg-cupones-y-promociones-hasta-55-en-refrigeradores-y-lavadoras/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TERMOAC HAIER 30L.1,5KW. -ES30V A3 - Electro Rádio Comercial",
+          "source": "ercomercial.com",
+          "source_url": "https://www.ercomercial.com/produto/termoac-haier-30l-15kw-es30v-a3/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 4,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 1,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 3,
+        "Haier": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Gaming Monitors - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/pc-gaming/gaming-monitors/pcmcat304600050011.c?id=pcmcat304600050011",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "He probado la tele china que ya está en todas partes: la clave no es lo que te llevas, sino lo que dejas",
+          "source": "elconfidencial.com",
+          "source_url": "https://www.elconfidencial.com/tecnologia/2026-09-28/tele-marca-china-esta-en-todas-partes-clave_4430813/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Nuestra tele de dentro de cinco años se está fraguando ya hoy, y este 2026 hemos visto muchos avances que queremos ya en nuestro salón - Hecho en California con Marcos Gutierrez",
+          "source": "hechoencalifornia1010.com",
+          "source_url": "https://www.hechoencalifornia1010.com/nuestra-tele-de-dentro-de-cinco-anos-se-esta-fraguando-ya-hoy-y-este-2026-hemos-visto-muchos-avances-que-queremos-ya-en-nuestro-salon/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier presenta electrodomésticos con IA: hornos, neveras y",
+          "source": "muymac.com",
+          "source_url": "https://www.muymac.com/haier-presenta-electrodomesticos-con-ia-hornos-neveras-y-lavadoras-que-cambian-tu-hogar/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-10-04",
+  "period_start": "2026-09-27",
+  "period_end": "2026-10-03"
+}

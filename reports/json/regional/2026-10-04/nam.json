@@ -1,0 +1,261 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 138,
+  "country_breakdown": {
+    "US": 125,
+    "CA": 13
+  },
+  "product_breakdown": {
+    "TV": 36,
+    "Refrigerator": 27,
+    "Washing Machine": 39,
+    "Monitor": 19,
+    "LG gram": 17
+  },
+  "brand_breakdown": {
+    "LG": 93,
+    "TCL": 10,
+    "Samsung": 7,
+    "Haier": 9,
+    "Hisense": 1,
+    "Midea": 18
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 44,
+    "Chinese Brand Threat Tracking": 47,
+    "Competitive Price & Positioning": 22,
+    "Consumer Sentiment": 25
+  },
+  "chinese_brand_total": 38,
+  "lg_total": 93,
+  "country_data": {
+    "US": {
+      "total": 125,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 23,
+        "Washing Machine": 34,
+        "Monitor": 19,
+        "LG gram": 16
+      },
+      "brands": {
+        "LG": 90,
+        "TCL": 9,
+        "Samsung": 7,
+        "Haier": 8,
+        "Hisense": 1,
+        "Midea": 10
+      },
+      "chinese_count": 28,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best cheap OLED TV deals for October 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/news/best-oled-tv-deals",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Don’t Wait for Prime Day: Upgrade Your TV Setup Now and Save Up to $1,500 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "I've found 5 premium TV deals you won't see on October Prime Day | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/ive-found-5-premium-tv-deals-you-wont-see-on-october-prime-day",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "This LG OLED Is the High-End TV to Choose for 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/lg-oled-g6-series-review/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TVs of 2026: Expert Tested, Compared and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "LG QNED75B Review (43QNED75BUA, 50QNED75BUA, 55QNED75BUA, 65QNED75BUA, 75QNED75BUA, 85QNED75BUA) - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/lg/qned75b",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best LG Monitors of 2026: Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "'An almost premium TV at mid-range prices’: TCL’s QM7L mini-LED screen is one of the best affordable sets I’ve tested, thanks to its vibrant colors, bright highlights and great gaming features",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/an-almost-premium-tv-at-mid-range-prices-tcls-qm7l-mini-led-screen-is-one-of-the-best-affordable-sets-ive-tested-thanks-to-its-vibrant-colors-bright-highlights-and-great-gaming-features",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Appliance questions, comments or complaints",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The Best Monitors to Buy in 2026",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/computing/best-monitor/",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 13,
+      "products": {
+        "TV": 3,
+        "LG gram": 1,
+        "Refrigerator": 4,
+        "Washing Machine": 5
+      },
+      "brands": {
+        "LG": 3,
+        "TCL": 1,
+        "Midea": 8,
+        "Haier": 1
+      },
+      "chinese_count": 10,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "This CNET Lab Award-Winning TCL TV Is Over $800 Off Ahead of Prime Day - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/tcl-qm8l-4k-tv-prime-day-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "77 Zoll LG OLED evo AI G5 TV - OLED77G57LW | LG Deutschland | LG Deutschland",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/de/tvs-und-soundbars/oled-evo/oled77g57lw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG quietly slashes $1,200 off its massive 100-Inch QNED mini-LED TV - GEEKSPIN",
+          "source": "geekspin.co",
+          "source_url": "https://geekspin.co/lg-quietly-slashes-1200-off-its-massive-100-inch-qned-mini-led-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "20+ of the best laptop deals ahead of October Prime Day | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/best-early-amazon-october-prime-day-laptop-deals-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Fridge | Walmart Canada",
+          "source": "walmart.ca",
+          "source_url": "https://www.walmart.ca/en/c/kp/midea-fridge",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/midea/ki8-il9",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Shop Washing Machines Online at Best Price - Washers & Dryers – Tagged \"Haier\"",
+          "source": "darlingretail.com",
+          "source_url": "https://darlingretail.com/collections/washing-machine/haier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Washers and Washing Machines - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Washers-And-Washing-Machines-66/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-10-04",
+  "period_start": "2026-09-27",
+  "period_end": "2026-10-03"
+}

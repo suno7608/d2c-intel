@@ -1,0 +1,278 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 100,
+  "country_breakdown": {
+    "TW": 73,
+    "AU": 27
+  },
+  "product_breakdown": {
+    "TV": 22,
+    "Refrigerator": 31,
+    "Washing Machine": 27,
+    "Monitor": 11,
+    "LG gram": 9
+  },
+  "brand_breakdown": {
+    "LG": 60,
+    "Hisense": 7,
+    "TCL": 7,
+    "Samsung": 1,
+    "Haier": 15,
+    "Midea": 9,
+    "Panasonic": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 30,
+    "Competitive Price & Positioning": 19,
+    "Chinese Brand Threat Tracking": 28,
+    "Consumer Sentiment": 23
+  },
+  "chinese_brand_total": 38,
+  "lg_total": 60,
+  "country_data": {
+    "AU": {
+      "total": 27,
+      "products": {
+        "Refrigerator": 12,
+        "Washing Machine": 10,
+        "TV": 5
+      },
+      "brands": {
+        "LG": 3,
+        "Samsung": 1,
+        "Haier": 13,
+        "TCL": 5,
+        "Midea": 5
+      },
+      "chinese_count": 23,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Como Funciona O Botão De Temperatura Da Geladeira | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/como-funciona-o-bot%C3%A3o-de-temperatura-da-geladeira",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges | Joyce Mayne",
+          "source": "joycemayne.com.au",
+          "source_url": "https://www.joycemayne.com.au/kitchen-appliances/appliances/fridges/haier/993",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Haier - Brands | e&s - Kitchen, Laundry, Bathroom",
+          "source": "eands.com.au",
+          "source_url": "https://www.eands.com.au/brands/haier/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Discover High-Quality Cooling Solutions - JB Hi-Fi",
+          "source": "jbhifi.com.au",
+          "source_url": "https://www.jbhifi.com.au/collections/haier-fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges | Harvey Norman",
+          "source": "harveynorman.com.au",
+          "source_url": "https://www.harveynorman.com.au/kitchen-appliances/appliances/fridges/haier/993",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Save on Haier Fridges | Appliances Online",
+          "source": "appliancesonline.com.au",
+          "source_url": "https://www.appliancesonline.com.au/haier-fridges/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 73,
+      "products": {
+        "TV": 17,
+        "Refrigerator": 19,
+        "Washing Machine": 17,
+        "Monitor": 11,
+        "LG gram": 9
+      },
+      "brands": {
+        "LG": 57,
+        "Hisense": 7,
+        "TCL": 2,
+        "Haier": 2,
+        "Midea": 4,
+        "Panasonic": 1
+      },
+      "chinese_count": 15,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG藉文化跨界合作 將K-Lifestyle體驗帶到香港 - 經商新聞",
+          "source": "businessnews.com.tw",
+          "source_url": "https://www.businessnews.com.tw/40253",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG藉文化跨界合作 將K-Lifestyle體驗帶到香港 | 全球企業動態 | 商情 | 經濟日報",
+          "source": "money.udn.com",
+          "source_url": "https://money.udn.com/money/story/123828/9781820",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG聚焦「心理負載」串聯台灣市調與Podcast對談 攜手精神科醫師鄧惠文分享經驗 | ETtoday生活新聞 | ETtoday新聞雲",
+          "source": "ettoday.net",
+          "source_url": "https://www.ettoday.net/news/20260930/3246529.htm",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "關於 LG 電視隨時錄音的問題 – Gea-Suan Lin's BLOG",
+          "source": "blog.gslin.org",
+          "source_url": "https://blog.gslin.org/archives/2026/09/29/13230/%E9%97%9C%E6%96%BC-lg-%E9%9B%BB%E8%A6%96%E9%9A%A8%E6%99%82%E9%8C%84%E9%9F%B3%E7%9A%84%E5%95%8F%E9%A1%8C/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "GoShare優惠碼-2026年10月»GoShare 共享機車優惠碼/租車費用/營運範圍/使用教學",
+          "source": "callingtaiwan.com.tw",
+          "source_url": "https://www.callingtaiwan.com.tw/goshare-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG聚焦「心理負載」 串聯台灣市調與Podcast對談 | 中華日報|中華新聞雲",
+          "source": "cdns.com.tw",
+          "source_url": "https://www.cdns.com.tw/articles/1467502",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Watch trending videos for you | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/tag/d16xd16",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "十大 電視盒/智慧棒 好口碑榜單 2026年10月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/%E9%9B%BB%E8%A6%96%E7%9B%92-%E6%99%BA%E6%85%A7%E6%A3%92",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "2026民宿电视批量采购：65寸起步，3000元内搞定？3大梯队+工程机详解+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:nitrwqt1743939",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信电视质量好吗？4大维度深度拆解+3款闭眼选推荐+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:nityptv4441692",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-10-04",
+  "period_start": "2026-09-27",
+  "period_end": "2026-10-03"
+}

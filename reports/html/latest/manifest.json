@@ -1,8 +1,42 @@
 {
-  "generated_at": "2026-09-27T13:03:25.820Z",
-  "total_weeks": 34,
-  "latest_week": "2026-09-27",
+  "generated_at": "2026-10-04T13:26:38.265Z",
+  "total_weeks": 35,
+  "latest_week": "2026-10-04",
   "weeks": [
+    {
+      "week": "2026-10-04",
+      "report_period": {
+        "start": "2026-09-27",
+        "end": "2026-10-03"
+      },
+      "version": "Weekly Vol.2026-10-04-R2",
+      "generated_at": "2026-10-04T13:22:21.431Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 301,
+        "competitor_promotion_signals": 9,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 4,
+        "critical_country_count": 4
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇩🇪 독일 (DE)",
+        "🇧🇷 브라질 (BR)",
+        "🇹🇷 튀르키예 (TR)"
+      ],
+      "executive_key_insights": [
+        "**중국 브랜드 가전 공세 본격화**: Haier/Midea가 냉장고·세탁기 시장에서 16개국 중 14개국에서 공격적 프로모션 전개 — TV 중심 TCL/Hisense 위협과 별도로 생활가전 전선 확대 필요",
+        "**LG 프로모션 효과 가시화**: 전주 대비 LG 프로모션 감지 건수 18.5% 증가(254→301건), October Prime Day 연계 딜이 US/UK/DE에서 강력한 트래픽 유도",
+        "**부정 소비자 반응 급증 경고**: 전주 3건→금주 12건으로 4배 증가, 특히 세탁기 A/S 불만(🇹🇷 TR)과 냉장고 배송 문제(🇧🇷 BR)가 주요 원인으로 즉각 대응 필요"
+      ],
+      "links": {
+        "html": "./2026-10-04/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-10-04_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-10-04_R2_16country.md",
+        "share": "./2026-10-04/share.html"
+      }
+    },
     {
       "week": "2026-09-27",
       "report_period": {
