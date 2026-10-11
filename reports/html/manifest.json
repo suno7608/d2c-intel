@@ -1,8 +1,42 @@
 {
-  "generated_at": "2026-10-04T13:26:38.265Z",
-  "total_weeks": 35,
-  "latest_week": "2026-10-04",
+  "generated_at": "2026-10-11T21:34:55.769Z",
+  "total_weeks": 36,
+  "latest_week": "2026-10-11",
   "weeks": [
+    {
+      "week": "2026-10-11",
+      "report_period": {
+        "start": "2026-10-04",
+        "end": "2026-10-10"
+      },
+      "version": "Weekly Vol.2026-10-11-R2",
+      "generated_at": "2026-10-11T21:30:25.322Z",
+      "metrics": {
+        "covered_countries": 13,
+        "lg_promotion_signals": 331,
+        "competitor_promotion_signals": 6,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 3,
+        "critical_country_count": 4
+      },
+      "critical_countries": [
+        "🇬🇧 영국 (UK)",
+        "🇩🇪 독일 (DE)",
+        "🇦🇺 호주 (AU)",
+        "🇹🇷 튀르키예 (TR)"
+      ],
+      "executive_key_insights": [
+        "Amazon Prime Big Deal Days(10월 프라임 데이)가 이번 주 핵심 이벤트로 작동하며, LG OLED TV, LG UltraGear 모니터, LG gram 노트북 등 전 제품군에 걸쳐 역대 최저가 수준의 프로모션이 16개 핵심 법인에서 동시 집중 감지되었다. 총 331건의 LG 프로모션이 포착되어 전주(274건) 대비 +20.8% 급증하였다.",
+        "중국 브랜드 위협이 TV를 넘어 HS(생활가전) 전선으로 급속 확산 중이다. 독일에서는 Haier MultiWash 세탁기(840€)와 Midea V5 세탁기(389€)가 동시에 프리미엄·보급 세그먼트를 양면 포위하고 있으며, 브라질에서는 Midea가 냉장고·세탁기 양 카테고리에서 LG 직접 비교 콘텐츠로 소비자 유입을 유도 중이다. 전체 중국 브랜드 위협 데이터는 296건으로 전주(255건) 대비 +16.1% 증가했다.",
+        "튀르키예(TR) 시장에서 Hisense가 TV와 에어컨을 앞세워 공식 런칭(10월 9일)을 완료, 현지 미디어 10+ 채널에서 집중 보도되었다. 이는 기존 LG-Samsung 양강 구도였던 튀르키예 시장의 판도 변화를 예고하는 중대 신호다."
+      ],
+      "links": {
+        "html": "./2026-10-11/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-10-11_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-10-11_R2_16country.md",
+        "share": "./2026-10-11/share.html"
+      }
+    },
     {
       "week": "2026-10-04",
       "report_period": {

@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+<meta http-equiv="X-Frame-Options" content="SAMEORIGIN"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self';"/>
+<meta name="referrer" content="strict-origin-when-cross-origin"/>
+<title>LG전자 글로벌 D2C 주간 시장 인텔리전스 리포트</title>
+<style>
+:root{--bg:#f6f8fb;--paper:#fff;--ink:#0f172a;--muted:#475569;--line:#dbe2ea;--brand:#005a9c;--alert:#b91c1c;--warn:#a16207;--ok:#166534;--shadow:0 10px 30px rgba(15,23,42,.08)}
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--ink)}
+body{font:15px/1.6 "Noto Sans KR","Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.layout{display:grid;grid-template-columns:290px minmax(0,1fr);gap:22px;max-width:1440px;margin:0 auto;padding:24px}
+.toc-panel{position:sticky;top:18px;align-self:start;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:var(--shadow);max-height:calc(100vh - 36px);overflow:auto}
+.toc-title{margin:0 0 10px;padding:10px 11px;border-radius:10px;background:linear-gradient(95deg,#003a66 0%,#005a9c 58%,#0a7ac4 100%);color:#fff;font-size:13px;font-weight:800;letter-spacing:.2px}
+.toc-panel ul{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.toc-panel li{margin:0}
+.toc-panel a{display:block;color:#0b4f88;text-decoration:none;border:1px solid transparent;border-radius:9px;background:#f8fbff;padding:7px 10px;font-size:13px;line-height:1.35;transition:background-color .12s,border-color .12s,transform .12s}
+.toc-panel a:hover{background:#edf5ff;border-color:#d5e5f6;transform:translateX(1px)}
+.toc-panel a:focus-visible{outline:3px solid rgba(10,122,196,.35);outline-offset:1px}
+.toc-panel li.l3 a{margin-left:12px;background:#fcfdff;color:#28435f}
+.toc-panel li.l4 a{margin-left:24px;background:#fff;color:#3f5871;font-size:12px}
+.toc-panel a.is-active{background:#e5f1ff;border-color:#c9ddf3;color:#0b4f88;font-weight:800}
+.paper{background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+.cover{background:linear-gradient(140deg,#003a66,#005a9c 55%,#0a7ac4);color:#fff;padding:34px 36px}
+.cover h1{margin:0 0 8px;font-size:34px;line-height:1.2;font-weight:800}
+.cover p{margin:6px 0;opacity:.95}
+.cover .meta{margin-top:14px;font-size:14px;opacity:.92}
+.content{padding:30px 34px 38px}
+.report-title{margin-top:8px;font-size:30px;line-height:1.25}
+.section-title{margin:30px 0 12px;font-size:22px;color:#fff;border-left:0;padding:12px 14px;border-radius:12px;background:linear-gradient(95deg,#003a66 0%,#005a9c 58%,#0a7ac4 100%);box-shadow:0 8px 18px rgba(15,23,42,.12);letter-spacing:.1px;line-height:1.35}
+.sub-title{margin:20px 0 10px;font-size:17px;color:#0b3354;border:1px solid #cfe0f1;border-radius:10px;padding:9px 12px;background:linear-gradient(120deg,#f8fbff 0%,#eef5fd 100%);box-shadow:0 4px 10px rgba(15,23,42,.06);line-height:1.35}
+.sub-title.key-insight-banner{border-color:#d1e4f7;background:linear-gradient(120deg,#eff7ff 0%,#e5f1ff 100%);color:#0b4f88;font-weight:800}
+.sub-title.action-required-banner{border-color:#f1dfc4;background:linear-gradient(120deg,#fff8ea 0%,#ffefcf 100%);color:#8a4b00;font-weight:800}
+p{margin:10px 0}
+hr.section-divider{border:0;border-top:1px solid var(--line);margin:18px 0}
+blockquote{margin:14px 0;padding:10px 14px;border-left:4px solid var(--brand);background:#eef6fc;color:#15324a}
+a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
+ul,ol{margin:8px 0 10px 22px}
+.chart-container{max-width:800px;margin:18px auto 24px;padding:16px;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.chart-container canvas{width:100%!important;min-height:300px;height:400px!important}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px;margin:12px 0 18px}
+table{width:100%;border-collapse:collapse;min-width:760px;background:#fff;font-size:14px}
+th,td{border-bottom:1px solid #e7edf4;border-right:1px solid #eef3f8;padding:8px 10px;vertical-align:top;text-align:left}
+th:last-child,td:last-child{border-right:0}
+thead th{position:sticky;top:0;z-index:1;background:#f1f7fd;color:#15324a;font-weight:700}
+code{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1px 5px;font-size:.92em}
+.foot{border-top:1px solid var(--line);color:var(--muted);padding:14px 34px 24px;font-size:13px}
+@media(max-width:1100px){.layout{grid-template-columns:1fr;padding:14px}.toc-panel{position:relative;top:0;max-height:none}.toc-title{margin-bottom:8px}.toc-panel li.l3 a,.toc-panel li.l4 a{margin-left:0}.cover h1{font-size:28px}.content{padding:20px 16px 28px}.foot{padding:14px 16px 22px}.section-title{font-size:20px}.sub-title{font-size:17px}}
+@media print{body{background:#fff}.layout{display:block;max-width:none;padding:0}.toc-panel{display:none}.paper{border:none;box-shadow:none}.cover{border-radius:0}.content{padding:18mm 12mm 16mm}.foot{padding:8mm 12mm 0}.section-title{break-after:avoid}.section-title,.sub-title{background:#fff!important;color:#003a66!important;border:1px solid #cfd8e3!important;box-shadow:none!important}.table-wrap{break-inside:avoid}a{color:#003a66}}
+
+.monthly{--brand:#9c1a1a}
+.monthly .toc-title{background:linear-gradient(95deg,#4a0e0e 0%,#9c1a1a 58%,#c43a0a 100%)}
+.monthly .toc-panel a{color:#881a0b;background:#fff8f6}
+.monthly .toc-panel a:hover{background:#ffedea;border-color:#f6d5d0}
+.monthly .toc-panel a:focus-visible{outline-color:rgba(196,58,10,.35)}
+.monthly .toc-panel li.l3 a{background:#fffcfb;color:#5f2818}
+.monthly .toc-panel li.l4 a{color:#71382a}
+.monthly .toc-panel a.is-active{background:#ffe5e3;border-color:#f3c9c9;color:#881a0b}
+.monthly .cover{background:linear-gradient(140deg,#4a0e0e,#9c1a1a 55%,#c43a0a)}
+.monthly .section-title{background:linear-gradient(95deg,#4a0e0e 0%,#9c1a1a 58%,#c43a0a 100%);box-shadow:0 8px 18px rgba(74,14,14,.15)}
+.monthly .sub-title{color:#3b1010;border-color:#f1cfcf;background:linear-gradient(120deg,#fff8f8 0%,#fdeeed 100%)}
+.monthly .sub-title.key-insight-banner{border-color:#f1d1cf;background:linear-gradient(120deg,#fff0ef 0%,#ffe5e3 100%);color:#881a0b}
+.monthly .sub-title.action-required-banner{border-color:#f1dfc4;background:linear-gradient(120deg,#fff8ea 0%,#ffefcf 100%);color:#8a4b00}
+.monthly blockquote{border-left-color:#9c1a1a;background:#fceeed;color:#3b1515}
+.monthly a{color:#9c1a1a}
+.monthly thead th{background:#fdf1f1;color:#3b1515}
+.monthly .foot{border-top-color:#f1cfcf}
+@media print{.monthly .section-title,.monthly .sub-title{color:#4a0e0e!important}.monthly a{color:#4a0e0e}}
+</style>
+</head>
+<body>
+<nav style="background:#0f3f67;padding:10px 20px;display:flex;gap:16px;align-items:center;font:14px sans-serif;position:sticky;top:0;z-index:1000"><a href="/d2c-intel/" style="color:#fbbf24;text-decoration:none;font-weight:800">🌐 Hub</a><a href="/d2c-intel/reports/html/latest/hub.html" style="color:#93c5fd;text-decoration:none">📋 Weekly</a><a href="/d2c-intel/monthly/latest/index.html" style="color:#fde68a;text-decoration:none">📊 Monthly</a><a href="/d2c-intel/monthly/latest/index_en.html" style="color:#d1d5db;text-decoration:none">Monthly EN</a></nav>
+<div class="layout">
+<aside class="toc-panel"><div class="toc-title">바로가기 메뉴</div><ul><li class="l2"><a href="#sec-2">1. 경영진 요약</a></li><li class="l3"><a href="#sec-5">1.1 핵심 발견</a></li><li class="l3"><a href="#sec-6">1.2 이번 주 주요 지표</a></li><li class="l3"><a href="#sec-7">1.3 권장 실행 과제</a></li><li class="l2"><a href="#sec-8">2. 핵심 경보</a></li><li class="l3"><a href="#sec-11">2.1 핵심 법인 알림 맵</a></li><li class="l3"><a href="#sec-12">2.2 소비자 부정 알림</a></li><li class="l3"><a href="#sec-13">2.3 경쟁사 공격 행보</a></li><li class="l3"><a href="#sec-14">2.4 중국 브랜드 모멘텀 알림</a></li><li class="l2"><a href="#sec-15">3. 핵심 법인 풀 커버리지 대시보드</a></li><li class="l3"><a href="#sec-18">3.1 소비자 반응 모니터링</a></li><li class="l3"><a href="#sec-21">3.2 유통 채널 프로모션 모니터링</a></li></ul></aside>
+<main class="paper">
+<header class="cover"><h1>LG전자 글로벌 D2C 주간 시장 인텔리전스 리포트</h1><p>소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향</p><p class="meta">보고 기간: 2026-10-04(일) — 2026-10-10(토)</p></header>
+<section class="content"><h1 id="sec-1" class="report-title">LG전자 글로벌 D2C 주간 시장 인텔리전스 리포트 (R2, 핵심 법인 풀 커버리지)</h1>
+<p>소비자 반응 · 유통 채널 프로모션 · 가격 인텔리전스 · 중국 브랜드 동향</p>
+<p>보고 기간: 2026-10-04(일) — 2026-10-10(토)
+Prepared by: D2C Global Intelligence (OpenClaw Automated)
+Distribution: D2C Leadership / Confidential
+Date Generated: 2026-10-11
+Version: Weekly Vol.2026-10-11-R2</p>
+<hr class="section-divider" />
+<h2 id="sec-2" class="section-title">1. 경영진 요약</h2>
+<h3 id="sec-3" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul>
+<li>Amazon Prime Big Deal Days(10월 프라임 데이)가 이번 주 핵심 이벤트로 작동하며, LG OLED TV, LG UltraGear 모니터, LG gram 노트북 등 전 제품군에 걸쳐 역대 최저가 수준의 프로모션이 16개 핵심 법인에서 동시 집중 감지되었다. 총 331건의 LG 프로모션이 포착되어 전주(274건) 대비 +20.8% 급증하였다.</li>
+<li>중국 브랜드 위협이 TV를 넘어 HS(생활가전) 전선으로 급속 확산 중이다. 독일에서는 Haier MultiWash 세탁기(840€)와 Midea V5 세탁기(389€)가 동시에 프리미엄·보급 세그먼트를 양면 포위하고 있으며, 브라질에서는 Midea가 냉장고·세탁기 양 카테고리에서 LG 직접 비교 콘텐츠로 소비자 유입을 유도 중이다. 전체 중국 브랜드 위협 데이터는 296건으로 전주(255건) 대비 +16.1% 증가했다.</li>
+<li>튀르키예(TR) 시장에서 Hisense가 TV와 에어컨을 앞세워 공식 런칭(10월 9일)을 완료, 현지 미디어 10+ 채널에서 집중 보도되었다. 이는 기존 LG-Samsung 양강 구도였던 튀르키예 시장의 판도 변화를 예고하는 중대 신호다.</li>
+</ul>
+<h3 id="sec-4" class="sub-title action-required-banner">실행 필요</h3>
+<ol>
+<li><strong>[긴급 — DE/AU/BR, 세탁기/냉장고, 10월 말까지]</strong> Haier MultiWash(3드럼) 및 Midea V5(389€) 대응 HS 포지셔닝 강화: LG AI DD™ 차별화 메시지와 번들 프로모션을 독일·호주·브라질 D2C 채널에 즉시 투입하여 중국 브랜드의 가격 공세를 차단한다.</li>
+<li><strong>[우선 — TR, 전 제품, 11월 초까지]</strong> Hisense 튀르키예 공식 런칭에 대한 즉각 대응 전략 수립: 현지 채널 파트너십 강화, LG 브랜드 신뢰도·에너지 효율 메시지 중심의 디지털 캠페인을 Hepsiburada·Trendyol 플랫폼에 배치한다.</li>
+<li><strong>[지속 — 전 법인, gram/Monitor, 10월 내]</strong> Amazon Prime Big Deal Days 기간 LG gram·UltraGear 프로모션 소진율 및 전환율 모니터링 강화: 주요 미디어(Tom&#39;s Hardware, PCMag, PCGuide)에서의 노출 포지션을 주간 단위로 추적하고 쿠폰 코드 성과를 측정한다.</li>
+</ol>
+<hr class="section-divider" />
+<h2 id="sec-5" class="section-title">1.1 핵심 발견</h2>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Category</th><th>Finding</th><th>Country-Product</th><th>Severity</th><th>Detail</th><th>Source</th></tr></thead><tbody><tr><td>1</td><td>MS (TV)</td><td>LG OLED B6 65인치 $999 이하 + 무료 사운드바 번들로 프라임 데이 최대 히트</td><td>🇺🇸 US — TV</td><td>🟢 Normal</td><td>Mashable·IGN·Tom&#39;s Guide 등 주요 미디어 동시 커버</td><td><a href="https://mashable.com/tech/oct-8-lg-b6-oled-tv-free-soundbar-deal">🔗 Source</a></td></tr>
+<tr><td>2</td><td>MS (TV)</td><td>Hisense, 튀르키예 시장 공식 런칭 — TV+에어컨 이중 카테고리 동시 진입</td><td>🇹🇷 TR — TV</td><td>🔴 Critical</td><td>현지 10개 이상 미디어 보도, Technopat·Haber Dijital 포함</td><td><a href="https://www.technopat.net/2026/10/09/samsung-ve-lgye-yeni-rakip-hisense-turkiye-pazarina-girdi/">🔗 Source</a></td></tr>
+<tr><td>3</td><td>HS (세탁기)</td><td>Haier MultiWash 3드럼 세탁기 독일 Prime Day 출시 — LG WashTower 포지션 직접 위협</td><td>🇩🇪 DE — Washing Machine</td><td>🔴 Critical</td><td>mydealz 840€ 딜, Computer BILD 5성 리뷰 동시</td><td><a href="https://www.mydealz.de/deals/amazon-haier-multiwash-hamqd-410cbl9gn-84-waschmaschine-kostenloser-haier-airfryer-fur-84033-eur-inkl-versand-2848614">🔗 Source</a></td></tr>
+<tr><td>4</td><td>HS (냉장고)</td><td>Midea, 미국 Walmart·Costco 냉장고 라인 동시 확장 — 18.7 cu.ft. 보급형 가격 공세</td><td>🇺🇸 US — Refrigerator</td><td>🟡 Warning</td><td>Costco·Walmart 온라인 SKU 다수 등재 확인</td><td><a href="https://www.costco.com/midea-18.7-cu.-ft.-bottom-mount-freezer-refrigerator.product.4000050834.html">🔗 Source</a></td></tr>
+<tr><td>5</td><td>Monitor</td><td>LG UltraGear 45인치 OLED 곡면 $885→48% 할인으로 역대 최저가, 아마존 프라임 데이</td><td>🇺🇸 US — Monitor</td><td>🟢 Normal</td><td>Tom&#39;s Hardware 커버, PC Guide 다중 딜 포착</td><td><a href="https://www.tomshardware.com/monitors/gaming-monitors/make-the-jump-to-an-oled-gaming-monitor-and-save-48-percent-lgs-massive-45-inch-ultragear-screen-hits-its-lowest-price">🔗 Source</a></td></tr>
+<tr><td>6</td><td>MS (TV)</td><td>TCL, 독일 C8L 85인치 SQD-Mini LED &quot;LG·Samsung OLED 킬러&quot; 포지셔닝 — Computer BILD 극찬 리뷰</td><td>🇩🇪 DE — TV</td><td>🔴 Critical</td><td>Computer BILD: &quot;TCL C8L, 더 비싼 Top-OLED 능가&quot;</td><td><a href="https://www.computerbild.de/artikel/Tests-Fernseher-TCL-C8L-im-Test-Mini-LED-TV-schlaegt-2026-Top-OLEDs-und-kostet-weniger-be31f86-40956267.html">🔗 Source</a></td></tr>
+<tr><td>7</td><td>HS (세탁기)</td><td>Midea V5 세탁기 10kg 독일 388€, LG F4WB309YB 대비 30% 이하 가격 포지셔닝</td><td>🇩🇪 DE — Washing Machine</td><td>🟡 Warning</td><td>Mein-deal·Preis-King 동시 포착</td><td><a href="https://www.mein-deal.com/midea-waschmaschine-v5-serie/">🔗 Source</a></td></tr>
+<tr><td>8</td><td>LG gram</td><td>LG gram Pro 16 Core Ultra X7 OLED 신모델 글로벌 동시 출시 — 일본·대만·독일 시장 신호</td><td>🇨🇦 CA / 🇩🇪 DE — gram</td><td>🟢 Normal</td><td>Kakaku·PC Watch·MSN Japan 동시 보도</td><td><a href="https://news.kakaku.com/prdnews/cd=pc/ctcd=0020/id=159429/">🔗 Source</a></td></tr>
+<tr><td>9</td><td>HS (냉장고)</td><td>브라질 LG 냉장고 소비자 불만: 보증 사기(부품 교체·라벨 위조) 사례 보도</td><td>🇧🇷 BR — Refrigerator</td><td>🟡 Warning</td><td>Oeste Geral 소비자 피해 보도</td><td><a href="https://revistaoeste.com/oestegeral/2026/10/07/cliente-compra-geladeira-usada-com-garantia-de-tres-meses-e-apos-duas-semanas-tecnico-encontra-pecas-adaptadas-e-etiqueta-de-outro-modelo-escondida-na-parte-traseira/">🔗 Source</a></td></tr>
+<tr><td>10</td><td>MS (TV)</td><td>대만 LG 냉장고 구매 가이드 캠페인: 에너지효율·용량 선택 콘텐츠 5건 이상 동시 게재</td><td>🇹🇼 TW — Refrigerator</td><td>🟢 Normal</td><td>Techbang·Ifans·Prettyma3c 등 동시 커버</td><td><a href="https://www.techbang.com/posts/133878-lg-refrigerator-buying-guide-energy-saving-tips">🔗 Source</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-6" class="section-title">1.2 이번 주 주요 지표</h2>
+<div class="table-wrap"><table><thead><tr><th>Metric</th><th>This Week</th><th>vs Last Week</th><th>Trend</th></tr></thead><tbody><tr><td>총 수집 데이터 건수</td><td>824건</td><td>+66건 (+8.7%)</td><td>↑</td></tr>
+<tr><td>TV (MS) 데이터 건수</td><td>262건 (31.8%)</td><td>+1.1%p (전주 31.7%)</td><td>→</td></tr>
+<tr><td>냉장고 (HS) 데이터 건수</td><td>185건 (22.5%)</td><td>신규 추적 기준</td><td>↑</td></tr>
+<tr><td>세탁기 (HS) 데이터 건수</td><td>199건 (24.2%)</td><td>신규 추적 기준</td><td>↑</td></tr>
+<tr><td>모니터 데이터 건수</td><td>115건 (14.0%)</td><td>신규 추적 기준</td><td>↑</td></tr>
+<tr><td>LG gram 데이터 건수</td><td>63건 (7.6%)</td><td>신규 추적 기준</td><td>→</td></tr>
+<tr><td>중국 브랜드 위협 건수</td><td>296건</td><td>+41건 (+16.1%)</td><td>↑↑</td></tr>
+<tr><td>LG 프로모션 감지 건수</td><td>331건</td><td>+57건 (+20.8%)</td><td>↑↑</td></tr>
+<tr><td>부정 소비자 반응 건수</td><td>8건</td><td>+4건 (+100%)</td><td>↑↑</td></tr>
+<tr><td>커버리지 국가 수</td><td>13개국 (유효 데이터)</td><td>CL·TH·SG·EG 0건</td><td>↓</td></tr>
+<tr><td>LG 브랜드 데이터 건수</td><td>485건</td><td>전주 대비 추정 +7%</td><td>↑</td></tr>
+<tr><td>Samsung 경쟁 데이터 건수</td><td>41건</td><td>전주 대비 소폭 감소</td><td>↓</td></tr></tbody></table></div>
+<!-- CHART:product_donut -->
+
+<hr class="section-divider" />
+<h2 id="sec-7" class="section-title">1.3 권장 실행 과제</h2>
+<div class="table-wrap"><table><thead><tr><th>Priority</th><th>Action</th><th>Target Country</th><th>Target Product</th><th>Owner</th><th>Deadline</th></tr></thead><tbody><tr><td>🔴 P1</td><td>Hisense 튀르키예 런칭 대응: LG 브랜드 신뢰도 캠페인(에너지 효율·A/S 강점) Hepsiburada·Trendyol 즉시 집행</td><td>🇹🇷 TR</td><td>TV, 냉장고, 세탁기</td><td>TR 법인 D2C팀</td><td>2026-10-25</td></tr>
+<tr><td>🔴 P1</td><td>Haier MultiWash·Midea V5 대응: LG AI DD™ + TWINWash 번들 프로모션 독일·호주 D2C 투입</td><td>🇩🇪 DE / 🇦🇺 AU</td><td>세탁기</td><td>DE·AU 법인 HS팀</td><td>2026-10-31</td></tr>
+<tr><td>🔴 P1</td><td>브라질 냉장고 소비자 불만(보증 사기) 모니터링 강화 및 LG 공식 AS 안내 게시</td><td>🇧🇷 BR</td><td>냉장고</td><td>BR 법인 CS팀</td><td>2026-10-18</td></tr>
+<tr><td>🟡 P2</td><td>TCL Mini-LED &quot;OLED 킬러&quot; 독일·이탈리아 리뷰 대응: LG OLED 색 정확도·번인 비교 콘텐츠 배포</td><td>🇩🇪 DE / 🇮🇹 IT</td><td>MS TV</td><td>EMEA MS팀</td><td>2026-10-28</td></tr>
+<tr><td>🟡 P2</td><td>LG UltraGear 1000Hz 신제품 글로벌 론칭 프리뷰 콘텐츠 미디어 배포</td><td>🇺🇸 US / 🇩🇪 DE / 🇧🇷 BR</td><td>Monitor</td><td>Global MS팀</td><td>2026-10-25</td></tr>
+<tr><td>🟡 P2</td><td>대만 냉장고 구매 가이드 캠페인 성과 분석 후 한국·싱가포르·사우디 확산 검토</td><td>🇹🇼 TW → 🇸🇦 SA</td><td>냉장고</td><td>APAC HS팀</td><td>2026-11-07</td></tr>
+<tr><td>🟢 P3</td><td>LG gram Pro 16 신색상(블랙) 출시 관련 캐나다·독일 미디어 반응 추적</td><td>🇨🇦 CA / 🇩🇪 DE</td><td>LG gram</td><td>IT제품팀</td><td>2026-11-07</td></tr>
+<tr><td>🟢 P3</td><td>스페인 AI 세탁건조기(28% 절전·평생 모터 보증) 성과 분석 및 프랑스·이탈리아 확산</td><td>🇪🇸 ES → 🇫🇷 FR / 🇮🇹 IT</td><td>세탁기</td><td>EMEA HS팀</td><td>2026-11-14</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-8" class="section-title">2. 핵심 경보</h2>
+<h3 id="sec-9" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul>
+<li>Hisense의 튀르키예 공식 진출(2026-10-09)은 단순 TV 브랜드 확장이 아닌 TV+에어컨 이중 전선 개방으로, 향후 냉장고·세탁기 추가 진입 가능성이 높아 LG 전 HS 카테고리에 대한 선제 방어가 시급하다.</li>
+<li>독일 세탁기 시장에서 Haier와 Midea가 각각 840€(프리미엄) 및 389€(보급) 양극 가격대를 동시 공략 중이며, LG의 519~642€ 미드레인지 포지션이 양면 압박에 노출되어 있다.</li>
+<li>부정 소비자 반응이 전주 4건에서 이번 주 8건으로 두 배 증가했으며, LG 세탁기·건조기 소음 불만(미국), LG 냉장고 압축기 고장(독일), 브라질 냉장고 보증 사기 피해가 주요 내용으로 즉각적인 CS 대응이 필요하다.</li>
+</ul>
+<h3 id="sec-10" class="sub-title action-required-banner">실행 필요</h3>
+<ol>
+<li><strong>[TR, 전 제품, 즉시]</strong> Hisense 튀르키예 런칭 대응 워룸 구성 — LG TR 법인과 글로벌 MS·HS팀 합동 긴급 대응 플랜 수립.</li>
+<li><strong>[DE, 세탁기, 10월 내]</strong> Midea V5·Haier MultiWash 대비 LG 세탁기 TCO(Total Cost of Ownership) 비교 자료 현지화 배포 — 에너지 효율 등급, A/S 네트워크 차별점 강조.</li>
+<li><strong>[BR, 냉장고, 10월 18일까지]</strong> 브라질 LG 냉장고 정품 인증 및 공식 AS 절차 소비자 고지 캠페인 즉시 집행 — SNS·공식 홈페이지 동시 게재.</li>
+</ol>
+<hr class="section-divider" />
+<h2 id="sec-11" class="section-title">2.1 핵심 법인 알림 맵</h2>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Alert</th><th>Severity</th><th>근거</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 미국 (US)</td><td>LG 프라임 데이 TV·모니터·냉장고·세탁기·gram 동시 최저가 프로모션 집중 감지; TCL·Hisense·Haier·Midea 전 제품군 경쟁 가속</td><td>🟡 Warning</td><td>38건 TV, 25건 냉장고, 33건 세탁기, 23건 모니터, 20건 gram 프로모션</td><td><a href="https://www.tomsguide.com/live/news/october-prime-day-tv-deals-my-top-picks-2026">🔗 Source</a></td></tr>
+<tr><td>🇨🇦 캐나다 (CA)</td><td>Midea 냉장고 Walmart·Canadian Appliance 확장; Haier 세탁기 Home Depot 가시성 증가</td><td>🟡 Warning</td><td>CA 18건 중 중국 브랜드 13건 집중</td><td><a href="https://www.walmart.ca/en/c/kp/midea-fridge">🔗 Source</a></td></tr>
+<tr><td>🇬🇧 영국 (UK)</td><td>Haier 냉장고 Currys·Marks Electrical 등 6개 주요 리테일러 동시 확장; TCL·Hisense TV 가격 공세</td><td>🔴 Critical</td><td>영국 Haier 냉장고 8건 리테일러 coverage 포착</td><td><a href="https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier">🔗 Source</a></td></tr>
+<tr><td>🇩🇪 독일 (DE)</td><td>Haier MultiWash + Midea V5 세탁기 동시 공세; TCL C8L OLED 킬러 리뷰; LG 세탁기 가격 압박</td><td>🔴 Critical</td><td>독일 중국 브랜드 33건 최다 수준, Haier 세탁기 5건 집중</td><td><a href="https://www.mydealz.de/deals/amazon-haier-multiwash-hamqd-410cbl9gn-84-waschmaschine-kostenloser-haier-airfryer-fur-84033-eur-inkl-versand-2848614">🔗 Source</a></td></tr>
+<tr><td>🇫🇷 프랑스 (FR)</td><td>Haier·Midea 냉장고 및 세탁기 확산; TCL 85·75인치 TV 가격 하락; LG 25% 할인 쿠폰 경쟁</td><td>🟡 Warning</td><td>FR 60건 중 중국 브랜드 28건 (47%)</td><td><a href="https://www.lefigaro.fr/bons-plans/high-tech/tcl-casse-les-prix-ce-jeudi-8-octobre-avec-cette-tv-85-pouces-qd-mini-led-20261008">🔗 Source</a></td></tr>
+<tr><td>🇪🇸 스페인 (ES)</td><td>LG AI 세탁건조기 28% 절전·평생 모터 보증 캠페인 호평; Midea 세탁기 저가 침투</td><td>🟢 Normal</td><td>Marca 보도 호의적, Midea 경쟁 모니터링 필요</td><td><a href="https://www.marca.com/regalos-promociones/2026/10/09/6ac8e32922601d92568b45c1.html">🔗 Source</a></td></tr>
+<tr><td>🇮🇹 이탈리아 (IT)</td><td>LG OLED 역대 최저가(-47%) 프라임 데이 집중; TCL·Hisense TV 33~46% 할인 동시 경쟁; Midea 세탁기 199€ 보급 공세</td><td>🟡 Warning</td><td>IT 71건 중 TV 27건, 세탁기 15건</td><td><a href="https://www.smartworld.it/tecnologia/lg-g6-oled-evo-65-pollici-offerta-minimo-storico.html">🔗 Source</a></td></tr>
+<tr><td>🇧🇷 브라질 (BR)</td><td>LG OLED C6 최저가 프로모션 활발; Midea 세탁기·냉장고 LG 직접 비교 콘텐츠 대거 생산; 소비자 냉장고 보증 불만</td><td>🟡 Warning</td><td>BR 86건, Midea 비교 콘텐츠 10건+</td><td><a href="https://gatocheck.com.br/maquina-de-lavar-roupas-lg-ou-midea/">🔗 Source</a></td></tr>
+<tr><td>🇲🇽 멕시코 (MX)</td><td>LG TV·냉장고 프로모션 감지; Midea 세탁건조기 TikTok 바이럴; Haier 냉장고 스페인어권 유통</td><td>🟡 Warning</td><td>MX 13건 소량, 중국 브랜드 3건 확인</td><td><a href="https://main.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/secadoras-de-ropa-midea/">🔗 Source</a></td></tr>
+<tr><td>🇨🇱 칠레 (CL)</td><td>이번 주 수집 데이터 0건 — 모니터링 공백</td><td>🟡 Warning</td><td>전주 4건 대비 완전 소실</td><td>❓<a href="https://www.google.com/search?q=LG+Chile+promotion+October+2026">출처 미확인 — 검색어: &quot;LG Chile promotion October 2026&quot;</a></td></tr>
+<tr><td>🇹🇭 태국 (TH)</td><td>이번 주 수집 데이터 0건 — 모니터링 공백 (TW에서 태국 UltraGear 신제품 출시 간접 신호 감지)</td><td>🟡 Warning</td><td>TW 데이터에서 태국 UltraGear 출시 신호 1건</td><td><a href="https://brickinfotv.com/news/332294">🔗 Source</a></td></tr>
+<tr><td>🇦🇺 호주 (AU)</td><td>Haier 냉장고·세탁기 JB Hi-Fi·Harvey Norman·The Good Guys 전 주요 리테일러 동시 침투; TCL TV 확산</td><td>🔴 Critical</td><td>AU 중국 브랜드 27건, Haier 냉장고 6채널 포착</td><td><a href="https://www.jbhifi.com.au/brands/haier/appliances/fridges-freezers">🔗 Source</a></td></tr>
+<tr><td>🇹🇼 대만 (TW)</td><td>LG 냉장고 구매 가이드 마케팅 캠페인 집중(5건 이상); LG WashTower 구매 가이드 활성; Haier 에너지 보조금 3000 TWD 캠페인 경쟁</td><td>🟡 Warning</td><td>TW 65건, 냉장고 17건·세탁기 16건 균형</td><td><a href="https://www.newspie.com.tw/lg-20261006/">🔗 Source</a></td></tr>
+<tr><td>🇸🇬 싱가포르 (SG)</td><td>이번 주 수집 데이터 0건 — 모니터링 공백</td><td>🟡 Warning</td><td>전주 대비 완전 소실</td><td>❓<a href="https://www.google.com/search?q=LG+Singapore+promotion+October+2026">출처 미확인 — 검색어: &quot;LG Singapore promotion October 2026&quot;</a></td></tr>
+<tr><td>🇪🇬 이집트 (EG)</td><td>이번 주 수집 데이터 0건 — 모니터링 공백</td><td>🟡 Warning</td><td>지속적 데이터 공백</td><td>❓<a href="https://www.google.com/search?q=LG+Egypt+refrigerator+2026">출처 미확인 — 검색어: &quot;LG Egypt refrigerator 2026&quot;</a></td></tr>
+<tr><td>🇸🇦 사우디아라비아 (SA)</td><td>LG USA 자산 활용한 SA 채널 프로모션 78건 포착; Haier·Hisense 중동 확장 신호; gram·Monitor 공식 사이트 중심</td><td>🟡 Warning</td><td>SA 78건, 제품별 균형 양호</td><td><a href="https://www.bestbuy.com/site/lg-appliances/lg-refrigerators/pcmcat133000050035.c?id=pcmcat133000050035">🔗 Source</a></td></tr>
+<tr><td>🇹🇷 튀르키예 (TR)</td><td><strong>[최고 경보]</strong> Hisense 공식 런칭(10월 9일) — TV+에어컨 동시 진입, 현지 10개 미디어 집중 보도</td><td>🔴 Critical</td><td>TR 70건, Hisense TV 10건+ 집중 포착</td><td><a href="https://www.technopat.net/2026/10/09/samsung-ve-lgye-yeni-rakip-hisense-turkiye-pazarina-girdi/">🔗 Source</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-12" class="section-title">2.2 소비자 부정 알림</h2>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Country</th><th>Product</th><th>Issue</th><th>Severity</th><th>Source</th></tr></thead><tbody><tr><td>1</td><td>🇺🇸 미국 (US)</td><td>세탁기/건조기</td><td>LG 프론트로더 건조기 소음(삐걱거림) 불만 TikTok 바이럴</td><td>🟡 Warning</td><td><a href="https://www.tiktok.com/discover/how-to-fix-a-squeaky-dryer-lg-front-loader">🔗 Source</a></td></tr>
+<tr><td>2</td><td>🇺🇸 미국 (US)</td><td>세탁기</td><td>GE 세탁기 고장 후 수리점에서 LG &gt; Samsung 권고 — LG 내구성 긍정 신호 (수리비 낮음)</td><td>🟢 Normal</td><td><a href="https://www.thecooldown.com/green-home/lg-washing-machine-reviews-repair-costs/">🔗 Source</a></td></tr>
+<tr><td>3</td><td>🇩🇪 독일 (DE)</td><td>세탁기</td><td>LG 세탁기/건조기 12대 일반 문제 리스트 기사 노출 (House Digest)</td><td>🟡 Warning</td><td><a href="https://www.housedigest.com/2281825/common-problems-lg-washers-dryers/">🔗 Source</a></td></tr>
+<tr><td>4</td><td>🇩🇪 독일 (DE)</td><td>냉장고</td><td>LG 냉장고 $3,000 구매 후 압축기 2회 고장 — &quot;$720 냉장고&quot; 소비자 분노 기사</td><td>🔴 Critical</td><td><a href="https://www.thecooldown.com/green-home/lg-refrigerator-compressor-failure-issues-customer-experience/">🔗 Source</a></td></tr>
+<tr><td>5</td><td>🇧🇷 브라질 (BR)</td><td>냉장고</td><td>보증 3개월 중고 냉장고 구매 후 2주 만에 부품 교체·라벨 위조 발각 (Oeste Geral 보도)</td><td>🔴 Critical</td><td><a href="https://revistaoeste.com/oestegeral/2026/10/07/cliente-compra-geladeira-usada-com-garantia-de-tres-meses-e-apos-duas-semanas-tecnico-encontra-pecas-adaptadas-e-etiqueta-de-outro-modelo-escondida-na-parte-traseira/">🔗 Source</a></td></tr>
+<tr><td>6</td><td>🇩🇪 독일 (DE)</td><td>세탁기</td><td>저온(30도) 세탁 반복 시 고무 패킹 곰팡이 냄새 불만 기사</td><td>🟡 Warning</td><td><a href="https://www.homeandsmart.de/waschmaschine-stinkt-dichtung-schublade-reinigen-40192a-0000-265805">🔗 Source</a></td></tr>
+<tr><td>7</td><td>🇨🇳 중국(TW 간접)</td><td>냉장고</td><td>LG 중국 냉장고 850위안 가짜 수리, 7회 신고 미해결 — TW 채널 통한 간접 노출</td><td>🟡 Warning</td><td><a href="https://weibo.com/2/detail/comos:niusnxt6397080">🔗 Source</a></td></tr>
+<tr><td>8</td><td>🇺🇸 미국 (US)</td><td>세탁기</td><td>LG 전통 모터와 인버터 모터 차이 소비자 혼란 — 독일어권 콘텐츠 글로벌 노출</td><td>🟢 Normal</td><td><a href="https://www.waschmaschinen-berater.de/ratgeber/was-ist-der-unterschied-zwischen-einem-inverter-motor-und-einem-klassischen-motor-bei-waschmaschinen.html">🔗 Source</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-13" class="section-title">2.3 경쟁사 공격 행보</h2>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Country</th><th>Competitor</th><th>Action</th><th>LG Impact</th><th>Source</th></tr></thead><tbody><tr><td>1</td><td>🇹🇷 튀르키예 (TR)</td><td>Hisense</td><td>2026-10-09 공식 튀르키예 런칭 — TV+에어컨 동시 진입, 현지 유통사·미디어 총력 집중</td><td>LG-Samsung 양강 체제 붕괴 위험, 중장기 HS 확장 선제 방어 필요</td><td><a href="https://www.donanimhaber.net.tr/teknoloji-haberleri/hisense-turkiye-lansmaninda-volkan-demirel-ve-caner-erkin-karsi-karsiya-geldi/">🔗 Source</a></td></tr>
+<tr><td>2</td><td>🇩🇪 독일 (DE)</td><td>Haier</td><td>MultiWash 3드럼 세탁기 840€ Prime Day 출시, 무료 에어프라이어 번들 — Computer BILD 호평 리뷰</td><td>LG WashTower 대비 직접 경쟁, 프리미엄 세탁기 포지션 위협</td><td><a href="https://www.computerbild.de/artikel/Tests-Haushalt-Drei-Trommeln-ein-Waschgang-So-schlaegt-sich-Haiers-MultiWash-im-Test-3efe386-41232841.html">🔗 Source</a></td></tr>
+<tr><td>3</td><td>🇩🇪 독일 (DE)</td><td>TCL</td><td>C8L 65/85인치 SQD-Mini LED &quot;LG·Samsung Top-OLED 능가&quot; 리뷰 — Computer BILD, Golem 동시 극찬</td><td>LG OLED 프리미엄 가격 정당성 훼손, 미드레인지 고객 이탈 위험</td><td><a href="https://www.computerbild.de/artikel/Tests-Fernseher-TCL-C8L-im-Test-Mini-LED-TV-schlaegt-2026-Top-OLEDs-und-kostet-weniger-be31f86-40956267.html">🔗 Source</a></td></tr>
+<tr><td>4</td><td>🇺🇸 미국 (US)</td><td>TCL</td><td>65<del>98인치 QM8L SQD-Mini LED Prime Day 50</del>57% 할인, Walmart·Best Buy 동시 최저가</td><td>LG QNED 미드레인지 및 대형 OLED 가격 포지션 압박</td><td><a href="https://lifehacker.com/tech/tcl-65-inch-mini-led-qled-tv-sale-october-prime-day-2026">🔗 Source</a></td></tr>
+<tr><td>5</td><td>🇺🇸 미국 (US)</td><td>Midea</td><td>냉장고 Walmart·Costco·Amazon 동시 SKU 확장, 18.7 cu.ft. 보급형 공략</td><td>LG 보급~중가형 냉장고 시장 점유율 위협</td><td><a href="https://www.costco.com/midea-18.7-cu.-ft.-bottom-mount-freezer-refrigerator.product.4000050834.html">🔗 Source</a></td></tr>
+<tr><td>6</td><td>🇬🇧 영국 (UK)</td><td>Haier</td><td>냉장고·냉동고 Currys·Marks Electrical·Appliances Direct·PriceSpy 등 6개 채널 동시 확장</td><td>LG UK 냉장고 유통 채널 점유율 축소 위험</td><td><a href="https://www.currys.co.uk/appliances/refrigeration/fridge-freezers/haier">🔗 Source</a></td></tr>
+<tr><td>7</td><td>🇦🇺 호주 (AU)</td><td>Haier</td><td>냉장고 JB Hi-Fi·Harvey Norman·The Good Guys·Bing Lee·Joyce Mayne 전 주요 유통망 침투</td><td>LG AU 냉장고·세탁기 유통 점유율 직접 위협</td><td><a href="https://www.jbhifi.com.au/collections/haier-fridges">🔗 Source</a></td></tr>
+<tr><td>8</td><td>🇫🇷 프랑스 (FR)</td><td>TCL</td><td>85인치 QD-Mini LED 10월 8일, 75인치 900€ 이하 10월 10일 연속 가격 파괴</td><td>LG 대형 TV 판매 전환율 저하 우려</td><td><a href="https://www.lefigaro.fr/bons-plans/high-tech/10-octobre-2026-cette-tv-tcl-75-pouces-passe-sous-les-900-euros-le-bon-plan-xxl-qui-secoue-le-salon-20261010">🔗 Source</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-14" class="section-title">2.4 중국 브랜드 모멘텀 알림</h2>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Brand</th><th>Signal</th><th>Threat</th><th>Source</th></tr></thead><tbody><tr><td>🇹🇷 튀르키예 (TR)</td><td>Hisense</td><td>TV+에어컨 공식 런칭(10/09), 현지 유명 축구선수 앰배서더 활용 대규모 홍보</td><td>🔴 Critical — 튀르키예 시장 신규 진입자 효과로 LG TV 시장점유율 즉각 위협</td><td><a href="https://www.technopat.net/2026/10/09/samsung-ve-lgye-yeni-rakip-hisense-turkiye-pazarina-girdi/">🔗 Source</a></td></tr>
+<tr><td>🇩🇪 독일 (DE)</td><td>Haier</td><td>MultiWash 3드럼 세탁기 840€, 무료 에어프라이어 번들 — Computer BILD 최고 점수</td><td>🔴 Critical — LG WashTower 프리미엄 포지션 직접 경쟁</td><td><a href="https://www.computerbild.de/artikel/Tests-Haushalt-Drei-Trommeln-ein-Waschgang-So-schlaegt-sich-Haiers-MultiWash-im-Test-3efe386-41232841.html">🔗 Source</a></td></tr>
+<tr><td>🇩🇪 독일 (DE)</td><td>Midea</td><td>V5 세탁기 10kg 389€ — LG F4WB309YB(519€) 대비 25% 이상 저렴</td><td>🟡 Warning — 보급형 세탁기 가격 기준점 하락</td><td><a href="https://www.mein-deal.com/midea-waschmaschine-v5-serie/">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>Midea</td><td>Walmart·Costco·Amazon 냉장고 및 세탁기 동시 유통망 확장</td><td>🟡 Warning — 보급형 냉장고/세탁기 가격 경쟁 심화</td><td><a href="https://www.amazon.com/Washers-Dryers-MIDEA-Laundry-Appliances/s?rh=n%3A2383576011%2Cp_4%3AMIDEA">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>Haier</td><td>Amazon·eBay·Klarna 세탁기 확장; Haier 냉장고 Best Buy 정식 판매</td><td>🟡 Warning — 미국 가전 유통채널 내 Haier 가시성 급증</td><td><a href="https://www.bestbuy.com/site/shop/haier-refrigerator">🔗 Source</a></td></tr>
+<tr><td>🇬🇧 영국 (UK)</td><td>Haier</td><td>냉장고 6개 주요 리테일러 + 세탁기 Amazon·Kelkoo·PriceSpy 동시 확장</td><td>🔴 Critical — 영국 HS 전 채널 침투 완료 단계</td><td><a href="https://www.appliancesdirect.co.uk/bct/refrigeration/fridge-freezers/haier">🔗 Source</a></td></tr>
+<tr><td>🇬🇧 영국 (UK)</td><td>Midea</td><td>냉장고·세탁기 PriceSpy·ao.com·Amazon UK 확장</td><td>🟡 Warning — 보급형 포지션 강화</td><td><a href="https://pricespy.co.uk/category.php?k=1300&t=10481">🔗 Source</a></td></tr>
+<tr><td>🇦🇺 호주 (AU)</td><td>Haier</td><td>JB Hi-Fi·Harvey Norman·Bing Lee·Good Guys·Joyce Mayne 냉장고+세탁기 전 채널 동시</td><td>🔴 Critical — AU 주요 리테일러 전면 점령</td><td><a href="https://www.jbhifi.com.au/collections/haier-washing-machines">🔗 Source</a></td></tr>
+<tr><td>🇧🇷 브라질 (BR)</td><td>Midea</td><td>세탁기 LG 직접 비교 콘텐츠 10건+ (gatocheck.com.br 시리즈) 소비자 유입</td><td>🟡 Warning — 검색 단계에서 LG→Midea 전환 유도</td><td><a href="https://gatocheck.com.br/maquina-de-lavar-roupas-lg-ou-midea/">🔗 Source</a></td></tr>
+<tr><td>🇫🇷 프랑스 (FR)</td><td>Midea</td><td>PortaSplit 에어컨 999€ Prime Day, 냉장고 확장, BFM TV &quot;가격 대비 품질 1위&quot; 보도</td><td>🟡 Warning — 프랑스 소비자 중국 브랜드 수용도 증가 신호</td><td><a href="https://www.bfmtv.com/pratique/maison/midea-s-impose-sur-le-marche-du-chauffage-vu-le-rapport-qualite-prix-de-ce-modele-on-comprend-pourquoi_AB-202610110020.html">🔗 Source</a></td></tr>
+<tr><td>🇨🇦 캐나다 (CA)</td><td>Midea</td><td>Walmart Canada·Canadian Appliance·Costco Canada 냉장고+세탁기 동시 확장</td><td>🟡 Warning — 캐나다 보급형 가전 포지션 강화</td><td><a href="https://www.costco.ca/midea-4.7-cu.ft.-top-load-washing-machine-with-8-pre-set-wash-cycles.product.4000231961.html">🔗 Source</a></td></tr>
+<tr><td>🇮🇹 이탈리아 (IT)</td><td>Midea</td><td>세탁기 199€(-23%), 식기세척기 260€(-19%) 동시 프라임 데이 공세</td><td>🟡 Warning — 이탈리아 보급형 가전 가격 기준점 하락</td><td><a href="https://www.scontify.net/elettrodomestici/grandi-elettrodomestici/midea-mf110w70-w-it-lavatrice-slim-caricamento-frontale-7-kg-15-programmi-profondita-465-cm-giri-1200-rpm-bianco-livello-rumorosita-centrifuga-78-dba-classe-d/662059/">🔗 Source</a></td></tr>
+<tr><td>🇹🇼 대만 (TW)</td><td>Haier</td><td>에너지효율 온수기 시장점유율 1위 + 3000 TWD 환급 캠페인</td><td>🟡 Warning — TW 가전 보조금 마케팅 LG 에너지 캠페인과 직접 경쟁</td><td><a href="https://www.ftvnews.com.tw/news/detail/2026A07W0542">🔗 Source</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-15" class="section-title">3. 핵심 법인 풀 커버리지 대시보드</h2>
+<h3 id="sec-16" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul>
+<li>Amazon Prime Big Deal Days(10월 프라임 데이)가 전 법인에 걸쳐 주간 프로모션 활동을 전주 대비 +20.8% 급증시켰으며, LG OLED TV·UltraGear·gram·냉장고·세탁기 전 제품군이 동시 최저가 경쟁에 노출되고 있다.</li>
+<li>소비자 반응 데이터(125건)에서 LG gram Pro 16 신제품 관심도 및 LG UltraGear OLED 모니터 만족도는 긍정적이나, 냉장고 압축기 고장(DE)과 세탁기 소음 불만(US)이 부정 신호로 주목해야 한다.</li>
+<li>중국 브랜드 경쟁 대응 인텔리전스가 342건으로 전체 필라 중 최대 비중을 차지하며, 단순 TV 경쟁을 넘어 HS 전 카테고리 위협으로 확산된 구조적 변화를 보여준다.</li>
+</ul>
+<h3 id="sec-17" class="sub-title action-required-banner">실행 필요</h3>
+<ol>
+<li><strong>[전 법인, 프로모션 최적화]</strong> Amazon Prime Big Deal Days 기간 LG D2C 채널 트래픽·전환율 실시간 모니터링 및 경쟁사 가격 대비 LG 가치 메시지 강화.</li>
+<li><strong>[DE/AU/UK, HS 방어]</strong> Haier·Midea 냉장고·세탁기 유통 침투에 대한 즉각 채널 점유율 조사 실시.</li>
+<li><strong>[CL/TH/SG/EG, 데이터 공백 해소]</strong> 4개국 모니터링 소스 추가 발굴 및 현지 법인 협력 강화.</li>
+</ol>
+<hr class="section-divider" />
+<h2 id="sec-18" class="section-title">3.1 소비자 반응 모니터링</h2>
+<h3 id="sec-19" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul>
+<li>LG UltraGear OLED 모니터(27인치~45인치)에 대한 미국·이탈리아·브라질에서 전문가 리뷰 및 소비자 반응이 전반적으로 긍정적이며, &quot;역대 최저가&quot;라는 키워드가 구매 결정을 촉진하고 있다.</li>
+<li>LG gram Pro 16의 Core Ultra X7·OLED 패널 신모델에 대한 일본·대만·독일 미디어 관심이 집중되고 있으며, 전문가 유튜브 리뷰(&quot;솔직 리뷰&quot; 컨셉)가 구매 설득력을 높이고 있다.</li>
+<li>LG 냉장고 압축기 고장 이슈(독일·미국)가 소비자 부정 감성의 핵심을 차지하며, 이는 중국 브랜드로의 전환 구실을 제공할 위험이 있다.</li>
+</ul>
+<h3 id="sec-20" class="sub-title action-required-banner">실행 필요</h3>
+<ol>
+<li><strong>[DE/US, 냉장고, 즉시]</strong> LG 냉장고 압축기 보증 정책 명시 및 소비자 신뢰 회복 콘텐츠 D2C 채널 배포.</li>
+<li><strong>[US/IT/BR, Monitor, 10월 내]</strong> UltraGear OLED 긍정 리뷰 공식 인용 및 소셜 미디어 앰플리파이 캠페인 집행.</li>
+<li><strong>[JP/TW/DE, gram, 10월 내]</strong> gram Pro 16 전문가 리뷰 연계 D2C 랜딩페이지 최적화 및 사전등록 캠페인.</li>
+</ol>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Product</th><th>Signal Type</th><th>Key Finding</th><th>Sentiment</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 미국 (US)</td><td>TV</td><td>Expert Review</td><td>Reddit r/LGOLED: LG OLED 77&quot; C6H 1주 사용 긍정 후기</td><td>🟢 긍정</td><td><a href="https://www.reddit.com/r/LGOLED/comments/1wxl2fi/lg_oled_77_c6h_my_thoughts_after_a_week_of_owning/">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>세탁기</td><td>Consumer Complaint</td><td>LG 건조기 소음 TikTok 바이럴 불만</td><td>🔴 부정</td><td><a href="https://www.tiktok.com/discover/how-to-fix-a-squeaky-dryer-lg-front-loader">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>세탁기</td><td>Market Signal</td><td>Consumer Reports 추천 LG 프론트로더 — 에너지 효율 최우수</td><td>🟢 긍정</td><td><a href="https://www.slashgear.com/2274024/lg-washing-machine-low-usage-cost-consumer-reports/">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>세탁기</td><td>Market Signal</td><td>GE 수리점 권고: LG &gt; Samsung (수리비 낮음)</td><td>🟢 긍정</td><td><a href="https://www.thecooldown.com/green-home/lg-washing-machine-reviews-repair-costs/">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>Monitor</td><td>Market Signal</td><td>RTINGS.com &quot;27인치 최고 모니터&quot; 선정, PCWorld Best 2026 포함</td><td>🟢 긍정</td><td><a href="https://www.rtings.com/monitor/reviews/best/by-size/27-inch">🔗 Source</a></td></tr>
+<tr><td>🇩🇪 독일 (DE)</td><td>냉장고</td><td>Consumer Complaint</td><td>LG 냉장고 압축기 2회 고장 — &quot;$720 냉장고&quot; 소비자 분노 기사</td><td>🔴 부정</td><td><a href="https://www.thecooldown.com/green-home/lg-refrigerator-compressor-failure-issues-customer-experience/">🔗 Source</a></td></tr>
+<tr><td>🇩🇪 독일 (DE)</td><td>냉장고</td><td>Expert Review</td><td>Stiftung Warentest LG GMG861EPAE 공식 리뷰</td><td>🟢 긍정</td><td><a href="https://www.test.de/Kuehlschraenke-im-Test-4735177-detail/320000026440!IC23068-0856-00/">🔗 Source</a></td></tr>
+<tr><td>🇩🇪 독일 (DE)</td><td>세탁기</td><td>Expert Review</td><td>Stiftung Warentest LG F4WX809YC 공식 리뷰</td><td>🟢 긍정</td><td><a href="https://www.test.de/Waschmaschinen-im-Test-4296800-detail/320000032050!25-3/">🔗 Source</a></td></tr>
+<tr><td>🇩🇪 독일 (DE)</td><td>세탁기</td><td>Consumer Complaint</td><td>LG 세탁기 12개 일반 문제 기사 노출</td><td>🟡 혼재</td><td><a href="https://www.housedigest.com/2281825/common-problems-lg-washers-dryers/">🔗 Source</a></td></tr>
+<tr><td>🇧🇷 브라질 (BR)</td><td>냉장고</td><td>Consumer Complaint</td><td>보증 중고 냉장고 2주 후 부품 위조 발각</td><td>🔴 부정</td><td><a href="https://revistaoeste.com/oestegeral/2026/10/07/cliente-compra-geladeira-usada-com-garantia-de-tres-meses-e-apos-duas-semanas-tecnico-encontra-pecas-adaptadas-e-etiqueta-de-outro-modelo-escondida-na-parte-traseira/">🔗 Source</a></td></tr>
+<tr><td>🇮🇹 이탈리아 (IT)</td><td>Monitor</td><td>Expert Review</td><td>TechRadar: LG 45인치 커브드 OLED $500 할인 — &quot;구매 욕구 최고&quot;</td><td>🟢 긍정</td><td><a href="https://www.techradar.com/computing/monitors/ive-always-wanted-to-go-back-to-a-curved-gaming-monitor-and-this-lg-beauty-with-usd500-off-is-doing-a-great-job-of-tempting-me">🔗 Source</a></td></tr>
+<tr><td>🇩🇪 독일 (DE)</td><td>Monitor</td><td>Expert Review</td><td>LG UltraGear 45인치 OLED 240Hz 리뷰 — WikiSimRacing 호평</td><td>🟢 긍정</td><td><a href="https://wikisimracing.com/lg-45-ultragear-oled-review/">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>LG gram</td><td>Expert Review</td><td>YouTube: &quot;LG gram Pro 솔직 리뷰&quot; 전문가 언박싱</td><td>🟢 긍정</td><td><a href="https://www.youtube.com/watch?v=-dDxxlCmaWM">🔗 Source</a></td></tr>
+<tr><td>🇹🇼 대만 (TW)</td><td>세탁기</td><td>Market Signal</td><td>WashTower PTT/Dcard 구매 가이드 활성화</td><td>🟢 긍정</td><td><a href="https://vocus.cc/article/6aa22c0afd8978000101464f">🔗 Source</a></td></tr>
+<tr><td>🇹🇷 튀르키예 (TR)</td><td>Monitor</td><td>Market Signal</td><td>Technopat: LG UltraGear 27G523B 4400 TL 구매 여부 커뮤니티 토론</td><td>🟡 혼재</td><td><a href="https://www.technopat.net/sosyal/konu/lg-ultragear-27g523b-b-27-200-hz-1ms-monitor-4400-tl-alinir-mi.4187871/">🔗 Source</a></td></tr>
+<tr><td>🇸🇦 사우디 (SA)</td><td>Monitor</td><td>Market Signal</td><td>Newegg LG UltraGear 27GL83A 소비자 리뷰 다수</td><td>🟢 긍정</td><td><a href="https://www.newegg.com/lg-27gl83a-b-27-qhd-144-hz-ultragear-ips/p/N82E16824026281">🔗 Source</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-21" class="section-title">3.2 유통 채널 프로모션 모니터링</h2>
+<h3 id="sec-22" class="sub-title key-insight-banner">핵심 인사이트</h3>
+<ul>
+<li>Amazon Prime Big Deal Days가 이번 주 전 법인 프로모션의 핵심 트리거로 작동하며, LG OLED TV·UltraGear 모니터·gram 노트북이 동시에 역대 최저가 경쟁에 돌입했다. 특히 미국(139건), 독일(109건), 이탈리아(71건)에서 프로모션 밀도가 가장 높게 나타났다.</li>
+<li>스페인에서 LG AI 세탁건조기 &quot;28% 절전·평생 모터 보증&quot; 캠페인이 Marca를 통해 호의적으로 보도되었으며, 이는 HS 프리미엄 포지셔닝의 성공 모델로 EMEA 전역 확산 가능성이 있다.</li>
+<li>대만에서 LG 냉장고 &quot;에너지효율·용량 선택 가이드&quot; 콘텐츠 마케팅이 5개 미디어에 동시 게재되어, 소비자 교육형 D2C 콘텐츠 전략의 효과가 입증되고 있다.</li>
+</ul>
+<h3 id="sec-23" class="sub-title action-required-banner">실행 필요</h3>
+<ol>
+<li><strong>[ES → FR/IT/DE, 세탁기, 11월 내]</strong> 스페인 AI 세탁건조기 캠페인 성공 사례를 EMEA 전체로 확산 — &quot;절전·보증·AI&quot; 3대 메시지 현지화 버전 제작.</li>
+<li><strong>[TW → SA/SG/TH, 냉장고, 11월 내]</strong> 대만 냉장고 구매 가이드 콘텐츠 포맷을 중동·동남아 시장에 현지화 복제 배포.</li>
+<li><strong>[US/DE/IT, 전 제품, 지속]</strong> Prime Big Deal Days 기간 경쟁사 대비 LG 가격 포지션 실시간 조정 — 프로모션 소진율 일별 추적.</li>
+</ol>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Channel</th><th>Product</th><th>Promotion Type</th><th>Key Detail</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 미국 (US)</td><td>Amazon</td><td>TV</td><td>최저가 번들</td><td>LG B6 65인치 $999 + 무료 사운드바</td><td><a href="https://www.ign.com/articles/lg-evo-b6-4k-oled-tv-deal-amazon-october-prime-day-sale">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>Amazon</td><td>냉장고</td><td>시즌 세일</td><td>Tom&#39;s Guide &quot;10월 최고 냉장고 딜&quot; 선정</td><td><a href="https://www.tomsguide.com/deals/best-refrigerator-sales">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>Home Depot/Lowe&#39;s</td><td>냉장고·세탁기</td><td>가을 세일</td><td>Consumer Reports &quot;Home Depot·Lowe&#39;s 최고 딜&quot;</td><td><a href="https://www.consumerreports.org/money/sales-promotions/best-deals-at-home-depot-and-lowes-right-now-a5783177478/">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>Amazon</td><td>Monitor</td><td>최저가 딜</td><td>UltraGear 45인치 OLED -48% 역대 최저</td><td><a href="https://mashable.com/tech/oct-8-lg-45-inch-ultragear-gaming-monitor-deal">🔗 Source</a></td></tr>
+<tr><td>🇺🇸 미국 (US)</td><td>Amazon</td><td>LG gram</td><td></td><td></td><td></td></tr></tbody></table></div>
+</section>
+<footer class="foot">Generated for executive sharing · LG Global D2C Intelligence</footer>
+</main>
+</div>
+<script>
+(function(){var tl=Array.from(document.querySelectorAll('.toc-panel a[href^="#"]'));if(!tl.length)return;var m=new Map();tl.forEach(function(l){var id=(l.getAttribute('href')||'').slice(1);if(id)m.set(id,l)});function sa(id){tl.forEach(function(l){l.classList.remove('is-active')});var t=m.get(id);if(t)t.classList.add('is-active')}var hs=Array.from(m.keys()).map(function(id){return document.getElementById(id)}).filter(Boolean);if(!hs.length)return;sa(hs[0].id);var ob=new IntersectionObserver(function(es){var v=es.filter(function(e){return e.isIntersecting}).sort(function(a,b){return a.boundingClientRect.top-b.boundingClientRect.top});if(v.length)sa(v[0].target.id)},{root:null,rootMargin:'-22% 0px -64% 0px',threshold:[0,1]});hs.forEach(function(h){ob.observe(h)});tl.forEach(function(l){l.addEventListener('click',function(){var id=(l.getAttribute('href')||'').slice(1);if(id)sa(id)})})})();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<script>
+(function(){document.querySelectorAll('canvas[data-chart]').forEach(function(c){try{var d=JSON.parse(c.getAttribute('data-chart'));if(!d||!d.type)return;var ctx=c.getContext('2d');var ds=(d.datasets||[]).map(function(s){var b={label:s.label||'',data:s.data||[]};if(d.type==='doughnut'||d.type==='polarArea'){b.backgroundColor=(s.data||[]).map(function(_,i){return['#003a66','#0a7ac4','#2196F3','#4CAF50','#FF9800','#e63946','#9c27b0','#607d8b'][i%8]})}else{b.borderColor=s.color||'#003a66';b.backgroundColor=(s.color||'#003a66')+'33';b.tension=0.3;b.fill=d.type==='line'}return b});new Chart(ctx,{type:d.type,data:{labels:d.labels||[],datasets:ds},options:{responsive:true,maintainAspectRatio:true,plugins:{title:{display:true,text:d.title||'',font:{size:16}},legend:{position:'bottom'}},scales:(d.type==='doughnut'||d.type==='polarArea')?{}:{y:{beginAtZero:true}}}})}catch(e){}})})();
+</script>
+</body>
+</html>

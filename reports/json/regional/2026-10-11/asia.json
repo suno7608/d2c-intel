@@ -1,0 +1,281 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 100,
+  "country_breakdown": {
+    "AU": 35,
+    "TW": 65
+  },
+  "product_breakdown": {
+    "TV": 27,
+    "Refrigerator": 30,
+    "Washing Machine": 26,
+    "Monitor": 10,
+    "LG gram": 7
+  },
+  "brand_breakdown": {
+    "LG": 56,
+    "TCL": 11,
+    "Hisense": 6,
+    "Samsung": 2,
+    "Haier": 15,
+    "Midea": 9,
+    "Whirlpool": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 28,
+    "Competitive Price & Positioning": 12,
+    "Chinese Brand Threat Tracking": 35,
+    "Consumer Sentiment": 25
+  },
+  "chinese_brand_total": 41,
+  "lg_total": 56,
+  "country_data": {
+    "AU": {
+      "total": 35,
+      "products": {
+        "TV": 11,
+        "Refrigerator": 13,
+        "Washing Machine": 10,
+        "Monitor": 1
+      },
+      "brands": {
+        "LG": 7,
+        "TCL": 6,
+        "Samsung": 1,
+        "Haier": 13,
+        "Hisense": 2,
+        "Midea": 6
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 5 Best LG Soundbars of 2026: Reviews - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/soundbar/reviews/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Code 20% Off October 2026",
+          "source": "lg.valuecom.com",
+          "source_url": "https://lg.valuecom.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Τηλεοράσεις 4K Ultra HD LG QNED | BestPrice.gr",
+          "source": "bestprice.gr",
+          "source_url": "https://www.bestprice.gr/cat/3048/thleoraseis/f/1_293_26_67558_1101_37898/lg-qned-4k-ultra-hd.html?from=depts",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 27” C2GMA Series QD-Mini LED 4K UHD Hdr Gaming Monitor - Halo Control, Dual Mode, LD1196 Dimming, HDR1000, 1ms, Amd Freesync Premium",
+          "source": "pricesniff.com",
+          "source_url": "https://pricesniff.com/products/tcl-27-c2gma-series-qd-mini-led-4k-uhd-hdr-gaming-monitor-ha-1257599",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Prime Day TV deals: Get up to $3,000 off our expert's top TCL, Samsung, Roku, Sony, Hisense, and LG picks",
+          "source": "businessinsider.com",
+          "source_url": "https://www.businessinsider.com/guides/deals/prime-day-tv-deals-2026-10",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG, Samsung or Whirlpool? Comparing the Best Fridge Deals Under 30,000 Rupees",
+          "source": "mysmartprice.com",
+          "source_url": "https://www.mysmartprice.com/gear/appliances/appliances-news/lg-samsung-or-whirlpool-comparing-the-best-fridge-deals-under-30000-rupees/?amp=",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges - Samsung, Hisense, Westinghouse, Beko & More - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers/fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers - Buy Fridges + Freezers - Bing Lee",
+          "source": "binglee.com.au",
+          "source_url": "https://www.binglee.com.au/brands/haier/appliances/fridges-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges | Joyce Mayne",
+          "source": "joycemayne.com.au",
+          "source_url": "https://www.joycemayne.com.au/kitchen-appliances/appliances/fridges/haier/993",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 65,
+      "products": {
+        "TV": 16,
+        "Refrigerator": 17,
+        "Washing Machine": 16,
+        "Monitor": 9,
+        "LG gram": 7
+      },
+      "brands": {
+        "LG": 49,
+        "Hisense": 4,
+        "TCL": 5,
+        "Samsung": 1,
+        "Midea": 3,
+        "Haier": 2,
+        "Whirlpool": 1
+      },
+      "chinese_count": 14,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Life is Good TV Deals: Up to $5,000 off + 10% back - Deal Tikka",
+          "source": "dealtikka.com",
+          "source_url": "https://www.dealtikka.com/lg-life-is-good-tv-deals-up-to-5000-off-10-back/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Life is Good TV Deals: Up to $5,000 off + 10% back",
+          "source": "dealnews.com",
+          "source_url": "https://www.dealnews.com/LG-Life-is-Good-TV-Deals-Up-to-5-000-off-10-back-free-shipping/22256500.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "買冰箱只看一級能效還不夠？LG 分享容量公式與省電指標，搭配 5000 元節能補助這樣挑 | T客邦",
+          "source": "techbang.com",
+          "source_url": "https://www.techbang.com/posts/133878-lg-refrigerator-buying-guide-energy-saving-tips",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED G-Series (Gallery): VESA and Weight by Year and Size | TV Mount Q",
+          "source": "tvmountquote.com",
+          "source_url": "https://tvmountquote.com/tools/tv-mounts/lg/g-series",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG spúšťa jesenný cashback: za televízor vráti časť ceny až do výšky 2 000 eur - Slovensko správy 24/7",
+          "source": "slovensko247.sk",
+          "source_url": "https://www.slovensko247.sk/125809-lg-spusta-jesenny-cashback-za-televizor-vrati-cast-ceny-az-do-vysky-2-000-eur/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Energy Solution Secures Multi-Year Supply of ...",
+          "source": "news.lgensol.com",
+          "source_url": "https://news.lgensol.com/company-news/press-releases/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "海信 100 英寸大尺寸 E7 影院系列 4K 电视降价 1,300 多美元 | ARCH雅趣",
+          "source": "arch-web.com.tw",
+          "source_url": "https://www.arch-web.com.tw/%E7%A7%91%E5%AD%B8%E6%8A%80%E8%A1%93/%E6%B5%B7%E4%BF%A1-100-%E8%8B%B1%E5%AF%B8%E5%A4%A7%E5%B0%BA%E5%AF%B8-e7-%E5%BD%B1%E9%99%A2%E7%B3%BB%E5%88%97-4k-%E7%94%B5%E8%A7%86%E9%99%8D%E4%BB%B7-1300-%E5%A4%9A%E7%BE%8E%E5%85%83/707803/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "海信电视质量好吗？4大维度深度拆解+3款闭眼选推荐+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:nityptv4441692",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "3000元档电视哪款值得买？画质、游戏、大屏三派闭眼选+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niupxkx3426273",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "2000元预算电视怎么选？2026年8月三款65英寸高刷机型横评+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niufhfr2369617",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-10-11",
+  "period_start": "2026-10-04",
+  "period_end": "2026-10-10"
+}

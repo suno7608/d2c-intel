@@ -1,0 +1,268 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 99,
+  "country_breakdown": {
+    "BR": 86,
+    "MX": 13
+  },
+  "product_breakdown": {
+    "TV": 35,
+    "Refrigerator": 18,
+    "Washing Machine": 23,
+    "Monitor": 17,
+    "LG gram": 6
+  },
+  "brand_breakdown": {
+    "LG": 51,
+    "TCL": 9,
+    "Hisense": 13,
+    "Midea": 15,
+    "Samsung": 10,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 34,
+    "Chinese Brand Threat Tracking": 46,
+    "Competitive Price & Positioning": 6,
+    "Consumer Sentiment": 13
+  },
+  "chinese_brand_total": 38,
+  "lg_total": 51,
+  "country_data": {
+    "BR": {
+      "total": 86,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 14,
+        "Washing Machine": 20,
+        "Monitor": 16,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 41,
+        "TCL": 9,
+        "Hisense": 13,
+        "Midea": 13,
+        "Samsung": 10
+      },
+      "chinese_count": 35,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Roku's new Pro OLED TV is outrageously cheap for Amazon Prime Day — the 65-inch model is $500 cheaper than the LG B6, and it's actually good! | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/rokus-new-pro-oled-tv-is-outrageously-cheap-for-amazon-prime-day-the-65-inch-model-is-usd500-cheaper-than-the-lg-b6-and-its-actually-good",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.905: Smart TV 55\" TCL 4K UHD MiniLED 55C6K 120Hz Google TV AiPQ Google Assistente 4 HDMI 2 USB | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-55-tcl-4k-uhd-miniled-55c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb-9336",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 65\" S4CF Series 4K UHD HDR Smart TV with Fire TV (2026) - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/tcl-65-s4cf-series-4k-uhd-hdr-smart-tv-with-fire-tv-2026/J36QYTHZVP",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 4 Best Vertical Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/vertical",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED C6 de 55\": Smart TV OLED entrega imagem ...",
+          "source": "tudocelular.com",
+          "source_url": "https://www.tudocelular.com/tech/noticias/n264884/oferta-smart-tv-lg-oled-c6-desconto.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG OLED C6 55” está com o menor preço desde agosto para clientes Prime • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/tv-lg-oled-c6-55-esta-com-o-menor-preco-desde-agosto-para-clientes-prime/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED C6 em oferta: Smart TV premium de 55\" com IA ...",
+          "source": "tudocelular.com",
+          "source_url": "https://www.tudocelular.com/tech/noticias/n264554/lg-oled-c6-em-oferta-amazon-desconto.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Gigantic LG 83\" OLED 4K TV receives equally huge 34% price cut in this limited time Amazon deal - PC Guide",
+          "source": "pcguide.com",
+          "source_url": "https://www.pcguide.com/deals/gigantic-lg-83-oled-4k-tv-receives-equally-huge-34-price-cut-in-this-limited-time-amazon-deal/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Melhor TV 2026: 10 modelos para comprar no Zoom",
+          "source": "zoom.com.br",
+          "source_url": "https://www.zoom.com.br/tv/deumzoom/qual-a-melhor-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV TCL C7L 65” registra o menor preço desde lançamento em oferta no Magalu • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/tv-tcl-c7l-65-registra-o-menor-preco-desde-lancamento-em-oferta-no-magalu/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 13,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 4,
+        "Washing Machine": 3,
+        "Monitor": 1,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 10,
+        "Haier": 1,
+        "Midea": 2
+      },
+      "chinese_count": 3,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Lg Tv Smart - espacio18",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/pantallas/lg-tv-smart/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Heisen Tv",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/pantallas/heisen-tv/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Centro De Lavado A Gas",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/centros-de-lavado/centro-de-lavado-a-gas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Refrigeradores Baratos En Guadalajara",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/linea-blanca/refrigeradores-y-congeladores/refrigeradores/refrigeradores-baratos-en-guadalajara/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Frigorífico Combi 200x70 3 Puertas TotaL No Frost Lateral Wifi Cajón My Zone Inox Clase B - Hnos. García",
+          "source": "muebleshnosgarcia.com",
+          "source_url": "https://muebleshnosgarcia.com/tienda/electrodomesticos/gran-electrodomestico/frigo-combi/frigorifico-combi-200x70-3-puertas-total-no-frost-lateral-wifi-cajon-my-zone-inox-clase-b/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Réfrigérateur — Wikipédia",
+          "source": "fr.wikipedia.org",
+          "source_url": "https://fr.wikipedia.org/wiki/R%C3%A9frig%C3%A9rateur",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Secadoras De Ropa Midea",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/secadoras-de-ropa-midea/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Secadora De Ropa Midea",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/secadora-de-ropa-midea/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "How to Tub Clean Midea Washing Machine | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/how-to-tub-clean-midea-washing-machine",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Fichamos hoy en Amazon todos estos monitores por menos de 100 euros: hay de 27 pulgadas, curvos y hasta con 180 Hz « SerNoticias.com.mx",
+          "source": "sernoticias.com.mx",
+          "source_url": "https://www.sernoticias.com.mx/2026/10/08/fichamos-hoy-en-amazon-todos-estos-monitores-por-menos-de-100-euros-hay-de-27-pulgadas-curvos-y-hasta-con-180-hz/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-10-11",
+  "period_start": "2026-10-04",
+  "period_end": "2026-10-10"
+}

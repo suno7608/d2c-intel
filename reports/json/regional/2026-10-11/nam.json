@@ -1,0 +1,262 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 157,
+  "country_breakdown": {
+    "US": 139,
+    "CA": 18
+  },
+  "product_breakdown": {
+    "TV": 39,
+    "Refrigerator": 30,
+    "Washing Machine": 41,
+    "Monitor": 25,
+    "LG gram": 22
+  },
+  "brand_breakdown": {
+    "LG": 111,
+    "TCL": 12,
+    "Samsung": 2,
+    "Haier": 13,
+    "Hisense": 1,
+    "Midea": 18
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 59,
+    "Competitive Price & Positioning": 25,
+    "Chinese Brand Threat Tracking": 49,
+    "Consumer Sentiment": 24
+  },
+  "chinese_brand_total": 44,
+  "lg_total": 111,
+  "country_data": {
+    "US": {
+      "total": 139,
+      "products": {
+        "TV": 38,
+        "Refrigerator": 25,
+        "Washing Machine": 33,
+        "Monitor": 23,
+        "LG gram": 20
+      },
+      "brands": {
+        "LG": 106,
+        "TCL": 11,
+        "Samsung": 2,
+        "Haier": 9,
+        "Hisense": 1,
+        "Midea": 10
+      },
+      "chinese_count": 31,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "I've been covering Prime Day TV deals for 11 years — best sales live now on LG OLED, Roku and more",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/live/news/october-prime-day-tv-deals-my-top-picks-2026",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "r/LGOLED on Reddit: LG OLED 77\" C6H - My Thoughts After A Week Of Owning One",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/LGOLED/comments/1wxl2fi/lg_oled_77_c6h_my_thoughts_after_a_week_of_owning/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "I’m a TV expert, and here are the best TVs you can buy today for every budget",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 3 Best OLED TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-type/oled",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 85\" Class QM7L Series 4K UHD HDR SQD Mini LED Smart TV with Google TV (2026) - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/tcl-85-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTHL64/sku/6672676",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best refrigerator sales and deals in October 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/deals/best-refrigerator-sales",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Washing Machines to Buy in 2026: Tested for Reliability",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/home/kitchen-and-household/best-washing-machines/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best 27-Inch Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/by-size/27-inch",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Amazon.com: LG gram Pro 16 Touchscreen AI Laptop 32GB RAM 4TB SSD Intel Ultra 7 355 | Up to 4.7GHz, 16\" 2K IPS 350nit, 7500MHz LPDDR5X, 28.5H Battery Life, Office Lifetime Wi-Fi 7, Bluetooth 6.0, Windows 11 Pro : Electronics",
+          "source": "us.amazon.com",
+          "source_url": "https://us.amazon.com/LG-Touchscreen-Laptop-Intel-Ultra/dp/B0HHDTBFHG",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "These Prime Day Deals Slash Up to $601 Off TCL TVs and Gaming Monitors - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/tcl-october-prime-day-deals/",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 18,
+      "products": {
+        "Refrigerator": 5,
+        "Monitor": 2,
+        "LG gram": 2,
+        "TV": 1,
+        "Washing Machine": 8
+      },
+      "brands": {
+        "LG": 5,
+        "TCL": 1,
+        "Midea": 8,
+        "Haier": 4
+      },
+      "chinese_count": 13,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 3 Best 98-100 Inch TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-size/98-100-inch",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "27” UltraGear™ Full HD IPS 1ms (GtG) Gaming Monitor with NVIDIA® G-SYNC® Compatible - 27GN60R-B | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/monitors/gaming/27gn60r-b/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Samsung Vs LG AC - 1.5 Ton 5 Star AC Comparison - CoolingInsights - 15+ Data driven Split AC Comparison and Usage Guide",
+          "source": "coolinginsights.in",
+          "source_url": "https://coolinginsights.in/comparison/samsung-vs-lg-ac/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "価格.com - LG、大画面と軽量設計を両立したフラッグシップモバイルPC「LG gram Pro 16 (16Z90U-KUB4J)」",
+          "source": "news.kakaku.com",
+          "source_url": "https://news.kakaku.com/prdnews/cd=pc/ctcd=0020/id=159429/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "Core Ultra X7搭載で1,199gの16型有機ELノート - PC Watch",
+          "source": "pc.watch.impress.co.jp",
+          "source_url": "https://pc.watch.impress.co.jp/docs/news/2146856.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Fridge | Walmart Canada",
+          "source": "walmart.ca",
+          "source_url": "https://www.walmart.ca/en/c/kp/midea-fridge",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea - Mackenzie Furniture",
+          "source": "mackenziefurniture.ca",
+          "source_url": "https://mackenziefurniture.ca/collections/midea",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon.ca: Midea - Freezers & Refrigerators / Large Appliances: Home & Kitchen",
+          "source": "amazon.ca",
+          "source_url": "https://www.amazon.ca/Freezers-Refrigerators-Midea-Large-Appliances/s?rh=n%3A17836127011%2Cp_89%3AMidea",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-10-11",
+  "period_start": "2026-10-04",
+  "period_end": "2026-10-10"
+}
