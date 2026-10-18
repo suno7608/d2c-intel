@@ -1,0 +1,260 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 134,
+  "country_breakdown": {
+    "US": 117,
+    "CA": 17
+  },
+  "product_breakdown": {
+    "TV": 37,
+    "Refrigerator": 33,
+    "Washing Machine": 27,
+    "Monitor": 25,
+    "LG gram": 12
+  },
+  "brand_breakdown": {
+    "LG": 95,
+    "TCL": 10,
+    "Samsung": 3,
+    "Haier": 12,
+    "Midea": 13,
+    "Hisense": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 45,
+    "Chinese Brand Threat Tracking": 46,
+    "Competitive Price & Positioning": 23,
+    "Consumer Sentiment": 20
+  },
+  "chinese_brand_total": 36,
+  "lg_total": 95,
+  "country_data": {
+    "US": {
+      "total": 117,
+      "products": {
+        "TV": 34,
+        "Refrigerator": 29,
+        "Washing Machine": 18,
+        "Monitor": 24,
+        "LG gram": 12
+      },
+      "brands": {
+        "LG": 92,
+        "TCL": 10,
+        "Samsung": 3,
+        "Haier": 8,
+        "Midea": 4
+      },
+      "chinese_count": 22,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Upgrade Your Movie Nights With These TV Deals and Save Up to $2,000 Now - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "2026 TV Lineup: The Year Of RGB Mini LED - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/learn/2026-lineup",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "TV 55'' LG QNED Evo AI MiniLED 55QNED85 - 4K UHD, 120Hz",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/tv-55-lg-qned-evo-ai-miniled-55qned85-4k-uhd-120hz-3432467",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 42\" Class C6 Series OLED evo AI 4K Smart webOS TV (2026) OLED42C6PUA - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-42-class-c6-series-oled-evo-ai-4k-smart-webos-tv-2026/JJ8VPZZ7SW",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "These are the 5 best TVs we've tested for movies, sports and gaming you can buy right now",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/us/best-tvs,review-2224.html",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "I’ve chosen the best TVs you can buy to suit every budget, after hundreds of hours of real-world testing",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/uk/news/best-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 55\" M7L Series Mini LED 4K UHD HDR Smart TV with Roku TV 2026 - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/tcl-55-m7l-series-mini-led-4k-uhd-hdr-smart-tv-with-roku-tv-2026/J36QYTHKXL",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "r/Appliances on Reddit: Are there any good refrigerators?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/Appliances/comments/1ho7a9w/are_there_any_good_refrigerators/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "r/australia on Reddit: Fridge techs - brand recommendations!",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/australia/comments/1ty2v14/fridge_techs_brand_recommendations/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 25\" FHD IPS 1000Hz Gaming Monitor 1ms G SYNC Compatible FreeSync Premium with DisplayHDR 400 Black - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-ultragear-25-fhd-ips-1000hz-gaming-monitor-1ms-g-sync-compatible-freesync-premium-with-displayhdr-400-black/JJ8VPZ4C9T",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 17,
+      "products": {
+        "TV": 3,
+        "Monitor": 1,
+        "Refrigerator": 4,
+        "Washing Machine": 9
+      },
+      "brands": {
+        "LG": 3,
+        "Hisense": 1,
+        "Midea": 9,
+        "Haier": 4
+      },
+      "chinese_count": 14,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Consumer & Home Electronics from LG | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon Great Indian Festival 2026: Best OLED TV Deals From Samsung, Sony, LG And Haier",
+          "source": "ndtvprofit.com",
+          "source_url": "https://www.ndtvprofit.com/technology/amazon-great-indian-festival-2026-best-oled-tv-deals-from-samsung-sony-lg-and-haier-12169495/amp/1",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 27 in. QHD Gaming Monitor (2560 x 1440) | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-ultragear-27-in-qhd-gaming-monitor-2560-x-1440/4000419435",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense 65\" Class - QD6QV Series - 4K UHD QLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/hisense-65-class-qd6qv-series-4k-uhd-qled-tv/4000386329",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea - Electra Appliances",
+          "source": "electraappliances.ca",
+          "source_url": "https://electraappliances.ca/product-category/midea/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "MIDEA Refrigerators for Your 2026 Home Upgrade 🏠❄️ | RONA",
+          "source": "rona.ca",
+          "source_url": "https://www.rona.ca/en/appliances/refrigerators/midea--104-4ce66",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Full Size Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/Full-Size-Refrigerators-38/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier 2.8 Cu. Ft. Compact Front Load Washer White | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/product/washers/qfw150ssnww",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Washers | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/appliances/Washers",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-10-18",
+  "period_start": "2026-10-11",
+  "period_end": "2026-10-17"
+}

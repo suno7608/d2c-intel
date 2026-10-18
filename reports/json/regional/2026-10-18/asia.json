@@ -1,0 +1,277 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 100,
+  "country_breakdown": {
+    "AU": 37,
+    "TW": 63
+  },
+  "product_breakdown": {
+    "TV": 23,
+    "Refrigerator": 34,
+    "Washing Machine": 24,
+    "Monitor": 7,
+    "LG gram": 12
+  },
+  "brand_breakdown": {
+    "LG": 57,
+    "TCL": 13,
+    "Hisense": 3,
+    "Haier": 11,
+    "Samsung": 1,
+    "Midea": 15
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 22,
+    "Chinese Brand Threat Tracking": 39,
+    "Competitive Price & Positioning": 15,
+    "Consumer Sentiment": 24
+  },
+  "chinese_brand_total": 42,
+  "lg_total": 57,
+  "country_data": {
+    "AU": {
+      "total": 37,
+      "products": {
+        "TV": 10,
+        "Refrigerator": 15,
+        "Washing Machine": 10,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 6,
+        "TCL": 8,
+        "Haier": 11,
+        "Samsung": 1,
+        "Hisense": 1,
+        "Midea": 10
+      },
+      "chinese_count": 30,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 Inch LG OLED evo AI C6 4K Smart TV 2026 - OLED65C6PSA | LG Australia | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/oled-evo-tv/oled65c6psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75-inch C7L 4K UHD SQD-Mini LED Google TV 75C7L | Crowdshop",
+          "source": "crowdshop.com.au",
+          "source_url": "https://crowdshop.com.au/tcl-75-inch-c7l-4k-uhd-sqd-mini-led-google-tv-75c7l/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75-inch C8L Premium UHD SQD-Mini LED 4K Google TV With Gemini 75C8L | Crowdshop",
+          "source": "crowdshop.com.au",
+          "source_url": "https://crowdshop.com.au/tcl-75-inch-c8l-premium-uhd-sqd-mini-led-4k-google-tv-with-gemini-75c8l/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 98-inch C8L Premium UHD SQD-Mini LED 4K Google TV With Gemini 98C8L | Crowdshop",
+          "source": "crowdshop.com.au",
+          "source_url": "https://crowdshop.com.au/tcl-98-inch-c8l-premium-uhd-sqd-mini-led-4k-google-tv-with-gemini-98c8l/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "189 cm, Mini LED et moins de 1000 euros : cette TV TCL a de quoi faire trembler la concurrence ce lundi 12 octobre 2026",
+          "source": "lefigaro.fr",
+          "source_url": "https://www.lefigaro.fr/bons-plans/high-tech/189-cm-mini-led-et-moins-de-1000-euros-cette-tv-tcl-a-de-quoi-faire-trembler-la-concurrence-ce-lundi-12-octobre-2026-20261012",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Fridges & Freezers - Free Delivery & Free Connection",
+          "source": "appliancesonline.com.au",
+          "source_url": "https://www.appliancesonline.com.au/category/refrigeration/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Samsung Electronics - Wikipedia",
+          "source": "en.wikipedia.org",
+          "source_url": "https://en.wikipedia.org/wiki/Samsung_Electronics",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "431L 500 Series Refrigerator Bottom Freezer, Water, Non-plumbed - HRF420BHC | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/431l-500-series-refrigerator-bottom-freezer-water-non-plumbed-hrf420bhc-62273.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HAIER | Costco Australia",
+          "source": "costco.com.au",
+          "source_url": "https://www.costco.com.au/HAIER/c/HAIER",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 63,
+      "products": {
+        "TV": 13,
+        "Refrigerator": 19,
+        "Washing Machine": 14,
+        "Monitor": 7,
+        "LG gram": 10
+      },
+      "brands": {
+        "LG": 51,
+        "Hisense": 2,
+        "TCL": 5,
+        "Midea": 5
+      },
+      "chinese_count": 12,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "42 吋 LG OLED evo AI C5 4K 電視 - OLED42C5PTA.ATT | LG 台灣",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled42c5pta/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "香港專業電視's items for sale on Carousell",
+          "source": "carousell.com.hk",
+          "source_url": "https://www.carousell.com.hk/u/hktvpro/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Elektromic Molseweg 55-57 2440 Geel +32 14 58 00 30 online@elektromic.be",
+          "source": "elektromic.be",
+          "source_url": "https://elektromic.be/?route=product%2Fpdf&product_id=671282",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "[情報] Hisense 海信 65型電視 $11900 - CPLife板 - Disp BBS",
+          "source": "disp.cc",
+          "source_url": "https://disp.cc/b/CPLife/ihQ3",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "海信电视和TCL电视的价格区间分别是多少？",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niuzuyr8192669",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "十大 電視盒/智慧棒 好口碑榜單 2026年10月 最新 - Yahoo購物中心刷報",
+          "source": "tw.buy.yahoo.com",
+          "source_url": "https://tw.buy.yahoo.com/shopdaily/chart/%E9%9B%BB%E8%A6%96%E7%9B%92-%E6%99%BA%E6%85%A7%E6%A3%92",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "7000元以上高端电视怎么选？2026年三大维度拆解+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:nivizpt7165188",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "国产电视品牌排行榜2026：海信、TCL、小米谁才是销冠？三大维度看懂格局+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niuxfmv8626961",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "【5000元左右海信电视排行榜前十】2026年最值得入手的海信电视推荐，性价比高的机型一网打尽，带你走出选购误区，尽享家庭娱乐！_画面_墨晶_Vidda",
+          "source": "sohu.com",
+          "source_url": "https://www.sohu.com/a/1088057208_122471764",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "6000元以上高端电视怎么选？Mini LED全面称王，3个维度说清+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:nivivfv7177748",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-10-18",
+  "period_start": "2026-10-11",
+  "period_end": "2026-10-17"
+}

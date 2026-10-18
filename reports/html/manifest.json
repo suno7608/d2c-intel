@@ -1,8 +1,46 @@
 {
-  "generated_at": "2026-10-11T21:34:55.769Z",
-  "total_weeks": 36,
-  "latest_week": "2026-10-11",
+  "generated_at": "2026-10-18T12:24:02.154Z",
+  "total_weeks": 37,
+  "latest_week": "2026-10-18",
   "weeks": [
+    {
+      "week": "2026-10-18",
+      "report_period": {
+        "start": "2026-10-11",
+        "end": "2026-10-17"
+      },
+      "version": "Weekly Vol.2026-10-18-R2",
+      "generated_at": "2026-10-18T12:19:35.296Z",
+      "metrics": {
+        "covered_countries": 13,
+        "lg_promotion_signals": 240,
+        "competitor_promotion_signals": 6,
+        "chinese_threat_signals": 13,
+        "consumer_negative_countries": 9,
+        "critical_country_count": 8
+      },
+      "critical_countries": [
+        "🇺🇸 미국 (US)",
+        "🇨🇦 캐나다 (CA)",
+        "🇬🇧 영국 (UK)",
+        "🇩🇪 독일 (DE)",
+        "🇧🇷 브라질 (BR)",
+        "🇦🇺 호주 (AU)",
+        "🇸🇦 사우디아라비아 (SA)",
+        "🇹🇷 튀르키예 (TR)"
+      ],
+      "executive_key_insights": [
+        "**중국 브랜드 가전 위협 사상 최고 수준 도달**: Haier M3 트리플드럼 세탁기(최고 130,000루피)와 In-Vista 5도어 냉장고 동시 글로벌 론칭으로 HS 부문의 프리미엄 세그먼트까지 정면 침공. DE(44건), AU(30건), BR(29건) 순으로 중국 브랜드 신호가 집중되어 LG의 전략 핵심 시장이 정면 타격권에 진입했다.",
+        "**LG UltraGear OLED 모니터 멀티마켓 동시 할인 흥행**: US(LG 27인치 OLED $400 할인), DE(240Hz OLED €293 최저가), FR(42% 할인), BR(R$675 PIX 특가) 등 동시다발 가격 이벤트로 모니터 카테고리 글로벌 수요 견인. TV 외 제품 중 가장 강력한 프로모션 집중도를 기록했다.",
+        "**전주 대비 총 데이터 15% 감소(824건→700건)에도 부정 소비자 반응은 6배 급증(3건→19건)**: BR 세탁기 에러 코드, DE WashTower A/S 불만, US 냉장고 신뢰도 우려 등이 동시 부상. 프로모션 확대가 A/S 접점 증가를 동반하는 구조적 위험 신호다."
+      ],
+      "links": {
+        "html": "./2026-10-18/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-10-18_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-10-18_R2_16country.md",
+        "share": "./2026-10-18/share.html"
+      }
+    },
     {
       "week": "2026-10-11",
       "report_period": {

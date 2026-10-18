@@ -1,0 +1,155 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 27,
+  "country_breakdown": {
+    "SA": 27
+  },
+  "product_breakdown": {
+    "TV": 10,
+    "Refrigerator": 8,
+    "Washing Machine": 4,
+    "Monitor": 4,
+    "LG gram": 1
+  },
+  "brand_breakdown": {
+    "LG": 12,
+    "Hisense": 6,
+    "Samsung": 1,
+    "Haier": 8
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 6,
+    "Chinese Brand Threat Tracking": 17,
+    "Retail Channel Promotions": 2,
+    "Consumer Sentiment": 2
+  },
+  "chinese_brand_total": 14,
+  "lg_total": 12,
+  "country_data": {
+    "SA": {
+      "total": 27,
+      "products": {
+        "TV": 10,
+        "Refrigerator": 8,
+        "Washing Machine": 4,
+        "Monitor": 4,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 12,
+        "Hisense": 6,
+        "Samsung": 1,
+        "Haier": 8
+      },
+      "chinese_count": 14,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 65-Inch Hisense E6SR TV Is at Its Lowest-Ever Price Before Black Friday - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/65-inch-hisense-tv-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Score This 75-Inch Hisense TV Now While It's at Its Lowest Ever Price of $748 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/hisense-u6-pro-series-tv-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier discount codes for September 2026 - Coupons",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/haier-uk",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 6 Best 1440p Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/1440p-gaming-monitors",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Reviews and Ratings - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG C6 OLED TV review: brighter, richer and more refined | What Hi-Fi?",
+          "source": "whathifi.com",
+          "source_url": "https://www.whathifi.com/tv-home-cinema/televisions/lg-c6-oled65c6",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV",
+          "source": "smappliance.com",
+          "source_url": "https://www.smappliance.com/collections/tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG TVs on Jumia Egypt | Smart OLED, QLED & LED Screens",
+          "source": "jumia.com.eg",
+          "source_url": "https://www.jumia.com.eg/televisions/lg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 100-inch Hisense E7 QLED Mini-LED TV Is $1,302 Off | Lifehacker",
+          "source": "lifehacker.com",
+          "source_url": "https://lifehacker.com/tech/hisense-qled-tv-deal-october-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Stunning 65-inch TV deal drops the Hisense U7 back to its lowest price at Amazon - PC Guide",
+          "source": "pcguide.com",
+          "source_url": "https://www.pcguide.com/deals/stunning-65-inch-tv-deal-drops-the-hisense-u7-back-to-its-lowest-price-at-amazon/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-10-18",
+  "period_start": "2026-10-11",
+  "period_end": "2026-10-17"
+}

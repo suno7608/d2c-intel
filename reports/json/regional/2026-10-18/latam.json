@@ -1,0 +1,238 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 88,
+  "country_breakdown": {
+    "BR": 81,
+    "MX": 7
+  },
+  "product_breakdown": {
+    "TV": 34,
+    "Refrigerator": 17,
+    "Washing Machine": 22,
+    "Monitor": 15
+  },
+  "brand_breakdown": {
+    "LG": 48,
+    "TCL": 7,
+    "Samsung": 8,
+    "Hisense": 10,
+    "Midea": 13,
+    "Haier": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 33,
+    "Chinese Brand Threat Tracking": 41,
+    "Competitive Price & Positioning": 2,
+    "Consumer Sentiment": 12
+  },
+  "chinese_brand_total": 32,
+  "lg_total": 48,
+  "country_data": {
+    "BR": {
+      "total": 81,
+      "products": {
+        "TV": 32,
+        "Refrigerator": 16,
+        "Washing Machine": 18,
+        "Monitor": 15
+      },
+      "brands": {
+        "LG": 44,
+        "TCL": 7,
+        "Samsung": 8,
+        "Hisense": 10,
+        "Midea": 11,
+        "Haier": 1
+      },
+      "chinese_count": 29,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "This CNET Award-Winning TCL TV Is Still Over $1,200 Off Right Now - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/tcl-qm8l-4k-tv-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 3 Best RGB Mini LED TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/rgb-mini-led",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED C5: testamos a TV OLED mais vendida da LG; vale a pena?",
+          "source": "techtudo.com.br",
+          "source_url": "https://www.techtudo.com.br/review/2026/10/lg-oled-c5-testamos-a-tv-oled-mais-vendida-da-lg-vale-a-pena-edinfoeletro.ghtml",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "MediaMarkt liquida esta smart TV LG OLED de 55 pulgadas con Dolby Atmos ideal para ver cine y series a oscuras",
+          "source": "xataka.com",
+          "source_url": "https://www.xataka.com/seleccion/mediamarkt-liquida-esta-smart-tv-lg-oled-55-pulgadas-dolby-atmos-ideal-para-ver-cine-series-a-oscuras",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Esta Smart TV LG 4K con panel OLED evo tiene un descuentazo del 48% y te promete imágenes de otro nivel",
+          "source": "amp.elmundo.es",
+          "source_url": "https://amp.elmundo.es/ofertas-regalos/2026/10/13/6ace1ca7fdddffdf208b457c.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Melhores TVs 2026: 10 modelos para comprar no Zoom",
+          "source": "zoom.com.br",
+          "source_url": "https://www.zoom.com.br/tv/deumzoom/qual-a-melhor-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "MediaMarkt rebaja 800 euros un Smart TV LG OLED ideal para salones pequeños y luminosos, y para ver la Champions y jugar a videojuegos",
+          "source": "compradiccion.com",
+          "source_url": "https://www.compradiccion.com/television/mediamarkt-rebaja-800-euros-smart-tv-lg-oled-ideal-para-salones-pequenos-luminosos-para-ver-champions-jugar-a-videojuegos",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Melhor TV LG em 2026: 10 modelos para comprar no Brasil | WebaDesign - Empresa de Webdesign - Desenvolvimento Web Design Macaé e Curitiba",
+          "source": "webadesign.com.br",
+          "source_url": "https://webadesign.com.br/melhor-tv-lg-em-2026-10-modelos-para-comprar-no-brasil/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Melhor TV LG em 2026: 10 modelos para comprar no Brasil • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/guias/melhor-tv-lg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo C6 permite jogar na nuvem sem console ou PC – Pizza Fria",
+          "source": "pizzafria.ig.com.br",
+          "source_url": "https://pizzafria.ig.com.br/news/lg-oled-evo-c6-jogos-na-nuvem/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 7,
+      "products": {
+        "TV": 2,
+        "Refrigerator": 1,
+        "Washing Machine": 4
+      },
+      "brands": {
+        "LG": 4,
+        "Haier": 1,
+        "Midea": 2
+      },
+      "chinese_count": 3,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "La pantalla LG OLED EVO G6 con Inteligencia Artificial cae un 37%, la mejor calidad de imagen en oferta",
+          "source": "eluniversal.com.mx",
+          "source_url": "https://www.eluniversal.com.mx/descubre-y-compra/cine-en-casa-con-negros-perfectos-la-pantalla-lg-oled-evo-con-ia-cae-un-37-en-amazon/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "El desgaste de tu televisor LG OLED ya no es un misterio: así puedes comprobarlo",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/desgaste-televisor-lg-oled-misterio-comprobar/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier 3D 60 Series HTR3620CNPW Frigorífico 414L at Amazon - 353,00€ | Chollometro",
+          "source": "chollometro.com",
+          "source_url": "https://www.chollometro.com/ofertas/haier-3d-60-series-htr3620cnpw-frigorifico-combi-414l-3-cajones-2032279",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Bodega Aurrera REMATA lavadora Midea de 11 kg - Debate",
+          "source": "debate.com.mx",
+          "source_url": "https://www.debate.com.mx/viral/bodega-aurrera-remata-lavadora-midea-de-11-kg-lava-enjuaga-y-centrifuga-al-mismo-tiempo--msi-20261012-0199.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadoras A Meses Sin Intereses",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/linea-blanca/lavadoras-y-secadoras/lavadoras/lavadoras-a-meses-sin-intereses/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadora Con Ropa",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavadora-con-ropa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavasecadoras",
+          "source": "main.espacio18.com.mx",
+          "source_url": "https://main.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavasecadora/lavasecadoras/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-10-18",
+  "period_start": "2026-10-11",
+  "period_end": "2026-10-17"
+}
