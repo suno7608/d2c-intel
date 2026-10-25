@@ -1,0 +1,258 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 93,
+  "country_breakdown": {
+    "BR": 84,
+    "MX": 9
+  },
+  "product_breakdown": {
+    "TV": 34,
+    "Refrigerator": 15,
+    "Washing Machine": 29,
+    "Monitor": 13,
+    "LG gram": 2
+  },
+  "brand_breakdown": {
+    "LG": 46,
+    "TCL": 7,
+    "Hisense": 11,
+    "Samsung": 10,
+    "Midea": 18,
+    "Haier": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 29,
+    "Chinese Brand Threat Tracking": 47,
+    "Competitive Price & Positioning": 5,
+    "Consumer Sentiment": 12
+  },
+  "chinese_brand_total": 37,
+  "lg_total": 46,
+  "country_data": {
+    "BR": {
+      "total": 84,
+      "products": {
+        "TV": 32,
+        "Refrigerator": 15,
+        "Washing Machine": 24,
+        "Monitor": 12,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 38,
+        "TCL": 7,
+        "Hisense": 11,
+        "Samsung": 10,
+        "Midea": 17,
+        "Haier": 1
+      },
+      "chinese_count": 36,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 4 Best Mini LED Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/mini-led",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV LG OLED AI B5 4K de 55 polegadas 2025 - OLED55B5PSA | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/tvs-e-soundbars/oled/oled55b5psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "A excelente TV OLED C6 da LG tem um desconto de US $ 400 antes da Black Friday | Segunda Base",
+          "source": "segundabase.com.br",
+          "source_url": "https://www.segundabase.com.br/noticias/a-excelente-tv-oled-c6-da-lg-tem-um-desconto-de-us-400-antes-da-black-friday/367036/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV LG OLED evo C5 55\" 4K com AI - OLED55C5PSA | LG Brasil | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/tvs-e-soundbars/oled-evo/oled55c5psa/?aw_affid=2753646&sv1=affiliate&sv_campaign_id=2753646&awc=33061_1792442711_a491890444465cbee74171985525b63a",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Melhor TV 2026: 7 modelos com OLED, QLED e Mini LED",
+          "source": "buscape.com.br",
+          "source_url": "https://www.buscape.com.br/tv/conteudo/melhor-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV OLED de 55 polegadas cai a R$ 6 mil, e o painel mais brilhante ficou fora",
+          "source": "antihype.com.br",
+          "source_url": "https://antihype.com.br/c/hardware/tv-oled-55-polegadas-preco-lg-c6-samsung-s85h/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV LG OLED evo C5 65\" 4K com AI - OLED65C5PSA | LG Brasil | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/tvs-e-soundbars/oled-evo/oled65c5psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG QNED73 de 50″ ou OLED C6 e C4: telas de 55″ e 65″",
+          "source": "qualmelhorproduto.com.br",
+          "source_url": "https://qualmelhorproduto.com.br/guias-de-compra/lg-qned73-de-50%E2%80%B3-ou-oled-c6-e-c4-telas-de-55%E2%80%B3-e-65%E2%80%B3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Smart TV TCL A400M de 55\" pelo menor preço histórico",
+          "source": "tudocelular.com",
+          "source_url": "https://www.tudocelular.com/android/noticias/n265291/smart-tv-tcl-a400m-desconto-oferta.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "QLED no precinho: Smart TV TCL P8K de 65\" por menos ...",
+          "source": "tudocelular.com",
+          "source_url": "https://www.tudocelular.com/tech/noticias/n265702/smart-tv-tcl-p8k-de-65-promocao-ate-21x-sem-juros.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 9,
+      "products": {
+        "TV": 2,
+        "Washing Machine": 5,
+        "Monitor": 1,
+        "LG gram": 1
+      },
+      "brands": {
+        "LG": 8,
+        "Midea": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Pantalla Lg 65 Pulgadas",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/pantallas/pantalla-lg-65-pulgadas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Τηλεοράσεις LG OLED | BestPrice.gr",
+          "source": "bestprice.gr",
+          "source_url": "https://www.bestprice.gr/cat/3048/thleoraseis/f/1_293_26_1544/lg-oled.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Oferta Lavadoras",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/oferta-lavadoras/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadora De Ropa Manual",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavadora-de-ropa-manual/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadoras Actuales",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavadoras-actuales/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Lavadoras De Ropa",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/lavadoras-de-ropa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Venta De Lavadoras Nuevas",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/grandes-electrodomesticos/lavadoras-y-secadoras-cat/venta-de-lavadoras-nuevas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Monitor Gaming LG UltraGear™ QHD de 31,5\" con 165 Hz, 1 ms MBR - 32GN600-B | LG México",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/mx/monitores/monitores-gaming/32gn600-b/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Ofertas TOP de la semana ¡Aprovecha!",
+          "source": "muycomputer.com",
+          "source_url": "https://www.muycomputer.com/2026/10/23/ofertas-top-de-la-semana-aprovecha/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-10-25",
+  "period_start": "2026-10-18",
+  "period_end": "2026-10-24"
+}

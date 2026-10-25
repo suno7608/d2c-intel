@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 33,
+  "country_breakdown": {
+    "SA": 33
+  },
+  "product_breakdown": {
+    "TV": 13,
+    "Refrigerator": 8,
+    "Washing Machine": 6,
+    "Monitor": 3,
+    "LG gram": 3
+  },
+  "brand_breakdown": {
+    "LG": 15,
+    "Hisense": 7,
+    "Haier": 8,
+    "Samsung": 2,
+    "Bosch": 1
+  },
+  "pillar_breakdown": {
+    "Competitive Price & Positioning": 7,
+    "Retail Channel Promotions": 7,
+    "Chinese Brand Threat Tracking": 18,
+    "Consumer Sentiment": 1
+  },
+  "chinese_brand_total": 15,
+  "lg_total": 15,
+  "country_data": {
+    "SA": {
+      "total": 33,
+      "products": {
+        "TV": 13,
+        "Refrigerator": 8,
+        "Washing Machine": 6,
+        "Monitor": 3,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 15,
+        "Hisense": 7,
+        "Haier": 8,
+        "Samsung": 2,
+        "Bosch": 1
+      },
+      "chinese_count": 15,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 6 Best TVs For PS5/PS5 Pro of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/ps5",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier 7.5kg 300 Series Front Load Washing Machine - $382 with $0 Delivery&Basic Install - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/980098",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Reviews and Ratings - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Electronics Inc. (066570.KS) Stock Price, News, Quote & History - Yahoo Finance",
+          "source": "finance.yahoo.com",
+          "source_url": "https://finance.yahoo.com/quote/066570.KS/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG TV price drop: Check deals on 4K, QNED and OLED models with up to 55% off | Mint",
+          "source": "livemint.com",
+          "source_url": "https://www.livemint.com/gadgets-and-appliances/lg-tv-price-drop-check-deals-on-4k-qned-and-oled-models-with-up-to-55-off-11792407331083.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Electronics - Wikipedia",
+          "source": "en.wikipedia.org",
+          "source_url": "https://en.wikipedia.org/wiki/LG_Electronics",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Lg Smart Tv 40 - Best Prices in Egypt | Jumia Egypt",
+          "source": "jumia.com.eg",
+          "source_url": "https://www.jumia.com.eg/mlp-lg-smart-tv-40/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Apple unveils the new Apple TV 4K, supercharged by Siri AI - Apple",
+          "source": "apple.com",
+          "source_url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Hisense deal: Save $102.02 on the Hisense 85-inch E6 Cinema Series Hi-QLED 4K TV | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/oct-20-hisense-85-inch-e6-cinema-series-tv-deal",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 50-inch Hisense Canvas TV is still 50% off post-October Prime Day | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/oct-12-hisense-canvas-tv-deal",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-10-25",
+  "period_start": "2026-10-18",
+  "period_end": "2026-10-24"
+}

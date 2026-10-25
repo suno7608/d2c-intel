@@ -1,0 +1,279 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 88,
+  "country_breakdown": {
+    "AU": 31,
+    "TW": 57
+  },
+  "product_breakdown": {
+    "TV": 23,
+    "Refrigerator": 30,
+    "Washing Machine": 22,
+    "Monitor": 8,
+    "LG gram": 5
+  },
+  "brand_breakdown": {
+    "LG": 46,
+    "Hisense": 3,
+    "TCL": 11,
+    "Samsung": 2,
+    "Haier": 14,
+    "Panasonic": 2,
+    "Midea": 10
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 21,
+    "Competitive Price & Positioning": 10,
+    "Chinese Brand Threat Tracking": 32,
+    "Consumer Sentiment": 25
+  },
+  "chinese_brand_total": 38,
+  "lg_total": 46,
+  "country_data": {
+    "AU": {
+      "total": 31,
+      "products": {
+        "TV": 9,
+        "Refrigerator": 12,
+        "Monitor": 1,
+        "Washing Machine": 9
+      },
+      "brands": {
+        "LG": 7,
+        "Samsung": 2,
+        "Haier": 12,
+        "TCL": 5,
+        "Midea": 5
+      },
+      "chinese_count": 22,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 6 Best 27-Inch Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/27-inch-gaming",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 Inch LG OLED evo AI C6 4K Smart TV 2026 - OLED65C6PSA | LG Australia | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/oled-evo-tv/oled65c6psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "These Are The Best TV Deals This Cyber Monday",
+          "source": "wired.com",
+          "source_url": "https://www.wired.com/story/cyber-monday-tv-deals-2025/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Today is your last chance at LG Deal Days: Up to $2,000 off Mini LED/OLED TVs + $200 gift card, 10% back",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/10/18/today-is-your-last-chance-at-lg-deal-days-up-to-2000-off-mini-led-oled-tvs-200-gift-card-10-back/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The Best 55-Inch TVs for 2026",
+          "source": "au.pcmag.com",
+          "source_url": "https://au.pcmag.com/tvs/97432/the-best-55-inch-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Find a store | LG India",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/in/find-a-store/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "French Door Refrigerators | Samsung Australia",
+          "source": "samsung.com",
+          "source_url": "https://www.samsung.com/au/refrigerators/french-door-fridge/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges | Harvey Norman",
+          "source": "harveynorman.com.au",
+          "source_url": "https://www.harveynorman.com.au/kitchen-appliances/appliances/fridges/haier/993",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Refrigerators | Haier Australia",
+          "source": "haier.com.au",
+          "source_url": "https://www.haier.com.au/refrigeration/refrigerators/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Fridges & Freezers | Bottom Mount, Quad Door, French Door",
+          "source": "thegoodguys.com.au",
+          "source_url": "https://www.thegoodguys.com.au/haier/fridges-and-freezers",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 57,
+      "products": {
+        "TV": 14,
+        "Refrigerator": 18,
+        "Washing Machine": 13,
+        "Monitor": 7,
+        "LG gram": 5
+      },
+      "brands": {
+        "LG": 39,
+        "Hisense": 3,
+        "TCL": 6,
+        "Panasonic": 2,
+        "Midea": 5,
+        "Haier": 2
+      },
+      "chinese_count": 16,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "r/OLED_Gaming on Reddit: Is the LG UltraGear 27GX704A-B Worth It as My First OLED Monitor?",
+          "source": "reddit.com",
+          "source_url": "https://www.reddit.com/r/OLED_Gaming/comments/1x9bx1s/is_the_lg_ultragear_27gx704ab_worth_it_as_my/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "I didn’t expect the price of LG’s five-star G6 OLED TV to crash this low before Black Friday | What Hi-Fi?",
+          "source": "whathifi.com",
+          "source_url": "https://www.whathifi.com/tv-home-cinema/televisions/i-didnt-expect-the-price-of-lgs-five-star-g6-oled-tv-to-crash-this-low-before-black-friday",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "【2026 Trip.com 優惠碼 (每日更新)】飯店最高 7%、租車 8%、門票 6% 折扣總整理 - Tim Ting Travel",
+          "source": "timtingtravel.com",
+          "source_url": "https://timtingtravel.com/trip-com-promo-code/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "CleanYourTV 經 Wi-Fi 清理 Android 電視 換上 Apple TV 風格主畫面 - 流動日報",
+          "source": "newmobilelife.com",
+          "source_url": "https://www.newmobilelife.com/2026/10/24/cleanyourtv-android-tv-cleanup/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Days 2026 : jusqu'à 53 000 DA de réduction sur les téléviseurs et l'électroménager LG",
+          "source": "algerie360.com",
+          "source_url": "https://www.algerie360.com/lg-days-2026-promotions-prix/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "6000元以上高端电视怎么选？2026年Mini LED占比82%+三大人群答案+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niwcxkv5049065",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "6000元以上高端电视怎么选？2026年Mini LED碾压局，3类人闭眼入+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niwfwah1834160",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "同为85寸Mini LED，海信8999、TCL7499，多花的1500到底买了啥？_液晶电视_什么值得买",
+          "source": "post.smzdm.com",
+          "source_url": "https://post.smzdm.com/p/axkodrxd/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "6000元以上高端电视怎么选？2026年Mini LED占比82%，三大品牌PK说清+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niwcxkv5046662",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Apple TV 4K - Apple (台灣)",
+          "source": "apple.com",
+          "source_url": "https://www.apple.com/tw/apple-tv-4k/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-10-25",
+  "period_start": "2026-10-18",
+  "period_end": "2026-10-24"
+}

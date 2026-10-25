@@ -1,0 +1,34 @@
+{
+  "week": "2026-10-25",
+  "report_period": {
+    "start": null,
+    "end": null
+  },
+  "version": "** Weekly Vol.2026-10-25-R2",
+  "generated_at": "2026-10-25T12:42:31.485Z",
+  "metrics": {
+    "covered_countries": 13,
+    "lg_promotion_signals": 226,
+    "competitor_promotion_signals": 8,
+    "chinese_threat_signals": 13,
+    "consumer_negative_countries": 8,
+    "critical_country_count": 4
+  },
+  "critical_countries": [
+    "🇺🇸 미국 (US)",
+    "🇨🇦 캐나다 (CA)",
+    "🇬🇧 영국 (UK)",
+    "🇦🇺 호주 (AU)"
+  ],
+  "executive_key_insights": [
+    "**Black Friday 전초전 가격 경쟁 심화:** 미국·영국·독일·브라질에서 LG OLED C6 TV 사상 최저가($400 할인) 프로모션이 동시 감지되었으며, 같은 기간 TCL은 55인치 Mini LED를 $698에 출시하며 OLED 대비 가격 압박을 강화하고 있어 MS 마진 방어가 시급하다.",
+    "**HS 가전(냉장고·세탁기) 중국 브랜드 이중 위협:** Haier는 호주(Harvey Norman), 영국(Currys·Costco), 캐나다(Walmart·Home Depot) 등 주요 오프라인 채널에서 냉장고·세탁기 전 라인업을 전개하고 있으며, Midea는 브라질·독일·캐나다에서 세탁기 가격 공세를 가속화해 LG HS의 핵심 채널이 잠식되고 있다.",
+    "**모니터·gram 성장 기회 포착:** 브라질에서 LG×MIBR 파트너십으로 UltraGear 모니터 12~15% 할인 캠페인이 주요 게이밍 미디어에서 높은 반응을 얻었으며, 이탈리아에서는 LG gram 2026 출시(€1,099~)가 다수 미디어에서 긍정적으로 보도되어 비(非)TV 제품 브랜드 모멘텀이 확인된다."
+  ],
+  "links": {
+    "html": "./2026-10-25/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-10-25_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-10-25_R2_16country.md",
+    "share": "./2026-10-25/share.html"
+  }
+}

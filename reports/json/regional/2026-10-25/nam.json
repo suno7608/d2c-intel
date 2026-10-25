@@ -1,0 +1,260 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 141,
+  "country_breakdown": {
+    "US": 123,
+    "CA": 18
+  },
+  "product_breakdown": {
+    "TV": 40,
+    "Refrigerator": 22,
+    "Washing Machine": 35,
+    "Monitor": 19,
+    "LG gram": 25
+  },
+  "brand_breakdown": {
+    "LG": 103,
+    "TCL": 9,
+    "Samsung": 5,
+    "Haier": 10,
+    "Midea": 13,
+    "Hisense": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 46,
+    "Chinese Brand Threat Tracking": 38,
+    "Competitive Price & Positioning": 26,
+    "Consumer Sentiment": 31
+  },
+  "chinese_brand_total": 33,
+  "lg_total": 103,
+  "country_data": {
+    "US": {
+      "total": 123,
+      "products": {
+        "TV": 37,
+        "Refrigerator": 17,
+        "Washing Machine": 26,
+        "Monitor": 19,
+        "LG gram": 24
+      },
+      "brands": {
+        "LG": 99,
+        "TCL": 9,
+        "Samsung": 5,
+        "Haier": 6,
+        "Midea": 3,
+        "Hisense": 1
+      },
+      "chinese_count": 19,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Upgrade Your Movie Nights With These TV Deals and Save Up to $1,500 Now - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TVs of 2026: Expert Tested, Compared and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "LG UT75 Review (43UT7590PUA, 50UT7570PUB, 55UT7570PUB, 65UT7570PUB, 70UT7590PUA, 75UT7590PUA, 86UT7590PUA) - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/lg/ut7570-ut75-ut7590",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 42\" Class C6 Series OLED evo AI 4K Smart webOS TV (2026) OLED42C6PUA - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-42-class-c6-series-oled-evo-ai-4k-smart-webos-tv-2026/JJ8VPZZ7SW",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The best OLED TVs for all budgets, as reviewed by our experts | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/the-best-oled-tvs",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 9kg DUAL Inverter Heat Pump ThinQ Tumble Dryer, A++ Rated UK - W/LG Membership Signup + LG Referral Code",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/lg-9kg-dual-inverter-heat-pump-thinq-tumble-dryer-a-rated-uk-wlg-membership-signup-lg-referral-code-5007811",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best 4k Gaming Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/gaming-monitors-4k",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The best monitor in 2026: our top picks for work, gaming, and more | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/computing-components/peripherals/best-monitor-9-reviewed-and-rated-1058662",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 2026 LG Evo C6 4K OLED TV Drops to the Lowest Price of the Year Ahead of Black Friday",
+          "source": "ign.com",
+          "source_url": "https://www.ign.com/articles/lg-evo-c6-4k-oled-tv-deal-october-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "This 55-Inch LG OLED TV Is $400 Off Right Now | Lifehacker",
+          "source": "lifehacker.com",
+          "source_url": "https://lifehacker.com/tech/55-inch-lg-oled-tv-sale-october-2026",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CA": {
+      "total": 18,
+      "products": {
+        "TV": 3,
+        "LG gram": 1,
+        "Refrigerator": 5,
+        "Washing Machine": 9
+      },
+      "brands": {
+        "LG": 4,
+        "Midea": 10,
+        "Haier": 4
+      },
+      "chinese_count": 14,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" Class C6 OLED evo AI 4K Smart webOS TV with Perfect Black, Perfect Color and Brightness Booster (2026) - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/lg-65-class-c6-oled-evo-ai-4k-smart-webos-tv-with-perfect-black-perfect-color-and-brightness-booster-2026/JJ8VPZKZ8H",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 inch LG OLED evo AI C5 4K Smart TV 2025 - OLED65C5PUA | LG Canada",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/ca_en/tv-soundbars/oled-evo/oled65c5pua/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" Class - OLEDC6 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-65-class-oledc6-series-4k-uhd-oled-tv/4000449945",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "LG porta in Italia i Gram 2026: sempre leggerissimi ma senza rinunciare a prestazioni e autonomia",
+          "source": "smartworld.it",
+          "source_url": "https://www.smartworld.it/news/lg-gram-2026-prezzi-modelli-italia.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators and Fridges - Best Price & Reviews",
+          "source": "canadianappliance.ca",
+          "source_url": "https://www.canadianappliance.ca/Midea/Refrigerators-And-Fridges-3/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea - Electra Appliances",
+          "source": "electraappliances.ca",
+          "source_url": "https://electraappliances.ca/product-category/midea/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators/f/midea/ki8-il9",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "13.8 Cu. Ft. 28\" Midea Convertible 2-in-1 Upright Freezer/Fridge (MRU14F2AWW) - Electra Appliances",
+          "source": "electraappliances.ca",
+          "source_url": "https://electraappliances.ca/product/13-8-cu-ft-28-midea-convertible-2-in-1-upright-freezer-fridge-mru14f2aww/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Midea 30\" 18 Cu. Ft. Top-Mounted Freezer Refrigerator (MRT18D3BWW) - Electra Appliances",
+          "source": "electraappliances.ca",
+          "source_url": "https://electraappliances.ca/product/midea-29-18-cu-ft-top-mounted-freezer-refrigerator-mrt18d3bww/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier 2.8 Cu. Ft. Compact Front Load Washer White | Haier Appliances",
+          "source": "haiercanada.ca",
+          "source_url": "https://haiercanada.ca/product/washers/qfw150ssnww",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-10-25",
+  "period_start": "2026-10-18",
+  "period_end": "2026-10-24"
+}
