@@ -1,10 +1,10 @@
 {
   "week": "2026-10-25",
   "report_period": {
-    "start": null,
-    "end": null
+    "start": "2026-10-18",
+    "end": "2026-10-24"
   },
-  "version": "** Weekly Vol.2026-10-25-R2",
+  "version": "Weekly Vol.2026-10-25-R2",
   "generated_at": "2026-10-25T12:42:31.485Z",
   "metrics": {
     "covered_countries": 13,

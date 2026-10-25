@@ -1,8 +1,8 @@
 {
   "week": "2026-02-22",
   "report_period": {
-    "start": null,
-    "end": null
+    "start": "2026-02-15",
+    "end": "2026-02-21"
   },
   "version": "Weekly Vol.2026-02-22-R2",
   "generated_at": "2026-02-22T09:25:28.389Z",

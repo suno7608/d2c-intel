@@ -34,20 +34,26 @@ function isPipeSeparator(line) {
   return /^\|\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$/.test(String(line || '').trim());
 }
 
+// Header lines may be emphasized (e.g. "**보고 기간:** 2026-10-18 — ..."), so match against plain text.
+function stripEmphasis(md) {
+  return md.replace(/\*\*|__/g, '');
+}
+
 function extractPeriod(md) {
+  const plain = stripEmphasis(md);
   const patterns = [
     /Report Period:\s*([0-9]{4}-[0-9]{2}-[0-9]{2})\s*(?:\([^)]*\))?\s*[—-]\s*([0-9]{4}-[0-9]{2}-[0-9]{2})/i,
     /보고 기간:\s*([0-9]{4}-[0-9]{2}-[0-9]{2})\s*(?:\([^)]*\))?\s*[—-]\s*([0-9]{4}-[0-9]{2}-[0-9]{2})/i,
   ];
   for (const p of patterns) {
-    const m = md.match(p);
+    const m = plain.match(p);
     if (m) return { start: m[1], end: m[2] };
   }
   return { start: null, end: null };
 }
 
 function extractVersion(md) {
-  const m = md.match(/(?:Version|버전):\s*(.+)/i);
+  const m = stripEmphasis(md).match(/(?:Version|버전):\s*(.+)/i);
   return m ? m[1].trim() : null;
 }
 
