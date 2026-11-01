@@ -1,0 +1,262 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 181,
+  "country_breakdown": {
+    "US": 153,
+    "CA": 28
+  },
+  "product_breakdown": {
+    "TV": 46,
+    "Refrigerator": 43,
+    "Washing Machine": 38,
+    "Monitor": 31,
+    "LG gram": 23
+  },
+  "brand_breakdown": {
+    "LG": 132,
+    "TCL": 13,
+    "Samsung": 9,
+    "Haier": 7,
+    "Midea": 18,
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 54,
+    "Chinese Brand Threat Tracking": 53,
+    "Competitive Price & Positioning": 39,
+    "Consumer Sentiment": 35
+  },
+  "chinese_brand_total": 40,
+  "lg_total": 132,
+  "country_data": {
+    "US": {
+      "total": 153,
+      "products": {
+        "TV": 45,
+        "Refrigerator": 36,
+        "Washing Machine": 26,
+        "Monitor": 29,
+        "LG gram": 17
+      },
+      "brands": {
+        "LG": 119,
+        "TCL": 13,
+        "Samsung": 7,
+        "Haier": 4,
+        "Midea": 8,
+        "Hisense": 2
+      },
+      "chinese_count": 27,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Eyeing a New TV? These TV Deals Can Save You Over 50% - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Best TVs of 2026: Expert Tested, Compared and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 5 Best 55-Inch TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/by-size/55-inch",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Nov 2026 | 50% OFF | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/lg-coupon-codes",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lowe's knocks hundreds off appliances — 12 essential deals from LG, Samsung, Frigidaire and more | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/sales-events/lowes-knocks-hundreds-off-appliances-12-essential-deals-from-lg-samsung-frigidaire-and-more",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Hurry! LG is taking up to 30% off its UltraGear monitors — here's 3 deals I'd buy | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/computing/monitors/hurry-lg-is-taking-up-to-30-percent-off-its-ultragear-monitors-heres-3-deals-id-buy",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "The 5 Best HDR Monitors of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/4k-hdr",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG C6 55-Inch OLED 4K TV deal: Save $400 at Amazon | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/oct-28-lg-55-inch-qled-evo-ai-tv-deal",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "2026 LG OLED TV drops to $600, in deal enhancing gaming and movies for all budgets - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/2026-LG-OLED-TV-drops-to-600-in-deal-enhancing-gaming-and-movies-for-all-budgets.1438410.0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Bag 48% in Savings on This 65-Inch LG OLED TV, Now That's a Deal | PCMag",
+          "source": "pcmag.com",
+          "source_url": "https://www.pcmag.com/deals/best-buy-deals-of-the-day-48-off-65-inch-lg-oled-tv-oct-29",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CA": {
+      "total": 28,
+      "products": {
+        "TV": 1,
+        "Refrigerator": 7,
+        "Washing Machine": 12,
+        "Monitor": 2,
+        "LG gram": 6
+      },
+      "brands": {
+        "LG": 13,
+        "Samsung": 2,
+        "Midea": 10,
+        "Haier": 3
+      },
+      "chinese_count": 13,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 48\" Class - OLEDC6 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-48-class---oledc6-series---4k-uhd-oled-tv/4000449996?langId=-24&bvstate=pg%3A4%2Fct%3Ar",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Consumer Reports Says This South Korean Appliance Company Makes The Most Reliable Top-Freezer Refrigerator In 2026 - Yahoo Style Canada",
+          "source": "ca.style.yahoo.com",
+          "source_url": "https://ca.style.yahoo.com/consumer-reports-says-south-korean-154000237.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Samsung To LG: 7kg Washing Machines To Explore During Amazon Great Indian Festival Sale 2026",
+          "source": "herzindagi.com",
+          "source_url": "https://www.herzindagi.com/your-picks/lite/home-solutions-electronics/samsung-to-lg-7kg-washing-machines-to-explore-during-amazon-great-indian-festival-sale-2026-17278",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Consumer Sentiment",
+          "value": "Appliance Repair Vancouver — Same-Day Service | TechVill",
+          "source": "techvill.ca",
+          "source_url": "https://techvill.ca/vancouver/appliance-repair/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Consumer Sentiment",
+          "value": "Body Lotion or Body Cream? Winter Skin Care in Canada - Korean shop",
+          "source": "koreanshop.ca",
+          "source_url": "https://koreanshop.ca/body-lotion-or-body-cream-winter/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 10 Best Washing Machines for 2026 | Free Buyers Guide",
+          "source": "topconsumerreviews.com",
+          "source_url": "https://www.topconsumerreviews.com/best-washing-machines/detailed-reviews.php",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Canada Computers Promo Codes Canada | 10% off in October 2026 | Bargainmoose",
+          "source": "bargainmoose.ca",
+          "source_url": "https://www.bargainmoose.ca/coupons/canadacomputers.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "ASUS ROG Swift 32\" 4K 240Hz 0.03ms OLED Gaming Monitor - Newegg.ca",
+          "source": "newegg.ca",
+          "source_url": "https://www.newegg.ca/asus-pg32ucdm-31-5-uhd-240-hz-rog-swift-oled-qd-oled-black/p/N82E16824281297?Item=N82E16824281297&lang=fr",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "The Latest and Best Deals | PCMag",
+          "source": "pcmag.com",
+          "source_url": "https://www.pcmag.com/deals",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-11-01",
+  "period_start": "2026-10-25",
+  "period_end": "2026-10-31"
+}

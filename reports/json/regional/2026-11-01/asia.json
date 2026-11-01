@@ -1,0 +1,279 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 150,
+  "country_breakdown": {
+    "AU": 72,
+    "TW": 78
+  },
+  "product_breakdown": {
+    "TV": 34,
+    "Refrigerator": 37,
+    "Washing Machine": 34,
+    "Monitor": 22,
+    "LG gram": 23
+  },
+  "brand_breakdown": {
+    "LG": 100,
+    "TCL": 12,
+    "Hisense": 9,
+    "Haier": 16,
+    "Samsung": 1,
+    "Midea": 12
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 50,
+    "Competitive Price & Positioning": 30,
+    "Chinese Brand Threat Tracking": 44,
+    "Consumer Sentiment": 26
+  },
+  "chinese_brand_total": 49,
+  "lg_total": 100,
+  "country_data": {
+    "AU": {
+      "total": 72,
+      "products": {
+        "TV": 16,
+        "Refrigerator": 19,
+        "Washing Machine": 16,
+        "Monitor": 10,
+        "LG gram": 11
+      },
+      "brands": {
+        "LG": 40,
+        "TCL": 8,
+        "Haier": 10,
+        "Samsung": 1,
+        "Midea": 10,
+        "Hisense": 3
+      },
+      "chinese_count": 31,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "21 Best Buy doorBOOster deals with 50% off or more: I found the biggest discounts on LG OLED TVs, Sony headphones and Shark vacuum cleaners | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/sales-events/21-best-buy-doorbooster-deals-with-50-percent-off-or-more-i-found-the-biggest-discounts-on-lg-oled-tvs-sony-headphones-and-shark-vacuum-cleaners",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Heat Pump Dryers Recommendation - OzBargain Forums",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/980648",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 45GX950A 45” 5K2K Dual Mode WUHD 165Hz OLED Curved Monitor $2,099 + Delivery ($0 C&C/ in-Store) @ JB Hi-Fi - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/980708",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense 55 Inch Q6SAU Qled 4K Smart TV 55q6sau $549.99 Delivered @ Costco Wholesale - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/981001",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Display Targets 111-Inch OLED TVs In $200 Million Manufacturing Push – channelnews",
+          "source": "channelnews.com.au",
+          "source_url": "https://www.channelnews.com.au/lg-display-targets-111-inch-oled-tvs-in-200-million-manufacturing-push/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 65-inch QNED86B Evo AI 4K UHD Mini LED Smart TV 65QNED86BSA | Crowdshop",
+          "source": "crowdshop.com.au",
+          "source_url": "https://crowdshop.com.au/lg-65-inch-qned86b-evo-ai-4k-uhd-mini-led-smart-tv-65qned86bsa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG's largest QNED evo TV yet arrives in India: 115-inch 4K Mini LED at 1499990 rupees",
+          "source": "tech.sportskeeda.com",
+          "source_url": "https://tech.sportskeeda.com/televisions-audio-systems/news-lg-s-largest-qned-evo-tv-yet-arrives-india-115-inch-4k-mini-led-1499990-rupees",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG Launches 115-Inch QNED evo AI Mini LED TV in India at ₹14.99 Lakh",
+          "source": "exhibit.tech",
+          "source_url": "https://www.exhibit.tech/tech-news/lg-launches-115-inch-qned-evo-ai-mini-led-tv-in-india-at-%E2%82%B914-99-lakh/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL C845 Mini LED 4K Google TV - Price History, Comparison & Alerts | BuyWisely",
+          "source": "buywisely.com.au",
+          "source_url": "https://buywisely.com.au/au/product/tcl-65c845-65-inch-mini-led-4k-google-tv",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 85\" Premium QLED Mini Led Google TV 85C855 - Price History, Comparison & Alerts | BuyWisely",
+          "source": "buywisely.com.au",
+          "source_url": "https://buywisely.com.au/au/product/tcl-85-premium-qled-mini-led-google-tv-85c855",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 78,
+      "products": {
+        "TV": 18,
+        "Refrigerator": 18,
+        "Washing Machine": 18,
+        "Monitor": 12,
+        "LG gram": 12
+      },
+      "brands": {
+        "LG": 60,
+        "Hisense": 6,
+        "TCL": 4,
+        "Haier": 6,
+        "Midea": 2
+      },
+      "chinese_count": 18,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for October 2026 | 50% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 台灣優惠碼2026 | 10月最新$13900 OFF與會員優惠 | Dealy TW",
+          "source": "dealy.tw",
+          "source_url": "https://dealy.tw/shop/lg.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "MiniLED 電視/智慧顯示器｜LG 台灣",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/tw/tv-soundbars/miniled/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "HKTVmall優惠｜額外95折激減 LG抽濕機/空氣清新機 即睇掃貨攻略",
+          "source": "weekendhk.com",
+          "source_url": "https://weekendhk.com/%E5%90%8C%E4%BD%A0%E6%8F%BE%E8%91%97%E6%95%B8/hktvmall-%E8%98%87%E5%AF%A7%E9%9B%BB%E5%99%A8-lg-3532415",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG电视怎么样值得买吗？2026年OLED王者4个维度说清+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niwkfip3843892",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG电视怎么样？2026年OLED王者深度评测，3个维度说清+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niwxqym8587213",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for Oct 2026 | 20% OFF | PC Gamer",
+          "source": "pcgamer.com",
+          "source_url": "https://www.pcgamer.com/coupons/lg.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Oct 2026 | 50% OFF | Tom's Hardware",
+          "source": "tomshardware.com",
+          "source_url": "https://www.tomshardware.com/coupons/lg.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "1299 元 2K 200Hz 显示器，支架能旋转，底座还能摇杆控制|海信|显示器|2K 200Hz_新浪新闻",
+          "source": "sina.cn",
+          "source_url": "https://www.sina.cn/weibo/detail/5359734820441060.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "海信和TCL电视哪个好？2026年3个维度实测说清+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:niwxqyp5037765",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-11-01",
+  "period_start": "2026-10-25",
+  "period_end": "2026-10-31"
+}

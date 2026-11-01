@@ -1,0 +1,157 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 39,
+  "country_breakdown": {
+    "SA": 39
+  },
+  "product_breakdown": {
+    "TV": 10,
+    "Refrigerator": 8,
+    "Washing Machine": 15,
+    "Monitor": 3,
+    "LG gram": 3
+  },
+  "brand_breakdown": {
+    "LG": 19,
+    "Hisense": 5,
+    "Samsung": 1,
+    "Haier": 11,
+    "Midea": 3
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 7,
+    "Chinese Brand Threat Tracking": 21,
+    "Competitive Price & Positioning": 10,
+    "Consumer Sentiment": 1
+  },
+  "chinese_brand_total": 19,
+  "lg_total": 19,
+  "country_data": {
+    "SA": {
+      "total": 39,
+      "products": {
+        "TV": 10,
+        "Refrigerator": 8,
+        "Washing Machine": 15,
+        "Monitor": 3,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 19,
+        "Hisense": 5,
+        "Samsung": 1,
+        "Haier": 11,
+        "Midea": 3
+      },
+      "chinese_count": 19,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 6 Best TVs of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/tvs-on-the-market",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier 7.5kg 300 Series Front Load Washing Machine $339 (via Price Beat Button + Code) + Delivery @ The Good Guys - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/980546",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Monitor Deals in 2026: 4K, Gaming and Ultrawide Displays on Sale",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-monitor-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Reviews and Ratings - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "3 New LG TVs That Stand Out In 2026 - SlashGear",
+          "source": "slashgear.com",
+          "source_url": "https://www.slashgear.com/2293689/exciting-new-lg-tvs-releasing-in-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best TV deals ahead of Prime Day: 25+ TV deals to buy | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/best-early-prime-day-tv-deals-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Early Labor Day TV deal: Hisense QD7 Series TVs start from just £279.99 through weekend | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/aug-28-hisense-tv-labor-day-deal",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense 65-Inch QLED TV Deal: Big Screen, Small Price",
+          "source": "theinventory.com",
+          "source_url": "https://theinventory.com/hisense-65qd6qv-65-inch-class-qd6qv-series-4k-qled-uhd-smart-vidaa-tv-35ee6de7",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense TVs: Here's Who Makes Them And Where They're Manufactured",
+          "source": "tech.yahoo.com",
+          "source_url": "https://tech.yahoo.com/home-entertainment/tvs/articles/hisense-tvs-heres-makes-them-181700140.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Memorial Day TV deals 2026: Save on Hisense, Samsung, LG, and more | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/best-memorial-day-tv-live-deals-2026",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-11-01",
+  "period_start": "2026-10-25",
+  "period_end": "2026-10-31"
+}

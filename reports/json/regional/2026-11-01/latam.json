@@ -1,0 +1,378 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 176,
+  "country_breakdown": {
+    "BR": 124,
+    "MX": 39,
+    "CL": 13
+  },
+  "product_breakdown": {
+    "TV": 47,
+    "Refrigerator": 49,
+    "Washing Machine": 45,
+    "Monitor": 24,
+    "LG gram": 11
+  },
+  "brand_breakdown": {
+    "LG": 107,
+    "TCL": 8,
+    "Samsung": 20,
+    "Hisense": 14,
+    "Electrolux": 1,
+    "Midea": 18,
+    "Whirlpool": 1,
+    "Haier": 3,
+    "Xiaomi": 4
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 64,
+    "Chinese Brand Threat Tracking": 69,
+    "Competitive Price & Positioning": 12,
+    "Consumer Sentiment": 31
+  },
+  "chinese_brand_total": 43,
+  "lg_total": 107,
+  "country_data": {
+    "BR": {
+      "total": 124,
+      "products": {
+        "TV": 33,
+        "Refrigerator": 37,
+        "Washing Machine": 32,
+        "Monitor": 17,
+        "LG gram": 5
+      },
+      "brands": {
+        "LG": 65,
+        "TCL": 8,
+        "Samsung": 19,
+        "Hisense": 10,
+        "Electrolux": 1,
+        "Midea": 16,
+        "Xiaomi": 3,
+        "Haier": 2
+      },
+      "chinese_count": 36,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The best Samsung TV for all budgets, tested by our reviewers | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/news/best-samsung-tv",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 2.434: Lavadora Digital Inverter Samsung WW11T Inox 11kg | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/lavadora-digital-inverter-samsung-ww11t-inox-11kg-56ab",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG, lo smart TV OLED da 65 pollici a un prezzo incredibile: maxi sconto",
+          "source": "libero.it",
+          "source_url": "https://www.libero.it/tecnologia/smart-tv-lg-oled-ai-65-pollici-promozione-126431",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG OLED da 48 pollici a 718,78€ su Unieuro: sconto del 52% sul TV con processore α11 Gen3",
+          "source": "tuttotech.net",
+          "source_url": "https://www.tuttotech.net/news/2026/10/30/tv-lg-oled-da-48-pollici-a-71878e-su-unieuro-sconto-del-52-sul-tv-con-processore-%CE%B111-gen3.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Save $1,400 Off the Ultra Premium 2026 LG G6 Gallery Series 4K OLED TV and Score Some Great Freebies",
+          "source": "sea.ign.com",
+          "source_url": "https://sea.ign.com/deal/251292/save-1400-off-the-ultra-premium-2026-lg-g6-gallery-series-4k-oled-tv-and-score-some-great-freebies",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG, prezzo a picco per lo smart TV OLED: va comprato subito | Libero Tecnologia",
+          "source": "libero.it",
+          "source_url": "https://www.libero.it/tecnologia/lg-b6-oled65b6elc-scheda-tecnica-sconto-offerta-prezzo-amazon-126450",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Save $1,400 Off the Ultra Premium 2026 LG G6 Gallery Series 4K OLED TV and Score Some Great Freebies | 7MMO - MMORPG Games, News & Community",
+          "source": "7mmo.com",
+          "source_url": "https://7mmo.com/threads/save-1-400-off-the-ultra-premium-2026-lg-g6-gallery-series-4k-oled-tv-and-score-some-great-freebies.9304/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 65-Inch LG Evo C6 OLED TV Is $200 Off Right Now | Lifehacker",
+          "source": "lifehacker.com",
+          "source_url": "https://lifehacker.com/tech/lg-65-inch-evo-c6-oled-tv-sale-october-29-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Smart TV TCL 43\" QLED com Google TV cai para R$ 1.539 na Amazon",
+          "source": "gd.eurisko.com.br",
+          "source_url": "https://gd.eurisko.com.br/2026/10/31/smart-tv-tcl-43-qled-com-google-tv-cai-para-r-1-539-na-amazon",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Ofertas do dia: TV TCL 65 QLED, Lava e Seca e Robô - Olhar Digital",
+          "source": "olhardigital.com.br",
+          "source_url": "https://olhardigital.com.br/2026/10/28/reviews/ofertas-dia-smart-tv-tcl-65-qled-4k-caixa-pulse-x-boombox-samsung-lava-e-seca-wd11m-robo-xiaomi-s40c-motorola-moto-g56-5g-xiaomi-tv-stick-4k",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 39,
+      "products": {
+        "TV": 10,
+        "Refrigerator": 11,
+        "Washing Machine": 10,
+        "Monitor": 5,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 31,
+        "Hisense": 4,
+        "Whirlpool": 1,
+        "Samsung": 1,
+        "Midea": 2
+      },
+      "chinese_count": 6,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo AI W6 Wallpaper en México, precio y características - TechGames",
+          "source": "techgames.com.mx",
+          "source_url": "https://techgames.com.mx/lg-oled-evo-ai-w6-wallpaper-en-mexico-precio-y-caracteristicas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG presenta en México W6 Wallpaper: el televisor OLED inalámbrico de menos de un centímetro de grosor - Edomex Al Día",
+          "source": "edomexaldia.com",
+          "source_url": "https://edomexaldia.com/lg-presenta-en-mexico-w6-wallpaper-el-televisor-oled-inalambrico-de-menos-de-un-centimetro-de-grosor/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "La mejor TV del mundo es Made in Mexico: LG lanza la OLED inalámbrica W6 Wallpaper",
+          "source": "imagenradio.com.mx",
+          "source_url": "https://www.imagenradio.com.mx/finanzas/mejor-tv-mundo-es-made-in-mexico-lg-lanza-oled-inalambrica-w6-wallpaper",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Pantalla OLED con funciones para gamers. Tiene tecnología antirreflejos",
+          "source": "xataka.com.mx",
+          "source_url": "https://www.xataka.com.mx/home/pantalla-oled-funciones-para-gamers-tiene-tecnologia-antirreflejos",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Smart TV Hisense de 40\" alcanza 26% de descuento en Amazon",
+          "source": "eluniversal.com.mx",
+          "source_url": "https://www.eluniversal.com.mx/descubre-y-compra/smart-tv-hisense-de-40-la-pantalla-full-hd-con-roku-tv-cae-a-26-de-descuento/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Sam's Club remata pantalla Hisense de 55\" con casi 50% de descuento y mensualidades de $600 | Heraldo Binario",
+          "source": "heraldobinario.com.mx",
+          "source_url": "https://www.heraldobinario.com.mx/tendencias/2026/10/29/sams-club-remata-pantalla-hisense-de-55-con-casi-50-de-descuento-y-mensualidades-de-600-43154.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Hisense 55 4k",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/pantallas/hisense-55-4k/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Pantalla Hisense",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/pantallas/pantalla-hisense/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Mercado Libre: Hisense Smart TV Pantalla 65 Pulgadas Mini Led 65U8QG Google TV - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/tv-hisense-u8qg-1202503",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Hisense Smart",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/pantallas/hisense-smart/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 13,
+      "products": {
+        "TV": 4,
+        "Refrigerator": 1,
+        "Washing Machine": 3,
+        "Monitor": 2,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 11,
+        "Haier": 1,
+        "Xiaomi": 1
+      },
+      "chinese_count": 1,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Save $1,000 on an LG 55-inch OLED TV — get a huge early Black Friday discount this weekend",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/oct-31-lg-oled-tv-55-invh-early-back-friday-deal",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "65 Zoll LG OLED evo AI G6 4K Smart TV 2026 - OLED65G68LW | LG Deutschland | LG Deutschland",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/de/tvs-und-soundbars/oled-evo/oled65g68lw/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Precio mínimo para esta TV QLED de 85 pulgadas y 144 Hz: películas, series o juegos a lo grande y a todo color",
+          "source": "larazon.es",
+          "source_url": "https://www.larazon.es/compras/nuestra-eleccion/precio-minimo-esta-qled-85-pulgadas-144-peliculas-series-juegos-grande-todo-color_202610266adf71bcc0483453480a2245.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Mejores televisores de 55 pulgadas baratos (2026)",
+          "source": "lavanguardia.com",
+          "source_url": "https://www.lavanguardia.com/comprar/tecnologia/20261027/11668625/mejores-televisores-55-pulgadas-baratos-mkt-eo.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Dani García y Haier unen alta cocina y tecnología en un espacio exclusivo en Marbella - Infobae",
+          "source": "infobae.com",
+          "source_url": "https://www.infobae.com/america/agencias/2026/10/28/dani-garcia-y-haier-unen-alta-cocina-y-tecnologia-en-un-espacio-exclusivo-en-marbella/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Washtower™ LG 14Kg/10Kg Negro Heat Pump AIDD | LG Colombia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/co/lavadoras-y-secadoras/washtower/wk14bs6r-apbeqol/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG ELECTRONICS ACCELERATES COMMERCIAL LAUNDRY GROWTH IN EUROPE AT EXPODETERGO INTERNATIONAL 2026",
+          "source": "prnewswire.com",
+          "source_url": "https://www.prnewswire.com/news-releases/lg-electronics-accelerates-commercial-laundry-growth-in-europe-at-expodetergo-international-2026-302918793.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Xiaomi",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Xiaomi launches new Mijia Shoe Washer with three-brush 360-degree cleaning - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/Xiaomi-launches-new-Mijia-Shoe-Washer-with-three-brush-360-degree-cleaning.1434970.0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "4K resolution - Wikipedia",
+          "source": "en.wikipedia.org",
+          "source_url": "https://en.wikipedia.org/wiki/4K_resolution",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Asus confirms pricing for new 540 Hz and 1,700-nit OLED gaming monitor - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/Asus-confirms-pricing-for-new-540-Hz-and-1-700-nit-OLED-gaming-monitor.1436300.0.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-11-01",
+  "period_start": "2026-10-25",
+  "period_end": "2026-10-31"
+}

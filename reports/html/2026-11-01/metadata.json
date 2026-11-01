@@ -1,0 +1,37 @@
+{
+  "week": "2026-11-01",
+  "report_period": {
+    "start": "2026-10-25",
+    "end": "2026-10-31"
+  },
+  "version": "Weekly Vol.2026-11-01-R2",
+  "generated_at": "2026-11-01T14:24:25.387Z",
+  "metrics": {
+    "covered_countries": 14,
+    "lg_promotion_signals": 470,
+    "competitor_promotion_signals": 10,
+    "chinese_threat_signals": 14,
+    "consumer_negative_countries": 13,
+    "critical_country_count": 7
+  },
+  "critical_countries": [
+    "🇺🇸 미국 (US)",
+    "🇨🇦 캐나다 (CA)",
+    "🇬🇧 영국 (UK)",
+    "🇩🇪 독일 (DE)",
+    "🇫🇷 프랑스 (FR)",
+    "🇧🇷 브라질 (BR)",
+    "🇦🇺 호주 (AU)"
+  ],
+  "executive_key_insights": [
+    "**Black Friday 사전 프로모션 파고(wave)가 전 유럽·미주를 강타**: LG 프로모션 감지 건수가 전주 209건 대비 **470건(+125%)** 으로 급증하며, OLED TV·냉장고·세탁기·UltraGear 모니터가 동시에 주요 리테일러(Amazon, Best Buy, Currys, MediaMarkt, Darty, Mercado Livre)에서 할인 공세를 받고 있어 D2C 채널의 가격 경쟁력 유지가 시급하다.",
+    "**Haier/Midea의 HS(생활가전) 침투 심화**: 냉장고·세탁기 분야 중국 브랜드 위협이 🇬🇧 UK(Haier, Midea 양사 정규 유통 확보), 🇩🇪 DE(Stiftung Warentest 게재), 🇦🇺 AU(Harvey Norman·The Good Guys·Costco 전 채널), 🇧🇷 BR(Midea 복수 모델 베스트셀러 편입) 등 Tier 1 시장 전반으로 확산 중이며, 단순 저가 포지션을 넘어 A 에너지 등급·Steam 세탁 등 프리미엄 스펙 경쟁으로 진입하고 있다.",
+    "**LG gram, UltraGear 모니터가 TV 편중 리포트 구조를 탈피하는 성장 포인트**: gram 109건·모니터 156건으로 전 세계 16개국에 걸쳐 유의미한 데이터가 수집되었으며, LG Electronics가 Consumer Reports '2026 Best of' 6개 부문 석권 및 Q3 영업이익 4조 원 돌파 소식이 동시에 확인되어 브랜드 신뢰도 활용 D2C 프리미엄 전략 강화의 최적 타이밍이다."
+  ],
+  "links": {
+    "html": "./2026-11-01/index.html",
+    "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-11-01_R2_16country.pdf",
+    "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-11-01_R2_16country.md",
+    "share": "./2026-11-01/share.html"
+  }
+}
