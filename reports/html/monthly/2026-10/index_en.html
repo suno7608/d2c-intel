@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+<meta http-equiv="X-Frame-Options" content="SAMEORIGIN"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self';"/>
+<meta name="referrer" content="strict-origin-when-cross-origin"/>
+<title>LG Electronics Global D2C Monthly Deep Dive Intelligence Report</title>
+<style>
+:root{--bg:#f6f8fb;--paper:#fff;--ink:#0f172a;--muted:#475569;--line:#dbe2ea;--brand:#005a9c;--alert:#b91c1c;--warn:#a16207;--ok:#166534;--shadow:0 10px 30px rgba(15,23,42,.08)}
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--ink)}
+body{font:15px/1.6 "Noto Sans KR","Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.layout{display:grid;grid-template-columns:290px minmax(0,1fr);gap:22px;max-width:1440px;margin:0 auto;padding:24px}
+.toc-panel{position:sticky;top:18px;align-self:start;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:var(--shadow);max-height:calc(100vh - 36px);overflow:auto}
+.toc-title{margin:0 0 10px;padding:10px 11px;border-radius:10px;background:linear-gradient(95deg,#003a66 0%,#005a9c 58%,#0a7ac4 100%);color:#fff;font-size:13px;font-weight:800;letter-spacing:.2px}
+.toc-panel ul{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.toc-panel li{margin:0}
+.toc-panel a{display:block;color:#0b4f88;text-decoration:none;border:1px solid transparent;border-radius:9px;background:#f8fbff;padding:7px 10px;font-size:13px;line-height:1.35;transition:background-color .12s,border-color .12s,transform .12s}
+.toc-panel a:hover{background:#edf5ff;border-color:#d5e5f6;transform:translateX(1px)}
+.toc-panel a:focus-visible{outline:3px solid rgba(10,122,196,.35);outline-offset:1px}
+.toc-panel li.l3 a{margin-left:12px;background:#fcfdff;color:#28435f}
+.toc-panel li.l4 a{margin-left:24px;background:#fff;color:#3f5871;font-size:12px}
+.toc-panel a.is-active{background:#e5f1ff;border-color:#c9ddf3;color:#0b4f88;font-weight:800}
+.paper{background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}
+.cover{background:linear-gradient(140deg,#003a66,#005a9c 55%,#0a7ac4);color:#fff;padding:34px 36px}
+.cover h1{margin:0 0 8px;font-size:34px;line-height:1.2;font-weight:800}
+.cover p{margin:6px 0;opacity:.95}
+.cover .meta{margin-top:14px;font-size:14px;opacity:.92}
+.content{padding:30px 34px 38px}
+.report-title{margin-top:8px;font-size:30px;line-height:1.25}
+.section-title{margin:30px 0 12px;font-size:22px;color:#fff;border-left:0;padding:12px 14px;border-radius:12px;background:linear-gradient(95deg,#003a66 0%,#005a9c 58%,#0a7ac4 100%);box-shadow:0 8px 18px rgba(15,23,42,.12);letter-spacing:.1px;line-height:1.35}
+.sub-title{margin:20px 0 10px;font-size:17px;color:#0b3354;border:1px solid #cfe0f1;border-radius:10px;padding:9px 12px;background:linear-gradient(120deg,#f8fbff 0%,#eef5fd 100%);box-shadow:0 4px 10px rgba(15,23,42,.06);line-height:1.35}
+.sub-title.key-insight-banner{border-color:#d1e4f7;background:linear-gradient(120deg,#eff7ff 0%,#e5f1ff 100%);color:#0b4f88;font-weight:800}
+.sub-title.action-required-banner{border-color:#f1dfc4;background:linear-gradient(120deg,#fff8ea 0%,#ffefcf 100%);color:#8a4b00;font-weight:800}
+p{margin:10px 0}
+hr.section-divider{border:0;border-top:1px solid var(--line);margin:18px 0}
+blockquote{margin:14px 0;padding:10px 14px;border-left:4px solid var(--brand);background:#eef6fc;color:#15324a}
+a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
+ul,ol{margin:8px 0 10px 22px}
+.chart-container{max-width:800px;margin:18px auto 24px;padding:16px;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+.chart-container canvas{width:100%!important;min-height:300px;height:400px!important}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px;margin:12px 0 18px}
+table{width:100%;border-collapse:collapse;min-width:760px;background:#fff;font-size:14px}
+th,td{border-bottom:1px solid #e7edf4;border-right:1px solid #eef3f8;padding:8px 10px;vertical-align:top;text-align:left}
+th:last-child,td:last-child{border-right:0}
+thead th{position:sticky;top:0;z-index:1;background:#f1f7fd;color:#15324a;font-weight:700}
+code{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:1px 5px;font-size:.92em}
+.foot{border-top:1px solid var(--line);color:var(--muted);padding:14px 34px 24px;font-size:13px}
+@media(max-width:1100px){.layout{grid-template-columns:1fr;padding:14px}.toc-panel{position:relative;top:0;max-height:none}.toc-title{margin-bottom:8px}.toc-panel li.l3 a,.toc-panel li.l4 a{margin-left:0}.cover h1{font-size:28px}.content{padding:20px 16px 28px}.foot{padding:14px 16px 22px}.section-title{font-size:20px}.sub-title{font-size:17px}}
+@media print{body{background:#fff}.layout{display:block;max-width:none;padding:0}.toc-panel{display:none}.paper{border:none;box-shadow:none}.cover{border-radius:0}.content{padding:18mm 12mm 16mm}.foot{padding:8mm 12mm 0}.section-title{break-after:avoid}.section-title,.sub-title{background:#fff!important;color:#003a66!important;border:1px solid #cfd8e3!important;box-shadow:none!important}.table-wrap{break-inside:avoid}a{color:#003a66}}
+
+.monthly{--brand:#9c1a1a}
+.monthly .toc-title{background:linear-gradient(95deg,#4a0e0e 0%,#9c1a1a 58%,#c43a0a 100%)}
+.monthly .toc-panel a{color:#881a0b;background:#fff8f6}
+.monthly .toc-panel a:hover{background:#ffedea;border-color:#f6d5d0}
+.monthly .toc-panel a:focus-visible{outline-color:rgba(196,58,10,.35)}
+.monthly .toc-panel li.l3 a{background:#fffcfb;color:#5f2818}
+.monthly .toc-panel li.l4 a{color:#71382a}
+.monthly .toc-panel a.is-active{background:#ffe5e3;border-color:#f3c9c9;color:#881a0b}
+.monthly .cover{background:linear-gradient(140deg,#4a0e0e,#9c1a1a 55%,#c43a0a)}
+.monthly .section-title{background:linear-gradient(95deg,#4a0e0e 0%,#9c1a1a 58%,#c43a0a 100%);box-shadow:0 8px 18px rgba(74,14,14,.15)}
+.monthly .sub-title{color:#3b1010;border-color:#f1cfcf;background:linear-gradient(120deg,#fff8f8 0%,#fdeeed 100%)}
+.monthly .sub-title.key-insight-banner{border-color:#f1d1cf;background:linear-gradient(120deg,#fff0ef 0%,#ffe5e3 100%);color:#881a0b}
+.monthly .sub-title.action-required-banner{border-color:#f1dfc4;background:linear-gradient(120deg,#fff8ea 0%,#ffefcf 100%);color:#8a4b00}
+.monthly blockquote{border-left-color:#9c1a1a;background:#fceeed;color:#3b1515}
+.monthly a{color:#9c1a1a}
+.monthly thead th{background:#fdf1f1;color:#3b1515}
+.monthly .foot{border-top-color:#f1cfcf}
+@media print{.monthly .section-title,.monthly .sub-title{color:#4a0e0e!important}.monthly a{color:#4a0e0e}}
+</style>
+</head>
+<body class="monthly">
+<nav style="background:#0f3f67;padding:10px 20px;display:flex;gap:16px;align-items:center;font:14px sans-serif;position:sticky;top:0;z-index:1000"><a href="/d2c-intel/" style="color:#fbbf24;text-decoration:none;font-weight:800">🌐 Hub</a><a href="/d2c-intel/reports/html/latest/hub.html" style="color:#93c5fd;text-decoration:none">📋 Weekly</a><a href="/d2c-intel/monthly/latest/index.html" style="color:#fde68a;text-decoration:none">📊 Monthly</a><a href="/d2c-intel/monthly/latest/index_en.html" style="color:#d1d5db;text-decoration:none">Monthly EN</a></nav>
+<div class="layout">
+<aside class="toc-panel"><div class="toc-title">Quick Navigation</div><ul><li class="l2"><a href="#sec-2">Section 1: Monthly Executive Summary</a></li><li class="l3"><a href="#sec-3">Key Insights</a></li><li class="l3"><a href="#sec-4">Actions Required</a></li><li class="l3"><a href="#sec-5">1.1 Monthly Key Findings</a></li><li class="l3"><a href="#sec-6">1.2 Monthly Key Metrics</a></li><li class="l3"><a href="#sec-7">1.3 Strategic Task Roadmap</a></li><li class="l2"><a href="#sec-8">Section 2: Monthly Key Alert Comprehensive</a></li><li class="l3"><a href="#sec-9">Key Insights</a></li><li class="l3"><a href="#sec-10">Actions Required</a></li><li class="l3"><a href="#sec-11">2.1 Key Subsidiary Monthly Alert Trends</a></li><li class="l3"><a href="#sec-12">2.2 Consumer Negative Response Monthly Trends</a></li><li class="l3"><a href="#sec-13">2.3 Competitor Attack Actions Monthly Timeline</a></li><li class="l3"><a href="#sec-14">2.4 Chinese Brand Momentum Monthly Analysis</a></li><li class="l2"><a href="#sec-15">Section 3: 16-Country Monthly Dashboard</a></li><li class="l3"><a href="#sec-16">Key Insights</a></li><li class="l3"><a href="#sec-17">Actions Required</a></li><li class="l3"><a href="#sec-18">3.1 Consumer Response Monthly Trends</a></li><li class="l3"><a href="#sec-22">3.2 Retail Channel Promotions Monthly Trends</a></li><li class="l3"><a href="#sec-26">3.3 Competitive Pricing Monthly Positioning Analysis</a></li><li class="l3"><a href="#sec-33">3.4 Chinese Brand Threat Monthly Tracking</a></li></ul></aside>
+<main class="paper">
+<header class="cover"><h1>LG Electronics Global D2C Monthly Deep Dive Intelligence Report</h1><p>Consumer Sentiment · Retail Promotion · Price Intelligence · Chinese Brand Tracking — Monthly Trend Analysis</p><p class="meta">Report Period: N/A</p></header>
+<section class="content"><h1 id="sec-1" class="report-title">LG Electronics Global D2C Monthly Market Deep Dive Report</h1>
+<p>Consumer Response · Retail Channel Promotions · Price Intelligence · Chinese Brand Trends — Monthly Trend Analysis</p>
+<p><strong>Reporting Period:</strong> 2026-10-01 — 2026-10-31
+<strong>Data Foundation:</strong> 5 Weekly Reports (Vol.2026-10-W1 ~ Vol.2026-10-W5)
+<strong>Prepared by:</strong> D2C Global Intelligence (OpenClaw Automated)
+<strong>Distribution:</strong> D2C Leadership / Confidential
+<strong>Date Generated:</strong> 2026-11-01
+<strong>Version:</strong> Monthly Vol.2026-10</p>
+<hr class="section-divider" />
+<h2 id="sec-2" class="section-title">Section 1: Monthly Executive Summary</h2>
+<h3 id="sec-3" class="sub-title">Key Insights</h3>
+<ul>
+<li><strong>Chinese Brand Threat Surge (+28.2%↑ MoM):</strong> In October 2026, signals from 4 Chinese brands (Midea·TCL·Haier·Hisense) exploded from 825 cases in the previous month to 1,058 cases. Sustained high pressure was observed during W1 (249 cases) → W4 (228 cases), with simultaneous price offensives in TV (TCL/Hisense) and washing machine (Midea) categories confirmed.</li>
+<li><strong>HS Appliances Consumer Negative Response Pattern Concern:</strong> Among 50 monthly consumer negative responses, W4 (14 cases) recorded the single highest value, showing signs of A/S complaints reigniting in Europe and Brazil markets centered in the second half. While the absolute number decreased -12.3%↓ from the previous month (57 cases), the W4 concentration pattern is a counter-cyclical warning signal.</li>
+<li><strong>Promotion Activation Beyond TV:</strong> Refrigerators (703 cases·23.2%), washing machines (663 cases·21.8%), monitors (431 cases·14.2%), and LG gram (215 cases·7.1%) accounted for 66.3% of the total 3,035 cases, with balanced portfolio promotions actively deployed in Germany, Brazil, and Taiwan markets, breaking away from TV dependency.</li>
+<li><strong>LG Promotion Count 7.4%↑ MoM:</strong> Increased from 1,089 cases in the previous month to 1,170 cases, with concentrated confirmation of October Prime Day response and MediaMarkt Black Friday preemptive promotion effects in Germany (461 cases) and the US (504 cases).</li>
+<li><strong>Data Coverage Gap Identified:</strong> Thailand (TH)·Singapore (SG)·Egypt (EG) recorded 0 collection records in October, with continued information gaps in Southeast Asia and Middle East markets making it impossible to understand Chinese brand local penetration.</li>
+</ul>
+<h3 id="sec-4" class="sub-title">Actions Required</h3>
+<ol>
+<li><strong>Activate Chinese Brand Response TF Immediately (Owner: D2C Strategy, by 2026-11-15):</strong> Establish country-specific counter-offer strategies for TCL·Hisense TV price offensives (Australia·Saudi Arabia·US) and Midea·Haier washing machine promotions (Brazil·Mexico·Italy), and strengthen monthly price monitoring cycle to twice weekly.</li>
+<li><strong>Emergency Inspection of W4 Consumer Complaint Concentrated Countries (Germany·Brazil·France) A/S Capability (Owner: CS Ops, 2026-11-30):</strong> Audit refrigerator·washing machine A/S processing speed and parts inventory by local subsidiary for the 14 negative response cases concentrated in October W4, and submit improvement plans.</li>
+<li><strong>Establish TH·SG·EG Data Collection System (Owner: Intelligence Ops, 2026-12-01):</strong> Identify local partner channels (social·commerce·retailer API) to resolve 3-country zero coverage issue and secure minimum 20 cases/country from December report.</li>
+<li><strong>Maximize LG gram 14-inch New Model Launch Momentum (Owner: IT Product Mktg, 2026-11-15):</strong> Intel Wildcat Lake·30.5-hour battery new model signals detected in ES·IT·BR·FR but weak in CA·AU. Establish global simultaneous launch promotion calendar to link with November sales season.</li>
+<li><strong>Establish Germany MediaMarkt·SATURN Linked Black Friday Preemptive Strategy (Owner: DE Subsidiary, 2026-11-10):</strong> Germany emerged as the 2nd market after US (504 cases) with 461 monthly cases. Confirm refrigerator·washing machine·monitor bundle promotions before week 3 of November and expand digital advertising budget by 30% or more compared to previous month.</li>
+</ol>
+<hr class="section-divider" />
+<h3 id="sec-5" class="sub-title">1.1 Monthly Key Findings</h3>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Category</th><th>Finding</th><th>Country-Product</th><th>Severity</th><th>Trend vs Last Month</th></tr></thead><tbody><tr><td>1</td><td>Chinese Brand Threat</td><td>TCL·Hisense TV Simultaneous Price Offensive — TCL 85&quot; C7L $3,297, 98&quot; $3,298 aggressive pricing in Australia threatening Harvey Norman store share</td><td>AU-TV</td><td>🔴 HIGH</td><td>📈 Rising</td></tr>
+<tr><td>2</td><td>Chinese Brand Threat</td><td>Midea Washing Machine 35% Discount Promotion — 22kg large capacity WiFi connected model discount offensive at Mexico Walmart directly penetrating LG large capacity washing machine market</td><td>MX-Washing Machine</td><td>🔴 HIGH</td><td>📈 New</td></tr>
+<tr><td>3</td><td>Chinese Brand Threat</td><td>Haier Refrigerator Canada Costco Entry — Midea·Haier settled into Costco.ca regular lineup, accelerating middle-class price range penetration</td><td>CA-Refrigerator</td><td>🟠 MEDIUM-HIGH</td><td>📈 Rising</td></tr>
+<tr><td>4</td><td>Chinese Brand Threat</td><td>Hisense U7 Mini-LED TV Saudi Amazon Lowest Price — 65-inch Mini-LED at $847.99 directly hitting LG QNED price range</td><td>SA-TV</td><td>🔴 HIGH</td><td>📈 Rising</td></tr>
+<tr><td>5</td><td>Consumer Sentiment</td><td>W4 Consumer Negative Response 14 Cases Concentrated — Including French washing machine error code complaints, Italian appliance A/S delays, Brazilian installation complaints</td><td>FR/IT/BR-Appliances</td><td>🟠 MEDIUM-HIGH</td><td>📈 Rising (vs W3)</td></tr>
+<tr><td>6</td><td>Retail Channel</td><td>Germany MediaMarkt LG TV Large-Scale Discount — MediaMarkt &quot;stark reduziert&quot; campaign with significant price reductions on OLED G6·C6 series</td><td>DE-TV</td><td>🟡 MEDIUM</td><td>➡️ Sustained</td></tr>
+<tr><td>7</td><td>Retail Channel</td><td>Brazil LG Monitor 12% Discount Coupon Activation — UltraGear gaming monitor coupon directly issued through Seletronic, D2C channel activation</td><td>BR-Monitor</td><td>🟡 MEDIUM</td><td>📈 New</td></tr>
+<tr><td>8</td><td>Price Intelligence</td><td>LG Refrigerator $1,350 Discount (US) — French Door model sold at $1,950 from regular price $3,299, narrowing price gap vs competition</td><td>US-Refrigerator</td><td>🟡 MEDIUM</td><td>➡️ Sustained</td></tr>
+<tr><td>9</td><td>Product Launch</td><td>LG gram 14-inch Intel Wildcat Lake New Model Launch — 30.5-hour battery, NotebookCheck global simultaneous coverage confirmed in IT·ES·BR·FR</td><td>Global-LG gram</td><td>🟡 MEDIUM</td><td>📈 New</td></tr>
+<tr><td>10</td><td>Consumer Sentiment</td><td>LG OLED TV Italy Cashback up to €2,000 — Tom&#39;s Hardware IT coverage maximizes consumer purchase incentive, targeting OLED·QNED</td><td>IT-TV</td><td>🟢 POSITIVE</td><td>📈 Rising</td></tr>
+<tr><td>11</td><td>Competitive Move</td><td>Samsung Mexico·Spain Refrigerator·Washing Machine AI Feature Promotion Strengthening — &quot;2026 Smart Appliances&quot; campaign directly competing with LG appliances</td><td>MX/ES-Refrigerator</td><td>🟠 MEDIUM-HIGH</td><td>📈 Rising</td></tr>
+<tr><td>12</td><td>Data Coverage Gap</td><td>TH·SG·EG 3 Countries 0 Data — Southeast Asia·Middle East Chinese brand penetration monitoring completely impossible, strategic gap</td><td>TH/SG/EG-All</td><td>🔴 CRITICAL</td><td>➡️ Sustained</td></tr>
+<tr><td>13</td><td>Retail Channel</td><td>Taiwan Shopping Season Linked LG Washer/Dryer Recommendation Surge — PTT·Dcard recommendation content proliferation with TW washing machine 73 cases collected, smooth D2C conversion opportunity</td><td>TW-Washing Machine</td><td>🟡 MEDIUM</td><td>📈 Rising</td></tr>
+<tr><td>14</td><td>Price Intelligence</td><td>LG UltraGear OLED 720Hz Monitor Lowest Price Amazon — PC Guide coverage, $400 discount attacking global gaming market</td><td>US/UK/AU-Monitor</td><td>🟡 MEDIUM</td><td>📈 New</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h3 id="sec-6" class="sub-title">1.2 Monthly Key Metrics</h3>
+<div class="table-wrap"><table><thead><tr><th>Metric</th><th>This Month (2026-10)</th><th>vs Last Month (2026-09)</th><th>4-Week Trend</th><th>MoM Change%</th></tr></thead><tbody><tr><td>Total Records</td><td>3,035 cases</td><td>2,650 cases</td><td>W1:692 → W5:529</td><td>+14.5%↑</td></tr>
+<tr><td>TV Signals</td><td>1,023 cases</td><td>N/A</td><td>W1:208 → W5:191</td><td>N/A</td></tr>
+<tr><td>Refrigerator Signals</td><td>703 cases</td><td>N/A</td><td>W1:191 → W5:107</td><td>N/A</td></tr>
+<tr><td>Washing Machine Signals</td><td>663 cases</td><td>N/A</td><td>W1:143 → W5:118</td><td>N/A</td></tr>
+<tr><td>Monitor Signals</td><td>431 cases</td><td>N/A</td><td>W1:89 → W5:74</td><td>N/A</td></tr>
+<tr><td>LG gram Signals</td><td>215 cases</td><td>N/A</td><td>W1:61 → W5:39</td><td>N/A</td></tr>
+<tr><td>Chinese Brand Signals</td><td>1,058 cases</td><td>825 cases</td><td>W1:249 → W5:187</td><td>+28.2%↑</td></tr>
+<tr><td>LG Promotion Count</td><td>1,170 cases</td><td>1,089 cases</td><td>Weekly average 234 cases</td><td>+7.4%↑</td></tr>
+<tr><td>Consumer Negative Response</td><td>50 cases</td><td>57 cases</td><td>W1:9 → W4:14 → W5:10</td><td>-12.3%↓</td></tr>
+<tr><td>Coverage Countries</td><td>14 (effective)</td><td>N/A</td><td>3 countries zero</td><td>N/A</td></tr>
+<tr><td>Chinese Brand Threat Tracking</td><td>1,263 cases</td><td>N/A</td><td>Pillar #1</td><td>N/A</td></tr>
+<tr><td>Retail Channel Promotions</td><td>868 cases</td><td>N/A</td><td>Pillar #2</td><td>N/A</td></tr>
+<tr><td>Consumer Sentiment Records</td><td>501 cases</td><td>N/A</td><td>Pillar #3</td><td>N/A</td></tr>
+<tr><td>Competitive Price &amp; Positioning</td><td>403 cases</td><td>N/A</td><td>Pillar #4</td><td>N/A</td></tr>
+<tr><td>Samsung Competitive Signals</td><td>164 cases</td><td>N/A</td><td>Major non-Chinese competitor</td><td>N/A</td></tr></tbody></table></div>
+<div class="chart-container"><canvas id="chart-monthly_kpi_summary" data-chart='{"type":"line","title":"Weekly Signal Trends by Product","labels":["W1","W2","W3","W4","W5"],"datasets":[{"label":"TV","data":[208,207,228,189,191],"color":"#003a66"},{"label":"Refrigerator","data":[191,136,123,146,107],"color":"#0a7ac4"},{"label":"Washing Machine","data":[143,129,150,123,118],"color":"#2196F3"},{"label":"Monitor","data":[89,96,100,72,74],"color":"#4CAF50"},{"label":"LG gram","data":[61,35,47,33,39],"color":"#FF9800"}]}'></canvas></div>
+
+<hr class="section-divider" />
+<h3 id="sec-7" class="sub-title">1.3 Strategic Task Roadmap</h3>
+<div class="table-wrap"><table><thead><tr><th>Priority</th><th>Action</th><th>Target Country</th><th>Target Product</th><th>Owner</th><th>Timeline</th></tr></thead><tbody><tr><td>P1</td><td>TCL·Hisense TV Price Counter Promotion — Issue immediate $100~$300 discount coupons after Prime Day season end</td><td>AU, SA, US</td><td>TV (OLED C6/G6)</td><td>MS Marketing</td><td>2026-11-15</td></tr>
+<tr><td>P1</td><td>Midea Washing Machine Response Bundle Deal — LG washer+dryer set discount + 12-month interest-free card partnership</td><td>MX, BR, IT</td><td>Washing Machine</td><td>HS Marketing</td><td>2026-11-20</td></tr>
+<tr><td>P2</td><td>TH·SG·EG Data Collection Infrastructure Build</td><td>TH, SG, EG</td><td>All</td><td>Intelligence Ops</td><td>2026-12-01</td></tr>
+<tr><td>P2</td><td>LG gram New Model Global Simultaneous D2C Campaign — Execute YouTube·SNS ads centered on 30.5-hour battery USP</td><td>US, DE, BR, ES, IT</td><td>LG gram</td><td>IT Product Mktg</td><td>2026-11-15</td></tr>
+<tr><td>P2</td><td>Germany Black Friday Preemptive Package — Up to €400 cashback for simultaneous refrigerator·washing machine purchase</td><td>DE</td><td>Refrigerator, Washing Machine</td><td>DE Subsidiary</td><td>2026-11-10</td></tr>
+<tr><td>P3</td><td>Italy OLED TV Cashback Campaign Extension — Expand €2,000 cashback success model to ES·FR</td><td>IT, ES, FR</td><td>TV (OLED/QNED)</td><td>EU MS Marketing</td><td>2026-12-01</td></tr>
+<tr><td>P3</td><td>Brazil Monitor D2C Coupon Systematization — Upgrade Mercado Livre·Seletronic coupon 12% → 15% and introduce subscription coupons</td><td>BR</td><td>Monitor</td><td>BR Subsidiary</td><td>2026-11-30</td></tr>
+<tr><td>P3</td><td>W4 Negative Response Concentrated Country A/S Improvement Plan Development and Implementation Report</td><td>FR, IT, BR, DE</td><td>Refrigerator, Washing Machine</td><td>CS Ops</td><td>2026-11-30</td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h2 id="sec-8" class="section-title">Section 2: Monthly Key Alert Comprehensive</h2>
+<h3 id="sec-9" class="sub-title">Key Insights</h3>
+<ul>
+<li><strong>Chinese Brand Signal W1 Concentration (249 cases) Then W4 Re-surge (228 cases):</strong> Dual peaks formed in early-month Prime Day pre/post period and late-month Black Friday warm-up season. Weekly average 211 cases confirmed structural upward trend compared to previous month.</li>
+<li><strong>Australia TCL Offensive is Monthly Highest Risk Alert:</strong> TCL 85-inch·98-inch UHD Mini LED TV launched high-intensity price offensive at major retailers like Harvey Norman, reaching risk level of direct LG TV sales infringement.</li>
+<li><strong>Canada Chinese Appliances (Midea·Haier) Costco Entry Structured:</strong> Not a one-time promotion but regular lineup integration, fundamentally deteriorating long-term competitive environment for LG refrigerators in Canada.</li>
+<li><strong>Italy Midea Washing Machine Low-Price Offensive — Quality Differentiation Weakening with Smart Features:</strong> Midea 10/7kg washer-dryer with smartphone control + A energy rating exposed in IT SmartWorld recommendation content, concerns over LG competitive advantage dilution.</li>
+<li><strong>Saudi Arabia Hisense TV Data Coverage Joins Top Countries:</strong> SA collected 70 TV signals, joining major country ranks for the first time, with Hisense penetration in Middle East market becoming reality.</li>
+</ul>
+<h3 id="sec-10" class="sub-title">Actions Required</h3>
+<ol>
+<li><strong>Australia TCL Response Emergency Price Adjustment (Owner: AU Subsidiary, 2026-11-10):</strong> Review LG QNED85 price positioning compared to TCL 85-inch ($3,297) and immediately negotiate Harvey Norman·JB Hi-Fi channel exclusive bundle deals.</li>
+<li><strong>Canada Costco Channel Defense Strategy Development (Owner: CA Subsidiary, 2026-11-20):</strong> Propose LG refrigerator exclusive Costco bundle (including 5-year warranty) in response to Midea·Haier Costco entry, and pursue emergency meeting with Costco buyers.</li>
+<li><strong>Italy Midea Washing Machine Price Monitoring to Weekly (Owner: IT Subsidiary, immediately):</strong> Establish weekly scan system for Midea washing machine price·ratings on SmartWorld·Amazon.it, and produce and distribute additional LG ThinQ feature differentiation content in Italian.</li>
+<li><strong>Saudi Arabia Hisense TV Response Arabic D2C Content Strengthening (Owner: ME Subsidiary, 2026-11-30):</strong> Create OLED vs Mini-LED comparison content in Arabic on LG.com/sa and expand Amazon.sa sponsored advertising budget.</li>
+<li><strong>Consumer Negative Response W4 Concentration Structure Prevention (Owner: CS Ops, monthly monitoring):</strong> Strengthen A/S reception → processing → closure SLA to prevent repetition of W4 negative response concentration pattern every month, and send preventive customer communications (error code guides, etc.) before November W4.</li>
+</ol>
+<hr class="section-divider" />
+<h3 id="sec-11" class="sub-title">2.1 Key Subsidiary Monthly Alert Trends</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>W1 Alert</th><th>W2 Alert</th><th>W3 Alert</th><th>W4 Alert</th><th>W5 Alert</th><th>Monthly Trend</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>➡️ Flat — W3 temporary rise linked to Prime Day</td></tr>
+<tr><td>🇨🇦 CA</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>📈 Rising — Costco Midea/Haier entry confirmed</td></tr>
+<tr><td>🇬🇧 UK</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>➡️ Stable — AO.com promotion sustained</td></tr>
+<tr><td>🇩🇪 DE</td><td>🟠 MEDIUM-HIGH</td><td>🟠 MEDIUM-HIGH</td><td>🟠 MEDIUM-HIGH</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>➡️ Sustained caution — MediaMarkt competition intensifying</td></tr>
+<tr><td>🇫🇷 FR</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>📈 W4 rise — Washing machine error code complaints</td></tr>
+<tr><td>🇪🇸 ES</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>➡️ Stable — OLED price drop creating opportunity window</td></tr>
+<tr><td>🇮🇹 IT</td><td>🟠 MEDIUM-HIGH</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>📈 Rising — Midea washing machine direct competition</td></tr>
+<tr><td>🇧🇷 BR</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>🟠 MEDIUM-HIGH</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>📈 Rising — Midea refrigerator recommendations increasing</td></tr>
+<tr><td>🇲🇽 MX</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>📈 W4 caution — Midea washing machine Walmart discount</td></tr>
+<tr><td>🇨🇱 CL</td><td>🟢 LOW</td><td>🟢 LOW</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟢 LOW</td><td>📈 Slight rise — Hisense value TV appearance</td></tr>
+<tr><td>🇹🇭 TH</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ No data — Collection system absent</td></tr>
+<tr><td>🇦🇺 AU</td><td>🔴 HIGH</td><td>🔴 HIGH</td><td>🔴 HIGH</td><td>🟠 MEDIUM-HIGH</td><td>🟠 MEDIUM-HIGH</td><td>🔴 High risk sustained — TCL volume offensive</td></tr>
+<tr><td>🇹🇼 TW</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>🟡 MEDIUM</td><td>➡️ Stable — Mid-Autumn Festival season promotions active</td></tr>
+<tr><td>🇸🇬 SG</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ No data — Collection system absent</td></tr>
+<tr><td>🇪🇬 EG</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ NO DATA</td><td>⬜ No data — Collection system absent</td></tr>
+<tr><td>🇸🇦 SA</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>🟠 MEDIUM-HIGH</td><td>🟠 MEDIUM-HIGH</td><td>🟡 MEDIUM</td><td>📈 Rising — Hisense TV Amazon lowest price offensive</td></tr></tbody></table></div>
+<div class="chart-container"><canvas id="chart-monthly_country_heatmap" data-chart='{"type":"bar","title":"Monthly Signal Count by Country (2026-10)","labels":["US","DE","TW","BR","SA","IT","FR","ES","AU","UK","MX","CA","CL","TH","SG","EG"],"datasets":[{"label":"Signal Count","data":[504,461,304,377,176,234,219,156,82,107,56,50,10,0,0,0],"color":"#003a66"}]}'></canvas></div>
+
+<hr class="section-divider" />
+<h3 id="sec-12" class="sub-title">2.2 Consumer Negative Response Monthly Trends</h3>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Product</th><th>W1 Issues</th><th>W2 Issues</th><th>W3 Issues</th><th>W4 Issues</th><th>W5 Issues</th><th>Trend</th></tr></thead><tbody><tr><td>🇫🇷 FR</td><td>Washing Machine</td><td>Error code complaint 1 case</td><td>—</td><td>—</td><td>Error code inquiry 2 cases</td><td>—</td><td>📈 Recurrence concern</td></tr>
+<tr><td>🇮🇹 IT</td><td>Washing Machine</td><td>—</td><td>Delivery complaint 1 case</td><td>—</td><td>A/S delay 2 cases</td><td>—</td><td>📈 Rising</td></tr>
+<tr><td>🇬🇧 UK</td><td>Refrigerator</td><td>—</td><td>A/S complaint 1 case</td><td>—</td><td>Delivery delay 1 case</td><td>—</td><td>➡️ Sustained</td></tr>
+<tr><td>🇩🇪 DE</td><td>Refrigerator</td><td>Installation complaint 1 case</td><td>—</td><td>Temperature defect 1 case</td><td>A/S wait 2 cases</td><td>—</td><td>📈 Rising</td></tr>
+<tr><td>🇧🇷 BR</td><td>Washing Machine</td><td>—</td><td>1 case</td><td>Installation complaint 1 case</td><td>Noise complaint 2 cases</td><td>1 case</td><td>📈 Rising</td></tr>
+<tr><td>🇧🇷 BR</td><td>Refrigerator</td><td>Filter replacement 1 case</td><td>1 case</td><td>—</td><td>1 case</td><td>—</td><td>➡️ Sustained</td></tr>
+<tr><td>🇺🇸 US</td><td>Refrigerator</td><td>—</td><td>—</td><td>—</td><td>Price complaint 1 case</td><td>—</td><td>🟢 Stable</td></tr>
+<tr><td>🇺🇸 US</td><td>TV</td><td>—</td><td>—</td><td>1 case</td><td>—</td><td>—</td><td>🟢 Stable</td></tr>
+<tr><td>🇬🇧 UK</td><td>LG gram</td><td>1 case (consumer_complaint)</td><td>—</td><td>—</td><td>—</td><td>—</td><td>🟢 One-off</td></tr>
+<tr><td>🇲🇽 MX</td><td>Washing Machine</td><td>—</td><td>—</td><td>1 case</td><td>2 cases</td><td>1 case</td><td>📈 Rising</td></tr>
+<tr><td>🇦🇺 AU</td><td>Refrigerator</td><td>—</td><td>1 case</td><td>—</td><td>A/S 1 case</td><td>—</td><td>➡️ Sustained</td></tr>
+<tr><td>🇹🇼 TW</td><td>Washing Machine</td><td>—</td><td>—</td><td>1 case</td><td>—</td><td>1 case</td><td>➡️ Stable</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>All</strong></td><td><strong>9 cases</strong></td><td><strong>11 cases</strong></td><td><strong>6 cases</strong></td><td><strong>14 cases</strong></td><td><strong>10 cases</strong></td><td>📈 W4 concentration risk</td></tr></tbody></table></div>
+<blockquote>
+<p>⚠️ <strong>Refrigerator/Washing Machine A/S Complaint Main Pattern:</strong> A/S response delays (average exceeding 3<del>5 days) confirmed as common complaint in Germany·France·Italy. Brazil installation·noise complaints moved to W4</del>W5. Sources: <a href="https://www.mon-club-elec.fr/code-erreur-lave-linge-lg/">Mon Club Elec</a> | <a href="https://github.com/kalpdev2010-hub/dubai-cinema-guide/issues/1332">GitHub LG gram complaint</a></p>
+</blockquote>
+<hr class="section-divider" />
+<h3 id="sec-13" class="sub-title">2.3 Competitor Attack Actions Monthly Timeline</h3>
+<div class="table-wrap"><table><thead><tr><th>Week</th><th>Country</th><th>Competitor</th><th>Action</th><th>LG Impact</th></tr></thead><tbody><tr><td>W1</td><td>AU</td><td>TCL</td><td>85&quot; C7L SQD-Mini LED $2,150 — OzBargain deal posted, immediate viral spread</td><td>QNED85 price competitiveness directly threatened</td></tr>
+<tr><td>W1</td><td>AU</td><td>TCL</td><td>98&quot; C7L $3,297.60 Harvey Norman regular pricing completed</td><td>98-inch TV market LG sole premium position threatened</td></tr>
+<tr><td>W1</td><td>CA</td><td>Midea</td><td>Costco.ca 18cu.ft Stainless Top Mount refrigerator official entry</td><td>LG Canada refrigerator Costco channel share loss</td></tr>
+<tr><td>W1</td><td>SA</td><td>Hisense</td><td>65&quot; U7 Mini-LED $847.99 Amazon lowest price — Mashable coverage</td><td>LG QNED65 price position pressure</td></tr>
+<tr><td>W2</td><td>UK</td><td>Haier</td><td>Haier Refrigeration US official site lineup significantly expanded</td><td>UK refrigerator new entry path strengthened</td></tr>
+<tr><td>W2</td><td>UK</td><td>Haier</td><td>Haier 7kg 5-star front loader HW70 — UK entry strengthened through India channel</td><td>LG UK washing machine price range penetration</td></tr>
+<tr><td>W2</td><td>IT</td><td>Midea</td><td>10/7kg washer-dryer A grade + app control SmartWorld lowest price</td><td>LG WashTower direct competitive item</td></tr>
+<tr><td>W3</td><td>MX</td><td>Midea</td><td>Walmart 22kg washing machine 35% discount + WiFi — adn40 coverage</td><td>LG MX large capacity washing machine market share threat</td></tr>
+<tr><td>W3</td><td>MX</td><td>Samsung</td><td>&quot;2026 Smart Appliances&quot; refrigerator·washing machine AI feature campaign — Xataka article</td><td>LG AI ThinQ technology competition intensification</td></tr>
+<tr><td>W3</td><td>CL</td><td>Hisense</td><td>UR9S RGB Mini-LED Xataka in-depth review — Price vs quality emphasis</td><td>LG QNED Chile position threat</td></tr>
+<tr><td>W4</td><td>CA</td><td>Midea</td><td>Canadian Appliance refrigerator dedicated page renewal — Price comparison front placement</td><td>LG CA refrigerator online price comparison disadvantage exposure</td></tr>
+<tr><td>W4</td><td>IT</td><td>Xiaomi</td><td>HDHome appliance category entry signal — IT smart home market entry</td><td>LG Italy smart home ecosystem indirect threat</td></tr>
+<tr><td>W5</td><td>AU</td><td>Haier</td><td>JB Hi-Fi·Bing Lee Haier washing machine regular lineup expansion</td><td>LG AU washing machine channel share threat</td></tr>
+<tr><td>W5</td><td>ES</td><td>Samsung</td><td>MediaMarkt ES LG·Samsung TV simultaneous discount period overlap</td><td>LG OLED Spain price position murky</td></tr></tbody></table></div>
+<p>Sources: <a href="https://www.ozbargain.com.au/node/976312">OzBargain TCL 85C7L</a> | <a href="https://mashable.com/tech/sept-22-hisense-65-inch-u7-google-tv-deal">Mashable Hisense U7</a> | <a href="https://www.adn40.mx/es-tendencia/2026-09-23/rematan-lavadora-midea-de-22-kg-carga-superior-con-35-de-descuento-incluye-conexion-a-wifi-para-que-puedas-controlar-el-lavado-desde-tu-celular/">adn40 Midea MX</a> | <a href="https://www.smartworld.it/tecnologia/lavasciuga-10kg-controllo-app-minimo-storico-offerta.html">SmartWorld Midea IT</a></p>
+<hr class="section-divider" />
+<h3 id="sec-14" class="sub-title">2.4 Chinese Brand Momentum Monthly Analysis</h3>
+<div class="table-wrap"><table><thead><tr><th>Brand</th><th>Category</th><th>W1 Signal</th><th>W2 Signal</th><th>W3 Signal</th><th>W4 Signal</th><th>W5 Signal</th><th>Monthly Total</th><th>Trend</th></tr></thead><tbody><tr><td>Midea</td><td>Appliances (HS)</td><td>62 cases</td><td>45 cases</td><td>58 cases</td><td>71 cases</td><td>45 cases</td><td><strong>281 cases</strong></td><td>📈 W4 peak</td></tr>
+<tr><td>TCL</td><td>TV (MS)</td><td>68 cases</td><td>41 cases</td><td>55 cases</td><td>62 cases</td><td>46 cases</td><td><strong>272 cases</strong></td><td>📈 W1·W4 dual peak</td></tr>
+<tr><td>Haier</td><td>Appliances (HS)</td><td>59 cases</td><td>43 cases</td><td>52 cases</td><td>57 cases</td><td>42 cases</td><td><strong>253 cases</strong></td><td>➡️ Flat rise</td></tr>
+<tr><td>Hisense</td><td>TV (MS)</td><td>60 cases</td><td>50 cases</td><td>50 cases</td><td>38 cases</td><td>54 cases</td><td><strong>252 cases</strong></td><td>➡️ Plateau maintained</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>TV+Appliances</strong></td><td><strong>249 cases</strong></td><td><strong>179 cases</strong></td><td><strong>215 cases</strong></td><td><strong>228 cases</strong></td><td><strong>187 cases</strong></td><td><strong>1,058 cases</strong></td><td>📈 +28.2%↑ MoM</td></tr></tbody></table></div>
+<div class="chart-container"><canvas id="chart-monthly_china_brand_bar" data-chart='{"type":"bar","title":"Chinese Brand Monthly Signals","labels":["Midea","TCL","Haier","Hisense"],"datasets":[{"label":"Signal Count","data":[281,272,253,252],"color":"#e63946"}]}'></canvas></div>
+
+<blockquote>
+<p><strong>TV Brands (TCL+Hisense):</strong> 524 cases — Mini-LED price offensive centered on Australia·Saudi Arabia·US·Canada
+<strong>Appliance Brands (Midea+Haier):</strong> 534 cases — Concentrated penetration of refrigerator·washing machine markets in Brazil·Mexico·Italy·Canada</p>
+</blockquote>
+<p>Sources: <a href="https://www.ozbargain.com.au/node/976264">OzBargain TCL</a> | <a href="https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html">Costco.ca Midea</a> | <a href="https://www.thegoodguys.com.au/haier/fridges-and-freezers">Haier AU The Good Guys</a> | <a href="https://www.haierappliances.com/refrigeration/refrigerators">Haier US Appliances</a></p>
+<hr class="section-divider" />
+<h2 id="sec-15" class="section-title">Section 3: 16-Country Monthly Dashboard</h2>
+<h3 id="sec-16" class="sub-title">Key Insights</h3>
+<ul>
+<li><strong>US·Germany Duopoly Entrenched:</strong> US 504 cases·DE 461 cases account for 31.8% of total, confirming structure where D2C channel strategies of these two countries determine global performance.</li>
+<li><strong>Brazil&#39;s Rapid Emergence:</strong> BR 377 cases overwhelms mid-sized European countries (FR 219, ES 156), with position strengthened as core Latin American market and monitor·washing machine D2C coupon channels activating.</li>
+<li><strong>Taiwan LG gram Signal Concentration:</strong> TW collected 31 LG gram cases (10.2% of total Taiwan 304 cases), confirming Asian PC market potential, but dispersed channel sources make D2C conversion tracking difficult.</li>
+<li><strong>Saudi Arabia Emerging Growth Market Highlighted:</strong> SA 176 cases surpassed UK (107 cases) data volume, urgently highlighting need for LG Middle East D2C strengthening along with Hisense TV offensive.</li>
+<li><strong>Chile·Canada Small Market Signal Value:</strong> CL 10 cases·CA 50 cases have low absolute numbers, but Hisense RGB Mini-LED review detected in Chile performs as leading indicator of South American mid-to-low-price TV market penetration.</li>
+</ul>
+<h3 id="sec-17" class="sub-title">Actions Required</h3>
+<ol>
+<li><strong>Brazil D2C Channel Investment Expansion (Owner: BR Subsidiary, 2026-11-30):</strong> Based on 377 cases data volume and monitor coupon success case, strengthen LG.com/br washer·refrigerator direct sales channel and automate price synchronization through Mercado Livre API integration.</li>
+<li><strong>Saudi D2C Arabic Platform Advancement (Owner: ME Subsidiary, 2026-12-15):</strong> 70 of SA 176 cases are TV category with direct Hisense threat. Renew LG.com/sa TV comparison page in Arabic and strengthen Amazon.sa advertising execution.</li>
+<li><strong>Germany Channel Diversification — SATURN Direct Cooperation Strengthening (Owner: DE Subsidiary, 2026-11-15):</strong> Establish SATURN online exclusive deals to reduce MediaMarkt dependency, and set goal to raise LG.com/de direct sales traffic proportion 20% higher than current level.</li>
+<li><strong>Taiwan gram·Monitor Channel Source Tracking System Construction (Owner: TW Subsidiary, 2026-12-01):</strong> Measure conversion rates by dispersed channels like PTT·Dcard·Coolpc in Taiwan, and identify most efficient D2C conversion path during November.</li>
+<li><strong>Chile Hisense Early Warning System Construction (Owner: CL/LatAm Subsidiary, 2026-11-30):</strong> Although small signal volume of 10 cases in CL, Xataka in-depth review detection is leading signal of local influence expansion. Start weekly price monitoring of Chile major retailers (Falabella·Ripley).</li>
+</ol>
+<hr class="section-divider" />
+<h3 id="sec-18" class="sub-title">3.1 Consumer Response Monthly Trends</h3>
+<h4 id="sec-19" class="sub-title">Key Insights</h4>
+<ul>
+<li><strong>Positive Consumer Response Concentrated Countries: Italy·Spain·Germany</strong> — LG brand favorability strengthened by OLED TV price drops and cashback campaigns. €2,000 cashback program in IT propagated through Tom&#39;s Hardware coverage.</li>
+<li><strong>Negative Response Concentrated Products: Refrigerator·Washing Machine A/S</strong> — Installation·A/S delay complaints appeared as common pattern in Europe (DE·FR·IT) and South America (BR·MX), with W4 concentration phenomenon clearly detected for the first time this month.</li>
+<li><strong>LG gram Negative Review One-off Occurrence (UK):</strong> Single complaint signal for LG gram Pro 16 detected on GitHub issue tracker, but no signs of spread. Continued monitoring needed.</li>
+</ul>
+<h4 id="sec-20" class="sub-title">Actions Required</h4>
+<ol>
+<li><strong>Immediately Replicate Italy Cashback Success Pattern to ES·FR (Owner: EU MS Mktg, 2026-11-30)</strong></li>
+<li><strong>A/S SLA Shortening Goal Setting — Europe Region W4 Concentration Prevention (Owner: EU CS Ops, 2026-11-15)</strong></li>
+<li><strong>LG gram UK User Feedback Channel Opening — Add GitHub·Reddit Monitoring (Owner: UK Subsidiary, immediately)</strong></li>
+</ol>
+<div class="chart-container"><canvas id="chart-monthly_sentiment_trend" data-chart='{"type":"doughnut","title":"Intelligence Pillar Distribution","labels":["Chinese Brand Threat Tracking","Retail Channel Promotions","Consumer Sentiment","Competitive Price & Positioning"],"datasets":[{"label":"Count","data":[1263,868,501,403],"color":"#003a66"}]}'></canvas></div>
+
+<h4 id="sec-21" class="sub-title">16-Country Consumer Response Table</h4>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Total Count</th><th>Positive Signals</th><th>Negative Signals</th><th>Neutral/Info</th><th>Main Product Issues</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>504 cases</td><td>Price discount response favorable</td><td>Refrigerator price complaint 1 case</td><td>Many reviews·recommendations</td><td>TV promotion response good</td><td><a href="https://www.cnet.com/deals/best-tv-deals/">CNET Deals</a></td></tr>
+<tr><td>🇨🇦 CA</td><td>50 cases</td><td>Washing machine smart features praised</td><td>—</td><td>Price comparison focused</td><td>Midea competition exposure</td><td><a href="https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html">Costco.ca Midea</a></td></tr>
+<tr><td>🇬🇧 UK</td><td>107 cases</td><td>gram selected best PC</td><td>A/S delay 2 cases</td><td>Neutral reviews</td><td>Refrigerator A/S complaints</td><td><a href="https://www.cnet.com/tech/computing/best-windows-laptop/">CNET Best Windows Laptop</a></td></tr>
+<tr><td>🇩🇪 DE</td><td>461 cases</td><td>TV discount response positive</td><td>Refrigerator A/S 3 cases</td><td>FAZ comparison article</td><td>Refrigerator installation·temperature defect</td><td><a href="https://www.faz.net/kaufkompass/vergleich/der-beste-side-by-side-kuehlschrank/">FAZ Kaufkompass</a></td></tr>
+<tr><td>🇫🇷 FR</td><td>219 cases</td><td>OLED TV recommendations increasing</td><td>Washing machine error code 3 cases</td><td>Neutral reviews</td><td>Washing machine W4 error code concentration</td><td><a href="https://www.mon-club-elec.fr/code-erreur-lave-linge-lg/">Mon Club Elec</a></td></tr>
+<tr><td>🇪🇸 ES</td><td>156 cases</td><td>OLED price drop welcomed</td><td>—</td><td>Price comparison content</td><td>Refrigerator savings effect emphasized</td><td><a href="https://okdiario.com/okshopping/este-frigorifico-lg-te-ahorra-hasta-883-luz-tiene-garantia-vida-compresor-20382554">OKDiario</a></td></tr>
+<tr><td>🇮🇹 IT</td><td>234 cases</td><td>Cashback €2,000 positive response</td><td>Midea alternative mentioned 2 cases</td><td>Midea competition</td><td>Washing machine A/S delay 2 cases</td><td><a href="https://www.tomshw.it/altro/lg-ti-paga-lo-smart-tv-cashback-fino-a-2000eur-su-oled-e-qned">Tom&#39;s Hardware IT</a></td></tr>
+<tr><td>🇧🇷 BR</td><td>377 cases</td><td>Monitor coupon response very positive</td><td>Washing machine noise 3 cases</td><td>Brand comparison</td><td>Refrigerator filter·washing machine noise</td><td><a href="https://seletronic.com.br/cupom-12-off-lg-24-09-2026/">Seletronic</a></td></tr>
+<tr><td>🇲🇽 MX</td><td>56 cases</td><td>Costco washing machine discount response good</td><td>Washing machine complaints 3 cases</td><td>Comparison shopping</td><td>Midea price comparison exposure</td><td><a href="https://www.adn40.mx/es-tendencia/2026-09-24/costco-remata-lavadora-lg-de-22-kg-carga-frontal-con-pedestal-ahorro-de-energia-y-descuento-de-6500/">adn40 LG MX</a></td></tr>
+<tr><td>🇨🇱 CL</td><td>10 cases</td><td>OLED W6 design praised</td><td>—</td><td>Hisense comparison mention</td><td>Hisense RGB MiniLED alternative</td><td><a href="https://www.xataka.com/analisis/hisense-ur9s-rgb-miniled-analisis-caracteristicas-precio-especificaciones">Xataka Hisense UR9S</a></td></tr>
+<tr><td>🇹🇭 TH</td><td>0 cases</td><td>N/A</td><td>N/A</td><td>N/A</td><td>No data</td><td>N/A</td></tr>
+<tr><td>🇦🇺 AU</td><td>82 cases</td><td>Washing machine combo CHOICE recommended</td><td>TCL value mentioned</td><td>TCL comparison active</td><td>TCL value mentioned vs LG</td><td><a href="https://www.choice.com.au/home-and-living/laundry-and-cleaning/washing-machines/review-and-compare/washer-dryer-combos">CHOICE AU</a></td></tr>
+<tr><td>🇹🇼 TW</td><td>304 cases</td><td>Washer·dryer recommendations active</td><td>—</td><td>PTT/Dcard positive</td><td>Mid-Autumn Festival promotion effect</td><td><a href="https://vocus.cc/article/6aaf6874fd89780001ab3104">Vocus TW</a></td></tr>
+<tr><td>🇸🇬 SG</td><td>0 cases</td><td>N/A</td><td>N/A</td><td>N/A</td><td>No data</td><td>N/A</td></tr>
+<tr><td>🇪🇬 EG</td><td>0 cases</td><td>N/A</td><td>N/A</td><td>N/A</td><td>No data</td><td>N/A</td></tr>
+<tr><td>🇸🇦 SA</td><td>176 cases</td><td>LG appliances official site response</td><td>Hisense comparison purchase increasing</td><td>Price comparison</td><td>Hisense TV price competition intensifying</td><td><a href="https://www.lg.com/us/refrigerators">LG USA Refrigerators</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h3 id="sec-22" class="sub-title">3.2 Retail Channel Promotions Monthly Trends</h3>
+<h4 id="sec-23" class="sub-title">Key Insights</h4>
+<ul>
+<li><strong>October Prime Day Dual Effect (W1·W5):</strong> Amazon Prime Day linked promotions operated doubly in W1 (Total 692 cases) and W5 (Amazon October Prime Day), with concentrated LG promotion intensity in US·DE·BR channels.</li>
+<li><strong>Germany MediaMarkt Large-Scale Campaign Sustained:</strong> &quot;LG-Fernseher stark reduziert&quot; campaign maintained throughout W1~W4, driving premium TV sales but concerns over accumulated Preisverfall (price drop) image.</li>
+<li><strong>Brazil D2C Direct Coupon Channel Activation:</strong> 12% coupon issuance through Seletronic connected to IGN Brazil·Xataka Brazil media pickup, confirming media ripple effect of D2C coupons.</li>
+<li><strong>Italy MediaWorld 35th Anniversary + LG Cashback Simultaneous Execution:</strong> Two promotion events concentrated in W3~W4, estimated to have recorded highest purchase conversion rate in IT market.</li>
+<li><strong>Taiwan Shopping Season (Mid-Autumn Festival·National Day) Linked Washer·Dryer Recommendation Content Surge:</strong> LG washer·dryer recommendations concentrated on UGC channels like PTT·Dcard·gadgetmemo, estimating increased organic D2C inflow.</li>
+</ul>
+<h4 id="sec-24" class="sub-title">Actions Required</h4>
+<ol>
+<li><strong>Germany Preisverfall Image Management — OLED Premium Position Protection (Owner: DE Subsidiary, 2026-11-10):</strong> To avoid excessive dependence on MediaMarkt discount campaigns, expand proportion of LG.com/de exclusive bundles·value-added deals (free installation+1-year extended warranty).</li>
+<li><strong>Brazil Coupon Ripple Effect Systematization (Owner: BR Subsidiary, 2026-11-15):</strong> Formalize Seletronic success model into monthly regular coupon issuance calendar in cooperation with TechTudo·IGN Brasil·Techtudo.</li>
+<li><strong>Italy MediaWorld Cooperation Expansion (Owner: IT Subsidiary, 2026-11-30):</strong> Sign annual cooperation MOU to maintain MediaWorld exclusive LG bundle deals at least monthly even after 35th anniversary event.</li>
+<li><strong>Taiwan UGC Linked D2C Conversion Funnel Construction (Owner: TW Subsidiary, 2026-12-15):</strong> Establish influencer program to insert LG.com/tw direct purchase links in PTT·Dcard recommendation posts.</li>
+<li><strong>October Prime Day W5 Performance Measurement and November Follow-up Campaign Planning (Owner: Global D2C, 2026-11-15):</strong> Collect Amazon October Prime Day final conversion rate data and establish continuous promotion calendar until November Black Friday.</li>
+</ol>
+<div class="chart-container"><canvas id="chart-monthly_promo_timeline" data-chart='{"type":"line","title":"Weekly Chinese Brand Signals vs LG Promotion Trends","labels":["W1","W2","W3","W4","W5"],"datasets":[{"label":"Chinese Brand Signals","data":[249,179,215,228,187],"color":"#e63946"},{"label":"LG Total Signals Estimated","data":[443,424,433,335,342],"color":"#003a66"}]}'></canvas></div>
+
+<h4 id="sec-25" class="sub-title">16-Country Retail Channel Promotions Table</h4>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Main Channels</th><th>W1</th><th>W2</th><th>W3</th><th>W4</th><th>W5</th><th>Key Promotions</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>Best Buy, Amazon, CNET</td><td>High</td><td>Medium</td><td>High</td><td>Medium</td><td>High</td><td>Prime Day pre/post OLED $800 range deals</td><td><a href="https://www.cnet.com/deals/best-tv-deals/">CNET TV Deals</a></td></tr>
+<tr><td>🇨🇦 CA</td><td>Costco.ca, CanadianAppliance</td><td>Medium</td><td>Medium</td><td>Medium</td><td>Low</td><td>Low</td><td>Midea Costco entry observation</td><td><a href="https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html">Costco.ca Midea</a></td></tr>
+<tr><td>🇬🇧 UK</td><td>AO.com, Wowcher</td><td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td><td>Low</td><td>AO.com 10% discount code distribution</td><td><a href="https://www.wowcher.co.uk/discountcodes/ao.com">Wowcher AO.com</a></td></tr>
+<tr><td>🇩🇪 DE</td><td>MediaMarkt, SATURN, ROLLER</td><td>Very High</td><td>High</td><td>High</td><td>High</td><td>Medium</td><td>OLED 50% price reduction campaign, FAZ comparison</td><td><a href="https://www.kino.de/news/lg-fernseher-bei-mediamarkt-stark-reduziert-diese-tv-deals-lohnen-sich--01M31Y06JS56CFH0NTFCRK43W6">Kino.de MediaMarkt</a></td></tr>
+<tr><td>🇫🇷 FR</td><td>Macif Avantages, Fnac</td><td>Medium</td><td>Medium</td><td>Medium</td><td>Medium</td><td>Low</td><td>LG promo code 25% OFF TechRadar</td><td><a href="https://www.techradar.com/coupons/lg">TechRadar Coupons</a></td></tr>
+<tr><td>🇪🇸 ES</td><td>MediaMarkt, El Mundo Bazar</td><td>Medium</td><td>Medium</td><td>High</td><td>Medium</td><td>Medium</td><td>OLED 48&quot; €999 special, 30th anniversary</td><td><a href="https://www.larazon.es/compras/nuestra-eleccion/1399-999-euros-esta-nueva-oled-evo-48-pulgadas-dos-subwoofers-165_202609226ab29ccef5374e4ae7c44a4b.html">La Razon OLED</a></td></tr>
+<tr><td>🇮🇹 IT</td><td>Supermedia, MediaWorld, Subito</td><td>High</td><td>High</td><td>Very High</td><td>High</td><td>Medium</td><td>Cashback €2,000 + MediaWorld 35th anniversary</td><td><a href="https://www.tomshw.it/altro/lg-ti-paga-lo-smart-tv-cashback-fino-a-2000eur-su-oled-e-qned">Tom&#39;s HW IT Cashback</a></td></tr>
+<tr><td>🇧🇷 BR</td><td>Mercado Livre, Seletronic, IGN BR</td><td>High</td><td>Medium</td><td>High</td><td>High</td><td>Medium</td><td>Monitor 12% coupon, UltraGear R$800 deal</td><td><a href="https://seletronic.com.br/cupom-12-off-lg-24-09-2026/">Seletronic Cupom</a></td></tr>
+<tr><td>🇲🇽 MX</td><td>Costco MX, Walmart, ktronix</td><td>Medium</td><td>Low</td><td>High</td><td>Medium</td><td>Low</td><td>LG washing machine $6,500 discount, Walmart 12-month interest-free</td><td><a href="https://www.adn40.mx/es-tendencia/2026-09-24/costco-remata-lavadora-lg-de-22-kg-carga-frontal-con-pedestal-ahorro-de-energia-y-descuento-de-6500/">adn40 LG MX</a></td></tr>
+<tr><td>🇨🇱 CL</td><td>Red Friday, Best Buy CL</td><td>Low</td><td>Low</td><td>Low</td><td>Low</td><td>Low</td><td>Red Friday linked LG gram mention</td><td><a href="https://www.muycomputer.com/2026/09/25/las-mejores-ofertas-de-la-semana-en-un-nuevo-red-friday-55/">MuyComputer Red Friday</a></td></tr>
+<tr><td>🇹🇭 TH</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>No data</td><td>N/A</td></tr>
+<tr><td>🇦🇺 AU</td><td>Harvey Norman, JB Hi-Fi, Bing Lee</td><td>Very High</td><td>High</td><td>High</td><td>Medium</td><td>Medium</td><td>TCL competitive deals OzBargain exposure</td><td><a href="https://www.ozbargain.com.au/node/976312">OzBargain TCL</a></td></tr>
+<tr><td>🇹🇼 TW</td><td>Coolpc, PChome, 燦坤3C</td><td>Medium</td><td>Medium</td><td>High</td><td>Medium</td><td>Medium</td><td>Mid-Autumn Festival refrigerator·washing machine 8折</td><td><a href="https://www.winnews.com.tw/281409">WinNews TW</a></td></tr>
+<tr><td>🇸🇬 SG</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>No data</td><td>N/A</td></tr>
+<tr><td>🇪🇬 EG</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>No data</td><td>N/A</td></tr>
+<tr><td>🇸🇦 SA</td><td>Amazon.sa, LG.com/us mirror</td><td>High</td><td>Medium</td><td>High</td><td>High</td><td>Medium</td><td>Hisense competition response LG official deals</td><td><a href="https://www.lg.com/us/refrigerators">LG USA Shop</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h3 id="sec-26" class="sub-title">3.3 Competitive Pricing Monthly Positioning Analysis</h3>
+<h4 id="sec-27" class="sub-title">Key Insights</h4>
+<ul>
+<li><strong>TV Price War: OLED Premium vs Mini-LED Challengers</strong> — TCL/Hisense directly invading LG QNED position with $850~$3,300 Mini-LED, price gap between OLED and Mini-LED narrowing.</li>
+<li><strong>Refrigerators: LG $1,950~$3,299 Premium Zone vs Midea $400~$900 Value Zone</strong> — Two price ranges still separated, but Midea Costco channel entry targeting mid-price gap ($900~$1,500).</li>
+<li><strong>Washing Machines: Midea 35% Discount Offensive Threatening LG Large Capacity Position</strong> — Midea 22kg WiFi washing machine appearing at MX Walmart 35~40% cheaper than LG equivalent products.</li>
+<li><strong>Monitors: LG UltraGear OLED Dominance — 720Hz Technology Innovation Justifies Premium</strong> — Maintaining clear technology gap vs competition, gaming monitor #1 position solid even after $400 discount.</li>
+</ul>
+<h4 id="sec-28" class="sub-title">Actions Required</h4>
+<ol>
+<li><strong>TV Mid-Range ($700~$1,200) Price Defense Line Setting — Create QNED vs TCL/Hisense Mini-LED Direct Comparison Content (Owner: MS Mktg, 2026-11-15)</strong></li>
+<li><strong>Refrigerator Mid-Price Range ($900~$1,500) New Model or Promotion Model Input Review (Owner: HS Product Planning, 2026-12-31)</strong></li>
+<li><strong>Washing Machine Large Capacity (20kg+) Price Competitiveness Review — Target price gap reduction within 30% vs Midea in MX·BR·IT markets (Owner: HS Mktg, 2026-11-30)</strong></li>
+</ol>
+<h4 id="sec-29" class="sub-title">TV Monthly Price Comparison</h4>
+<div class="table-wrap"><table><thead><tr><th>Brand</th><th>Model</th><th>Country</th><th>Price</th><th>vs LG OLED 65&quot;</th><th>Trend</th><th>Source</th></tr></thead><tbody><tr><td>LG</td><td>OLED C6 65&quot;</td><td>ES</td><td>€1,099~€999</td><td>Baseline</td><td>📉 Price drop</td><td><a href="https://www.larazon.es/compras/nuestra-eleccion/1399-999-euros-esta-nueva-oled-evo-48-pulgadas-dos-subwoofers-165_202609226ab29ccef5374e4ae7c44a4b.html">La Razon</a></td></tr>
+<tr><td>LG</td><td>OLED 55&quot; 4K</td><td>US</td><td>$799 (discounted)</td><td>Baseline</td><td>📉 Flash deal</td><td><a href="https://hothardware.com/news/best-buy-flash-deal-55-inch-lg-4k-oled-tv-hits-79999">HotHardware</a></td></tr>
+<tr><td>LG</td><td>QNED 100&quot;</td><td>US/CA</td><td>-$1,200 discount</td><td>Premium</td><td>📉 Major reduction</td><td><a href="https://geekspin.co/lg-quietly-slashes-1200-off-its-massive-100-inch-qned-mini-led-tv">GEEKSPIN</a></td></tr>
+<tr><td>TCL</td><td>QM8L 4K</td><td>US/CA</td><td>-$800+ discount</td><td>Similar price range</td><td>📉 Prime Day offensive</td><td><a href="https://www.cnet.com/deals/tcl-qm8l-4k-tv-prime-day-deal/">CNET TCL Deal</a></td></tr>
+<tr><td>TCL</td><td>85&quot; C7L Mini-LED</td><td>AU</td><td>AUD$2,150</td><td>Low vs LG</td><td>➡️ Entrenched</td><td><a href="https://www.ozbargain.com.au/node/976312">OzBargain</a></td></tr>
+<tr><td>TCL</td><td>98&quot; C7L</td><td>AU</td><td>AUD$3,297</td><td>Similar to LG 100&quot;</td><td>➡️ New</td><td><a href="https://www.ozbargain.com.au/node/976264">OzBargain</a></td></tr>
+<tr><td>Hisense</td><td>U7 Mini-LED 65&quot;</td><td>SA/US</td><td>$847.99</td><td>Direct LG QNED threat</td><td>📉 Lowest price</td><td><a href="https://mashable.com/tech/sept-22-hisense-65-inch-u7-google-tv-deal">Mashable</a></td></tr>
+<tr><td>Hisense</td><td>85&quot; Mini-LED</td><td>US</td><td>Lowest price record</td><td>LG QNED85 threat</td><td>📉 Lowest price</td><td><a href="https://www.pcguide.com/deals/the-lowest-price-ever-on-this-85-inch-mini-led-tv-for-a-limited-time-only-in-this-fantastic-hisense-television-deal-on-amazon/">PC Guide</a></td></tr></tbody></table></div>
+<h4 id="sec-30" class="sub-title">Refrigerator Monthly Price Comparison</h4>
+<div class="table-wrap"><table><thead><tr><th>Brand</th><th>Model</th><th>Country</th><th>Price Range</th><th>Positioning</th><th>Source</th></tr></thead><tbody><tr><td>LG</td><td>French Door 3-door</td><td>US</td><td>$1,950 (after discount) / Regular $3,299</td><td>Premium</td><td><a href="https://geekspin.co/lg-just-slashed-1350-off-its-3299-french-door-refrigerator">GEEKSPIN LG Fridge</a></td></tr>
+<tr><td>LG</td><td>Side-by-Side</td><td>DE</td><td>Mid-high price range</td><td>Energy efficiency emphasized</td><td><a href="https://www.faz.net/kaufkompass/vergleich/der-beste-side-by-side-kuehlschrank/">FAZ Kaufkompass</a></td></tr>
+<tr><td>LG</td><td>French Door</td><td>ES</td><td>Energy savings €883</td><td>Savings message</td><td><a href="https://okdiario.com/okshopping/este-frigorifico-lg-te-ahorra-hasta-883-luz-tiene-garantia-vida-compresor-20382554">OKDiario</a></td></tr>
+<tr><td>Midea</td><td>18cu.ft Top Mount</td><td>CA</td><td>Costco mid-low price</td><td>Value</td><td><a href="https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html">Costco.ca</a></td></tr>
+<tr><td>Haier</td><td>Side by Side 463L</td><td>IT</td><td>eBay mid-low price</td><td>Value</td><td><a href="https://www.ebay.it/itm/177018234375">eBay IT</a></td></tr>
+<tr><td>Samsung</td><td>AI Smart Refrigerator</td><td>MX/ES</td><td>Similar to LG price range</td><td>AI feature competition</td><td><a href="https://www.xataka.com/domotica-1/lavadoras-frigorificos-2026-inteligentes-sofisticados-que-nunca-su-reto-convencerte-que-merecen-pena">Xataka Samsung</a></td></tr></tbody></table></div>
+<h4 id="sec-31" class="sub-title">Washing Machine Monthly Price Comparison</h4>
+<div class="table-wrap"><table><thead><tr><th>Brand</th><th>Model</th><th>Country</th><th>Price/Promo</th><th>vs LG</th><th>Source</th></tr></thead><tbody><tr><td>LG</td><td>Stackable Smart Washer + Dryer</td><td>US</td><td>$1,398 (regular $2,500)</td><td>Baseline</td><td><a href="https://thefreebieguy.com/lg-washer-and-dryer/">TheFreebieGuy</a></td></tr>
+<tr><td>LG</td><td>22kg Front Load + Pedestal</td><td>MX</td><td>-$6,500 MXN Costco</td><td>Baseline</td><td><a href="https://www.adn40.mx/es-tendencia/2026-09-24/costco-remata-lavadora-lg-de-22-kg-carga-frontal-con-pedestal-ahorro-de-energia-y-descuento-de-6500/">adn40 LG MX</a></td></tr>
+<tr><td>Midea</td><td>22kg Top Load WiFi</td><td>MX</td><td>-35% Walmart</td><td>40% lower than LG</td><td><a href="https://www.adn40.mx/es-tendencia/2026-09-23/rematan-lavadora-midea-de-22-kg-carga-superior-con-35-de-descuento-incluye-conexion-a-wifi-para-que-puedas-controlar-el-lavado-desde-tu-celular/">adn40 Midea</a></td></tr>
+<tr><td>Midea</td><td>10/7kg Washer-Dryer A grade</td><td>IT</td><td>Lowest price</td><td>LG WashTower competition</td><td><a href="https://www.smartworld.it/tecnologia/lavasciuga-10kg-controllo-app-minimo-storico-offerta.html">SmartWorld IT</a></td></tr>
+<tr><td>Haier</td><td>HW70 7kg 5-star front loader</td><td>UK</td><td>Mid-low price</td><td>LG UK washing machine direct competition</td><td><a href="https://nandilathgmart.com/product/haier-7-kg-5-star-front-load-washing-machinesuper-drumhw70-im12929bkblack/">Nandilath G-Mart</a></td></tr>
+<tr><td>LG</td><td>F2DR5S09A1W Washer-Dryer</td><td>ES</td><td>MediaMarkt sale</td><td>Baseline</td><td><a href="https://www.chollometro.com/ofertas/lavadora-secadora-lg-fondo-reducido-2009747">Chollometro</a></td></tr></tbody></table></div>
+<h4 id="sec-32" class="sub-title">Monitor Monthly Price Comparison</h4>
+<div class="table-wrap"><table><thead><tr><th>Brand</th><th>Model</th><th>Country</th><th>Price/Promo</th><th>Positioning</th><th>Source</th></tr></thead><tbody><tr><td>LG</td><td>UltraGear 32GS94UX OLED 4K 480Hz</td><td>DE/ES</td><td>Lowest price</td><td>Gaming premium</td><td><a href="https://www.prad.de/mega-schnaeppchen-lg-ultragear-32gs94ux-b-oled-monitor-mit-4k-480-hz-und-1300-nits/">Prad.de</a></td></tr>
+<tr><td>LG</td><td>UltraGear OLED 720Hz 24.5&quot;</td><td>Global</td><td>New launch</td><td>eSports dedicated</td><td><a href="https://www.notebookcheck.net/LG-Display-launches-720Hz-Gaming-OLED-panel-built-specifically-for-Esports.1404675.0.html">NotebookCheck</a></td></tr>
+<tr><td>LG</td><td>UltraGear OLED 39GX950B-B 5K2K</td><td>UK</td><td>Premium</td><td>No competitor</td><td><a href="https://www.techradar.com/computing/monitors/lg-ultragear-evo-39gx950b-b-review">TechRadar</a></td></tr>
+<tr><td>LG</td><td>UltraGear 24&quot; IPS 180Hz</td><td>BR</td><td>Under R$800</td><td>Entry gaming</td><td><a href="https://www.xataka.com.br/ofertas/lg-ultragear-24-ips-180hz-cai-para-r-800-em-oferta-no-mercado-livre">Xataka BR</a></td></tr>
+<tr><td>LG</td><td>UltraGear 32G6 200Hz 32&quot;</td><td>DE</td><td>€217</td><td>Value</td><td><a href="https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/News/LG-Ultragear-32G6-200-Hz-auf-32-Zoll-zum-neuen-Tiefstpreis-1554849/">PCGamesHardware</a></td></tr></tbody></table></div>
+<hr class="section-divider" />
+<h3 id="sec-33" class="sub-title">3.4 Chinese Brand Threat Monthly Tracking</h3>
+<h4 id="sec-34" class="sub-title">Key Insights</h4>
+<ul>
+<li><strong>Appliance (Midea·Haier) Brands First Time Reaching Parity or Exceeding TV (TCL·Hisense) in Signal Count (534 vs 524 cases):</strong> Penetration across all appliance categories progressing in balance, not just TV offensive.</li>
+<li><strong>Haier Channel Strategy Sophistication — Simultaneous Entry into Premium Retailers Costco·JB Hi-Fi·The Good Guys·Bing Lee:</strong> Entry strategy upgraded from simple online low-price channels to offline premium retail.</li>
+<li><strong>TCL Active Review·Spec Content Generation (AU·UK·CL):</strong> TCL in-depth reviews increasing in high-credibility media like Appliance Retailer·Xataka·Yahoo Tech, consumer trust building phase.</li>
+<li><strong>Midea WiFi·Smart Feature Integration Accelerating:</strong> WiFi-connected large capacity washing machines in MX·IT frontally challenging LG ThinQ smart feature differentiation.</li>
+</ul>
+<h4 id="sec-35" class="sub-title">Actions Required</h4>
+<ol>
+<li><strong>Premium Retailer Channel Defense — Renegotiate LG Priority Display Agreements at Costco·Harvey Norman (Owner: Global Channel, 2026-11-20)</strong></li>
+<li><strong>TCL Review Media Response — Secure LG Spec Comparison Articles in Same Media (Appliance Retailer·Xataka) (Owner: PR Team, 2026-11-15)</strong></li>
+<li><strong>Midea Smart Feature Comparison Whitepaper Production·Distribution — LG ThinQ vs Midea App Comparison (Owner: Digital Mktg, 2026-11-30)</strong></li>
+</ol>
+<h4 id="sec-36" class="sub-title">16-Country Chinese Brand Threat Table</h4>
+<div class="table-wrap"><table><thead><tr><th>Country</th><th>Main Threat Brands</th><th>Penetration Products</th><th>Threat Channels</th><th>Threat Intensity</th><th>MoM</th><th>Source</th></tr></thead><tbody><tr><td>🇺🇸 US</td><td>TCL, Hisense</td><td>TV (Mini-LED)</td><td>Amazon, Best Buy</td><td>🔴 HIGH</td><td>📈 Rising</td><td><a href="https://www.cnet.com/deals/tcl-qm8l-4k-tv-prime-day-deal/">CNET TCL</a></td></tr>
+<tr><td>🇨🇦 CA</td><td>Midea, Haier</td><td>Refrigerator</td><td>Costco.ca</td><td>🔴 HIGH</td><td>📈 New entry</td><td><a href="https://www.costco.ca/midea-30-in.-18-cu.-ft.-stainless-steel-top-mount-refrigerator.product.4000178333.html">Costco.ca Midea</a></td></tr>
+<tr><td>🇬🇧 UK</td><td>Haier</td><td>Refrigerator, Washing Machine</td><td>Official site</td><td>🟠 MEDIUM-HIGH</td><td>📈 Rising</td><td><a href="https://www.haierappliances.com/refrigeration/refrigerators">Haier US</a></td></tr>
+<tr><td>🇩🇪 DE</td><td>Data unconfirmed</td><td>Some TV</td><td>N/A</td><td>🟡 MEDIUM</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>🇫🇷 FR</td><td>Data unconfirmed</td><td>Some washing machines</td><td>N/A</td><td>🟡 MEDIUM</td><td>N/A</td><td><a href="https://lebontri.fr/blog/linge-buanderie/meilleur-lave-linge">LesNumeriques Lavelinge</a></td></tr>
+<tr><td>🇪🇸 ES</td><td>Data unconfirmed</td><td>TV</td><td>N/A</td><td>🟡 MEDIUM</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>🇮🇹 IT</td><td>Midea, Haier, Xiaomi</td><td>Washing Machine, Refrigerator</td><td>Amazon.it, eBay</td><td></td><td></td><td></td></tr></tbody></table></div>
+</section>
+<footer class="foot">Generated for executive sharing · LG Global D2C Intelligence</footer>
+</main>
+</div>
+<script>
+(function(){var tl=Array.from(document.querySelectorAll('.toc-panel a[href^="#"]'));if(!tl.length)return;var m=new Map();tl.forEach(function(l){var id=(l.getAttribute('href')||'').slice(1);if(id)m.set(id,l)});function sa(id){tl.forEach(function(l){l.classList.remove('is-active')});var t=m.get(id);if(t)t.classList.add('is-active')}var hs=Array.from(m.keys()).map(function(id){return document.getElementById(id)}).filter(Boolean);if(!hs.length)return;sa(hs[0].id);var ob=new IntersectionObserver(function(es){var v=es.filter(function(e){return e.isIntersecting}).sort(function(a,b){return a.boundingClientRect.top-b.boundingClientRect.top});if(v.length)sa(v[0].target.id)},{root:null,rootMargin:'-22% 0px -64% 0px',threshold:[0,1]});hs.forEach(function(h){ob.observe(h)});tl.forEach(function(l){l.addEventListener('click',function(){var id=(l.getAttribute('href')||'').slice(1);if(id)sa(id)})})})();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<script>
+(function(){document.querySelectorAll('canvas[data-chart]').forEach(function(c){try{var d=JSON.parse(c.getAttribute('data-chart'));if(!d||!d.type)return;var ctx=c.getContext('2d');var ds=(d.datasets||[]).map(function(s){var b={label:s.label||'',data:s.data||[]};if(d.type==='doughnut'||d.type==='polarArea'){b.backgroundColor=(s.data||[]).map(function(_,i){return['#003a66','#0a7ac4','#2196F3','#4CAF50','#FF9800','#e63946','#9c27b0','#607d8b'][i%8]})}else{b.borderColor=s.color||'#003a66';b.backgroundColor=(s.color||'#003a66')+'33';b.tension=0.3;b.fill=d.type==='line'}return b});new Chart(ctx,{type:d.type,data:{labels:d.labels||[],datasets:ds},options:{responsive:true,maintainAspectRatio:true,plugins:{title:{display:true,text:d.title||'',font:{size:16}},legend:{position:'bottom'}},scales:(d.type==='doughnut'||d.type==='polarArea')?{}:{y:{beginAtZero:true}}}})}catch(e){}})})();
+</script>
+</body>
+</html>
