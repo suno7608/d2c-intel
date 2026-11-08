@@ -1,0 +1,279 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 147,
+  "country_breakdown": {
+    "AU": 65,
+    "TW": 82
+  },
+  "product_breakdown": {
+    "TV": 37,
+    "Refrigerator": 39,
+    "Washing Machine": 39,
+    "Monitor": 17,
+    "LG gram": 15
+  },
+  "brand_breakdown": {
+    "LG": 98,
+    "TCL": 11,
+    "Hisense": 11,
+    "Haier": 13,
+    "Samsung": 2,
+    "Midea": 12
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 47,
+    "Competitive Price & Positioning": 28,
+    "Chinese Brand Threat Tracking": 42,
+    "Consumer Sentiment": 30
+  },
+  "chinese_brand_total": 47,
+  "lg_total": 98,
+  "country_data": {
+    "AU": {
+      "total": 65,
+      "products": {
+        "TV": 18,
+        "Refrigerator": 19,
+        "Washing Machine": 19,
+        "Monitor": 5,
+        "LG gram": 4
+      },
+      "brands": {
+        "LG": 31,
+        "TCL": 9,
+        "Haier": 10,
+        "Samsung": 2,
+        "Midea": 11,
+        "Hisense": 2
+      },
+      "chinese_count": 32,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75\" C7L SQD-Mini LED $1699 - Box Damaged, Back Order - VIC / NSW / ACT Only - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/981914",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Philips Envia 27\" QHD OLED 240hz Gaming Monitor $445 + Delivery (Free Shipping Metro - $0 C&C) @Centrecom - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/981376",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Recommendation for an OLED Gaming Monitor - OzBargain Forums",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/981966",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65-inch C6 Evo AI 4K OLED Smart TV 2026 OLED65C6PSA | Crowdshop",
+          "source": "crowdshop.com.au",
+          "source_url": "https://crowdshop.com.au/lg-65-inch-c6-evo-ai-4k-oled-smart-tv-2026-oled65c6psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED Evo C3 77 inch 4K Smart TV Self Lit OLED Pixels OLED77C3PSA - Appliances Warehouse",
+          "source": "applianceswarehouse.com.au",
+          "source_url": "https://www.applianceswarehouse.com.au/product/lg-oled-evo-c3-77-inch-4k-smart-tv-self-lit-oled-pixels-oled77c3psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 55-inch G6 Evo AI 4K OLED Smart TV 2026 OLED55G6PSB | Crowdshop",
+          "source": "crowdshop.com.au",
+          "source_url": "https://crowdshop.com.au/lg-55-inch-g6-evo-ai-4k-oled-smart-tv-2026-oled55g6psb/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG – 75\" QNED 4K Smart TV (2026) 75QNED80BSA - Appliances Warehouse",
+          "source": "applianceswarehouse.com.au",
+          "source_url": "https://www.applianceswarehouse.com.au/product/lg-75-qned-4k-smart-tv-2026-75qned80bsa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "85 Inch LG QNED evo AI QNED90 Mini LED 4K Smart TV 2026 | LG Australia | LG Australia",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/au/tv-soundbars/qned-evo-tv/85qned90bsa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "LG 65 Inch QNED80B EVO AI Mini LED 4K Smart TV 65QNED80BSA [2026] - Appliances Warehouse",
+          "source": "applianceswarehouse.com.au",
+          "source_url": "https://www.applianceswarehouse.com.au/product/lg-65-inch-qned80b-evo-ai-mini-led-4k-smart-tv-65qned80bsa-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 65\" QNED90B evo AI Mini LED 4K Smart TV 65QNED90BSA | Retravision",
+          "source": "retravision.com.au",
+          "source_url": "https://www.retravision.com.au/lg-65inch-qned90b-evo-ai-mini-led-4k-smart-tv-65qned90bsa",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 82,
+      "products": {
+        "TV": 19,
+        "Refrigerator": 20,
+        "Washing Machine": 20,
+        "Monitor": 12,
+        "LG gram": 11
+      },
+      "brands": {
+        "LG": 67,
+        "Hisense": 9,
+        "TCL": 2,
+        "Haier": 3,
+        "Midea": 1
+      },
+      "chinese_count": 15,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "雙11優惠／愛奇藝、Hami Video、LINE TV、friDay影音…買一送一、年卡5折，串流平台優惠方案懶人包 - 今周刊",
+          "source": "businesstoday.com.tw",
+          "source_url": "https://www.businesstoday.com.tw/article/category/183030/post/202610280039/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "價差直逼 1 萬 6！PChome 24h 購物雙 11 第二波優惠戰，必搶 3C 家電清單大公開 - News Pie",
+          "source": "newspie.com.tw",
+          "source_url": "https://www.newspie.com.tw/pchome-24h-20261103/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Disney+、愛奇藝、LINE TV、愛爾達等10家影音串流雙11優惠一次掌握 – 民報",
+          "source": "peoplenews.tw",
+          "source_url": "https://www.peoplenews.tw/articles/lifestyle/65230",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "電信三雄2026年雙11優惠懶人包 - 電腦王阿達",
+          "source": "kocpc.com.tw",
+          "source_url": "https://www.kocpc.com.tw/archives/701982",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "雙 11 折扣戰攻略出爐！LINE 購物海內外神券齊發，買 3C 家電、日韓美妝趁現在 - News Pie",
+          "source": "newspie.com.tw",
+          "source_url": "https://www.newspie.com.tw/line-buy-20261106/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "PChome 24h購物迎雙11 首波買氣 3C指標品類業績雙位數月增 | 中華日報|中華新聞雲",
+          "source": "cdns.com.tw",
+          "source_url": "https://www.cdns.com.tw/articles/1485054",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Your LG TV is getting a free (and unexpected) new feature",
+          "source": "pocket-lint.com",
+          "source_url": "https://www.pocket-lint.com/your-lg-tv-is-getting-an-unexpected-new-feature/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Netflix、Disney+不用分開訂！5大平台打包優惠 最低399元 - 自由電子報 3C科技",
+          "source": "3c.ltn.com.tw",
+          "source_url": "https://3c.ltn.com.tw/news/68190",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "三大電信雙11優惠比一比！5G加碼送流量、月租費有機會免單 - 自由電子報 3C科技",
+          "source": "3c.ltn.com.tw",
+          "source_url": "https://3c.ltn.com.tw/news/68167",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信E8系列电视卧室用1000以内够用吗？3个维度说清预算真相+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:nixkeuu2794033",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-11-08",
+  "period_start": "2026-11-01",
+  "period_end": "2026-11-07"
+}

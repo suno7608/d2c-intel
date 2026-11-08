@@ -1,8 +1,39 @@
 {
-  "generated_at": "2026-11-01T14:29:06.213Z",
-  "total_weeks": 39,
-  "latest_week": "2026-11-01",
+  "generated_at": "2026-11-08T14:31:36.356Z",
+  "total_weeks": 40,
+  "latest_week": "2026-11-08",
   "weeks": [
+    {
+      "week": "2026-11-08",
+      "report_period": {
+        "start": "2026-11-01",
+        "end": "2026-11-07"
+      },
+      "version": "Weekly Vol.2026-11-08-R2",
+      "generated_at": "2026-11-08T14:26:39.759Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 471,
+        "competitor_promotion_signals": 9,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 15,
+        "critical_country_count": 1
+      },
+      "critical_countries": [
+        "🇩🇪 독일 (DE)"
+      ],
+      "executive_key_insights": [
+        "**Black Friday 조기 프로모션 과열**: 전 세계 16개국에서 LG 블랙프라이데이 사전 프로모션이 동시 폭발적으로 감지되었다. TV(OLED 50% 할인), 냉장고(최대 47% 할인), 세탁기(37% 할인), 모니터(OLED 역대 최저가), LG gram($550 할인)까지 전 카테고리에서 사상 최저가 경신 행진이 이어지고 있으며, 이는 11.11 싱글즈데이·Black Friday 수요 선점 경쟁의 최고조임을 나타낸다.",
+        "**중국 가전 브랜드(Haier·Midea)의 HS 카테고리 위협 심화**: TCL·Hisense의 MS(TV) 공세뿐 아니라 Haier·Midea가 냉장고·세탁기에서 🇩🇪 DE, 🇫🇷 FR, 🇬🇧 UK, 🇦🇺 AU 채널에 집중 침투하고 있다. 특히 Haier I-Pro 세탁기 €429, Midea 세탁기 7kg €399대 가격 공세가 감지되며 LG HS 마진 압박이 가중된다.",
+        "**LG gram·UltraGear 모니터 Black Friday 선제 대응 성공적**: LG gram Max $550 할인(Best Buy), LG UltraGear OLED 역대 최저가 등 HS·PC 라인업의 Black Friday 선제 프로모션이 주요 미디어에 광범위하게 노출되며 소비자 관심도를 선점했다. 그러나 경쟁사(Samsung Odyssey, Asus OLED) 역시 동시에 대규모 프로모션을 전개 중이다."
+      ],
+      "links": {
+        "html": "./2026-11-08/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-11-08_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-11-08_R2_16country.md",
+        "share": "./2026-11-08/share.html"
+      }
+    },
     {
       "week": "2026-11-01",
       "report_period": {

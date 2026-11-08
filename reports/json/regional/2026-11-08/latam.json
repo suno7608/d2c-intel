@@ -1,0 +1,376 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 175,
+  "country_breakdown": {
+    "BR": 130,
+    "MX": 32,
+    "CL": 13
+  },
+  "product_breakdown": {
+    "TV": 48,
+    "Refrigerator": 43,
+    "Washing Machine": 50,
+    "Monitor": 26,
+    "LG gram": 8
+  },
+  "brand_breakdown": {
+    "LG": 113,
+    "TCL": 10,
+    "Hisense": 11,
+    "Samsung": 13,
+    "Midea": 21,
+    "Whirlpool": 1,
+    "Electrolux": 3,
+    "Xiaomi": 1,
+    "Haier": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 65,
+    "Chinese Brand Threat Tracking": 66,
+    "Competitive Price & Positioning": 13,
+    "Consumer Sentiment": 31
+  },
+  "chinese_brand_total": 44,
+  "lg_total": 113,
+  "country_data": {
+    "BR": {
+      "total": 130,
+      "products": {
+        "TV": 34,
+        "Refrigerator": 35,
+        "Washing Machine": 36,
+        "Monitor": 18,
+        "LG gram": 7
+      },
+      "brands": {
+        "LG": 79,
+        "TCL": 10,
+        "Hisense": 8,
+        "Midea": 17,
+        "Samsung": 10,
+        "Electrolux": 3,
+        "Xiaomi": 1,
+        "Haier": 2
+      },
+      "chinese_count": 37,
+      "top_signals": [
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.644: Smart TV 55\" TCL 4K UHD MiniLED 55C6K 120Hz Google TV AiPQ Google Assistente 4 HDMI 2 USB | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-55-tcl-4k-uhd-miniled-120hz-google-cac1",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 3.314: Smart TV TCL 65 Polegadas QD-Mini LED 4K C6K WiFi Bluetooth Google TV 4 HDMI 144Hz HDR10+ 65C6K | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/smart-tv-tcl-65-polegadas-qd-mini-led-4k-c6k-wifi-bluetooth-google-tv-4-hdmi-144hz-hdr10-65c6k-fade",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 7 Best Monitor Brands of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/monitor/reviews/best/brands",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV OLED 55 LG C6 cai 30% será a melhor oferta? - NC News",
+          "source": "ncnews.com.br",
+          "source_url": "https://ncnews.com.br/2026/11/03/tv-oled-55-lg-c6-cai-30-r-5-959-sera-melhor-oferta/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG OLED 55\" recebe oferta histórica em até 12x na Amazon • Tecnoblog",
+          "source": "tecnoblog.net",
+          "source_url": "https://tecnoblog.net/achados/tv-lg-oled-55-recebe-oferta-historica-em-ate-12x-na-amazon/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Compre LG OLED 55 polegadas por R$5.959,90 — 30% e 12x sem juros - Ensinando a Vencer",
+          "source": "ensinandoavencer.com.br",
+          "source_url": "https://ensinandoavencer.com.br/compre-lg-oled-55-polegadas-por-r5-95990-30-e-12x-sem-juros/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV premium de 55\" surge em oferta de Black Friday por menos de R$ 7 mil",
+          "source": "rd1.com.br",
+          "source_url": "https://rd1.com.br/smart-tv-premium-de-55-surge-em-oferta-de-black-friday-por-menos-de-rdollar-7-mil/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV para Games na Black Frida: vale a pena comprar? Análise dos modelos destaques - Estadão",
+          "source": "estadao.com.br",
+          "source_url": "https://www.estadao.com.br/tecmundo/guia-de-compras/o-que-comprar-na-black-friday-tvs-para-games/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Black Friday: onde comprar TV LG OLED de 42 a 65 polegadas",
+          "source": "deco.proteste.pt",
+          "source_url": "https://www.deco.proteste.pt/tecnologia/televisores/noticias/black-friday-onde-comprar-melhores-tv-lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG desenvolve tecnologia que promete dobrar a vida útil de telas OLED",
+          "source": "mundoconectado.com.br",
+          "source_url": "https://www.mundoconectado.com.br/tecnologia/lg-desenvolve-tecnologia-que-promete-dobrar-a-vida-util-de-telas-oled/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 32,
+      "products": {
+        "TV": 10,
+        "Refrigerator": 8,
+        "Washing Machine": 10,
+        "Monitor": 4
+      },
+      "brands": {
+        "LG": 24,
+        "Samsung": 2,
+        "Whirlpool": 1,
+        "Midea": 4,
+        "Hisense": 1
+      },
+      "chinese_count": 5,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Los 5 Mejores Modelos De Pantalla Lg 55 Pulgadas",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/pantallas/pantalla-lg-55-pulgadas/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "La LG OLED C6 de 77\" cae a su precio mínimo histórico: ofertón de 1584 euros por el Black Friday",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/lg-oled-c6-77-minimo-historico-1584-black-friday/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo W6 Wallpaper llega a México: televisor inalámbrico de 9.95 mm",
+          "source": "noirmagazine.mx",
+          "source_url": "https://noirmagazine.mx/lifestyle/lg-oled-evo-w6-wallpaper",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupón LG México de 15% Comprobado en Noviembre 2026",
+          "source": "tuscupones.com.mx",
+          "source_url": "https://tuscupones.com.mx/lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED C6: Review con características, especificaciones y precio",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/lg-oled-c6-review-televisor-calidad-precio-2026/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon tiene a precio de remate la pantalla ideal para tu sala de estar: Hisense QD6S de 55 pulgadas, 4K y QLED",
+          "source": "xataka.com.mx",
+          "source_url": "https://www.xataka.com.mx/seleccion/amazon-tiene-a-precio-remate-pantalla-ideal-para-tu-sala-estar-hisense-qd6s-55-pulgadas-4k-qled",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Suburbia rebaja pantalla Hisense de 58 pulgadas Full HD: ideal para disfrutar de las mejores series y películas | Heraldo Binario",
+          "source": "heraldobinario.com.mx",
+          "source_url": "https://www.heraldobinario.com.mx/tendencias/2026/11/1/suburbia-rebaja-pantalla-hisense-de-58-pulgadas-full-hd-ideal-para-disfrutar-de-las-mejores-series-y-43188.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Bodega Aurrera liquida Pantalla Hisense QLED de 65 pulgadas: con colores impactantes | El Heraldo de México",
+          "source": "heraldodemexico.com.mx",
+          "source_url": "https://heraldodemexico.com.mx/economia/2026/11/7/bodega-aurrera-liquida-pantalla-hisense-qled-de-65-pulgadas-con-colores-impactantes-2912003.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Samsung and Sony Have Some Competition: Hisense Just Slashed Prices on Its Premium Google TV Lineup | Cord Cutters News",
+          "source": "cordcuttersnews.com",
+          "source_url": "https://cordcuttersnews.com/samsung-and-sony-have-some-competition-hisense-just-slashed-prices-on-its-premium-google-tv-lineup/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Los 5 Mejores Modelos De Hisense Smart",
+          "source": "web.espacio18.com.mx",
+          "source_url": "https://web.espacio18.com.mx/hogar-y-cocina/pantallas/hisense-smart/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 13,
+      "products": {
+        "TV": 4,
+        "Washing Machine": 4,
+        "Monitor": 4,
+        "LG gram": 1
+      },
+      "brands": {
+        "Hisense": 2,
+        "Samsung": 1,
+        "LG": 10
+      },
+      "chinese_count": 2,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense 40-Inch Smart TV Is $218 on Amazon (2024)",
+          "source": "theinventory.com",
+          "source_url": "https://theinventory.com/hisense-a4-series-40-inch-class-fhd-smart-android-tv-with-dts-virtual-x-game-spo-a1b1cc23",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense - Global No.2 TV Brand | FIFA World Cup 2026 Official Partner",
+          "source": "hisense.sg",
+          "source_url": "https://hisense.sg/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "COSTCO BLACK FRIDAY TV DEALS Are HERE! What to BUY & AVOID! - YouTube",
+          "source": "youtube.com",
+          "source_url": "https://www.youtube.com/watch?v=YDVy2MrppXg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon: Pantalla 100\" Hisense QLED Google TV 4K UHD 100QD7N 144H HDMI 2.1 - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/amazon-pantalla-100-hisense-qled-google-tv-4k-uhd-100qd7n-144h-hdmi-21-1204837",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupones LG noviembre 2026 | MEGAdescuentos",
+          "source": "megadescuentos.com",
+          "source_url": "https://www.megadescuentos.com/marcas/lg",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Walmart: Bocina LG xboom Bounce (promonovela) - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/walmart-lg-xboom-bounce-promonovela-1204523",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Pantalla LG 60\" UHD 4K smartTV - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/pantalla-lg-60-uhd-4k-smarttv-1204542",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Sam's Club: Lavadora LG Carga Frontal 20 kg WM20WV26W - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/lavadora-lg-carga-frontal-20-kg-wm20wv26w-1205425",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "DEFECTIVE - LG UltraGear 32GN500-B Gaming Monitor",
+          "source": "carousell.ph",
+          "source_url": "https://www.carousell.ph/p/defective-lg-ultragear-32gn500-b-gaming-monitor-1472310141/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Asus releases new Tandem OLED gaming monitor in more countries with 90 W USB-C charging and 480Hz mode - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/Asus-releases-new-Tandem-OLED-gaming-monitor-in-more-countries-with-90-W-USB-C-charging-and-480Hz-mode.1441311.0.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-11-08",
+  "period_start": "2026-11-01",
+  "period_end": "2026-11-07"
+}

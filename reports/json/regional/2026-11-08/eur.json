@@ -1,0 +1,615 @@
+{
+  "region": "eur",
+  "region_name_ko": "유럽",
+  "region_name_en": "Europe",
+  "countries": [
+    "UK",
+    "DE",
+    "FR",
+    "IT",
+    "ES"
+  ],
+  "total_records": 492,
+  "country_breakdown": {
+    "UK": 77,
+    "DE": 134,
+    "FR": 108,
+    "IT": 95,
+    "ES": 78
+  },
+  "product_breakdown": {
+    "TV": 145,
+    "Refrigerator": 124,
+    "Washing Machine": 116,
+    "Monitor": 75,
+    "LG gram": 32
+  },
+  "brand_breakdown": {
+    "LG": 283,
+    "TCL": 38,
+    "Hisense": 35,
+    "Samsung": 49,
+    "Haier": 41,
+    "Whirlpool": 2,
+    "Xiaomi": 3,
+    "Midea": 38,
+    "Bosch": 1,
+    "Sony": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 173,
+    "Chinese Brand Threat Tracking": 209,
+    "Competitive Price & Positioning": 59,
+    "Consumer Sentiment": 51
+  },
+  "chinese_brand_total": 152,
+  "lg_total": 283,
+  "country_data": {
+    "UK": {
+      "total": 77,
+      "products": {
+        "TV": 22,
+        "Refrigerator": 21,
+        "Washing Machine": 16,
+        "Monitor": 13,
+        "LG gram": 5
+      },
+      "brands": {
+        "LG": 48,
+        "TCL": 5,
+        "Samsung": 2,
+        "Haier": 8,
+        "Midea": 9,
+        "Hisense": 4,
+        "Sony": 1
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "48 inch LG OLED AI B6 4K Smart TV 2026 - with Blue Light Card | Hotukdeals",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/48-inch-lg-oled-ai-b6-4k-smart-tv-2026-ps61150-with-blielight-card-5021087",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED AI B6 55-inch 4K Smart TV - OLED55B65LA (α8 AI Processor 4K Gen3, 120Hz (VRR 120Hz), Dolby Vision, Dolby Atmos, FILMMAKER MODE | Hotukdeals",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/lg-oled-ai-b6-55-inch-4k-smart-tv-oled55b65la-a8-ai-processor-4k-gen3-120hz-vrr-120hz-dolby-vision-dolby-atmos-filmmaker-mode-5024721",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "42\" LG C5 OLED | Hotukdeals",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/42-lg-c5-oled-5024445",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED55B65LA 55 Inch OLED 4K Ultra HD Smart TV, 5 Year Warranty - Discount at Checkout | Hotukdeals",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/lg-oled55b65la-55-inch-oled-4k-ultra-hd-smart-tv-5-year-warranty-discount-at-checkout-5024860",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED77G64LW.AEK 77\" OLED evo Smart Television, 4K Ultra HD, Silver, E Rated | Hotukdeals",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/lg-oled-77g64lw-5021984",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo AI C6 48-inch 4K Smart TV | Hotukdeals",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/lg-oled-evo-ai-c6-48-inch-4k-smart-tv-5025655",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED55G54LW G5 55\" OLED evo AI 4K HDR Smart TV 2025 (Wall Mount Version) - With BLC/HSD/DFC",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/lg-oled55g54lw-g5-55-oled-evo-ai-4k-hdr-smart-tv-2025-wall-mount-version-with-blchsddfc-5021644",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG C5 42\" OLED evo AI 4K HDR Smart TV 2025 - OLED42C54LA - via Discount for Carers Code",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/lg-c5-42-oled-evo-ai-4k-hdr-smart-tv-2025-oled42c54la-via-discount-for-carers-code-5021119",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 65C8L-UK SQD-Mini LED 4K Ultra HD Smart Google TV | Hotukdeals",
+          "source": "hotukdeals.com",
+          "source_url": "https://www.hotukdeals.com/deals/tcl-65c8l-uk-sqd-mini-led-4k-ultra-hd-smart-google-tv-5021988",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG’s 2026 C6 OLED is now £400 cheaper than in August - Trusted Reviews",
+          "source": "trustedreviews.com",
+          "source_url": "https://www.trustedreviews.com/deals/lgs-2026-c6-oled-is-now-400-cheaper-than-in-august",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "DE": {
+      "total": 134,
+      "products": {
+        "TV": 40,
+        "Refrigerator": 38,
+        "Washing Machine": 29,
+        "Monitor": 18,
+        "LG gram": 9
+      },
+      "brands": {
+        "LG": 85,
+        "Hisense": 10,
+        "TCL": 10,
+        "Samsung": 7,
+        "Haier": 11,
+        "Whirlpool": 1,
+        "Midea": 9,
+        "Xiaomi": 1
+      },
+      "chinese_count": 40,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED TV 48 Zoll C6 | OLED48C68LA | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/lg-oled-tv-48-zoll-c6-oled48c68la-2866543",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "[1.467,51€ eff.] TCL 75\" C8L SQD-miniLED TV (2.584 Dimming Zonen, 5.500 Nits, 120Hz) + 2,5% Cashback | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/146751eur-eff-tcl-75-c8l-sqd-miniled-tv-2584-dimming-zonen-5500-nits-120hz-25-cashback-2864845",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "[1.318,40€ eff.] TCL 98\" P8L QD-Mini LED TV (512 Dimming Zonen, 144Hz, 1.000 Nits, 5.000:1) + 3% Allianz | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/131840eur-eff-tcl-98-p8l-qd-mini-led-tv-512-dimming-zonen-144hz-1000-nits-50001-3-allianz-2864827",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Samsung: 10 € für einen In-App-Einkauf geschenkt | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/samsung-10-eur-fur-einen-in-app-einkauf-geschenkt-2866215",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Flex Dual Heißluftfritteuse 11 L (HAF3ADW 011) für 89,99 € inkl. Versand – Dual Zone mit herausnehmbarer Trennwand | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/haier-flex-dual-heissluftfritteuse-11-l-haf3adw-011-fur-8999-eur-inkl-versand-dual-zone-mit-herausnehmbarer-trennwand-2863444",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG F4WX7092W Waschmaschine Frontlader (9 kg, 1.400 U/Min., Energieklasse A-40%, AI Wash & Direct Drive, TurboWash 360°, AquaLock, ThinQ) | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/lg-f4wx7092w-waschmaschine-frontlader-9-kg-1400-umin-energieklasse-a-40-ai-wash-direct-drive-turbowash-360-aqualock-thinq-2865307",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Erste Waschmaschinen-Deals zum Black Friday: Was sich lohnt",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/magazin/waschmaschinen-black-friday-angebote-75676",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "HAIER - I-PRO Series 7 HW90-B14979YU1 Waschmaschine | 9 kg, |1400 U/min | Energieklasse A | Geräuschklasse A | Wi-Fi und HoN App | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/haier-i-pro-series-7-hw90-b14979yu1-waschmaschine-9-kg-1400-umin-energieklasse-a-gerauschklasse-a-wi-fi-und-hon-app-2864056",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG UltraGear 34G630A-B 34-Zoll Curved Gaming Monitor (UWQHD, VA-Panel, 240 Hz, 1 ms, FreeSync Premium) | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/lg-ultragear-34g630a-b-34-zoll-curved-gaming-monitor-uwqhd-va-panel-240-hz-1-ms-freesync-premium-2866162",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "Gaming Monitor LG UltraGear 45GX900A-B für 899€ mit Code BLACK10 direkt bei LG.com | mydealz",
+          "source": "mydealz.de",
+          "source_url": "https://www.mydealz.de/deals/der-fur-mich-im-moment-beste-gaming-monitor-lg-ultragear-45gx900a-b-fur-899eur-mit-code-black10-direkt-bei-lgcom-2864897",
+          "confidence": "high"
+        }
+      ]
+    },
+    "FR": {
+      "total": 108,
+      "products": {
+        "TV": 28,
+        "Refrigerator": 24,
+        "Washing Machine": 25,
+        "Monitor": 23,
+        "LG gram": 8
+      },
+      "brands": {
+        "LG": 52,
+        "TCL": 10,
+        "Hisense": 9,
+        "Samsung": 17,
+        "Haier": 15,
+        "Midea": 5
+      },
+      "chinese_count": 39,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV 77\" LG OLED77C67LA - OLED (Via 200€ d'ODR - Frontaliers Belgique)",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/lg-oled-77c6-3443898",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV LG OLED 65G5 – Dealabs.com",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/tv-lg-oled-65g5-3448205",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV 48\" LG OLED48C6 - 4K OLED, Evo, 121 cm, 2026 – Dealabs.com",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/tv-lg-4k-oled-evo-oled48c6-121-cm-2026-3447008",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "[Macif/Edenred] TV 77\" LG OLED C5 - 4K UHD, 144 Hz",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/macifedenred-tv-77-lg-oled-c5-4k-uhd-144-hz-3446346",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "[Adhérents] TV 77\" LG OLED77G6 - 4K – Dealabs.com",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/lg-oled77-g6-3447782",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "[Adherent] TV 65\" TCL 65C89L - 2026, SQD-Mini LED, 144 Hz, HDR 5000 Nits, Dolby Atmos, Audio by Bang & Olufsen (Via 100€ d'ODR)",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/adherent-tv-65-tcl-65c89l-2026-sqd-mini-led-144-hz-hdr-5000-nits-dolby-atmos-audio-by-bang-olufsen-via-100eur-dodr-3447551",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 65C89K 899€ QD-Mini LED chez Cdiscount | Dealabs",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/tv-tcl-65-pouces-qd-mini-led-4k-144-hz-a-899-eur-chez-cdiscount-3447395",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV 65\" TCL 65C8L (65C89L) - 2026, SQD-Mini LED, 144 Hz, HDR 5000 Nits, Dolby Atmos, Audio by Bang & Olufsen (Via 100€ d'ODR) – Dealabs.com",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/tv-65-tcl-65c8l-65c89l-2026-sqd-mini-led-144-hz-hdr-5000-nits-dolby-atmos-audio-by-bang-olufsen-via-100eur-dodr-3448413",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV 85\" TCL 85C69K PRO 2026 - QD-Mini LED, 4K, 144Hz natif, 288Hz VRR, Système Hi-Fi ONKYO 2.1 (via 100€ d'ODR) – Dealabs.com",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/tv-85-tcl-85c69k-pro-2026-qd-mini-led-4k-144hz-natif-288hz-vrr-systeme-hi-fi-onkyo-21-via-100eur-dodr-3448760",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TV 75\" TCL 75X11L - Mini-LED 4K (via ODR de 200€) – Dealabs.com",
+          "source": "dealabs.com",
+          "source_url": "https://www.dealabs.com/bons-plans/tv-tcl-75x11l-3448073",
+          "confidence": "high"
+        }
+      ]
+    },
+    "IT": {
+      "total": 95,
+      "products": {
+        "TV": 29,
+        "Refrigerator": 21,
+        "Washing Machine": 24,
+        "Monitor": 15,
+        "LG gram": 6
+      },
+      "brands": {
+        "LG": 49,
+        "TCL": 9,
+        "Hisense": 9,
+        "Samsung": 10,
+        "Haier": 6,
+        "Xiaomi": 1,
+        "Midea": 9,
+        "Whirlpool": 1,
+        "Sony": 1
+      },
+      "chinese_count": 33,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG, lo smart TV OLED crolla di prezzo: maxi risparmio | Libero Tecnologia",
+          "source": "libero.it",
+          "source_url": "https://www.libero.it/tecnologia/smart-tv-lg-oled-evo-serie-g6-65-pollici-prezzo-offerta-sconto-amazon-126800",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Black Friday Amazon, LG OLED G6 65 pollici crolla del 46%: il TV OLED top di gamma a 1.949 euro! - ItaliaTopGames",
+          "source": "italiatopgames.it",
+          "source_url": "https://www.italiatopgames.it/articoli/news/black-friday-amazon-lg-oled-g6-65-pollici-crolla-del-46-il-tv-oled-top-di-gamma-a-1-949-euro/161199/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Oled 55 - Usato in offerta - Subito.it",
+          "source": "subito.it",
+          "source_url": "https://www.subito.it/annunci-italia/vendita/audio-video/?q=oled+55",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED C6 da 77 pollici al minimo storico su Amazon: 2.199 euro - TecnoAndroid",
+          "source": "tecnoandroid.it",
+          "source_url": "https://www.tecnoandroid.it/news/lg-oled-c6-da-77-pollici-al-minimo-storico-su-amazon-2-199-euro-2008486/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED AI TV 55” Serie B6E OLED55B6ELC a 825,90 € (-25%)",
+          "source": "scontify.net",
+          "source_url": "https://www.scontify.net/elettronica/tv-video/lg-oled-ai-tv-55-serie-b6e-oled55b6elc-4k-nero-perfetto-dolby-vision-processore-%CE%B18-gen3-120hz-g-sync-smart-tv-2026-2/666177/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED 77 pollici, offerta pazzesca su Amazon: 1.400 euro di sconto, un sogno! - ItaliaTopGames",
+          "source": "italiatopgames.it",
+          "source_url": "https://www.italiatopgames.it/articoli/news/lg-oled-77-pollici-offerta-pazzesca-su-amazon-1-400-euro-di-sconto-un-sogno/160992/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Lg TV OLED evo AI 55” Serie G6 Oled55g64lw.api a 1.233,65 € (-27%)",
+          "source": "scontify.net",
+          "source_url": "https://www.scontify.net/elettronica/tv-video/lg-tv-oled-evo-ai-55-serie-g6-oled55g64lw-api/666278/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo C6, tutto il nero OLED in 42 pollici a 943,90€ - CronacaPop",
+          "source": "cpop.it",
+          "source_url": "https://cpop.it/articoli/lg-oled-evo-c6-tutto-il-nero-oled-in-42-pollici-a-94390eur",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG B6, prezzo a picco per lo smart TV OLED: va comprato subito | Libero Tecnologia",
+          "source": "libero.it",
+          "source_url": "https://www.libero.it/tecnologia/lg-b6-oled65b6elc-scheda-tecnica-sconto-offerta-prezzo-amazon-126450",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG OLED evo AI C6 a 1099€ con cashback: sconto del 42% sul 55 pollici",
+          "source": "tuttotech.net",
+          "source_url": "https://www.tuttotech.net/news/2026/11/05/lg-oled-evo-ai-c6-a-1099e-con-cashback-sconto-del-42-sul-55-pollici.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "ES": {
+      "total": 78,
+      "products": {
+        "TV": 26,
+        "Refrigerator": 20,
+        "Washing Machine": 22,
+        "Monitor": 6,
+        "LG gram": 4
+      },
+      "brands": {
+        "LG": 49,
+        "Hisense": 3,
+        "TCL": 4,
+        "Haier": 1,
+        "Samsung": 13,
+        "Midea": 6,
+        "Xiaomi": 1,
+        "Bosch": 1
+      },
+      "chinese_count": 14,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Electrónica de Consumo - Innovación y Tecnología | LG España",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/es/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Sam’s Club liquida pantalla gigante LG 4K OLED de 65 pulgadas con α8 AI Processor: presenta 60% de descuento y 24 MSI | Terra",
+          "source": "terra.com",
+          "source_url": "https://www.terra.com/estilo-de-vida/2026/11/4/sams-club-liquida-pantalla-gigante-lg-4k-oled-de-65-pulgadas-con-8-ai-processor-presenta-60-de-descuento-y-24-msi-33189.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "La LG OLED C6 de 65\" destroza su precio con esta ofertón por 1330 euros en el inicio del Black Friday",
+          "source": "avpasion.com",
+          "source_url": "https://www.avpasion.com/lg-oled-c6-precio-oferta-1330-black-friday/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Televisores OLED Black Friday 2026: ofertas y cuáles vigilar",
+          "source": "tutelevisor.es",
+          "source_url": "https://tutelevisor.es/ofertas-black-friday-televisores/oled/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Mercado Libre: Pantalla 55 pulgadas LG OLED evo AI C6 4K SMART TV webOS 2026 OLED55C6PSA - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/pantalla-55-pulgadas-lg-oled-evo-ai-c6-4k-smart-tv-webos-2026-oled55c6psa-1205337",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Cupón LG | 11% dto. válido en noviembre 2026",
+          "source": "abc.es",
+          "source_url": "https://www.abc.es/favorito/hogar/cupon-lg-20260923174230-nt.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Tohle už je domácí kino. 83palcový OLED od LG zlevnil o 45 tisíc!",
+          "source": "mundoandroid.es",
+          "source_url": "https://www.mundoandroid.es/esto-ya-es-un-cine-en-casa-el-oled-de-83-pulgadas-de-lg-ha-bajado-45-mil/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Ya es Black Friday en PcComponentes: cinco teles en oferta para el salón de marcas Philips, LG y más | Diario Tecnología",
+          "source": "diariotecnologia.es",
+          "source_url": "https://www.diariotecnologia.es/posts/ya-es-black-friday-en-pccomponentes-cinco-teles-en-oferta-para-el-saln-de-marcas-philips-lg-y-ms",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TELEVISOR OLED LG OLED48C66LB — Vives Tien21 Javea",
+          "source": "vivestien21.com",
+          "source_url": "https://vivestien21.com/catalogo/televisores/televisor-oled-lg-oled48c66lb",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense tiene una Mini LED de 65 pulgadas con 144 Hz nativos y subwoofer por debajo de los 600 euros",
+          "source": "larazon.es",
+          "source_url": "https://www.larazon.es/compras/nuestra-eleccion/hisense-tiene-mini-led-65-pulgadas-144-nativos-subwoofer-debajo-600-euros_202611056aec7411d3bddc0868a60535.html",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-11-08",
+  "period_start": "2026-11-01",
+  "period_end": "2026-11-07"
+}

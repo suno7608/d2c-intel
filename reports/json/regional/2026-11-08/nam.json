@@ -1,0 +1,263 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 179,
+  "country_breakdown": {
+    "US": 153,
+    "CA": 26
+  },
+  "product_breakdown": {
+    "TV": 45,
+    "Refrigerator": 49,
+    "Washing Machine": 38,
+    "Monitor": 26,
+    "LG gram": 21
+  },
+  "brand_breakdown": {
+    "LG": 127,
+    "TCL": 12,
+    "Samsung": 6,
+    "Haier": 11,
+    "Midea": 21,
+    "Hisense": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 58,
+    "Chinese Brand Threat Tracking": 56,
+    "Competitive Price & Positioning": 36,
+    "Consumer Sentiment": 29
+  },
+  "chinese_brand_total": 46,
+  "lg_total": 127,
+  "country_data": {
+    "US": {
+      "total": 153,
+      "products": {
+        "TV": 41,
+        "Refrigerator": 41,
+        "Washing Machine": 29,
+        "Monitor": 24,
+        "LG gram": 18
+      },
+      "brands": {
+        "LG": 115,
+        "TCL": 11,
+        "Samsung": 6,
+        "Haier": 8,
+        "Midea": 12,
+        "Hisense": 1
+      },
+      "chinese_count": 32,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Buy's Black Friday Sale Just Kicked Off. Its OLED TV Deals Are a Must-See - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-buy-black-friday-oled-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The excellent LG C6 OLED TV is 50% off, plus other epic OLED TV deals from $799 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/the-excellent-lg-c6-oled-tv-is-50-percent-off-plus-other-epic-oled-tv-deals-from-usd799",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "These TV Deals Can Save You Hundreds Before the Holiday Shopping Rush - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Best TVs of 2026: Expert Tested, Compared and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "'The definition of value for money': The TCL C7L is one of the most impressive TVs I've tested this year, delivering excellent bang for your buck",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/tcl-c7l-review",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 85\" Class M8LF Series 4K UHD HDR Mini LED Smart TV with Fire TV (2026) - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/tcl-85-class-m8lf-series-4k-uhd-hdr-mini-led-smart-tv-with-fire-tv-2026/J36QYTHZW8/sku/6684129",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 65\" Class QM6K Series 4K UHD HDR QD Mini LED Smart TV with Google TV with Gemini (2025) - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://bestbuy.com/product/tcl-65-class-qm6k-series-4k-uhd-hdr-qd-mini-led-smart-tv-with-google-tv-with-gemini-2025/J36QYTQW5K/sku/6617498",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for November 2026 | 10% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Buy is practically giving away these 12 appliances at 50% off — save big on LG, Lenovo and more | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/sales-events/best-buy-is-practically-giving-away-these-12-appliances-at-50-percent-off-save-big-on-lg-lenovo-and-more",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "The 5 Best French Door Refrigerators of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/refrigerator/reviews/best/french-door",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 26,
+      "products": {
+        "TV": 4,
+        "Refrigerator": 8,
+        "Washing Machine": 9,
+        "Monitor": 2,
+        "LG gram": 3
+      },
+      "brands": {
+        "LG": 12,
+        "TCL": 1,
+        "Hisense": 1,
+        "Midea": 9,
+        "Haier": 3
+      },
+      "chinese_count": 14,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Early Black Friday TV Deals: A 75-Inch TCL for Under $1,500, Plus Big Discounts on LG and Samsung | PCMag",
+          "source": "pcmag.com",
+          "source_url": "https://www.pcmag.com/deals/tv-deals-early-black-friday-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Save 50% Off the New 2026 48\" LG B6 4K OLED TV Ahead of Black Friday, Doubles as a Gaming Monitor, Doubles as a Gaming Monitor",
+          "source": "ign.com",
+          "source_url": "https://www.ign.com/articles/lg-b6-4k-oled-tv-deal-october-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerators & Fridges - Homedepot.ca",
+          "source": "homedepot.ca",
+          "source_url": "https://www.homedepot.ca/en/home/categories/appliances/refrigerators.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Refrigerator Offers March 2026 | Deals on Single & Double ...",
+          "source": "pricehistory.app",
+          "source_url": "https://pricehistory.app/offers/refrigerators",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "Fridge Repair Perth – Defrost, Fans & Ice Makers | B&M",
+          "source": "bmcanadaappliances.ca",
+          "source_url": "https://bmcanadaappliances.ca/perth-fridge-repair/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "Appliance Repair Hull – Central Gatineau | B&M Canada",
+          "source": "bmcanadaappliances.ca",
+          "source_url": "https://bmcanadaappliances.ca/appliance-repair-hull/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Vinfast Cars and SUVs: Reviews, Pricing and Specs - Driving.ca",
+          "source": "driving.ca",
+          "source_url": "https://driving.ca/vinfast/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Optimus One Reviews, Specs & Price Compare",
+          "source": "cellphones.ca",
+          "source_url": "https://www.cellphones.ca/cell-phones/lg-optimus-one/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Optimus L5 II - Review, Specs & Price",
+          "source": "cellphones.ca",
+          "source_url": "https://www.cellphones.ca/cell-phones/lg-optimus-l5-2/#specs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "10 gram 2026 Celebrate Diwali Gold Bar | Royal Canadian Mint - CanAm Bullion",
+          "source": "canambullion.ca",
+          "source_url": "https://canambullion.ca/product/10-gram-2026-celebrate-diwali-gold-bar-royal-canadian-mint/",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-11-08",
+  "period_start": "2026-11-01",
+  "period_end": "2026-11-07"
+}
