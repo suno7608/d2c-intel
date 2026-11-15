@@ -1,0 +1,376 @@
+{
+  "region": "latam",
+  "region_name_ko": "중남미",
+  "region_name_en": "Latin America",
+  "countries": [
+    "BR",
+    "MX",
+    "CL"
+  ],
+  "total_records": 182,
+  "country_breakdown": {
+    "BR": 134,
+    "MX": 38,
+    "CL": 10
+  },
+  "product_breakdown": {
+    "TV": 50,
+    "Refrigerator": 50,
+    "Washing Machine": 50,
+    "Monitor": 21,
+    "LG gram": 11
+  },
+  "brand_breakdown": {
+    "LG": 116,
+    "TCL": 6,
+    "Samsung": 16,
+    "Hisense": 15,
+    "Midea": 22,
+    "Haier": 4,
+    "Electrolux": 2,
+    "Panasonic": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 57,
+    "Chinese Brand Threat Tracking": 78,
+    "Competitive Price & Positioning": 13,
+    "Consumer Sentiment": 34
+  },
+  "chinese_brand_total": 47,
+  "lg_total": 116,
+  "country_data": {
+    "BR": {
+      "total": 134,
+      "products": {
+        "TV": 35,
+        "Refrigerator": 36,
+        "Washing Machine": 40,
+        "Monitor": 17,
+        "LG gram": 6
+      },
+      "brands": {
+        "LG": 77,
+        "TCL": 6,
+        "Samsung": 16,
+        "Hisense": 11,
+        "Midea": 19,
+        "Electrolux": 2,
+        "Haier": 3
+      },
+      "chinese_count": 39,
+      "top_signals": [
+        {
+          "brand": "Samsung",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TVs | Amazon.com.br",
+          "source": "amazon.com.br",
+          "source_url": "https://www.amazon.com.br/Televisores/b?ie=UTF8&node=16243822011",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Best Smart TV of 2026 - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-smart-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The 6 Best TV Brands of 2026 - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/best/brands",
+          "confidence": "high"
+        },
+        {
+          "brand": "Midea",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Por R$ 2.685: Geladeira Midea Frost Free Duplex Branca 473L Inverter | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/geladeira-midea-frost-free-duplex-branca-473l-inverter-e945",
+          "confidence": "high"
+        },
+        {
+          "brand": "Samsung",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "Por R$ 2.917: Lava e Seca Samsung WD11M Inox 11/7kg | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/lava-e-seca-samsung-wd11m-inox-117kg-1dbb",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Consumer Sentiment",
+          "value": "Por R$ 468: Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10 | Pelando",
+          "source": "pelando.com.br",
+          "source_url": "https://www.pelando.com.br/d/monitor-lg-ultrageartm-24g411a-b-24-3edc",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Smart TV LG OLED evo AI 4K C6 83 polegadas 2026 | LG Brasil",
+          "source": "lg.com",
+          "source_url": "https://www.lg.com/br/tvs-e-soundbars/oled-evo/oled83c6psa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Monitores em oferta na Amazon: LG OLED, Alienware e opções desde R$ 599 | Overdrive",
+          "source": "gameoverdrive.com.br",
+          "source_url": "https://gameoverdrive.com.br/monitores-em-oferta-amazon-lg-alienware-4k/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG é premiada no CES 2027 com TV OLED transparente e monitor gamer de 1.000 Hz - JWave",
+          "source": "jwave.com.br",
+          "source_url": "https://www.jwave.com.br/2026/11/lg-e-premiada-no-ces-2027-com-tv-oled-transparente-e-monitor-gamer-de-1-000-hz/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The 2026 55\" LG Evo C6 4K OLED TV Drops to Black Friday Pricing, Plus Get a Free Xbox Controller",
+          "source": "ign.com",
+          "source_url": "https://www.ign.com/articles/lg-evo-c6-4k-oled-tv-deal-free-xbox-controller-november-2026",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "MX": {
+      "total": 38,
+      "products": {
+        "TV": 12,
+        "Refrigerator": 13,
+        "Washing Machine": 8,
+        "Monitor": 3,
+        "LG gram": 2
+      },
+      "brands": {
+        "LG": 33,
+        "Hisense": 1,
+        "Haier": 1,
+        "Midea": 2,
+        "Panasonic": 1
+      },
+      "chinese_count": 4,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "El Buen Fin 2026: ¿Qué ofertas y descuentos tendrá LG en esta temporada? – La Crónica de Hoy",
+          "source": "cronica.com.mx",
+          "source_url": "https://www.cronica.com.mx/escenario/2026/11/13/el-buen-fin-2026-que-ofertas-y-descuentos-tendra-lg-en-esta-temporada/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Electronics celebra El Buen Fin 2026 con descuentos de hasta 60% en su tienda en línea - OneDigital",
+          "source": "onedigital.mx",
+          "source_url": "https://onedigital.mx/2026/11/13/lg-electronics-celebra-el-buen-fin-2026-con-descuentos-de-hasta-60-en-su-tienda-en-linea/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG tiene increíbles descuentos de hasta 60 % en su tienda oficial LG.com - TechGames",
+          "source": "techgames.com.mx",
+          "source_url": "https://techgames.com.mx/lg-tiene-increibles-descuentos-de-hasta-60-en-su-tienda-oficial-lg-com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Electronics celebra el Buen Fin 2026 con descuentos de hasta 60% en su tienda en línea - Edomex Al Día",
+          "source": "edomexaldia.com",
+          "source_url": "https://edomexaldia.com/lg-electronics-celebra-el-buen-fin-2026-con-descuentos-de-hasta-60-en-su-tienda-en-linea/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Las mejores ofertas previas al Black Friday: desde móviles de gama alta hasta televisores y auriculares « SerNoticias.com.mx",
+          "source": "sernoticias.com.mx",
+          "source_url": "https://www.sernoticias.com.mx/2026/11/14/las-mejores-ofertas-previas-al-black-friday-desde-moviles-de-gama-alta-hasta-televisores-y-auriculares/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Buen Fin 2026: Profeco revela los mejores precios de pantallas, refrigeradores y lavadoras | Panorama",
+          "source": "panoramaweb.com.mx",
+          "source_url": "https://www.panoramaweb.com.mx/estilo-de-vida/2026/11/14/buen-fin-2026-profeco-revela-los-mejores-precios-de-pantallas-refrigeradores-y-lavadoras-54355.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Coppel rebaja Smart TV Hisense LED de 65 pulgadas: ideal para disfrutar de Netflix | Heraldo Binario",
+          "source": "heraldobinario.com.mx",
+          "source_url": "https://www.heraldobinario.com.mx/tendencias/2026/11/9/coppel-rebaja-smart-tv-hisense-led-de-65-pulgadas-ideal-para-disfrutar-de-netflix-43402.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Profeco presenta precios pantallas, refrigeradores, lavadoras y licuadoras - Crónica de Xalapa",
+          "source": "cronicadexalapa.com.mx",
+          "source_url": "https://cronicadexalapa.com.mx/profeco-presenta-precios-pantallas-refrigeradores-lavadoras-y-licuadoras/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "El Buen Fin 2026: Profeco revela dónde están las licuadoras, pantallas y lavadoras más baratas en México",
+          "source": "vanguardia.com.mx",
+          "source_url": "https://vanguardia.com.mx/informacion/el-buen-fin-2026-profeco-revela-donde-estan-las-licuadoras-pantallas-y-lavadoras-mas-baratas-en-mexico-PO24804128",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Suburbia remata pantalla Smart TV LED de casi 60’’: con tecnología 4K y diseño ultradelgado | El Heraldo de México",
+          "source": "heraldodemexico.com.mx",
+          "source_url": "https://heraldodemexico.com.mx/economia/2026/11/12/suburbia-remata-pantalla-smart-tv-led-de-casi-60-con-tecnologia-4k-y-diseno-ultradelgado-2917717.html",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "CL": {
+      "total": 10,
+      "products": {
+        "TV": 3,
+        "Refrigerator": 1,
+        "Washing Machine": 2,
+        "Monitor": 1,
+        "LG gram": 3
+      },
+      "brands": {
+        "Hisense": 3,
+        "LG": 6,
+        "Midea": 1
+      },
+      "chinese_count": 4,
+      "top_signals": [
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense U6N Review (55U6N, 65U6N, 75U6N, 85U6N) - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/hisense/u6-u6n",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense 98-Inch Mini-LED TV $1,000 Off at Best Buy",
+          "source": "theinventory.com",
+          "source_url": "https://theinventory.com/hisense-98-class-ux-series-mini-led-uled-4k-uhd-smart-google-tv-2024-898f9409",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Hisense’s 75-inch 165Hz Mini-LED TV is under $1,000 with $1,002 off list",
+          "source": "mixed-news.com",
+          "source_url": "https://mixed-news.com/en/hisense-75u7sg-mini-led-tv-amazon-deal-under-1000/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Black Friday: how much will it cost you to use the refrigerator after you buy it | Demócrata",
+          "source": "democrata.es",
+          "source_url": "https://www.democrata.es/en/current-events/black-friday-how-much-will-it-cost-you-to-use-the-refrigerator-after-you-buy-it/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "COSTCO / LG Lavasecadora Eléctrica 22Kg/13Kg con Pedestal - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/costco-lg-lavasecadora-electrica-22kg13kg-con-pedestal-1206670",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Midea",
+          "product": "Washing Machine",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Lava e seca Midea MFA01D110B/WK-01 é boa? Prós, contras e surpresas",
+          "source": "gatocheck.com.br",
+          "source_url": "https://gatocheck.com.br/lava-e-seca-midea-mfa01d110b-wk-01-e-boa/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "New 5K gaming monitor unveiled with 180 Hz refresh rate and dual-mode capability - Notebookcheck News",
+          "source": "notebookcheck.net",
+          "source_url": "https://www.notebookcheck.net/New-5K-gaming-monitor-unveiled-with-180-Hz-refresh-rate-and-dual-mode-capability.1447820.0.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Bocina lg xboom bounce city club - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/bocina-lg-xboom-bounce-city-club-1209788",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Liverpool: Bocina LG xboom Bounce - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/lg-xboom-bounce-1209227",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Retail Channel Promotions",
+          "value": "Mercado Libre: Bocina Portátil Bluetooth 20W - promodescuentos.com",
+          "source": "promodescuentos.com",
+          "source_url": "https://www.promodescuentos.com/ofertas/bocina-portatil-bluetooth-20w-1209514",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-11-15",
+  "period_start": "2026-11-08",
+  "period_end": "2026-11-14"
+}

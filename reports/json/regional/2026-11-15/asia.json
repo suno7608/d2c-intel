@@ -1,0 +1,282 @@
+{
+  "region": "asia",
+  "region_name_ko": "아시아 태평양",
+  "region_name_en": "Asia Pacific",
+  "countries": [
+    "AU",
+    "TW",
+    "SG",
+    "TH"
+  ],
+  "total_records": 142,
+  "country_breakdown": {
+    "AU": 63,
+    "TW": 79
+  },
+  "product_breakdown": {
+    "TV": 31,
+    "Refrigerator": 38,
+    "Washing Machine": 38,
+    "Monitor": 15,
+    "LG gram": 20
+  },
+  "brand_breakdown": {
+    "LG": 98,
+    "TCL": 8,
+    "Hisense": 10,
+    "Bosch": 1,
+    "Haier": 11,
+    "Samsung": 2,
+    "Midea": 11,
+    "Sony": 1
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 39,
+    "Chinese Brand Threat Tracking": 36,
+    "Competitive Price & Positioning": 28,
+    "Consumer Sentiment": 39
+  },
+  "chinese_brand_total": 40,
+  "lg_total": 98,
+  "country_data": {
+    "AU": {
+      "total": 63,
+      "products": {
+        "TV": 12,
+        "Refrigerator": 18,
+        "Washing Machine": 18,
+        "Monitor": 8,
+        "LG gram": 7
+      },
+      "brands": {
+        "LG": 33,
+        "TCL": 6,
+        "Bosch": 1,
+        "Haier": 11,
+        "Samsung": 2,
+        "Sony": 1,
+        "Hisense": 1,
+        "Midea": 8
+      },
+      "chinese_count": 26,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG B6 OLED AI 4K 55\" TV $1463.16, LG C6 OLED 4K 42\" $1311.86 + Delivery ($0 C&C) @ JB Hi-Fi - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/982510",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Google TV Streamer 4K $158 + Delivery ($0 C&C/In-Store) @ Harvey Norman (Price Beat from $150.10 @ Officeworks) - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/982736",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "LG gram",
+          "pillar": "Consumer Sentiment",
+          "value": "LG 48\" OLED C6 (OLED48C6PSA) $1,729.31 Delivered (~ $1,469 after Cashback & AmEx) @ LG Education Hub - OzBargain",
+          "source": "ozbargain.com.au",
+          "source_url": "https://www.ozbargain.com.au/node/983225",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Save Over $1,500 Off This CNET Award-Winning TCL 65-Inch TV Ahead of Black Friday - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/tcl-qm8l-4k-tv-black-friday-deal/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best early Black Friday TV deals: LG and Samsung OLEDs, budget picks, and more | Mashable",
+          "source": "mashable.com",
+          "source_url": "https://mashable.com/tech/best-early-black-friday-tv-live-deals-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Best Rated TVs 2026 | CHOICE Reviews",
+          "source": "choice.com.au",
+          "source_url": "https://www.choice.com.au/electronics-and-technology/home-entertainment/tvs-and-projectors/review-and-compare/tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Stan Australia 2026: Price, Plans & Content | Finder",
+          "source": "finder.com.au",
+          "source_url": "https://www.finder.com.au/streaming/stan",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Black Friday Cyber Monday Sale",
+          "source": "myithub.com.au",
+          "source_url": "https://www.myithub.com.au/black-friday-cyber-monday-sale",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL unveils Australian Christmas guide for premium TVs",
+          "source": "itbrief.com.au",
+          "source_url": "https://itbrief.com.au/story/tcl-unveils-australian-christmas-guide-for-premium-tvs",
+          "confidence": "medium"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 65RM7L à 999 €, le RGB Mini LED passe sous les 1 000 €",
+          "source": "winkco.news",
+          "source_url": "https://www.winkco.news/bons-plans/tcl-65rm7l-999-euros/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "TW": {
+      "total": 79,
+      "products": {
+        "TV": 19,
+        "Refrigerator": 20,
+        "Washing Machine": 20,
+        "Monitor": 7,
+        "LG gram": 13
+      },
+      "brands": {
+        "LG": 65,
+        "Hisense": 9,
+        "TCL": 2,
+        "Midea": 3
+      },
+      "chinese_count": 14,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for November 2026 | 15% OFF",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/coupons/lg",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Nov 2026 | 15% OFF | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/lg-coupon-codes",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 34吋曲面電競螢幕亞馬遜破盤 黑五前省 120 美元 - 樂聯網",
+          "source": "leho.com.tw",
+          "source_url": "https://leho.com.tw/archives/426140",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes in Nov 2026 | 15% OFF | Tom's Hardware",
+          "source": "tomshardware.com",
+          "source_url": "https://www.tomshardware.com/coupons/lg.com",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG promo codes for Nov 2026 | 15% OFF | PC Gamer",
+          "source": "pcgamer.com",
+          "source_url": "https://www.pcgamer.com/coupons/lg.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "OLED65C5PTA 價格比較|LG 65吋 OLED C5 老王 vs momo 每日更新 – 老王電器",
+          "source": "unbox.tw",
+          "source_url": "https://www.unbox.tw/oled65c5pta-price",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Code Black Friday 50% Off November 2026",
+          "source": "lg.valuecom.com",
+          "source_url": "https://lg.valuecom.com/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "雙11 優惠・限時 7天",
+          "source": "costco.com.tw",
+          "source_url": "https://www.costco.com.tw/1111",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "台灣民眾電子報 | 台灣大雙11優惠齊發！ Netflix影音雙享組月付399元起 MyVideo年卡限時3折",
+          "source": "allnews.tw",
+          "source_url": "https://www.allnews.tw/news/96709",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "海信E8系列电视卧室用1000以内够用吗？3个维度说透+FAQ",
+          "source": "weibo.com",
+          "source_url": "https://weibo.com/2/detail/comos:nixzxsn6856609",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "SG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    },
+    "TH": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-11-15",
+  "period_start": "2026-11-08",
+  "period_end": "2026-11-14"
+}

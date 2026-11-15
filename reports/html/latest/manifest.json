@@ -1,8 +1,46 @@
 {
-  "generated_at": "2026-11-08T14:31:36.356Z",
-  "total_weeks": 40,
-  "latest_week": "2026-11-08",
+  "generated_at": "2026-11-15T14:57:56.385Z",
+  "total_weeks": 41,
+  "latest_week": "2026-11-15",
   "weeks": [
+    {
+      "week": "2026-11-15",
+      "report_period": {
+        "start": "2026-11-08",
+        "end": "2026-11-14"
+      },
+      "version": "Weekly Vol.2026-11-15-R2",
+      "generated_at": "2026-11-15T14:53:39.730Z",
+      "metrics": {
+        "covered_countries": 14,
+        "lg_promotion_signals": 448,
+        "competitor_promotion_signals": 11,
+        "chinese_threat_signals": 14,
+        "consumer_negative_countries": 17,
+        "critical_country_count": 8
+      },
+      "critical_countries": [
+        "🇬🇧 영국 (UK)",
+        "🇩🇪 독일 (DE)",
+        "🇫🇷 프랑스 (FR)",
+        "🇮🇹 이탈리아 (IT)",
+        "🇧🇷 브라질 (BR)",
+        "🇹🇭 태국 (TH)",
+        "🇸🇬 싱가포르 (SG)",
+        "🇪🇬 이집트 (EG)"
+      ],
+      "executive_key_insights": [
+        "**Black Friday/Buen Fin 프로모션 사이클 최고점 도달:** LG 전 품목(TV·냉장고·세탁기·모니터·gram)에 걸쳐 448건의 프로모션이 감지되었으며, 전주(413건) 대비 +8.5% 증가. 11월 쇼핑 시즌이 D2C 직접 매출 최대 기회 구간임을 확인.",
+        "**중국 브랜드 위협 급등 — HS(가전) 전선 확대:** TCL·Hisense(MS) 외에 Haier·Midea(HS)가 냉장고·세탁기 분야에서 🇩🇪 DE, 🇫🇷 FR, 🇮🇹 IT, 🇦🇺 AU 채널 내 가격 하방 압력을 강화. 중국 브랜드 위협 총 339건(전주 332건 대비 +2.1% 증가).",
+        "**부정 소비자 반응 2배 급증:** 28건(전주 15건 대비 +87%) — 세탁기 A/S 불만(🇩🇪 DE, 🇧🇷 BR), 냉장고 배송 하자(🇧🇷 BR, 🇨🇦 CA) 등 HS 카테고리 불만이 집중 발생, 블랙프라이데이 시즌 사전 CS 대응 강화 필요."
+      ],
+      "links": {
+        "html": "./2026-11-15/index.html",
+        "pdf": "../pdf/LG_Global_D2C_Weekly_Intelligence_2026-11-15_R2_16country.pdf",
+        "md": "../md/LG_Global_D2C_Weekly_Intelligence_2026-11-15_R2_16country.md",
+        "share": "./2026-11-15/share.html"
+      }
+    },
     {
       "week": "2026-11-08",
       "report_period": {

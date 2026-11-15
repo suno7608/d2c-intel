@@ -1,0 +1,263 @@
+{
+  "region": "nam",
+  "region_name_ko": "북미",
+  "region_name_en": "North America",
+  "countries": [
+    "US",
+    "CA"
+  ],
+  "total_records": 180,
+  "country_breakdown": {
+    "US": 150,
+    "CA": 30
+  },
+  "product_breakdown": {
+    "TV": 48,
+    "Refrigerator": 38,
+    "Washing Machine": 41,
+    "Monitor": 28,
+    "LG gram": 25
+  },
+  "brand_breakdown": {
+    "LG": 127,
+    "TCL": 14,
+    "Hisense": 2,
+    "Samsung": 5,
+    "Haier": 12,
+    "Midea": 20
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 58,
+    "Chinese Brand Threat Tracking": 52,
+    "Competitive Price & Positioning": 31,
+    "Consumer Sentiment": 39
+  },
+  "chinese_brand_total": 48,
+  "lg_total": 127,
+  "country_data": {
+    "US": {
+      "total": 150,
+      "products": {
+        "TV": 44,
+        "Refrigerator": 31,
+        "Washing Machine": 29,
+        "Monitor": 25,
+        "LG gram": 21
+      },
+      "brands": {
+        "LG": 111,
+        "TCL": 13,
+        "Hisense": 2,
+        "Samsung": 4,
+        "Haier": 8,
+        "Midea": 12
+      },
+      "chinese_count": 35,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best Buy's Huge Black Friday OLED TV Sale Just Got a New LG Doorbuster Deal - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/best-buy-black-friday-oled-tv-deals/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "TV deal of the year: LG's stunning C6 OLED TV is half-off today | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/tv-deal-of-the-year-lgs-stunning-c6-oled-tv-is-half-off-today",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The LG B6 OLED TV is 50% off before Black Friday, and we gave it 4.5 stars in our review | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/4k-tvs/the-lg-b6-oled-tv-is-50-percent-off-before-black-friday-and-we-gave-it-4-5-stars-in-our-review",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "LG UT75 Review (43UT7590PUA, 50UT7570PUB, 55UT7570PUB, 65UT7570PUB, 70UT7590PUA, 75UT7590PUA, 86UT7590PUA) - RTINGS.com",
+          "source": "rtings.com",
+          "source_url": "https://www.rtings.com/tv/reviews/lg/ut7570-ut75-ut7590",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Best TVs of 2026: Expert Tested, Compared and Reviewed - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/tech/home-entertainment/best-tv/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "The best OLED TVs for all budgets, as reviewed by our experts | TechRadar",
+          "source": "techradar.com",
+          "source_url": "https://www.techradar.com/televisions/the-best-oled-tvs",
+          "confidence": "high"
+        },
+        {
+          "brand": "TCL",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "TCL 75\" Class QM8L Series 4K UHD HDR SQD Mini LED Smart TV with Google TV (2026) - Open Box - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/product/tcl-75-class-qm8l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTH3FX/sku/6672672/openbox",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Best refrigerator sales and deals in November 2026 | Tom's Guide",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/deals/best-refrigerator-sales",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG Promo Codes: 20% Off in November 2026",
+          "source": "daily.slickdeals.net",
+          "source_url": "https://daily.slickdeals.net/stores/lg-promo-codes/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "Refrigerators - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/home-appliances/refrigerators/abcat0901000.c?id=abcat0901000",
+          "confidence": "high"
+        }
+      ]
+    },
+    "CA": {
+      "total": 30,
+      "products": {
+        "TV": 4,
+        "Refrigerator": 7,
+        "Washing Machine": 12,
+        "Monitor": 3,
+        "LG gram": 4
+      },
+      "brands": {
+        "LG": 16,
+        "Samsung": 1,
+        "TCL": 1,
+        "Midea": 8,
+        "Haier": 4
+      },
+      "chinese_count": 13,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "The Massive 77\" LG Evo C5 4K OLED TV Drops to $1,682 With Free Delivery Ahead of Black Friday",
+          "source": "ign.com",
+          "source_url": "https://www.ign.com/articles/lg-evo-c5-4k-oled-tv-deal-november-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Consumer Sentiment",
+          "value": "LG 65\" Class - OLEDC6 Series - 4K UHD OLED TV | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-65-class-oledc6-series-4k-uhd-oled-tv/4000449945",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Mont-Laurier, QC: Top 5 Internet Providers & Plans from $45 | November 2026-",
+          "source": "planhub.ca",
+          "source_url": "https://www.planhub.ca/internet-service-prices-mont-laurier",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "Appliance Repair & Service near Red Deer AB | YellowPages.ca&trade;",
+          "source": "yellowpages.ca",
+          "source_url": "https://www.yellowpages.ca/search/si/1/Appliance+Repair+&+Service/Red+Deer+AB",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Consumer Sentiment",
+          "value": "Shop fridges and freezers across Europe hit by fresh suspected cyber-attack | Sweden | The Guardian",
+          "source": "theguardian.com",
+          "source_url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Refrigerator",
+          "pillar": "Retail Channel Promotions",
+          "value": "Bottom-Mount Fridges for Sale in Calgary | SMS Appliances",
+          "source": "smsappliances.ca",
+          "source_url": "https://www.smsappliances.ca/collections/bottom-mount-fridges",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG 2.6 cu ft. White Compact Front Load Washer with Closet Depth | Costco",
+          "source": "costco.ca",
+          "source_url": "https://www.costco.ca/p/-/lg-2.6-cu-ft.-white-compact-front-load-washer-with-closet-depth/4000235063?langId=-24&bvstate=pg%3A2%2Fct%3Ar",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Anbernic RG DDS Dual-Screen Handheld Guide | EVORETRO – EVORETRO Canada",
+          "source": "evoretro.ca",
+          "source_url": "https://evoretro.ca/blogs/news/anbernic-rg-dds-dual-screen-ai-handheld-guide",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Consumer Sentiment",
+          "value": "AFC Toronto beats Montreal Roses to win 1st NSL title | CBC Sports",
+          "source": "cbc.ca",
+          "source_url": "https://www.cbc.ca/sports/soccer/nsl-final-montreal-roses-afc-toronto-9.7421039",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "Washing Machine",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Lg Styler Vs Samsung Airdresser | TikTok",
+          "source": "tiktok.com",
+          "source_url": "https://www.tiktok.com/discover/lg-styler-vs-samsung-airdresser?lang=en",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "date_key": "2026-11-15",
+  "period_start": "2026-11-08",
+  "period_end": "2026-11-14"
+}

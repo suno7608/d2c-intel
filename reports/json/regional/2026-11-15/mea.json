@@ -1,0 +1,155 @@
+{
+  "region": "mea",
+  "region_name_ko": "중동·아프리카",
+  "region_name_en": "Middle East & Africa",
+  "countries": [
+    "SA",
+    "EG"
+  ],
+  "total_records": 38,
+  "country_breakdown": {
+    "SA": 38
+  },
+  "product_breakdown": {
+    "TV": 11,
+    "Refrigerator": 4,
+    "Washing Machine": 13,
+    "Monitor": 6,
+    "LG gram": 4
+  },
+  "brand_breakdown": {
+    "LG": 18,
+    "Hisense": 6,
+    "Haier": 12,
+    "Midea": 2
+  },
+  "pillar_breakdown": {
+    "Retail Channel Promotions": 6,
+    "Chinese Brand Threat Tracking": 20,
+    "Competitive Price & Positioning": 9,
+    "Consumer Sentiment": 3
+  },
+  "chinese_brand_total": 20,
+  "lg_total": 18,
+  "country_data": {
+    "SA": {
+      "total": 38,
+      "products": {
+        "TV": 11,
+        "Refrigerator": 4,
+        "Washing Machine": 13,
+        "Monitor": 6,
+        "LG gram": 4
+      },
+      "brands": {
+        "LG": 18,
+        "Hisense": 6,
+        "Haier": 12,
+        "Midea": 2
+      },
+      "chinese_count": 20,
+      "top_signals": [
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG C6 OLED review: The best OLED TV you shouldn't buy ...",
+          "source": "tomsguide.com",
+          "source_url": "https://www.tomsguide.com/tvs/oled-tvs/lg-c6-oled-review",
+          "confidence": "high"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Amazon Deals of the Day: Don't Wait for Black Friday. This Hisense TV Is Almost Half Off Right Now - CNET",
+          "source": "cnet.com",
+          "source_url": "https://www.cnet.com/deals/amazon-deals-of-the-day-2026-11-11/",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "Monitor",
+          "pillar": "Competitive Price & Positioning",
+          "value": "Computer Monitors: LCD, LED Monitors - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/computers-pcs/computer-monitors/abcat0509000.c?id=abcat0509000",
+          "confidence": "high"
+        },
+        {
+          "brand": "Haier",
+          "product": "Refrigerator",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Haier Refrigerator - Best Buy",
+          "source": "bestbuy.com",
+          "source_url": "https://www.bestbuy.com/site/shop/haier-refrigerator",
+          "confidence": "high"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "LG's most affordable 65-inch 2026 OLED TV just hit the Amazon low at $1,000 off",
+          "source": "9to5toys.com",
+          "source_url": "https://9to5toys.com/2026/11/09/lg-65-inch-2026-oled-tv-lowest-price-gta-vi/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "LG",
+          "product": "TV",
+          "pillar": "Retail Channel Promotions",
+          "value": "Save $500 Off the 42\" LG C6 4K OLED TV for Black Friday, Doubles as a Gaming Monitor, Plus Get an Xbox Controller",
+          "source": "ign.com",
+          "source_url": "https://www.ign.com/articles/lg-evo-c6-4k-oled-tv-pc-monitor-deal-free-xbox-controller-november-2026",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Massive 75-inch Hisense U6 Pro 4K Mini-LED TV gets 47% discount in limited-time deal - Neowin",
+          "source": "neowin.net",
+          "source_url": "https://www.neowin.net/deals/massive-75-inch-hisense-u6-pro-4k-mini-led-tv-gets-47-discount-in-limited-time-deal/",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "An Artful Early Black Friday Deal: Slash 50% Off This Hisense Art TV | PCMag",
+          "source": "pcmag.com",
+          "source_url": "https://www.pcmag.com/deals/early-black-friday-deal-slash-50-off-this-hisense-art-tv-nov-11",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "Walmart Black Friday 51% off deal drops 75-inch 4K TV to $328 with Dolby Vision, Roku, free live TV built in",
+          "source": "cleveland.com",
+          "source_url": "https://www.cleveland.com/shopping/2026/11/walmart-black-friday-51-off-deal-drops-75-inch-4k-tv-to-328-with-dolby-vision-roku-free-live-tv-built-in.html",
+          "confidence": "medium"
+        },
+        {
+          "brand": "Hisense",
+          "product": "TV",
+          "pillar": "Chinese Brand Threat Tracking",
+          "value": "New 85 inch QLED TV from Hisense drops to its lowest ever price in this deal for $300 off the MSRP - PC Guide",
+          "source": "pcguide.com",
+          "source_url": "https://www.pcguide.com/deals/new-85-inch-qled-tv-from-hisense-drops-to-its-lowest-ever-price-in-this-deal-for-300-off-the-msrp/",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "EG": {
+      "total": 0,
+      "products": {},
+      "brands": {},
+      "chinese_count": 0,
+      "top_signals": []
+    }
+  },
+  "date_key": "2026-11-15",
+  "period_start": "2026-11-08",
+  "period_end": "2026-11-14"
+}
