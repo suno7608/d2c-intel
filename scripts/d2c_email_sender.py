@@ -405,11 +405,12 @@ def main():
 
     if success:
         print(f"[d2c_email_sender] Email sent to {to_emails}")
-    else:
-        logger.error("Email sending failed")
-        # 이메일 실패가 전체 파이프라인을 중단시키지 않도록 soft fail
-        print("[d2c_email_sender] WARNING: Email sending failed (soft fail)")
+        return 0
+
+    logger.error("Email sending failed")
+    print("[d2c_email_sender] ERROR: Email sending failed", file=sys.stderr)
+    return 1
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

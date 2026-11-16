@@ -16,7 +16,13 @@ cssselect>=1.2.0
 tld>=0.13.1
 w3lib>=2.2.1
 
-# --- Email: Report delivery ---
+# --- Email: Gmail API delivery + Sheets subscribers (d2c_email_sender.py) ---
+# google-auth: google.oauth2.credentials, google.auth.transport.requests
+# google-api-python-client: googleapiclient.discovery (Gmail + Sheets)
+google-auth>=2.23.0
+google-api-python-client>=2.100.0
+
+# Legacy SendGrid client. The sender no longer imports it.
 sendgrid>=6.11.0
 
 # --- Deep Fetch: Scrapling for 2nd-pass URL enrichment (optional) ---

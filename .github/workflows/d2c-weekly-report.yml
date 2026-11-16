@@ -194,15 +194,15 @@ jobs:
         uses: actions/deploy-pages@v4
 
       # ── Step 7: Email ──
+      # Deploy has already finished. A failed send fails this job
+      # without skipping report generation or the Pages deploy.
+      # Gmail API auth is the OAuth token at GOOGLE_TOKEN_PATH.
       - name: Send email report
+        id: email
         if: always()
         env:
-          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
           REPORT_RECIPIENTS: ${{ vars.REPORT_RECIPIENTS }}
-        run: |
-          python scripts/d2c_email_sender.py ${{ env.DATE_KEY }} || {
-            echo "::warning::Email sending failed (non-critical)"
-          }
+        run: python scripts/d2c_email_sender.py "$DATE_KEY"
 
       # ── Step 8: Summary ──
       - name: Job summary
@@ -224,3 +224,4 @@ jobs:
 
           echo "- **Hub URL:** https://suno7608.github.io/d2c-intel/" >> $GITHUB_STEP_SUMMARY
           echo "- **Report URL:** https://suno7608.github.io/d2c-intel/${{ env.DATE_KEY }}/index.html" >> $GITHUB_STEP_SUMMARY
+          echo "- **Email:** ${{ steps.email.outcome }}" >> "$GITHUB_STEP_SUMMARY"
